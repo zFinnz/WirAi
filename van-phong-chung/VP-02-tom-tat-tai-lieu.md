@@ -3,6 +3,9 @@
 > **Dùng khi:** có văn bản dài (hợp đồng, công văn, báo cáo, biên bản, tài liệu kỹ thuật, chuỗi email, điều khoản sàn thương mại điện tử) cần nắm nhanh ý chính, số liệu, mốc thời gian, điểm rủi ro và việc phải làm, để ra quyết định hoặc chuẩn bị họp.
 > **Kết quả:** tóm tắt 5 dòng cho người quản lý, ý chính, bảng số liệu và mốc, bảng điểm cần chú ý kèm vị trí trong tài liệu, chỗ thiếu hoặc mâu thuẫn, danh sách việc cần làm có người và hạn.
 > **Không dùng khi:** cần rà từng điều khoản hợp đồng để đàm phán (dùng PL-01), cần biên bản họp từ bản ghi âm (OPS-03), cần phân tích nhiều đánh giá của khách (CS-04), hoặc cần rút kết luận từ bảng số (OPS-09).
+> **Từ ngữ bổ sung:** SLA = mức phục vụ và thời hạn đã cam kết.
+> PO = đơn đặt hàng; VAT = thuế giá trị gia tăng; NCC = nhà cung cấp.
+> AI = trí tuệ nhân tạo; PDF = định dạng tài liệu giữ nguyên bố cục khi mở.
 
 ---
 
@@ -16,7 +19,7 @@
 - Quy định bảo mật khi dùng AI: [ĐIỀN: ví dụ "che tên và số điện thoại khách, số tài khoản trước khi dán; không dán hợp đồng có điều khoản bảo mật"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không kết luận có ký hay không, chỉ nêu điểm cần xem"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -36,27 +39,27 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Tài liệu gì, dài bao nhiêu?** Dán nội dung hoặc đính kèm. Nếu là ảnh chụp hoặc PDF quét, nói rõ để nhắc chuyển thành chữ trước. Có nhiều bản (phụ lục, bản sửa) không?
 2. **Đọc để làm gì và ai đọc bản tóm tắt?** Để ký, duyệt, chuẩn bị họp, trả lời đối tác, hay chỉ nắm tình hình? Người đọc là giám đốc cần 5 dòng hay trưởng phòng cần chi tiết?
 3. **Cần soi kỹ gì?** Tiền và thanh toán, thời hạn và gia hạn, nghĩa vụ của mình, phạt và bồi thường, bảo hành và đổi trả, bảo mật, số liệu kết quả, hay thuật ngữ kỹ thuật?
 4. **Độ dài và mẫu?** 5 dòng, 1 trang, hay tóm theo từng phần? Công ty có mẫu phiếu trình ký hoặc mẫu tóm tắt đang dùng không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Giữ nguyên số, ngày, tên, tiền, đơn vị.** Không đổi "120.000.000 VNĐ" thành "120 triệu" nếu người đọc cần ký; có thể ghi cả hai. Trích nguyên văn điều khoản quan trọng trong ngoặc kép, kèm số điều và trang.
 3. **Tách ý chính khỏi ý phụ.** Ý chính là thứ thay đổi quyết định của người đọc. Tối đa 7 ý chính; phần còn lại gom vào một dòng "nội dung khác".
 4. **Rủi ro xếp theo mức cao, trung bình, thấp** theo bảng dưới, mỗi rủi ro có vị trí, lý do, đề xuất (hỏi lại, đàm phán, chấp nhận, chuyển chuyên môn).
 5. **Nêu rõ chỗ thiếu, mâu thuẫn, mơ hồ**: điều khoản tham chiếu phụ lục không có, hai ngày hiệu lực khác nhau, số tiền bằng chữ và bằng số lệch nhau, nghĩa vụ không có hạn.
 6. **Không kết luận pháp lý hay thuế.** Viết "cần luật sư xem điều 9" thay vì "điều 9 vô hiệu". Với công văn cơ quan nhà nước, nêu đúng yêu cầu, hạn trả lời, cơ quan ban hành, số hiệu.
 7. **Tài liệu dài tóm theo phần rồi tổng hợp.** Chuỗi email tóm theo dòng thời gian: ai nói gì, ngày nào, đã thống nhất gì, còn mở gì. Nhiều bản sửa thì tóm bản mới nhất và nêu điểm khác bản trước.
-8. **Thiếu dữ liệu không đoán.** Chỗ tài liệu không nói, ghi `[cần bổ sung: mô tả dữ liệu cần]`, ví dụ `[cần bổ sung: phụ lục giá chưa được gửi]`. Nếu tài liệu chứa dữ liệu cá nhân khách hàng, nhắc người dùng che trước khi dán theo quy định bảo vệ dữ liệu cá nhân (Nghị định 13/2023).
+8. **Thiếu dữ liệu không đoán.** Chỗ tài liệu không nói, ghi `[cần bổ sung: mô tả dữ liệu cần]`, ví dụ `[cần bổ sung: phụ lục giá chưa được gửi]`. Nếu tài liệu chứa dữ liệu cá nhân khách hàng, nhắc người dùng che trước khi dán theo quy định bảo vệ dữ liệu cá nhân (Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP).
 
 ### Điểm cần soi theo loại tài liệu (tham khảo)
 
@@ -83,7 +86,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Tom-tat-[loai-tai-lieu]-[doi-tac-hoac-chu-de]-[ngay].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Tom-tat-[loai-tai-lieu]-[doi-tac-hoac-chu-de]-[ngay].md`.
 
 ### 4.1 Tóm tắt 5 dòng cho người quản lý
 
@@ -151,7 +154,7 @@ Kết thúc bằng **3 việc cần làm tiếp**, và gợi ý skill tiếp the
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: loại tài liệu, mục đích và người đọc, điểm cần soi, độ dài và mẫu.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng dán mẫu phiếu trình hoặc mẫu tóm tắt, kết quả khớp đúng mục và thứ tự của mẫu.
 - [ ] Không có ý nào ngoài tài liệu; suy luận (nếu có) được ghi rõ là suy luận.
 - [ ] Số, ngày, tên, tiền giữ nguyên văn; điều khoản quan trọng có trích dẫn và vị trí.

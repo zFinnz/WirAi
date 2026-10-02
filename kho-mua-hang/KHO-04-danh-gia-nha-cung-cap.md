@@ -3,6 +3,7 @@
 > **Dùng khi:** phụ thuộc vào một nhà cung cấp mà không có phương án thay thế, chọn nhà cung cấp theo quen biết, hàng về lỗi hoặc trễ lặp lại mà không có căn cứ để nói chuyện, hoặc cần quy trình chọn, chấm điểm, xếp hạng và rà soát định kỳ nhà cung cấp.
 > **Kết quả:** tiêu chí và quy trình chọn nhà cung cấp mới, bảng chấm điểm định kỳ có trọng số, danh sách nhà cung cấp đã duyệt, lịch đánh giá và bậc xử lý vi phạm.
 > **Không dùng khi:** cần quy trình mua từng đơn và ngưỡng duyệt (dùng KHO-03), cần soạn hợp đồng mua bán hoặc thỏa thuận bảo mật (PL-04), rà điều khoản hợp đồng nhà cung cấp gửi (PL-01), hoặc thuê agency, freelancer cho một dự án (OPS-08).
+> **Từ ngữ bổ sung:** PO = đơn đặt hàng; NCC = nhà cung cấp.
 
 ---
 
@@ -17,7 +18,7 @@
 - Yêu cầu đặc thù ngành: [ĐIỀN: ví dụ "cần công bố hợp quy", "chứng nhận an toàn thực phẩm", "không áp dụng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không nhận quà tặng từ nhà cung cấp", "không ký độc quyền quá 12 tháng"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Cần phần nào?** Chọn nhà cung cấp mới cho một nhóm hàng, chấm điểm định kỳ nhà cung cấp đang có, lập danh sách đã duyệt, hay cả hệ thống? Nhóm hàng nào làm trước?
 2. **Tiêu chí quan trọng nhất với công ty?** Xếp thứ tự: chất lượng ổn định, giá, giao đúng hạn, công nợ dài, hỗ trợ đổi trả, có hóa đơn hợp lệ, năng lực tăng sản lượng theo mùa. Có yêu cầu chứng nhận nào bắt buộc không?
 3. **Dữ liệu đang có về nhà cung cấp?** Số đơn, số lần giao trễ, số lô lỗi, giá trị mua trong 6 đến 12 tháng gần nhất, khiếu nại đã ghi nhận. Nếu chưa có, nói rõ để thiết kế bảng ghi nhận trước.
 4. **Ai duyệt và ai dùng?** Ai có quyền thêm, tạm dừng, loại nhà cung cấp? Kết quả chấm điểm có chia sẻ với nhà cung cấp không? Dùng Google Sheets hay phần mềm?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Phân nhóm nhà cung cấp trước khi chấm.** Nhà cung cấp hàng chủ lực, khó thay thế cần đánh giá sâu và quan hệ dài hạn; nhà cung cấp văn phòng phẩm chỉ cần giá và giao đúng. Dùng ma trận giá trị mua và mức khó thay thế.
 3. **Tiêu chí có trọng số, điểm có định nghĩa.** Mỗi mức điểm 1 đến 5 phải ghi rõ điều kiện đạt (ví dụ: 5 điểm giao đúng hạn trên 98%, 3 điểm 90 đến 95%), để hai người chấm ra cùng kết quả.
 4. **Số liệu chấm lấy từ kho và kế toán**, không lấy từ cảm nhận của người mua hàng. Phần định tính (thái độ, hỗ trợ) tối đa 15% trọng số.
@@ -84,7 +85,7 @@ Dấu hiệu cảnh báo khi chọn mới: giá thấp bất thường so với 
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Quan-ly-nha-cung-cap-[nhom-hang]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Quan-ly-nha-cung-cap-[nhom-hang]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -153,7 +154,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**, và gợi ý ski
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: phần cần làm, tiêu chí ưu tiên, dữ liệu đang có, người duyệt và công cụ.
-- [ ] Đã tóm tắt bối cảnh và chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng có mẫu bảng chấm hoặc danh sách sẵn, kết quả bám đúng mẫu đó.
 - [ ] Nhà cung cấp được phân nhóm trước khi chấm, cách quản lý khác nhau theo nhóm.
 - [ ] Mỗi tiêu chí có trọng số, nguồn số liệu và định nghĩa mức điểm kiểm tra được.

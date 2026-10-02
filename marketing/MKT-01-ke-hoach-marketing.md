@@ -2,7 +2,11 @@
 
 > **Dùng khi:** cần kế hoạch marketing cho một quý hoặc một năm, cho một dòng sản phẩm hoặc toàn công ty.
 > **Kết quả:** một bản kế hoạch 7 phần có thể đưa thẳng vào họp duyệt, kèm bản tóm tắt 1 trang cho lãnh đạo.
-> **Không dùng khi:** chỉ cần tính ngân sách (dùng MKT-06), chỉ cần kế hoạch cho một chiến dịch ngắn (dùng MKT-22 sau khi có kế hoạch tổng), hoặc cần nội dung cụ thể (dùng MKT-08 đến MKT-10).
+> **Không dùng khi:** chỉ cần tính ngân sách (MKT-06), cần kế hoạch cho chiến dịch quảng cáo ngắn (MKT-11), cần báo cáo kết quả chiến dịch đã chạy (MKT-22), hoặc cần viết nội dung cụ thể (MKT-08 đến MKT-10).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> **Từ ngữ bổ sung:** ROAS = doanh thu chia cho chi phí quảng cáo; SEO = cách giúp nội dung dễ được tìm thấy trên công cụ tìm kiếm; SWOT = bảng điểm mạnh, điểm yếu, cơ hội và thách thức.
+> KOL = người có ảnh hưởng với công chúng.
 
 ---
 
@@ -16,7 +20,7 @@
 - Quy mô đội marketing: [ĐIỀN: số người, có thuê ngoài không]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không giảm giá quá 20%", "không chạy TikTok"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -35,7 +39,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phạm vi kế hoạch?** Toàn công ty hay một dòng sản phẩm? Thời gian bao lâu (quý hay năm)?
 2. **Mục tiêu và ngân sách?** Doanh thu mục tiêu kỳ này, ngân sách marketing tổng (quảng cáo, nội dung, nhân sự, công cụ). Nếu chưa có ngân sách, nói rõ để tính ngược từ doanh thu.
@@ -44,51 +48,47 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng chỉ muốn **bản 1 trang**, bỏ qua phần 4.3, 4.4 chi tiết và viết gọn mỗi phần còn 3 đến 5 dòng.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Nhận định trước, số liệu sau.** Mỗi bảng số phải đi kèm một câu kết luận "điều này nghĩa là gì". Không liệt kê số rồi để đó.
-3. **Chuẩn so sánh Việt Nam.** Khi cần ước tính, dùng mức tham khảo thị trường Việt Nam dưới đây và ghi rõ đó là giả định cần kiểm chứng bằng dữ liệu công ty. Chỗ nào thiếu dữ liệu thật và không có mức tham khảo phù hợp thì ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống.
+3. **Phân biệt số thật và số minh họa.** Khi thiếu dữ liệu, chỉ dùng các con số bên dưới để tính thử và ghi rõ là giả định, không trình bày như chuẩn thị trường Việt Nam. Chỗ nào thiếu dữ liệu thật và không có mức tham khảo phù hợp thì ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống.
 4. **Tách rõ B2C và B2B** nếu công ty có cả hai. Hai nhóm này khác kênh, khác chu kỳ mua, khác chỉ số đo. Không gộp chung một phễu.
 5. **Ngân sách phải cộng đúng 100%** và có dự phòng 5 đến 10%.
 6. **Mỗi kênh có một người chịu trách nhiệm và một chỉ số chính.** Kênh nào không gán được người thì cắt.
 7. **Không hứa kết quả.** Viết 3 kịch bản xấu, cơ sở, tốt thay vì một con số.
 8. **Không đề xuất kênh mới** nếu đội hiện tại chưa vận hành ổn kênh đang có.
 
-### Mức tham khảo thị trường Việt Nam (B2C, dùng khi thiếu dữ liệu)
+### Số đầu vào để tính kế hoạch
 
-| Chỉ số | Kém | Trung bình | Tốt |
-|---|---|---|---|
-| Chi phí mỗi tin nhắn (CPMess) Facebook | trên 40.000đ | 25.000 đến 40.000đ | dưới 25.000đ |
-| Chi phí mỗi tin nhắn TikTok | trên 45.000đ | 28.000 đến 45.000đ | dưới 28.000đ |
-| Tin nhắn thành khách tiềm năng | dưới 40% | 40 đến 55% | trên 55% |
-| Khách tiềm năng thành đơn hàng | dưới 25% | 25 đến 40% | trên 40% |
-| Doanh thu trên chi phí quảng cáo (ROAS) | dưới 2 lần | 2 đến 4 lần | trên 4 lần |
-| Tỉ lệ mở email | dưới 15% | 15 đến 25% | trên 25% |
-| Tỉ lệ đọc tin Zalo OA | dưới 40% | 40 đến 60% | trên 60% |
+Lấy số của công ty trong kỳ gần nhất và cùng kênh. Nếu chưa có, để `[cần bổ sung]` hoặc lập kịch bản giả định có ghi rõ cách chọn số; không gọi số giả định là mức trung bình của thị trường.
 
-Với B2B: chu kỳ bán thường 1 đến 3 tháng, tỉ lệ khách tiềm năng đủ điều kiện thành hợp đồng 10 đến 25%, chi phí mỗi khách tiềm năng đủ điều kiện 300.000 đến 1.500.000đ tùy ngành.
+| B2C | B2B |
+|---|---|
+| Chi phí mỗi tin nhắn, tỉ lệ tin nhắn thành khách tiềm năng, tỉ lệ khách tiềm năng thành đơn, giá trị đơn trung bình, tỉ lệ khách mua lại | Số khách tiếp cận, tỉ lệ phản hồi, tỉ lệ đủ điều kiện, tỉ lệ thành hợp đồng, giá trị hợp đồng, thời gian từ liên hệ đến ký, chi phí tìm khách |
 
 ### Tỉ lệ phân bổ ngân sách tham khảo theo giai đoạn
 
 | Hạng mục | Ra mắt | Tăng trưởng | Bão hòa |
 |---|---|---|---|
-| Quảng cáo trả phí | 45 đến 55% | 35 đến 45% | 25 đến 35% |
-| Sản xuất nội dung | 20 đến 25% | 20 đến 25% | 15 đến 20% |
-| Người ảnh hưởng, nội dung từ khách | 15 đến 20% | 15 đến 20% | 10 đến 15% |
-| Công cụ, nền tảng | 5 đến 10% | 5 đến 10% | 5 đến 10% |
-| Giữ chân, cộng đồng | 5% | 10 đến 15% | 20 đến 25% |
+| Quảng cáo trả phí | 50% | 40% | 30% |
+| Sản xuất nội dung | 20% | 20% | 20% |
+| Người ảnh hưởng, nội dung từ khách | 15% | 15% | 15% |
+| Công cụ, nền tảng | 5% | 10% | 10% |
+| Giữ chân, cộng đồng | 5% | 10% | 20% |
 | Dự phòng | 5% | 5% | 5% |
+
+Mỗi cột là một phép tính minh họa cộng đúng 100%, không phải tỉ lệ chuẩn. Khi lập kế hoạch thật, bỏ hạng mục không dùng rồi phân bổ lại theo kênh đã có kết quả, năng lực đội và mục tiêu của kỳ.
 
 ---
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Dùng tiêu đề, bảng và danh sách. Tên tài liệu: `Ke-hoach-marketing-[san-pham]-[ky].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Dùng tiêu đề, bảng và danh sách. Tên tài liệu gợi ý: `Ke-hoach-marketing-[san-pham]-[ky].md`.
 
 ### 4.1 Tóm tắt 1 trang cho lãnh đạo
 
@@ -125,8 +125,8 @@ Với mỗi nhóm khách (tách B2C và B2B nếu có):
 
 ### 4.4 Kế hoạch nội dung
 
-- Trụ cột nội dung và tỉ lệ (tham khảo: giáo dục 35%, truyền cảm hứng 25%, giải trí 20%, bán hàng 15%, cộng đồng 5%).
-- Phân bổ theo tầng phễu: nhận biết 40%, cân nhắc 35%, chuyển đổi 15%, giữ chân 10%.
+- Trụ cột nội dung phù hợp với nhóm khách và mục tiêu; nêu vì sao chọn từng trụ cột. Chỉ phân bổ tỉ lệ khi có lịch sản xuất và năng lực làm nội dung.
+- Phân bổ nội dung theo từng giai đoạn mua: nhận biết, cân nhắc, chuyển đổi, giữ chân. Tỉ lệ dựa trên điểm nghẽn thực tế của công ty.
 - Bảng tái sử dụng: 1 nội dung gốc thành ít nhất 5 phiên bản cho 5 kênh.
 
 ### 4.5 Kênh và ngân sách

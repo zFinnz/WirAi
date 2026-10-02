@@ -3,6 +3,8 @@
 > **Dùng khi:** cần lập ngân sách năm tới cho từng phòng, trưởng phòng xin tiền mà không có căn cứ, giữa năm không biết phòng nào đã tiêu quá, hoặc ban giám đốc muốn so thực tế với kế hoạch hằng tháng và có quy tắc điều chỉnh rõ ràng.
 > **Kết quả:** bảng giả định, ngân sách tổng hợp toàn công ty, ngân sách doanh thu theo kênh và tháng, ngân sách chi phí từng phòng theo tháng, ngân sách đầu tư, quy trình lập và duyệt theo mốc, mẫu báo cáo chênh lệch và quy tắc điều chỉnh giữa năm.
 > **Không dùng khi:** cần dự báo tài chính 3 kịch bản và điểm hòa vốn (FIN-01), chỉ cần ngân sách marketing (MKT-06), cần phân loại và cắt chi phí đã phát sinh (FIN-04), cần báo cáo tài chính tháng cho ban giám đốc (FIN-06), hoặc cần định biên nhân sự (HR-10, dùng kết quả của nó làm đầu vào).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** B2C = bán cho người tiêu dùng.
 
 ---
 
@@ -17,7 +19,7 @@
 - Phần mềm kế toán và cách theo dõi ngân sách hiện tại: [ĐIỀN: ví dụ "MISA, theo dõi ngân sách bằng Excel"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "tổng chi phí hoạt động không vượt 18% doanh thu", "không vay thêm", "không mở dòng ngân sách mới giữa năm nếu chưa cắt dòng khác"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phạm vi?** Toàn công ty hay một phòng? Lập mới, rà lại bản trưởng phòng đã nộp (dán bản đó), hay cần mẫu báo cáo chênh lệch cho ngân sách đã có?
 2. **Số năm nay?** Doanh thu theo kênh và tháng, chi phí theo phòng (ít nhất theo nhóm: nhân sự, bán hàng và marketing, vận hành, quản lý), lợi nhuận. Không có đủ thì cho tổng và tỉ trọng ước lượng.
 3. **Mục tiêu và thay đổi năm tới?** Doanh thu mục tiêu theo kênh, lợi nhuận mục tiêu, kế hoạch tuyển (HR-10), dự án hoặc đầu tư lớn, thay đổi giá, kênh mới, cửa hàng mới.
 4. **Quy tắc duyệt và theo dõi mong muốn?** Ai duyệt, ngưỡng cảnh báo chênh lệch, cho phép chuyển ngân sách giữa các dòng không, kỳ rà soát (tháng, quý).
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Giả định trước, con số sau.** Mọi dòng ngân sách dẫn về một giả định trong bảng giả định (tăng trưởng từng kênh, giá vốn, lạm phát chi phí, số nhân sự, tỉ giá nếu nhập khẩu). Đổi giả định thì đổi số, không sửa số tay.
 3. **Doanh thu tách kênh B2C và B2B, phân bổ theo mùa vụ** bằng tỉ trọng tháng của năm trước hoặc trung bình 2 năm. Chi phí biến đổi (giá vốn, hoa hồng, vận chuyển, phí sàn) đi theo doanh thu từng tháng; chi phí cố định theo tháng phát sinh thật (thuê mặt bằng, lương, phần mềm).
 4. **Mỗi phòng một bảng, mỗi dòng một người chịu trách nhiệm.** Trưởng phòng ký nhận ngân sách của mình. Dòng chi dùng chung (thuê văn phòng, điện, bảo hiểm) để ở phòng hành chính hoặc quản lý chung, không chia khống cho các phòng.
@@ -86,7 +88,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Ngan-sach-[nam]-[pham-vi].md`. Đơn vị: triệu đồng, ghi rõ ở đầu bảng.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Ngan-sach-[nam]-[pham-vi].md`. Đơn vị: triệu đồng, ghi rõ ở đầu bảng.
 
 ### 4.1 Tóm tắt cho ban giám đốc
 
@@ -166,7 +168,7 @@ Kết thúc bằng **5 việc cần làm trong 14 ngày tới**, gợi ý: gửi
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: phạm vi, số năm nay, mục tiêu và thay đổi năm tới, quy tắc duyệt và theo dõi; đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: phạm vi, số năm nay, mục tiêu và thay đổi năm tới, quy tắc duyệt và theo dõi.
 - [ ] Nếu người dùng có biểu mẫu, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Mọi dòng ngân sách dẫn về bảng giả định; giả định có căn cứ và người xác nhận.
 - [ ] Doanh thu tách B2C và B2B, phân bổ theo mùa vụ, không chia đều 12 tháng.

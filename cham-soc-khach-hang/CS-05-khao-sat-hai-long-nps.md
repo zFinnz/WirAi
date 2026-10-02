@@ -3,6 +3,10 @@
 > **Dùng khi:** muốn đo khách có hài lòng không và có sẵn sàng giới thiệu không, cần bộ câu hỏi ngắn gửi qua Zalo, tin nhắn, email hoặc sau khi giao hàng, sau ca hỗ trợ, sau bàn giao cho khách B2B, cần cách đọc kết quả và biết phải làm gì với từng nhóm khách sau khi có điểm.
 > **Kết quả:** thiết kế khảo sát, bộ câu hỏi theo từng điểm chạm và nhóm khách, kịch bản gửi và nhắc, cách tính và đọc chỉ số, kế hoạch hành động theo nhóm kèm lời gọi lại, lịch đo và mẫu báo cáo định kỳ.
 > **Không dùng khi:** cần phân tích phản hồi tự do đã có sẵn như đánh giá sàn, bình luận (dùng CS-04), cần xin đánh giá công khai và chứng thực để làm nội dung (CS-10), cần phỏng vấn sâu để tìm insight cho marketing (MKT-02), hoặc cần chuỗi kéo lại khách đã rời (CS-06).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; NPS = điểm đo mức sẵn sàng giới thiệu của khách; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ thường gặp:** điểm chạm = lần hoặc nơi khách tiếp xúc với công ty; insight = lý do thật phía sau một hành vi của khách, được kiểm tra bằng dữ liệu.
+> **Từ ngữ bổ sung:** CSAT = điểm đo mức hài lòng của khách; CES = điểm đo khách phải tốn bao nhiêu công sức để hoàn thành việc.
+> SMS = tin nhắn điện thoại thông thường.
 
 ---
 
@@ -17,7 +21,7 @@
 - Người nhận kết quả và người được giao gọi lại khách chê: [ĐIỀN]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không gọi khách sau 20 giờ", "không tặng quà để đổi điểm cao", "không khảo sát khách đang có khiếu nại mở"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -31,13 +35,13 @@ Tư duy nền:
 - Ngắn mới có người trả lời. Mỗi câu thêm vào làm giảm tỉ lệ hoàn thành.
 - Điểm số không có lý do thì vô dụng. Luôn kèm một câu mở "vì sao" và đọc kỹ phần này hơn con số.
 - So với chính mình theo thời gian quan trọng hơn so với chuẩn ngành. Chuẩn ngành ở Việt Nam thưa và lệch theo cách đo.
-- Hỏi là đang nhờ khách bỏ thời gian. Khảo sát tự nguyện, nói rõ mục đích, không dùng dữ liệu cho việc khác (Nghị định 13/2023).
+- Hỏi là đang nhờ khách bỏ thời gian. Khảo sát tự nguyện, nói rõ mục đích, không dùng dữ liệu cho việc khác (Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP).
 
 ---
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Muốn đo điều gì, ở điểm chạm nào?** Mức độ gắn bó chung (hỏi định kỳ), hài lòng sau một đơn hàng, một lần hỗ trợ, sau khi xử lý khiếu nại, hay sau một mốc trong hợp đồng B2B (bàn giao, đào tạo, hết tháng đầu)?
 2. **Gửi cho ai, bao nhiêu người, qua kênh nào?** Khách nào có Zalo, số điện thoại, email; kênh nào khách thực sự mở; gửi cho tất cả hay chọn mẫu.
@@ -46,13 +50,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng dán kết quả khảo sát đã có, bỏ qua phần thiết kế và đi thẳng vào 4.5 và 4.6.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chọn đúng chỉ số cho đúng câu hỏi.** Chỉ số sẵn sàng giới thiệu (Net Promoter Score, NPS) đo quan hệ dài hạn, hỏi 1 đến 2 lần mỗi quý. Chỉ số hài lòng (Customer Satisfaction Score, CSAT) đo một giao dịch, hỏi ngay sau đơn hàng, ca hỗ trợ hoặc bàn giao. Chỉ số nỗ lực của khách (Customer Effort Score, CES) đo việc giải quyết có dễ không, hỏi sau khi đóng ca hỗ trợ.
 3. **Tối đa 3 đến 5 câu, dưới 2 phút.** Một câu điểm, một câu mở "vì sao" đổi theo điểm khách cho, 1 đến 2 câu phân loại đã biết trước thì không hỏi lại.
 4. **Không dẫn dắt.** Không hỏi "bạn hài lòng với dịch vụ tuyệt vời của chúng tôi chứ". Không gửi khảo sát ngay sau khi tặng quà hoặc giảm giá. Không treo thưởng cho điểm cao.
@@ -85,7 +89,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Khao-sat-hai-long-[nhom-khach]-[ky].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Khao-sat-hai-long-[nhom-khach]-[ky].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -166,7 +170,7 @@ Nhịp: CSAT và CES liên tục, xem hằng tuần; NPS theo quý; B2B theo qu�
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: điều muốn đo và điểm chạm, đối tượng và kênh, số nền, người hành động; đã tóm tắt và được xác nhận phương án trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: điều muốn đo và điểm chạm, đối tượng và kênh, số nền, người hành động.
 - [ ] Nếu người dùng có mẫu khảo sát hoặc mẫu báo cáo riêng, kết quả bám đúng mẫu đó.
 - [ ] Chỉ số chọn đúng loại câu hỏi: NPS cho quan hệ, CSAT cho giao dịch, CES cho hỗ trợ.
 - [ ] Mỗi bộ khảo sát 3 đến 5 câu, có một câu mở "vì sao" đổi theo điểm, không câu dẫn dắt.

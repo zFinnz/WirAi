@@ -3,6 +3,7 @@
 > **Dùng khi:** gói bán chưa đủ hấp dẫn, khách thấy đắt, có khách hỏi mà không chốt; cần đóng gói dịch vụ thành sản phẩm bán được; cần chương trình khuyến mãi theo mùa; hoặc cần chính sách gói cho đại lý và khách doanh nghiệp.
 > **Kết quả:** chẩn đoán gói hiện tại, gói mới đủ 6 thành phần (lõi, quà tặng, bảo hành, lý do gấp, tên, giá và cách trả), bảng chồng giá trị, bậc gói, bán thêm và bán xuống, điều khoản bảo hành viết cho khách, kiểm tra biên lợi nhuận và tuân thủ, kế hoạch thử nghiệm.
 > **Không dùng khi:** chỉ cần chọn mức giá và cấu trúc giá (dùng FIN-05), cần viết nội dung bán gói đã chốt (MKT-10), cần trang trình bày gói (MKT-14), hoặc cần chương trình giới thiệu khách (MKT-20).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
 
 ---
 
@@ -18,7 +19,7 @@
 - Chính sách đổi trả, bảo hành đang công bố: [ĐIỀN: ví dụ "đổi trả 7 ngày nguyên tem, bảo hành 12 tháng tại trung tâm" hoặc "chưa có văn bản"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không giảm giá trực tiếp quá 20%", "không hoàn tiền với dịch vụ đã thực hiện"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Gói hiện tại là gì, nói bằng lời thường?** Tên, giá, khách nhận được gì, bảo hành gì, hạn gì. Cho nhóm khách nào (B2C, B2B, đại lý)?
 2. **Khách do dự vì điều gì, có bằng chứng không?** Lời từ chối hay gặp từ đội bán, tỉ lệ chốt hiện tại, giá đối thủ.
 3. **Biên lợi nhuận và giới hạn?** Giá vốn, chi phí thực hiện, mức giảm hoặc chi quà tối đa còn lãi, có cho trả góp hoặc công nợ không, tỉ lệ khách dùng bảo hành hoặc đổi trả hiện tại.
 4. **Mục tiêu của gói mới?** Tăng tỉ lệ chốt, tăng giá trị đơn, đẩy hàng tồn, mở đại lý mới, hay ra mắt sản phẩm?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chẩn đoán trước khi thêm.** Chấm 5 điểm: kết quả rõ không, bằng chứng đủ không, bao lâu thấy giá trị đầu tiên, khách phải tự làm nhiều không, ai chịu rủi ro nếu thất bại. Sửa điểm thấp nhất trước, chỉ đổi một đòn bẩy mỗi lần.
 3. **Gói đủ 6 thành phần**: lõi, quà tặng, bảo hành hoặc đảo ngược rủi ro, lý do gấp, tên, giá và cách trả. Thiếu thành phần nào tỉ lệ chốt giảm ở đó. Mỗi quà tặng gắn với một lo ngại: viết bảng quà, lo ngại nó xử lý, chi phí thật cho công ty, giá trị cảm nhận với khách; quà không gắn lo ngại nào thì bỏ.
 4. **Bảo hành đúng năng lực vận hành và viết thành điều khoản khách đọc được.** Hoàn tiền có điều kiện, làm lại miễn phí, kéo dài bảo hành, hỗ trợ đến khi đạt kết quả: chọn loại công ty thực hiện được 100% trường hợp. Điều khoản phải nêu điều kiện, thời hạn, trường hợp loại trừ, ai chịu phí vận chuyển, thời gian xử lý và hình thức hoàn. Không hứa "cam kết hiệu quả 100%".
@@ -85,7 +86,7 @@ Trường hợp thường loại trừ, ghi rõ để tránh tranh chấp: hư h
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Goi-ban-[ten-goi]-[nhom-khach]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Goi-ban-[ten-goi]-[nhom-khach]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -175,7 +176,7 @@ Việc cần làm sau khi chốt gói: cập nhật kịch bản bán (SAL-05), 
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: gói hiện tại, lý do do dự có bằng chứng, biên và giới hạn, mục tiêu; đã tóm tắt và xác nhận phương án trước khi xuất bản đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: gói hiện tại, lý do do dự có bằng chứng, biên và giới hạn, mục tiêu.
 - [ ] Nếu người dùng có biểu mẫu riêng, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu đó.
 - [ ] Đã chấm 5 điểm chẩn đoán và chọn một đòn bẩy sửa trước.
 - [ ] Gói mới đủ 6 thành phần; mỗi quà gắn một lo ngại thật.

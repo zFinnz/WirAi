@@ -2,7 +2,9 @@
 
 > **Dùng khi:** ai cũng có thể gọi điện đặt hàng với nhà cung cấp, kế toán nhận hóa đơn mà không biết ai duyệt, hàng về không khớp đơn, hoặc cần một quy trình từ yêu cầu mua, duyệt, đặt hàng, nhận hàng đến đối chiếu hóa đơn và thanh toán để kiểm soát tiền và tạo dấu vết kiểm tra.
 > **Kết quả:** quy trình mua hàng 6 bước có người làm, chứng từ và thời hạn; ma trận ngưỡng duyệt theo giá trị; mẫu phiếu yêu cầu mua và đơn đặt hàng; quy tắc đối chiếu 3 chứng từ; chỉ số đo lường hiệu quả (KPI) mua hàng.
-> **Không dùng khi:** cần chọn, chấm điểm và quản lý nhà cung cấp (dùng KHO-04), mua tài sản cố định lớn cần thẩm định đầu tư (KHO-05 và FIN-07), cần quy chế chi tiêu và tạm ứng toàn công ty (FIN-10), ma trận phân quyền chung (LD-09), hoặc rà soát điều khoản hợp đồng mua (PL-01).
+> **Không dùng khi:** cần chọn, chấm điểm và quản lý nhà cung cấp (KHO-04), cần thẩm định có nên mua tài sản lớn (FIN-07), cần quản lý tài sản sau khi mua (KHO-05), cần quy chế chi tiêu và tạm ứng toàn công ty (FIN-10), ma trận phân quyền chung (LD-09), hoặc rà soát điều khoản hợp đồng mua (PL-01).
+> **Từ ngữ:** KPI = chỉ số đo kết quả công việc.
+> **Từ ngữ bổ sung:** PO = đơn đặt hàng; VAT = thuế giá trị gia tăng.
 
 ---
 
@@ -17,7 +19,7 @@
 - Cấp duyệt hiện có: [ĐIỀN: ví dụ "trưởng bộ phận, kế toán trưởng, giám đốc"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không trả tiền mặt trên 20 triệu", "không đặt hàng với nhà cung cấp chưa có mã số thuế"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phạm vi áp dụng?** Quy trình cho hàng hóa bán lại, vật tư và dịch vụ, hay cả hai? Áp dụng từ giá trị bao nhiêu trở lên? Có loại trừ mua lặp theo kế hoạch tồn kho không?
 2. **Hiện trạng và sự cố đã gặp?** Hiện ai được đặt hàng, bằng kênh nào (Zalo, điện thoại, email), có đơn đặt hàng chính thức không? Đã có lần nào nhận thiếu, trả tiền trùng, hóa đơn sai thông tin, mua giá cao hơn thị trường chưa?
 3. **Cấp duyệt và ngưỡng mong muốn?** Những ai có quyền duyệt, giám đốc muốn tự duyệt từ bao nhiêu? Cần mấy báo giá cho đơn lần đầu? Có kế hoạch mua hàng tháng để duyệt một lần không?
 4. **Người đọc và công cụ?** Để nhân viên mua hàng và kế toán làm theo, hay trình giám đốc duyệt? Dùng Google Sheets, phần mềm kế toán MISA, Odoo hay phần mềm nào khác để lưu đơn và duyệt?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Người yêu cầu, người duyệt, người đặt, người nhận, người trả tiền không là cùng một người** khi đủ nhân sự. Công ty nhỏ không tách được thì ít nhất người duyệt khác người đặt và người nhận hàng ký xác nhận độc lập.
 3. **Hai luồng: mua lặp và mua mới.** Mua lặp hàng bán lại từ nhà cung cấp đã duyệt theo điểm đặt hàng (KHO-02) chỉ cần duyệt kế hoạch tháng một lần, từng đơn đi nhanh. Mua mới, mua ngoài kế hoạch, mua từ nhà cung cấp lạ phải qua đủ 6 bước.
 4. **Ngưỡng duyệt ghi bằng số tiền cụ thể**, có người duyệt thay khi vắng mặt và thời hạn duyệt (ví dụ 1 ngày làm việc). Duyệt qua Zalo được chấp nhận nếu có ảnh chụp lưu kèm hồ sơ.
@@ -84,7 +86,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Quy-trinh-mua-hang-[pham-vi]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Quy-trinh-mua-hang-[pham-vi]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -160,7 +162,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**, và gợi ý ski
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: phạm vi, hiện trạng và sự cố, cấp duyệt và ngưỡng, người đọc và công cụ.
-- [ ] Đã tóm tắt bối cảnh và chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng có mẫu PO hoặc quy trình sẵn, kết quả bám đúng mẫu đó.
 - [ ] Mỗi bước có người làm, chứng từ, thời hạn và rủi ro mà bước đó chặn.
 - [ ] Có hai luồng mua lặp và mua mới, luồng mua lặp đủ nhanh để không hụt hàng.

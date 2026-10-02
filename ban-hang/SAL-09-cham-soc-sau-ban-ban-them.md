@@ -2,7 +2,10 @@
 
 > **Dùng khi:** khách mua một lần rồi không quay lại, tỉ lệ mua lại thấp, đại lý giảm dần đơn mà không ai nhận ra, hoặc đội bán hàng chỉ lo khách mới và bỏ quên khách đã có.
 > **Kết quả:** bàn giao từ bán hàng sang chăm sóc, lịch chăm sóc theo mốc sau mua cho từng mô hình (đến mốc 12 tháng), bảng tín hiệu sắp rời bỏ đo được bằng dữ liệu công ty có thật, mốc can thiệp trước khi mất, kịch bản bán thêm, bán chéo và xin giới thiệu, chuỗi kéo lại theo lý do rời, và chỉ số đo với quy tắc trung thực.
-> **Không dùng khi:** cần phân nhóm toàn bộ tệp khách theo lịch sử giao dịch (dùng SAL-10 trước rồi quay lại đây), cần xử lý khiếu nại cụ thể (dùng skill chăm sóc khách hàng), hoặc cần chính sách đại lý (SAL-11).
+> **Không dùng khi:** cần phân nhóm toàn bộ tệp khách theo lịch sử giao dịch (SAL-10), cần xử lý khiếu nại cụ thể (CS-02), hoặc cần chính sách đại lý (SAL-11).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ thường gặp:** điểm chạm = lần hoặc nơi khách tiếp xúc với công ty.
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -18,7 +21,7 @@
 - Ngân sách và quyền ưu đãi cho giữ chân: [ĐIỀN: ví dụ "tối đa 15%, quà dưới 200 nghìn, quản lý duyệt trên mức này"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không nhắn quá 2 tin Zalo/tuần", "không giảm giá cho khách chưa nêu lý do", "không gọi sau 19 giờ"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,20 +41,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Mô hình mua lại là gì và chu kỳ bình thường bao lâu?** Mua lẻ lặp lại, gói nhiều buổi, thẻ thành viên, đặt hàng định kỳ B2B, hay đại lý nhập hàng. Khách thường quay lại sau bao nhiêu ngày? Khách mới thường vướng gì trong 30 ngày đầu?
 2. **Tỉ lệ mua lại hiện tại và khách rời ở mốc nào?** Nếu chưa đo, nói rõ; sẽ đo trước. Có biết lý do khách rời không, hỏi bằng cách nào?
 3. **Có gì để bán thêm và khách nào đã mua thêm tự nhiên?** Sản phẩm bổ trợ, gói cao hơn, dịch vụ định kỳ. Khách đã mua thêm thường có đặc điểm gì? Khách nào đã từng giới thiệu người khác?
 4. **Kênh nào khách thật sự đọc và ai sẽ làm?** Zalo OA, gọi điện, nhân viên phụ trách tài khoản, email. Mỗi tuần dành được bao nhiêu giờ cho việc này?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Phân nhánh mô hình trước.** Định nghĩa "mất khách", tín hiệu sớm, mốc can thiệp và loại ưu đãi đều phụ thuộc mô hình. B2C mua lẻ tính theo chu kỳ riêng của từng khách; B2B và đại lý tính theo lịch đặt hàng và quy mô đơn.
 3. **Tín hiệu phải đo được bằng dữ liệu công ty có thật; thiếu thì đánh dấu, không bịa.** Ngày mua, giá trị đơn, lịch hẹn, tin nhắn, đánh giá, công nợ. Không dùng "tần suất đăng nhập" nếu không có hệ thống đo. Chỗ chưa có số (tỉ lệ mua lại, chu kỳ, lý do rời) ghi `[cần bổ sung: mô tả dữ liệu cần]`; mọi số tham khảo ghi rõ là giả định.
 4. **Bàn giao từ bán hàng rõ ràng, rồi lịch chăm sóc theo mốc cố định** tính từ ngày giao: xác nhận nhận hàng, hướng dẫn dùng đến khi đạt giá trị đầu tiên, hỏi thăm sau 7 ngày, xin đánh giá khi đã dùng đủ lâu, nhắc mua lại trước chu kỳ, điểm lại kết quả ở tháng 3, 6, 12. Mỗi mốc có kênh, người làm, nội dung.
@@ -90,7 +93,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Cham-soc-sau-ban-[nhom-khach]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Cham-soc-sau-ban-[nhom-khach]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 

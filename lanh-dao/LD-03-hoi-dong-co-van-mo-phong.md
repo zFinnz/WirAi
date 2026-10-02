@@ -3,6 +3,8 @@
 > **Dùng khi:** đang phân vân giữa hai hướng trở lên và cần nhiều góc nhìn phản biện thật sự, thay vì AI chỉ đồng ý với người hỏi. Ví dụ: có nên mở chi nhánh, có nên giảm giá sâu, có nên ký hợp đồng độc quyền với một đại lý lớn, có nên tự xây đội giao hàng.
 > **Kết quả:** phiên họp mô phỏng với 5 vai cố vấn ẩn danh, ý kiến từng vai, bản đồ bất đồng với đánh đổi và bằng chứng giải quyết, kết luận của chủ tọa kèm mốc cảnh báo.
 > **Không dùng khi:** đã chốt hướng và cần so sánh chi tiết các phương án (dùng LD-01), cần tìm nguyên nhân gốc của vấn đề lặp lại (dùng LD-02), hoặc cần duyệt một tài liệu cụ thể trước khi phát hành (dùng skill chuyên môn của phòng đó).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +19,7 @@
 - Mẫu tờ trình hoặc biên bản họp lãnh đạo công ty đang dùng (nếu có): [ĐIỀN: ví dụ "tờ trình 1 trang có mục phương án và kiến nghị", "chưa có"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không vay thêm", "không bán dưới giá vốn"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Quyết định nào đang cần đưa ra hội đồng?** Phải là một quyết định có hai hướng trở lên, không phải một chủ đề. "Nên tự xây đội giao hàng hay thuê đơn vị ngoài" là quyết định; "bàn về giao hàng" thì không.
 2. **Được thì được gì, hỏng thì mất gì?** Đã thử gì rồi, kết quả ra sao? Người hỏi đang nghiêng về hướng nào?
 3. **Ràng buộc thật:** tiền có thể chi, số người, thời hạn, cam kết đã ký, giới hạn pháp lý của ngành. Nếu công ty có mẫu tờ trình hoặc biên bản họp lãnh đạo, dán vào để kết luận viết đúng mẫu.
 4. **Chế độ họp:** ý kiến nhanh (1 vai), hội đồng (3 đến 4 vai, mặc định), hay hội đồng đầy đủ (cả 5 vai)?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Ghi dòng nhãn mô phỏng ở đầu mọi kết quả.** Người đọc phải biết đây là lăng kính tư duy, không phải lời khuyên của người thật. Khi người dùng hỏi "ông A nổi tiếng sẽ nói gì", trả lời bằng vai gần nhất, không mô phỏng người thật bình luận về doanh nghiệp hay đối thủ cụ thể.
 3. **Chọn chỗ ngồi theo loại câu hỏi, rồi chỉ định người phản biện ngược với hướng đang nghiêng.** Nếu người hỏi đã muốn mở rộng, người phản biện phải là vai tài chính thận trọng hoặc vận hành, không phải vai tăng trưởng.
 4. **Mỗi ý kiến bám vào chi tiết của chính doanh nghiệp này.** Số liệu, ngành, quy mô, ràng buộc trong phần bối cảnh. Lời khuyên chung chung gắn một cái tên không phải là ý kiến. Mở đầu mỗi ý kiến bằng câu hỏi đặc trưng của vai đó, kết bằng một câu khuyến nghị dứt khoát với đúng mức tự tin mà lăng kính đó thật sự có.
@@ -94,7 +96,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Hoi-dong-co-van-[chu-de]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Hoi-dong-co-van-[chu-de]-[thang-nam].md`.
 
 ### 4.1 Nhãn mô phỏng và câu hỏi đưa ra hội đồng
 
@@ -160,7 +162,7 @@ Kết thúc bằng **3 việc cần làm trong 7 ngày tới**, việc đầu ti
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: quyết định có hai hướng, được mất, ràng buộc, chế độ họp; đã tóm tắt và được xác nhận trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: quyết định có hai hướng, được mất, ràng buộc, chế độ họp.
 - [ ] Nếu người dùng có mẫu tờ trình hoặc biên bản riêng, phần tóm tắt và tổng kết bám đúng mẫu đó.
 - [ ] Có dòng nhãn mô phỏng ở đầu kết quả; không dùng tên cá nhân có thật làm thành viên hội đồng, không bịa trích dẫn.
 - [ ] Có ít nhất một người phản biện, ngược với hướng người hỏi đang nghiêng.

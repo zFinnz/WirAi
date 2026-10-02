@@ -2,7 +2,12 @@
 
 > **Dùng khi:** cần giao việc cho người thiết kế (nội bộ, thuê ngoài, hoặc tự làm trên Canva): một băng rôn, ảnh bìa, bộ ảnh đa trang (carousel), hoặc toàn bộ hình ảnh cho một chiến dịch; hoặc người thiết kế hỏi lại nhiều lần, sửa quá 2 vòng, giao thiếu kích thước.
 > **Kết quả:** danh sách hình ảnh cần làm theo kênh kèm kích thước, số lượng, ưu tiên, người làm, hạn đặt ngược từ ngày ra mắt; bản yêu cầu chi tiết cho từng hình (mục tiêu, bố cục, chữ trên ảnh đã duyệt, màu, phông chữ, tham chiếu); quy ước đặt tên, quy trình duyệt và kiểm tra trước, sau khi đăng.
-> **Không dùng khi:** cần viết câu chữ trên ảnh mà chưa có (dùng MKT-08 hoặc MKT-10 trước), cần kịch bản video (MKT-09), cần xây bộ nhận diện từ đầu (MKT-04), hoặc cần dựng trang đích (MKT-14).
+> **Không dùng khi:** cần viết câu chữ trên ảnh mà chưa có (MKT-08 hoặc MKT-10), cần kịch bản video (MKT-09), cần xây bộ nhận diện thương hiệu (MKT-24), hoặc cần dựng trang đích (MKT-14).
+> **Từ ngữ:** OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> **Từ ngữ bổ sung:** CTA = câu kêu gọi người đọc làm một việc cụ thể; SKU = mã riêng cho từng mặt hàng; B2B = bán cho doanh nghiệp.
+> B2C = bán cho người tiêu dùng.
+> QR = mã vuông để quét bằng điện thoại; PDF = định dạng tài liệu giữ nguyên bố cục khi mở; PNG = định dạng tệp hình ảnh.
 
 ---
 
@@ -17,7 +22,7 @@
 - Phong cách muốn giữ hoặc tránh: [ĐIỀN: ví dụ "sạch, nhiều khoảng trống; tránh ảnh kho chung chung, tránh chữ chen đặc"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không dùng ảnh người nổi tiếng chưa có phép", "không ghi 'số 1', 'tốt nhất'"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,24 +42,24 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Cần gì, cho chiến dịch hay bài nào, ra mắt ngày nào?** Một hình, một bộ carousel, hay toàn bộ hình ảnh chiến dịch? Mục tiêu chính của chiến dịch (nhận biết, khách tiềm năng, bán hàng, đại lý)?
 2. **Kênh và kích thước?** Facebook, Instagram, TikTok, Zalo OA, email, sàn, website, in ấn? Có chạy quảng cáo không (ảnh hưởng tỉ lệ chữ và vùng an toàn)?
 3. **Chữ trên ảnh đã có và đã duyệt chưa?** Tiêu đề, phụ đề, lời kêu gọi hành động, giá hoặc ưu đãi. Nếu chưa, dừng để viết trước.
 4. **Ràng buộc?** Ảnh tham chiếu, ảnh sản phẩm có sẵn, bộ nhận diện, người làm, hạn, số lần sửa tối đa.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu yêu cầu thiết kế, bảng theo dõi, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Lên danh sách trước khi mở công cụ.** Liệt kê toàn bộ hình theo kênh, tầng phễu, kích thước, số lượng, hạn. Mỗi tầng phễu (nhận biết, cân nhắc, chuyển đổi) cần hình riêng, không dùng chung. Hạn đặt ngược từ ngày ra mắt, không chấp nhận "càng sớm càng tốt"; bản phác bố cục duyệt hướng trước, rồi mới làm bản đầy đủ.
 3. **Yêu cầu không được để trống ô nào.** Thiếu thông tin thì ghi "người thiết kế tự quyết theo bộ nhận diện", không để người thiết kế đoán. Chỗ nào thiếu dữ liệu thật từ phía người dùng (ảnh sản phẩm, mã màu, chữ đã duyệt) thì ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống.
 4. **Màu, phông chữ, logo lấy từ bộ nhận diện**, không tự chế mã màu. Nếu chưa có bộ nhận diện, ghi rõ và đề xuất tối thiểu: 1 màu chính, 1 màu nhấn, 1 phông tiêu đề, 1 phông nội dung, và giữ nhất quán trên mọi hình của cùng chiến dịch.
-5. **Chữ đọc được trên điện thoại**: tối đa 3 màu chữ trên một hình, tiêu đề dưới 8 từ, không quá 20% diện tích là chữ với ảnh quảng cáo, giữ vùng an toàn của từng kênh. Kích thước và vùng an toàn phải kiểm tra lại theo quy định hiện hành của nền tảng, ghi rõ là mức tham khảo.
+5. **Chữ phải đọc được trên điện thoại.** Giữ thông điệp ngắn, độ tương phản đủ rõ và chừa vùng an toàn để giao diện không che nội dung quan trọng. Kiểm tra kích thước, vùng an toàn và chính sách hình quảng cáo của từng nền tảng ở thời điểm thiết kế; không dùng quy tắc "20% chữ" như điều kiện chung.
 6. **Carousel là chuỗi kể chuyện**: trang 1 quyết định có lướt tiếp hay không, 5 đến 7 trang, mỗi trang một ý, trang cuối luôn có lời kêu gọi hành động. Trang 1 và trang cuối cùng tông nền đậm để tạo vòng khép.
 7. **Tách B2C và B2B.** B2C: màu sắc, cảm xúc, ưu đãi, người thật. B2B và đại lý: sạch, số liệu, logo khách, sơ đồ, catalogue, băng rôn hội chợ, biển trưng bày tại điểm bán.
 8. **Tuân thủ**: ảnh người, ảnh kho có giấy phép sử dụng; ảnh khách hàng thật phải có đồng ý lưu lại; không dùng hình ảnh và nhãn hiệu của bên khác; từ ngữ trên ảnh theo Luật Quảng cáo (không "nhất", "duy nhất" nếu không có căn cứ); ngành đặc thù cần giấy phép quảng cáo; ảnh có giá hoặc ưu đãi phải khớp chương trình đã duyệt và điều kiện đi kèm.
@@ -87,7 +92,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Yeu-cau-thiet-ke-[chien-dich-hoac-ten-hinh]-[ngay].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Yeu-cau-thiet-ke-[chien-dich-hoac-ten-hinh]-[ngay].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -184,7 +189,7 @@ Phản hồi sửa ghi theo vị trí và nội dung cụ thể ("góc trên ph�
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: cần gì và ngày ra mắt, kênh và kích thước, chữ đã duyệt, ràng buộc; đã tóm tắt và xác nhận phương án trước khi xuất bản đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: cần gì và ngày ra mắt, kênh và kích thước, chữ đã duyệt, ràng buộc.
 - [ ] Nếu người dùng có biểu mẫu riêng, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu đó.
 - [ ] Danh sách hình đủ kênh đang chạy, mỗi tầng phễu có hình riêng, mỗi hình có kích thước, người làm, hạn.
 - [ ] Hạn đặt ngược từ ngày ra mắt, có mốc bản phác duyệt hướng.

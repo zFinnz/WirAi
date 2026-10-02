@@ -3,6 +3,8 @@
 > **Dùng khi:** cần giao một việc cụ thể cho một người ở bất kỳ phòng ban nào (kinh doanh, marketing, kế toán, kho, chăm sóc khách hàng, nhân sự) và muốn người đó làm đúng ý ngay lần đầu; hoặc đã giao việc bằng miệng nhiều lần mà kết quả vẫn lệch.
 > **Kết quả:** một bản giao việc 1 trang gồm bối cảnh, việc phải làm, tiêu chuẩn hoàn thành đo được, thứ không cần làm, ràng buộc, tài liệu tham khảo, điểm kiểm tra giữa chừng và cách nghiệm thu.
 > **Không dùng khi:** cần giao cho nhiều người trong một dự án (dùng OPS-02), thuê người ngoài làm (OPS-08), viết yêu cầu thiết kế hình ảnh (MKT-21), hoặc muốn giao việc cho AI thay vì người (LD-05).
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp; B2C = bán cho người tiêu dùng.
+> AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +19,7 @@
 - Nhịp theo dõi hiện có: [ĐIỀN: ví dụ "báo cáo cuối ngày trên nhóm", "họp sáng 15 phút"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không giao việc ngoài giờ qua tin nhắn cá nhân", "không cam kết với khách khi chưa duyệt"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,7 +39,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Việc gì, để phục vụ mục tiêu nào?** Mô tả sản phẩm cụ thể sẽ có trong tay khi xong (bảng, báo cáo, lô hàng đã kiểm, danh sách khách đã gọi, hồ sơ đã duyệt). Việc này nằm trong kế hoạch hoặc quy trình nào?
 2. **Giao cho ai, vị trí gì, kinh nghiệm với loại việc này ra sao?** Người mới cần hướng dẫn từng bước; người quen việc chỉ cần tiêu chuẩn. Họ đang bận việc gì khác, có kịp không?
@@ -46,13 +48,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng muốn giao nhiều việc cho một người cùng lúc, hỏi thứ tự ưu tiên trước khi viết.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Hạn có ngày và giờ.** "Thứ 4, 30/10, trước 15h" thay vì "giữa tuần". Giải thích vì sao có hạn đó để người nhận tự sắp xếp ưu tiên.
 3. **Sản phẩm bàn giao có số lượng, định dạng, thông số.** "Danh sách 50 khách B2B ngừng mua trên 90 ngày, file Google Sheets, có cột lý do và người phụ trách" chứ không phải "lọc khách cũ".
 4. **Tiêu chuẩn xong viết dạng kiểm tra được bằng có hoặc không, tối đa 5 tiêu chí.** Phản hồi khi nghiệm thu bám đúng tiêu chí đã ghi: nói rõ lệch ở tiêu chí số mấy, không nói "chưa ổn".
@@ -83,7 +85,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Giao-viec-[ten-viec]-[nguoi-nhan]-[ngay].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Giao-viec-[ten-viec]-[nguoi-nhan]-[ngay].md`.
 
 ### 4.1 Thẻ tóm tắt
 
@@ -130,7 +132,7 @@ Tối đa 5 tiêu chí. Nếu có người duyệt sau, ghi rõ ai duyệt và t
 ### 4.5 Tài liệu và ràng buộc
 
 - Tài liệu tham khảo: quy trình chuẩn liên quan, mẫu kỳ trước, mẫu tốt (kèm lý do tốt), mẫu không nên theo (kèm lý do).
-- Ràng buộc bắt buộc: điều không được hứa với khách, thông tin không được chia sẻ, giới hạn chi, định dạng bắt buộc, quy định pháp luật liên quan nếu có (ví dụ dữ liệu cá nhân khách theo Nghị định 13/2023).
+- Ràng buộc bắt buộc: điều không được hứa với khách, thông tin không được chia sẻ, giới hạn chi, định dạng bắt buộc, quy định pháp luật liên quan nếu có (ví dụ dữ liệu cá nhân khách theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP).
 - Người có thể hỏi khi vướng và kênh hỏi.
 
 ### 4.6 Điểm kiểm tra và cách theo dõi
@@ -160,7 +162,7 @@ Kết thúc bằng **3 việc người giao cần làm**: gửi và nhận xác 
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: việc và mục tiêu, người nhận và kinh nghiệm, hạn thật và lý do, tiêu chuẩn xong và nơi nộp; đã tóm tắt và được xác nhận trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: việc và mục tiêu, người nhận và kinh nghiệm, hạn thật và lý do, tiêu chuẩn xong và nơi nộp.
 - [ ] Nếu người dùng có mẫu giao việc riêng, kết quả bám đúng mẫu đó.
 - [ ] Hạn có ngày và giờ, kèm lý do.
 - [ ] Sản phẩm bàn giao có số lượng, định dạng, thông số; không có từ mơ hồ như "tốt", "đẹp", "sớm".

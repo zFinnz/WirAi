@@ -3,6 +3,7 @@
 > **Dùng khi:** công ty chưa có hoặc có nhưng không ai nhớ tầm nhìn, sứ mệnh, giá trị; sắp mở rộng nhân sự và cần nói rõ "ở đây làm việc thế nào"; đang làm lại thương hiệu; hoặc hai người sáng lập đang bất đồng về hướng đi và cần một bản viết ra để chốt.
 > **Kết quả:** tuyên bố tầm nhìn (vision) 2 đến 3 phương án, tuyên bố sứ mệnh (mission) có đủ phục vụ ai, làm gì, bằng cách nào, vì sao; 3 đến 5 giá trị cốt lõi (core values) mỗi giá trị kèm hành vi cụ thể và hành vi vi phạm; cách gắn vào tuyển dụng, đánh giá, ra quyết định; kế hoạch truyền thông nội bộ 90 ngày.
 > **Không dùng khi:** cần định vị thương hiệu và thông điệp ra ngoài (dùng MKT-04), cần giọng nói thương hiệu cho nội dung (MKT-05), cần nội quy và chính sách nội bộ (HR-09), hoặc cần kế hoạch kinh doanh có mục tiêu số (LD-08, làm sau skill này).
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp; B2C = bán cho người tiêu dùng.
 
 ---
 
@@ -17,7 +18,7 @@
 - Người đọc chính của tài liệu này: [ĐIỀN: ví dụ "toàn bộ nhân viên", "ban giám đốc và cổ đông"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không dùng từ 'số 1 Việt Nam'", "không quá 5 giá trị"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Công ty muốn trở thành gì sau 5 đến 10 năm?** Mô tả cụ thể: quy mô, thị trường, khách hàng nào gọi tên công ty đầu tiên, nhân viên tự hào vì điều gì. Nếu người dùng chỉ nói "lớn hơn", hỏi lớn hơn ở điểm nào và vì sao điều đó quan trọng.
 2. **Công ty tồn tại để giải quyết vấn đề gì cho ai?** Khách B2C và B2B có cùng vấn đề không? Nếu công ty biến mất ngày mai, khách hàng mất gì?
 3. **Kể 2 đến 3 quyết định khó nhất đã qua:** chọn gì, bỏ gì, có tiếc không. Và một lần công ty đã hành xử trái với điều mình muốn tin, hậu quả ra sao. Đây là nguồn chính để tìm giá trị thật.
 4. **Dùng để làm gì và cho ai đọc?** Chỉ nội bộ hay cả ra ngoài, có gắn vào tuyển dụng và đánh giá không, ai sẽ truyền đạt, có cần buổi hội thảo (workshop) nội bộ không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chẩn đoán trước khi viết.** Từ các quyết định đã làm, rút ra 7 đến 10 giá trị ứng viên, chỉ ra giá trị nào đang được sống thật, giá trị nào chỉ là mong muốn, giá trị nào đang mâu thuẫn nhau. Người dùng chọn, bạn không chọn thay.
 3. **Tầm nhìn 1 đến 2 câu, có mốc thời gian và dấu hiệu đạt được.** Đưa 2 đến 3 phương án theo phong cách khác nhau (truyền cảm hứng, thực dụng, hướng tác động) để người dùng chọn hoặc ghép.
 4. **Sứ mệnh phải trả lời đủ 4 ý:** phục vụ ai, mang lại gì, bằng cách nào khác biệt, vì sao điều đó đáng làm. Tối đa 3 câu. Tách hoặc gộp B2C và B2B tùy việc hai nhóm có chung vấn đề hay không.
@@ -83,7 +84,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Tam-nhin-su-menh-gia-tri-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Tam-nhin-su-menh-gia-tri-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho lãnh đạo
 
@@ -155,7 +156,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý skil
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: hình ảnh tương lai, vấn đề giải quyết cho ai, quyết định khó đã qua, mục đích và người đọc.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu có biểu mẫu của người dùng, kết quả khớp đúng mục, thứ tự, đơn vị.
 - [ ] Có phần chẩn đoán từ quyết định thật, phân biệt giá trị sống thật và giá trị mong muốn.
 - [ ] Tầm nhìn có mốc thời gian và dấu hiệu đạt được; có 2 đến 3 phương án.

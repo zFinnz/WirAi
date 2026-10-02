@@ -3,6 +3,9 @@
 > **Dùng khi:** lo không đủ tiền trả lương, nhà cung cấp, thuế hoặc nợ vay trong 3 đến 6 tháng tới; sắp nhập hàng lớn hoặc mở rộng và cần biết tiền có đủ không; lợi nhuận trên sổ dương nhưng tài khoản luôn cạn; cần bản dự báo 12 tháng cuốn chiếu để trình ngân hàng.
 > **Kết quả:** bảng dòng tiền 13 tuần (hoặc 12 tháng), số dư thấp nhất và thời điểm thiếu hụt, tổng thanh khoản gồm hạn mức chưa dùng, kiểm tra sức chịu đựng, thứ tự ưu tiên thanh toán, phương án cân đối xếp theo chi phí, nhịp cập nhật hằng tuần và quy tắc duyệt chi khi căng tiền.
 > **Không dùng khi:** cần kế hoạch tài chính cả năm (dùng FIN-01), cần quy trình thu hồi nợ (FIN-08), cần phân loại chi phí trước khi dự báo (FIN-04), cần lịch kê khai thuế chi tiết (FIN-11), hoặc đang cân nhắc có nên đầu tư (FIN-07).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** DSO = số ngày trung bình từ bán chịu đến thu được tiền; GTGT = giá trị gia tăng; TNDN = thu nhập doanh nghiệp.
+> TNCN = thu nhập cá nhân.
 
 ---
 
@@ -18,7 +21,7 @@
 - Số dư an toàn tối thiểu mong muốn: [ĐIỀN: ví dụ "không dưới 500 triệu"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không chậm lương", "không vay ngoài ngân hàng", "không giãn nợ nhà cung cấp A"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -39,7 +42,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Khung thời gian và độ chi tiết?** 13 tuần theo tuần (khuyến nghị khi đang căng tiền) hay 12 tháng theo tháng (khi trình ngân hàng, lập kế hoạch năm)? Trong khung đó có kỳ cao điểm, kỳ nhập hàng lớn, kỳ thuế hay thưởng Tết nào không?
 2. **Tiền vào dự kiến?** Doanh thu theo kênh và điều khoản thanh toán thực tế; công nợ phải thu hiện có theo tuổi nợ (chưa đến hạn, quá hạn bao lâu); khoản thu bất thường một lần (hoàn thuế, thanh lý tài sản, góp vốn, vay mới).
@@ -48,13 +51,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng gửi sao kê hoặc sổ quỹ, lấy trung bình 3 tháng gần nhất làm kịch bản cơ sở và hỏi phần còn thiếu.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Ghi theo ngày tiền thực chuyển, không theo ngày hóa đơn.** Đơn sàn ghi vào tuần đối soát, không phải tuần giao. Đơn đại lý ghi vào tuần họ thường trả, không phải tuần đến hạn trên hợp đồng.
 3. **Ước tính bảo thủ có con số, thiếu thì đánh dấu.** Khoản thu B2B cộng thêm 10 đến 20% thời gian trễ so với điều khoản; khoản chi cộng 5 đến 10% phát sinh. Ghi rõ đã cộng bao nhiêu để người dùng chỉnh. Chỗ nào không có dữ liệu thật thì ghi `[cần bổ sung: mô tả dữ liệu cần]`, không bịa, không để trống.
 4. **Tách dòng tiền theo nguồn và theo 3 nhóm hoạt động.** Nguồn: B2C sàn (sau khi trừ phí, hoàn trả), B2C cửa hàng và chuyển khoản trực tiếp, B2B đại lý, B2B doanh nghiệp, thu nợ cũ, thu khác. Nhóm: kinh doanh (bán hàng, nhập hàng, lương, thuế), đầu tư (mua hoặc bán tài sản), tài chính (vay, trả nợ, góp vốn, chia lợi nhuận). Tách để biết tiền đang âm vì kinh doanh hay vì trả nợ.
@@ -110,7 +113,7 @@ Tiền giải phóng khi giảm số ngày thu tiền (DSO)
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Dùng bảng cho số liệu. Tên tài liệu: `Du-bao-dong-tien-[cong-ty]-[tu-ngay]-[den-ngay].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Dùng bảng cho số liệu. Tên tài liệu gợi ý: `Du-bao-dong-tien-[cong-ty]-[tu-ngay]-[den-ngay].md`.
 
 ### 4.1 Tóm tắt cho ban giám đốc
 
@@ -194,7 +197,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**.
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: khung thời gian, tiền vào, tiền ra, quyết định cần dùng; đã tóm tắt phương án và được xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: khung thời gian, tiền vào, tiền ra, quyết định cần dùng.
 - [ ] Nếu người dùng có mẫu, kết quả bám đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Mọi dòng thu ghi theo ngày tiền về thật, đã trừ phí sàn và hoàn trả.
 - [ ] Thu B2B đã cộng độ trễ so với điều khoản và ghi rõ cộng bao nhiêu.

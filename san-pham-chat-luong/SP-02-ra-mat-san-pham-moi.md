@@ -3,6 +3,9 @@
 > **Dùng khi:** sắp đưa một sản phẩm mới ra bán (nhập mới, nhãn riêng, combo mới, dịch vụ mới) và cần lộ trình từ ý tưởng đến ngày bán, cổng duyệt rõ ràng, việc của từng phòng, hoặc lần ra mắt trước bị loạn và muốn chuẩn hóa.
 > **Kết quả:** bản tóm tắt sản phẩm 1 trang, cổng duyệt theo giai đoạn, lịch T-60 đến D+30, ma trận việc từng phòng, lịch ngày ra mắt kèm xử lý sự cố, tiêu chí dừng và nhìn lại 30 ngày.
 > **Không dùng khi:** chỉ cần nội dung quảng cáo (dùng MKT-10), kế hoạch marketing cả kỳ (MKT-01), đóng gói ưu đãi (MKT-19), định giá (FIN-05), thẩm định khoản đầu tư lớn như mở nhà máy (FIN-07), hoặc sự cố truyền thông đang bùng (MKT-25).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ thường gặp:** brief = bản tóm tắt việc cần làm, người nhận, mục tiêu và yêu cầu bàn giao.
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +20,7 @@
 - Ngân sách ra mắt thường có: [ĐIỀN: ví dụ "50 đến 150 triệu mỗi lần" hoặc "không áp dụng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không quảng cáo trước khi hàng về kho", "không giảm giá ra mắt quá 15%"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -36,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Sản phẩm gì, đang ở giai đoạn nào?** Mới là ý tưởng, đã có hàng mẫu, đã đặt hàng, hay hàng đã về kho? Ngày muốn bán và lý do chọn ngày đó (mùa vụ, sự kiện, đối thủ)?
 2. **Bán cho ai, qua kênh nào?** B2C, B2B hay cả hai? Đã có tệp khách ấm (danh sách, nhóm Zalo, đại lý sẵn sàng) chưa? Sản phẩm thay thế hay bổ sung sản phẩm đang bán?
 3. **Nguồn lực?** Ngân sách ra mắt, tồn kho lô đầu, ai làm nội dung, quảng cáo, bán, chăm sóc, kho vận? Có ràng buộc pháp lý (công bố, hợp quy, nhãn, giấy phép quảng cáo) không?
 4. **Thế nào là thành công và khi nào dừng?** Doanh số 30 ngày đầu, tỉ lệ đổi trả, chi phí trên đơn. Lần ra mắt trước có bài học gì?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Cổng duyệt (stage-gate) có người quyết rõ.** Mỗi cổng có câu hỏi phải trả lời, tài liệu đầu vào, và một người ký. Chưa qua cổng thì không chi tiền giai đoạn sau. Người quyết đi hay dừng ở cổng cuối là lãnh đạo, không ủy quyền.
 3. **Tính ngược từ ngày bán (ngày D).** Lịch viết theo T-60, T-30, T-14, T-7, T-1, D, D+7, D+30. Chừa ít nhất 3 ngày đệm trước ngày D cho việc phát sinh. Quảng cáo dựng xong để tạm dừng, chỉ bật ngày D.
 4. **Không ra mắt lạnh.** Làm ấm tệp khách ít nhất 2 tuần trước: nội dung nói về vấn đề, chưa lộ sản phẩm; gửi hàng mẫu cho đại lý và khách thân thiết; thu bằng chứng (đánh giá, ảnh dùng thật) trước ngày D.
@@ -82,7 +85,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Ke-hoach-ra-mat-[san-pham]-[ngay-D].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Ke-hoach-ra-mat-[san-pham]-[ngay-D].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -162,7 +165,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**, và gợi ý ski
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: sản phẩm và giai đoạn, khách và kênh, nguồn lực và pháp lý, tiêu chí thành công và dừng.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng dán mẫu, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Mỗi cổng có câu hỏi, tài liệu đầu vào và một người quyết; lãnh đạo quyết cổng cuối.
 - [ ] Lịch tính ngược từ ngày D, mỗi việc có một người và một hạn, có đệm trước ngày D.

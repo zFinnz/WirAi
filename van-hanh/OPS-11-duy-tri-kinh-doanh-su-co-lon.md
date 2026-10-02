@@ -2,7 +2,10 @@
 
 > **Dùng khi:** cần phương án sẵn cho lúc mất điện kéo dài, cháy nổ, ngập lụt, dịch bệnh, mất dữ liệu hoặc bị tấn công mạng, nhân sự chủ chốt nghỉ đột ngột, nhà cung cấp chính dừng giao, sàn thương mại điện tử khóa gian hàng; hoặc vừa trải qua một sự cố và không muốn lặp lại cảnh lúng túng.
 > **Kết quả:** kế hoạch duy trì kinh doanh (Business Continuity Plan, BCP) gồm danh sách quy trình sống còn và thời gian chịu đựng, danh sách sự cố xếp ưu tiên, phân mức và quy trình xử lý sự cố, phương án thay thế theo từng kịch bản, người phụ trách và người kế nhiệm, thẻ khẩn cấp 1 trang, lịch diễn tập.
-> **Không dùng khi:** cần sổ đăng ký rủi ro toàn diện và chính sách quản lý rủi ro (dùng PL-06), xử lý khủng hoảng truyền thông trên mạng xã hội (CS-02 cho kịch bản phản hồi), tìm nguyên nhân gốc của sự cố lặp lại (LD-02), hoặc kế hoạch sao lưu kỹ thuật chi tiết cho hệ thống IT (giao bộ phận kỹ thuật, skill này chỉ đặt yêu cầu).
+> **Không dùng khi:** cần sổ đăng ký rủi ro toàn diện và chính sách quản lý rủi ro (PL-06), xử lý khủng hoảng truyền thông trên mạng xã hội (MKT-25), tìm nguyên nhân gốc của sự cố lặp lại (LD-02), hoặc kế hoạch sao lưu kỹ thuật chi tiết cho hệ thống IT (IT-02).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp; CRM = bảng hoặc phần mềm quản lý thông tin khách hàng; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ bổ sung:** RTO = thời gian tối đa để khôi phục dịch vụ; RPO = khoảng dữ liệu tối đa có thể mất, tính theo thời gian.
+> CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +20,7 @@
 - Sự cố đã từng gặp: [ĐIỀN: ví dụ "mất điện kho 2 ngày năm ngoái, bị khóa tài khoản quảng cáo 1 tuần"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không được công bố sự cố ra ngoài khi chưa có giám đốc duyệt", "ngân sách dự phòng tối đa 200 triệu"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,27 +40,27 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Quy trình nào không được phép dừng?** Nhận đơn, xuất kho, giao hàng, thu tiền, trả lời khách, chạy quảng cáo, kế toán xuất hóa đơn. Mỗi quy trình chịu dừng được tối đa bao lâu trước khi mất khách hoặc mất tiền đáng kể?
 2. **Sự cố nào lo nhất và đã từng xảy ra chưa?** Chọn trong: mất điện hoặc mạng, cháy nổ, ngập, dịch bệnh, mất dữ liệu hoặc bị tấn công, khóa tài khoản sàn hoặc quảng cáo, nhân sự chủ chốt nghỉ, nhà cung cấp dừng, mất tiền do lừa đảo chuyển khoản. Lần gần nhất xử lý mất bao lâu, thiệt hại bao nhiêu?
 3. **Hiện có gì để dựa vào?** Dữ liệu sao lưu ở đâu, bao lâu một lần, ai kiểm tra; có máy phát, ổ cắm 4G, kho phụ, nhà cung cấp thay thế, quỹ dự phòng, hạn mức tín dụng chưa?
 4. **Ai quyết và ai thay?** Ai được quyền tuyên bố tình trạng khẩn cấp và chi tiền không cần duyệt thêm; nếu người đó không liên lạc được thì ai thay; có bao nhiêu nhân sự mà công việc chỉ một người biết làm?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Phân tích tác động kinh doanh (Business Impact Analysis, BIA) đi trước kịch bản.** Mỗi quy trình sống còn có thời gian chịu đựng tối đa, mục tiêu thời gian khôi phục (Recovery Time Objective, RTO) và mức mất dữ liệu chấp nhận được (Recovery Point Objective, RPO). Kịch bản nào không bám vào BIA thì cắt.
 3. **Phân mức sự cố bằng tiêu chí có hoặc không**, không dùng cảm tính. Mức 1 là toàn công ty dừng hoặc ảnh hưởng nhiều khách; mức 2 là một bộ phận quan trọng dừng; mức 3 có cách làm tạm; mức 4 nhỏ. Mỗi mức có thời gian phản hồi và người được báo.
 4. **Mỗi kịch bản viết theo mốc giờ**: 0 đến 2 giờ (phát hiện, báo, đánh giá), 2 đến 24 giờ (ứng phó, cách làm tạm, báo khách), ngày 2 đến 7 (khôi phục, kiểm tra, rút kinh nghiệm). Mỗi mốc ghi ai làm, làm gì, báo ai.
 5. **Cách làm tạm bằng công cụ thấp nhất**: nhận đơn qua điện thoại và giấy, ghi sổ tay rồi nhập lại, chuyển khoản thủ công, nhóm Zalo thay email. Phải viết rõ cách nhập lại dữ liệu sau khi hệ thống trở lại để không mất đơn, mất tiền.
 6. **Mỗi vị trí chủ chốt có người kế nhiệm 1 và 2, kèm mức sẵn sàng** (làm được ngay, cần hướng dẫn, chưa có). Mật khẩu, tài khoản sàn, quảng cáo, ngân hàng phải có cơ chế truy cập thay thế được giám đốc nắm, không nằm trong một điện thoại cá nhân.
 7. **Số ước tính ghi rõ giả định; chỗ thiếu dữ liệu thật ghi `[cần bổ sung: mô tả dữ liệu cần]`**, không bịa, không để trống. Thiệt hại mỗi giờ dừng, chi phí phương án dự phòng, thời gian chuyển nhà cung cấp đều phải có nguồn hoặc đánh dấu.
-8. **Nhắc nghĩa vụ pháp lý khi sự cố chạm vào dữ liệu, người lao động, thực phẩm.** Rò rỉ dữ liệu cá nhân có nghĩa vụ thông báo cơ quan có thẩm quyền trong 72 giờ theo Nghị định 13/2023; tai nạn lao động phải báo cáo theo Luật An toàn, vệ sinh lao động 2015. Ghi "cần kiểm tra văn bản mới nhất và hỏi luật sư", không khẳng định tuyệt đối.
+8. **Nhắc nghĩa vụ pháp lý khi sự cố chạm vào dữ liệu, người lao động, thực phẩm.** Với rò rỉ dữ liệu cá nhân, ghi thời điểm phát hiện và chuyển pháp chế xác định nghĩa vụ, người nhận và hạn thông báo theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP. Với tai nạn lao động, kiểm tra nghĩa vụ báo cáo theo Luật An toàn, vệ sinh lao động 2015. Không áp cùng một thời hạn cho mọi loại sự cố.
 
 ### Mức sự cố và thời gian phản hồi tham khảo (dùng khi thiếu dữ liệu, ghi rõ là giả định)
 
@@ -82,7 +85,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Ke-hoach-duy-tri-kinh-doanh-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Ke-hoach-duy-tri-kinh-doanh-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho lãnh đạo và thẻ khẩn cấp 1 trang
 
@@ -159,7 +162,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** (thường là: c
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: quy trình sống còn, sự cố lo nhất, nguồn lực hiện có, người quyết và người thay.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu có biểu mẫu của người dùng, kết quả khớp đúng mục, thứ tự, đơn vị.
 - [ ] Có phân tích tác động với thời gian chịu đựng, RTO, RPO cho từng quy trình sống còn và RTO không vượt khả năng sao lưu thật.
 - [ ] Mức sự cố có tiêu chí có hoặc không, thời gian phản hồi, người được báo.

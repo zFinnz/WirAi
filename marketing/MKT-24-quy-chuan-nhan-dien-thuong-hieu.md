@@ -3,6 +3,9 @@
 > **Dùng khi:** cần chốt logo, màu, chữ, phong cách ảnh và cách ứng dụng để mọi thiết kế từ bài đăng, gian hàng sàn, bao bì đến hồ sơ năng lực đều giống nhau; mỗi người thiết kế ra một kiểu; người mới không biết dùng phông chữ (font) gì; hoặc sắp giao thiết kế cho đơn vị thuê ngoài.
 > **Kết quả:** bộ quy chuẩn 8 phần gồm nền tảng thương hiệu, logo, màu, chữ, hình ảnh, thành phần đồ họa, ứng dụng theo kênh kèm kích thước, việc cấm và cách quản lý tài sản thương hiệu.
 > **Không dùng khi:** chưa có định vị (dùng MKT-04 trước), cần giọng viết và từ vựng (MKT-05), cần giao việc cho một hình cụ thể (MKT-21), hoặc cần chấm một thiết kế đã làm xong (đối chiếu với bộ quy chuẩn này, không cần skill riêng).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** CTA = câu kêu gọi người đọc làm một việc cụ thể; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> AI = trí tuệ nhân tạo; PNG = định dạng tệp hình ảnh.
 
 ---
 
@@ -17,7 +20,7 @@
 - Tình trạng đăng ký nhãn hiệu: [ĐIỀN: ví dụ "đã nộp đơn Cục Sở hữu trí tuệ 2024", "chưa đăng ký"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không đổi logo hiện tại", "không dùng màu đỏ vì trùng đối thủ"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +40,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Xây mới hay chuẩn hóa cái đang có?** Nếu đang có: yếu tố nào bắt buộc giữ (logo, màu, tên), yếu tố nào được đổi? Có file logo dạng vector (SVG, AI) không?
 2. **Tính cách thương hiệu?** 3 tính từ muốn người xem cảm thấy và 3 tính từ phải tránh. Nếu đã có MKT-04 hoặc MKT-05, dán phần tính cách vào.
 3. **Phạm vi áp dụng?** Chỉ kênh số, chỉ in ấn, hay cả hai? Kênh nào ưu tiên nhất? Có bao bì sản phẩm, biển hiệu, đồng phục, xe giao hàng không?
 4. **Ai sẽ dùng và bằng công cụ gì?** Người thiết kế chuyên nghiệp, nhân viên tự làm Canva, hay đơn vị thuê ngoài? Cần bản rút gọn 1 trang không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Nền tảng trước, hình ảnh sau.** Chưa chốt tính cách thương hiệu thì chưa chọn được màu. Nếu người dùng chưa có, chốt tính cách ở 4.2 trước rồi mới đi tiếp.
 3. **Mỗi màu có mã cụ thể** (HEX cho màn hình, CMYK cho in) và cột "dùng khi nào", "không dùng khi nào". Không mô tả màu bằng lời chung chung như "xanh dương nhẹ".
 4. **Mỗi phần có mục "việc cấm"** với ví dụ sai cụ thể. Người dùng thực tế học từ cái sai nhanh hơn cái đúng.
@@ -87,7 +90,7 @@ Chữ trên điện thoại không nhỏ hơn 14 px; chữ in không nhỏ hơn 
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Quy-chuan-nhan-dien-[thuong-hieu]-v[so-phien-ban]-[thang-nam].md`. Dòng đầu ghi: phiên bản, ngày cập nhật, người chịu trách nhiệm thương hiệu.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Quy-chuan-nhan-dien-[thuong-hieu]-v[so-phien-ban]-[thang-nam].md`. Dòng đầu ghi: phiên bản, ngày cập nhật, người chịu trách nhiệm thương hiệu.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -167,7 +170,7 @@ Kết thúc bằng **5 việc cần làm trong 14 ngày tới** (ví dụ chốt
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: xây mới hay chuẩn hóa, tính cách, phạm vi kênh, người dùng và công cụ.
-- [ ] Đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng đưa mẫu, kết quả khớp đúng mục, thứ tự và cách xưng hô của mẫu.
 - [ ] Nền tảng (tính cách, cảm giác) chốt trước phần hình ảnh; mỗi quyết định có lý do.
 - [ ] Mỗi màu có mã HEX và CMYK, có "dùng khi", "không dùng khi"; có cặp màu được phép và cặp cấm.

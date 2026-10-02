@@ -3,6 +3,8 @@
 > **Dùng khi:** công ty cân nhắc một khoản chi lớn: mua máy móc, xe, mở cửa hàng hoặc kho mới, đầu tư phần mềm, nhập lô hàng lớn, ký hợp đồng thuê dài hạn, tự sản xuất thay vì mua ngoài, chi để tiết kiệm chi phí; cần biết có đáng làm không, bao lâu hoàn vốn, nếu sai thì mất gì.
 > **Kết quả:** bảng chi phí và lợi ích tăng thêm, dòng tiền dự án theo kỳ, thời gian hoàn vốn, giá trị hiện tại ròng (NPV) giải thích dễ hiểu, công suất hòa vốn, phân tích độ nhạy và điểm gãy, ma trận so sánh phương án có trọng số, tiền kiểm thất bại, khuyến nghị kèm độ tin cậy và điều kiện dừng.
 > **Không dùng khi:** quyết định chủ yếu phi tài chính hoặc chiến lược nhiều phương án (dùng LD-01), cần kế hoạch tài chính tổng (FIN-01), cần xem tiền mặt có đủ trong 3 tháng tới (FIN-02), cần quy trình mua sắm và quản lý tài sản sau khi đã duyệt (KHO-05). Skill này chỉ thẩm định dự án kinh doanh của công ty, **không tư vấn đầu tư cá nhân** vào chứng khoán, bất động sản, tiền số hay bất kỳ tài sản tài chính nào.
+> **Từ ngữ:** NPV = giá trị hiện tại của dòng tiền dự án sau khi trừ vốn đầu tư.
+> **Từ ngữ bổ sung:** AI = trí tuệ nhân tạo.
 
 ---
 
@@ -16,7 +18,7 @@
 - Dự án tương tự đã làm và kết quả: [ĐIỀN: ví dụ "mở cửa hàng quận 7 năm ngoái, hoàn vốn sau 20 tháng, chậm hơn kế hoạch 6 tháng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không vay quá 50% vốn dự án", "không đầu tư ngoài ngành", "không ký thuê trên 3 năm"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -36,7 +38,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Dự án gì, tốn bao nhiêu, dùng bao lâu?** Vốn ban đầu gồm mua sắm, lắp đặt, sửa chữa, đặt cọc, đào tạo, vốn lưu động tăng thêm (hàng tồn, công nợ). Thời gian khai thác dự kiến (năm). Công suất thiết kế và tỉ lệ sử dụng dự kiến từng năm.
 2. **Lợi ích và chi phí vận hành tăng thêm?** Tăng doanh thu bao nhiêu mỗi tháng, từ tháng nào; tiết kiệm chi phí gì (giờ công, thuê ngoài, hao hụt); chi phí vận hành thêm (nhân sự, điện, bảo trì, thuê). Căn cứ của các con số này là gì?
@@ -45,13 +47,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng chưa có số lợi ích, giúp họ xây từ dưới lên (công suất, tỉ lệ sử dụng, giá) và ghi rõ từng giả định.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chỉ tính dòng tiền tăng thêm (incremental) so với không làm.** Doanh thu đã có không tính; chi phí vẫn phải trả dù không làm dự án không tính.
 3. **Đủ 4 nhóm chi phí, cộng dự phòng 10 đến 15%:** đầu tư ban đầu, vốn lưu động tăng thêm, chi vận hành tăng thêm, chi một lần (đào tạo, gián đoạn kinh doanh, chuyển đổi). Dự án mở điểm bán thường quên vốn lưu động và 3 tháng đầu lỗ.
 4. **Lợi ích phải bảo thủ và có căn cứ.** Kịch bản cơ sở lấy 80% doanh thu kỳ vọng của người đề xuất và trễ 3 tháng so với kế hoạch; ghi rõ căn cứ (dữ liệu điểm cũ, công suất thực tế, hợp đồng đã ký). Tiết kiệm giờ công phải quy ra tiền thật (giảm được người, giảm làm thêm giờ) mới tính. Chỗ nào không có số thật thì ghi `[cần bổ sung: mô tả dữ liệu cần]`, không bịa, không để trống.
@@ -97,7 +99,7 @@ Công suất hòa vốn (ví dụ giả định mở cửa hàng)
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Tham-dinh-du-an-[ten-du-an]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Tham-dinh-du-an-[ten-du-an]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho ban giám đốc
 
@@ -176,7 +178,7 @@ Kết thúc bằng **5 việc cần làm trước khi ký**. Gợi ý FIN-02 đ�
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: dự án và vốn, lợi ích và chi phí tăng thêm, nguồn vốn, phương án thay thế và tiêu chí; đã tóm tắt phương án và được xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: dự án và vốn, lợi ích và chi phí tăng thêm, nguồn vốn, phương án thay thế và tiêu chí.
 - [ ] Nếu người dùng có mẫu, kết quả bám đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Chỉ tính dòng tiền tăng thêm; không tính chi phí chìm; có tính chi phí cơ hội.
 - [ ] Đủ 4 nhóm chi phí, có vốn lưu động và dự phòng 10 đến 15%.

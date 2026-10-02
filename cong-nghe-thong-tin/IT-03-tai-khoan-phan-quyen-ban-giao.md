@@ -3,6 +3,8 @@
 > **Dùng khi:** nhân viên nghỉ 3 tháng vẫn đăng nhập được phần mềm bán hàng, trang Facebook Page chỉ có một quản trị viên là người đã nghỉ, mật khẩu sàn nằm trong Zalo nhóm, không ai biết ai có quyền xem công nợ, hoặc công ty cần sổ tài khoản hệ thống, ma trận phân quyền, quy trình cấp và thu hồi khi nghỉ việc, rà soát định kỳ.
 > **Kết quả:** sổ tài khoản theo hệ thống, ma trận phân quyền theo vai trò, quy trình cấp, điều chuyển, thu hồi kèm bảng kiểm bàn giao CNTT khi nghỉ việc, quy định cho tài khoản đặc quyền, dùng chung và bên ngoài, lịch rà soát quý và nhật ký thay đổi.
 > **Không dùng khi:** cần quy trình nghỉ việc tổng thể gồm phỏng vấn thôi việc, bàn giao công việc và tài sản (dùng HR-12), cần chính sách sử dụng CNTT và mật khẩu cho toàn nhân viên (IT-01), cần ma trận phê duyệt kinh doanh ai được duyệt chi, duyệt giá (LD-09), hoặc kế hoạch hội nhập nhân viên mới (HR-05).
+> **Từ ngữ:** OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ bổ sung:** NDA = thỏa thuận giữ bí mật thông tin; AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +19,7 @@
 - Biến động nhân sự trung bình: [ĐIỀN: ví dụ "3 đến 5 người vào hoặc ra mỗi tháng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không ghi mật khẩu vào bất kỳ file nào", "quyền xem lương chỉ giám đốc và nhân sự"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Hệ thống nào cần đưa vào trước?** Liệt kê các hệ thống công ty dùng, đánh dấu hệ thống chạm tiền (ngân hàng, sàn, kế toán), chạm khách (phần mềm bán hàng, Page, Zalo OA) và chạm dữ liệu nhân sự. Hệ thống nào hiện không rõ ai là quản trị cao nhất?
 2. **Vai trò và nhu cầu truy cập?** Các vị trí trong công ty và mỗi vị trí cần xem, sửa hay quản trị ở hệ thống nào? Có thể dán sơ đồ tổ chức hoặc danh sách vị trí.
 3. **Sự cố hoặc lo ngại?** Đã có người nghỉ mà chưa thu hồi, Page từng bị mất, ai đó xem được dữ liệu không thuộc việc, agency còn quyền sau khi kết thúc hợp đồng?
 4. **Ai vận hành sổ và bằng gì?** IT hay hành chính giữ sổ, nhân sự báo biến động bằng cách nào, dùng Google Sheets có phân quyền hay công cụ khác, có trình quản lý mật khẩu chưa?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Phân quyền theo vai trò, không theo người.** Ma trận là vai trò nhân hệ thống; cấp cho người mới bằng cách gán vai trò. Ngoại lệ theo người phải có lý do, người duyệt và ngày hết hạn.
 3. **Năm mức quyền chuẩn** dùng cho mọi hệ thống: xem, sửa, duyệt, quản trị, quản trị cao nhất. Mỗi hệ thống ghi tên tương ứng trong phần mềm đó (ví dụ Facebook: nhân viên, quản trị viên; Google: người dùng, quản trị viên cấp cao).
 4. **Hệ thống chạm tiền và chạm khách có quy tắc chặt hơn:** xác thực hai bước bắt buộc, hai quản trị viên, không tài khoản dùng chung nếu phần mềm hỗ trợ nhiều người dùng, rà soát hằng quý có chữ ký trưởng bộ phận.
@@ -87,7 +89,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `So-tai-khoan-phan-quyen-[cong-ty]-[thang-nam].md`. Ghi đầu tài liệu: "Tài liệu mức tối mật, không chứa mật khẩu, chỉ IT và giám đốc được sửa".
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `So-tai-khoan-phan-quyen-[cong-ty]-[thang-nam].md`. Ghi đầu tài liệu: "Tài liệu mức tối mật, không chứa mật khẩu, chỉ IT và giám đốc được sửa".
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -164,7 +166,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**, và gợi ý ski
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: hệ thống ưu tiên, vai trò và nhu cầu truy cập, sự cố hoặc lo ngại, người vận hành và công cụ.
-- [ ] Đã tóm tắt bối cảnh và chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng có sổ hoặc ma trận sẵn, kết quả bám đúng mẫu đó.
 - [ ] Sổ không chứa mật khẩu, có ghi mức bảo mật và người được sửa.
 - [ ] Mỗi hệ thống có hai quản trị viên, quản trị cao nhất gắn email công ty, hệ thống chạm tiền và khách bắt buộc xác thực hai bước.

@@ -3,6 +3,9 @@
 > **Dùng khi:** muốn khách cũ kéo khách mới, muốn đại lý hoặc đối tác giới thiệu khách doanh nghiệp, muốn xây mạng lưới cộng tác viên hưởng hoa hồng, hoặc chương trình giới thiệu đang có mà ít người tham gia.
 > **Kết quả:** chọn mô hình thưởng, mức thưởng tính từ giá trị vòng đời khách và kiểm bằng ba trần, luồng giới thiệu 7 bước, nội dung tin mời và tin nhắc, cách theo dõi và trả thưởng, quy tắc chống gian lận, kế hoạch ra mắt 30 ngày và chỉ số đo.
 > **Không dùng khi:** cần giữ chân khách cũ mua lại (dùng CS-06 hoặc SAL-09), cần thuê KOC hoặc tiếp thị liên kết với người sáng tạo nội dung (MKT-16), hoặc cần chính sách đại lý toàn diện (SAL-11).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp; CRM = bảng hoặc phần mềm quản lý thông tin khách hàng; NPS = điểm đo mức sẵn sàng giới thiệu của khách; CAC = chi phí để có một khách hàng mới;
+> LTV = tổng giá trị dự kiến từ một khách trong thời gian mua hàng; KOC = người tạo nội dung dựa trên trải nghiệm sản phẩm.
+> **Từ ngữ bổ sung:** B2C = bán cho người tiêu dùng; OA = tài khoản Zalo chính thức của doanh nghiệp.
 
 ---
 
@@ -18,7 +21,7 @@
 - Đại lý và đối tác có thể giới thiệu khách B2B: [ĐIỀN]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không trả thưởng tiền mặt cho nhân viên khách hàng doanh nghiệp", "thưởng tối đa 10% đơn"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,20 +41,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Ai giới thiệu ai?** Khách lẻ giới thiệu khách lẻ, khách doanh nghiệp giới thiệu doanh nghiệp, đại lý hoặc đối tác giới thiệu, hay cộng tác viên hưởng hoa hồng? Sản phẩm có dễ giải thích để người khác kể lại không?
 2. **Số liệu nền?** Giá trị đơn trung bình, LTV, CAC hiện tại, biên gộp, số khách cũ, mức hài lòng nếu đã đo, tỉ lệ khách tự giới thiệu hiện tại.
 3. **Mục tiêu và ngân sách?** Bao nhiêu khách mới mỗi tháng từ giới thiệu, giảm CAC bao nhiêu, ngân sách thưởng tối đa.
 4. **Cách theo dõi và trả thưởng?** Có mã riêng từng khách, phần mềm CRM tự ghi nhận, hay chỉ Google Sheet? Thưởng bằng gì, ai duyệt, trả trong bao lâu?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chọn mô hình theo sản phẩm**: hai chiều (cả hai bên nhận) cho phần lớn B2C vì tâm lý "cả hai cùng lợi"; một chiều khi sản phẩm đã được yêu thích và người được giới thiệu sẽ mua dù không ưu đãi; hoa hồng theo doanh số cho B2B, đại lý, cộng tác viên.
 3. **Mức thưởng tổng bằng 15 đến 25% LTV khách mới, chia cho hai bên, và phải qua ba trần**: không vượt 50% CAC quảng cáo, không vượt biên gộp của đơn đầu, không vượt ngân sách trần trong bối cảnh. Lý do: thưởng quá thấp không ai làm, quá cao thì lỗ và hút người trục lợi.
 4. **Thưởng trong 24 giờ sau khi đơn hợp lệ**, với sản phẩm có đổi trả thì giữ thưởng đến hết thời gian đổi trả (thường 14 đến 30 ngày) rồi trả tự động, báo rõ cho khách ngay khi ghi nhận.
@@ -94,7 +97,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Chuong-trinh-gioi-thieu-[nhom-khach]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Chuong-trinh-gioi-thieu-[nhom-khach]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -196,7 +199,7 @@ Rà mức thưởng mỗi 6 tháng: chưa đạt tỉ lệ chia sẻ mục tiêu
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: ai giới thiệu ai, số liệu nền, mục tiêu và ngân sách, cách theo dõi; đã tóm tắt và xác nhận phương án trước khi xuất bản đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: ai giới thiệu ai, số liệu nền, mục tiêu và ngân sách, cách theo dõi.
 - [ ] Nếu người dùng có biểu mẫu riêng, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu đó.
 - [ ] Đã kiểm tra điều kiện tiên quyết: mức hài lòng đủ cao hoặc có kế hoạch đo trước; sản phẩm dễ giải thích.
 - [ ] Mức thưởng trong 15 đến 25% LTV và qua ba trần (50% CAC, biên gộp đơn đầu, ngân sách), có bảng tính.

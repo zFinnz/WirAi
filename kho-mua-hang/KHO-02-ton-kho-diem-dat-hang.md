@@ -3,6 +3,7 @@
 > **Dùng khi:** hàng bán chạy thì hay hết, hàng bán chậm thì chất đống, tiền nằm trong kho mà không biết mã nào nên cắt, hoặc cần tính tồn an toàn, điểm đặt hàng lại và phân loại ABC để đặt hàng có căn cứ thay vì theo cảm giác.
 > **Kết quả:** bảng phân loại ABC, tham số tồn an toàn và điểm đặt hàng lại cho từng mã hàng ưu tiên, danh sách hàng chậm luân chuyển kèm phương án xử lý, lịch rà soát và quy tắc cảnh báo chạy được trên Excel hoặc Google Sheets.
 > **Không dùng khi:** cần quy trình nhập, xuất, kiểm kê (dùng KHO-01), cần quy trình duyệt và đặt hàng với nhà cung cấp (KHO-03), cần dự báo doanh thu cả năm (FIN-01) hoặc dòng tiền (FIN-02).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; SKU = mã riêng để quản lý một loại hàng.
 
 ---
 
@@ -17,7 +18,7 @@
 - Giới hạn vốn hoặc diện tích kho: [ĐIỀN: ví dụ "tổng tồn không quá 5 tỉ", "kho 400 m2 đã đầy 85%"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không được hết hàng với 30 mã chủ lực", "không nhập hàng có hạn dùng dưới 12 tháng"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Dữ liệu đang có?** Có bảng bán ra theo mã theo ngày hoặc tuần trong ít nhất 3 tháng không? Có tồn hiện tại, giá vốn, ngày nhập gần nhất không? Nếu có, dán hoặc mô tả cột. Nếu không, nói rõ để tính bằng ước lượng và đánh dấu.
 2. **Thời gian chờ hàng thực tế?** Từ lúc đặt đến lúc hàng vào kho trung bình bao lâu, lần lâu nhất bao lâu, theo từng nhóm nhà cung cấp? Có lượng đặt tối thiểu (MOQ) hoặc ưu đãi theo số lượng không?
 3. **Mục tiêu ưu tiên?** Giảm hết hàng với mã chủ lực, giảm vốn tồn, giải phóng diện tích kho, hay chuẩn bị cho đợt bán mạnh sắp tới? Mức dịch vụ (service level) mong muốn: chấp nhận hết hàng bao nhiêu lần mỗi năm?
 4. **Ai dùng kết quả và dùng bằng gì?** Người đặt hàng dùng Google Sheets hằng tuần, hay cần cấu hình vào phần mềm (KiotViet, Sapo, Odoo)? Có cần tách tham số cho kênh B2C và B2B không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Phân loại ABC trước, tính tham số sau.** Chỉ tính tồn an toàn và điểm đặt hàng chi tiết cho nhóm A và B. Nhóm C dùng quy tắc đơn giản (đặt theo tháng, mức tối thiểu cố định) để không tốn công.
 3. **Ghi rõ công thức và số đầu vào của mỗi kết quả.** Người đọc phải tự tính lại được bằng máy tính bỏ túi. Không đưa ra một con số không có nguồn.
 4. **Tồn an toàn tính theo biến động, không theo cảm giác.** Dùng chênh lệch giữa thời gian chờ hàng lâu nhất và trung bình, hoặc độ lệch chuẩn nhu cầu nếu có đủ dữ liệu. Ghi rõ dùng cách nào.
@@ -72,7 +73,7 @@ Vòng quay tồn kho              = giá vốn hàng bán trong năm / tồn kho
 Số ngày tồn kho (DIO)          = 365 / vòng quay tồn kho
 ```
 
-### Mức tham khảo thị trường Việt Nam (dùng khi thiếu dữ liệu, ghi rõ là giả định)
+### Ví dụ giả định để tính thử (không phải chuẩn thị trường; cần thay bằng dữ liệu công ty)
 
 | Ngành hàng | Vòng quay tồn kho mỗi năm | Số ngày tồn tương ứng | Ngưỡng "chậm luân chuyển" | Ngưỡng "hàng chết" |
 |---|---|---|---|---|
@@ -88,7 +89,7 @@ Thời gian chờ hàng tham khảo: nhà cung cấp trong nước 3 đến 10 n
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Muc-ton-kho-[nhom-hang]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Muc-ton-kho-[nhom-hang]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -156,7 +157,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**, và gợi ý ski
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: dữ liệu đang có, thời gian chờ hàng, mục tiêu ưu tiên, người dùng và công cụ.
-- [ ] Đã tóm tắt bối cảnh và chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng có mẫu bảng sẵn, kết quả bám đúng mẫu đó.
 - [ ] Phân loại ABC có số mã, giá trị, tỉ lệ và cách kiểm soát từng nhóm.
 - [ ] Mỗi tham số SS, ROP, Q có công thức và số đầu vào, người đọc tự tính lại được.

@@ -3,6 +3,11 @@
 > **Dùng khi:** sắp chạy quảng cáo cho một kỳ hoặc một chiến dịch và cần kế hoạch chi tiêu theo kênh, theo tuần, kèm cấu trúc tài khoản (chiến dịch, nhóm quảng cáo, mẫu quảng cáo), quy tắc đặt tên, nhịp kiểm tra và danh sách kiểm tra trước khi bật.
 > **Kết quả:** kế hoạch quảng cáo gồm chỉ số đo lường hiệu quả (KPI) tính ngược tóm tắt, phân bổ theo kênh, tầng phễu và loại chiến dịch (thử nghiệm, mở rộng, tiếp thị lại, tệp tương tự), sơ đồ cấu trúc tài khoản cho Meta và Google, quy tắc đặt tên, lịch tăng ngân sách và nhịp kiểm tra theo tuần, quy tắc quyết định, tiếp thị lại theo giai đoạn và phương án dự phòng.
 > **Không dùng khi:** chưa có chi phí mỗi khách tiềm năng (CPL) mục tiêu và ngân sách (làm MKT-06 trước), cần viết nội dung quảng cáo (MKT-10), cần chẩn đoán tài khoản đang chạy xấu (MKT-12), hoặc cần quảng cáo nội sàn Shopee, TikTok Shop (MKT-18).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; CRM = bảng hoặc phần mềm quản lý thông tin khách hàng; KPI = chỉ số đo kết quả công việc;
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> CPL = chi phí để có một khách hàng tiềm năng; CPMess = chi phí để có một tin nhắn từ quảng cáo; UTM = mã gắn vào liên kết để biết khách đến từ đâu.
+> **Từ ngữ bổ sung:** ROAS = doanh thu chia cho chi phí quảng cáo.
+> API = cách hai phần mềm trao đổi dữ liệu tự động; CPM = chi phí quảng cáo cho một nghìn lượt hiển thị.
 
 ---
 
@@ -17,7 +22,7 @@
 - Tệp có sẵn: [ĐIỀN: ví dụ "danh sách 3.000 khách cũ, người tương tác 90 ngày, 60 số điện thoại đại lý"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không chạy tệp dưới 18 tuổi", "không tăng ngân sách quá 20% mỗi tuần", "không chạy quảng cáo so sánh"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,20 +43,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Ngân sách và KPI?** Ngân sách tháng, CPL hoặc CPMess mục tiêu, ROAS mục tiêu, số khách tiềm năng cần. Chưa có thì dừng lại và làm MKT-06 trước; nếu người dùng muốn làm nhanh, dùng mức tham khảo và ghi rõ là giả định.
 2. **Nền tảng, mục tiêu và nhóm khách?** Meta, TikTok, Google, Zalo; tin nhắn, biểu mẫu, chuyển đổi web, đơn sàn; B2C, B2B hay cả hai với tỉ trọng bao nhiêu?
 3. **Bao nhiêu sản phẩm hoặc gói, đang ở giai đoạn nào, và đã chạy trước đây chưa?** Thử nghiệm, mở rộng hay duy trì? Kết quả và vấn đề lần trước (bị từ chối, CPL cao, khách không đủ điều kiện)? Có chiến dịch nào đang chạy tốt cần giữ nguyên không?
 4. **Theo dõi, trang đích và tệp có sẵn?** Pixel đã bắn đúng sự kiện chưa, có API chuyển đổi, UTM chuẩn chưa; trang đích tải nhanh và khớp thông điệp chưa, tỉ lệ chuyển đổi hiện tại; có danh sách khách, người tương tác, người xem video để làm tệp tiếp thị lại và tệp tương tự không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Ngân sách cộng đúng 100% ở cả 3 góc nhìn: kênh, tầng phễu, loại chiến dịch.** Lệch thì ghi lý do.
 3. **Kênh đã chứng minh nhận 60 đến 70%, kênh mới 10 đến 20%, không chia đều.** Ngân sách tháng dưới khoảng 5 triệu đồng (tham khảo) thì chỉ chạy 1 kênh, 1 mục tiêu cho đến khi có người thắng. Chưa có dữ liệu thì dùng tỉ lệ tham khảo theo mô hình (bảng dưới) và ghi là giả định; số nào không có và không có mức tham khảo thì ghi `[cần bổ sung: mô tả dữ liệu cần, lấy ở đâu]` thay vì bịa hoặc để trống.
 4. **Loại chiến dịch chia thử nghiệm 30%, mở rộng 50%, tiếp thị lại 15%, tệp tương tự 5%.** Giai đoạn mới bắt đầu chưa có người thắng thì thử nghiệm có thể lên 50 đến 60%.
@@ -88,7 +93,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Ke-hoach-quang-cao-[san-pham]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Ke-hoach-quang-cao-[san-pham]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 

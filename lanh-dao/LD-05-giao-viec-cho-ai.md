@@ -3,6 +3,8 @@
 > **Dùng khi:** nhân viên dùng AI nhưng kết quả chung chung, phải sửa nhiều, hoặc mỗi lần hỏi ra một kiểu; hoặc cần biến một yêu cầu ngắn thành câu lệnh (prompt) có cấu trúc để dùng lại nhiều lần.
 > **Kết quả:** phân tích yêu cầu gốc thiếu gì, câu lệnh hoàn chỉnh theo khung 4 yếu tố sẵn sàng sao chép, bảng biến số để điều chỉnh cho tình huống tương tự, mẹo kiểm tra kết quả.
 > **Không dùng khi:** cần lộ trình đưa AI vào cả công ty (dùng LD-04), hoặc cần giao việc cho người (dùng OPS-04).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng; AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +19,7 @@
 - Dữ liệu không được đưa vào AI: [ĐIỀN: ví dụ "số điện thoại khách, giá vốn, hợp đồng chưa ký"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không để AI tự gửi tin cho khách, phải có người duyệt"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,27 +39,27 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Yêu cầu gốc là gì và kết quả hiện tại sai ở đâu?** Dán nguyên câu lệnh đang dùng nếu có. Sai vì chung chung, sai giọng, sai định dạng, hay bịa thông tin?
 2. **Kết quả này dùng để làm gì, ai đọc?** Gửi khách, trình sếp, đăng mạng xã hội, hay dùng nội bộ? Người đọc là B2C hay B2B?
 3. **Có tài liệu mẫu hoặc ví dụ "làm tốt" nào không?** Bài viết cũ được khen, email mẫu, bảng mẫu, biểu mẫu công ty đang dùng. Có thì dán vào; câu lệnh sẽ bắt AI bám đúng mẫu đó.
 4. **Việc này làm một lần hay lặp lại?** Nếu lặp lại, cần bảng biến số để thay nhanh và cân nhắc đóng gói thành skill dùng chung cho phòng ban.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu. Câu lệnh viết ra cũng phải truyền quy tắc này cho AI: "bám đúng mẫu đính kèm, không tự tạo cấu trúc mới".
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Nói điều NÊN làm trước, điều KHÔNG được làm sau.** AI làm theo hướng dẫn tích cực tốt hơn danh sách cấm. Danh sách cấm chỉ dùng cho những lỗi đã thật sự xảy ra.
 3. **Mỗi tính từ mơ hồ phải được định nghĩa bằng tiêu chí kiểm tra được.** Dùng bảng chuyển đổi bên dưới.
 4. **Luôn có ít nhất một ví dụ mẫu (few-shot example)** về kết quả lý tưởng, lấy từ tài liệu thật của công ty nếu có. Không có thì tự viết một ví dụ ngắn và ghi rõ là ví dụ minh họa.
 5. **Tách 4 yếu tố bằng tiêu đề rõ ràng và kết bằng 3 đến 5 ô kiểm tra.** AI và người đọc đều thấy cấu trúc; nhân viên không gửi bản nháp đi khi chưa qua ô kiểm tra. Không viết thành một đoạn dài.
 6. **Yêu cầu AI đánh dấu `[cần bổ sung: mô tả dữ liệu cần]` khi thiếu dữ liệu**, thay vì bịa hoặc để trống. Đây là cách giảm bịa thông tin (hallucination) rẻ nhất, và cũng là quy ước bạn dùng trong chính kết quả của mình: thiếu thông tin về người đọc, giọng, mẫu thì đánh dấu, không đoán.
 7. **Việc phức tạp thì chia thành chuỗi câu lệnh (prompt chaining)**, mỗi bước một kết quả rõ, thay vì nhét tất cả vào một câu. Dấu hiệu cần chia: yêu cầu có trên 3 động từ chính hoặc trên 2 loại kết quả.
-8. **Không đưa dữ liệu cá nhân khách hàng và bí mật kinh doanh vào công cụ AI công cộng.** Thay bằng dữ liệu đã che (ví dụ "khách A", "số điện thoại xxx") hoặc dùng công cụ công ty đã ký thỏa thuận xử lý dữ liệu. Nhắc Nghị định 13/2023 về bảo vệ dữ liệu cá nhân khi thấy dữ liệu nhạy cảm. Mọi mức tham khảo ghi rõ là giả định.
+8. **Không đưa dữ liệu cá nhân khách hàng và bí mật kinh doanh vào công cụ AI công cộng.** Thay bằng dữ liệu đã che (ví dụ "khách A", "số điện thoại xxx") hoặc dùng công cụ công ty đã ký thỏa thuận xử lý dữ liệu. Nhắc Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về bảo vệ dữ liệu cá nhân khi thấy dữ liệu nhạy cảm. Mọi mức tham khảo ghi rõ là giả định.
 
 ### Bảng chuyển từ mơ hồ sang cụ thể
 
@@ -84,7 +86,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Cau-lenh-[viec]-[phong-ban].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Cau-lenh-[viec]-[phong-ban].md`.
 
 ### 4.1 Tóm tắt cho người quản lý
 
@@ -111,7 +113,7 @@ Bạn là [vai trò cụ thể] của [công ty, ngành], viết cho [người �
 
 ## Nội dung
 [Việc cần làm, các bước, dữ liệu đầu vào đính kèm bên dưới]
-Trước khi làm, tóm tắt cách hiểu của bạn trong 3 dòng và chờ tôi xác nhận; nếu tôi nói "làm luôn" thì bỏ qua.
+Nếu đã đủ dữ liệu, làm ngay. Nếu thiếu thông tin quyết định chất lượng kết quả, hỏi ngắn gọn trước khi làm.
 
 ## Ràng buộc
 - Độ dài: [...]
@@ -162,9 +164,9 @@ Kết thúc bằng **3 việc cần làm tiếp**: chạy thử câu lệnh vớ
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: yêu cầu gốc và lỗi, người đọc, tài liệu mẫu, tần suất dùng; đã tóm tắt và được xác nhận trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: yêu cầu gốc và lỗi, người đọc, tài liệu mẫu, tần suất dùng.
 - [ ] Nếu người dùng có mẫu công ty, câu lệnh bắt AI bám đúng mẫu đó và mẫu được dán vào phần dữ liệu đầu vào.
-- [ ] Câu lệnh có đủ 4 yếu tố, tách bằng tiêu đề rõ; có bước tóm tắt cách hiểu và chờ xác nhận.
+- [ ] Câu lệnh có đủ 4 yếu tố, tách bằng tiêu đề rõ; chỉ yêu cầu hỏi thêm khi thiếu thông tin quan trọng.
 - [ ] Không còn tính từ mơ hồ chưa định nghĩa trong câu lệnh.
 - [ ] Hướng dẫn nên làm đứng trước danh sách cấm; danh sách cấm chỉ gồm lỗi đã xảy ra.
 - [ ] Có ít nhất một ví dụ mẫu kết quả lý tưởng.

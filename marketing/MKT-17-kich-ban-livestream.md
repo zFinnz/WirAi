@@ -3,6 +3,7 @@
 > **Dùng khi:** sắp phát trực tiếp (livestream) bán hàng trên Facebook, TikTok, Shopee; phiên trước ít người xem hoặc nhiều người xem mà ít đơn; hoặc cần phiên giới thiệu sản phẩm, chính sách mới cho đại lý và khách doanh nghiệp.
 > **Kết quả:** kịch bản theo phút, danh sách sản phẩm lên sóng kèm lời chốt từng mẫu, ưu đãi theo mốc, phân vai ê-kíp, danh sách chuẩn bị, kịch bản xử lý tình huống và bình luận, việc sau phiên và bảng đánh giá.
 > **Không dùng khi:** cần vận hành gian hàng sàn ngoài phiên phát (dùng MKT-18), cần kịch bản video ngắn (MKT-09), cần thiết kế gói ưu đãi từ đầu (MKT-19), hoặc cần thuê người dẫn bên ngoài (MKT-16).
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp; B2C = bán cho người tiêu dùng; OA = tài khoản Zalo chính thức của doanh nghiệp.
 
 ---
 
@@ -17,7 +18,7 @@
 - Thiết bị và không gian: [ĐIỀN: ví dụ "điện thoại, đèn vòng, góc kho 2x3 m"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không nói 'rẻ nhất thị trường'", "không bán sản phẩm chưa có công bố"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phiên này cho ai, trên nền tảng nào, dài bao lâu?** B2C bán lẻ hay giới thiệu cho đại lý? Facebook, TikTok, Shopee? 60, 90 hay 120 phút?
 2. **Danh sách sản phẩm lên sóng?** Tên, giá gốc, giá trên sóng, tồn kho, sản phẩm chủ lực, sản phẩm mới, hàng cần xả. Nếu chưa có, hỏi mục tiêu doanh thu để đề xuất.
 3. **Ngân sách ưu đãi và quà?** Tổng chi cho mã giảm, quà mini game, miễn phí vận chuyển; mức giảm tối đa được duyệt.
 4. **Ê-kíp và kết quả trước đây?** Bao nhiêu người, ai làm gì, phiên trước đạt gì và vướng gì (ít người xem, nhiều hỏi ít chốt, lỗi kỹ thuật, bình luận tiêu cực).
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu kịch bản, bảng sản phẩm, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chia phiên thành khối 10 đến 15 phút, mỗi khối một mục tiêu.** Người dẫn nhìn kịch bản là biết đang ở đâu; người trực bình luận biết khi nào ghim sản phẩm nào. Cứ 10 phút nhắc lại cách mua và mã giảm giá, vì người xem đến và đi liên tục.
 3. **Mỗi sản phẩm có lời chốt theo nỗi đau, không đọc thông số.** Cấu trúc: tình huống khách gặp, cách sản phẩm giải quyết, giá và lý do giá hôm nay, hành động cụ thể.
 4. **Ưu đãi theo mốc có điều kiện rõ, số lượng thật, đã duyệt biên lợi nhuận.** Mốc theo người xem, theo lượt chia sẻ, theo thời gian. Giảm sâu chỉ cho vài suất và chỉ cho hàng đã có kế hoạch xả.
@@ -91,7 +92,9 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Kich-ban-live-[nen-tang]-[ngay].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Kich-ban-live-[nen-tang]-[ngay].md`.
+
+**Thứ tự trả lời:** Đặt lời dẫn và kịch bản theo phút lên đầu khi người dùng cần tài liệu để lên sóng. Bảng phân công và kiểm tra để phía sau.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -180,7 +183,7 @@ Kết thúc bằng **5 việc cần làm cho phiên tiếp theo** và gợi ý M
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: nhóm khách và nền tảng, danh sách sản phẩm, ngân sách ưu đãi, ê-kíp và kết quả trước; đã tóm tắt và xác nhận phương án trước khi xuất bản đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: nhóm khách và nền tảng, danh sách sản phẩm, ngân sách ưu đãi, ê-kíp và kết quả trước.
 - [ ] Nếu người dùng có biểu mẫu riêng, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu đó.
 - [ ] Kịch bản chia khối 10 đến 15 phút, mỗi khối có việc cho người dẫn và trực bình luận.
 - [ ] Nhắc cách mua và mã giảm ít nhất mỗi 10 phút.

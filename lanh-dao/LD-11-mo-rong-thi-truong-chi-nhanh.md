@@ -3,6 +3,7 @@
 > **Dùng khi:** đang cân nhắc mở chi nhánh hoặc cửa hàng ở tỉnh mới, đưa hàng vào một khu vực chưa có đại lý, thêm kênh phân phối mới (sàn mới, chuỗi siêu thị, xuất khẩu), hoặc bán cho một nhóm khách mới (từ B2C sang B2B hoặc ngược lại); và cần biết có nên làm, làm theo cách nào, tốn bao nhiêu, khi nào dừng.
 > **Kết quả:** bảng chấm điểm thị trường theo tiêu chí, phân tích khách và cạnh tranh tại địa bàn mới, năng lực chuyển giao được và khoảng trống, lựa chọn mô hình gia nhập, ước tính đầu tư và điểm hòa vốn theo 3 kịch bản, kế hoạch 6 tháng đầu với mốc đi tiếp hoặc dừng, rủi ro và việc cần làm.
 > **Không dùng khi:** cần so sánh nhiều phương án chiến lược khác loại nhau (dùng LD-01), cần thẩm định dòng tiền chi tiết của khoản đầu tư (FIN-07), cần kế hoạch marketing ra mắt tại địa bàn mới (MKT-01 sau khi quyết định), hoặc cần chính sách và quy trình phát triển đại lý (SAL-11).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
 
 ---
 
@@ -17,7 +18,7 @@
 - Người ra quyết định và hạn quyết: [ĐIỀN: ví dụ "giám đốc và chủ sở hữu, quyết trước cuối quý"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không vay thêm", "không nhượng quyền thương hiệu", "không mở nếu hòa vốn trên 18 tháng"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Mở rộng kiểu gì và vì sao lúc này?** Địa bàn mới, kênh mới, hay nhóm khách mới? Tín hiệu nào khiến bạn nghĩ đến (khách ở đó tự tìm đến, đối thủ đang bỏ ngỏ, kênh cũ bão hòa, có người quen tại địa phương)? Nếu không làm thì mất gì?
 2. **Biết gì về thị trường mới?** Ước lượng số khách tiềm năng (số cửa hàng, hộ dân, doanh nghiệp), ai đang bán ở đó và giá của họ, khách ở đó mua khác khách hiện tại thế nào, đã có đơn hoặc đại lý nào ở đó chưa?
 3. **Đem được gì sang và thiếu gì?** Thương hiệu có được biết ở đó không, kho và giao hàng xử lý thế nào, ai sẽ điều đi hoặc tuyển tại chỗ, có quan hệ địa phương nào, cần giấy phép gì thêm?
 4. **Sẵn sàng bỏ bao nhiêu và chịu được bao lâu?** Vốn đầu tư tối đa, số tháng chịu lỗ, số tháng hòa vốn chấp nhận được, và điều kiện nào thì bạn sẵn sàng rút?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chấm thị trường bằng 6 tiêu chí có trọng số** (bảng dưới), mỗi tiêu chí 1 đến 5 điểm kèm bằng chứng. Dưới 3,0 điểm có trọng số thì khuyến nghị không làm hoặc thăm dò thêm; 3,0 đến 3,7 thử nhỏ; trên 3,7 lập kế hoạch đầy đủ. Ngưỡng là giả định, người dùng chốt.
 3. **Năng lực chuyển giao chấm từng cái một**: thương hiệu, giá, giao hàng, dịch vụ sau bán, quan hệ, đội ngũ, hệ thống. Mỗi cái ghi "mang sang được, mang sang được một phần, phải xây lại", kèm chi phí và thời gian xây lại.
 4. **So sánh ít nhất 3 mô hình gia nhập** phù hợp với doanh nghiệp thương mại: tự mở chi nhánh hoặc cửa hàng, qua đại lý hoặc nhà phân phối địa phương, hợp tác với đối tác có sẵn mặt bằng và khách, bán trước qua kênh trực tuyến và giao từ kho hiện tại, mua lại điểm bán đang hoạt động. Mỗi mô hình chấm tốc độ, vốn, mức kiểm soát, rủi ro.
@@ -84,7 +85,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Phan-tich-mo-rong-[thi-truong]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Phan-tich-mo-rong-[thi-truong]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho người ra quyết định
 
@@ -166,7 +167,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý skil
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: kiểu mở rộng và lý do lúc này, hiểu biết về thị trường mới, năng lực mang sang và thiếu, vốn và sức chịu đựng.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu có biểu mẫu của người dùng, kết quả khớp đúng mục, thứ tự, đơn vị.
 - [ ] Trả lời rõ "vì sao thị trường này, vì sao lúc này" trước khi vào bảng số.
 - [ ] Chấm 6 tiêu chí có bằng chứng và trọng số; khuyến nghị khớp với điểm.

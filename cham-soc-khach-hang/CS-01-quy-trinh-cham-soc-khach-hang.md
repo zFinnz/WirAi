@@ -3,6 +3,9 @@
 > **Dùng khi:** mỗi nhân viên trả lời khách một kiểu, tin nhắn trên Zalo, Facebook, Shopee bị bỏ sót, không biết việc nào phải chuyển cho ai, hoặc sắp mở rộng đội chăm sóc khách hàng và cần một chuẩn chung để đào tạo.
 > **Kết quả:** quy trình tiếp nhận và xử lý theo bước, thời gian phản hồi cam kết theo kênh, bảng phân loại ưu tiên và chuyển tuyến, quy tắc ứng xử và giọng điệu, bảng ghi nhận yêu cầu, bộ chỉ số và báo cáo tháng.
 > **Không dùng khi:** cần kịch bản cho một tình huống cụ thể như khiếu nại, hoàn tiền, khách giận (dùng CS-02), cần bộ câu hỏi thường gặp hoặc chatbot (CS-03), cần chính sách đổi trả, bảo hành (CS-07), hoặc cần lịch chăm sóc sau bán để bán thêm (SAL-09).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ bổ sung:** SLA = mức phục vụ và thời hạn đã cam kết; CSAT = điểm đo mức hài lòng của khách.
+> CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +20,7 @@
 - Chính sách đổi trả, bảo hành, hoàn tiền hiện có: [ĐIỀN: 1 đến 2 câu]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "nhân viên không tự hứa hoàn tiền trên 500.000đ", "không trả lời khách sau 22 giờ"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,7 +41,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Kênh và khối lượng?** Mỗi ngày khoảng bao nhiêu tin nhắn, cuộc gọi, email, lượt khách đến quầy trên từng kênh? Giờ cao điểm? Kênh nào hay bị bỏ sót nhất?
 2. **Loại yêu cầu phổ biến và khiếu nại hay gặp nhất?** Ước tỉ lệ: hỏi giá, tra đơn, đổi trả, khiếu nại chất lượng, bảo hành, kỹ thuật. Khách B2B có yêu cầu riêng như công nợ, hóa đơn, giao theo lô không?
@@ -47,13 +50,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng gửi quy trình cũ, đọc trước và chỉ hỏi phần còn thiếu.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Một quy trình, nhiều kênh.** Các bước xử lý giống nhau trên mọi kênh; chỉ khác thời gian cam kết, cách xưng hô và định dạng. Không viết 5 quy trình cho 5 kênh.
 3. **Phân loại trước, xử lý sau.** Mọi yêu cầu được gắn loại và mức ưu tiên ngay lần chạm đầu tiên. Không phân loại thì không đo được và không biết chuyển cho ai.
 4. **Thời gian phản hồi cam kết (Service Level Agreement, SLA) phải đo được và vừa sức.** Tách rõ thời gian phản hồi lần đầu (First Response Time, FRT) và thời gian giải quyết xong. Đặt SLA theo nguồn lực thật của đội; cam kết 5 phút mà có 1 người trực 4 kênh thì SLA chỉ để trang trí.
@@ -87,7 +90,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Quy-trinh-CSKH-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Quy-trinh-CSKH-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -183,7 +186,7 @@ Tuần 1 chốt danh mục, quyền hạn, bảng theo dõi. Tuần 2 đào tạ
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: kênh và khối lượng, loại yêu cầu, đội và quyền hạn, mục tiêu; đã tóm tắt và được xác nhận phương án trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: kênh và khối lượng, loại yêu cầu, đội và quyền hạn, mục tiêu.
 - [ ] Nếu người dùng có mẫu quy trình hoặc bảng theo dõi riêng, kết quả bám đúng mẫu đó.
 - [ ] Tóm tắt cho quản lý đọc độc lập được, nêu rõ quyết định cần chốt.
 - [ ] Quy trình có 6 bước, mỗi bước có người làm, thời gian tối đa và tiêu chuẩn hoàn thành.

@@ -20,41 +20,24 @@
 
 ## 1. Skill trong ChatGPT là gì?
 
-Trong ChatGPT, **Skill** có thể hiểu là một workflow hoặc bộ hướng dẫn có thể tái sử dụng. Bạn mô tả cho ChatGPT cách thực hiện một loại công việc, các bước cần tuân theo, định dạng đầu ra, ví dụ, tài liệu tham chiếu và khi cần có thể kèm script/code.
+Skill là bộ hướng dẫn để AI làm một công việc lặp lại: khi nào dùng, cần thông tin gì, làm theo bước nào và trả kết quả ra sao. Skill cài đặt sẵn có tên, mô tả và file chính `SKILL.md`; hệ thống có thể cân nhắc dùng skill dựa vào tên và mô tả.
 
-Sau khi Skill được cài đặt, ChatGPT có thể nhận biết khi nào Skill phù hợp với yêu cầu hoặc bạn có thể chủ động gọi Skill khi muốn sử dụng workflow đó.
-
-> **Lưu ý về khả dụng:** Tính năng Skills có thể phụ thuộc vào loại tài khoản, workspace và cấu hình sản phẩm hiện tại. Nếu bạn không thấy mục Skills/Kỹ năng trong giao diện ChatGPT, tài khoản hoặc workspace của bạn có thể chưa được cấp tính năng này.
-
----
+**Phân biệt với thư viện này:** 119 file theo mã `MKT-01`, `SAL-01`... là nội dung hướng dẫn để bạn đọc, sửa và dán vào cuộc trò chuyện. Chúng không tự trở thành Skill cài đặt sẵn chỉ vì có chữ “skill” trong tên. Nếu muốn AI tự chọn, cần đóng gói từng bộ hướng dẫn theo định dạng Skill của nền tảng và kiểm thử sau khi cài.
 
 ## 2. Cách tạo một Skill
 
-Khi giao diện tài khoản của bạn hỗ trợ Skills, cách phổ biến là vào khu vực quản lý **Plugins/Tiện ích → Skills/Kỹ năng → Create/Tạo** rồi chọn phương thức tạo phù hợp.
+Nếu chỉ muốn dùng ngay một file trong thư viện, làm theo [Hướng dẫn sử dụng](HUONG-DAN-SU-DUNG.md): điền bối cảnh, dán nội dung vào cuộc trò chuyện, rồi nêu việc cần làm. Không cần tạo Skill cài đặt sẵn.
 
-Bạn có thể mô tả Skill bằng ngôn ngữ tự nhiên. Ví dụ:
+Nếu muốn tạo Skill cài đặt sẵn:
 
-```text
-Hãy tạo cho tôi một skill tên professional-email-vn.
+1. Chọn **một việc cụ thể** mà người dùng thường yêu cầu, ví dụ “viết email nhắc thanh toán”.
+2. Viết một câu mô tả nêu cả **việc làm** và **khi nào nên dùng**.
+3. Tạo thư mục riêng có file `SKILL.md`; đầu file có `name` và `description` như ví dụ ở mục 4.
+4. Trong thân file, ghi đầu vào cần có, các bước xử lý, chỗ nào cần hỏi, kết quả phải giao và điều không được tự đoán.
+5. Thử với yêu cầu thông thường, yêu cầu thiếu thông tin và yêu cầu gần giống nhưng không đúng phạm vi. Sửa câu chữ nếu AI chọn sai hoặc trả lời sai.
+6. Cài đặt hoặc đưa Skill vào plugin theo cách mà nền tảng và tài khoản của bạn hỗ trợ; kiểm tra hướng dẫn chính thức ở cuối tài liệu trước khi thao tác.
 
-Skill này dùng khi tôi yêu cầu viết hoặc chỉnh sửa email công việc bằng tiếng Việt.
-
-Yêu cầu:
-- Văn phong chuyên nghiệp, tự nhiên.
-- Không quá dài.
-- Không dùng từ ngữ sáo rỗng.
-- Nếu thiếu người nhận hoặc mục đích email thì hỏi lại.
-- Luôn đưa ra subject phù hợp.
-- Kiểm tra lỗi chính tả trước khi trả kết quả.
-```
-
-ChatGPT hoặc công cụ tạo Skill có thể giúp chuyển yêu cầu trên thành cấu trúc Skill hoàn chỉnh.
-
-Ngoài cách tạo bằng hội thoại, tùy giao diện được cung cấp, bạn có thể có các lựa chọn như:
-
-- Tạo bằng editor để tự kiểm soát nội dung Skill.
-- Upload Skill đã chuẩn bị sẵn trên máy.
-- Chỉnh sửa Skill đã tạo trước đó.
+Vị trí menu và quyền tạo Skill phụ thuộc sản phẩm, tài khoản và cấu hình nơi làm việc. Không dựa vào một đường dẫn menu cố định.
 
 ---
 
@@ -76,7 +59,7 @@ Trong đó:
 
 - **`SKILL.md`**: file hướng dẫn chính của Skill và là thành phần quan trọng nhất.
 - **`references/`**: tùy chọn, chứa tài liệu tham khảo mà Skill có thể cần sử dụng.
-- **`scripts/`**: tùy chọn, chứa script hoặc code phục vụ workflow.
+- **`scripts/`**: tùy chọn, chứa script hoặc code phục vụ cách làm.
 
 Một Skill đơn giản có thể chỉ cần `SKILL.md`.
 
@@ -108,7 +91,7 @@ Quy trình:
 6. Kiểm tra chính tả và ngữ pháp.
 7. Loại bỏ những câu dài hoặc sáo rỗng.
 
-Output:
+Kết quả:
 
 Subject: ...
 
@@ -129,7 +112,7 @@ description: Viết và chỉnh sửa email công việc bằng tiếng Việt t
 
 `name` giúp xác định Skill, còn `description` mô tả Skill làm gì và trong trường hợp nào Skill phù hợp. Description nên đủ rõ để hệ thống có thể phân biệt Skill này với các Skill khác.
 
-Phần thân của `SKILL.md` chứa hướng dẫn chi tiết về workflow, quy tắc và đầu ra mong muốn.
+Phần thân của `SKILL.md` chứa hướng dẫn chi tiết về cách làm, quy tắc và đầu ra mong muốn.
 
 ---
 
@@ -145,7 +128,7 @@ Bạn đưa yêu cầu bình thường, ví dụ:
 Viết giúp tôi email xin khách hàng dời cuộc họp sang thứ Sáu.
 ```
 
-Nếu Skill `professional-email-vn` được mô tả phù hợp, ChatGPT có thể nhận biết rằng workflow của Skill nên được sử dụng.
+Nếu Skill `professional-email-vn` được mô tả phù hợp, ChatGPT có thể nhận biết rằng cách làm của Skill nên được sử dụng.
 
 ### Cách 2: Chủ động gọi Skill
 
@@ -154,7 +137,7 @@ Nếu giao diện ChatGPT của bạn hỗ trợ việc chọn hoặc mention Sk
 Cách này hữu ích khi:
 
 - Có nhiều Skill có chức năng gần giống nhau.
-- Bạn muốn chắc chắn một workflow cụ thể được áp dụng.
+- Bạn muốn chắc chắn một cách làm cụ thể được áp dụng.
 - Bạn đang kiểm thử Skill mới.
 - Bạn muốn so sánh kết quả có và không sử dụng Skill.
 
@@ -162,9 +145,7 @@ Cách này hữu ích khi:
 
 ## 6. Cách chỉnh sửa Skill
 
-Bạn có thể mở khu vực quản lý Skills và chọn Skill do mình tạo để chỉnh sửa.
-
-Ngoài chỉnh sửa trực tiếp bằng editor, bạn có thể mô tả thay đổi mong muốn bằng ngôn ngữ tự nhiên.
+Mở file `SKILL.md` hoặc nơi lưu hướng dẫn của Skill do bạn quản lý để sửa. Bạn cũng có thể mô tả thay đổi mong muốn bằng ngôn ngữ tự nhiên rồi đọc lại bản đã sửa trước khi dùng.
 
 Ví dụ:
 
@@ -188,7 +169,7 @@ Dùng thử
    ↓
 Quan sát lỗi / điểm chưa tốt
    ↓
-Sửa instructions
+Sửa hướng dẫn
    ↓
 Dùng thử lại
    ↓
@@ -213,10 +194,10 @@ Ví dụ Skill phân tích báo cáo:
 → so sánh tháng trước
 → tìm bất thường
 → đưa ra 5 insight
-→ tạo executive summary
+→ tạo bản tóm tắt cho người quản lý
 ```
 
-Trong khi đó, **Plugin** có thể cung cấp phạm vi rộng hơn, chẳng hạn kết hợp workflow với các công cụ, dữ liệu hoặc hành động từ hệ thống bên ngoài.
+Trong khi đó, **Plugin** có thể cung cấp phạm vi rộng hơn, chẳng hạn kết hợp cách làm với các công cụ, dữ liệu hoặc hành động từ hệ thống bên ngoài.
 
 Ví dụ về một Plugin phục vụ Weekly Sales Review:
 
@@ -240,7 +221,7 @@ Có thể ghi nhớ ngắn gọn:
 
 - **Skill** hướng dẫn ChatGPT **cách làm**.
 - **Tool/App/Connector** cung cấp **dữ liệu hoặc hành động**.
-- **Plugin** có thể đóng gói workflow và khả năng kết nối/công cụ thành một trải nghiệm rộng hơn.
+- **Plugin** có thể đóng gói cách làm và khả năng kết nối/công cụ thành một trải nghiệm rộng hơn.
 
 ---
 
@@ -249,26 +230,26 @@ Có thể ghi nhớ ngắn gọn:
 Khi xây dựng Skill, nên trả lời rõ sáu câu hỏi sau:
 
 ```text
-1. WHEN
+1. KHI NÀO DÙNG
 Khi nào skill này được sử dụng?
 
-2. INPUT
+2. THÔNG TIN CẦN
 Skill cần thông tin gì?
 
-3. PROCESS
+3. CÁCH LÀM
 ChatGPT phải làm những bước nào?
 
-4. RULES
+4. QUY TẮC
 Có những điều gì bắt buộc / bị cấm?
 
-5. OUTPUT
+5. KẾT QUẢ
 Kết quả phải có cấu trúc như thế nào?
 
-6. QUALITY CHECK
+6. TỰ KIỂM TRA
 Trước khi trả lời phải kiểm tra những gì?
 ```
 
-### 8.1. WHEN — Khi nào sử dụng Skill?
+### 8.1. KHI NÀO DÙNG — Khi nào sử dụng Skill?
 
 Mô tả rõ các tình huống mà Skill nên được kích hoạt.
 
@@ -276,92 +257,92 @@ Ví dụ:
 
 ```text
 Sử dụng skill này khi người dùng yêu cầu phân tích báo cáo doanh thu,
-KPI, báo cáo kinh doanh hoặc dữ liệu performance.
+chỉ số đo kết quả, báo cáo kinh doanh hoặc dữ liệu hiệu quả công việc.
 ```
 
-### 8.2. INPUT — Skill cần dữ liệu gì?
+### 8.2. THÔNG TIN CẦN — Skill cần dữ liệu gì?
 
 Liệt kê những thông tin Skill cần để thực hiện công việc.
 
 Ví dụ:
 
 ```text
-INPUT:
+THÔNG TIN CẦN:
 - File báo cáo
 - Khoảng thời gian
 - KPI cần phân tích
 - Mục tiêu kinh doanh
 ```
 
-Nếu một input là bắt buộc nhưng chưa có, Skill nên biết khi nào cần hỏi người dùng thay vì tự suy đoán.
+Nếu một thông tin đầu vào là bắt buộc nhưng chưa có, Skill nên biết khi nào cần hỏi người dùng thay vì tự suy đoán.
 
-### 8.3. PROCESS — Quy trình xử lý
+### 8.3. CÁCH LÀM — Quy trình xử lý
 
-Đây là phần quan trọng nhất của workflow.
+Đây là phần quan trọng nhất của cách làm.
 
 Ví dụ:
 
 ```text
-PROCESS:
+CÁCH LÀM:
 1. Đọc dữ liệu.
 2. Xác định KPI.
 3. So sánh với kỳ trước.
 4. Phát hiện bất thường.
 5. Tìm các yếu tố có thể giải thích từ dữ liệu.
-6. Tổng hợp insight.
+6. Nêu điều đáng chú ý rút ra từ dữ liệu và bằng chứng đi kèm.
 ```
 
 Các bước nên đủ cụ thể để tạo kết quả ổn định, nhưng không nên chi tiết đến mức khiến Skill không thể xử lý những trường hợp hơi khác dự kiến.
 
-### 8.4. RULES — Các quy tắc
+### 8.4. QUY TẮC — Các quy tắc
 
 Ví dụ:
 
 ```text
-RULES:
+QUY TẮC:
 - Không bịa số liệu.
 - Không kết luận nguyên nhân nếu dữ liệu không chứng minh được.
-- Phân biệt fact và hypothesis.
+- Phân biệt dữ liệu đã kiểm chứng và giả định.
 - Nếu thiếu dữ liệu phải nói rõ.
 ```
 
-### 8.5. OUTPUT — Định dạng kết quả
+### 8.5. KẾT QUẢ — Định dạng kết quả
 
-Một Skill tốt nên quy định rõ output.
+Ghi rõ kết quả cần giao, nhưng chỉ xuất phần người dùng yêu cầu. Nếu họ đưa mẫu công ty, dùng mẫu đó trước.
 
 Ví dụ:
 
 ```text
-OUTPUT:
+KẾT QUẢ:
 
-## Executive Summary
+## Tóm tắt kết luận
 
-## Key Metrics
+## Chỉ số chính
 
-## Positive Signals
+## Điểm đang tốt
 
-## Problems
+## Vấn đề cần xử lý
 
-## Possible Causes
+## Nguyên nhân có thể có
 
-## Recommended Next Steps
+## Việc nên làm tiếp
 ```
 
 Điều này giúp kết quả giữa nhiều lần chạy nhất quán hơn.
 
-### 8.6. QUALITY CHECK — Kiểm tra chất lượng
+### 8.6. TỰ KIỂM TRA — Kiểm tra chất lượng
 
 Skill nên có bước tự kiểm tra trước khi hoàn thành.
 
 Ví dụ:
 
 ```text
-QUALITY CHECK:
+TỰ KIỂM TRA:
 - Kiểm tra lại số liệu.
 - Kiểm tra các phép so sánh.
 - Kiểm tra kết luận có được dữ liệu hỗ trợ hay không.
-- Kiểm tra xem fact và hypothesis đã được phân biệt chưa.
-- Kiểm tra output có đúng cấu trúc yêu cầu không.
+- Kiểm tra dữ liệu đã xác nhận và giả định có được tách rõ chưa.
+- Kiểm tra kết quả có đúng yêu cầu của người dùng không.
 ```
 
 ---
@@ -373,16 +354,16 @@ Bạn có thể bắt đầu bằng prompt tạo Skill như sau:
 ```text
 Hãy tạo cho tôi skill "business-report-analyzer".
 
-WHEN:
+KHI NÀO DÙNG:
 Sử dụng khi tôi upload báo cáo kinh doanh,
 Excel, CSV hoặc PDF và yêu cầu phân tích.
 
-INPUT:
+THÔNG TIN CẦN:
 - Báo cáo
 - Khoảng thời gian
 - KPI nếu người dùng cung cấp
 
-PROCESS:
+CÁCH LÀM:
 1. Xác định KPI chính.
 2. So sánh với kỳ trước.
 3. Tìm tăng trưởng và suy giảm.
@@ -390,26 +371,26 @@ PROCESS:
 5. Tìm nguyên nhân có thể giải thích từ dữ liệu.
 6. Đưa ra các vấn đề cần điều tra thêm.
 
-OUTPUT:
-Executive Summary
+KẾT QUẢ:
+Tóm tắt kết luận
 
-Key Metrics
+Chỉ số chính
 
-Positive Signals
+Điểm đang tốt
 
-Problems
+Vấn đề cần xử lý
 
-Possible Causes
+Nguyên nhân có thể có
 
-Recommended Next Steps
+Việc nên làm tiếp
 
-RULES:
+QUY TẮC:
 - Không bịa số liệu.
-- Phân biệt fact và hypothesis.
+- Phân biệt dữ liệu đã kiểm chứng và giả định.
 - Mọi kết luận phải dựa trên dữ liệu.
 - Nếu thiếu dữ liệu phải nói rõ.
 
-QUALITY CHECK:
+TỰ KIỂM TRA:
 Kiểm tra lại tất cả số liệu trước khi trả kết quả.
 ```
 
@@ -417,11 +398,11 @@ Kiểm tra lại tất cả số liệu trước khi trả kết quả.
 
 Nó tách rõ:
 
-- Trigger của Skill.
+- Thời điểm cần dùng Skill.
 - Dữ liệu đầu vào.
 - Quy trình phân tích.
 - Cấu trúc đầu ra.
-- Quy tắc chống hallucination.
+- Quy tắc chống bịa thông tin.
 - Bước kiểm tra chất lượng.
 
 Nhờ vậy Skill dễ đọc, dễ sửa và dễ kiểm thử hơn.
@@ -446,7 +427,7 @@ customer-feedback-analyzer
 weekly-business-review
 ```
 
-Mỗi Skill trở thành một building block có thể tái sử dụng.
+Mỗi Skill trở thành một phần việc có thể tái sử dụng.
 
 ---
 
@@ -459,15 +440,15 @@ Có thể hình dung vòng đời của một Skill như sau:
    ↓
 Mô tả công việc
    ↓
-Create Skill
+Viết Skill
    ↓
 SKILL.md
    ↓
-Test
+Dùng thử
    ↓
-Sửa instructions
+Sửa hướng dẫn
    ↓
-Install
+Cài đặt nếu cần
    ↓
 Dùng trong ChatGPT
    ↓
@@ -480,13 +461,13 @@ Tiếp tục chỉnh sửa / chia sẻ
 Một quy trình thực tế nên là:
 
 1. Chọn một công việc bạn thực hiện thường xuyên.
-2. Xác định rõ WHEN, INPUT, PROCESS, RULES, OUTPUT và QUALITY CHECK.
+2. Xác định rõ KHI NÀO DÙNG, THÔNG TIN CẦN, CÁCH LÀM, QUY TẮC, KẾT QUẢ và TỰ KIỂM TRA.
 3. Viết phiên bản đầu tiên của `SKILL.md`.
-4. Test với nhiều tình huống thực tế.
+4. Dùng thử với nhiều tình huống thực tế.
 5. Ghi lại những lỗi hoặc kết quả không mong muốn.
 6. Bổ sung/chỉnh sửa instructions.
-7. Test lại.
-8. Khi Skill đã ổn định, sử dụng nó như một workflow tái sử dụng.
+7. Dùng thử lại.
+8. Khi Skill đã ổn định, sử dụng nó như một cách làm tái sử dụng.
 
 ### Checklist nhanh trước khi hoàn thành Skill
 
@@ -495,7 +476,7 @@ Một quy trình thực tế nên là:
 - [ ] Input cần thiết đã được xác định chưa?
 - [ ] Quy trình có thứ tự rõ ràng không?
 - [ ] Có quy định những điều ChatGPT không được tự suy đoán không?
-- [ ] Output có format cụ thể không?
+- [ ] Kết quả có định dạng cụ thể không?
 - [ ] Có bước quality check không?
 - [ ] Đã test với trường hợp bình thường chưa?
 - [ ] Đã test với trường hợp thiếu dữ liệu chưa?
@@ -507,11 +488,8 @@ Một quy trình thực tế nên là:
 
 Các tài liệu OpenAI liên quan đã được đề cập trong hướng dẫn ban đầu:
 
-- Skills in ChatGPT: https://help.openai.com/en/articles/20001066-skills-in-chatgpt
-- Plugins in ChatGPT: https://help.openai.com/en/articles/20001256-plugins-in-chatgpt
 - OpenAI Developers — Skills concepts: https://developers.openai.com/plugins/concepts/skills
 - OpenAI Developers — Build skills: https://developers.openai.com/plugins/build/skills
-- OpenAI Academy — Skills: https://openai.com/academy/skills/
 
 > Các tính năng, vị trí menu và phạm vi tài khoản hỗ trợ có thể thay đổi theo thời gian. Khi triển khai thực tế, nên kiểm tra tài liệu OpenAI mới nhất.
 
@@ -531,7 +509,7 @@ description: Mô tả ngắn gọn Skill làm gì và khi nào nên sử dụng.
 
 Mô tả mục tiêu chính của Skill.
 
-# WHEN
+# KHI NÀO DÙNG
 
 Sử dụng Skill này khi:
 - ...
@@ -540,29 +518,29 @@ Sử dụng Skill này khi:
 Không sử dụng khi:
 - ...
 
-# INPUT
+# THÔNG TIN CẦN
 
 Thông tin cần thiết:
 - ...
 - ...
 
-Nếu thiếu input bắt buộc:
+Nếu thiếu thông tin đầu vào bắt buộc:
 - Hỏi người dùng trước khi tiếp tục.
 
-# PROCESS
+# CÁCH LÀM
 
 1. ...
 2. ...
 3. ...
 4. ...
 
-# RULES
+# QUY TẮC
 
 - Không tự bịa dữ liệu.
 - Không suy đoán thông tin quan trọng khi chưa có bằng chứng.
 - ...
 
-# OUTPUT
+# KẾT QUẢ
 
 ## Phần 1
 ...
@@ -573,7 +551,7 @@ Nếu thiếu input bắt buộc:
 ## Phần 3
 ...
 
-# QUALITY CHECK
+# TỰ KIỂM TRA
 
 Trước khi hoàn thành:
 - Kiểm tra ...

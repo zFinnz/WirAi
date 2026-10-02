@@ -3,6 +3,9 @@
 > **Dùng khi:** mỗi phòng tự mua một phần mềm, đơn sàn phải nhập tay vào kế toán, cùng một danh sách khách nằm ở ba nơi không khớp, chi phí phần mềm mỗi năm không ai cộng lại, hoặc lãnh đạo hỏi "nên thay gì trước" mà không có bức tranh tổng.
 > **Kết quả:** bản đồ phần mềm theo phòng ban và theo lớp, bảng chi phí tổng, sơ đồ luồng dữ liệu và điểm nhập liệu lặp, danh sách chồng chéo, thiếu hụt, rủi ro, lộ trình thay thế hoặc bổ sung 12 tháng theo quý kèm tiêu chí chọn phần mềm.
 > **Không dùng khi:** cần lộ trình ứng dụng AI (dùng LD-04), cần nối hai công cụ cụ thể để tự động hóa một việc (OPS-06), cần thẩm định một khoản đầu tư phần mềm lớn (FIN-07), cần chọn và chấm điểm nhà cung cấp phần mềm (KHO-04), hoặc cần chính sách sử dụng CNTT (IT-01).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp.
+> AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +20,7 @@
 - Điểm đau lớn nhất nhân viên than phiền: [ĐIỀN: ví dụ "nhập đơn sàn vào MISA mất 2 giờ mỗi ngày", "không biết tồn kho thật khi khách hỏi"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không đổi phần mềm kế toán trong năm nay", "không dùng phần mềm không có hỗ trợ tiếng Việt"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +40,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Danh sách phần mềm theo phòng?** Mỗi phòng đang dùng gì cho việc gì, bao nhiêu người dùng, trả bao nhiêu mỗi tháng hoặc năm, hợp đồng hết hạn khi nào, ai quản lý? Thiếu số nào ghi để đánh dấu.
 2. **Dữ liệu chảy thế nào?** Một đơn hàng từ sàn, từ cửa hàng, từ đại lý đi qua những phần mềm nào cho đến khi ra hóa đơn và báo cáo? Chỗ nào nhập tay lại, mất bao lâu mỗi ngày? Danh sách sản phẩm và khách nằm ở mấy nơi?
 3. **Điểm đau và mục tiêu?** Việc gì đang chậm, sai, hoặc không nhìn thấy? Mục tiêu 12 tháng (mở đại lý, tăng kênh sàn, thêm kho) cần công nghệ hỗ trợ gì? Đã có kế hoạch thay hoặc mua gì chưa?
 4. **Ràng buộc?** Ngân sách, nhân sự IT, mức sẵn sàng thay đổi của nhân viên, phần mềm nào không được đụng (ví dụ kế toán đang khóa sổ), và người đọc kết quả là giám đốc hay trưởng phòng.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Vẽ hiện trạng trung thực trước khi đề xuất.** Kể cả Excel trên máy cá nhân, Zalo nhóm, sổ tay cũng là "hệ thống" nếu nó giữ dữ liệu nghiệp vụ. Bản đồ thiếu chúng là bản đồ sai.
 3. **Mỗi công cụ gắn một việc, một chủ, một chi phí.** Công cụ không gán được chủ hoặc việc thì vào danh sách cắt.
 4. **Phân lớp để nhìn chồng chéo:** hạ tầng và văn phòng, vận hành lõi (kế toán, bán hàng, kho, mua hàng), bán hàng và marketing (sàn, mạng xã hội, quảng cáo, chăm sóc khách), nhân sự, bảo mật và sao lưu. Hai công cụ cùng lớp cùng việc là chồng chéo cần quyết định.
@@ -84,7 +87,7 @@ Ngân sách công nghệ tham khảo cho công ty thương mại vừa và nhỏ
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Ban-do-phan-mem-lo-trinh-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Ban-do-phan-mem-lo-trinh-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho lãnh đạo
 
@@ -153,7 +156,7 @@ Kết thúc bằng **5 việc cần làm trong 30 ngày**, và gợi ý skill ti
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: danh sách phần mềm theo phòng, luồng dữ liệu, điểm đau và mục tiêu, ràng buộc.
-- [ ] Đã tóm tắt bối cảnh và chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng có mẫu bảng hoặc báo cáo sẵn, kết quả bám đúng mẫu đó.
 - [ ] Bản đồ gồm cả Excel, Zalo, sổ tay nếu chúng giữ dữ liệu nghiệp vụ.
 - [ ] Mỗi công cụ có việc, chủ, chi phí; có dòng tổng chi phí năm và tỉ lệ trên doanh thu.

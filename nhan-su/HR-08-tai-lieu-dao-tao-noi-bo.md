@@ -3,6 +3,7 @@
 > **Dùng khi:** cần giáo trình đào tạo nhân viên mới về sản phẩm, quy trình, công cụ; cần dạy một kỹ năng mới cho đội (xử lý từ chối, chăm sóc khách qua Zalo, kiểm kê kho); kiến thức đang nằm trong đầu người cũ và việc kèm người mới tốn quá nhiều thời gian; hoặc cần đo một khóa đã dạy có hiệu quả không.
 > **Kết quả:** bản tóm tắt khóa học, mục tiêu học đo được, đề cương theo bài ngắn, bài 1 viết hoàn chỉnh, hướng dẫn cho người đứng lớp, bài tập và bài kiểm tra có đáp án, bản tra cứu nhanh, kế hoạch triển khai và bộ biểu mẫu đo hiệu quả 4 cấp.
 > **Không dùng khi:** cần văn bản hóa quy trình chuẩn trước (OPS-01), cần kế hoạch hội nhập tổng thể (HR-05), cần kế hoạch đào tạo cả năm và ngân sách (HR-13), hoặc cần xây kho tri thức để lưu trữ (OPS-07).
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +18,7 @@
 - Thời gian học có thể dành: [ĐIỀN: ví dụ "30 phút mỗi ngày trong tuần đầu, sau đó 1 giờ mỗi tuần"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không dùng ví dụ có tên khách thật", "không ghi mức chiết khấu nội bộ vào tài liệu"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Dạy chủ đề gì, cho ai?** Vị trí, số người, trình độ hiện tại, họ đã biết gì và hay sai ở đâu.
 2. **Học xong phải làm được gì?** 3 đến 5 việc cụ thể, đo được. Nếu người dùng nói "hiểu về sản phẩm", hỏi "hiểu để làm gì: tư vấn, báo giá hay xử lý khiếu nại". Chỉ số công việc nào muốn thay đổi sau khóa?
 3. **Nguồn nội dung có gì?** Quy trình, bảng giá, bản ghi âm, video, hoặc tên người giỏi nhất việc này để phỏng vấn. Thiếu nguồn thì bạn viết khung và đánh dấu chỗ cần chuyên gia nội bộ điền.
 4. **Hình thức và thời lượng?** Tự học qua tài liệu, học trực tiếp có người dạy, video, hay kết hợp; tổng bao nhiêu giờ, chia bao nhiêu buổi; ai đứng lớp.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mục tiêu học viết bằng động từ hành động, đo được.** Công thức: sau khóa, học viên [động từ] [nội dung] [điều kiện] [mức đạt]. "Báo giá đúng cho 5 tình huống thường gặp trong 10 phút không cần hỏi quản lý" thay vì "nắm được bảng giá". Dùng thang Bloom bên dưới để chọn mức.
 3. **Chia thành bài 5 đến 10 phút**, mỗi bài một ý chính, một ví dụ thật, một bài tập. Khóa học là chuỗi bài, không phải một tài liệu dài.
 4. **Mỗi bài có ít nhất một ví dụ từ chính công ty**: đơn hàng thật đã ẩn tên, tin nhắn khách thật đã ẩn danh, lỗi thật đã xảy ra. Không có thì ghi `[cần bổ sung: ví dụ thật từ tên người]`, không bịa, không để trống.
@@ -105,7 +106,7 @@ Nếu làm trình chiếu: mỗi trang một ý, tối đa 6 dòng, mỗi dòng 
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Dao-tao-[chu-de]-[doi-tuong]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Dao-tao-[chu-de]-[doi-tuong]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt khóa học cho quản lý
 

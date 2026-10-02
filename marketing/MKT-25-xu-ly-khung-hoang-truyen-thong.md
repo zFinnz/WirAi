@@ -3,6 +3,8 @@
 > **Dùng khi:** thương hiệu đang bị tấn công trên mạng, một bài tố cáo hoặc đánh giá 1 sao đang lan rộng, chiến dịch vừa đăng gây phản ứng xấu, báo chí hỏi, đại lý và khách doanh nghiệp gọi hỏi "có chuyện gì"; hoặc chưa có chuyện gì nhưng cần một quy trình sẵn để khi xảy ra không ai phải tranh luận ai được nói.
 > **Kết quả:** bảng phân cấp 5 mức, quy trình 4 giờ đầu và 7 ngày tiếp theo, đội ứng phó và ai được phát ngôn, mẫu phản hồi theo loại sự việc, danh sách việc tuyệt đối không làm, bảng theo dõi và hậu kiểm.
 > **Không dùng khi:** một khiếu nại đơn lẻ chưa lan rộng (dùng CS-02), xử lý đánh giá xấu thường ngày trên sàn và Google (CS-10), chiến dịch kém về số liệu chứ không gây phản ứng (MKT-12), phân tích phản hồi khách hàng để tìm vấn đề (CS-04), hoặc sự cố vận hành nội bộ như kho, giao hàng chưa lộ ra ngoài (skill vận hành).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +19,7 @@
 - Rủi ro đặc thù ngành: [ĐIỀN: ví dụ "an toàn thực phẩm, công bố sản phẩm, quảng cáo công dụng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không bình luận về vụ kiện đang diễn ra", "không nêu tên đối tác"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,7 +39,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Đang xảy ra hay chuẩn bị sẵn?** Nếu đang xảy ra: chuyện gì, bắt đầu từ kênh nào, lúc mấy giờ, hiện có bao nhiêu lượt xem, chia sẻ, bình luận, đã nhảy sang kênh khác hay báo chí chưa?
 2. **Nguồn gốc và sự thật?** Từ một khách hàng, người có ảnh hưởng, đối thủ, nhân viên cũ, hay báo chí? Nội dung họ nêu đúng, sai hay đúng một phần? Công ty có bằng chứng gì?
@@ -46,19 +48,19 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu đang xảy ra và thiếu thông tin: xuất ngay mẫu "xác nhận đang kiểm tra" ở 4.5, kèm giờ hẹn cập nhật, rồi mới hỏi tiếp.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Phân cấp trước khi làm gì khác.** Mọi hành động, người xử lý, thời hạn phụ thuộc vào cấp. Cấp 3 trở lên bắt buộc báo giám đốc, không tự xử lý.
 3. **Chỉ phản hồi bằng sự thật đã kiểm chứng.** Điều chưa chắc thì nói "đang kiểm tra" và hẹn giờ. Không hứa đền bù hoặc hành động chưa chắc làm được. Chỗ thiếu dữ liệu ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo ở bảng dưới ghi rõ là giả định.
 4. **Kéo tranh luận công khai vào kênh riêng.** Trả lời công khai một lần ngắn, thừa nhận và mời liên hệ riêng; xử lý chi tiết qua tin nhắn, điện thoại, gặp trực tiếp.
 5. **Viết nháp, chờ 30 phút, đọc lại, rồi gửi.** Không phản hồi khi đang nóng. Từ cấp 2 trở lên, mọi phản hồi công khai phải qua người duyệt; duyệt trong 1 giờ, không qua 3 cấp.
 6. **Thông điệp nội bộ đi trước thông điệp công khai 15 phút.** Nhân viên bán hàng, chăm sóc khách hàng, đại lý nhận một mẫu trả lời thống nhất trước khi khách hỏi họ.
-7. **Tôn trọng pháp lý, không dọa pháp lý vội.** Lưu bằng chứng theo cách dùng được sau này; tham vấn luật sư ở cấp 4 và 5 trước khi phát ngôn; không công bố thông tin cá nhân của người phản ánh (Nghị định 13/2023 về bảo vệ dữ liệu cá nhân); yêu cầu cải chính với báo chí theo Luật Báo chí chỉ khi có căn cứ và sau khi luật sư xem. Mọi nội dung pháp lý ghi "cần luật sư duyệt".
+7. **Tôn trọng pháp lý, không dọa pháp lý vội.** Lưu bằng chứng theo cách dùng được sau này; tham vấn luật sư ở cấp 4 và 5 trước khi phát ngôn; không công bố thông tin cá nhân của người phản ánh (Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về bảo vệ dữ liệu cá nhân); yêu cầu cải chính với báo chí theo Luật Báo chí chỉ khi có căn cứ và sau khi luật sư xem. Mọi nội dung pháp lý ghi "cần luật sư duyệt".
 8. **Kết thúc bằng hậu kiểm.** Khủng hoảng nào không có bài học ghi lại sẽ lặp lại.
 
 ### Phân cấp khủng hoảng (dùng khi chưa có quy định nội bộ, ghi rõ là giả định cần chốt với lãnh đạo)
@@ -84,7 +86,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Xu-ly-khung-hoang-[ten-su-viec]-[ngay-gio].md` khi đang xảy ra, hoặc `Quy-trinh-khung-hoang-[cong-ty]-[thang-nam].md` khi chuẩn bị sẵn.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Xu-ly-khung-hoang-[ten-su-viec]-[ngay-gio].md` khi đang xảy ra, hoặc `Quy-trinh-khung-hoang-[cong-ty]-[thang-nam].md` khi chuẩn bị sẵn.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -147,7 +149,7 @@ trình bày bình tĩnh sự thật kèm bằng chứng kiểm chứng được,
 người đăng, không nêu tên cá nhân, ghi rõ kênh chính thức để đối chiếu.
 ```
 
-Các loại khác cần có mẫu: sản phẩm lỗi hoặc an toàn (kèm hướng dẫn ngừng dùng, đổi trả theo CS-07), nhân viên vi phạm, rò rỉ dữ liệu khách (thông báo theo Nghị định 13/2023, cần luật sư), sự cố từ đại lý hoặc đơn vị giao hàng.
+Các loại khác cần có mẫu: sản phẩm lỗi hoặc an toàn (kèm hướng dẫn ngừng dùng, đổi trả theo CS-07), nhân viên vi phạm, rò rỉ dữ liệu khách (thông báo theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP, cần luật sư), sự cố từ đại lý hoặc đơn vị giao hàng.
 
 ### 4.6 Danh sách tuyệt đối không làm
 
@@ -173,7 +175,7 @@ Kết thúc bằng **5 việc cần làm trong 24 giờ tới** (nếu đang x�
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: đang xảy ra hay chuẩn bị, nguồn gốc và sự thật, ai đã biết và làm gì, giới hạn phản hồi.
-- [ ] Đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi nói "làm luôn" hoặc đang khẩn cấp, khi đó xuất mẫu xác nhận trước).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng đưa mẫu, kết quả khớp đúng mục, thứ tự và cách xưng hô của mẫu.
 - [ ] Đã phân cấp trước khi đề xuất hành động; cấp 3 trở lên có báo giám đốc.
 - [ ] Có lưu bằng chứng trước khi gỡ; không xóa bình luận chính đáng; không vi phạm danh sách tuyệt đối không làm.

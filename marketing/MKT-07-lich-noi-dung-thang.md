@@ -3,6 +3,8 @@
 > **Dùng khi:** cần lịch đăng bài cả tháng cho nhiều kênh; đội đang đăng theo cảm hứng, tuần có tuần không; hoặc sắp có chiến dịch, ra mắt, mùa cao điểm cần sắp xếp nội dung trước.
 > **Kết quả:** trụ cột nội dung và tỉ lệ, ma trận ý tưởng kèm kho ý tưởng dự phòng, lịch theo ngày và khung giờ cho từng kênh với trạng thái chuẩn, ma trận tái sử dụng, bảng kiểm tra cân bằng, nhịp sản xuất lùi ngày và cách tổng kết cuối tháng.
 > **Không dùng khi:** chưa có chân dung khách (MKT-02) hoặc giọng thương hiệu (MKT-05) và muốn làm hai việc đó trước; cần viết bài cụ thể (MKT-08), kịch bản video (MKT-09), hoặc cần lịch khuyến mãi trên sàn (MKT-18).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước; insight = lý do thật phía sau một hành vi của khách, được kiểm tra bằng dữ liệu; brief = bản tóm tắt việc cần làm, người nhận, mục tiêu và yêu cầu bàn giao.
 
 ---
 
@@ -17,7 +19,7 @@
 - Trụ cột nội dung hiện có nếu đã chốt: [ĐIỀN hoặc "chưa có, cần đề xuất"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không đăng giá công khai trên Facebook", "không bắt xu hướng (trend) hài"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,20 +40,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Mục tiêu tháng này?** Tăng người theo dõi, tăng tin nhắn, tăng đơn, ra mắt sản phẩm, hỗ trợ đại lý bán, hay chuẩn bị mùa cao điểm? Chọn 1 mục tiêu chính.
 2. **Kênh nào và tần suất thực tế đội làm được?** Mỗi kênh bao nhiêu bài mỗi tuần, có quay video được không, có người xuất hiện trước máy không, ai viết, ai thiết kế, ai duyệt và duyệt trong bao lâu?
 3. **Có thấu hiểu khách hàng (insight) và trụ cột chưa?** Nếu có MKT-02, dán 3 insight và kho ngôn ngữ. Nếu đã có trụ cột, dán; chưa có thì bạn đề xuất.
 4. **Dịp đặc biệt trong tháng?** Ra mắt, khuyến mãi, lịch chương trình của sàn, ngày lễ, sự kiện ngành, họp đại lý. Có nội dung cũ hiệu quả cần làm lại không? Có câu hỏi khách hay hỏi để làm bài không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **3 đến 5 trụ cột, mỗi trụ cột có định nghĩa, 3 góc nhìn, định dạng phù hợp và tầng phễu.** Trụ cột là chủ đề lớn mà công ty có thẩm quyền nói. Không chồng chéo.
 3. **Tỉ lệ trụ cột và tầng phễu đi theo mục tiêu tháng** (bảng dưới). Phễu mặc định: nhận biết 40%, cân nhắc 35%, chuyển đổi 15%, giữ chân 10%; tháng có khuyến mãi lớn được đẩy chuyển đổi lên 25% nhưng không hơn. Lệch quá 10 điểm so với kế hoạch thì điều chỉnh tuần sau.
 4. **Trộn nguồn nội dung:** từ công ty 30 đến 35%, từ chủ doanh nghiệp hoặc chuyên gia 25 đến 30%, từ khách hàng 20 đến 25%, từ nhân viên 10 đến 15%. Nội dung từ khách và nhân viên tạo tin cậy cao hơn nội dung thương hiệu.
@@ -87,7 +89,7 @@ Mùa cao điểm: Tết (tháng 1 đến 2) lên lịch trước 2 đến 3 tu�
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Lich-noi-dung-[thang-nam].md`. Bảng lịch viết dạng bảng Markdown để dán thẳng vào Google Sheets.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Lich-noi-dung-[thang-nam].md`. Bảng lịch viết dạng bảng Markdown để dán thẳng vào Google Sheets.
 
 ### 4.1 Tóm tắt cho quản lý
 

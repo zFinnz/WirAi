@@ -3,6 +3,8 @@
 > **Dùng khi:** tồn trên sổ không khớp tồn thực tế, giao sai hàng cho khách, hàng hết hạn nằm trong kho mà không ai biết, hoặc cần chuẩn hóa nhận hàng, xuất hàng, kiểm kê xoay vòng và xử lý chênh lệch để nhân viên kho mới làm theo được.
 > **Kết quả:** bộ quy trình nhập kho, xuất kho, kiểm kê kèm mẫu phiếu, nguyên tắc nhập trước xuất trước (FIFO) và hết hạn trước xuất trước (FEFO), bảng chỉ số đo lường hiệu quả (KPI) kho và lộ trình áp dụng 4 tuần.
 > **Không dùng khi:** cần tính tồn an toàn, điểm đặt hàng lại, phân loại ABC (dùng KHO-02), cần quy trình mua hàng và duyệt chi (KHO-03), cần tiêu chuẩn kiểm tra chất lượng đầu vào chi tiết (SP-03), hoặc theo dõi tài sản, công cụ dụng cụ (KHO-05).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; KPI = chỉ số đo kết quả công việc; SKU = mã riêng để quản lý một loại hàng.
+> **Từ ngữ bổ sung:** PO = đơn đặt hàng.
 
 ---
 
@@ -17,7 +19,7 @@
 - Điều kiện bảo quản đặc biệt: [ĐIỀN: ví dụ "hàng dễ vỡ", "cần tránh ẩm", "không áp dụng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không xuất hàng khi chưa có phiếu duyệt", "không dùng thiết bị quét mã"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phạm vi cần chuẩn hóa?** Nhập kho, xuất kho, kiểm kê hay cả ba? Cho kho nào? Có cần tách quy trình cho hàng B2C đơn lẻ và hàng B2B theo lô không?
 2. **Hiện trạng và lỗi hay gặp?** Hàng về được kiểm thế nào, ai nhập dữ liệu, bao lâu sau khi hàng về thì sổ được cập nhật? Lỗi lặp lại nhiều nhất: chênh lệch kiểm kê, giao sai mã, giao thiếu, hàng hết hạn, hàng hỏng do xếp sai?
 3. **Đặc thù hàng hóa?** Có hạn sử dụng, số lô, số seri không? Hàng cồng kềnh, dễ vỡ, giá trị cao? Khoảng bao nhiêu phiếu nhập, phiếu xuất mỗi ngày? Kết quả kiểm kê gần nhất lệch bao nhiêu phần trăm?
 4. **Người đọc và công cụ?** Quy trình để nhân viên kho dán lên tường làm theo, hay để trình giám đốc duyệt? Có máy in phiếu, máy quét mã vạch (barcode) không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mỗi bước có người làm, chứng từ và thời hạn.** Bước nào không gán được người chịu trách nhiệm thì gộp hoặc bỏ. Thời hạn ghi bằng giờ hoặc ngày, không ghi "sớm nhất có thể".
 3. **Cập nhật hệ thống trong ngày phát sinh.** Phiếu nhập, phiếu xuất phải vào phần mềm hoặc bảng tính trước khi hết ca. Hàng về chiều tối chưa kịp kiểm thì ghi nhận "chờ kiểm", không để ngoài sổ.
 4. **FIFO là mặc định, FEFO bắt buộc với hàng có hạn sử dụng.** Mỗi vị trí kho có mã địa chỉ (dãy, kệ, tầng, ô) để xuất đúng lô, không dựa vào trí nhớ nhân viên.
@@ -84,7 +86,7 @@ Hàng có hạn sử dụng dưới 90 ngày hoặc hàng giá trị cao, dễ m
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Dùng tiêu đề, bảng và danh sách. Tên tài liệu: `Quy-trinh-kho-[ten-kho]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Dùng tiêu đề, bảng và danh sách. Tên tài liệu gợi ý: `Quy-trinh-kho-[ten-kho]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -160,7 +162,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**, và gợi ý ski
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: phạm vi, hiện trạng và lỗi hay gặp, đặc thù hàng, người đọc và công cụ.
-- [ ] Đã tóm tắt bối cảnh và chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng có mẫu phiếu hoặc quy trình sẵn, kết quả bám đúng mẫu đó.
 - [ ] Mỗi bước có người làm, chứng từ và thời hạn cụ thể bằng giờ hoặc ngày.
 - [ ] Luồng xuất B2C và B2B tách riêng nếu công ty có cả hai.

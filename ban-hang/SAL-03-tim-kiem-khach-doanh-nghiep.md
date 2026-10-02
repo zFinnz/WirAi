@@ -3,6 +3,8 @@
 > **Dùng khi:** đội kinh doanh cần danh sách khách doanh nghiệp, đại lý hoặc nhà phân phối để chủ động tiếp cận, hoặc danh sách hiện có toàn số điện thoại rác, không biết ai đáng gọi.
 > **Kết quả:** chân dung khách lý tưởng kèm thẻ người quyết định, bản đồ nguồn tìm kiếm phù hợp với Việt Nam, bảng danh sách có nguồn và ngày kiểm chứng, phân nhóm nóng, ấm, lạnh, và 3 đến 5 khách nên chạm trước.
 > **Không dùng khi:** cần viết nội dung tin nhắn hoặc email tiếp cận (dùng SAL-04), cần chấm điểm khách đã tự tìm đến (SAL-02), hoặc cần tuyển đại lý theo chính sách (SAL-11).
+> **Từ ngữ:** CRM = bảng hoặc phần mềm quản lý thông tin khách hàng.
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp.
 
 ---
 
@@ -17,7 +19,7 @@
 - Công cụ lưu danh sách: [ĐIỀN: ví dụ "Google Sheet", tên phần mềm quản lý quan hệ khách hàng (CRM)]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không mua dữ liệu không rõ nguồn", "không tiếp cận khách của đại lý đang hợp tác"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -31,26 +33,26 @@ Tư duy nền:
 - Hợp chân dung chỉ là lý do đưa vào danh sách; tín hiệu mua mới là lý do gọi hôm nay.
 - Chân dung đúng nhất đến từ khách tốt nhất đang có, không phải từ khách lý tưởng trong đầu. Nhìn vào 20% khách mang lại 80% doanh thu trước.
 - Không bịa tên người, số điện thoại, email. Chưa tìm được thì để trống và ghi "chưa kiểm chứng".
-- Dữ liệu cá nhân phải có nguồn gốc rõ ràng theo Nghị định 13/2023 về bảo vệ dữ liệu cá nhân. Lấy từ trang công khai của chính doanh nghiệp, không mua danh sách trôi nổi.
+- Dữ liệu cá nhân phải có nguồn gốc rõ ràng theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về bảo vệ dữ liệu cá nhân. Lấy từ trang công khai của chính doanh nghiệp, không mua danh sách trôi nổi.
 
 ---
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Bán cho ai và vì sao họ mua?** Ngành, quy mô, khu vực của khách lý tưởng; vấn đề có ngân sách mà sản phẩm giải quyết. Nếu có khách tốt nhất hiện tại, mô tả 2 đến 3 khách đó: họ giống nhau ở đâu, ai là người quyết định, vì sao họ ở lại lâu.
 2. **Cần bao nhiêu khách và trong bao lâu?** Số lượng mục tiêu (mặc định 25 khách doanh nghiệp, 15 cửa hàng địa phương), thời hạn, bao nhiêu nhân viên sẽ gọi.
 3. **Tín hiệu mua nào quan trọng nhất với ngành mình?** Mở chi nhánh, tuyển người, đổi nhà cung cấp, vừa nhận dự án, mùa vụ, thay đổi quy định.
 4. **Đang có nguồn nào rồi?** Danh sách cũ, khách của đối tác, hội viên hiệp hội, danh bạ hội chợ, công cụ tra cứu đã mua. Có cái gì thì dùng làm nền trước.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chân dung khách lý tưởng (Ideal Customer Profile, ICP) phải viết thành tiêu chí có hoặc không trước khi tìm.** Ngành, quy mô, khu vực, giai đoạn phát triển, mức số hóa, tín hiệu mua, người quyết định, tiêu chí loại. Tìm khi chưa có ICP là tìm sai từ đầu. Nếu có thể, phỏng vấn 5 đến 10 khách thật trước khi chốt ICP; chưa làm được thì ghi là giả định.
 3. **Chọn một nhánh chính trước khi tìm.** Doanh nghiệp vừa và lớn, cửa hàng và cơ sở địa phương, hay công ty công nghệ. Mỗi nhánh có nguồn và tín hiệu khác nhau, không trộn tiêu chí.
 4. **Tìm rộng gấp 2 đến 3 lần số cần**, vì bước kiểm chứng sẽ loại rất mạnh.
@@ -83,7 +85,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Danh-sach-khach-doanh-nghiep-[nganh-khu-vuc]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Danh-sach-khach-doanh-nghiep-[nganh-khu-vuc]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 

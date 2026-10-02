@@ -3,6 +3,9 @@
 > **Dùng khi:** đội chăm sóc trả lời đi trả lời lại cùng vài chục câu hỏi về giá, phí vận chuyển, đổi trả, giờ mở cửa, cách dùng, và muốn tự động hóa phần lặp lại trên Zalo OA, tin nhắn Facebook, website hoặc trả lời tự động trên chat sàn, để người thật lo ca khó.
 > **Kết quả:** hồ sơ trợ lý ảo, bộ câu hỏi thường gặp (Frequently Asked Questions, FAQ) theo nhóm với câu trả lời chuẩn, sơ đồ luồng hội thoại, quy tắc chuyển sang người thật, lời nhắc hệ thống dán được vào công cụ chatbot, bộ câu kiểm thử và nhịp cải tiến.
 > **Không dùng khi:** cần quy trình và tiêu chuẩn cho người thật (dùng CS-01), cần kịch bản khiếu nại, hoàn tiền, khách giận (CS-02), cần soạn chính sách đổi trả, bảo hành để bot trích dẫn (CS-07), hoặc cần kịch bản tư vấn chốt đơn cho nhân viên bán hàng (SAL-05).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp; OA = tài khoản Zalo chính thức của doanh nghiệp; FAQ = các câu hỏi thường gặp.
+> **Từ ngữ bổ sung:** B2C = bán cho người tiêu dùng.
+> CSKH = chăm sóc khách hàng; AI = trí tuệ nhân tạo.
 
 ---
 
@@ -18,7 +21,7 @@
 - Người quản lý kho tri thức và duyệt câu trả lời: [ĐIỀN: ví dụ "trưởng nhóm CSKH, rà mỗi tuần"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "bot không báo giá sỉ", "không tư vấn liều dùng", "không hứa ngày giao"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,7 +41,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Có dữ liệu câu hỏi thật không?** Dán 100 đến 300 tin nhắn gần nhất (đã bỏ thông tin cá nhân), hoặc liệt kê 15 đến 20 câu hay gặp nhất theo ước lượng của nhân viên chăm sóc và nhân viên bán hàng (lấy từ sổ tay bán hàng SAL-13 nếu có).
 2. **Kênh và công cụ?** Bot chạy ở đâu, công cụ nào, có nối được với dữ liệu đơn hàng hay chỉ trả lời theo kịch bản cố định?
@@ -47,13 +50,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng dán tin nhắn thật, gom thành nhóm ý định trước và trình bày bảng tần suất rồi mới viết câu trả lời.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Gom theo ý định (intent), không theo câu chữ.** "Ship bao nhiêu", "phí giao hàng sao", "có freeship không" là một ý định. Mỗi ý định có 3 đến 5 cách hỏi mẫu, gồm cả sai chính tả, viết tắt, tiếng lóng, phương ngữ.
 3. **Quy tắc 80/20.** Thường 10 đến 15 ý định chiếm 80% tin nhắn. Bot chỉ phục vụ nhóm này thật tốt; phần còn lại chuyển người. Không cố làm bot biết mọi thứ.
 4. **Chỉ trả lời trong kho tri thức, không bịa.** Mỗi câu trả lời có nguồn (chính sách, bảng giá, người xác nhận) và ngày cập nhật. Không có trong kho thì dùng câu dự phòng và chuyển người. Khi soạn mà thiếu số thật (phí, thời gian giao, thời hạn đổi trả), ghi `[cần bổ sung: mô tả dữ liệu cần]` ngay trong câu trả lời để người quản lý điền, không tự đặt số và không để trống.
@@ -61,7 +64,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 6. **Một nguồn sự thật cho giá và chính sách.** Giá, phí, thời hạn chỉ sửa ở một nơi; khi mâu thuẫn, ưu tiên bản mới nhất và báo người quản lý kho tri thức.
 7. **Dấu hiệu đỏ chuyển người ngay.** Từ ngữ tiêu cực, khiếu nại, hỏi hoàn tiền, nhắc đến kiện hoặc lừa đảo, khách hỏi lại cùng ý 2 lần, hoặc yêu cầu ngoài phạm vi. Bot xin lỗi ngắn và nói rõ người thật sẽ phản hồi trong bao lâu.
 8. **Khách B2B: bot chỉ ghi nhận và hẹn người.** Hỏi tên, công ty, số điện thoại, nhu cầu, số lượng dự kiến; không báo giá sỉ, không nói chiết khấu, chuyển nhân viên kinh doanh trong giờ làm việc.
-9. **Thu thập thông tin cá nhân đúng mức.** Chỉ hỏi thông tin cần cho việc đang xử lý, nói rõ dùng để làm gì, không lưu ngoài hệ thống công ty. Tuân thủ Nghị định 13/2023 về bảo vệ dữ liệu cá nhân; chi tiết cần người phụ trách pháp lý xác nhận (PL-03).
+9. **Thu thập thông tin cá nhân đúng mức.** Chỉ hỏi thông tin cần cho việc đang xử lý, nói rõ dùng để làm gì, không lưu ngoài hệ thống công ty. Tuân thủ Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về bảo vệ dữ liệu cá nhân; chi tiết cần người phụ trách pháp lý xác nhận (PL-03).
 
 ### Nhóm ý định phổ biến với bán lẻ qua tin nhắn (tỉ lệ giả định, dùng khi thiếu dữ liệu thật)
 
@@ -90,7 +93,9 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `FAQ-chatbot-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `FAQ-chatbot-[cong-ty]-[thang-nam].md`.
+
+**Thứ tự trả lời:** Đặt các câu trả lời công khai hoặc nội dung chatbot lên đầu khi người dùng hỏi về một nhóm câu hỏi. Phần cấu hình và chuyển cho người thật để sau.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -180,7 +185,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý: ph�
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: dữ liệu câu hỏi thật, kênh và công cụ, phạm vi bot, giọng và nhân cách; đã tóm tắt và được xác nhận phương án trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: dữ liệu câu hỏi thật, kênh và công cụ, phạm vi bot, giọng và nhân cách.
 - [ ] Nếu người dùng có mẫu FAQ hoặc kịch bản bot riêng, kết quả bám đúng mẫu đó.
 - [ ] Câu hỏi gom theo ý định, mỗi ý định có 3 đến 5 cách hỏi gồm sai chính tả và viết tắt.
 - [ ] Mỗi câu trả lời dưới 3 dòng, có bước tiếp theo, có nguồn và ngày cập nhật.

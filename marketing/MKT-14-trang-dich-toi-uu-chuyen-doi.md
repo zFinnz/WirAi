@@ -3,6 +3,8 @@
 > **Dùng khi:** cần xây trang đích (landing page) hoặc trang bán hàng mới; trang đang có nhiều người vào mà không ra đơn, không ai điền form; hoặc chuỗi "nhấp quảng cáo rồi nhắn tin" bị rơi rụng và cần tối ưu bề mặt chuyển đổi.
 > **Kết quả:** với trang mới: cấu trúc từng khối kèm nội dung và yêu cầu kỹ thuật giao được cho người dựng trang; với trang đang chạy: chẩn đoán 7 chiều theo thứ tự tác động, danh sách sửa theo 4 nhóm ưu tiên và bản viết thay thế cho các câu quan trọng.
 > **Không dùng khi:** nghi ngờ lỗi nằm ở quảng cáo chứ không phải trang (dùng MKT-12), cần viết nội dung quảng cáo dẫn về trang (MKT-10), gói bán chưa hấp dẫn (MKT-19), hoặc cần tối ưu trang sản phẩm trên sàn (MKT-18).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** CTA = câu kêu gọi người đọc làm một việc cụ thể; UTM = mã gắn vào đường dẫn để biết khách đến từ đâu.
 
 ---
 
@@ -17,7 +19,7 @@
 - Cách nhận khách tiềm năng: [ĐIỀN: ví dụ "form đổ về Google Sheet, báo Zalo nhóm kinh doanh"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không dùng đếm ngược giả", "không công khai giá B2B"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Xây mới hay sửa trang đang chạy?** Nếu sửa, gửi liên kết hoặc ảnh chụp màn hình trên điện thoại (không phải máy tính). Nếu là luồng nhắn tin, gửi 3 tin đầu nhân viên thường trả lời.
 2. **Mục tiêu chuyển đổi và số hiện tại?** Hành động muốn khách làm, bao nhiêu người vào, bao nhiêu người làm, trong bao lâu, cho nhóm khách B2C hay B2B.
 3. **Khách đến từ đâu?** Quảng cáo Facebook, TikTok, Google, tìm kiếm tự nhiên, người ảnh hưởng, email, Zalo. Gửi kèm nội dung quảng cáo hoặc bài đang dẫn khách về trang.
 4. **Đã sửa gì và kết quả ra sao?** Nếu "sửa xong lại kém hơn", chuyển thẳng sang chế độ hồi quy ở 4.6.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Khớp thông điệp từ nguồn khách vào trang.** Quảng cáo hứa gì thì màn hình đầu phải nói đúng điều đó. Khách từ tìm kiếm cần câu trả lời cho từ họ gõ; khách từ người ảnh hưởng cần bằng chứng xác nhận lời giới thiệu; khách đã biết thương hiệu thì trang càng ngắn càng tốt.
 3. **Tiêu đề nói kết quả, không nói tên sản phẩm.** Công thức: kết quả mong muốn cộng điều kiện hoặc mốc thời gian, tối đa 60 ký tự. Lý do: người lạ đọc màn hình đầu 5 giây.
 4. **Form ưu tiên số điện thoại hoặc Zalo, tối đa 3 trường bắt buộc** với B2C. B2B có thể 4 đến 5 trường (tên, công ty, số điện thoại, nhu cầu) nhưng phải nói rõ điều gì xảy ra sau khi gửi và bao lâu được liên hệ. Mỗi trường thêm vào là bớt một phần tỉ lệ điền.
@@ -85,7 +87,9 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Trang-dich-[ten-trang]-[xay-moi-hoac-chan-doan]-[ngay].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Trang-dich-[ten-trang]-[xay-moi-hoac-chan-doan]-[ngay].md`.
+
+**Thứ tự trả lời:** Nếu người dùng cần viết trang mới, đặt nội dung trang theo thứ tự khách sẽ đọc lên đầu. Phân tích và yêu cầu kỹ thuật để riêng sau đó.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -171,7 +175,7 @@ Bản nháp bố cục duyệt hướng trong 30 phút, bản đầy đủ, gắ
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: xây mới hay sửa, mục tiêu và số hiện tại, nguồn khách, việc đã sửa; đã tóm tắt và xác nhận phương án trước khi xuất bản đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: xây mới hay sửa, mục tiêu và số hiện tại, nguồn khách, việc đã sửa.
 - [ ] Nếu người dùng có biểu mẫu riêng, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu đó.
 - [ ] Phân loại đủ 3 trục; độ khớp thông điệp từ nguồn khách đã kiểm tra.
 - [ ] Trang chỉ có một mục tiêu, một CTA chính, không thanh điều hướng, không liên kết ra ngoài.

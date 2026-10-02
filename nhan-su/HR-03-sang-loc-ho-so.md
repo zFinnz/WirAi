@@ -3,6 +3,8 @@
 > **Dùng khi:** nhận nhiều hồ sơ (CV) cho một vị trí, cần xếp hạng theo mô tả công việc, cần lý do loại rõ ràng để phản hồi ứng viên, hoặc nhiều người cùng sàng lọc mà mỗi người một tiêu chuẩn.
 > **Kết quả:** bảng tiêu chí có trọng số, bảng xếp hạng ứng viên theo trạng thái mời phỏng vấn, dự phòng, loại; phân tích từng người; câu hỏi cần làm rõ; mẫu tin phản hồi; kịch bản gọi sơ tuyển 10 phút.
 > **Không dùng khi:** chưa có mô tả công việc (viết trước bằng HR-01), cần bộ câu hỏi và bảng chấm phỏng vấn (HR-04), hoặc cần kế hoạch tuyển nhiều vị trí (HR-02).
+> **Từ ngữ bổ sung:** CRM = nơi lưu thông tin khách và lịch sử trao đổi; B2B = bán cho doanh nghiệp.
+> CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -16,7 +18,7 @@
 - Số người thường mời phỏng vấn cho một vị trí: [ĐIỀN: ví dụ "5 đến 8 người cho 1 vị trí"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không loại vì tuổi, giới tính, quê quán", "không liên hệ công ty cũ khi chưa được ứng viên đồng ý"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -30,13 +32,13 @@ Tư duy nền:
 - Mục tiêu của sàng lọc là **không bỏ sót người phù hợp**, hơn là loại thật nhanh. Hồ sơ trình bày xấu nhưng kinh nghiệm đúng vẫn phải vào danh sách.
 - Yêu cầu bắt buộc là cổng, không phải điểm. Qua cổng rồi mới chấm điểm.
 - So sánh trong cùng đợt, cùng một bảng tiêu chí. Ứng viên tốt nhất của đợt yếu vẫn có thể chưa đạt ngưỡng; nói rõ thay vì hạ ngưỡng.
-- Tuân thủ Bộ luật Lao động 2019 và Nghị định 13/2023 về bảo vệ dữ liệu cá nhân: không phân biệt đối xử, không chia sẻ hồ sơ ngoài nhóm tuyển dụng, không lưu quá mục đích tuyển.
+- Tuân thủ Bộ luật Lao động 2019 và Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về bảo vệ dữ liệu cá nhân: không phân biệt đối xử, không chia sẻ hồ sơ ngoài nhóm tuyển dụng, không lưu quá mục đích tuyển.
 
 ---
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Mô tả công việc và yêu cầu bắt buộc?** Dán mô tả công việc, hoặc nêu 3 đến 5 yêu cầu không có thì loại và các yêu cầu cần có, điểm cộng.
 2. **Hồ sơ gồm những gì?** Bao nhiêu hồ sơ, dạng văn bản hay ảnh, có kèm thư ứng tuyển hoặc câu trả lời sơ tuyển không? Dán nội dung hoặc tóm tắt từng hồ sơ.
@@ -45,19 +47,19 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu hồ sơ quá nhiều, đề nghị người dùng gửi theo đợt 10 đến 15 hồ sơ và giữ nguyên bảng tiêu chí giữa các đợt.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chốt tiêu chí trước khi đọc hồ sơ đầu tiên.** Rút từ mô tả công việc thành bảng: yêu cầu bắt buộc (cổng), tiêu chí chấm điểm có trọng số, điểm cộng. Dùng đúng một bảng cho cả đợt.
 3. **Chỉ chấm điều có bằng chứng trong hồ sơ.** Mỗi điểm số kèm trích dẫn hoặc tóm tắt chỗ nào trong hồ sơ cho thấy điều đó. "Có vẻ năng động" không phải bằng chứng. Thông tin hồ sơ không có thì ghi `[cần bổ sung: mô tả dữ liệu cần]` hoặc chuyển thành câu hỏi, không bịa, không để trống.
 4. **Dấu hiệu cần làm rõ không phải lý do loại.** Khoảng trống thời gian, nhảy việc, chuyển ngành là câu hỏi cho vòng phỏng vấn, trừ khi mâu thuẫn rõ ràng về thông tin.
 5. **Không phân biệt đối xử.** Không chấm theo giới tính, tuổi, quê quán, hôn nhân, tôn giáo, ngoại hình, trường danh tiếng khi mô tả công việc không yêu cầu có căn cứ. Nếu người dùng yêu cầu, giải thích rủi ro pháp lý và đề xuất tiêu chí thay thế gắn với công việc thật.
-6. **Thành tích có số điểm cao hơn mô tả nhiệm vụ.** "Tăng doanh số khu vực 30% trong 12 tháng" hơn "phụ trách bán hàng khu vực".
-7. **Hồ sơ nghèo thông tin nhưng có từ khóa đắt** thì xếp dự phòng và đề nghị bổ sung hoặc gọi sơ tuyển 10 phút, không loại thẳng. Ứng viên chuyển ngành chấm theo kỹ năng chuyển đổi được: giao tiếp với khách, làm việc với số, kỷ luật quy trình, học công cụ mới.
+6. **Thành tích có bằng chứng rõ điểm cao hơn mô tả nhiệm vụ.** "Tăng doanh số khu vực 30% trong 12 tháng" là bằng chứng mạnh nếu ứng viên nêu được vai trò và cách đo; không phạt người từng làm việc khó lượng hóa bằng một con số.
+7. **Hồ sơ ngắn nhưng nêu đúng kỹ năng hoặc kinh nghiệm bắt buộc** thì xếp vào nhóm cần xác minh và đề nghị bổ sung hoặc gọi sơ tuyển 10 phút, không loại thẳng. Với ứng viên chuyển ngành, xem kỹ năng dùng được ở việc mới: giao tiếp với khách, làm việc với số, theo quy trình, học công cụ mới.
 8. **Mỗi quyết định loại có một lý do ngắn, lịch sự, gửi được cho ứng viên.** Ứng viên bị loại hôm nay có thể là khách hàng hoặc ứng viên phù hợp năm sau.
 9. **Chỉ thu thập dữ liệu cần cho việc sàng lọc.** Không yêu cầu căn cước, ảnh thẻ, thông tin gia đình, tình trạng sức khỏe ở giai đoạn này; không gọi công ty cũ khi chưa được ứng viên đồng ý; hồ sơ không trúng tuyển lưu đúng thời hạn trong bối cảnh rồi xóa.
 
@@ -75,13 +77,13 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 | Điểm | Mô tả |
 |---|---|
-| 1 | Không có bằng chứng hoặc trái với yêu cầu |
+| 1 | Có bằng chứng cho thấy chưa đáp ứng yêu cầu cơ bản |
 | 2 | Có liên quan xa, cần đào tạo nhiều |
 | 3 | Đáp ứng đúng yêu cầu ở mức cơ bản |
 | 4 | Vượt yêu cầu, có ví dụ cụ thể |
 | 5 | Vượt rõ rệt, có số liệu hoặc kết quả kiểm chứng được |
 
-Điểm tổng = tổng (điểm tiêu chí nhân trọng số). Phân loại tham khảo: từ 4,0 mời phỏng vấn ngay; 3,0 đến 3,9 dự phòng; dưới 3,0 loại. Điều chỉnh ngưỡng theo số lượng cần mời.
+Thông tin chưa xuất hiện trong hồ sơ ghi "chưa rõ" và đặt câu hỏi xác minh, không tự chấm 1 điểm. Điểm tổng = tổng (điểm tiêu chí đã có bằng chứng nhân trọng số tương ứng) / tổng trọng số đã chấm; ghi rõ bao nhiêu tiêu chí chưa rõ. Chỉ xếp hạng quyết định khi thông tin cốt lõi đủ để so sánh công bằng; ngưỡng mời phỏng vấn do doanh nghiệp đặt theo yêu cầu công việc và số lượng cần mời.
 
 ### Dấu hiệu cần làm rõ (không tự động loại)
 
@@ -89,7 +91,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 |---|---|
 | Khoảng trống trên 6 tháng | Hỏi lý do ở phỏng vấn, nhiều lý do chính đáng |
 | Đổi việc trên 3 lần trong 2 năm | Hỏi lý do từng lần, xem có mẫu lặp lại không |
-| Ngày tháng mâu thuẫn giữa các mục | Trừ điểm ổn định, hỏi để xác minh |
+| Ngày tháng mâu thuẫn giữa các mục | Hỏi để xác minh trước khi kết luận; có thể là lỗi trình bày |
 | Thành tích chung chung không số | Hỏi "con số cụ thể là gì, bạn đóng góp phần nào" |
 | Ứng tuyển nhiều vị trí khác nhau cùng công ty | Hỏi vị trí thật sự muốn làm |
 | Mức lương mong muốn cao hơn khoảng lương trên 30% | Ghi rõ, trao đổi sớm trước khi mời phỏng vấn |
@@ -99,7 +101,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Sang-loc-[vi-tri]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Sang-loc-[vi-tri]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 

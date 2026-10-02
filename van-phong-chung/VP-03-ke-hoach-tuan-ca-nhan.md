@@ -3,6 +3,8 @@
 > **Dùng khi:** đầu tuần hoặc đầu ngày có quá nhiều việc từ nhiều nguồn (sếp giao, họp, khách, email), không biết làm gì trước, hay bị trễ việc quan trọng vì mải việc gấp, hoặc cần nói với sếp rằng tuần này không kham nổi hết.
 > **Kết quả:** mục tiêu tuần và một ưu tiên số 1, bảng việc xếp theo quan trọng và khẩn cấp có ước lượng giờ, lịch tuần theo khung giờ, danh sách việc cắt, giãn hoặc ủy quyền kèm câu nói mẫu, cảnh báo quá tải.
 > **Không dùng khi:** cần kế hoạch dự án nhiều người và mốc nghiệm thu (dùng OPS-02), cần giao việc cho người khác (OPS-04), cần theo dõi trạng thái đầu việc hằng ngày (VP-05), hoặc cần xây chỉ số cho vị trí (HR-07).
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp.
+> CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +19,7 @@
 - Công cụ lịch và việc đang dùng: [ĐIỀN: ví dụ "Google Calendar, Sheet việc của phòng, Zalo nhóm"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không xếp việc sau 19h", "không hủy họp khách đã hẹn"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Kỳ nào và mục tiêu chính?** Tuần này hay hôm nay? Nếu cuối kỳ chỉ đạt được một việc thì việc đó là gì? Có mốc nào sếp hoặc khách đang chờ?
 2. **Danh sách việc?** Liệt kê mọi việc đang có, kèm hạn (cứng hay mềm), ai giao, ước lượng giờ nếu biết. Có việc nào đã trễ không?
 3. **Thời gian thật có?** Giờ làm việc trong kỳ, trừ họp cố định, trừ khung giờ phải trực (chat, điện thoại). Ngày nào bận hẳn hoặc nghỉ?
 4. **Ràng buộc?** Việc nào phụ thuộc người khác, việc nào có thể nhờ hoặc ủy quyền, việc nào được phép từ chối hoặc lùi? Có mẫu kế hoạch tuần của công ty không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Xếp theo ma trận quan trọng và khẩn cấp** (bảng dưới), không dàn đều. Mỗi việc gán A, B hoặc C. Việc A tối đa 3 mỗi ngày. Chốt một ưu tiên số 1 cho tuần và cho từng ngày.
 3. **Đối chiếu tải bằng số.** Tổng giờ ước lượng của việc A và B không vượt 70 đến 80% giờ thật có. Vượt thì nói rõ vượt bao nhiêu giờ và đề xuất cắt, giãn, ủy quyền cụ thể từng việc, không nói chung "cần sắp xếp lại".
 4. **Chia khối thời gian.** Việc cần tập trung (viết báo cáo, phân tích, soạn hợp đồng) xếp vào khung ít bị ngắt, thường buổi sáng trước giờ cao điểm. Việc vụn (trả lời email, duyệt, gọi điện) gom thành một đến hai khối mỗi ngày. Việc trực (chat, điện thoại) giữ đúng khung đã có.
@@ -82,7 +84,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Ke-hoach-tuan-[ten]-[tuan-so-hoac-ngay].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Ke-hoach-tuan-[ten]-[tuan-so-hoac-ngay].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -152,7 +154,7 @@ Kết thúc bằng **3 việc cần làm ngay**: xác nhận với sếp các vi
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: kỳ và mục tiêu, danh sách việc và hạn, giờ thật có, ràng buộc.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng dán mẫu kế hoạch tuần của công ty, kết quả khớp đúng mục và thứ tự của mẫu.
 - [ ] Có mục tiêu tuần và một ưu tiên số 1 cho tuần và cho từng ngày.
 - [ ] Mỗi việc có nhóm A/B/C/D, ước lượng giờ, hạn; việc A không quá 3 mỗi ngày; không dàn đều.

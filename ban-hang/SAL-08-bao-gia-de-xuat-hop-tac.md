@@ -3,6 +3,8 @@
 > **Dùng khi:** khách doanh nghiệp, đại lý hoặc chuỗi cửa hàng yêu cầu báo giá hoặc đề xuất hợp tác, báo giá hiện tại chỉ là bảng số không ai hiểu, hoặc hay tranh chấp sau ký vì không ghi rõ phạm vi, thanh toán và điều kiện giao.
 > **Kết quả:** quy trình tiếp nhận yêu cầu và kiểm tra biên trước khi báo, báo giá có cấu trúc, đề xuất hợp tác dưới 7 trang, khung hợp đồng nguyên tắc với các điều khoản thương mại cần chốt, bảng điều khoản thanh toán theo mức rủi ro, kịch bản theo dõi và đàm phán sau khi gửi, và việc cần làm sau khi chốt.
 > **Không dùng khi:** cần tài liệu chung không gắn khách cụ thể (dùng SAL-07), cần đàm phán khi khách từ chối giá (SAL-06), hoặc cần chính sách chiết khấu cho toàn hệ thống đại lý (SAL-11). Phần hợp đồng cần luật sư hoặc pháp chế duyệt trước khi ký.
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp.
+> VAT = thuế giá trị gia tăng.
 
 ---
 
@@ -17,7 +19,7 @@
 - Người có quyền ký báo giá và duyệt chiết khấu theo mức: [ĐIỀN: ví dụ "nhân viên đến 5%, trưởng phòng đến 10%, giám đốc trên 10% hoặc đơn trên 500 triệu"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không bán công nợ cho khách mới", "không báo giá dưới giá sàn", "hiệu lực báo giá không quá 15 ngày"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Khách là ai và đã trao đổi gì?** Loại doanh nghiệp, người nhận và người ký, vấn đề họ nói ra, số lượng hoặc phạm vi dự kiến, thời điểm cần. Nếu có biên bản buổi gặp, gửi để dùng đúng ngôn ngữ của khách.
 2. **Cần loại tài liệu nào?** Báo giá nhanh dạng bảng, đề xuất hợp tác đầy đủ, hay khung hợp đồng nguyên tắc cho hợp tác dài hạn. Khách có mẫu riêng hoặc yêu cầu hồ sơ thầu không? Giọng trang trọng (tập đoàn) hay thân thiện (doanh nghiệp nhỏ)?
 3. **Giá và điều khoản được phép?** Giá vốn hoặc giá sàn, chiết khấu tối đa theo cấp duyệt, điều khoản thanh toán có thể nhượng bộ, thời gian giao có thể cam kết. Khách mới hay đã có lịch sử thanh toán?
 4. **Ai cạnh tranh và khách lo gì nhất?** Đang so với bên nào, tiêu chí chọn nhà cung cấp của họ (giá, tiến độ, công nợ, chất lượng), người cản đường có thể là ai.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo giá, đề xuất, hợp đồng đang dùng trong công ty hoặc mẫu khách yêu cầu, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Báo giá là tài liệu kế toán, đề xuất là tài liệu thuyết phục.** Báo giá cần đủ thông tin pháp lý: tên và mã số thuế hai bên, số báo giá, ngày, hiệu lực, đơn giá, số lượng, thành tiền, thuế, tổng, điều khoản thanh toán, giao hàng, người ký. Đề xuất đặt báo giá vào ngữ cảnh vấn đề và kết quả.
 3. **Không báo giá khi chưa đủ thông tin và chưa kiểm tra biên.** Xác nhận đã nhận yêu cầu trong 2 giờ làm việc, hỏi phần còn thiếu theo bảng dưới, tính giá theo chi phí trực tiếp cộng gián tiếp cộng lợi nhuận kỳ vọng, so với giá sàn, rồi mới soạn. Yêu cầu cần khảo sát thực tế thì báo khách thời hạn trước.
 4. **Đề xuất 5 phần, dưới 7 trang**: tóm tắt một trang, phạm vi gồm và không gồm, tiến độ và trách nhiệm hai bên, chi phí, bước tiếp theo. Dài hơn không được đọc.
@@ -87,7 +89,9 @@ Phí chậm thanh toán tham khảo 0,03 đến 0,05% mỗi ngày trên số ti�
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `De-xuat-[ten-khach]-[san-pham]-[ngay].md`. Nếu chỉ cần báo giá nhanh, xuất 4.1 và 4.4.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `De-xuat-[ten-khach]-[san-pham]-[ngay].md`. Nếu chỉ cần báo giá nhanh, xuất 4.1 và 4.4.
+
+**Thứ tự trả lời:** Đặt bản báo giá hoặc đề xuất gửi khách lên đầu. Giải thích nội bộ về biên lợi nhuận và phê duyệt để phần riêng, không đưa vào bản gửi khách.
 
 ### 4.1 Tóm tắt cho quản lý nội bộ
 

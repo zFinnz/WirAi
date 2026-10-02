@@ -3,6 +3,8 @@
 > **Dùng khi:** có việc lặp lại nhiều lần mỗi ngày đang làm tay (chép đơn từ Zalo vào bảng tính, gửi tin xác nhận cho khách, nhắc công nợ, tổng hợp báo cáo, chuyển khách tiềm năng từ quảng cáo cho nhân viên), hay sai sót, chậm, và muốn nối các công cụ đang dùng lại với nhau mà không cần lập trình viên.
 > **Kết quả:** danh sách việc nên và chưa nên tự động hóa có chấm điểm, luồng xử lý từng việc (điểm kích hoạt, điều kiện, hành động), công cụ gợi ý phù hợp ngân sách, cách kiểm thử, cách xử lý khi lỗi và kế hoạch triển khai.
 > **Không dùng khi:** quy trình chưa có văn bản hoặc còn mỗi người làm một kiểu (viết SOP bằng OPS-01 trước), cần kịch bản trả lời tự động cho chatbot (CS-03), cần chuỗi email và Zalo OA marketing (MKT-13), hoặc cần lộ trình ứng dụng AI toàn công ty (LD-04).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; SOP = quy trình làm việc viết thành từng bước; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng; API = cách hai phần mềm trao đổi dữ liệu tự động; AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +19,7 @@
 - Dữ liệu nhạy cảm đang xử lý: [ĐIỀN: ví dụ "số điện thoại và địa chỉ khách, công nợ đại lý"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không đưa dữ liệu khách lên công cụ nước ngoài chưa được duyệt", "không tự động gửi tin cho khách chưa đồng ý nhận"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -31,26 +33,26 @@ Tư duy nền:
 - Chọn việc theo công thức: tần suất cao, quy tắc rõ, ít ngoại lệ, sai thì tốn tiền. Việc ít lặp hoặc cần phán đoán thì để người làm.
 - Mọi luồng tự động phải có **người chịu trách nhiệm** và **cách báo khi lỗi**. Luồng không ai trông là rủi ro âm thầm.
 - Bắt đầu bằng công cụ công ty đã có (Google Sheets, Zalo OA, Lark) trước khi mua công cụ mới.
-- Tuân thủ Nghị định 13/2023 về bảo vệ dữ liệu cá nhân: tự động gửi tin cho khách phải có cơ sở đồng ý, dữ liệu khách đi qua công cụ nào phải biết rõ.
+- Tuân thủ Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về bảo vệ dữ liệu cá nhân: tự động gửi tin cho khách phải có cơ sở đồng ý, dữ liệu khách đi qua công cụ nào phải biết rõ.
 
 ---
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Việc nào đang làm tay nhiều nhất và tốn bao nhiêu thời gian?** Liệt kê 3 đến 5 việc, mỗi việc bao nhiêu lần mỗi ngày, mất bao nhiêu phút mỗi lần, ai làm, hay sai ở đâu. Nếu người dùng chỉ nêu một việc, hỏi thêm có việc nào tương tự không.
 2. **Việc đó hiện đi qua những công cụ nào, theo bước nào?** Dữ liệu bắt đầu ở đâu (tin nhắn Zalo, form, sàn thương mại điện tử, phần mềm bán hàng), kết thúc ở đâu (bảng tính, phần mềm kế toán, tin nhắn cho khách). Nếu đã có SOP hoặc mẫu mô tả luồng, dán vào.
 3. **Ngoại lệ hay gặp là gì?** Khách sửa đơn sau khi đặt, thiếu hàng, địa chỉ sai, chuyển khoản thiếu. Ngoại lệ quyết định luồng có tự động được hay cần người duyệt giữa chừng.
 4. **Ai sẽ vận hành và sửa luồng sau này, ngân sách bao nhiêu?** Có người kỹ thuật không, chấp nhận trả phí tháng không, muốn dữ liệu ở trong nước hay không quan trọng.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chấm điểm trước khi tự động.** Mỗi việc chấm 4 tiêu chí (tần suất, độ rõ quy tắc, tỉ lệ ngoại lệ, chi phí khi sai), chỉ làm việc có điểm cao. Việc 1 lần mỗi tuần, 10 phút, không đáng tự động.
 3. **Chuẩn hóa đầu vào trước.** Dữ liệu vào phải có định dạng cố định (số điện thoại 10 số, ngày theo một kiểu, mã sản phẩm thống nhất). Dữ liệu bẩn vào thì luồng tự động tạo lỗi hàng loạt.
 4. **Mỗi luồng mô tả bằng 3 phần: điểm kích hoạt (trigger), điều kiện lọc (filter), hành động (action); tối đa 5 đến 7 bước.** Viết bằng tiếng Việt thường trước khi dựng trên công cụ. Luồng dài hơn thì tách thành 2 luồng nối bằng bảng trung gian, dễ sửa và dễ tìm lỗi.
@@ -88,7 +90,7 @@ Gợi ý chọn: không có người kỹ thuật và chủ yếu Zalo, bảng t
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Tu-dong-hoa-[ten-viec-hoac-phong-ban]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Tu-dong-hoa-[ten-viec-hoac-phong-ban]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -158,7 +160,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**. Nếu đầu và
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: danh sách việc và thời gian tốn, công cụ và bước hiện tại, ngoại lệ, người vận hành và ngân sách; đã tóm tắt và được xác nhận trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: danh sách việc và thời gian tốn, công cụ và bước hiện tại, ngoại lệ, người vận hành và ngân sách.
 - [ ] Nếu người dùng có mẫu mô tả luồng hoặc mẫu tài liệu riêng, kết quả bám đúng mẫu đó.
 - [ ] Mỗi việc được chấm điểm 4 tiêu chí; việc dưới 7 điểm không đề xuất tự động.
 - [ ] Mỗi luồng có điểm kích hoạt, điều kiện, hành động, người duyệt (nếu cần), xử lý lỗi, chủ luồng; không quá 7 bước, luồng dài đã tách.
@@ -166,7 +168,7 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Đầu vào có định dạng bắt buộc; có bước gắn nhãn dữ liệu không đạt thay vì bỏ qua.
 - [ ] Công cụ đề xuất phù hợp người vận hành và ngân sách; ưu tiên công cụ đã có.
 - [ ] Có bảng kiểm thử với ít nhất 4 tình huống và kế hoạch chạy song song.
-- [ ] Tôn trọng điều cấm về dữ liệu và việc gửi tin cho khách trong phần bối cảnh; có nhắc Nghị định 13/2023 khi xử lý dữ liệu cá nhân; không có khóa truy cập, mật khẩu trong tài liệu.
+- [ ] Tôn trọng điều cấm về dữ liệu và việc gửi tin cho khách trong phần bối cảnh; có nhắc Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP khi xử lý dữ liệu cá nhân; không có khóa truy cập, mật khẩu trong tài liệu.
 - [ ] Chỗ thiếu dữ liệu đã đánh dấu `[cần bổ sung]`, không bịa, không để trống.
 - [ ] Mọi chi phí, giờ tiết kiệm đã ghi rõ là ước tính cần kiểm chứng; thuật ngữ tiếng Việt kèm tiếng Anh ở lần đầu.
 - [ ] Kết thúc bằng 5 việc cần làm trong 7 ngày.

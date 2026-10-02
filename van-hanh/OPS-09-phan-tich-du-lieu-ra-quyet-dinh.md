@@ -3,6 +3,7 @@
 > **Dùng khi:** có dữ liệu thô từ bảng tính, phần mềm bán hàng, phần mềm kho, kế toán, trình quản lý quảng cáo hoặc khảo sát khách hàng, và cần biết "số này nói lên điều gì, mình nên làm gì"; đang phải ra một quyết định cụ thể (tăng giá, cắt sản phẩm, đổi nhà cung cấp, thêm ca kho) và muốn có căn cứ từ số liệu; hoặc muốn biết công ty đang đứng ở đâu so với mức chung của ngành.
 > **Kết quả:** bản phân tích gồm nhận định chính, đánh giá chất lượng dữ liệu, bảng số minh họa có so sánh (nội bộ và với bên ngoài khi cần), chẩn đoán nguyên nhân, 3 kịch bản, đề xuất hành động, gợi ý trình bày, nhật ký quyết định (decision log) và lịch xem lại.
 > **Không dùng khi:** cần báo cáo định kỳ theo khung cố định (dùng OPS-05), chẩn đoán quảng cáo kém (MKT-12), phân nhóm khách theo giá trị mua (SAL-10), phân tích phản hồi khách bằng chữ (CS-04), phân tích đối thủ về marketing (MKT-03), hoặc quyết định chiến lược lớn cần cân nhắc nhiều yếu tố ngoài số liệu (LD-01).
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp; B2C = bán cho người tiêu dùng.
 
 ---
 
@@ -17,7 +18,7 @@
 - Ai ra quyết định với số liệu này và họ cần gì: [ĐIỀN: ví dụ "giám đốc, cần kết luận 1 trang và 3 lựa chọn"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không gửi dữ liệu khách có số điện thoại ra ngoài", "không ra quyết định giá khi chưa có kế toán"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,7 +39,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Dán dữ liệu vào đây.** Dạng bảng từ Google Sheets, Excel hoặc xuất từ phần mềm; nói rõ mỗi cột nghĩa là gì, đơn vị (đồng, nghìn, triệu), khoảng thời gian, nguồn lấy và ngày lấy. Nếu dữ liệu quá lớn, dán phần tổng hợp theo ngày, tuần hoặc theo nhóm. Nếu công ty có mẫu trình bày phân tích riêng, dán kèm.
 2. **Câu hỏi cần trả lời hoặc quyết định cần ra là gì, ai sẽ nghe?** Ví dụ: "có nên bỏ dòng sản phẩm C", "vì sao tháng 9 lợi nhuận giảm dù doanh thu tăng", "có nên thêm ca kho buổi tối". Một câu hỏi rõ thì phân tích đúng hướng; biết người nghe thì chọn đúng mức chi tiết.
@@ -47,13 +48,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu dữ liệu thiếu cột quan trọng để trả lời câu hỏi (ví dụ hỏi lợi nhuận mà không có giá vốn), nói rõ phân tích chỉ đến mức nào và cần thêm gì.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Kiểm tra dữ liệu theo 5 câu trước khi phân tích, làm trên bản sao, không sửa bản gốc.** Đủ chưa (số dòng đúng kỳ vọng, ô bắt buộc không trống, đủ chi nhánh), đúng chưa (tổng khớp nguồn chính thức, đơn vị, giá trị ngoài khoảng hợp lý), nhất quán chưa (cùng định nghĩa chỉ số, cùng cách phân loại), đúng kỳ chưa (giao dịch nhập trễ, lệch kỳ), trùng chưa (mã trùng, khách đếm hai lần). Ghi rõ đã loại bỏ hoặc sửa gì, ngày giờ lấy dữ liệu.
 3. **Chọn 3 đến 4 chỉ số chính cho câu hỏi đang hỏi**, cộng 4 đến 6 chỉ số hỗ trợ. Câu hỏi lọc: "nếu số này xấu đi 30%, mình có làm gì khác không?" Không thì bỏ khỏi phần chính.
 4. **Mọi số đều có so sánh**: kỳ trước, cùng kỳ, mục tiêu, hoặc trung bình. Số tuyệt đối đứng một mình không có nghĩa. So với bên ngoài chỉ khi có nguồn công khai, cùng ngành, cùng quy mô; ghi rõ nguồn và năm; không dùng thông tin đối thủ lấy bằng cách không hợp pháp.
@@ -96,7 +97,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Phan-tich-[cau-hoi]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Phan-tich-[cau-hoi]-[thang-nam].md`.
 
 ### 4.1 Kết luận cho người ra quyết định
 
@@ -172,7 +173,7 @@ Kết thúc bằng **3 việc cần làm trong 7 ngày tới**. Nếu kết lu�
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: dữ liệu và ý nghĩa cột, câu hỏi cần trả lời và người nghe, mốc so sánh, sự kiện trong kỳ; đã tóm tắt và được xác nhận trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: dữ liệu và ý nghĩa cột, câu hỏi cần trả lời và người nghe, mốc so sánh, sự kiện trong kỳ.
 - [ ] Nếu người dùng có mẫu trình bày phân tích riêng, kết quả bám đúng mẫu đó.
 - [ ] Đã kiểm tra dữ liệu theo 5 câu (đủ, đúng, nhất quán, đúng kỳ, không trùng), ghi rõ mức lỗi và đã xử lý gì; nêu giới hạn của phân tích.
 - [ ] Kết luận ở đầu, mỗi nhận định có số và so sánh, ghi rõ dữ kiện hay giả thuyết; không kết luận nhân quả chắc nịch từ tương quan.

@@ -3,6 +3,7 @@
 > **Dùng khi:** đứng trước một lựa chọn lớn có nhiều phương án: mở chi nhánh hay không, tự làm hay thuê ngoài, mở rộng thị trường hay tập trung sản phẩm hiện có, đổi mô hình bán, ngừng một dòng sản phẩm; hoặc cần chuẩn bị cho nhiều tương lai có thể xảy ra (hoạch định kịch bản) trước khi chốt kế hoạch năm.
 > **Kết quả:** khung so sánh phương án với tiêu chí có trọng số, phân tích rủi ro và phản biện, 3 kịch bản có logic nhất quán kèm hệ thống cảnh báo sớm, phân loại nước đi theo kịch bản, khuyến nghị kèm mức tin cậy, nhật ký quyết định để xem lại sau.
 > **Không dùng khi:** chỉ cần tính dòng tiền và hoàn vốn của một khoản đầu tư (dùng FIN-07), cần dự báo dòng tiền 12 tháng theo kịch bản (FIN-02), vấn đề lặp đi lặp lại cần tìm nguyên nhân gốc (dùng LD-02), hoặc muốn nhiều góc nhìn tranh luận trước khi so sánh (dùng LD-03 rồi quay lại đây).
+> **Từ ngữ bổ sung:** AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +18,7 @@
 - Khẩu vị rủi ro: [ĐIỀN: ví dụ "chấp nhận mất tối đa 500 triệu cho một thử nghiệm"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không vay ngân hàng thêm", "không sa thải hàng loạt"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,7 +39,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Quyết định cụ thể là gì, có những phương án nào, và kỳ hạn xem xét bao lâu?** Kể cả phương án "không làm gì, giữ nguyên". Nếu người dùng chỉ nêu một phương án, hỏi họ đã cân nhắc lựa chọn nào khác chưa. Kỳ hạn 1 năm hay 3 năm quyết định cách dựng kịch bản.
 2. **Được thì được gì, hỏng thì mất gì, và có quay lại được không?** Ví dụ: "mở chi nhánh, nếu hỏng mất 800 triệu tiền cọc và 6 tháng, có thể đóng sau 1 năm". Hạn chót phải quyết là khi nào? Điều tệ nhất có thể xảy ra mà công ty vẫn sống được là gì?
@@ -47,13 +48,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng đã nghiêng hẳn về một phương án, ghi nhận điều đó và chủ động dành phần phản biện cho đúng phương án đó.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Luôn có phương án "giữ nguyên" làm mốc so sánh, và định nghĩa lại vấn đề trước khi so sánh.** Nhiều quyết định tệ sinh ra vì cảm giác "phải làm gì đó". Hỏi "vấn đề thật đang cần giải là gì" cho đến khi câu trả lời không còn là triệu chứng; nếu vấn đề thật khác câu hỏi ban đầu, nói rõ và đề xuất bộ phương án mới.
 3. **Tiêu chí tối đa 6, trọng số cộng đúng 100%, và trọng số do người dùng chốt.** Bạn đề xuất trọng số kèm lý do, người dùng sửa. Nhiều hơn 6 tiêu chí thì không tiêu chí nào còn quan trọng.
 4. **Dành ít nhất 20% nội dung cho lý do KHÔNG nên chọn phương án đang được ưu tiên, và khám nghiệm trước (pre-mortem) là bắt buộc.** Giả định quyết định này thất bại rõ ràng sau 12 tháng, liệt kê 3 đến 5 nguyên nhân khả dĩ nhất và dấu hiệu sớm của từng nguyên nhân.
@@ -96,7 +97,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Quyet-dinh-[chu-de]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Quyet-dinh-[chu-de]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho người ra quyết định
 
@@ -178,7 +179,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**, trong đó có �
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: phương án và kỳ hạn, được mất, ràng buộc và yếu tố bất định, tiêu chí ưu tiên của người quyết; đã tóm tắt và được xác nhận trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: phương án và kỳ hạn, được mất, ràng buộc và yếu tố bất định, tiêu chí ưu tiên của người quyết.
 - [ ] Nếu người dùng có mẫu tờ trình hoặc mẫu đề xuất riêng, kết quả bám đúng mẫu đó.
 - [ ] Có phương án "giữ nguyên" trong bảng so sánh; vấn đề đã được định nghĩa lại, nêu rõ nếu khác câu hỏi ban đầu.
 - [ ] Tiêu chí không quá 6, trọng số cộng đúng 100%, có lý do cho từng trọng số.

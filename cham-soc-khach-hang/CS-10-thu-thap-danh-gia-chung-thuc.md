@@ -3,6 +3,10 @@
 > **Dùng khi:** gian hàng Shopee, TikTok Shop ít đánh giá hoặc điểm thấp; Google và Facebook có vài đánh giá cũ; đội bán hàng B2B không có lời chứng thực (testimonial) hay câu chuyện khách hàng để đưa vào hồ sơ; hoặc khách hài lòng nhưng không ai xin họ nói ra.
 > **Kết quả:** bảng thời điểm xin theo kênh, kịch bản xin tự nhiên cho từng kênh, quy trình xử lý đánh giá xấu, kho chứng thực có phân loại và quyền sử dụng, bảng chỉ số, danh sách điều cấm theo luật và chính sách nền tảng.
 > **Không dùng khi:** cần phân tích hàng trăm đánh giá đã có (dùng CS-04), cần thiết kế khảo sát hài lòng (CS-05), cần thuê người có ảnh hưởng hoặc đặt hàng nội dung từ khách (MKT-16), cần xử lý một ca khiếu nại đang nóng (CS-02), hoặc đánh giá xấu đang lan thành khủng hoảng (MKT-25).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ thường gặp:** điểm chạm = lần hoặc nơi khách tiếp xúc với công ty.
+> **Từ ngữ bổ sung:** NPS = điểm đo mức sẵn sàng giới thiệu cho người khác.
+> CSKH = chăm sóc khách hàng; QR = mã vuông để quét bằng điện thoại.
 
 ---
 
@@ -14,10 +18,10 @@
 - Kênh liên lạc với khách sau mua: [ĐIỀN: ví dụ "Zalo OA, tin nhắn sàn, số điện thoại tại cửa hàng, email với khách doanh nghiệp"]
 - Người phụ trách xin và trả lời đánh giá: [ĐIỀN]
 - Chứng thực đang có: [ĐIỀN: ví dụ "5 ảnh chụp màn hình tin nhắn khen, chưa xin phép dùng"]
-- Chính sách tặng quà hiện tại nếu có: [ĐIỀN: ví dụ "tặng voucher 20.000đ khi đánh giá có ảnh"]
+- Chính sách cảm ơn khách hiện tại nếu có: [ĐIỀN: ví dụ "gửi lời cảm ơn sau khi khách phản hồi, không đổi quà lấy đánh giá"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không dùng tên khách doanh nghiệp khi chưa có văn bản", "không mua đánh giá"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,25 +41,25 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Kênh nào quan trọng nhất và tình trạng hiện tại?** Số đánh giá, điểm trung bình, tỉ lệ đơn có đánh giá trên từng kênh; kênh nào đang kéo doanh số.
 2. **Điểm chạm nào đang có để xin?** Tờ cảm ơn trong hộp, tin nhắn sau giao, cuộc gọi sau lắp đặt, khảo sát NPS (CS-05), họp đánh giá 30 ngày với khách doanh nghiệp (CS-08).
 3. **Chứng thực cần cho việc gì?** Trang sản phẩm, quảng cáo, hồ sơ năng lực, báo giá B2B, video. Nhóm khách nào đang thiếu bằng chứng nhất?
 4. **Đánh giá xấu đang xử lý ra sao và có tặng quà không?** Ai trả lời, trong bao lâu; có tặng gì khi khách đánh giá không, điều kiện gì.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
-2. **Không mua, không giả, không ép.** Không tạo đánh giá giả, không nhờ nhân viên và người quen đánh giá, không đặt điều kiện "5 sao mới nhận quà". Luật Bảo vệ quyền lợi người tiêu dùng 2023 và Luật Quảng cáo cấm thông tin gây nhầm lẫn; sàn và Google phạt đánh giá không trung thực. Nếu tặng quà cảm ơn, tặng cho mọi đánh giá có ảnh thật, không phân biệt số sao, và kiểm tra chính sách nền tảng hiện hành về việc tặng quà đổi đánh giá.
-3. **Xin đúng thời điểm, nhắc tối đa 1 lần.** Theo bảng thời điểm dưới. Không xin khi khách đang khiếu nại, chưa nhận hàng, hoặc vừa chấm NPS thấp.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
+2. **Không mua, không giả, không ép.** Không tạo đánh giá giả, không nhờ nhân viên và người quen đánh giá, không đề nghị khách sửa hoặc xóa đánh giá để nhận lợi ích. Với Google Maps, không tặng tiền, quà, mã giảm giá hoặc lợi ích khác để đổi lấy bất kỳ đánh giá nào; không chỉ mời nhóm khách hài lòng đánh giá. Với kênh khác, kiểm tra chính sách hiện hành trước khi đề xuất chương trình liên quan đến đánh giá. Không yêu cầu khách chấm số sao cụ thể hoặc viết theo nội dung có sẵn.
+3. **Xin sau khi khách đã trải nghiệm, nhắc tối đa 1 lần.** Chưa nhận hàng thì chưa xin đánh giá. Nếu khách đang khiếu nại, ưu tiên giải quyết; không dùng mức hài lòng hoặc điểm khảo sát để chọn ai được mời đánh giá trên Google.
 4. **Mỗi kênh một kịch bản ngắn, giọng người thật**, có đường dẫn trực tiếp hoặc mã QR, có 3 câu hỏi gợi ý để khách viết dễ (trước khi dùng gặp vấn đề gì, dùng xong thấy gì, sẽ giới thiệu cho ai).
 5. **Trả lời mọi đánh giá trong 24 giờ**, tốt lẫn xấu. Đánh giá xấu: thừa nhận, xin lỗi nếu đúng, mời liên hệ riêng, không tranh cãi, không xin xóa. Ca cụ thể xử lý theo CS-02.
-6. **Chứng thực có hồ sơ xin phép.** Mỗi chứng thực lưu: nguyên văn, tên hoặc cách ẩn danh, ngày, kênh gốc, phạm vi được dùng (web, quảng cáo, hồ sơ), hình thức đồng ý (tin nhắn, email, văn bản), hạn dùng. Khách doanh nghiệp cần đồng ý bằng văn bản có người có thẩm quyền ký; quyền hình ảnh và dữ liệu cá nhân theo Bộ luật Dân sự và Nghị định 13/2023. Ghi "cần luật sư kiểm tra" cho mẫu đồng ý.
+6. **Chứng thực có hồ sơ xin phép.** Mỗi chứng thực lưu: nguyên văn, tên hoặc cách ẩn danh, ngày, kênh gốc, phạm vi được dùng (web, quảng cáo, hồ sơ), hình thức đồng ý (tin nhắn, email, văn bản), hạn dùng. Khách doanh nghiệp cần đồng ý bằng văn bản có người có thẩm quyền ký; quyền hình ảnh và dữ liệu cá nhân theo Bộ luật Dân sự và Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP. Ghi "cần luật sư kiểm tra" cho mẫu đồng ý.
 7. **Chỗ thiếu dữ liệu ghi `[cần bổ sung: mô tả dữ liệu cần]`** thay vì bịa hoặc để trống. Số tham khảo ở bảng dưới ghi rõ là giả định; không bịa lời chứng thực mẫu như thể của khách thật.
 8. **Tách B2C và B2B.** B2C đo bằng số đánh giá và điểm trên sàn, Google; B2B đo bằng số câu chuyện khách hàng (case study) và lời chứng thực có tên dùng được trong bán hàng.
 
@@ -64,35 +68,37 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 | Kênh | Thời điểm vàng | Cách xin | Nhắc lại |
 |---|---|---|---|
 | Shopee, TikTok Shop | 2 đến 5 ngày sau giao thành công, hoặc ngay khi khách nhắn khen | tờ cảm ơn trong hộp có mã QR, tin nhắn sàn theo mẫu | 1 lần sau 3 ngày, qua tin nhắn sàn |
-| Google Maps (cửa hàng) | ngay tại quầy sau thanh toán, hoặc sau lắp đặt xong | mã QR tại quầy, tin Zalo có đường dẫn ngắn | 1 lần sau 5 ngày |
+| Google Maps (cửa hàng) | sau khi khách đã trải nghiệm dịch vụ, áp dụng lời mời giống nhau cho mọi khách đủ điều kiện | mã QR tại quầy hoặc tin nhắn có đường dẫn trực tiếp; không yêu cầu đánh giá ngay trước mặt nhân viên | tối đa 1 lần nếu khách chưa phản hồi |
 | Facebook | sau khi khách bình luận hoặc nhắn khen | mời công khai nhẹ, gửi đường dẫn mục đánh giá | không |
-| Zalo OA, website | sau khảo sát NPS 9 đến 10 (CS-05) | tin nhắn cá nhân từ người đã phục vụ | 1 lần |
+| Zalo OA, website | sau khi khách đã trải nghiệm sản phẩm hoặc dịch vụ; không lọc riêng người chấm điểm cao | tin nhắn cá nhân từ người đã phục vụ | tối đa 1 lần |
 | B2B: chứng thực, câu chuyện khách hàng | sau mốc giá trị đầu tiên (CS-08), sau 3 đến 6 tháng hợp tác, sau khi xử lý tốt sự cố | người phụ trách hỏi trực tiếp, gửi 3 câu hỏi, soạn giúp rồi gửi duyệt | theo lịch quý |
 
-### Chỉ số tham khảo (giả định, cần kiểm chứng)
+### Chỉ số cần theo dõi từ dữ liệu của công ty
 
-| Chỉ số | Mức thường gặp |
+| Chỉ số | Cách đo hoặc mục tiêu nội bộ |
 |---|---|
-| Tỉ lệ đơn sàn có đánh giá khi có tờ cảm ơn và nhắc 1 lần | 15 đến 35% |
-| Tỉ lệ khách NPS 9 đến 10 đồng ý để lại đánh giá Google khi được xin trực tiếp | 30 đến 50% |
-| Tỉ lệ khách B2B đồng ý chứng thực có tên khi được soạn giúp | 20 đến 40% |
-| Thời gian trả lời đánh giá | dưới 24 giờ |
+| Tỉ lệ đơn sàn có đánh giá | Số đơn có đánh giá / số đơn đã giao; so với kỳ trước cùng kênh |
+| Tỉ lệ khách được mời để lại đánh giá Google | Số khách được mời / số khách đủ điều kiện; kiểm tra lời mời không thiên về khách hài lòng |
+| Tỉ lệ khách B2B đồng ý chứng thực có tên | Số khách đồng ý / số khách đã được hỏi; theo dõi riêng quyền sử dụng |
+| Thời gian trả lời đánh giá | Mục tiêu nội bộ đề xuất: trong 24 giờ làm việc; chỉnh theo nhân sự trực |
 
 ---
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Quy-trinh-thu-thap-danh-gia-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Quy-trinh-thu-thap-danh-gia-[cong-ty]-[thang-nam].md`.
+
+**Thứ tự trả lời:** Đặt mẫu lời mời đánh giá hoặc lời trả lời đánh giá lên đầu khi người dùng cần nội dung để gửi. Quy trình và chỉ số để phần sau.
 
 ### 4.1 Tóm tắt cho quản lý
 
 - Tình trạng từng kênh (số, điểm, tỉ lệ đơn có đánh giá) và khoảng cách với mục tiêu 90 ngày.
 - 3 thay đổi lớn: điểm chạm mới để xin, người trả lời trong 24 giờ, kho chứng thực có xin phép.
-- Quyết định cần chốt: có tặng quà cảm ơn không và điều kiện, ngân sách in tờ cảm ơn và mã QR, ai ký mẫu đồng ý.
+- Quyết định cần chốt: kênh nào được phép có chương trình cảm ơn theo chính sách nền tảng, ngân sách in tờ cảm ơn và mã QR, ai ký mẫu đồng ý.
 
 ### 4.2 Bảng thời điểm và điểm chạm của công ty
 
-Theo mẫu ở phần 3, điền kênh, thời điểm, người làm, công cụ (đường dẫn ngắn, mã QR, mẫu tin). Kèm danh sách **không xin khi**: đang khiếu nại, đơn giao trễ, NPS dưới 7, khách doanh nghiệp đang đàm phán giá.
+Theo mẫu ở phần 3, điền kênh, thời điểm, người làm, công cụ (đường dẫn ngắn, mã QR, mẫu tin). Với Google Maps, dùng cùng tiêu chí mời cho mọi khách đã trải nghiệm; không loại khách vì đánh giá thấp, khiếu nại hoặc đơn giao trễ. Nếu khách đang cần hỗ trợ, xử lý việc đó trước rồi mới mời đánh giá một cách tự nguyện.
 
 ### 4.3 Kịch bản xin theo kênh
 
@@ -101,13 +107,13 @@ Mỗi kênh 1 đến 2 mẫu, giọng tự nhiên, có chỗ `[tên khách]`, `[
 ```
 Tin nhắn sàn, 3 ngày sau giao:
 "Chào chị [tên], em bên [gian hàng]. Chị nhận [sản phẩm] dùng ổn chưa ạ? Nếu có gì
-chưa đúng ý chị nhắn em xử lý ngay. Còn nếu chị ưng, chị dành 1 phút đánh giá có ảnh
-giúp em nhé, em cảm ơn chị nhiều."
+chưa đúng ý chị nhắn em xử lý ngay. Nếu chị có một phút, chị có thể để lại đánh giá
+thật về trải nghiệm mua hàng, điều gì tốt hoặc chưa tốt đều giúp bên em cải thiện."
 
 Tờ cảm ơn trong hộp (dưới 60 từ):
 "Cảm ơn bạn đã chọn [thương hiệu]. Có vấn đề gì, nhắn Zalo [số] để được đổi trả theo
-chính sách. Nếu hài lòng, quét mã để đánh giá, mỗi đánh giá có ảnh giúp chúng tôi
-rất nhiều." (kèm mã QR đến trang đánh giá, không ghi điều kiện số sao)
+chính sách. Nếu bạn muốn chia sẻ trải nghiệm mua hàng, hãy quét mã để đánh giá
+thật theo cảm nhận của mình." (kèm mã QR đến trang đánh giá, không gợi ý số sao)
 
 B2B, sau họp đánh giá 30 ngày:
 "Anh [tên] cho em hỏi, nếu em soạn 3 đến 4 câu về kết quả bên mình đã đạt với [sản phẩm],
@@ -158,9 +164,11 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** (ví dụ làm đ
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: kênh và tình trạng, điểm chạm đang có, chứng thực cần cho việc gì, cách xử lý đánh giá xấu và tặng quà.
-- [ ] Đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng đưa mẫu, kết quả khớp đúng mục, thứ tự và cách xưng hô của mẫu.
-- [ ] Không có bước nào mua, giả, ép đánh giá; quà cảm ơn (nếu có) không gắn điều kiện số sao, có nhắc kiểm tra chính sách nền tảng.
+- [ ] Không mua, giả, ép hoặc chọn lọc người đánh giá; Google Maps không có quà hoặc lợi ích đổi lấy đánh giá; kênh khác đã kiểm tra chính sách hiện hành.
+
+Chính sách gốc cần kiểm tra lại khi triển khai: [Google Maps về đánh giá và thao túng xếp hạng](https://support.google.com/contributionpolicy/answer/7400114).
 - [ ] Mỗi kênh có thời điểm, kịch bản ngắn giọng người thật, đường dẫn hoặc mã QR, nhắc tối đa 1 lần; có danh sách "không xin khi".
 - [ ] Đánh giá xấu có mẫu trả lời, việc riêng, thời hạn 24 giờ; không xin xóa, không tranh cãi.
 - [ ] Kho chứng thực có cột phạm vi, hình thức đồng ý, hạn; B2B có đồng ý bằng văn bản, mẫu đồng ý ghi "cần luật sư kiểm tra"; B2C và B2B tách về cách xin và chỉ số đo.

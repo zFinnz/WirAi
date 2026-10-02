@@ -3,6 +3,9 @@
 > **Dùng khi:** khách mua một lần rồi không quay lại, bỏ dở gói liệu trình, không gia hạn, đại lý giảm dần đơn, khách B2B không trả lời sau khi hết hợp đồng, hoặc khách nhắn "cho em hủy gói" và nhân viên không biết nên nói gì.
 > **Kết quả:** định nghĩa mất khách theo mô hình kinh doanh, bảng tín hiệu cảnh báo đo được bằng dữ liệu công ty đang có, quy tắc 3 màu rủi ro, lịch can thiệp trước khi mất, khảo sát lý do rời, bảng lý do sang ưu đãi, chuỗi kéo lại 2 kênh, bảng đo lường với quy tắc trung thực.
 > **Không dùng khi:** cần lịch chăm sóc sau bán và bán thêm cho khách đang khỏe (dùng SAL-09), cần phân nhóm khách theo giá trị để biết ai sắp mất (SAL-10, chạy trước skill này nếu có dữ liệu giao dịch), cần chấm điểm sức khỏe chi tiết cho danh mục khách B2B (CS-08), cần thiết kế chương trình khách thân thiết (CS-09), cần viết chuỗi tin nhắn hoàn chỉnh (MKT-13), hoặc cần thiết kế gói bán mới (MKT-19).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; CRM = bảng hoặc phần mềm quản lý thông tin khách hàng; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ thường gặp:** điểm chạm = lần hoặc nơi khách tiếp xúc với công ty.
+> **Từ ngữ bổ sung:** SMS = tin nhắn điện thoại thông thường.
 
 ---
 
@@ -17,7 +20,7 @@
 - Ngân sách ưu đãi giữ chân tối đa: [ĐIỀN: ví dụ "không quá 20% giá trị đơn, tổng 15 triệu/tháng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không giảm giá cho đại lý ngoài chính sách", "không gọi khách sau 20 giờ", "không nhắn quá 2 tin Zalo mỗi tuần"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +40,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Mô hình kinh doanh và chu kỳ mua lại?** Mua lẻ lặp lại, gói nhiều buổi, thẻ thành viên, thuê bao, hợp đồng B2B hay đại lý? Khách bình thường quay lại sau bao nhiêu ngày? Nếu có cả B2C và B2B, muốn làm nhóm nào trước?
 2. **Tỉ lệ mua lại hiện tại và số khách đang hoạt động?** Nếu chưa đo, nói rõ; sẽ đo trước khi làm gì khác (SAL-10 hoặc OPS-09 nếu có dữ liệu giao dịch).
 3. **Đã biết lý do khách rời chưa, và dấu hiệu nào thường xuất hiện trước khi rời?** Có hỏi không, hỏi bằng cách nào, thu được gì? Theo kinh nghiệm đội, khách sắp đi thường làm gì khác đi? Có ca khách đòi hủy gần đây để làm ví dụ không?
 4. **Kênh nào thực sự chạm được khách cũ và ai sẽ theo dõi danh sách rủi ro?** Zalo OA, email, tin nhắn điện thoại (SMS), nhân viên gọi, nhóm khách hàng. Tỉ lệ đọc hoặc nghe máy ước tính; bao nhiêu người có thể gọi mỗi tuần.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Phân nhánh mô hình kinh doanh trước.** Định nghĩa mất khách, tín hiệu sớm, mốc can thiệp, loại ưu đãi đều phụ thuộc mô hình. Làm ngược lại là làm sai.
 3. **Tín hiệu đo bằng dữ liệu có thật, so với chu kỳ riêng của từng khách.** Khách mua mỗi 30 ngày mà 45 ngày chưa mua là tín hiệu; khách mua mỗi 90 ngày thì 45 ngày là bình thường. Không dùng trung bình cả công ty cho mọi khách. Chỗ nào thiếu dữ liệu thật (chu kỳ, tỉ lệ mua lại, tỉ lệ đọc tin) ghi `[cần bổ sung: mô tả dữ liệu cần]`, không ước đoán, không để trống.
 4. **Một tín hiệu đơn lẻ chưa đủ kết luận**, trừ "không đến buổi đã đặt" và "phàn nàn hoặc đánh giá thấp": hai tín hiệu này hành động ngay. Gom tín hiệu thành 3 màu: xanh (không tín hiệu hoặc 1 tín hiệu trung bình), vàng (1 tín hiệu cao hoặc 2 tín hiệu trung bình), đỏ (tín hiệu rất cao, hoặc 2 tín hiệu cao trở lên).
@@ -90,7 +93,7 @@ Khách B2B nhiều hợp đồng hoặc giá trị lớn: dùng CS-08 để ch�
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Giu-chan-khach-[mo-hinh]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Giu-chan-khach-[mo-hinh]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -176,7 +179,7 @@ Nhịp: tuần rà danh sách vàng và đỏ; tháng xem 4 chỉ số; quý xem
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: mô hình và chu kỳ, tỉ lệ mua lại và số khách, lý do rời và dấu hiệu đã biết, kênh chạm được; đã tóm tắt và được xác nhận phương án trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: mô hình và chu kỳ, tỉ lệ mua lại và số khách, lý do rời và dấu hiệu đã biết, kênh chạm được.
 - [ ] Nếu người dùng có mẫu danh sách khách hoặc báo cáo riêng, kết quả bám đúng mẫu đó.
 - [ ] Đã phân nhánh mô hình trước và ghi định nghĩa mất khách riêng; B2C và B2B tách nếu có cả hai.
 - [ ] Tín hiệu đo bằng dữ liệu công ty thực sự có, so với chu kỳ riêng từng khách; có quy tắc 3 màu với hành động và thời hạn.

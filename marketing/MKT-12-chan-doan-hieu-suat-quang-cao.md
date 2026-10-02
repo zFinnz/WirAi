@@ -3,6 +3,10 @@
 > **Dùng khi:** số liệu quảng cáo đang xấu (chi phí mỗi tin nhắn tăng, doanh thu trên chi phí quảng cáo giảm, không ra đơn, khách tiềm năng kém chất lượng) và cần biết tại sao để sửa trong 48 giờ; cần rà soát sức khỏe tài khoản quảng cáo định kỳ; hoặc cần kiểm tra trước khi bật lại hay mở rộng chiến dịch.
 > **Kết quả:** chẩn đoán 5 lớp theo đúng thứ tự, điểm sức khỏe tài khoản, nguyên nhân gốc có bằng chứng, kế hoạch hành động 48 giờ, danh sách kiểm tra trước khi bật và lịch theo dõi theo tuổi chiến dịch.
 > **Không dùng khi:** chưa chạy và cần kế hoạch quảng cáo (dùng MKT-11), cần viết lại nội dung quảng cáo (MKT-10), đã xác định lỗi nằm ở trang đích và cần sửa trang (MKT-14), hoặc cần viết báo cáo cho lãnh đạo (MKT-22).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; ROAS = doanh thu chia cho chi phí quảng cáo; CPL = chi phí để có một khách hàng tiềm năng;
+> CPMess = chi phí để có một tin nhắn từ quảng cáo; CAPI = cách gửi dữ liệu chuyển đổi từ máy chủ đến nền tảng quảng cáo; UTM = mã gắn vào liên kết để biết khách đến từ đâu.
+> **Từ ngữ bổ sung:** CRM = nơi lưu thông tin khách và lịch sử trao đổi.
+> API = cách hai phần mềm trao đổi dữ liệu tự động; CPM = chi phí quảng cáo cho một nghìn lượt hiển thị.
 
 ---
 
@@ -17,7 +21,7 @@
 - Người chạy quảng cáo: [ĐIỀN: nội bộ hay thuê ngoài, bao nhiêu người]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không tắt chiến dịch đại lý khi chưa hỏi trưởng phòng kinh doanh", "không tăng ngân sách quá 20% mỗi lần"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,7 +41,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Nền tảng nào và số liệu ra sao?** Chi tiêu, lượt hiển thị, lượt nhấp, tỉ lệ nhấp (CTR), chi phí mỗi nghìn lượt hiển thị (CPM), tần suất hiển thị (frequency), số tin nhắn hoặc khách tiềm năng, số đơn, doanh thu, thời gian chạy. Dán bảng từ trình quản lý quảng cáo nếu có, so sánh tuần này với tuần trước.
 2. **Vấn đề cụ thể là gì?** CPMess tăng, ROAS giảm, không tiêu được tiền, khách tiềm năng nhiều mà không chốt, hay chạy tốt rồi tụt?
@@ -46,18 +50,18 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng gửi kèm ảnh chụp trình quản lý quảng cáo, đọc kỹ trước, chỉ hỏi phần còn thiếu.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Không tin số khi chưa kiểm tra đo lường.** Hỏi ngay: pixel theo dõi (pixel) có bắn đúng sự kiện không, API chuyển đổi (CAPI) có chưa, mã theo dõi nguồn (UTM) có đủ không, số trình quản lý quảng cáo lệch số thực tế bao nhiêu phần trăm. Lệch trên 20% thì sửa đo lường trước, không làm gì khác.
 3. **Chẩn đoán theo đúng thứ tự 5 lớp**, lớp trên chưa sạch thì không kết luận lớp dưới. Lý do: lỗi tầng trên làm vô hiệu mọi nỗ lực tầng dưới.
 4. **Mỗi triệu chứng phải quy về một lớp và một nguyên nhân gốc có bằng chứng.** "CPL cao" không phải kết luận. "CPL cao vì CTR giảm 40% sau 12 ngày chạy cùng một nội dung, tần suất 4,2" mới là kết luận. Ghi mức độ tự tin (cao, trung bình, thấp); tự tin thấp thì đề xuất thử nghiệm nhỏ trước khi hành động lớn.
-5. **Không chạm vào nhóm quảng cáo đang trong giai đoạn học máy (learning phase)**, thường là 24 đến 48 giờ đầu hoặc đến khi đủ khoảng 50 kết quả. Chỉnh sửa lúc này làm thuật toán học lại từ đầu.
-6. **Tăng ngân sách tối đa 20% mỗi lần, cách nhau 48 đến 72 giờ.** Thử nghiệm A/B chỉ đổi một biến, chạy tối thiểu 7 ngày và đủ khoảng 50 chuyển đổi mỗi phương án mới kết luận; ít hơn thì ghi là "dấu hiệu", không phải kết quả.
+5. **Kiểm tra trạng thái học của từng nền tảng trước khi sửa nhóm quảng cáo.** Những thay đổi lớn về ngân sách, giá thầu, đối tượng hoặc nội dung có thể làm kết quả biến động; ghi rõ thay đổi nào đã làm và thời điểm làm.
+6. **Điều chỉnh ngân sách theo hướng dẫn hiện hành của nền tảng và dữ liệu chiến dịch.** Khi thử nghiệm A/B, chỉ đổi biến cần kiểm tra và nêu cỡ mẫu, thời gian quan sát trước khi kết luận. Nếu dữ liệu ít, gọi kết quả là dấu hiệu ban đầu.
 7. **B2B đánh giá theo tháng, theo chất lượng khách tiềm năng và số hợp đồng, không theo tuần.** Chu kỳ bán dài nên CPL tuần này chưa nói lên điều gì. Với B2B hỏi thêm: đội kinh doanh có phản hồi khách trong 2 giờ không, tỉ lệ khách đủ điều kiện là bao nhiêu.
 8. **Có quy tắc dừng rõ ràng và áp dụng không cảm tính.** Chi phí mỗi kết quả vượt 3 lần mục tiêu trong 2 ngày thì tắt, ghi lý do trước khi tắt. Chỗ nào thiếu dữ liệu thật thì ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo dùng thay thế phải ghi rõ là giả định.
 
@@ -73,7 +77,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 Quy tắc riêng Google tìm kiếm ở lớp 2 và 5: thêm từ khóa phủ định hằng tuần từ báo cáo cụm từ tìm kiếm; tạm dừng từ khóa không chuyển đổi sau 50 đến 100 lượt nhấp; mỗi nhóm quảng cáo 10 đến 20 từ khóa cùng chủ đề, 3 đến 5 mẫu quảng cáo.
 
-### Mức tham khảo thị trường Việt Nam (dùng khi thiếu dữ liệu, ghi rõ là giả định cần kiểm chứng)
+### Ví dụ giả định để chẩn đoán (không phải chuẩn thị trường)
 
 | Chỉ số | Facebook | TikTok | Google tìm kiếm | Ngưỡng cảnh báo | Ngưỡng tắt hoặc thay |
 |---|---|---|---|---|---|
@@ -91,7 +95,7 @@ Lưu ý mùa vụ: Tết tăng CPM 30 đến 50%, các đợt 11.11, 12.12 tăng
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Chan-doan-quang-cao-[nen-tang]-[ngay].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Chan-doan-quang-cao-[nen-tang]-[ngay].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -188,7 +192,7 @@ Nhịp kiểm tra hằng ngày 15 phút: chi phí mỗi kết quả so với m�
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: nền tảng và số liệu, vấn đề, mục tiêu, việc đã sửa 7 ngày qua; đã tóm tắt và xác nhận phương án trước khi xuất bản đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: nền tảng và số liệu, vấn đề, mục tiêu, việc đã sửa 7 ngày qua.
 - [ ] Nếu người dùng có biểu mẫu riêng, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu đó.
 - [ ] Đã kiểm tra đo lường trước khi kết luận về nội dung hay tệp.
 - [ ] 5 lớp chạy đúng thứ tự, mỗi lớp có bằng chứng đang có và còn thiếu.

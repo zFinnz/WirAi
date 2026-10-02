@@ -3,6 +3,8 @@
 > **Dùng khi:** bán chịu cho đại lý và khách doanh nghiệp, nợ quá hạn tăng, chưa có chính sách tín dụng và hạn mức rõ ràng, nhân viên nhắc nợ mỗi người một kiểu, chưa đối chiếu công nợ định kỳ với khách, không biết khi nào dừng giao hàng và khi nào chuyển pháp lý.
 > **Kết quả:** chính sách tín dụng với tiêu chí cấp hạn mức và ma trận phê duyệt, bảng theo dõi và bảng tuổi nợ hiện tại, kịch bản nhắc nợ theo mốc qua Zalo, email, gọi điện và công văn, quy trình đối chiếu công nợ định kỳ kèm mẫu thư xác nhận và biên bản, quy tắc dừng giao hàng và chuyển pháp lý, phân công giữa kế toán và kinh doanh, bộ chỉ số theo dõi.
 > **Không dùng khi:** cần chính sách chiết khấu và chăm sóc đại lý (dùng SAL-11), cần dự báo tiền mặt (FIN-02), cần lịch trả nhà cung cấp và quy chế chi (FIN-10), cần rà soát điều khoản hợp đồng (PL-01). Mọi nội dung pháp lý trong skill này là tham khảo, **cần luật sư duyệt** trước khi áp dụng.
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp.
+> DSO = số ngày trung bình từ bán chịu đến thu được tiền.
 
 ---
 
@@ -17,7 +19,7 @@
 - Tỉ lệ nợ xấu đã xóa hoặc không thu được 12 tháng qua: [ĐIỀN: ví dụ "khoảng 0,8% doanh thu, chưa trích dự phòng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không dọa kiện qua tin nhắn", "không dừng giao hàng cho 5 đại lý chiến lược nếu giám đốc chưa duyệt", "không công khai danh sách nợ"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -32,13 +34,13 @@ Tư duy nền:
 - Nhắc nợ là một **dịch vụ khách hàng**: lịch sự, nhất quán, leo thang theo mốc đã định, không theo cảm xúc của người nhắc.
 - Đối chiếu công nợ định kỳ không chỉ để tìm sai sót mà còn để ngăn gian lận và làm chứng cứ; biên bản có xác nhận hai bên là tài liệu đầu tiên luật sư và kiểm toán hỏi.
 - Kinh doanh và kế toán phải phối hợp theo vai rõ: kinh doanh giữ quan hệ và nhắc sớm, kế toán đối chiếu và leo thang, giám đốc quyết ngoại lệ. Bán hàng, cấp tín dụng và thu tiền không nên là một người.
-- Tôn trọng pháp luật và danh dự khách: không đe dọa, không xúc phạm, không công khai thông tin nợ, không liên hệ người không liên quan (Bộ luật Dân sự 2015, Nghị định 13/2023 về bảo vệ dữ liệu cá nhân).
+- Tôn trọng pháp luật và danh dự khách: không đe dọa, không xúc phạm, không công khai thông tin nợ, không liên hệ người không liên quan (Bộ luật Dân sự 2015, Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về bảo vệ dữ liệu cá nhân).
 
 ---
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Thực trạng công nợ?** Tổng phải thu, phân theo tuổi nợ (chưa đến hạn, 1 đến 30, 31 đến 60, 61 đến 90, trên 90 ngày), 5 khách nợ lớn nhất và tỉ trọng, khoản nợ cũ nhất và lý do, tỉ lệ nợ xấu 12 tháng qua.
 2. **Chính sách hiện có?** Điều khoản thanh toán, hạn mức theo khách và ai duyệt, chiết khấu thanh toán sớm, phạt chậm trả, có hợp đồng ký hay chỉ đơn hàng; có đối chiếu công nợ định kỳ không, bằng văn bản hay chỉ nói miệng.
@@ -47,13 +49,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng gửi bảng công nợ, tự lập bảng tuổi nợ ở phần 4.3 trước rồi hỏi phần còn thiếu.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Cấp tín dụng theo tiêu chí, không theo quan hệ.** Chấm điểm từ thời gian hợp tác, lịch sử thanh toán, quy mô, tư cách pháp lý, tài sản bảo đảm. Khách mới trả trước hoặc cọc 30 đến 50% trong 3 đơn đầu; hồ sơ tối thiểu gồm giấy đăng ký kinh doanh, địa chỉ, người đại diện, 2 số liên hệ, hợp đồng nguyên tắc.
 3. **Hạn mức có công thức và có cấp duyệt theo số tiền.** Hạn mức = doanh số tháng dự kiến x số ngày nợ / 30 x 1,2. Vượt hạn mức thì hệ thống hoặc kế toán chặn đơn, không để nhân viên kinh doanh tự quyết. Số liệu nào thiếu (lịch sử trả, doanh số) thì ghi `[cần bổ sung: mô tả dữ liệu cần]`, không bịa, không để trống.
 4. **Tuổi nợ 5 nhóm, mỗi nhóm một hành động cố định** (bảng dưới). Không có nhóm "tùy tình hình".
@@ -96,7 +98,7 @@ Xếp hạng: A (8 đến 10 điểm) nợ 30 đến 45 ngày, hạn mức đầ
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Quy-trinh-cong-no-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Quy-trinh-cong-no-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho ban giám đốc
 
@@ -212,7 +214,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**. Gợi ý SAL-11 
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: thực trạng công nợ, chính sách hiện có, quy trình hiện tại, mục tiêu; đã tóm tắt phương án và được xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: thực trạng công nợ, chính sách hiện có, quy trình hiện tại, mục tiêu.
 - [ ] Nếu người dùng có mẫu, kết quả bám đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Tiêu chí cấp tín dụng chấm điểm được, có hạng và hạn mức theo công thức, có ma trận phê duyệt theo số tiền.
 - [ ] Bảng theo dõi có đủ cột tối thiểu và quy ước màu; bảng tuổi nợ 5 nhóm, mỗi nhóm một hành động cố định, người làm, kênh.
@@ -220,7 +222,7 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Có quy trình đối chiếu định kỳ: tần suất theo quy mô khách, mẫu thư xác nhận, xử lý 3 trường hợp phản hồi, biên bản ký hai bên, ngưỡng sai lệch trọng yếu.
 - [ ] Quy tắc dừng giao hàng và chuyển pháp lý là quy tắc tự động, ngoại lệ có người duyệt bằng văn bản; có danh sách hồ sơ cho pháp lý.
 - [ ] Hoa hồng kinh doanh gắn với tiền thu, không gắn với hóa đơn.
-- [ ] Mọi căn cứ pháp lý ghi "cần luật sư xác nhận", không khẳng định tuyệt đối; không công khai thông tin nợ, tôn trọng Nghị định 13/2023.
+- [ ] Mọi căn cứ pháp lý ghi "cần luật sư xác nhận", không khẳng định tuyệt đối; không công khai thông tin nợ, tôn trọng Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP.
 - [ ] Phân công rõ giữa kinh doanh, kế toán, kế toán trưởng, giám đốc; có nhịp họp.
 - [ ] Mọi số tham khảo và ngưỡng đã ghi rõ là giả định; chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống; tôn trọng điều cấm trong bối cảnh.
 - [ ] Thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu.

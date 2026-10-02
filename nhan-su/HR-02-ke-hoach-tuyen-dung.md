@@ -3,6 +3,9 @@
 > **Dùng khi:** cần tuyển nhiều vị trí trong một quý, phải chọn kênh đăng tuyển, ước tính thời gian và chi phí, tuyển mãi không đủ người và không biết nghẽn ở đâu, hoặc cần chuẩn hóa quy trình tuyển từ yêu cầu tuyển đến thư mời nhận việc.
 > **Kết quả:** kế hoạch tuyển dụng có thứ tự ưu tiên vị trí, phễu và chỉ tiêu từng vị trí, kênh và ngân sách, lịch theo tuần có người phụ trách, bảng chỉ số theo dõi, quy trình các bước và mẫu thư mời nhận việc (offer letter).
 > **Không dùng khi:** chỉ cần viết mô tả công việc cho một vị trí (HR-01), cần sàng lọc hồ sơ đã nhận (HR-03), cần bộ câu hỏi phỏng vấn (HR-04), hoặc cần định biên và kế hoạch nhân sự cả năm (HR-10).
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp.
+> CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +20,7 @@
 - Tỉ lệ nghỉ việc trong thử việc năm qua: [ĐIỀN: ví dụ "3 trong 10 người nghỉ trước 2 tháng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không thuê dịch vụ săn đầu người", "không tuyển qua người quen của ban giám đốc"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,7 +40,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Tuyển vị trí nào, bao nhiêu người, cần có mặt trước ngày nào?** Vị trí nào quan trọng nhất nếu phải chọn? Tuyển mới hay thay thế người nghỉ? Đã có ai duyệt chỉ tiêu chưa?
 2. **Nguồn lực và quy trình hiện có?** Ai dành bao nhiêu giờ mỗi tuần cho tuyển dụng, ngân sách bao nhiêu, trưởng phòng có sẵn sàng phỏng vấn trong tuần không? Quy trình đang chạy gồm mấy bước, ai duyệt đề nghị lương?
@@ -46,13 +49,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng chỉ tuyển **một vị trí**, rút gọn 4.2 còn một dòng và tập trung vào 4.3 đến 4.5. Nếu chỉ cần thư mời nhận việc, chỉ xuất 4.8.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Tính ngược từ số người cần nhận việc.** Mỗi vị trí phải có chuỗi: số hồ sơ cần nhận, số đạt sàng lọc, số phỏng vấn, số đề nghị, số nhận việc. Thiếu dữ liệu thì dùng tỉ lệ tham khảo bên dưới và ghi rõ là giả định; dữ liệu thật chưa có thì ghi `[cần bổ sung: mô tả dữ liệu cần]`, không bịa, không để trống.
 3. **Xếp thứ tự ưu tiên theo tác động và độ khó.** Vị trí ảnh hưởng doanh thu trực tiếp và khó tuyển làm trước; vị trí dễ tuyển làm sau nhưng không bỏ.
 4. **Kênh chọn theo vị trí, không chọn theo thói quen.** Nhân viên kho tuyển qua Facebook nhóm địa phương và trung tâm dịch vụ việc làm; kỹ thuật tuyển qua trang chuyên ngành và cộng đồng; quản lý tuyển qua giới thiệu và mạng nghề nghiệp.
@@ -60,7 +63,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 6. **Mỗi vị trí có một người chịu trách nhiệm, một ngày hẹn hoàn thành và một phiếu yêu cầu tuyển dụng đã duyệt.** Trưởng phòng dùng người là người ra quyết định, nhân sự điều phối, không ngược lại. Không đăng tin khi chưa duyệt chỉ tiêu và khoảng lương.
 7. **Thời gian phản hồi ứng viên là cam kết**: xác nhận nhận hồ sơ trong 2 ngày, kết quả mỗi vòng trong 5 ngày làm việc. Ghi vào kế hoạch như một chỉ số.
 8. **Không hạ yêu cầu bắt buộc khi gấp.** Nếu quá hạn, đổi kênh, mở rộng khoảng lương hoặc chấp nhận đào tạo thêm kỹ năng cần có, không bỏ yêu cầu bắt buộc. Có phương án dự phòng cho mỗi vị trí khó: thuê thời vụ, điều chuyển nội bộ, thuê ngoài một phần việc.
-9. **Đúng luật và tôn trọng dữ liệu ứng viên.** Giai đoạn đầu không yêu cầu căn cước, thông tin gia đình, ảnh thẻ; hồ sơ không trúng tuyển chỉ giữ trong thời hạn công ty quy định và được ứng viên đồng ý (tham khảo Nghị định 13/2023 về dữ liệu cá nhân).
+9. **Đúng luật và tôn trọng dữ liệu ứng viên.** Giai đoạn đầu không yêu cầu căn cước, thông tin gia đình, ảnh thẻ; hồ sơ không trúng tuyển chỉ giữ trong thời hạn công ty quy định và được ứng viên đồng ý (tham khảo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về dữ liệu cá nhân).
 
 ### Phễu tuyển dụng tham khảo (dùng khi thiếu dữ liệu, ghi rõ là giả định)
 
@@ -102,7 +105,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Ke-hoach-tuyen-dung-[ky]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Ke-hoach-tuyen-dung-[ky]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 

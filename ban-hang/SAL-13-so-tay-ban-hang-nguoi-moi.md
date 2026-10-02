@@ -3,6 +3,9 @@
 > **Dùng khi:** cần một tài liệu tổng hợp để nhân viên bán hàng mới đọc trong ngày đầu và làm theo trong tuần đầu; người mới hỏi đi hỏi lại cùng câu; mỗi người hướng dẫn một kiểu; hoặc tài liệu đang rải ở 10 nơi và không ai biết bản nào mới nhất.
 > **Kết quả:** sổ tay 7 phần gồm cách công ty bán, bảng tra nhanh sản phẩm, khách hàng và quy trình, 10 tình huống hay gặp, công cụ và quy định, lương thưởng với ví dụ tính, lộ trình học 2 tuần có bài kiểm tra.
 > **Không dùng khi:** cần xây quy trình phễu từ đầu (dùng SAL-01), cần kịch bản tư vấn chi tiết (SAL-05), cần cách đáp từng lời từ chối (SAL-06), cần bộ tài liệu bán hàng cho khách (SAL-07), hoặc cần mô tả công việc để tuyển (HR-01). Sổ tay này **tham chiếu các skill đó bằng mã**, không chép lại.
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +20,7 @@
 - Cơ chế lương thưởng: [ĐIỀN: ví dụ "lương cứng 8 triệu, hoa hồng 2% doanh thu, thưởng vượt chỉ tiêu"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không giảm giá quá 5% nếu chưa duyệt", "không nhận tiền mặt ngoài hệ thống", "không hứa ngày giao khi chưa hỏi kho"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,27 +40,27 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Sổ tay cho vị trí nào?** Bán lẻ qua tin nhắn và cửa hàng, kinh doanh B2B, hay cả hai? Người mới thường có kinh nghiệm chưa, hay hoàn toàn mới?
 2. **Tài liệu nào đã có?** Quy trình, kịch bản, bảng giá, hồ sơ năng lực, quy định. Dán hoặc tóm tắt để sổ tay chỉ đến đúng tên tài liệu, không viết lại.
 3. **Lương thưởng và quyền hạn?** Công thức hoa hồng, mốc chỉ tiêu, thời điểm tính (ký hay thanh toán), quyền giảm giá theo cấp, ai duyệt ngoại lệ.
 4. **Sai lầm người mới hay mắc và việc ngày đầu?** 3 đến 5 lỗi lặp lại nhiều nhất theo kinh nghiệm quản lý; ai hướng dẫn, ngày đầu người mới sẽ ngồi đâu, làm gì.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chỉ đến, không chép lại.** Quy trình chi tiết ghi "xem Quy trình bán hàng (SAL-01), bản tháng [x]"; kịch bản chi tiết ghi "xem SAL-05". Trong sổ tay chỉ giữ bản tóm tắt tối đa 10 dòng cho mỗi mục.
 3. **Viết cho người đọc trên điện thoại lúc đang có khách.** Bảng tra nhanh, câu ngắn, có ví dụ. Không dùng thuật ngữ nội bộ mà không giải thích.
 4. **Mọi quyền hạn ghi bằng số và người duyệt.** "Được giảm tối đa 3%, trên mức đó xin trưởng nhóm qua Zalo, trả lời trong 30 phút".
 5. **Lương thưởng có ví dụ tính bằng số thật của công ty.** Nếu người dùng chưa cho công thức, ghi `[cần bổ sung: công thức hoa hồng và mốc chỉ tiêu]`, không tự đặt. Chỗ thiếu dữ liệu khác cũng ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo ở bảng dưới ghi rõ là giả định.
 6. **Mỗi phần có "lỗi người mới hay mắc"** gồm 2 đến 4 lỗi và cách tránh, lấy từ câu trả lời của quản lý.
 7. **Lộ trình 2 tuần có tiêu chuẩn đạt từng ngày**, kiểm tra được bằng có hoặc không, và có bài kiểm tra cuối tuần 1 và tuần 2.
-8. **Tuân thủ pháp luật và đạo đức bán hàng.** Không hứa công dụng vượt công bố, không nói xấu đối thủ bằng thông tin không kiểm chứng, không thu thập và chia sẻ dữ liệu khách ngoài mục đích (Nghị định 13/2023), không nhận tiền ngoài hệ thống.
+8. **Tuân thủ pháp luật và đạo đức bán hàng.** Không hứa công dụng vượt công bố, không nói xấu đối thủ bằng thông tin không kiểm chứng, không thu thập và chia sẻ dữ liệu khách ngoài mục đích (Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP), không nhận tiền ngoài hệ thống.
 
 ### Quyền hạn tham khảo theo cấp (giả định, công ty chốt lại)
 
@@ -83,7 +86,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `So-tay-ban-hang-[vi-tri]-[thang-nam].md`. Dòng đầu ghi phiên bản, ngày, người phụ trách cập nhật.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `So-tay-ban-hang-[vi-tri]-[thang-nam].md`. Dòng đầu ghi phiên bản, ngày, người phụ trách cập nhật.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -167,7 +170,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** cho quản lý (c
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: vị trí, tài liệu đã có, lương thưởng và quyền hạn, lỗi hay gặp.
-- [ ] Đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng đưa mẫu, kết quả khớp đúng mục, thứ tự và cách xưng hô của mẫu.
 - [ ] Không chép lại quy trình, kịch bản, từ chối; chỉ tóm tắt và chỉ đến đúng mã skill hoặc tên tài liệu công ty.
 - [ ] Bảng tra nhanh sản phẩm có cột "điều không được nói"; không hứa công dụng vượt công bố.

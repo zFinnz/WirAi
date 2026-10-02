@@ -1,8 +1,14 @@
 # MKT-06 · Tính KPI ngược và phân bổ ngân sách
 
 > **Dùng khi:** có mục tiêu doanh thu và cần chốt chỉ số đo lường hiệu quả (KPI) cho marketing: phải chi bao nhiêu, cần bao nhiêu khách tiềm năng, chi phí mỗi khách tối đa là bao nhiêu; hoặc ngược lại, có sẵn một khoản tiền và muốn biết ra được bao nhiêu đơn; hoặc cần chia ngân sách theo kênh, theo tháng kèm ngưỡng cắt lỗ.
-> **Kết quả:** chuỗi phễu tính ngược 3 kịch bản, bộ số kinh tế đơn vị (chi phí tối đa mỗi khách tiềm năng (CPL), doanh thu trên chi phí quảng cáo (ROAS) hòa vốn, tỉ lệ giá trị vòng đời khách hàng trên chi phí thu hút khách hàng (LTV:CAC)), phân tích độ nhạy, phân bổ ngân sách theo hạng mục, kênh và tháng, tỉ lệ xây thương hiệu và hiệu suất, ngưỡng tăng và cắt, bảng theo dõi lợi nhuận trên đầu tư (ROI) theo kênh.
+> **Kết quả:** bảng tính ngược từ mục tiêu ra số khách và ngân sách theo 3 kịch bản, các ngưỡng chi phí và lợi nhuận cần cho kênh đang dùng, phân tích độ nhạy, ngân sách theo hạng mục và tháng, điều kiện tăng hoặc giảm chi, bảng theo dõi kết quả từng kênh.
 > **Không dùng khi:** cần kế hoạch marketing tổng (MKT-01), cần cấu trúc chiến dịch quảng cáo chi tiết (MKT-11), cần chẩn đoán quảng cáo đang chạy xấu (MKT-12), hoặc cần kinh tế đơn vị toàn công ty (FIN-03).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; KPI = chỉ số đo kết quả công việc; ROAS = doanh thu chia cho chi phí quảng cáo;
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> CAC = chi phí để có một khách hàng mới; LTV = tổng giá trị dự kiến từ một khách trong thời gian mua hàng; CPL = chi phí để có một khách hàng tiềm năng; CPMess = chi phí để có một tin nhắn từ quảng cáo;
+> KOL = người có ảnh hưởng với công chúng; ROI = lợi nhuận so với số tiền đã đầu tư.
+> **Từ ngữ bổ sung:** SEO = cách giúp nội dung dễ được tìm thấy trên công cụ tìm kiếm; AOV = giá trị đơn hàng trung bình; KOC = người chia sẻ trải nghiệm sản phẩm với người theo dõi.
+> CPM = chi phí quảng cáo cho một nghìn lượt hiển thị.
 
 ---
 
@@ -17,7 +23,7 @@
 - Mốc mùa vụ ảnh hưởng: [ĐIỀN: ví dụ "Tết, 11.11, mùa nóng tháng 4 đến 6"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "ngân sách marketing không quá 12% doanh thu", "không chạy quảng cáo Google"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,27 +44,27 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Tính theo hướng nào và kỳ bao lâu?** Tính ngược từ doanh thu mục tiêu ra ngân sách, hay tính xuôi từ ngân sách có sẵn ra số đơn? Kỳ 1 tháng, 1 quý hay 1 năm? Cho B2C, B2B hay cả hai? Công ty đang ở giai đoạn khởi sự, tăng trưởng hay ổn định?
-2. **Bộ số đầu vào?** Giá trị đơn trung bình (AOV), biên lợi nhuận gộp, tỉ lệ chuyển đổi từng bước nếu có. Thiếu số nào nói rõ để dùng mức tham khảo và đánh dấu là giả định.
+2. **Bộ số đầu vào?** Giá trị đơn trung bình (AOV), lợi nhuận góp sau chi phí biến đổi, tỉ lệ chuyển đổi từng bước nếu có. Thiếu số nào nói rõ để đặt kịch bản giả định hoặc đánh dấu `[cần bổ sung]`.
 3. **Kênh và kết quả kỳ trước?** Chi phí mỗi tin nhắn hoặc mỗi khách tiềm năng, tỉ lệ chốt, kênh nào tốt nhất, kênh nào đang chi quá hoặc quá ít so với kết quả. Chưa chạy bao giờ thì nói rõ.
 4. **Chi phí ngoài quảng cáo và mốc đặc biệt?** Nhân sự, công cụ, nội dung, KOL; có ra mắt, Tết, lễ hội mua sắm trong kỳ không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
-2. **Chuỗi phễu phải viết ra từng bước, mỗi bước có tỉ lệ và nguồn tỉ lệ.** Không nhảy từ doanh thu thẳng xuống ngân sách. Tỉ lệ nào không có số thật và không có mức tham khảo phù hợp thì ghi `[cần bổ sung: mô tả dữ liệu cần, lấy ở đâu]` thay vì bịa hoặc để trống.
-3. **Đủ 4 số kinh tế đơn vị trước khi phân bổ:** chi phí tối đa mỗi khách tiềm năng (CPL hòa vốn), CPL mục tiêu (có lãi), ROAS hòa vốn, ROAS mục tiêu. Thiếu 1 trong 4 là chưa xong.
-4. **Đối chiếu CPL tối đa với dải CPL của ngành.** Nếu thấp hơn đáy ngành thì cảnh báo ngay: mô hình chưa chạy được bằng quảng cáo, cần sửa AOV, biên hoặc tỉ lệ chốt trước.
-5. **Phân tích độ nhạy để biết sửa biến nào trước.** Thường chi phí mỗi tin nhắn và tỉ lệ tin nhắn thành khách tiềm năng ảnh hưởng nhiều nhất; biến dễ sửa nhất là tỉ lệ chốt (kịch bản, tốc độ phản hồi).
-6. **Ngân sách tổng gồm cả nội dung, công cụ, nhân sự, KOL, dự phòng**, không chỉ tiền quảng cáo. Dự phòng 10 đến 15% không phân bổ trước, dùng cho cơ hội đột xuất và cần người duyệt rõ.
-7. **Kênh đã chứng minh nhận 60 đến 70%, kênh mới thử 10 đến 15%, tiếp thị lại 10 đến 15%.** Không chia đều. Tỉ lệ xây thương hiệu và hiệu suất đi theo giai đoạn (bảng dưới).
-8. **Ngưỡng tăng và ngưỡng cắt phải có số và số ngày.** Không bao giờ tăng ngân sách khi CPL đang xấu; sửa nội dung và theo dõi trước.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
+2. **Chuỗi phễu phải viết ra từng bước, mỗi bước có tỉ lệ và nguồn tỉ lệ.** Không nhảy từ doanh thu thẳng xuống ngân sách. Tỉ lệ nào chưa có số thật thì ghi `[cần bổ sung: mô tả dữ liệu cần, lấy ở đâu]` hoặc dùng giả định được nêu rõ để tính thử; không trình bày giả định như số thị trường.
+3. **Tính các ngưỡng cần cho quyết định đang hỏi.** Nếu mua khách bằng tin nhắn hoặc biểu mẫu, tính chi phí tối đa cho một khách tiềm năng từ lợi nhuận góp mỗi đơn và tỉ lệ chốt. Nếu đo doanh thu từ quảng cáo, tính mức doanh thu đủ bù chi phí. Không ép cùng một bộ chỉ số cho mọi kênh.
+4. **Đối chiếu với số của chính kênh và nhóm khách.** Nếu chi phí tìm khách cao hơn mức có thể thu hồi, chỉ rõ bước nào cần sửa: giá trị đơn, lợi nhuận góp, tỉ lệ chốt hoặc chi phí tiếp cận.
+5. **Phân tích độ nhạy.** Thay từng giả định một để xem biến nào làm ngân sách cần đổi nhiều nhất; chỉ đề xuất sửa biến có thể tác động trong thực tế.
+6. **Ngân sách tổng gồm cả nội dung, công cụ, nhân sự, người hợp tác và khoản dự phòng**, không chỉ tiền quảng cáo. Mức dự phòng do công ty chốt theo rủi ro và khả năng giữ tiền mặt.
+7. **Phân bổ theo kết quả và năng lực vận hành.** Kênh đã có dữ liệu tốt có thể nhận nhiều hơn; kênh mới cần khoản thử đủ để đo. Ghi lý do cho từng khoản thay vì áp một tỉ lệ chung.
+8. **Ngưỡng tăng và ngưỡng cắt phải gắn với số liệu và khoảng thời gian đo.** Khi chi phí cho một khách tiềm năng cao hơn mục tiêu, kiểm tra chất lượng khách và tỉ lệ chốt trước khi quyết định tăng hoặc dừng.
 
 ### Chuỗi công thức
 
@@ -71,58 +77,46 @@ Doanh thu mục tiêu                            Ngân sách quảng cáo
     thành khách tiềm năng                        nhân AOV              = doanh thu dự kiến
   nhân CPMess              = ngân sách quảng cáo
 
-CPL hòa vốn      = (Doanh thu mục tiêu x Biên gộp) / Số khách tiềm năng cần
-CPL mục tiêu     = CPL hòa vốn / 1,5
-ROAS hòa vốn     = 1 / Biên gộp
-ROAS mục tiêu    = ROAS hòa vốn x 1,5
+CPL hòa vốn      = Lợi nhuận góp/đơn x Tỉ lệ khách tiềm năng thành đơn
+                   - Chi phí tìm khách khác phân bổ cho mỗi khách tiềm năng
+ROAS hòa vốn     = 1 / Tỉ lệ lợi nhuận góp trước chi phí quảng cáo
+Mục tiêu có lãi  = Chọn CPL thấp hơn mức hòa vốn hoặc ROAS cao hơn mức hòa vốn
+                   sau khi tính lợi nhuận công ty muốn giữ lại
 CAC              = Tổng chi phí marketing và bán hàng / Số khách mới
-LTV              = AOV x Số lần mua mỗi năm x Số năm giữ chân x Biên gộp
-Hoàn vốn (tháng) = CAC / Lợi nhuận gộp mỗi khách mỗi tháng
-ROI kênh (%)     = (Lợi nhuận gộp từ kênh - Chi phí kênh) / Chi phí kênh x 100
+LTV              = Tổng lợi nhuận góp từ các lần mua dự kiến - Chi phí phục vụ khách
+Hoàn vốn (tháng) = CAC / Lợi nhuận góp mỗi khách mỗi tháng (chỉ khi khách tạo doanh thu đều)
+ROI kênh (%)     = (Lợi nhuận góp từ kênh - Chi phí tìm khách của kênh) / Chi phí tìm khách của kênh x 100
 ```
 
-### Tỉ lệ chuyển đổi tham khảo Việt Nam (dùng khi thiếu dữ liệu, ghi rõ là giả định cần kiểm chứng)
+### Số cần lấy để tính cho từng loại bán hàng
 
-| Bước | B2C qua tin nhắn | B2C qua sàn | B2B đại lý, doanh nghiệp |
-|---|---|---|---|
-| Chi phí mỗi tin nhắn hoặc khách tiềm năng | 25.000 đến 40.000đ (Facebook); 28.000 đến 45.000đ (TikTok) | Chi phí quảng cáo sàn 8 đến 15% doanh thu | 300.000 đến 1.500.000đ mỗi khách tiềm năng đủ điều kiện |
-| Tin nhắn thành khách tiềm năng | 50 đến 60% | không áp dụng | 30 đến 50% liên hệ thành khách đủ điều kiện |
-| Khách tiềm năng thành đơn | 25 đến 40% | Lượt xem thành đơn 1 đến 3% | 10 đến 25%, chu kỳ 1 đến 3 tháng |
-| Mua lại trong 90 ngày | 15 đến 25% | 10 đến 20% | Đại lý đặt lại hằng tháng nếu bán được |
-| ROAS thường thấy | 2 đến 5 lần | 3 đến 8 lần | Tính theo CAC và LTV, không theo ROAS |
-
-### Tỉ lệ xây thương hiệu và hiệu suất theo giai đoạn, kèm tham khảo theo ngành (giả định, sửa theo số thật)
-
-| Giai đoạn hoặc ngành | Hiệu suất (quảng cáo chốt, tìm kiếm, tiếp thị lại) | Xây thương hiệu (nội dung, KOL, cộng đồng, PR) | Ghi chú |
-|---|---|---|---|
-| Khởi sự, dưới 2 năm | 75 đến 80% | 20 đến 25% | Cần đơn và tiền mặt ngay |
-| Tăng trưởng | 60% | 40% | Bắt đầu tích lũy tài sản nội dung, danh sách khách |
-| Ổn định, mở rộng | 50% | 50% | Khách cũ và giới thiệu gánh phần lớn doanh thu |
-| Bán lẻ trực tuyến, sàn | Mạng xã hội trả phí 35%, quảng cáo sàn và Google mua sắm 25%, email và Zalo 15%, KOL 15%, SEO 10% | | |
-| B2B dịch vụ, phân phối | Nội dung và SEO 30%, sự kiện và hội thảo 25%, email, Zalo và giới thiệu 25%, quảng cáo trả phí 20% | | Chu kỳ dài, uy tín quan trọng hơn lượt bấm |
-| Ăn uống, dịch vụ địa phương | Mạng xã hội 40%, KOL và đánh giá 25%, tìm kiếm địa phương (Google Maps) 20%, trả phí 15% | | |
-
-### Ngưỡng LTV:CAC và mùa vụ
-
-| LTV:CAC | Ý nghĩa | Hành động |
+| Loại bán hàng | Số cần có | Nếu chưa có |
 |---|---|---|
-| dưới 1 | Lỗ trên mỗi khách | Dừng mở rộng, sửa giá hoặc sản phẩm |
-| 1 đến 3 | Hòa vốn đến tạm được | Tối ưu chuyển đổi, tăng AOV, chưa mở rộng |
-| trên 3 | Khỏe | Mở rộng có kiểm soát, tăng tối đa 20% mỗi tuần |
-| trên 5 | Rất tốt | Tăng mạnh, nhưng kiểm tra lại số trước |
+| B2C qua tin nhắn | Chi phí mỗi tin nhắn; tỉ lệ tin nhắn thành khách tiềm năng; tỉ lệ thành đơn; lợi nhuận góp mỗi đơn | Ghi `[cần bổ sung]`; có thể tính kịch bản với từng giả định được nêu rõ |
+| B2C qua sàn | Chi phí quảng cáo; lượt xem sản phẩm; số đơn từ quảng cáo; phí sàn, giao hàng, hoàn trả; lợi nhuận góp mỗi đơn | Lấy từ báo cáo sàn và đơn hàng cùng kỳ, không dùng tỉ lệ của kênh khác |
+| B2B | Số liên hệ; số khách đủ điều kiện; số hợp đồng; lợi nhuận góp mỗi hợp đồng; thời gian từ liên hệ đến ký | Tách chi phí tìm khách khỏi chi phí chăm sóc khách cũ |
 
-Hoàn vốn CAC nên dưới 6 tháng với doanh nghiệp nhỏ. Mùa vụ: Tết tăng chi phí mỗi nghìn lượt hiển thị (CPM) 30 đến 50%; 11.11, 12.12 tăng 20 đến 30%; hè tăng 10 đến 15%. Đây là mức tham khảo, cần so với số của chính công ty.
+### Chia ngân sách theo mục tiêu
 
+Trước tiên giữ tiền cho việc bắt buộc để bán được và đo được kết quả. Sau đó phân bổ cho các kênh đã tạo khách có lãi, khoản thử kênh mới và nội dung dùng lâu dài. Mỗi khoản phải có số tiền, lý do, người phụ trách, cách đo và ngày xem lại. Với mùa vụ như Tết hoặc các đợt bán hàng trên sàn, lấy chi phí cùng kỳ trước hoặc kết quả thử nhỏ để điều chỉnh; không mặc định chi phí sẽ tăng theo một tỉ lệ cố định.
+
+### Điều kiện tăng, giữ hoặc giảm chi
+
+- **Tăng:** kết quả thực đạt mục tiêu lợi nhuận và vẫn còn khả năng xử lý thêm khách; tăng từng bước rồi đo chi phí tìm thêm một khách.
+- **Giữ và sửa:** số khách về đủ nhưng ít người mua; kiểm tra chất lượng khách, lời tư vấn, giá và trang bán hàng.
+- **Giảm hoặc dừng:** sau khoảng thời gian đo đã chốt, chi phí tìm khách vượt mức có thể thu hồi và chưa thấy cách sửa có bằng chứng.
+
+Thời gian hoàn vốn và mức lợi nhuận cần giữ lại do công ty chốt theo dòng tiền và chu kỳ mua; không gán một ngưỡng chung cho mọi ngành.
 ---
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `KPI-nguoc-ngan-sach-[san-pham]-[ky].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `KPI-nguoc-ngan-sach-[san-pham]-[ky].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
 - Ngân sách quảng cáo cần theo 3 kịch bản và tổng ngân sách marketing (bảng 3 cột).
-- CPL hòa vốn, CPL mục tiêu, ROAS hòa vốn, ROAS mục tiêu, LTV:CAC, thời gian hoàn vốn.
+- Các chỉ số cần cho kênh đang tính: chi phí tối đa cho một khách tiềm năng, doanh thu đủ bù chi phí quảng cáo, chi phí tìm khách mới và thời gian hoàn vốn khi tính được.
 - Kết luận một câu: mô hình chạy được bằng quảng cáo hay chưa, nếu chưa thì sửa biến nào.
 - 3 rủi ro lớn nhất về số.
 - Quyết định cần ban giám đốc chốt: ngân sách, mục tiêu, ngưỡng cắt, ai duyệt chi vượt kế hoạch.
@@ -148,11 +142,11 @@ Một bảng cho B2C, một bảng cho B2B nếu công ty có cả hai.
 | Doanh thu mục tiêu | | | |
 | AOV | | | |
 | Số đơn cần | | | |
-| Tỉ lệ khách tiềm năng thành đơn | trung bình trừ 10 điểm | trung bình | cộng 10 điểm |
+| Tỉ lệ khách tiềm năng thành đơn | thấp hơn số hiện tại theo giả định đã nêu | số hiện tại hoặc giả định cơ sở | cao hơn theo giả định đã nêu |
 | Số khách tiềm năng cần | | | |
-| Tỉ lệ tin nhắn thành khách tiềm năng | trừ 15 điểm | trung bình | cộng 15 điểm |
+| Tỉ lệ tin nhắn thành khách tiềm năng | thấp hơn theo giả định | số hiện tại hoặc giả định cơ sở | cao hơn theo giả định |
 | Số tin nhắn cần | | | |
-| CPMess | trung bình cộng 30% | trung bình | trừ 20% |
+| CPMess | cao hơn theo giả định | số hiện tại hoặc giả định cơ sở | thấp hơn theo giả định |
 | Ngân sách quảng cáo | | | |
 | ROAS dự kiến | | | |
 
@@ -168,10 +162,10 @@ Nhận định: dùng kịch bản cơ sở để lập kế hoạch, kịch b�
 | ROAS mục tiêu | | | |
 | CAC | | | |
 | LTV | | | |
-| LTV:CAC | | | So với bảng ngưỡng |
-| Hoàn vốn CAC | | | Dưới 6 tháng mới an toàn |
+| LTV:CAC | | | Đọc cùng thời gian hoàn vốn và độ chắc của dữ liệu mua lại |
+| Hoàn vốn CAC | | | So với mức công ty chấp nhận theo dòng tiền |
 
-Kèm đối chiếu CPL hòa vốn với dải CPL ngành và kết luận.
+Kèm so sánh mức chi phí có thể trả với chi phí công ty đang thực trả cho cùng nhóm khách; nếu chưa có số thực, ghi cách đo trong đợt thử đầu.
 
 ### 4.5 Phân tích độ nhạy
 
@@ -190,26 +184,25 @@ Hạng mục:
 
 | Hạng mục | % | Số tiền | Chỉ số đo |
 |---|---|---|---|
-| Quảng cáo trả phí | 50 đến 65% | | CPL, ROAS |
-| Sản xuất nội dung | 10 đến 15% | | Số bài, chi phí mỗi bài |
-| KOL, người tiêu dùng có ảnh hưởng (KOC), nội dung từ khách | 5 đến 10% | | Chi phí mỗi lượt tiếp cận, đơn |
-| Công cụ, phần mềm | 2 đến 5% | | |
-| Dự phòng (không phân bổ trước) | 10 đến 15% | | |
+| Quảng cáo trả phí | | | Chi phí tìm khách, lợi nhuận góp từ đơn |
+| Sản xuất nội dung | | | Nội dung được dùng, khách đến từ nội dung |
+| Người hợp tác, nội dung từ khách (nếu có) | | | Kết quả theo mục tiêu hợp tác |
+| Công cụ, phần mềm và nhân sự | | | Chi phí thực trả và việc tiết kiệm được |
+| Dự phòng (chưa cam kết chi) | | | Mục đích và người duyệt khi dùng |
 | **Tổng** | **100%** | | |
 
-Kênh (trong phần quảng cáo): kênh, % ngân sách, số tiền, mục tiêu, CPL hoặc ROAS mục tiêu riêng từng kênh; phân tiếp thử nghiệm 30%, mở rộng 50%, tiếp thị lại 15%, tệp tương tự 5%. Ghi tỉ lệ hiệu suất và xây thương hiệu của kỳ này so với bảng giai đoạn. Tháng: bảng ngân sách theo tháng có điều chỉnh mùa vụ và chiến dịch lớn, cộng đúng tổng kỳ, có cột "ghi chú điều chỉnh" để lưu lý do mỗi lần đổi.
+Kênh (trong phần quảng cáo): kênh, % ngân sách, số tiền, mục tiêu, chi phí tìm khách hoặc doanh thu trên chi phí quảng cáo theo đúng kênh. Tách khoản duy trì hoạt động đang có, khoản thử mới và khoản cho khách đã quan tâm nếu công ty có dùng; ghi lý do và số liệu cho từng khoản. Theo tháng: ngân sách có điều chỉnh mùa vụ và chiến dịch lớn, cộng đúng tổng kỳ, có cột "ghi chú điều chỉnh" để lưu lý do mỗi lần đổi.
 
 ### 4.7 Ngưỡng tăng, ngưỡng cắt và bảng theo dõi ROI theo kênh
 
 | Điều kiện | Hành động |
 |---|---|
-| ROAS trên mục tiêu x 1,5 trong 7 ngày và tần suất hiển thị dưới 2,5 | Tăng 20 đến 30% mỗi lần, không gấp đôi |
-| CPL trên mục tiêu x 1,5 kéo dài 7 ngày | Đổi nội dung hoặc tệp, chưa tăng tiền |
-| CPL trên mục tiêu x 2 sau 7 ngày thử | Tạm dừng nhóm, ghi lý do |
-| ROAS dưới hòa vốn sau 14 ngày | Cắt kênh hoặc chiến dịch, chuyển tiền sang kênh tốt |
-| Chi vượt 110% kế hoạch tháng | Giới hạn ngân sách ngày, xem lại phân bổ; chi thêm ngoài kế hoạch phải có người duyệt ghi tên |
+| Kết quả có lãi theo mức công ty chốt trong đủ thời gian đo, đội còn khả năng xử lý thêm khách | Thử tăng từng bước; so chi phí tìm thêm một khách trước khi tăng tiếp |
+| Chi phí tìm khách vượt mục tiêu nhưng khách đến đúng nhóm | Kiểm tra trang bán hàng, tư vấn và tỉ lệ chốt trước khi đổi quảng cáo |
+| Chi phí tìm khách vượt mức có thể thu hồi sau thời gian thử đã chốt | Tạm dừng hoặc giảm, ghi lý do và phép thử sửa sai |
+| Chi vượt ngân sách đã duyệt | Giới hạn chi hằng ngày; người có thẩm quyền duyệt trước khoản phát sinh |
 
-Bảng theo dõi tháng theo kênh: kế hoạch, thực chi, chênh lệch, số khách tiềm năng, CPL, số đơn, doanh thu ghi nhận, ROI kênh, ghi chú điều chỉnh. Chọn một cách ghi nhận nguồn đơn (attribution) và giữ nguyên cả kỳ: chạm cuối (last click) đơn giản nhất; chạm đầu công bằng hơn với kênh nhận biết; chia đều khi khách đi qua nhiều kênh. Nhịp: hằng ngày 15 phút xem CPL và tốc độ chi; thứ hai hằng tuần áp ngưỡng; cuối tháng thay tỉ lệ tham khảo bằng số thật của chính mình; cuối quý tính lại LTV:CAC và ROI từng kênh, chuyển tiền từ kênh ROI thấp sang kênh ROI cao.
+Bảng theo dõi tháng theo kênh: kế hoạch, thực chi, chênh lệch, số khách tiềm năng, chi phí mỗi khách, số đơn, doanh thu và lợi nhuận góp ghi nhận, ghi chú điều chỉnh. Chọn cách ghi nguồn khách phù hợp với dữ liệu đang có, ghi rõ hạn chế khi khách đi qua nhiều kênh. Xem tốc độ chi thường xuyên; đánh giá kết quả theo chu kỳ mua của sản phẩm; cuối kỳ thay giả định bằng số thật trước khi chuyển ngân sách.
 
 Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý skill tiếp theo: MKT-11 để chuyển ngân sách thành cấu trúc chiến dịch, MKT-12 khi chạm ngưỡng cắt mà chưa rõ nguyên nhân, FIN-03 để tính kinh tế đơn vị toàn công ty.
 
@@ -222,10 +215,10 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Đã hỏi hoặc có đủ: hướng tính, giai đoạn, AOV, biên gộp, tỉ lệ phễu, kênh, chi phí ngoài quảng cáo.
 - [ ] Đã hỏi biên lợi nhuận gộp; không tính CPL hòa vốn khi thiếu số này.
 - [ ] Chuỗi phễu viết đủ từng bước, 3 kịch bản, B2C và B2B tách riêng nếu có; đã tách doanh thu khách cũ.
-- [ ] Đủ 4 số: CPL hòa vốn, CPL mục tiêu, ROAS hòa vốn, ROAS mục tiêu; có LTV:CAC và hoàn vốn.
-- [ ] Đã đối chiếu CPL hòa vốn với dải ngành và cảnh báo nếu thấp hơn.
+- [ ] Đã tính các ngưỡng cần cho đúng kênh và quyết định; công thức dùng lợi nhuận góp sau chi phí biến đổi, không dùng doanh thu thay lợi nhuận.
+- [ ] Đã đối chiếu ngưỡng có thể trả với chi phí công ty đang thực trả hoặc ghi rõ cách đo khi chưa có số.
 - [ ] Độ nhạy chỉ ra 2 biến ảnh hưởng nhất và cách cải thiện.
-- [ ] Tổng ngân sách gồm nội dung, công cụ, KOL, dự phòng; cộng đúng 100% ở cả 3 góc nhìn hạng mục, kênh, tháng; có tỉ lệ hiệu suất và xây thương hiệu.
+- [ ] Tổng ngân sách gồm nội dung, công cụ, nhân sự, người hợp tác nếu có và dự phòng; cộng đúng 100% theo hạng mục, kênh và tháng.
 - [ ] Ngưỡng tăng và cắt có số cụ thể và số ngày; bảng theo dõi có ROI kênh và cách ghi nhận nguồn đơn.
 - [ ] Có ghi chú mùa vụ nếu kỳ rơi vào Tết, lễ hội mua sắm.
 - [ ] Mọi số tham khảo ghi rõ là giả định; chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.

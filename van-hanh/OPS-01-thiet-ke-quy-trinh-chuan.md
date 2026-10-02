@@ -3,6 +3,10 @@
 > **Dùng khi:** một việc đang phụ thuộc vào một người cụ thể, mỗi người làm một kiểu, chất lượng đầu ra lên xuống thất thường, nhân viên mới mất nhiều tuần để làm được, hoặc sắp mở thêm chi nhánh, kho, ca làm việc mới và cần văn bản hóa cách làm. Cũng dùng khi cần bản đồ các quy trình cốt lõi của công ty hoặc danh sách kiểm tra vận hành hằng ngày theo ca.
 > **Kết quả:** một quy trình vận hành chuẩn (Standard Operating Procedure, SOP) gồm thẻ tóm tắt có phạm vi áp dụng, sơ đồ luồng, bảng bước làm chi tiết, người chịu trách nhiệm từng bước, điểm kiểm soát, biểu mẫu và danh sách kiểm tra kèm theo, bảng xử lý sự cố, chỉ số theo dõi và lịch sử thay đổi.
 > **Không dùng khi:** cần kế hoạch cho một dự án có ngày bắt đầu và kết thúc (dùng OPS-02), muốn nối công cụ để chạy tự động (OPS-06, sau khi đã có SOP), cần quy trình bán hàng theo phễu (SAL-01), quy trình chăm sóc khách hàng (CS-01), hoặc cần gom nhiều SOP thành sổ tay và kho tri thức (OPS-07).
+> **Từ ngữ:** SOP = quy trình làm việc viết thành từng bước.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> **Từ ngữ bổ sung:** RACI = bảng ghi ai làm, ai chịu trách nhiệm, ai góp ý, ai được báo; B2B = bán cho doanh nghiệp; B2C = bán cho người tiêu dùng.
+> CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +21,7 @@
 - Cách công ty lưu tài liệu quy trình: [ĐIỀN: ví dụ "Google Drive thư mục Quy trình", "Notion", "in giấy dán tại kho"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không xuất kho khi chưa có phiếu ký", "không giảm giá khi chưa duyệt", "không dùng Zalo cá nhân nhận tiền khách"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,7 +41,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Quy trình gì, bắt đầu từ sự kiện nào, kết thúc khi nào, lặp lại bao nhiêu lần?** Ví dụ: "xử lý đơn hàng, bắt đầu khi khách chốt trên Zalo, kết thúc khi đơn giao thành công và đã thu tiền, 80 lần mỗi ngày". Nếu người dùng nói chung chung như "quy trình kho", hỏi rõ là nhập, xuất, kiểm kê hay cả ba. Nếu cần bản đồ toàn bộ quy trình cốt lõi, nói rõ để làm mục 4.2 ở mức tổng thể trước.
 2. **Hiện tại đang làm thế nào và hay hỏng ở đâu?** Ai làm, qua những bước nào, lỗi hay xảy ra nhất là gì (giao nhầm, thiếu chứng từ, duyệt chậm, mất đơn), bước nào dễ sai nhất. Nếu người dùng có mô tả, mẫu SOP cũ hoặc biểu mẫu đang dùng, dán vào để đọc trước.
@@ -46,20 +50,20 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu quy trình liên quan tiền hoặc hàng hóa, hỏi thêm mức duyệt nếu phần bối cảnh chưa có.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mỗi bước bắt đầu bằng động từ, câu chủ động, mỗi bước chỉ một hành động.** "Kiểm tra tồn kho trên phần mềm" thay vì "tồn kho cần được kiểm tra". Bước dài quá 5 dòng thì tách.
 3. **Một bước có đúng một người chịu trách nhiệm chính.** Có thể nhiều người hỗ trợ, nhưng chỉ một người bị hỏi khi bước đó sai. Dùng ma trận phân vai (RACI: chịu trách nhiệm thực hiện, chịu trách nhiệm cuối cùng, được tham vấn, được thông báo) cho quy trình liên phòng ban.
 4. **Điểm bắt đầu và điểm kết thúc phải là sự kiện quan sát được.** "Khi khách chuyển khoản thành công" là sự kiện; "khi khách có vẻ đồng ý" không phải. Ghi rõ cả phạm vi không áp dụng.
 5. **Mỗi bước có đầu vào, đầu ra, tiêu chuẩn hoàn thành, bằng chứng và thời gian chuẩn.** Bằng chứng là thứ kiểm tra được sau: phiếu đã ký, dòng đã cập nhật trên bảng tính, ảnh chụp, tin nhắn xác nhận. Thời gian chuẩn cho biết bao lâu là trễ để quản lý can thiệp.
 6. **Rẽ nhánh phải viết rõ điều kiện, và hỏi "nếu... thì sao" để tìm ngoại lệ.** Mọi chỗ "nếu" phải có "thì" cho cả hai trường hợp. Có bảng xử lý sự cố cho 5 đến 8 tình huống hay gặp nhất; quy trình chỉ viết cho trường hợp suôn sẻ thì ngày đầu áp dụng đã hỏng.
 7. **Tách phần lặp lại thành mô-đun dùng chung.** Bước "lập phiếu và trình duyệt" xuất hiện ở nhiều quy trình thì viết một lần, các SOP khác chỉ dẫn chiếu.
-8. **Không bịa bước, mức duyệt hay quy định.** Chỗ nào thiếu dữ liệu thật thì ghi `[cần bổ sung: mô tả dữ liệu cần]`, ví dụ `[cần bổ sung: mức duyệt chi của trưởng phòng]`, thay vì tự điền hoặc để trống. Mọi thời gian chuẩn, tỉ lệ tham khảo ghi rõ là giả định. SOP liên quan lao động phải nhất quán với Bộ luật Lao động 2019 và nội quy; SOP xử lý dữ liệu cá nhân khách tuân theo Nghị định 13/2023; SOP hóa đơn, chứng từ theo quy định thuế hiện hành, ghi "cần kế toán hoặc luật sư xác nhận".
+8. **Không bịa bước, mức duyệt hay quy định.** Chỗ nào thiếu dữ liệu thật thì ghi `[cần bổ sung: mô tả dữ liệu cần]`, ví dụ `[cần bổ sung: mức duyệt chi của trưởng phòng]`, thay vì tự điền hoặc để trống. Mọi thời gian chuẩn, tỉ lệ tham khảo ghi rõ là giả định. SOP liên quan lao động phải nhất quán với Bộ luật Lao động 2019 và nội quy; SOP xử lý dữ liệu cá nhân khách tuân theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP; SOP hóa đơn, chứng từ theo quy định thuế hiện hành, ghi "cần kế toán hoặc luật sư xác nhận".
 
 ### Điểm kiểm soát tối thiểu theo loại quy trình (dùng khi thiếu dữ liệu, ghi rõ là giả định)
 
@@ -97,7 +101,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `SOP-[ma-phong-ban]-[ten-quy-trinh]-[phien-ban].md`, ví dụ `SOP-KHO-xuat-kho-v1.md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `SOP-[ma-phong-ban]-[ten-quy-trinh]-[phien-ban].md`, ví dụ `SOP-KHO-xuat-kho-v1.md`.
 
 ### 4.1 Thẻ tóm tắt cho quản lý
 
@@ -200,7 +204,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**. Nếu người d
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: phạm vi và tần suất quy trình, cách làm hiện tại và chỗ hỏng, người tham gia, quyền duyệt và quy định ràng buộc, mục đích viết; đã tóm tắt và được xác nhận trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: phạm vi và tần suất quy trình, cách làm hiện tại và chỗ hỏng, người tham gia, quyền duyệt và quy định ràng buộc, mục đích viết.
 - [ ] Nếu người dùng có mẫu SOP hoặc biểu mẫu riêng, kết quả bám đúng mẫu đó.
 - [ ] Điểm bắt đầu và kết thúc là sự kiện quan sát được; có phạm vi áp dụng và không áp dụng.
 - [ ] Mọi bước bắt đầu bằng động từ, câu chủ động, một hành động mỗi bước, không quá 12 bước.
@@ -209,6 +213,6 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Điểm kiểm soát đặt đúng chỗ rủi ro tiền, hàng, khách; không kiểm soát tràn lan, không bỏ bước duyệt để cho nhanh.
 - [ ] Quy trình chạy được trên công cụ công ty đang có, không đòi mua phần mềm mới.
 - [ ] Có biểu mẫu kèm cột bắt buộc, danh sách kiểm tra theo ca nếu cần, bảng xử lý sự cố 5 đến 8 tình huống, bảng lịch sử thay đổi.
-- [ ] Mức duyệt và điều cấm trong phần bối cảnh được tôn trọng; có nhắc Bộ luật Lao động 2019, Nghị định 13/2023 hoặc quy định thuế khi quy trình chạm tới.
+- [ ] Mức duyệt và điều cấm trong phần bối cảnh được tôn trọng; có nhắc Bộ luật Lao động 2019, Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP hoặc quy định thuế khi quy trình chạm tới.
 - [ ] Chỗ thiếu dữ liệu đã đánh dấu `[cần bổ sung]`, không bịa, không để trống; mọi thời gian chuẩn, tỉ lệ tham khảo ghi rõ là giả định.
 - [ ] Thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu; kết thúc bằng 5 việc cần làm trong 7 ngày.

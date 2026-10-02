@@ -3,6 +3,11 @@
 > **Dùng khi:** lãnh đạo cảm thấy công ty "rối" nhưng không biết bắt đầu sửa từ đâu; sắp lớn nhanh và muốn biết mảng nào sẽ gãy trước; chuẩn bị đón nhà đầu tư, ngân hàng hoặc bàn giao cho thế hệ sau; hoặc mỗi năm một lần muốn tự chấm để so với năm trước.
 > **Kết quả:** hồ sơ doanh nghiệp ngắn, bảng chấm 10 mảng theo 5 mức có bằng chứng, điểm nghẽn và mối liên hệ giữa các mảng, 3 việc ưu tiên theo tác động và công sức, lộ trình 90 ngày, chỉ số theo dõi và danh sách skill nên dùng tiếp.
 > **Không dùng khi:** chỉ cần chấm mức sẵn sàng ứng dụng AI (dùng LD-04), cần phân tích một vấn đề cụ thể đến nguyên nhân gốc (LD-02), cần kế hoạch kinh doanh năm (LD-08, làm sau khi chẩn đoán), hoặc cần thẩm định tài chính để gọi vốn (FIN-06, FIN-07).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; CRM = bảng hoặc phần mềm quản lý thông tin khách hàng.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> **Từ ngữ bổ sung:** KPI = chỉ số đo kết quả; OKR = mục tiêu và các kết quả cụ thể để biết đã đạt mục tiêu chưa; CAC = chi phí để có một khách hàng mới.
+> RACI = bảng ghi ai làm, ai chịu trách nhiệm, ai góp ý, ai được báo.
+> CSKH = chăm sóc khách hàng; TNHH = trách nhiệm hữu hạn; AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +22,7 @@
 - Lý do chẩn đoán lúc này: [ĐIỀN: ví dụ "sắp mở chi nhánh thứ 2", "ngân hàng yêu cầu hồ sơ", "muốn bớt phụ thuộc chủ"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không chia sẻ số tài chính chi tiết cho trưởng phòng", "ngân sách cải thiện dưới 100 triệu trong quý này"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +42,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Chuyện gì khiến bạn muốn chẩn đoán lúc này?** Triệu chứng cụ thể: mất khách, nghỉ việc, thiếu tiền, sai sót lặp lại, không biết lãi lỗ thật, tranh cãi nội bộ. Nếu chỉ được sửa một chuyện trong 3 tháng, chọn chuyện gì?
 2. **Đi nhanh qua 10 mảng:** với mỗi mảng (chiến lược và lãnh đạo, quản trị và phân quyền, tài chính, bán hàng, marketing, chăm sóc khách hàng, vận hành và chuỗi cung ứng, nhân sự, công nghệ và dữ liệu, pháp lý và rủi ro) trả lời ngắn: có tài liệu không, có số đo không, ai phụ trách, lần cuối xem lại khi nào. Người dùng có thể trả lời thành bảng.
 3. **Số liệu nền có sẵn?** Doanh thu và lợi nhuận 2 năm, tỉ lệ nghỉ việc, tỉ lệ khách quay lại, công nợ quá hạn, số ngày tiền mặt đủ chi, số quy trình đã viết thành văn bản. Không có số thì nói "không có", đó cũng là dữ liệu chẩn đoán.
 4. **Nguồn lực để cải thiện trong 90 ngày?** Ai có thể dành thời gian, ngân sách bao nhiêu, có thuê ngoài được không, điều gì nhất định không đổi?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chấm 10 mảng, thang 1 đến 5, mỗi điểm phải có bằng chứng.** Ghi rõ bằng chứng là gì (tài liệu, số, lời kể). Khi chỉ có lời kể của chủ doanh nghiệp, hạ một bậc tin cậy và đánh dấu "cần kiểm chứng".
 3. **Dùng mức neo cố định** trong bảng tham khảo bên dưới để chấm nhất quán giữa các lần và giữa các công ty. Mức 2 và 4 là ở giữa hai mức neo liền kề.
 4. **Điểm yếu nhất và mối liên hệ quan trọng hơn điểm trung bình.** Luôn nêu mảng thấp nhất, mảng đang kéo mảng khác xuống, và mảng mạnh có thể dùng làm đòn bẩy.
@@ -87,7 +92,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Chan-doan-suc-khoe-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Chan-doan-suc-khoe-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho lãnh đạo
 
@@ -153,7 +158,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và danh sách sk
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: triệu chứng và lý do, tình trạng 10 mảng, số liệu nền, nguồn lực 90 ngày.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu có biểu mẫu của người dùng, kết quả khớp đúng mục, thứ tự, đơn vị.
 - [ ] Đủ 10 mảng, mỗi điểm có bằng chứng và độ tin cậy; điểm từ lời kể được đánh dấu cần kiểm chứng.
 - [ ] Nêu rõ mảng thấp nhất, mối liên hệ kéo nhau, và mảng mạnh làm đòn bẩy.

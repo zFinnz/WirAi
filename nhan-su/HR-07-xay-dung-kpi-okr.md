@@ -3,6 +3,9 @@
 > **Dùng khi:** một vị trí hoặc một phòng chưa có chỉ số đo lường rõ, đánh giá cuối kỳ toàn cảm tính, thưởng không biết dựa vào gì, hoặc công ty có mục tiêu quý nhưng từng người không biết mình đóng góp phần nào.
 > **Kết quả:** chuỗi mục tiêu từ công ty xuống vị trí, bộ chỉ số đo lường hiệu quả (KPI) theo vị trí với công thức, nguồn dữ liệu, tần suất và ngưỡng 3 mức; bộ mục tiêu và kết quả then chốt (OKR) quý; cơ chế gắn thưởng; bảng theo dõi, quy trình thống nhất và lộ trình thử nghiệm.
 > **Không dùng khi:** đã có chỉ số và cần đánh giá một người cụ thể (HR-06), cần OKR cấp công ty trong kế hoạch kinh doanh năm (LD-08), cần kế hoạch marketing có chỉ số kênh (MKT-06), hoặc cần báo cáo định kỳ (OPS-05).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp; KPI = chỉ số đo kết quả công việc; OKR = mục tiêu và các kết quả đo được.
+> **Từ ngữ bổ sung:** CRM = nơi lưu thông tin khách và lịch sử trao đổi.
+> CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -16,7 +19,7 @@
 - Chu kỳ xem xét chỉ số: [ĐIỀN: ví dụ "tháng cho kinh doanh, quý cho các phòng khác"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không gắn 100% thu nhập vào chỉ số", "không đặt chỉ số không đo được bằng dữ liệu hiện có"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -36,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Xây cho vị trí nào và kết quả quan trọng nhất vị trí đó phải tạo ra là gì?** 2 đến 3 kết quả, bằng lời của trưởng phòng. Nếu có mô tả công việc, dán vào.
 2. **Mục tiêu của phòng và công ty kỳ này?** Để chỉ số vị trí nối được lên trên. Nếu chưa có, nói rõ để viết giả định.
 3. **Dữ liệu nào đang có sẵn, ai nhập, bao lâu một lần, tin được không?** Số nền (baseline) 3 đến 6 tháng gần nhất là bao nhiêu? Chỉ số không có nguồn dữ liệu thì không đưa vào bộ chính.
 4. **Bộ chỉ số dùng để làm gì?** Điều hành hằng tuần, đánh giá cuối kỳ, hay tính thưởng? Mục đích khác nhau thì số lượng và cách đặt ngưỡng khác nhau.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mỗi vị trí 3 đến 5 KPI, không hơn.** Nhiều hơn thì không ai theo dõi và không chỉ số nào quan trọng. Chỉ số còn lại chuyển thành "theo dõi tham khảo".
 3. **Nối chuỗi từ trên xuống.** Mục tiêu công ty, mục tiêu phòng, chỉ số vị trí phải vẽ thành một chuỗi; chỉ số nào không nối được lên thì xem lại.
 4. **Phân tầng dẫn dắt và kết quả.** Chỉ số kết quả (lagging) như doanh số, tỉ lệ đổi trả; chỉ số dẫn dắt (leading) như số cuộc gọi, số đơn kiểm tra trước giao. Mỗi vị trí có ít nhất một chỉ số dẫn dắt để biết sớm trước khi kết quả xấu.
@@ -98,7 +101,7 @@ Mọi vị trí có thể thêm 1 chỉ số phát triển cá nhân (giờ đà
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `KPI-OKR-[vi-tri]-[ky].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `KPI-OKR-[vi-tri]-[ky].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 

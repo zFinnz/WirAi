@@ -3,6 +3,9 @@
 > **Dùng khi:** cần viết bài đăng tự nhiên (không chạy tiền) cho Facebook, TikTok, Zalo OA, Instagram, nhóm Zalo đại lý hoặc LinkedIn; có ảnh hoặc video rồi cần lời; bài cũ đăng không ai tương tác; hoặc cần quy tắc trả lời bình luận và tin nhắn sau khi đăng.
 > **Kết quả:** 2 phương án bài đăng khác hướng mở bài và khác cấu trúc, ghi chú chọn bản, thẻ chủ đề (hashtag) theo kênh, gợi ý hình ảnh, quy tắc phân loại và trả lời bình luận với 3 cấp xử lý, danh sách kiểm tra trước và sau khi đăng, kiểm tra giọng thương hiệu.
 > **Không dùng khi:** cần nội dung chạy quảng cáo trả phí có giới hạn ký tự và chính sách (MKT-10), cần kịch bản video (MKT-09), cần cả lịch tháng (MKT-07), cần bài đăng tuyển dụng (HR-01), cần khẩu hiệu, tiêu đề poster (MKT-21), hoặc khủng hoảng đã lan rộng (MKT-25).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước; insight = lý do thật phía sau một hành vi của khách, được kiểm tra bằng dữ liệu.
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +20,7 @@
 - Ai trực trang và ai được quyền trả lời bình luận nhạy cảm: [ĐIỀN: ví dụ "nhân viên nội dung trực 8 đến 21 giờ; khiếu nại chuyển trưởng CSKH"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không công khai giá sỉ", "không nêu tên đối thủ", "không hứa hiệu quả y tế", "tối đa 3 biểu tượng cảm xúc, 5 hashtag"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -39,7 +42,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Bài nói về gì và có bằng chứng thật nào?** Sản phẩm, chủ đề, số liệu, câu nói của khách, ảnh hoặc video đã có. Có thấu hiểu khách hàng (insight) từ MKT-02 thì dán.
 2. **Tầng phễu?** Nhận biết (người chưa biết vấn đề), cân nhắc (đang so sánh), chuyển đổi (sẵn sàng mua), hay giữ chân (khách cũ, đại lý)?
@@ -48,19 +51,19 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng đã có lịch nội dung (MKT-07), lấy tầng phễu, trụ cột, mở bài và kêu gọi hành động từ ô lịch, không hỏi lại.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mở bài đứng độc lập được.** Người đọc chỉ thấy 2 đến 3 dòng đầu trước nút "Xem thêm". Ba dòng đó phải đủ lý do để bấm.
 3. **2 phương án phải khác nhau thật**: khác hướng mở bài (nỗi đau so với tò mò, số liệu so với câu chuyện) và khác cấu trúc thân bài (danh sách so với kể chuyện). Đổi vài chữ không phải 2 phương án.
 4. **Thân bài 2 đến 4 đoạn, mỗi đoạn 1 đến 3 câu, có số thật hoặc chi tiết cụ thể ở ít nhất một đoạn.** Không có số thật thì ghi `[cần bổ sung: số liệu cần, lấy từ đâu]` tại chỗ đó, không bịa, không làm tròn lên.
 5. **Kêu gọi hành động là một hành động, có động từ, dễ làm trên điện thoại.** "Bình luận 'bảng giá' để nhận" thay vì "liên hệ để biết thêm". Tầng chuyển đổi có thời hạn thật.
 6. **Theo giọng thương hiệu và danh sách từ cấm.** Mặc định cấm: "siêu hot", "không thể bỏ lỡ", "hãy cùng chúng tôi", "đẳng cấp", "số 1". Không chèn tiếng Anh khi có từ Việt.
-7. **Mỗi kênh một bản, không đăng cùng một bài lên mọi kênh.** Nhóm Facebook viết như người thật chia sẻ; nhóm Zalo đại lý đi thẳng vào việc, có ngày, có số; TikTok chỉ 1 đến 2 dòng vì mở bài nằm trong video. Hashtag 3 đến 8 theo thứ tự thương hiệu, ngách, rộng; quá nhiều giảm tiếp cận và nhìn như bán hàng dạo.
+7. **Chỉnh bài cho từng kênh đang dùng.** Nhóm Facebook viết như người thật chia sẻ; nhóm Zalo đại lý đi thẳng vào việc, có ngày, có số; chú thích TikTok ngắn và bổ trợ cho video. Chỉ dùng thẻ chủ đề khi giúp người đọc tìm đúng nội dung; số lượng tùy kênh và mục đích, không thêm cho đủ chỉ tiêu.
 8. **Tuân thủ khi nói công dụng.** Thực phẩm chức năng, mỹ phẩm, thiết bị y tế không khẳng định chữa bệnh; không so sánh trực tiếp với đối thủ; ảnh trước sau phải thật và được khách đồng ý; không xóa bình luận chê trừ khi vi phạm.
 
 ### Hướng mở bài theo tầng phễu
@@ -84,13 +87,15 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 | Nhóm Zalo đại lý | Ngắn, có số, có ngày | Thẳng, tôn trọng, không đùa | 0 | Có việc cần làm và hạn, kèm ảnh hoặc file |
 | LinkedIn (B2B) | Vừa đến dài | Chuyên môn, có góc nhìn | 3 đến 5 | Mở bằng quan sát ngành, không bán ngay; trang cá nhân chủ công ty lan xa hơn trang công ty |
 
-Chuẩn tương tác tham khảo Việt Nam (giả định, so với số của chính trang): fanpage Facebook tỉ lệ tương tác 1 đến 3% là trung bình, trên 3% là tốt; TikTok 2 đến 5% trung bình, trên 5% tốt; Zalo OA tỉ lệ đọc 40 đến 60% trung bình. Tỉ lệ tương tác = (thích + bình luận + chia sẻ + lưu) chia lượt tiếp cận.
+Đánh giá hiệu quả bằng số của chính kênh: so bài này với các bài cùng chủ đề và cùng cách đăng trong 4 đến 8 tuần gần nhất. Tỉ lệ tương tác = (thích + bình luận + chia sẻ + lưu) chia lượt tiếp cận; chỉ so khi cách tính của nền tảng và mục tiêu bài giống nhau.
 
 ---
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Bai-dang-[kenh]-[chu-de]-[ngay].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Bai-dang-[kenh]-[chu-de]-[ngay].md`.
+
+**Thứ tự trả lời:** Đặt bài đăng hoàn chỉnh lên đầu, không kèm nhãn phân tích chen trong thân bài. Ghi chú chọn bản, hình ảnh và cách trả lời bình luận để phía sau nếu cần.
 
 ### 4.1 Tóm tắt bối cảnh bài
 
@@ -133,7 +138,7 @@ Cùng khung, nhưng hướng mở bài khác A và cấu trúc thân khác A. N�
 
 ### 4.5 Hashtag và bản cho kênh phụ
 
-Danh sách 3 đến 8 hashtag theo thứ tự thương hiệu, ngách, rộng. Nếu người dùng cần đăng thêm kênh khác, viết bản rút gọn theo bảng điều chỉnh ở mục 3 (ví dụ bản Zalo OA 3 dòng, bản nhóm đại lý có việc và hạn).
+Chỉ đề xuất thẻ chủ đề có liên quan; có thể không dùng nếu kênh hoặc bài không cần. Nếu người dùng cần đăng thêm kênh khác, viết bản phù hợp theo bảng điều chỉnh ở mục 3 (ví dụ bản Zalo OA 3 dòng, bản nhóm đại lý có việc và hạn).
 
 ### 4.6 Hình ảnh và quy tắc trả lời bình luận, tin nhắn
 

@@ -3,6 +3,9 @@
 > **Dùng khi:** lãnh đạo muốn nhìn một chỗ mọi rủi ro lớn của công ty thay vì nhớ trong đầu; vừa gặp một sự cố bất ngờ (mất khách lớn, nợ xấu, bị phạt, nhân sự chủ chốt nghỉ, bị lừa chuyển khoản) và muốn không bất ngờ lần nữa; ngân hàng, nhà đầu tư hoặc đối tác lớn hỏi "công ty quản lý rủi ro thế nào"; hoặc cần rà soát rủi ro định kỳ mỗi quý.
 > **Kết quả:** khung quản lý rủi ro ngắn (khẩu vị rủi ro, thang điểm, ma trận, vai trò), sổ đăng ký rủi ro (risk register) theo 8 nhóm với điểm trước và sau kiểm soát, kế hoạch xử lý cho rủi ro cao kèm chỉ báo sớm, phân công người chịu trách nhiệm, lịch rà soát và mẫu báo cáo rủi ro quý.
 > **Không dùng khi:** cần kế hoạch ứng phó chi tiết theo kịch bản sự cố (dùng OPS-11), cần danh mục giấy phép và bảo hiểm (PL-05), cần rà một hợp đồng cụ thể (PL-01), cần phân tích nguyên nhân gốc của một vấn đề đã xảy ra (LD-02), hoặc cần chính sách công nợ (FIN-08).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** B2C = bán cho người tiêu dùng.
+> TNHH = trách nhiệm hữu hạn; AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +20,7 @@
 - Ai phụ trách rủi ro và nhịp họp: [ĐIỀN: ví dụ "giám đốc kiêm nhiệm, chưa có lịch rà soát"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không mua bảo hiểm trên 100 triệu/năm khi chưa duyệt", "không công bố sổ rủi ro ngoài ban giám đốc"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -39,20 +42,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Chuyện gì khiến bạn lo nhất 12 tháng tới và vì sao?** Liệt kê tự do 5 đến 10 chuyện, không lọc. Chuyện nào đã suýt xảy ra hoặc đã xảy ra?
 2. **Công ty đang phụ thuộc vào ai, cái gì?** Khách hoặc đại lý lớn, nhà cung cấp, kênh bán (sàn, quảng cáo), nhân sự giữ tài khoản hoặc quan hệ, nguồn vốn, một địa điểm. Mất một trong số đó thì mất bao nhiêu phần trăm doanh thu?
 3. **Đang có gì để đỡ?** Bảo hiểm, ngưỡng duyệt, hợp đồng có điều khoản bảo vệ, sao lưu dữ liệu, quỹ dự phòng, người kế nhiệm. Cái nào có trên giấy nhưng chưa chạy thật?
 4. **Muốn vận hành sổ thế nào?** Ai giữ sổ, họp rủi ro bao lâu một lần, báo cáo cho ai, có cần chính sách ban hành chính thức hay chỉ cần sổ và lịch?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mở đầu mọi kết quả bằng dòng giới hạn:** "Rà soát sơ bộ bằng AI, không thay thế ý kiến luật sư, kiểm toán hay tư vấn bảo hiểm. Chính sách cần luật sư duyệt trước khi ban hành. Căn cứ pháp lý cần kiểm tra văn bản mới nhất."
 3. **Liệt kê rộng rồi mới chấm.** Gom rủi ro từ 8 nhóm (chiến lược, tài chính, vận hành và chuỗi cung ứng, bán hàng và khách hàng, nhân sự, pháp lý và tuân thủ, công nghệ và dữ liệu, bên ngoài) trước, rồi chấm và rút xuống 10 đến 15 rủi ro vào sổ, số còn lại để danh sách chờ.
 4. **Thang điểm phải có ngưỡng cụ thể bằng tiền hoặc phần trăm doanh thu** (bảng dưới) để hai người chấm ra cùng kết quả. Điểm rủi ro bằng khả năng nhân tác động; chấm cả trước và sau kiểm soát hiện có.
@@ -82,7 +85,7 @@ Mức: xanh 1 đến 4 chấp nhận và theo dõi; vàng 5 đến 9 có kế ho
 | Vận hành và chuỗi cung ứng | Một nhà cung cấp chiếm phần lớn hàng; tồn kho lệch sổ; giao trễ mùa cao điểm; cháy kho |
 | Bán hàng và khách hàng | Khóa tài khoản sàn hoặc quảng cáo; khiếu nại lan truyền; đại lý bán hàng đối thủ hoặc phá giá chéo vùng |
 | Nhân sự | Người giữ tài khoản và quan hệ nghỉ đột ngột; gian lận nội bộ; tranh chấp lao động; tai nạn giao hàng |
-| Pháp lý và tuân thủ | Thiếu giấy phép sản phẩm đặc thù; vi phạm quảng cáo; chậm nộp thuế, bảo hiểm xã hội; hợp đồng mẫu bất lợi; vi phạm dữ liệu cá nhân theo Nghị định 13/2023 |
+| Pháp lý và tuân thủ | Thiếu giấy phép sản phẩm đặc thù; vi phạm quảng cáo; chậm nộp thuế, bảo hiểm xã hội; hợp đồng mẫu bất lợi; vi phạm dữ liệu cá nhân theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP |
 | Công nghệ và dữ liệu | Mất dữ liệu không sao lưu; bị mã hóa dữ liệu tống tiền; rò rỉ danh sách khách; mật khẩu dùng chung |
 | Bên ngoài | Thay đổi chính sách sàn, thuế, nhập khẩu; thiên tai, dịch bệnh; tỷ giá với hàng nhập |
 
@@ -90,7 +93,7 @@ Mức: xanh 1 đến 4 chấp nhận và theo dõi; vàng 5 đến 9 có kế ho
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `So-rui-ro-[cong-ty]-[quy-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `So-rui-ro-[cong-ty]-[quy-nam].md`.
 
 ### 4.1 Dòng giới hạn và tóm tắt cho lãnh đạo
 
@@ -166,7 +169,7 @@ BÁO CÁO RỦI RO QUÝ [X/NĂM] - [công ty]
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: điều lo nhất và sự cố đã qua, điểm phụ thuộc, kiểm soát hiện có, cách vận hành sổ.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu có biểu mẫu của người dùng, kết quả khớp đúng mục, thứ tự, đơn vị.
 - [ ] Mở đầu bằng dòng giới hạn: không thay thế luật sư, kiểm toán, tư vấn bảo hiểm; cần luật sư duyệt; cần kiểm tra văn bản mới nhất.
 - [ ] Thang điểm có ngưỡng bằng tiền hoặc phần trăm doanh thu; có khẩu vị rủi ro viết thành câu.

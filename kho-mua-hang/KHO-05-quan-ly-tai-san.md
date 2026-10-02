@@ -3,6 +3,7 @@
 > **Dùng khi:** không biết công ty có bao nhiêu laptop, máy in, xe, kệ kho và ai đang giữ; nhân viên nghỉ việc mang theo thiết bị không ai đòi; kế toán tính khấu hao mà không khớp tài sản thực; hoặc cần sổ theo dõi tài sản, quy trình cấp phát, thu hồi, kiểm kê và thanh lý.
 > **Kết quả:** sổ tài sản và công cụ dụng cụ có mã, quy trình cấp phát, điều chuyển, thu hồi kèm phiếu bàn giao, lịch kiểm kê và xử lý chênh lệch, hướng dẫn khấu hao và phân bổ cơ bản, quy trình thanh lý.
 > **Không dùng khi:** cần thẩm định có nên mua máy móc, xe, mở kho mới (dùng FIN-07), quản lý hàng hóa tồn kho để bán (KHO-01, KHO-02), thu hồi tài khoản phần mềm khi nghỉ việc (IT-03), hoặc quy trình nghỉ việc tổng thể (HR-12).
+> **Từ ngữ bổ sung:** QR = mã vuông để quét bằng điện thoại.
 
 ---
 
@@ -17,7 +18,7 @@
 - Tài sản cho nhân viên mang về nhà hoặc dùng ngoài văn phòng: [ĐIỀN: ví dụ "laptop kinh doanh, điện thoại chăm sóc khách", "không áp dụng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không cho mượn tài sản ra ngoài công ty", "không thanh lý khi chưa có hội đồng"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phạm vi cần làm?** Lập sổ từ đầu, chuẩn hóa quy trình cấp phát và thu hồi, tổ chức kiểm kê, hay xử lý thanh lý một đợt? Nhóm tài sản nào ưu tiên (thiết bị IT, xe, thiết bị kho)?
 2. **Hiện trạng dữ liệu?** Đã có danh sách tài sản chưa, có hóa đơn và ngày mua không, kế toán đang tính khấu hao những gì? Có thể dán bảng hiện có hoặc mô tả cột.
 3. **Vấn đề đã gặp?** Mất thiết bị khi nhân viên nghỉ, không biết ai đang giữ, hỏng không ai báo, kiểm kê lệch với sổ kế toán, tài sản hết khấu hao vẫn dùng mà không theo dõi?
 4. **Ai dùng kết quả và bằng gì?** Hành chính cập nhật trên Google Sheets hay phần mềm (MISA, Odoo)? Có dán tem mã QR không? Kế toán có cần đối chiếu định kỳ không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Một sổ, hai góc nhìn.** Hành chính giữ sổ vật lý (ai giữ, ở đâu, tình trạng); kế toán giữ cột giá trị (nguyên giá, khấu hao, giá trị còn lại). Cùng mã tài sản, đối chiếu hằng quý.
 3. **Mọi tài sản có mã, tem và người giữ.** Tài sản dùng chung (máy in, kệ kho) gán cho trưởng bộ phận hoặc thủ kho làm người chịu trách nhiệm.
 4. **Phân loại theo ngưỡng pháp luật.** TSCĐ: nguyên giá từ 30 triệu đồng và thời gian sử dụng trên 1 năm, khấu hao theo khung Thông tư 45/2013/TT-BTC; dưới ngưỡng là CCDC, phân bổ vào chi phí tối đa 3 năm. Kế toán xác nhận lại văn bản hiện hành trước khi áp dụng.
@@ -76,7 +77,7 @@ Khấu hao đường thẳng mỗi năm bằng nguyên giá chia số năm; giá
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Quan-ly-tai-san-[pham-vi]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Quan-ly-tai-san-[pham-vi]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -155,7 +156,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**, và gợi ý ski
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: phạm vi, hiện trạng dữ liệu, vấn đề đã gặp, người dùng và công cụ.
-- [ ] Đã tóm tắt bối cảnh và chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng có sổ hoặc mẫu phiếu sẵn, kết quả bám đúng mẫu đó.
 - [ ] Mọi tài sản trong ví dụ có mã, người giữ, vị trí, tình trạng.
 - [ ] Phân biệt TSCĐ và CCDC theo ngưỡng, có ghi chú kế toán xác nhận văn bản hiện hành.

@@ -3,6 +3,8 @@
 > **Dùng khi:** nhân viên mới không biết nói gì khi khách hỏi, khách tư vấn xong thì "để em xem lại" rồi mất hút, hoặc mỗi người tư vấn một kiểu nên tỉ lệ chốt chênh nhau quá lớn.
 > **Kết quả:** kịch bản 5 bước cho đúng kênh công ty dùng (tin nhắn, gọi điện, tại cửa hàng, gặp doanh nghiệp): mở đầu, hỏi nhu cầu, trình bày, chốt, theo dõi sau; kèm câu hỏi bắt buộc, dấu hiệu sẵn sàng, mốc thời gian, và kịch bản cho 3 tình huống đặc biệt (tư vấn nhanh 15 phút, thuyết trình cho hội đồng mua hàng, khách dừng liên lạc đột ngột).
 > **Không dùng khi:** cần cả quy trình phễu nhiều giai đoạn (dùng SAL-01), khách đã từ chối và cần cách đáp (SAL-06), hoặc cần tiếp cận khách chưa quen (SAL-04).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
 
 ---
 
@@ -17,7 +19,7 @@
 - Quyền của nhân viên: [ĐIỀN: ví dụ "được tặng phụ kiện, không được giảm giá; giảm trên 5% phải quản lý duyệt"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không so sánh trực tiếp tên đối thủ", "không hứa thời gian giao dưới 3 ngày"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -36,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Kịch bản cho kênh nào và nhóm khách nào?** B2C qua tin nhắn, gọi điện, tại cửa hàng; hay B2B gặp trực tiếp, họp trực tuyến. Nếu nhiều kênh, làm kênh nào trước? Có tình huống khó cụ thể đang gặp không?
 2. **Khách thường hỏi gì đầu tiên và vì sao họ mua?** 3 câu hỏi hay gặp nhất, nguyên văn. 3 lý do khách đã chốt nói ra. Có kịch bản cũ không?
 3. **Khách rơi ở bước nào?** Hỏi giá rồi im, tư vấn xong "để xem lại", đến cửa hàng không mua, họp xong không ký. Tỉ lệ chốt hiện tại nếu có.
 4. **Nhân viên được quyền gì khi chốt?** Tặng kèm, giữ giá đến ngày nào, giảm bao nhiêu phải duyệt, có thể hẹn người quản lý tham gia không.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Kịch bản theo 5 bước cố định**: mở đầu, hỏi nhu cầu, trình bày đúng phần liên quan, chốt bước tiếp theo, theo dõi sau. Mỗi bước có mục tiêu một câu, lời thoại mẫu, câu hỏi bắt buộc, dấu hiệu chuyển bước. Viết dạng hội thoại: nhân viên nói gì, khách thường đáp gì, nhân viên đáp lại thế nào.
 3. **Viết cho đúng kênh.** Tin nhắn ngắn, mỗi tin một ý, hỏi một câu; gọi điện có mốc phút; cửa hàng có hành động (mời thử, cầm sản phẩm); gặp doanh nghiệp có chương trình họp và hỏi "ngoài anh/chị còn ai quyết định nữa không".
 4. **B2C và B2B tách kịch bản.** B2C chốt trong 1 đến 3 lần tiếp xúc, lý do mua là cảm xúc và tiện lợi; B2B chốt sau nhiều buổi, lý do mua là rủi ro và trách nhiệm của người ký, cần bước xác nhận ngân sách, người quyết định, thời điểm.
@@ -85,7 +87,9 @@ Tỉ lệ chốt tham khảo sau tư vấn đầy đủ: B2C tin nhắn 20 đế
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Kich-ban-tu-van-[kenh]-[nhom-khach]-[thang-nam].md`. Nếu người dùng chỉ cần một tình huống ở 4.5, xuất 4.1 và tình huống đó.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Kich-ban-tu-van-[kenh]-[nhom-khach]-[thang-nam].md`. Nếu người dùng chỉ cần một tình huống ở 4.5, xuất 4.1 và tình huống đó.
+
+**Thứ tự trả lời:** Đặt lời thoại hoặc tin nhắn có thể dùng ngay lên đầu, theo đúng tình huống và kênh người dùng hỏi. Chỉ thêm bảng đào tạo khi họ cần cả quy trình.
 
 ### 4.1 Tóm tắt cho quản lý
 

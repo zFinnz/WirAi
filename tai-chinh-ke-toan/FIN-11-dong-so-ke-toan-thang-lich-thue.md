@@ -3,6 +3,9 @@
 > **Dùng khi:** cuối tháng kế toán làm mỗi tháng một kiểu, báo cáo ra ngày 25 tháng sau, hóa đơn về trễ không ai đòi, từng nộp tờ khai trễ bị phạt, hoặc chủ doanh nghiệp muốn một lịch rõ ràng: ngày nào việc gì, ai làm, ai kiểm, hạn nộp thuế nào trong năm.
 > **Kết quả:** lịch đóng sổ tháng theo ngày với phân công, danh sách đối chiếu bắt buộc, danh sách kiểm tra trước khi khóa sổ, lịch nghĩa vụ thuế và báo cáo cả năm, cách xử lý tình huống thường gặp, bộ chỉ số chất lượng đóng sổ. Skill này **không lập tờ khai thay kế toán** và không thay tư vấn thuế; mọi hạn nộp ghi là tham khảo, **cần kiểm tra theo quy định hiện hành**.
 > **Không dùng khi:** cần báo cáo tài chính quản trị cho ban giám đốc (FIN-06), cần phân loại chi phí (FIN-04), cần quy trình công nợ (FIN-08), cần quy chế chi tiêu và kiểm quỹ (FIN-10), hoặc cần lịch giấy phép và tuân thủ ngoài thuế (PL-05).
+> **Từ ngữ:** GTGT = thuế giá trị gia tăng.
+> **Từ ngữ bổ sung:** TNDN = thu nhập doanh nghiệp; TNCN = thu nhập cá nhân; TNHH = trách nhiệm hữu hạn.
+> BHXH = bảo hiểm xã hội.
 
 ---
 
@@ -17,7 +20,7 @@
 - Ngày ban giám đốc cần báo cáo tháng: [ĐIỀN: ví dụ "ngày 10 tháng sau"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không ghi nhận doanh thu khi chưa xuất hóa đơn", "không khóa sổ khi còn chênh lệch ngân hàng", "mọi tờ khai do kế toán trưởng ký"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +40,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Cần gì trước: lịch đóng sổ tháng, lịch thuế năm, hay rà lại quy trình đang có (dán bản đó)?** Người dùng là kế toán hay chủ doanh nghiệp cần hiểu để giám sát?
 2. **Hiện trạng đóng sổ?** Mất bao nhiêu ngày, nghẽn ở đâu (hóa đơn về trễ, tiền cửa hàng, công nợ không khớp, tồn kho), đã bị phạt chậm nộp hay sai sót nào chưa.
 3. **Kỳ khai và loại thuế áp dụng?** GTGT tháng hay quý, thuế thu nhập cá nhân (TNCN) tháng hay quý, thuế thu nhập doanh nghiệp (TNDN) tạm nộp quý, hóa đơn điện tử loại nào, có thuế nhập khẩu hay nhà thầu không, có chi nhánh ở tỉnh khác không.
 4. **Ai làm gì và hạn báo cáo nội bộ?** Số người, phân công, ngày ban giám đốc cần số, có dịch vụ kế toán ngoài không.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Lịch theo ngày làm việc sau cuối tháng (D+1, D+3...)**, mỗi việc có người làm, người kiểm, hạn và đầu ra. Mục tiêu tham khảo: nhập liệu xong D+3, đối chiếu xong D+5, khóa sổ D+7, báo cáo quản trị D+10. Công ty nhỏ có thể nhanh hơn, ghi rõ giả định.
 3. **Việc hằng ngày và hằng tuần tách khỏi việc cuối tháng**: thu chi và kiểm quỹ hằng ngày; tiền cửa hàng nộp ngân hàng hằng ngày; đối chiếu tạm ứng và công nợ quá hạn hằng tuần; hóa đơn đầu vào nhập trong 3 ngày kể từ khi nhận.
 4. **Đối chiếu bắt buộc trước khi khóa**, mỗi cặp số có người làm độc lập với người nhập: tiền mặt với biên bản kiểm quỹ; ngân hàng với sao kê; phải thu với xác nhận hoặc sổ của kinh doanh; phải trả với đối chiếu nhà cung cấp; tồn kho với kiểm kê hoặc sổ kho; lương với bảng lương và bảo hiểm; doanh thu với tổng hóa đơn đầu ra; thuế GTGT đầu ra và đầu vào với bảng kê.
@@ -88,7 +91,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Lich-dong-so-va-thue-[nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Lich-dong-so-va-thue-[nam].md`.
 
 ### 4.1 Tóm tắt cho ban giám đốc và kế toán trưởng
 
@@ -171,7 +174,7 @@ Kết thúc bằng **5 việc cần làm trong 14 ngày tới**, gợi ý: chố
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: cần gì trước, hiện trạng đóng sổ, kỳ khai và loại thuế, phân công và hạn báo cáo; đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: cần gì trước, hiện trạng đóng sổ, kỳ khai và loại thuế, phân công và hạn báo cáo.
 - [ ] Nếu người dùng có biểu mẫu, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Lịch theo mốc D+ với người làm, người kiểm, đầu ra; việc hằng ngày và hằng tuần tách khỏi cuối tháng.
 - [ ] Đủ 8 cặp đối chiếu, người đối chiếu khác người nhập, có hạn và cách xử lý khi lệch.

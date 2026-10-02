@@ -3,6 +3,7 @@
 > **Dùng khi:** có hàng trăm đánh giá trên Shopee, TikTok Shop, bình luận Facebook, tin nhắn Zalo, cuộc gọi hotline, email khiếu nại của khách doanh nghiệp, phần trả lời mở của khảo sát, và cần biết khách đang khen gì, chê gì, vấn đề nào lặp lại, ca nào phải xử lý ngay, bộ phận nào phải sửa.
 > **Kết quả:** bảng cảm xúc tổng và theo lát cắt, ma trận chủ đề theo tần suất và cường độ, danh sách ca cấp cứu, thư viện trích dẫn nguyên văn, đề xuất hành động có người chịu trách nhiệm, mẫu phản hồi theo nhóm, chương trình họp "tiếng nói khách hàng" hằng tháng.
 > **Không dùng khi:** cần trả lời một ca cụ thể (dùng CS-02), cần thiết kế khảo sát để thu phản hồi mới (CS-05), cần thu thập đánh giá công khai và chứng thực để làm nội dung (CS-10), cần chân dung khách hàng cho marketing (MKT-02), hoặc đang có khủng hoảng lan rộng cần ban lãnh đạo xử lý.
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
 
 ---
 
@@ -17,7 +18,7 @@
 - Người nhận báo cáo và nhịp: [ĐIỀN: ví dụ "trưởng phòng vận hành, hằng tháng; họp chung với kho, bán hàng, kế toán"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "ẩn tên và số điện thoại khách trong báo cáo", "không gửi dữ liệu thô ra ngoài công ty"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -31,13 +32,13 @@ Tư duy nền:
 - **Tần suất nhân cường độ** mới là mức ưu tiên. Một vấn đề 5 người nói nhưng ai cũng phẫn nộ có thể quan trọng hơn vấn đề 30 người nhắc thoáng qua.
 - Khách nói gì và khách làm gì có thể khác nhau. Đối chiếu với dữ liệu mua lại, hủy đơn, đổi trả, tỉ lệ đúng hạn xử lý khi có thể.
 - Mỗi chủ đề phải kết thúc bằng một việc có người làm và hạn. Phân tích không ra việc là chưa xong. Phản hồi của khách là của cả công ty, không chỉ của đội chăm sóc.
-- Dữ liệu phản hồi chứa thông tin cá nhân. Ẩn danh trước khi đưa vào báo cáo và tuân thủ Nghị định 13/2023 về bảo vệ dữ liệu cá nhân.
+- Dữ liệu phản hồi chứa thông tin cá nhân. Ẩn danh trước khi đưa vào báo cáo và tuân thủ Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về bảo vệ dữ liệu cá nhân.
 
 ---
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Dữ liệu gì, bao nhiêu, kỳ nào?** Dán trực tiếp hoặc mô tả: nguồn, số lượng, khoảng thời gian. Có cột điểm sao, sản phẩm, ngày, kênh không?
 2. **Mục tiêu phân tích?** Tìm vấn đề lặp lại để sửa vận hành, chọn ca cần xử lý ngay, lấy lời khách cho marketing, so sánh với kỳ trước, hay đánh giá sau một thay đổi (sản phẩm mới, đổi đơn vị vận chuyển)?
@@ -46,13 +47,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu dữ liệu quá ít (dưới 20 phản hồi), nói rõ chỉ phân tích định tính, không đưa tỉ lệ phần trăm.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Làm sạch trước khi đếm.** Bỏ trùng lặp, quảng cáo chéo, nội dung không liên quan, đánh giá mẫu giống nhau hàng loạt (nghi ngờ đánh giá thuê hoặc tấn công). Ghi số lượng trước và sau làm sạch. Ẩn tên, số điện thoại, địa chỉ.
 3. **Phân loại theo 3 chiều cho từng phản hồi**: cảm xúc (tích cực, trung lập, tiêu cực), cường độ (thang từ trừ 5 đến cộng 5), chủ đề (danh mục cố định 8 đến 12 mục, một phản hồi có thể thuộc 2 chủ đề).
 4. **Đọc đúng tiếng Việt đời thường.** Điểm 5 sao kèm nội dung chê vẫn là tiêu cực. Mỉa mai, tiếng lóng, biểu tượng cảm xúc mâu thuẫn với chữ phải được xét ngữ cảnh. Dùng bảng sắc thái bên dưới.
@@ -90,7 +91,7 @@ Thang cường độ: cộng 5 rất hài lòng và sẽ giới thiệu; cộng 
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Phan-tich-phan-hoi-[nguon]-[ky].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Phan-tich-phan-hoi-[nguon]-[ky].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -161,7 +162,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý: thu
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: dữ liệu và kỳ, mục tiêu, lát cắt cần tách, danh mục và kỳ trước; đã tóm tắt và được xác nhận phương án trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: dữ liệu và kỳ, mục tiêu, lát cắt cần tách, danh mục và kỳ trước.
 - [ ] Nếu người dùng có mẫu báo cáo hoặc danh mục chủ đề riêng, kết quả bám đúng mẫu đó.
 - [ ] Đã làm sạch, ghi số trước và sau, ẩn thông tin cá nhân trong mọi trích dẫn.
 - [ ] Mỗi phản hồi có cảm xúc, cường độ, chủ đề; danh mục chủ đề cố định 8 đến 12 mục.

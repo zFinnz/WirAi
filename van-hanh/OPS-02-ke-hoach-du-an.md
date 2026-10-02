@@ -3,6 +3,7 @@
 > **Dùng khi:** có một việc lớn, có ngày bắt đầu và ngày phải xong, cần nhiều người từ nhiều phòng ban cùng làm: mở cửa hàng mới, triển khai phần mềm quản lý, chuyển kho, ra mắt dòng sản phẩm, tổ chức sự kiện, làm lại website.
 > **Kết quả:** bản kế hoạch dự án gồm mục tiêu và phạm vi, phân rã công việc, lịch theo mốc, phân công, bảng rủi ro, mốc nghiệm thu và nhịp báo cáo, dùng được ngay trên Google Sheets hoặc phần mềm quản lý công việc.
 > **Không dùng khi:** việc lặp lại hằng ngày không có điểm kết thúc (dùng OPS-01), chỉ cần giao một đầu việc cho một người (OPS-04), cần kế hoạch marketing theo kỳ (MKT-01), hoặc cần thẩm định có nên đầu tư hay không (FIN-07).
+> **Từ ngữ bổ sung:** SOP = quy trình chuẩn có từng bước và người làm.
 
 ---
 
@@ -17,7 +18,7 @@
 - Dự án gần nhất đã làm và bài học: [ĐIỀN: ví dụ "chuyển kho năm ngoái trễ 3 tuần vì thiếu người kiểm kê"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không được làm gián đoạn bán hàng quá 1 ngày", "không thuê thêm người", "không triển khai mùa Tết"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,7 +38,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Dự án này xong thì có gì, và vì sao phải xong lúc đó?** Kết quả cuối cùng đo được là gì (ví dụ "cửa hàng mở bán ngày 15/12, đủ hàng, có 3 nhân viên đã đào tạo"). Hạn là hạn cứng (có hợp đồng, có sự kiện) hay hạn mong muốn?
 2. **Có những ai và họ dành bao nhiêu thời gian?** Liệt kê vị trí tham gia, ước lượng mỗi người dành bao nhiêu phần trăm thời gian cho dự án, có thuê ngoài không.
@@ -46,13 +47,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng chưa trả lời được câu 1, dừng lại và giúp họ viết mục tiêu trước, chưa lập lịch.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mục tiêu viết theo kết quả, có ngày, có cách đo.** "Phần mềm kho chạy chính thức từ 1/11, 100% đơn xuất qua phần mềm, tồn lệch dưới 1%" thay vì "triển khai phần mềm kho".
 3. **Phân rã công việc (Work Breakdown Structure, WBS) theo sản phẩm bàn giao, rồi mới đến việc.** Hỏi "xong giai đoạn này thì có gì trong tay" trước khi liệt kê việc. Mỗi việc nhỏ nhất nên từ 0,5 đến 5 ngày công; dài hơn thì chia tiếp. Ước lượng việc quan trọng theo 3 mức (nhanh nhất, thường gặp, chậm nhất), dùng mức thường gặp cộng dự phòng, không lấy mức nhanh nhất làm kế hoạch.
 4. **Xác định chuỗi việc dài nhất (critical path).** Việc nào trễ 1 ngày là cả dự án trễ 1 ngày thì phải được theo dõi hằng ngày và có người giỏi nhất làm.
@@ -87,7 +88,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Ke-hoach-du-an-[ten-du-an]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Ke-hoach-du-an-[ten-du-an]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt 1 trang cho người duyệt
 
@@ -175,7 +176,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** để khởi đ�
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: kết quả cuối và hạn, người và thời gian họ có, ngân sách và điều cố định, việc đã làm và vướng mắc; đã tóm tắt và được xác nhận trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: kết quả cuối và hạn, người và thời gian họ có, ngân sách và điều cố định, việc đã làm và vướng mắc.
 - [ ] Nếu người dùng có mẫu kế hoạch hoặc mẫu báo cáo tiến độ, kết quả bám đúng mẫu đó.
 - [ ] Mục tiêu có ngày và cách đo; có phần "không gồm" để chặn phình việc.
 - [ ] Phân rã theo sản phẩm bàn giao, việc nhỏ nhất 0,5 đến 5 ngày công; mỗi việc có đúng một người chịu trách nhiệm.

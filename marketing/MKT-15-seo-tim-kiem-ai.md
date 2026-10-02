@@ -3,6 +3,10 @@
 > **Dùng khi:** muốn tăng lượt truy cập tự nhiên từ Google; website không lên top hoặc lượt truy cập giảm; khách không tìm thấy cửa hàng trên Google Maps; hoặc muốn thương hiệu được các công cụ AI (ChatGPT, Perplexity, Google AI Overviews) trích dẫn và gợi ý.
 > **Kết quả:** kết quả kiểm tra kỹ thuật có ngưỡng số, bản đồ cụm từ khóa theo phễu kèm bảng ưu tiên, cấu trúc bài chuẩn để Google và AI trích được, mô hình trang trụ và bài vệ tinh, danh sách dữ liệu có cấu trúc theo loại trang, kế hoạch 90 ngày có chỉ số.
 > **Không dùng khi:** cần viết nội dung bài cụ thể (dùng MKT-08 cho mạng xã hội, MKT-07 cho lịch nội dung), cần xây trang bán hàng (MKT-14), hoặc cần tối ưu tìm kiếm trong sàn thương mại điện tử (MKT-18).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; SEO = cải thiện website để dễ được tìm thấy khi tìm kiếm.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> **Từ ngữ bổ sung:** CTA = câu kêu gọi người đọc làm một việc cụ thể; FAQ = bộ câu hỏi và trả lời thường gặp.
+> AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +21,7 @@
 - Đối thủ đang xếp trên: [ĐIỀN: 2 đến 3 tên miền]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không mua liên kết", "không dùng nội dung dịch máy"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,26 +41,26 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Việc cần làm là gì?** Kiểm tra toàn bộ website, lên Google Maps, tăng truy cập cho một nhóm sản phẩm, được AI trích dẫn, hay thêm dữ liệu có cấu trúc?
 2. **Tình trạng hiện tại?** Lượt truy cập tự nhiên mỗi tháng, từ khóa đang lên top, có sụt giảm gần đây không, có vừa đổi giao diện hay tên miền không. Xuất dữ liệu Search Console nếu có.
 3. **Mục tiêu 90 ngày và nhóm khách ưu tiên?** Số khách tiềm năng hoặc đơn từ tìm kiếm, cho B2C hay B2B, khu vực nào.
 4. **Nguồn lực?** Ai viết bài, bao nhiêu bài mỗi tháng, có người sửa kỹ thuật website không, nền tảng có cho sửa robots.txt và chèn mã không, có ngân sách công cụ không.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
-2. **Kiểm tra theo thứ tự: thu thập và lập chỉ mục, kỹ thuật, nội dung trên trang, chất lượng nội dung, uy tín và liên kết.** Hai lỗi chiếm phần lớn ca "không lên top": thẻ chuẩn (canonical) trỏ về trang chủ toàn site do cấu hình giao diện sai, và thẻ không lập chỉ mục (noindex) còn sót từ bản thử nghiệm.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
+2. **Kiểm tra khả năng thu thập và lập chỉ mục trước khi đề xuất viết thêm nội dung.** Xem báo cáo Search Console, thẻ chuẩn (canonical), thẻ không lập chỉ mục (noindex) và liên kết nội bộ; chỉ kết luận nguyên nhân khi có bằng chứng trên site cụ thể.
 3. **Ngưỡng kỹ thuật ghi bằng số**, không ghi "tối ưu tốc độ". Đo bằng dữ liệu người dùng thật trong Search Console trước, công cụ phòng thí nghiệm sau.
-4. **Không đề xuất viết bài khi chưa rõ ý định tìm kiếm.** Mỗi trang gắn một tầng phễu, một từ khóa chính cộng 2 đến 3 từ khóa phụ, một CTA phù hợp kênh Việt Nam (Zalo, số điện thoại, form). Hai trang của mình cạnh tranh cùng một truy vấn thì cả hai đều yếu: gộp vào trang mạnh nhất rồi chuyển hướng 301; chỉ dùng thẻ chuẩn khi không gộp được.
+4. **Không đề xuất viết bài khi chưa rõ người tìm cần gì.** Mỗi trang phục vụ một nhu cầu rõ và có bước tiếp theo phù hợp. Nếu nhiều trang cùng nhắm một nhu cầu, so sánh nội dung và hiệu quả trước khi quyết định giữ, gộp hoặc chuyển hướng; không tự gộp chỉ vì từ khóa giống nhau.
 5. **Tên, địa chỉ, số điện thoại (NAP) phải giống nguyên văn trên mọi nơi**, lấy Google Business Profile làm bản gốc. Từ 7/2025 Việt Nam bỏ cấp quận huyện trong địa chỉ hành chính; chọn một bản và đồng bộ tất cả, ưu tiên bản đang hiện trên Google để không mất lịch sử hồ sơ.
 6. **Không mua đánh giá, không mua liên kết theo gói, không dùng mạng site vệ tinh (PBN).** Rủi ro bị gỡ hồ sơ hoặc phạt lớn hơn lợi ích, và AI ngày càng đọc nội dung đánh giá chứ không chỉ đếm sao. Liên kết an toàn đến từ bài khách trên site cùng ngành, danh bạ uy tín, báo chí, trích dẫn chuyên gia.
-7. **Bài "Top 10 tốt nhất" tự xếp mình hạng 1** thường được AI trích dẫn như nguồn thông tin về ngành rồi khuyến nghị đối thủ lâu năm hơn. Chỉ làm khi thương hiệu đã dẫn đầu, hoặc đặt kỳ vọng đúng là được trích dẫn chứ chưa được khuyến nghị.
+7. **Bài so sánh phải trung thực và có tiêu chí rõ.** Không tự xếp sản phẩm của mình hạng nhất nếu không có bằng chứng; nêu nguồn, phạm vi và ngày cập nhật khi so sánh.
 8. **Không kết luận "site không có dữ liệu có cấu trúc" chỉ từ một lần tải trang.** Nhiều site Việt Nam chèn JSON-LD qua Google Tag Manager hoặc plugin chạy phía trình duyệt; kiểm tra bằng công cụ Rich Results Test. Chỗ nào thiếu dữ liệu thật (lượt truy cập, thứ hạng, lượng tìm kiếm) thì ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo dùng thay thế phải ghi rõ là giả định.
 
 ### Ngưỡng kỹ thuật (dùng khi thiếu dữ liệu, ghi rõ là giả định cần kiểm chứng)
@@ -67,16 +71,16 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 | Thời gian hiện nội dung chính (LCP) trên điện thoại | dưới 2,5 giây | 2,5 đến 4 giây | trên 4 giây |
 | Độ trễ phản hồi tương tác (INP) | dưới 200 ms | 200 đến 500 ms | trên 500 ms |
 | Dịch chuyển bố cục (CLS) | dưới 0,1 | 0,1 đến 0,25 | trên 0,25 |
-| Thẻ tiêu đề | 50 đến 60 ký tự, từ khóa gần đầu | | trùng lặp hoặc thiếu |
-| Mô tả meta | 150 đến 160 ký tự, có lời mời hành động | | |
-| Thẻ H1 | đúng 1 mỗi trang | | |
+| Thẻ tiêu đề | mô tả đúng nội dung, rõ ý và khác các trang khác | | thiếu, trùng hoặc gây hiểu nhầm |
+| Mô tả meta | tóm đúng nội dung và giúp người tìm quyết định mở trang | | thiếu hoặc không khớp nội dung |
+| Tiêu đề chính | giúp người đọc nhận ra chủ đề trang | | thiếu hoặc khó hiểu |
 | Chuỗi chuyển hướng | tối đa 1 bước | | vòng lặp |
 | Trang mồ côi (không có liên kết nội bộ trỏ vào) | 0 | | |
 | Độ sâu trang | tối đa 3 lần nhấp từ trang chủ | | |
 
 Nguyên nhân tốc độ kém thường gặp ở site Việt Nam: ảnh băng rôn chưa nén, trình chiếu tự chạy đầu trang, phông chữ tải từ nhiều nguồn, mã chat và cửa sổ bật lên tải đồng bộ. Việc sửa thường rẻ: ảnh WebP dưới 200 KB, tải trễ ảnh ngoài màn hình đầu, nén CSS và JavaScript, dùng mạng phân phối nội dung (CDN) miễn phí, bật bộ nhớ đệm trình duyệt.
 
-### Thang 4 bậc hiển thị trên công cụ AI
+### Bốn cách quan sát mức xuất hiện trên công cụ AI (không phải thang xếp hạng chính thức)
 
 | Bậc | Nghĩa | Thứ quyết định | Cách nhìn thấy |
 |---|---|---|---|
@@ -91,7 +95,7 @@ Bậc 4 chủ yếu không nằm trên site của bạn. Theo dõi cả sắc th
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `SEO-[ten-mien]-[che-do]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `SEO-[ten-mien]-[che-do]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -123,11 +127,13 @@ Mỗi dòng mức độ: nghiêm trọng (đang mất lượt truy cập), cao (
 | Quyết định | thương hiệu, đánh giá, địa chỉ, đại lý | "đại lý máy lọc nước ABC Bình Dương" | trang sản phẩm, trang chi nhánh, trang đại lý | gọi, đặt lịch, đăng ký đại lý | |
 | Địa phương | dịch vụ cộng khu vực, "gần đây" | "lắp máy lọc nước Thủ Đức" | trang chi nhánh | gọi, chỉ đường | |
 
-Kèm bảng 20 đến 30 từ khóa ưu tiên: từ khóa, loại (đầu 1 đến 2 từ, thân 2 đến 3 từ, đuôi dài từ 4 từ), lượng tìm mỗi tháng, độ khó, ý định, trang mục tiêu, thứ hạng hiện tại. Khi mới bắt đầu, ưu tiên đuôi dài có ý định mua và lượng tìm từ 100 mỗi tháng trở lên; tách B2C và B2B: từ khóa B2B thường là "đại lý", "sỉ", "công nghiệp", "hợp đồng", "báo giá doanh nghiệp", lượng tìm ít nhưng giá trị cao.
+Lập bảng từ khóa ưu tiên với các cột: cụm từ, nhu cầu tìm kiếm, lượng tìm ước tính và nguồn, trang phù hợp, thứ hạng hiện tại, mức ưu tiên. Số lượng từ khóa tùy phạm vi công việc. Ưu tiên nhu cầu liên quan đến sản phẩm và khả năng phục vụ của công ty, kể cả truy vấn B2B ít lượt tìm nhưng có giá trị cao.
 
 ### 4.4 Cấu trúc bài chuẩn Google và AI, mô hình trang trụ
 
-Tổ chức nội dung theo cụm chủ đề: một trang trụ (pillar) 2.000 từ trở lên cho chủ đề rộng, các bài vệ tinh 800 đến 1.500 từ cho từng chủ đề con, mọi bài vệ tinh liên kết về trang trụ; mỗi bài mới liên kết đến 2 đến 3 bài cũ liên quan với neo chữ tự nhiên, và cập nhật bài cũ để trỏ đến bài mới; rà và làm mới bài cũ mỗi 6 tháng. Với mỗi trang ưu tiên, nêu dàn ý theo mẫu: câu trả lời trực tiếp ngay đầu mục (40 đến 80 từ, không dùng "nó", "cái này", "như trên"), tiêu đề phụ viết đúng cách người dùng gõ, bảng cho nội dung so sánh, danh sách đánh số cho quy trình, số liệu kèm nguồn và năm, mục "ai không nên dùng", ngày cập nhật và tên tác giả thật kèm vài dòng giới thiệu (tín hiệu kinh nghiệm, chuyên môn, uy tín, tin cậy: E-E-A-T).
+Tổ chức nội dung theo chủ đề và nối các trang có liên quan bằng liên kết nội bộ tự nhiên. Viết đủ để giải quyết nhu cầu của người đọc; Google không đặt số từ tối thiểu cho trang trụ hay bài vệ tinh. Rà lại bài khi thông tin thay đổi, không chỉ đổi ngày cập nhật.
+
+Với mỗi trang ưu tiên, nêu dàn ý trả lời trực tiếp câu hỏi chính, thêm bảng khi cần so sánh và danh sách đánh số khi hướng dẫn quy trình. Số liệu cần có nguồn và ngày; tên tác giả và kinh nghiệm chỉ nêu khi có thật.
 
 | Khối | Dùng cho truy vấn | Cấu trúc |
 |---|---|---|
@@ -148,7 +154,7 @@ Tổ chức nội dung theo cụm chủ đề: một trang trụ (pillar) 2.000 
 | Đánh giá | | xin ngay sau khi phục vụ xong qua Zalo kèm liên kết ngắn, trả lời 100% trong 24 giờ, không tặng quà đổi 5 sao | liên tục |
 | Trang riêng từng chi nhánh | | địa chỉ, giờ mở, ảnh thật, đường đi, chỗ gửi xe, không sao chép giữa chi nhánh | |
 
-### 4.6 Dữ liệu có cấu trúc, tệp cho AI và uy tín ngoài site
+### 4.6 Dữ liệu có cấu trúc và uy tín ngoài website
 
 | Loại trang | Dữ liệu có cấu trúc (schema) | Ghi chú |
 |---|---|---|
@@ -158,7 +164,7 @@ Tổ chức nội dung theo cụm chủ đề: một trang trụ (pillar) 2.000 
 | Chi nhánh | LocalBusiness với loại cụ thể | mỗi chi nhánh một khối |
 | Hỏi đáp | FAQPage | AI đọc được, nhưng Google gần như không còn hiển thị kết quả mở rộng cho FAQ từ 8/2023 |
 
-Kèm cấu hình robots.txt cho phép GPTBot, OAI-SearchBot, PerplexityBot, ClaudeBot, Bingbot; kiểm tra thêm CDN có chặn ngầm không; tệp `/llms.txt` liệt kê trang quan trọng, chi phí thấp nhưng chưa nền tảng nào cam kết hỗ trợ chính thức. Uy tín ngoài site: danh sách 5 đến 10 nơi có thể xin liên kết hoặc nhắc tên hợp lệ (báo ngành, hiệp hội, danh bạ, đối tác, bài phỏng vấn), mỗi nơi ghi cách tiếp cận và người làm.
+Kiểm tra robots.txt và CDN để chắc rằng công cụ tìm kiếm được phép thu thập các trang công khai cần lập chỉ mục. Không coi `/llms.txt` hay một loại dữ liệu có cấu trúc riêng là điều kiện để xuất hiện trong tính năng AI của Google. Với uy tín ngoài site, đề xuất những nơi có liên quan thật sự để xin nhắc tên hoặc liên kết hợp lệ, kèm cách tiếp cận và người phụ trách.
 
 ### 4.7 Bảng theo dõi AI và kế hoạch 90 ngày
 
@@ -170,7 +176,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý MKT-
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: việc cần làm, tình trạng và dữ liệu, mục tiêu 90 ngày, nguồn lực và nền tảng; đã tóm tắt và xác nhận phương án trước khi xuất bản đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: việc cần làm, tình trạng và dữ liệu, mục tiêu 90 ngày, nguồn lực và nền tảng.
 - [ ] Nếu người dùng có biểu mẫu riêng, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu đó.
 - [ ] Kiểm tra theo đúng thứ tự, lỗi lập chỉ mục và thẻ chuẩn được xem trước.
 - [ ] Mọi ngưỡng kỹ thuật ghi bằng số; tốc độ đo trên điện thoại.
@@ -178,7 +184,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý MKT-
 - [ ] B2C và B2B có cụm từ khóa và trang riêng nếu công ty có cả hai.
 - [ ] NAP đã đối chiếu với Google Business Profile trước khi đề xuất sửa.
 - [ ] Dữ liệu có cấu trúc khớp nội dung hiện trên trang; không chèn đánh giá khi trang không có đánh giá.
-- [ ] Không hứa "xếp hạng trên ChatGPT"; báo cáo theo thang 4 bậc có sắc thái; kỳ vọng 3 đến 6 tháng ghi rõ.
+- [ ] Không hứa "xếp hạng trên ChatGPT"; nếu theo dõi mức xuất hiện trên công cụ AI, ghi rõ đây là cách quan sát nội bộ và nêu phạm vi truy vấn đã thử.
 - [ ] Không đề xuất mua liên kết, mua đánh giá, PBN, nội dung dịch máy hàng loạt.
 - [ ] Mọi số ước tính ghi rõ là giả định cần kiểm chứng bằng Search Console.
 - [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.

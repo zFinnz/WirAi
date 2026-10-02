@@ -3,6 +3,11 @@
 > **Dùng khi:** cần báo cáo tuần một trang cho lãnh đạo, báo cáo tháng đầy đủ, báo cáo quý để điều chỉnh chiến lược hoặc trình bày trong họp đánh giá kinh doanh quý, hoặc tổng kết sau một chiến dịch để rút bài học dùng cho lần sau.
 > **Kết quả:** bản báo cáo đúng chế độ cho đúng người đọc: tóm tắt một trang, rà việc đã cam kết kỳ trước, số so với mục tiêu theo 3 khung so sánh, nhận định có nguyên nhân gốc, quyết định cần duyệt, bài học và đề xuất có người phụ trách và hạn.
 > **Không dùng khi:** cần chẩn đoán tại sao số xấu (dùng MKT-12), cần lập kế hoạch kỳ tới từ đầu (MKT-01), cần báo cáo bán hàng (SAL-12), cần đánh giá nhân sự (HR-06), hoặc cần toàn bộ bộ tài liệu họp quý của mọi phòng ban (OPS-05).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; CRM = bảng hoặc phần mềm quản lý thông tin khách hàng; ROAS = doanh thu chia cho chi phí quảng cáo;
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> CPL = chi phí để có một khách hàng tiềm năng; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ bổ sung:** CAC = chi phí để có một khách hàng mới; CPMess = chi phí để có một tin nhắn từ quảng cáo; NPS = điểm đo mức sẵn sàng giới thiệu cho người khác.
+> CSAT = điểm đo mức hài lòng của khách.
 
 ---
 
@@ -17,7 +22,7 @@
 - Cách gửi: [ĐIỀN: ví dụ "dán vào Zalo nhóm quản lý, họp tháng trình chiếu, họp quý 30 phút cho marketing"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không công bố biên lợi nhuận ra ngoài ban giám đốc", "không nêu tên nhân viên khi phân tích lỗi"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +42,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Báo cáo cho ai, kỳ nào, và người đọc cần quyết định gì sau khi đọc?** Tuần cho giám đốc, tháng cho ban giám đốc và đội, quý cho ban lãnh đạo hoặc trình bày trong họp quý, hay tổng kết một chiến dịch vừa kết thúc?
 2. **Số liệu kỳ này?** Chi phí theo kênh, lượt hiển thị, tin nhắn hoặc khách tiềm năng, đơn, doanh thu, khách mới, khách quay lại, số đại lý hoặc hợp đồng B2B, mức hài lòng nếu đo. Dán bảng hoặc nói thiếu gì.
 3. **Mục tiêu, số kỳ trước và việc đã cam kết kỳ trước?** Mục tiêu đã cam kết, số cùng kỳ trước để so, danh sách hành động của báo cáo trước và trạng thái. Không có thì dùng chuẩn ngành và ghi rõ.
 4. **Có gì bất thường?** Thay đổi lớn trong kỳ (tăng ngân sách, đổi kênh, mùa vụ, đối thủ, sự cố) cần giải thích.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chọn đúng chế độ trước khi viết.** Sai chế độ là đúng số nhưng sai người đọc. Thứ tự cố định cho mọi chế độ: tóm tắt, việc đã cam kết kỳ trước, số so với mục tiêu, nhận định vì sao, quyết định cần duyệt, việc tiếp theo; chỉ khác độ sâu.
 3. **Mỗi dòng "đã làm" viết bằng kết quả có số**, không mô tả công việc. "Ra 42 khách tiềm năng với CPL 230.000đ" thay cho "chạy quảng cáo".
 4. **Nhận định phải xuống đến nguyên nhân gốc.** "Quảng cáo kém" chưa phải nguyên nhân; "tệp trùng với chiến dịch cũ nên tần suất lên 4,5 và CTR giảm 35%" mới là nguyên nhân. Mục "chưa hiệu quả" kết thúc bằng một quyết định: dừng hoặc sửa (sửa cụ thể thế nào), không để lửng.
@@ -84,7 +89,7 @@ Trạng thái màu: Xanh đạt hoặc vượt; Vàng lệch 10 đến 25% so m�
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Bao-cao-marketing-[che-do]-[ky]-[nam].md`. Chọn chế độ rồi dùng phần tương ứng; phần 4.1 luôn có.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Bao-cao-marketing-[che-do]-[ky]-[nam].md`. Chọn chế độ rồi dùng phần tương ứng; phần 4.1 luôn có.
 
 ### 4.1 Tóm tắt cho lãnh đạo (mọi chế độ)
 
@@ -176,7 +181,7 @@ Bảng này gửi cho mọi người liên quan trong 24 giờ sau khi báo cáo
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: người đọc, kỳ và quyết định cần ra, số liệu, mục tiêu và kỳ trước, việc đã cam kết, điều bất thường; đã tóm tắt và xác nhận phương án trước khi xuất bản đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: người đọc, kỳ và quyết định cần ra, số liệu, mục tiêu và kỳ trước, việc đã cam kết, điều bất thường.
 - [ ] Nếu người dùng có biểu mẫu riêng, kết quả khớp đúng mục, thứ tự, đơn vị, cách xưng hô của mẫu đó.
 - [ ] Đã chọn đúng một trong 4 chế độ và theo đúng thứ tự tóm tắt, cam kết kỳ trước, số, nhận định, quyết định, việc tiếp theo.
 - [ ] Tóm tắt đọc độc lập được trong 1 đến 2 phút; dữ kiện và nhận định tách rõ.

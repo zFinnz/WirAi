@@ -3,6 +3,8 @@
 > **Dùng khi:** nhân viên đi gặp khách mà không có gì để lại, khách nói "gửi tài liệu để tôi trình sếp" mà chỉ có bảng giá, hoặc hồ sơ năng lực dài 30 trang không ai đọc và bảng so sánh với đối thủ chỉ toàn khen mình.
 > **Kết quả:** hồ sơ năng lực có cấu trúc (bản đầy đủ và bản rút gọn cho thầu nhanh), tờ giới thiệu một trang theo từng nhóm khách, bảng so sánh với đối thủ có cả chỗ mình thua, thẻ chân dung người mua, và danh sách bằng chứng cần thu thập.
 > **Không dùng khi:** cần báo giá hoặc đề xuất cho một khách cụ thể (dùng SAL-08), cần bộ slide thuyết trình đầy đủ (SAL-08 phần đề xuất hoặc skill marketing), hoặc cần cách đáp từng lời từ chối (SAL-06).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** QR = mã vuông để quét bằng điện thoại; PDF = định dạng tài liệu giữ nguyên bố cục khi mở; PNG = định dạng tệp hình ảnh.
 
 ---
 
@@ -17,7 +19,7 @@
 - Nhận diện thương hiệu: [ĐIỀN: màu, phông chữ, logo, giọng văn nếu có quy định]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không nêu tên khách chưa ký cho phép", "không dùng từ 'số 1', 'tốt nhất' theo Luật Quảng cáo", "không in giá vào tài liệu"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -36,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Cần tài liệu nào trước, cho ai cầm, dùng vào việc gì?** Hồ sơ năng lực, tờ một trang, bảng so sánh, thẻ chân dung người mua; người đọc là chủ cửa hàng, trưởng phòng mua, kế toán, hay khách lẻ; mục đích là giới thiệu, nộp hồ sơ thầu, hay tuyển đại lý, đối tác.
 2. **Khách chọn mình vì gì và bằng chứng là gì?** 3 lý do khách đã mua nói ra, kèm số liệu, ảnh, tên khách được phép nêu. 2 đến 4 dự án hoặc khách tiêu biểu 3 năm gần đây và kết quả đạt được. Có tài liệu cũ không, gửi để đọc trước.
 3. **So với ai và họ mạnh ở đâu thật?** 2 đến 3 đối thủ, điểm họ hơn mình, điểm mình hơn họ cho nhóm khách nào.
 4. **Dùng ở đâu?** Gửi qua Zalo, in mang đi gặp, đính kèm email báo giá, phát ở hội chợ. Mỗi nơi dùng cần định dạng khác nhau.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mỗi tài liệu có một người đọc và một mục đích.** Tờ một trang cho người ủng hộ cầm đi trình; hồ sơ năng lực cho phòng mua và hồ sơ thầu; bảng so sánh cho khách đang cân nhắc đối thủ; thẻ chân dung cho nhân viên nội bộ. Không gộp.
 3. **Cấu trúc tờ một trang cố định 5 khối**: vấn đề của khách bằng ngôn ngữ khách nói, công ty làm gì trong một câu, 3 điểm khác biệt mỗi điểm một bằng chứng, một bằng chứng mạnh nhất, một bước tiếp theo kèm tên và số điện thoại người cụ thể. Đọc lướt 30 giây nắm được.
 4. **Hồ sơ năng lực tối đa 12 trang, mở bằng khách chứ không bằng lịch sử công ty.** Trang 1 nói công ty giải quyết vấn đề gì cho ai; thông tin quan trọng nhất nằm trong 3 trang đầu vì nhiều người không đọc hết. Lịch sử và giấy phép để sau. Mục đích quyết định phần nhấn (bảng dưới).
@@ -88,7 +90,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Bo-tai-lieu-ban-hang-[nhom-khach]-[thang-nam].md`. Nếu người dùng chỉ cần một tài liệu, xuất 4.1 và mục tương ứng.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Bo-tai-lieu-ban-hang-[nhom-khach]-[thang-nam].md`. Nếu người dùng chỉ cần một tài liệu, xuất 4.1 và mục tương ứng.
 
 ### 4.1 Tóm tắt cho quản lý
 

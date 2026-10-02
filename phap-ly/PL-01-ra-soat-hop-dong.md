@@ -3,6 +3,8 @@
 > **Dùng khi:** nhận bản dự thảo hợp đồng từ đối tác (mua bán hàng hóa, đại lý, phân phối, dịch vụ, thỏa thuận bảo mật, hợp tác kinh doanh) và cần biết điều khoản nào bất lợi, sửa thế nào, hỏi luật sư điều gì trước khi ký; cần rà lại mẫu hợp đồng công ty đang dùng; hoặc cần rà một hợp đồng lao động do bên khác soạn trước khi ký.
 > **Kết quả:** bảng điều khoản rủi ro theo mức cao, trung, thấp; điều khoản thiếu cần bổ sung; đề xuất câu chữ sửa cho từng điều; danh sách câu hỏi cho luật sư; danh sách kiểm tra trước khi ký.
 > **Không dùng khi:** cần soạn mới hợp đồng bán hàng, dịch vụ, đại lý, thỏa thuận bảo mật từ đầu (dùng PL-04), cần soạn điều khoản dịch vụ cho website hoặc chính sách bảo mật (PL-02), cần kiểm tra nội dung quảng cáo và thu thập dữ liệu (PL-03), hoặc cần xây chính sách công nợ (FIN-08).
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp; B2C = bán cho người tiêu dùng.
+> TNHH = trách nhiệm hữu hạn; AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +19,7 @@
 - Nơi giải quyết tranh chấp công ty ưu tiên: [ĐIỀN: ví dụ "tòa án nơi công ty đặt trụ sở" hoặc "trọng tài thương mại"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không ký phạt vi phạm trên 8%", "không nhận độc quyền quá 1 năm", "không ký giới hạn trách nhiệm dưới giá trị hợp đồng"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -39,20 +41,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Công ty là bên nào và hợp đồng loại gì?** Bên bán hay bên mua, bên giao đại lý hay đại lý, bên cung cấp hay bên thuê dịch vụ, bên tiết lộ hay bên nhận thông tin mật? Dán toàn bộ bản dự thảo hoặc các điều khoản chính, kèm phụ lục.
 2. **Giá trị, thời hạn và tầm quan trọng?** Tổng giá trị, một lần hay dài hạn, đối tác chiếm bao nhiêu phần trăm doanh thu hoặc nguồn cung? Điều này quyết định mức rủi ro chấp nhận được.
 3. **Điều gì công ty lo nhất?** Ví dụ: bị chiếm dụng vốn, bị phạt nặng khi giao trễ, bị ràng buộc độc quyền, bị chấm dứt đột ngột, hàng lỗi không đổi được, mất quyền với kết quả công việc.
 4. **Đã thương lượng được gì và còn bao nhiêu thời gian?** Điều nào đối tác nói "không đổi", hạn ký là khi nào, ai bên công ty sẽ đi đàm phán?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mở đầu mọi kết quả bằng dòng giới hạn:** "Rà soát sơ bộ, không thay thế ý kiến luật sư. Cần luật sư duyệt trước khi ký." Đây là bảo vệ cho cả người dùng lẫn công ty.
 3. **Rà theo đúng 7 nhóm điều khoản rủi ro,** không bỏ nhóm nào dù hợp đồng không có điều đó. Thiếu điều khoản cũng là rủi ro, ví dụ không có điều khoản bất khả kháng. Với hợp đồng dịch vụ, thỏa thuận bảo mật, hợp đồng lao động, hợp đồng đại lý, rà thêm điểm riêng ở bảng thứ hai.
 4. **Mỗi điều rủi ro phải có 4 phần:** trích nguyên văn, vì sao bất lợi (kịch bản cụ thể), mức rủi ro, câu chữ đề xuất thay. Không nhận xét chung kiểu "điều này không rõ".
@@ -84,13 +86,13 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 | Lao động (rà khi bên khác soạn) | Loại và thời hạn hợp đồng; thử việc tối đa theo trình độ (180, 60, 30, 6 ngày) và lương thử việc tối thiểu 85%; lương không thấp hơn tối thiểu vùng; thời hạn báo trước khi chấm dứt (45, 30, 3 ngày theo loại); không được thỏa thuận phạt tiền; điều khoản không cạnh tranh sau nghỉ việc cần luật sư rà kỹ | Phạt tiền khi vi phạm kỷ luật, thử việc vượt mức luật, không cạnh tranh không giới hạn và không có đền bù |
 | Hợp tác kinh doanh | Tỉ lệ góp và phân chia lãi lỗ, ai điều hành, quyền quyết định việc lớn, thời hạn và cách rút vốn, sở hữu tài sản chung khi kết thúc | Phân chia lãi nhưng không nói chịu lỗ, không có cơ chế thoát |
 
-Ngoài ra rà thêm nếu có: hóa đơn và thuế (giá đã gồm thuế giá trị gia tăng chưa, ai xuất hóa đơn khi nào), chuyển dữ liệu cá nhân của khách cho đối tác (cần phù hợp Nghị định 13/2023, chuyển PL-02).
+Ngoài ra rà thêm nếu có: hóa đơn và thuế (giá đã gồm thuế giá trị gia tăng chưa, ai xuất hóa đơn khi nào), chuyển dữ liệu cá nhân của khách cho đối tác (cần phù hợp Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP, chuyển PL-02).
 
 ---
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Ra-soat-HD-[doi-tac]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Ra-soat-HD-[doi-tac]-[thang-nam].md`.
 
 ### 4.1 Dòng giới hạn và tóm tắt cho người quản lý
 
@@ -157,7 +159,7 @@ Kết thúc bằng **5 việc cần làm trước khi ký**, việc đầu tiên
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: công ty là bên nào, loại hợp đồng, giá trị, điều lo nhất, tình trạng đàm phán; đã tóm tắt và được xác nhận phương án trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: công ty là bên nào, loại hợp đồng, giá trị, điều lo nhất, tình trạng đàm phán.
 - [ ] Nếu người dùng có mẫu bảng rà soát riêng, kết quả bám đúng mẫu đó.
 - [ ] Có dòng giới hạn "không thay thế luật sư, cần luật sư duyệt" ở đầu kết quả.
 - [ ] Đủ 7 nhóm rủi ro được rà, kể cả nhóm hợp đồng không có điều khoản; có điểm rà riêng theo loại hợp đồng.

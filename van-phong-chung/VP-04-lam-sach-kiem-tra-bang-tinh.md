@@ -3,6 +3,8 @@
 > **Dùng khi:** có bảng Excel, Google Sheets hoặc CSV (danh sách đơn hàng, công nợ, tồn kho, chấm công, danh sách khách, dữ liệu xuất từ sàn hoặc phần mềm) cần tìm lỗi, ô trống, dòng trùng, sai định dạng, số bất thường trước khi dùng để báo cáo, nhập phần mềm hoặc gửi đối tác; hoặc cần công thức để tự làm lại.
 > **Kết quả:** báo cáo chất lượng dữ liệu theo cột, đề xuất làm sạch theo thứ tự kèm công thức, chỉ số chính nếu yêu cầu, nhận xét ngắn bám dữ liệu, giả định và chỗ cần xác nhận.
 > **Không dùng khi:** cần rút kết luận kinh doanh từ dữ liệu đã sạch (dùng OPS-09), cần viết báo cáo định kỳ (OPS-05), cần phân nhóm khách theo lịch sử mua (SAL-10), hoặc cần nối công cụ tự động (OPS-06).
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp; B2C = bán cho người tiêu dùng.
+> CSKH = chăm sóc khách hàng; AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +19,7 @@
 - Quy định bảo mật: [ĐIỀN: ví dụ "che số điện thoại, địa chỉ khách trước khi dán lên AI công cộng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không sửa trực tiếp file gốc, luôn làm trên bản sao", "không xóa dòng khi chưa có xác nhận kế toán"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,27 +39,27 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Bảng gì, cột nào nghĩa gì?** Dán dòng tiêu đề và 10 đến 20 dòng mẫu, hoặc đính kèm file. Mỗi cột đơn vị gì, bao nhiêu dòng tổng, dữ liệu từ đâu ra (gõ tay, xuất phần mềm, nhiều nguồn ghép)?
 2. **Mục đích?** Làm sạch để nhập phần mềm, tìm lỗi trước khi báo cáo, tính chỉ số, đối chiếu hai bảng, hay chuẩn bị gửi đối tác?
 3. **Quy tắc hợp lệ và thế nào là bất thường?** Ví dụ số tiền phải dương, ngày trong tháng 7, mã khách phải có trong danh sách, số lượng âm chỉ hợp lệ khi là trả hàng.
 4. **Công cụ và người sửa?** Excel hay Google Sheets, dấu phân cách công thức, có cần công thức để tự làm lại không, ai sẽ sửa và ai duyệt?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Rà đủ 6 loại lỗi theo bảng dưới**, từng cột một: ô trống, trùng, sai định dạng, ngoại lệ, không khớp danh mục, tổng không khớp. Báo cáo số lượng và vị trí (dòng, cột), không nói "có vài lỗi".
 3. **Không tự sửa, không xóa.** Mọi đề xuất ghi dạng: lỗi gì, ở đâu, sửa bằng cách nào, công thức hoặc thao tác, cần ai xác nhận. Luôn nhắc làm trên bản sao và giữ cột gốc.
 4. **Ô trống không bịa.** Đề xuất một trong ba: điền từ nguồn khác có căn cứ (ví dụ doanh thu bằng số lượng nhân đơn giá), hỏi người tạo dữ liệu, hoặc bỏ dòng khỏi phép tính và ghi chú. Chỗ thiếu ghi `[cần bổ sung: mô tả dữ liệu cần]`.
 5. **Công thức viết đúng công cụ.** Ghi rõ viết cho Excel hay Google Sheets, dấu phân cách phẩy hay chấm phẩy theo bối cảnh. Công thức đi kèm một câu giải thích để người không rành vẫn dùng được.
 6. **Chỉ số ghi cách tính và phạm vi**: tính trên bao nhiêu dòng, đã loại dòng nào. Tổng sau làm sạch khác tổng trước thì nêu chênh lệch và lý do.
 7. **Nhận xét bám dữ liệu, không suy diễn.** "Doanh thu tăng cuối tháng" chỉ nói khi có cột ngày và số cho thấy vậy. Không đoán nguyên nhân kinh doanh; chuyển sang OPS-09 nếu cần phân tích.
-8. **Bảo mật.** Nếu bảng có dữ liệu cá nhân khách (tên, điện thoại, địa chỉ, số tài khoản), nhắc người dùng che hoặc mã hóa trước khi dán lên công cụ AI công cộng, theo quy định bảo vệ dữ liệu cá nhân (Nghị định 13/2023).
+8. **Bảo mật.** Nếu bảng có dữ liệu cá nhân khách (tên, điện thoại, địa chỉ, số tài khoản), nhắc người dùng che hoặc mã hóa trước khi dán lên công cụ AI công cộng, theo quy định bảo vệ dữ liệu cá nhân (Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP).
 
 ### Sáu loại lỗi, cách phát hiện và cách xử lý (công thức viết cho Excel tiếng Anh, dấu phẩy)
 
@@ -84,7 +86,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Kiem-tra-bang-[ten-bang]-[ngay].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Kiem-tra-bang-[ten-bang]-[ngay].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -150,7 +152,7 @@ Kết thúc bằng **3 việc cần làm tiếp**: ví dụ xác nhận 4 dòng 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: cấu trúc bảng và nguồn, mục đích, quy tắc hợp lệ, công cụ và người sửa.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng dán mẫu báo cáo kiểm tra của công ty, kết quả khớp đúng mục và thứ tự của mẫu.
 - [ ] Đã rà đủ 6 loại lỗi theo từng cột, có số lượng và vị trí dòng.
 - [ ] Không tự sửa hay xóa dữ liệu gốc; mọi đề xuất kèm công thức hoặc thao tác và người xác nhận; đã nhắc làm trên bản sao.

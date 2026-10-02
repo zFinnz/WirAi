@@ -3,6 +3,9 @@
 > **Dùng khi:** kiến thức công ty nằm trong đầu từng người, nhân viên mới hỏi đi hỏi lại những điều đã trả lời, tài liệu rải rác trong Zalo, Drive, email và không ai biết bản nào mới nhất; cần gom các SOP, chính sách thành một sổ tay vận hành có mục lục; hoặc muốn có kho tài liệu sạch để sau này cho AI trả lời thay (chatbot nội bộ, trợ lý CSKH).
 > **Kết quả:** sơ đồ cấu trúc kho tri thức, bảng danh mục tài liệu tổng kèm phiên bản và ngày rà soát, danh sách khoảng trống cần viết, mẫu chuẩn một tài liệu, quy tắc viết, quy trình cập nhật và phân quyền, cách thu thập tri thức từ người sắp nghỉ và sau dự án, kế hoạch xây trong 6 đến 8 tuần.
 > **Không dùng khi:** cần viết một quy trình cụ thể (dùng OPS-01), cần tài liệu đào tạo có bài học và bài kiểm tra (HR-08), cần bộ câu hỏi thường gặp cho khách và kịch bản chatbot bên ngoài (CS-03), hoặc cần nội quy và chính sách (HR-09).
+> **Từ ngữ:** SOP = quy trình làm việc viết thành từng bước.
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp; B2C = bán cho người tiêu dùng.
+> CSKH = chăm sóc khách hàng; AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +20,7 @@
 - Có dự định dùng AI đọc kho này không: [ĐIỀN: ví dụ "có, muốn chatbot nội bộ trả lời chính sách", "chưa"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "lương, hợp đồng, dữ liệu khách không đưa vào kho chung", "không dùng công cụ lưu ngoài Việt Nam cho tài liệu tài chính"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,7 +40,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phạm vi đợt này?** Toàn công ty hay một phòng ban trước? Nếu toàn công ty, phòng nào đang đau nhất (hỏi nhiều nhất, nghỉ việc mất kiến thức nhiều nhất)? Có cần sổ tay vận hành tổng hợp không?
 2. **Đang có gì rồi?** Dán danh sách tài liệu hiện có (tên, nơi lưu, ai giữ, cũ mới) hoặc mô tả đại khái. Có tài liệu nào mọi người hay dùng nhất không? Đã từng có nhầm lẫn vì dùng bản cũ chưa? Nếu công ty có mẫu tài liệu hoặc quy ước đặt tên, dán vào.
@@ -46,19 +49,19 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng gửi cả tài liệu thật, đọc và xếp vào cấu trúc luôn, chỉ hỏi phần còn thiếu.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Cấu trúc theo cách người dùng tìm, không theo sơ đồ tổ chức.** Nhân viên kinh doanh tìm "chính sách đổi trả" chứ không tìm "tài liệu phòng CSKH". Tối đa 3 cấp thư mục; sâu hơn thì không ai vào. Cấu trúc đơn giản trước, mở rộng sau; thu gọn khó hơn mở rộng.
 3. **Phân loại tài liệu theo 5 nhóm cố định**: chính sách và quy định (phải làm gì), quy trình và hướng dẫn (làm thế nào, gồm cả tình huống đã xử lý và bài học), sản phẩm và giá (bán gì), khách hàng và thị trường (bán cho ai), biểu mẫu và công cụ (dùng gì). Mỗi tài liệu thuộc đúng một nhóm.
 4. **Mỗi tài liệu có phần đầu chuẩn và số phiên bản**: tên, mã, nhóm, phòng ban áp dụng, chủ sở hữu, phiên bản (v1.0 ban hành; v1.1 sửa nhỏ; v2.0 đổi cấu trúc), ngày cập nhật, ngày rà soát tiếp, mức bảo mật. Thiếu phần đầu thì không được đưa vào kho.
 5. **Một nguồn sự thật.** Mỗi chủ đề chỉ một tài liệu chính thức. Tài liệu trùng thì gộp, tài liệu cũ thì chuyển vào thư mục lưu trữ có ghi ngày hết hiệu lực, giữ tối thiểu 3 năm, không xóa.
 6. **Viết ngắn, tiêu đề là câu hỏi, câu trả lời ở 3 dòng đầu.** Tài liệu dài hơn 2 trang thì tách hoặc thêm mục lục. Số liệu để trong bảng. Tách "cần biết" và "tốt nếu biết" để người mới đọc phần cần biết trước.
-7. **Phân 3 mức bảo mật và có quy trình cập nhật với thời hạn.** Công khai nội bộ, hạn chế (theo phòng ban hoặc cấp quản lý), mật (lãnh đạo, kế toán, nhân sự). Dữ liệu cá nhân của khách và nhân viên tuân theo Nghị định 13/2023, không đưa vào kho chung. Ai được sửa, sửa xong ai duyệt, bao lâu rà một lần theo nhóm; rà xong không đổi gì vẫn ghi "đã rà, không đổi" kèm ngày. Rà đột xuất khi đổi quy trình, sản phẩm, luật, khi có khiếu nại liên quan hoặc sự cố do làm theo tài liệu sai.
+7. **Phân 3 mức bảo mật và có quy trình cập nhật với thời hạn.** Công khai nội bộ, hạn chế (theo phòng ban hoặc cấp quản lý), mật (lãnh đạo, kế toán, nhân sự). Dữ liệu cá nhân của khách và nhân viên tuân theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP, không đưa vào kho chung. Ai được sửa, sửa xong ai duyệt, bao lâu rà một lần theo nhóm; rà xong không đổi gì vẫn ghi "đã rà, không đổi" kèm ngày. Rà đột xuất khi đổi quy trình, sản phẩm, luật, khi có khiếu nại liên quan hoặc sự cố do làm theo tài liệu sai.
 8. **Đo kho bằng hành vi, không bịa số.** Số lượt tìm, số câu hỏi lặp lại giảm, thời gian người mới tự làm được. Không đo bằng số tài liệu. Chỗ nào thiếu dữ liệu thật (số tài liệu hiện có, chủ sở hữu, giờ người duy trì có) thì ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì đoán; mọi mức tham khảo ghi rõ là giả định.
 
 ### Chu kỳ rà soát và chủ sở hữu tham khảo (dùng khi thiếu dữ liệu, ghi rõ là giả định)
@@ -86,7 +89,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Kho-tri-thuc-[pham-vi]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Kho-tri-thuc-[pham-vi]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -182,7 +185,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**. Nếu tài liệ
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: phạm vi, tài liệu hiện có, câu hỏi hay gặp và người sắp nghỉ, người duy trì và công cụ; đã tóm tắt và được xác nhận trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: phạm vi, tài liệu hiện có, câu hỏi hay gặp và người sắp nghỉ, người duy trì và công cụ.
 - [ ] Nếu người dùng có mẫu tài liệu hoặc quy ước đặt tên riêng, kết quả bám đúng mẫu đó.
 - [ ] Cấu trúc theo cách người dùng tìm, tối đa 3 cấp, 5 nhóm cố định, có trang bắt đầu cho người mới.
 - [ ] Danh mục tổng có mã, nhóm, chủ sở hữu, phiên bản, ngày rà tiếp, trạng thái, mức bảo mật cho mọi tài liệu.

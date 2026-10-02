@@ -3,6 +3,8 @@
 > **Dùng khi:** file Excel công nợ chỉ nằm trên một máy, dữ liệu kế toán chưa bao giờ được khôi phục thử, trang bán hàng trên sàn hoặc Facebook có thể bị chiếm bất cứ lúc nào, hoặc công ty cần lịch sao lưu, cách kiểm tra khôi phục và quy trình xử lý khi mất dữ liệu, bị mã độc tống tiền, mất tài khoản, mất mạng.
 > **Kết quả:** bảng kiểm kê dữ liệu kèm mức ưu tiên, lịch sao lưu theo nguyên tắc 3-2-1, quy trình kiểm tra khôi phục định kỳ, phân mức sự cố và quy trình xử lý từng mức, kịch bản cho các sự cố thường gặp, thẻ liên hệ khẩn cấp một trang.
 > **Không dùng khi:** cần kế hoạch duy trì kinh doanh toàn công ty khi mất điện, cháy, dịch bệnh (dùng OPS-11), cần chính sách sử dụng CNTT và phân loại dữ liệu (IT-01), cần thu hồi tài khoản khi nghỉ việc (IT-03), hoặc cần tìm nguyên nhân gốc một vấn đề lặp lại (LD-02).
+> **Từ ngữ:** OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ bổ sung:** RTO = thời gian tối đa để khôi phục dịch vụ; RPO = khoảng dữ liệu tối đa có thể mất, tính theo thời gian.
 
 ---
 
@@ -17,7 +19,7 @@
 - Ngân sách cho sao lưu và bảo mật: [ĐIỀN: ví dụ "dưới 2 triệu mỗi tháng", "chưa có"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không đưa dữ liệu kế toán lên dịch vụ nước ngoài", "không trả tiền chuộc dữ liệu"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,26 +39,26 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Dữ liệu nào nếu mất thì đau nhất?** Liệt kê theo thứ tự: kế toán, đơn hàng và khách, công nợ đại lý, hình ảnh sản phẩm, hợp đồng, email, website. Mỗi loại đang nằm ở đâu, ai giữ?
 2. **Chịu được bao lâu và mất bao nhiêu?** Với từng hệ thống chính: ngừng mấy giờ thì ảnh hưởng bán hàng, mất dữ liệu của mấy giờ hoặc mấy ngày thì còn làm lại được?
 3. **Đang sao lưu thế nào và đã có sự cố nào?** Có ai từng khôi phục thử chưa? Đã từng mất file, bị khóa trang, nhiễm mã độc, bị lừa chuyển tiền chưa? Kết quả xử lý ra sao?
 4. **Nguồn lực xử lý sự cố?** Ai là người gọi đầu tiên, có đơn vị bảo trì thuê ngoài không, hợp đồng hỗ trợ của phần mềm kế toán và host website có số điện thoại hỗ trợ không, ngân sách công cụ sao lưu?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Kiểm kê dữ liệu trước, lịch sao lưu sau.** Mỗi loại dữ liệu có mức ưu tiên, RTO, RPO, nơi lưu gốc, người chịu trách nhiệm. Không viết lịch cho thứ chưa biết nằm ở đâu.
 3. **Nguyên tắc 3-2-1:** 3 bản sao (1 gốc, 2 sao lưu), trên 2 loại phương tiện khác nhau (ổ cứng ngoài hoặc máy chủ và đám mây), 1 bản ở nơi khác địa điểm văn phòng. Thêm 1 bản ngắt kết nối (ổ cứng rút ra sau khi chép) để chống mã độc tống tiền (ransomware).
 4. **Tự động hóa những gì có thể, phần thủ công phải có nhật ký.** Việc thủ công ghi rõ ai, ngày nào, kiểm tra bằng gì; có cột xác nhận trong bảng theo dõi.
 5. **Khôi phục thử hằng quý với dữ liệu ưu tiên cao**, ghi lại thời gian thực tế và so với RTO. Kết quả thử là căn cứ sửa lịch.
 6. **Sự cố phân 4 mức theo tác động kinh doanh**, mỗi mức có thời gian phản hồi, người được báo và nhịp cập nhật. Mức cao nhất kích hoạt nhóm xử lý gồm giám đốc, IT, trưởng bộ phận bị ảnh hưởng.
-7. **Sự cố liên quan dữ liệu cá nhân khách hàng có nghĩa vụ pháp lý:** đánh giá và thông báo cơ quan có thẩm quyền trong 72 giờ kể từ khi phát hiện theo Nghị định 13/2023/NĐ-CP; thông báo khách hàng bị ảnh hưởng khi cần. Nội dung thông báo cần luật sư rà.
+7. **Sự cố liên quan dữ liệu cá nhân có thể phát sinh nghĩa vụ thông báo.** Cô lập sự cố, ghi thời điểm phát hiện, loại dữ liệu và số người bị ảnh hưởng; nhờ pháp chế xác định cơ quan, chủ thể cần thông báo và thời hạn áp dụng theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP. Không coi mốc 72 giờ là quy tắc chung cho mọi sự cố.
 8. **Số liệu thiếu ghi `[cần bổ sung: mô tả dữ liệu cần]`**, không bịa, không để trống. Mọi mức tham khảo dưới đây là giả định, phải chỉnh theo công ty.
 
 ### Mức ưu tiên và lịch sao lưu tham khảo cho công ty thương mại (dùng khi thiếu dữ liệu, ghi rõ là giả định)
@@ -84,7 +86,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Sao-luu-va-su-co-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Sao-luu-va-su-co-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -129,7 +131,7 @@ Sáu bước áp dụng cho mọi mức, mức P1 và P2 làm đầy đủ, P3 v
 | Mất hoặc trộm laptop | | báo IT khóa tài khoản, đổi mật khẩu, xóa từ xa nếu có, báo công an nếu trộm | | cấp máy dự phòng, khôi phục từ Drive | mã hóa ổ đĩa, không lưu dữ liệu mức 3 trên máy |
 | Lừa chuyển tiền qua email, Zalo giả | yêu cầu đổi số tài khoản, thúc gấp | gọi xác minh người có thẩm quyền, dừng chuyển, báo kế toán trưởng | chuyển vì tin nhắn | nếu đã chuyển: báo ngân hàng và công an ngay | quy tắc xác minh hai kênh với mọi thay đổi tài khoản nhận tiền |
 | Mất điện, mất mạng kéo dài | | bật 4G dự phòng, chuyển nhận đơn thủ công, báo khách thời gian dự kiến | | theo OPS-11 | SIM 4G dự phòng, bộ lưu điện cho máy chủ và modem |
-| Rò rỉ dữ liệu cá nhân khách | file khách lộ ngoài, khách báo bị gọi lừa | cô lập nguồn, lập biên bản, báo giám đốc | im lặng | đánh giá phạm vi, thông báo cơ quan trong 72 giờ và khách khi cần (luật sư rà) | phân quyền, nhật ký truy cập, IT-01 |
+| Rò rỉ dữ liệu cá nhân khách | file khách lộ ngoài, khách báo bị gọi lừa | cô lập nguồn, lập biên bản, báo giám đốc | im lặng | đánh giá phạm vi; pháp chế xác định nghĩa vụ và hạn thông báo cho cơ quan, khách bị ảnh hưởng | phân quyền, nhật ký truy cập, IT-01 |
 
 ### 4.7 Thẻ liên hệ khẩn cấp và lộ trình
 
@@ -142,14 +144,14 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**, và gợi ý ski
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: dữ liệu đau nhất, RTO và RPO bằng ngôn ngữ kinh doanh, sao lưu hiện có và sự cố đã gặp, nguồn lực xử lý.
-- [ ] Đã tóm tắt bối cảnh và chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng có mẫu lịch hoặc quy trình sẵn, kết quả bám đúng mẫu đó.
 - [ ] Bảng kiểm kê dữ liệu có nơi gốc, ưu tiên, RPO, RTO, người chịu trách nhiệm, tình trạng hiện tại.
 - [ ] Lịch sao lưu đạt 3-2-1, có bản ngắt kết nối, có cách xác nhận đã chạy và nhật ký.
 - [ ] Có quy trình khôi phục thử định kỳ với mẫu biên bản và so sánh với RTO.
 - [ ] Sự cố phân 4 mức với thời gian phản hồi, người được báo, nhịp cập nhật.
 - [ ] Có kịch bản riêng cho mã độc tống tiền, mất tài khoản sàn hoặc Page, lừa chuyển tiền, rò rỉ dữ liệu cá nhân.
-- [ ] Rò rỉ dữ liệu cá nhân có nghĩa vụ thông báo 72 giờ theo Nghị định 13/2023 và ghi chú cần luật sư rà.
+- [ ] Sự cố dữ liệu cá nhân đã được đánh giá theo loại dữ liệu và mức ảnh hưởng; pháp chế xác định nghĩa vụ, đối tượng và hạn thông báo theo văn bản hiện hành.
 - [ ] Có thẻ liên hệ khẩn cấp một trang và lộ trình 4 tuần.
 - [ ] Mọi mức tham khảo đã ghi rõ là giả định; chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
 - [ ] Tôn trọng các điều cấm trong phần bối cảnh, thuật ngữ tiếng Việt kèm tiếng Anh trong ngoặc ở lần đầu, kết thúc bằng 5 việc cần làm trong 7 ngày.

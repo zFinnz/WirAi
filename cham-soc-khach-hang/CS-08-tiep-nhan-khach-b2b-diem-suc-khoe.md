@@ -3,6 +3,8 @@
 > **Dùng khi:** vừa ký hợp đồng với đại lý hoặc khách doanh nghiệp và cần bàn giao từ bán hàng sang chăm sóc, đào tạo người dùng bên khách, theo dõi 30 ngày đầu; hoặc có nhiều khách B2B mà không biết khách nào sắp giảm đơn, nợ quá hạn, đổi người liên hệ, để can thiệp trước khi mất.
 > **Kết quả:** quy trình tiếp nhận 30 ngày theo mốc kèm bảng phân vai, chương trình họp khởi động, mẫu email chào mừng, bảng điểm sức khỏe khách hàng (customer health score) 5 chiều có trọng số, hành động theo mức xanh, vàng, đỏ, bảng theo dõi và nhịp họp.
 > **Không dùng khi:** cần lịch chăm sóc và bán thêm cho khách lẻ (dùng SAL-09), cần chính sách chiết khấu và tuyển đại lý (SAL-11), cần kéo lại khách đã rời (CS-06), cần phân nhóm toàn bộ tệp khách theo giao dịch (SAL-10), hoặc cần chương trình điểm thưởng (CS-09).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +19,7 @@
 - Số khách một người phụ trách: [ĐIỀN]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không mở công nợ khi chưa có hợp đồng", "không cam kết giá quá 3 tháng"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,27 +39,27 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Khách B2B là loại nào và "thành công" nghĩa là gì?** Đại lý bán lại, khách doanh nghiệp dùng trực tiếp, hay dự án một lần? Sau 30 ngày, khách phải đạt mốc gì để coi là tiếp nhận xong?
 2. **Quy trình sau ký hiện tại?** Ai làm gì trong tuần đầu, khách hay vướng ở đâu (mở mã, công nợ, giao hàng, đào tạo, hóa đơn)? Có tài liệu hướng dẫn, bộ trưng bày sẵn chưa?
 3. **Dữ liệu nào có sẵn để chấm điểm?** Doanh số theo tháng, tần suất đặt, công nợ, số khiếu nại, lịch sử tương tác. Có bao nhiêu khách, bao nhiêu người theo dõi?
 4. **Tỉ lệ mất khách và dấu hiệu trước khi mất?** Theo kinh nghiệm, khách thường làm gì 1 đến 3 tháng trước khi ngừng mua?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mốc giá trị đầu tiên định nghĩa trước mọi thứ.** Quy trình 30 ngày xoay quanh việc đưa khách đến mốc đó. Nếu người dùng chưa có, đề xuất 2 phương án và ghi rõ là đề xuất.
 3. **Mỗi mốc có việc, người, hạn, bằng chứng hoàn thành.** "Đào tạo nhân viên bên khách" phải thành "buổi 60 phút, ngày thứ 7, 8 người, có danh sách ký tên".
 4. **Chỉ chấm điểm bằng dữ liệu công ty thu được hằng tháng.** Chiều nào không có dữ liệu thì bỏ hoặc ghi `[cần bổ sung: mô tả dữ liệu cần]`; không bịa, không để trống. Trọng số và ngưỡng ở bảng dưới là giả định, công ty chỉnh sau 3 tháng chạy thử.
 5. **Điểm chỉ có ý nghĩa khi gắn hành động.** Mỗi mức màu có việc làm trong bao lâu, do ai, kịch bản nói gì.
 6. **Tách đại lý và khách doanh nghiệp dùng trực tiếp** nếu công ty có cả hai: đại lý đo bằng sản lượng bán ra và tồn kho; khách doanh nghiệp đo bằng nghiệm thu và tái đặt.
 7. **Không bán thêm khi khách đang vàng hoặc đỏ.** Gọi để nghe, không để chào.
-8. **Dữ liệu người liên hệ bên khách** thu thập và lưu theo Nghị định 13/2023 về bảo vệ dữ liệu cá nhân: chỉ lấy thông tin cần cho hợp đồng, ghi rõ mục đích.
+8. **Dữ liệu người liên hệ bên khách** thu thập và lưu theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về bảo vệ dữ liệu cá nhân: chỉ lấy thông tin cần cho hợp đồng, ghi rõ mục đích.
 
 ### Bảng điểm sức khỏe tham khảo cho công ty thương mại (giả định, chỉnh theo dữ liệu thật)
 
@@ -84,7 +86,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Tiep-nhan-va-diem-suc-khoe-khach-B2B-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Tiep-nhan-va-diem-suc-khoe-khach-B2B-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -160,7 +162,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý: SAL
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: loại khách và mốc thành công, quy trình hiện tại, dữ liệu sẵn có, dấu hiệu mất khách.
-- [ ] Đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng đưa mẫu, kết quả khớp đúng mục, thứ tự và cách xưng hô của mẫu.
 - [ ] Mốc giá trị đầu tiên được định nghĩa và đo được; quy trình 30 ngày xoay quanh mốc đó.
 - [ ] Mỗi mốc có việc, người, hạn, bằng chứng hoàn thành; có biên bản bàn giao từ bán hàng.
@@ -168,6 +170,6 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Mỗi mức màu có hành động, thời hạn, người, kịch bản; không bán thêm khi vàng hoặc đỏ.
 - [ ] Đại lý và khách doanh nghiệp tách khi khác nhau; có bảng theo dõi với cột tối thiểu, nhịp cập nhật và nhịp họp.
 - [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
-- [ ] Tôn trọng các điều cấm trong phần bối cảnh; dữ liệu người liên hệ thu thập đúng mục đích theo Nghị định 13/2023.
+- [ ] Tôn trọng các điều cấm trong phần bối cảnh; dữ liệu người liên hệ thu thập đúng mục đích theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP.
 - [ ] Thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu.
 - [ ] Kết thúc bằng 5 việc cần làm trong 7 ngày và gợi ý skill tiếp theo.

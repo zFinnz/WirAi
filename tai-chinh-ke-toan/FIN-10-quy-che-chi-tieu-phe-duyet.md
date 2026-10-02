@@ -3,6 +3,7 @@
 > **Dùng khi:** ai cũng xin tiền giám đốc kể cả mua văn phòng phẩm, hoặc ngược lại nhân viên tự chi rồi đưa hóa đơn, tạm ứng mãi không hoàn, chứng từ thiếu khiến kế toán không hạch toán được chi phí, hoặc cần văn bản hóa hạn mức duyệt theo cấp, quy trình thu chi, tạm ứng, hoàn ứng và mẫu phiếu.
 > **Kết quả:** quy chế chi tiêu gồm nguyên tắc, ma trận hạn mức duyệt theo cấp và loại chi, quy trình đề nghị chi, thu chi tiền mặt và chuyển khoản, tạm ứng và hoàn ứng, yêu cầu chứng từ hợp lệ, mẫu phiếu, chế tài, lịch kiểm quỹ. Phần kế toán và thuế **cần kế toán trưởng và pháp chế duyệt** trước khi ban hành.
 > **Không dùng khi:** cần ma trận phân quyền cho mọi loại quyết định (hợp đồng, nhân sự, giá bán) thì dùng LD-09 và trích phần chi tiêu từ skill này; cần phân loại và cắt chi phí (FIN-04); cần chính sách công nợ và thu hồi (FIN-08); cần quy trình mua hàng và chọn nhà cung cấp (KHO-03); cần lập ngân sách (FIN-09).
+> **Từ ngữ bổ sung:** GTGT = giá trị gia tăng.
 
 ---
 
@@ -17,7 +18,7 @@
 - Vấn đề đang gặp: [ĐIỀN: ví dụ "tạm ứng tồn 300 triệu, hóa đơn về trễ 2 tháng, chi tiếp khách không có phê duyệt trước"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không chi tiền mặt trên 20 triệu một lần", "không ứng cho người còn tạm ứng chưa hoàn", "không chi quà biếu cho cơ quan nhà nước"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phạm vi?** Toàn bộ quy chế, hay chỉ ma trận hạn mức, quy trình tạm ứng, quy trình thu chi, hay mẫu phiếu? Soạn mới hay sửa bản đang có (dán bản cũ)?
 2. **Thực tế đang duyệt thế nào?** Ai ký gì, mức nào lên giám đốc, qua giấy, Zalo hay phần mềm, mất bao lâu. Khoản chi nào hay gây tranh cãi?
 3. **Chỗ đang rò?** Số dư tạm ứng và tuổi tạm ứng, chi phí không có hóa đơn năm qua, chênh lệch kiểm quỹ, trường hợp chi sai đã xảy ra.
 4. **Ngưỡng và ràng buộc mong muốn?** Mức giám đốc phải duyệt, mức chi tiền mặt tối đa, hạn mức tồn quỹ, lịch chuyển khoản, có cần song ngữ hay mã dự án trên phiếu không, ai duyệt văn bản.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Hạn mức theo cấp và theo loại chi, ít bậc.** 4 đến 5 bậc là đủ. Khoản đã có trong ngân sách duyệt (FIN-09) đi nhanh hơn khoản ngoài ngân sách một cấp. Chi lặp theo hợp đồng (thuê mặt bằng, lương, phần mềm) duyệt một lần cả năm, không duyệt từng tháng.
 3. **Tách biệt nhiệm vụ (segregation of duties)**: người đề nghị, người duyệt, người lập phiếu, người giữ tiền hoặc chuyển khoản là người khác nhau; công ty nhỏ không đủ người thì tối thiểu người duyệt khác người trả tiền, và giám đốc kiểm quỹ đột xuất.
 4. **Chuyển khoản là mặc định.** Tiền mặt chỉ cho khoản nhỏ dưới ngưỡng công ty đặt; chuyển khoản trên ngưỡng có hai người: người lập lệnh (maker) và người duyệt lệnh (checker). Thêm người thụ hưởng mới vào danh sách chuyển khoản cần giám đốc duyệt riêng, để chặn lừa đảo đổi số tài khoản.
@@ -86,7 +87,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Quy-che-chi-tieu-phe-duyet-[phien-ban]-[thang-nam].md`. Đầu văn bản: phiên bản, ngày hiệu lực, người duyệt, dòng "bản nháp, cần kế toán trưởng và pháp chế duyệt".
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Quy-che-chi-tieu-phe-duyet-[phien-ban]-[thang-nam].md`. Đầu văn bản: phiên bản, ngày hiệu lực, người duyệt, dòng "bản nháp, cần kế toán trưởng và pháp chế duyệt".
 
 ### 4.1 Tóm tắt cho ban giám đốc
 
@@ -158,7 +159,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**, gợi ý: kế t
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: phạm vi, thực tế đang duyệt, chỗ đang rò, ngưỡng và ràng buộc; đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: phạm vi, thực tế đang duyệt, chỗ đang rò, ngưỡng và ràng buộc.
 - [ ] Nếu người dùng có biểu mẫu, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Đầu văn bản có phiên bản, hiệu lực, người duyệt và dòng cần kế toán trưởng, pháp chế duyệt.
 - [ ] Ma trận hạn mức 4 đến 5 bậc, phân biệt trong và ngoài ngân sách, ngưỡng ghi rõ là ví dụ cần điều chỉnh.

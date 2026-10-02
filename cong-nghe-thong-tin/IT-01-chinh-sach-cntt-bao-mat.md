@@ -3,6 +3,8 @@
 > **Dùng khi:** nhân viên dán danh sách khách hàng vào công cụ AI công cộng, dùng Zalo cá nhân để gửi bảng giá đại lý, cài phần mềm lậu lên máy công ty, mang laptop về nhà không mật khẩu, hoặc công ty cần một văn bản quy định thiết bị, phần mềm, email, dữ liệu, thiết bị cá nhân và AI để nhân viên ký và làm theo.
 > **Kết quả:** chính sách công nghệ thông tin (CNTT) theo mục, bảng phân loại dữ liệu 4 mức kèm quy tắc xử lý, quy tắc dùng AI công cộng, bậc vi phạm và xử lý, bản tóm tắt 10 điều cho nhân viên và phiếu xác nhận.
 > **Không dùng khi:** cần lịch sao lưu và quy trình xử lý sự cố (dùng IT-02), cần sổ tài khoản và phân quyền (IT-03), cần nội quy lao động chung (HR-09), cần chính sách bảo mật công bố cho khách trên website (PL-02), hoặc tuân thủ dữ liệu cá nhân khi chạy marketing (PL-03).
+> **Từ ngữ:** OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ bổ sung:** SMS = tin nhắn điện thoại thông thường; NDA = thỏa thuận giữ bí mật thông tin; AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +19,7 @@
 - Công cụ AI đang được nhân viên dùng: [ĐIỀN: ví dụ "ChatGPT, Gemini miễn phí; chưa có tài khoản công ty"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không được dùng USB cá nhân", "không được cài phần mềm ngoài danh sách"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -29,7 +31,7 @@ Tư duy nền:
 
 - Rủi ro lớn nhất của công ty thương mại không phải tin tặc, mà là nhân viên gửi nhầm, dùng mật khẩu chung, mang dữ liệu khách đi khi nghỉ việc, và bị lừa qua tin nhắn.
 - Chính sách quá dài không ai đọc, quá cứng không ai theo. Phân biệt rõ điều bắt buộc, điều khuyến nghị và điều cấm.
-- Dữ liệu cá nhân của khách là tài sản có nghĩa vụ pháp lý đi kèm. Thu thập, dùng, chia sẻ phải có căn cứ theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân và Luật Bảo vệ dữ liệu cá nhân 2025 có hiệu lực từ 01/01/2026 (kiểm tra văn bản mới nhất).
+- Dữ liệu cá nhân của khách gắn với quyền của họ và nghĩa vụ của công ty. Việc thu thập, sử dụng, chia sẻ phải tuân thủ Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP, có hiệu lực từ 01/01/2026; kiểm tra văn bản sửa đổi mới nhất trước khi ban hành.
 - AI công cộng là công cụ tốt, nhưng mọi thứ dán vào có thể rời khỏi công ty. Quy tắc dùng AI gắn với phân loại dữ liệu, không cấm chung chung.
 - Xử lý kỷ luật phải nằm trong nội quy lao động đã đăng ký theo Bộ luật Lao động 2019, nếu không thì không thi hành được.
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phạm vi và mức nghiêm ngặt?** Chính sách đầy đủ hay bản rút gọn? Áp dụng cho nhân viên chính thức, thời vụ, cộng tác viên, đối tác? Công ty muốn mức chặt (cấm nhiều) hay mức vừa (khuyến nghị nhiều, cấm ít)?
 2. **Sự cố đã xảy ra hoặc lo ngại nhất?** Mất laptop, lộ bảng giá đại lý, nhân viên cũ dùng dữ liệu khách, bị lừa chuyển tiền qua email giả, trang Facebook bị chiếm? Điều này quyết định mục nào viết kỹ.
 3. **Thiết bị và truy cập thực tế?** Ai dùng máy công ty, ai dùng máy cá nhân, có xác thực hai bước (2FA) chưa, có quản lý mật khẩu chung bằng cách nào, dữ liệu nằm trên Drive công ty hay máy cá nhân?
 4. **Người đọc và cách ban hành?** Ban hành kèm nội quy lao động (cần đăng ký), hay là quy định nội bộ ký xác nhận? Có cần bản 1 trang dán tường và bản để đưa vào đào tạo hội nhập không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mỗi quy định viết dạng hành vi kiểm tra được.** "Khóa màn hình khi rời bàn, tự khóa sau 5 phút" thay vì "bảo vệ thiết bị cẩn thận". Ghi rõ bắt buộc, khuyến nghị hay cấm.
 3. **Phân loại dữ liệu 4 mức là xương sống.** Mọi quy tắc về lưu, gửi, chia sẻ, in, dùng AI đều tham chiếu mức dữ liệu. Có ví dụ cụ thể của công ty cho từng mức.
 4. **Thiết bị cá nhân dùng cho công việc (BYOD) có điều kiện tối thiểu**, không cấm tuyệt đối vì thực tế kinh doanh và kho dùng điện thoại cá nhân: mật khẩu màn hình, cập nhật hệ điều hành, không bẻ khóa máy, cài ứng dụng công ty, đồng ý xóa dữ liệu công ty từ xa khi nghỉ.
@@ -89,7 +91,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Chinh-sach-CNTT-bao-mat-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Chinh-sach-CNTT-bao-mat-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho lãnh đạo và bản 10 điều cho nhân viên
 
@@ -118,7 +120,7 @@ Xuất ra đúng thứ tự sau. Tên tài liệu: `Chinh-sach-CNTT-bao-mat-[con
 
 ### 4.5 Phân loại dữ liệu và quy tắc xử lý
 
-Bảng 4 mức theo phần 3 nhưng điền ví dụ thật của công ty. Thêm quy tắc riêng cho dữ liệu cá nhân khách hàng: chỉ thu thập thông tin cần cho giao dịch, có thông báo mục đích; không bán, không chia sẻ cho bên thứ ba ngoài đơn vị vận chuyển và thanh toán; lưu ở phần mềm hoặc Drive công ty có phân quyền; xóa hoặc ẩn danh khi không còn mục đích; khi phát hiện rò rỉ phải báo IT ngay để công ty thực hiện nghĩa vụ thông báo cơ quan có thẩm quyền trong 72 giờ theo Nghị định 13/2023/NĐ-CP (quy trình ở IT-02). Ghi chú: nghĩa vụ chi tiết cần luật sư rà theo văn bản hiện hành.
+Bảng 4 mức theo phần 3 nhưng điền ví dụ thật của công ty. Thêm quy tắc riêng cho dữ liệu cá nhân khách hàng: chỉ thu thập thông tin cần cho mục đích đã thông báo; chỉ chia sẻ với bên được phép và đúng mục đích; lưu ở hệ thống công ty có phân quyền; xóa hoặc ẩn danh khi không còn căn cứ lưu. Khi phát hiện rò rỉ, nhân viên phải báo IT ngay; công ty đánh giá nghĩa vụ, đối tượng và hạn thông báo theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP (quy trình ở IT-02). Nghĩa vụ cụ thể cần pháp chế xác nhận theo tình huống.
 
 ### 4.6 Quy tắc dùng AI công cộng
 
@@ -143,11 +145,11 @@ Kết thúc bằng **5 việc cần làm trong 30 ngày**, và gợi ý skill ti
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: phạm vi và mức nghiêm ngặt, sự cố hoặc lo ngại, thiết bị và truy cập thực tế, cách ban hành.
-- [ ] Đã tóm tắt bối cảnh và chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng có mẫu chính sách sẵn, kết quả bám đúng mẫu đó.
 - [ ] Mỗi quy định là hành vi kiểm tra được, ghi rõ bắt buộc, khuyến nghị hay cấm.
 - [ ] Bảng 4 mức dữ liệu có ví dụ thật của công ty và quy tắc lưu, gửi, dùng AI cho từng mức.
-- [ ] Có mục dữ liệu cá nhân khách hàng tham chiếu Nghị định 13/2023 và nghĩa vụ thông báo 72 giờ, có ghi chú cần luật sư rà.
+- [ ] Có mục dữ liệu cá nhân khách hàng tham chiếu Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP; yêu cầu báo IT ngay và chuyển pháp chế xác định nghĩa vụ thông báo.
 - [ ] Quy tắc AI theo mức dữ liệu, có yêu cầu kiểm tra đầu ra và cấm nhập mật khẩu, OTP.
 - [ ] Thiết bị cá nhân có điều kiện tối thiểu thay vì cấm tuyệt đối.
 - [ ] Bậc vi phạm gắn với nội quy lao động, không khẳng định hình thức kỷ luật trái luật, ghi rõ cần nhân sự hoặc luật sư duyệt.

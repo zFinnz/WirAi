@@ -3,6 +3,8 @@
 > **Dùng khi:** chưa hiểu khách đủ sâu để viết nội dung, chọn tệp quảng cáo hoặc chốt định vị; nội dung đang nói chung chung, khách đọc xong không thấy mình trong đó; đội bán hàng B2B chưa biết khách nào đáng theo, khách nào nên bỏ.
 > **Kết quả:** chân dung khách hàng 3 tầng theo độ nóng, bảng chấm điểm khách lý tưởng cho B2B, bản đồ nỗi đau, danh sách lý do từ chối có người xử lý, kho ngôn ngữ nguyên văn của khách để viết nội dung.
 > **Không dùng khi:** cần soi đối thủ (MKT-03), cần viết câu định vị từ insight đã có (MKT-04), cần đo hài lòng khách cũ (CS-05), cần tìm danh sách khách doanh nghiệp để chào hàng (SAL-03), hoặc cần phân nhóm theo lịch sử mua (SAL-10).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; CRM = bảng hoặc phần mềm quản lý thông tin khách hàng.
+> **Từ ngữ thường gặp:** điểm chạm = lần hoặc nơi khách tiếp xúc với công ty; insight = lý do thật phía sau một hành vi của khách, được kiểm tra bằng dữ liệu.
 
 ---
 
@@ -17,7 +19,7 @@
 - Nhóm khách công ty không muốn phục vụ: [ĐIỀN: ví dụ "khách chỉ mua khi giảm trên 30%"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không trích dẫn tên thật của khách", "không dùng dữ liệu khách của đại lý"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -32,13 +34,13 @@ Tư duy nền:
 - Thấu hiểu khách hàng (insight) không phải mô tả. Công thức: **hành vi quan sát được + lý do thật đằng sau**. "Phụ nữ 25 đến 35 thích chăm da" là mô tả; "họ biết da xấu đi nhưng đổ cho thời tiết nên chưa tìm giải pháp" là insight.
 - Người dùng (consumer) và người mua (shopper) có thể là hai người khác nhau. Với B2B còn thêm người ảnh hưởng và người ký duyệt. Nội dung phải nhắm đúng người.
 - Khách nói gì không quan trọng bằng khách làm gì. Đánh giá 3 sao, tin nhắn hỏi rồi im, lý do hủy đơn quý hơn khảo sát hài lòng.
-- Chỉ dùng dữ liệu công ty có quyền dùng theo Nghị định 13/2023 về bảo vệ dữ liệu cá nhân. Khi trích dẫn, bỏ tên và số điện thoại.
+- Chỉ dùng dữ liệu công ty có quyền dùng theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về bảo vệ dữ liệu cá nhân. Khi trích dẫn, bỏ tên và số điện thoại.
 
 ---
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Xây chân dung cho nhóm nào?** B2C, B2B hay cả hai? Nếu cả hai, làm nhóm nào trước? Phân khúc giá nào?
 2. **Có dữ liệu thật không?** Dán 20 đến 50 tin nhắn, bình luận, đánh giá gần nhất và danh sách lý do mất đơn từ đội bán hàng. Không có thì nói rõ, bạn sẽ làm chân dung giả định và đánh dấu từng dòng cần kiểm chứng.
@@ -47,13 +49,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng dán dữ liệu thô, chạy quy trình gắn thẻ ở mục 3 trước khi hỏi thêm.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chép nguyên văn lời khách, không viết lại cho hay.** Khách viết "nước ra yếu xìu" thì giữ nguyên, không sửa thành "áp lực nước thấp". Câu nào nghe như khẩu hiệu là câu bạn tự viết, bỏ.
 3. **Mỗi kết luận có nguồn và mức tin cậy.** Chủ đề xuất hiện ở 3 nguồn độc lập trở lên mới là tin cậy cao. Một nguồn duy nhất ghi là giả thuyết. Chỗ nào thiếu dữ liệu thật thì ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống.
 4. **Gắn thẻ trước, kết luận sau.** Đọc từng mẫu, gắn 1 trong 5 thẻ: NỖI ĐAU, MONG MUỐN, TỪ CHỐI, KÍCH HOẠT (điều khiến họ quyết định), NGÔN NGỮ. Đếm tần suất. Chủ đề từ 20% mẫu trở lên là chủ đề chính, dưới 5% bỏ qua vòng này.
@@ -84,7 +86,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Chan-dung-khach-hang-[nhom-khach]-[thang-nam].md`. Ghi ngày cập nhật ở đầu; chân dung là tài liệu sống, chạy lại mỗi quý hoặc ngay sau khi ra sản phẩm, gói bán mới.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Chan-dung-khach-hang-[nhom-khach]-[thang-nam].md`. Ghi ngày cập nhật ở đầu; chân dung là tài liệu sống, chạy lại mỗi quý hoặc ngay sau khi ra sản phẩm, gói bán mới.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -194,5 +196,5 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Câu nói nội tâm viết bằng giọng khách, không phải giọng người viết quảng cáo.
 - [ ] Bản đồ nỗi đau không bỏ trống cột "đang tự xử lý bằng cách nào"; mỗi lý do từ chối có người xử lý.
 - [ ] Kho ngôn ngữ có ít nhất 10 câu nguyên văn kèm nguồn, đã bỏ thông tin cá nhân.
-- [ ] Tôn trọng các điều cấm trong phần bối cảnh và Nghị định 13/2023.
+- [ ] Tôn trọng các điều cấm trong phần bối cảnh và Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP.
 - [ ] Thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu; kết thúc bằng 5 việc cần làm trong 7 ngày.

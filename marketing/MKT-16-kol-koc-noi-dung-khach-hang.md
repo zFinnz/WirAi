@@ -3,6 +3,9 @@
 > **Dùng khi:** cần thuê người có sức ảnh hưởng (KOL) hoặc người tiêu dùng có sức ảnh hưởng (KOC) để lan tỏa hoặc bán hàng; cần nhờ khách hàng thật, nhân viên hoặc chuyên gia ngành quay video, viết đánh giá; hoặc đang hợp tác mà không biết người nào hiệu quả để hợp tác tiếp.
 > **Kết quả:** tiêu chí chọn người và bảng sàng lọc, bản hướng dẫn (brief) theo từng loại, thời điểm và kịch bản xin nội dung từ khách, điều khoản quyền sử dụng và minh bạch tài trợ, cơ cấu trả phí, bảng quản lý theo lô, cách đo hiệu quả và quy tắc hợp tác lại.
 > **Không dùng khi:** cần kịch bản video chi tiết để tự quay (dùng MKT-09), cần chương trình giới thiệu cho khách cũ (MKT-20), cần biến video thành quảng cáo trả phí (MKT-10), hoặc cần thuê agency trọn gói (OPS-08).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; KOL = người có ảnh hưởng với công chúng; KOC = người tạo nội dung dựa trên trải nghiệm sản phẩm.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước; brief = bản tóm tắt việc cần làm, người nhận, mục tiêu và yêu cầu bàn giao.
+> **Từ ngữ bổ sung:** CTA = câu kêu gọi người đọc làm một việc cụ thể; UTM = mã gắn vào đường dẫn để biết khách đến từ đâu.
 
 ---
 
@@ -17,7 +20,7 @@
 - Người quản lý hợp tác: [ĐIỀN: ai, bao nhiêu thời gian mỗi tuần]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không hợp tác người từng quảng cáo đối thủ trong 3 tháng", "không cam kết kết quả điều trị"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +40,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Loại người hợp tác và mục tiêu?** Khách hàng thật, nhân viên, KOC trả phí, KOL lớn, hay chuyên gia ngành cho B2B? Mục tiêu là nhận biết, bằng chứng tin cậy, đơn hàng, hay kho nội dung để chạy quảng cáo?
 2. **Sản phẩm và điểm cần nói?** 2 đến 3 điểm bán quan trọng nhất, điều không được nói (cam kết kết quả, so sánh đối thủ), bằng chứng có thật để người sáng tạo dựa vào.
 3. **Ngân sách, số lượng video, hạn giao?** Trả tiền, tặng sản phẩm, hoa hồng hay kết hợp? Cần bao nhiêu video, đăng ở đâu, trong bao lâu?
 4. **Cách đo hiện có?** Có mã giảm giá riêng, liên kết có mã theo dõi nguồn (UTM), câu hỏi "biết đến qua đâu" trong form hay chưa? Đã có bao nhiêu đánh giá thật và điểm trung bình trên Google, sàn, Facebook?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Kiểm 3 số trước khi chốt một KOC: tỉ lệ tương tác thật, chất lượng bình luận, độ trùng tệp với khách hiện có.** Không tin số người theo dõi; bình luận chung chung và tăng đột biến là dấu hiệu mua tương tác.
 3. **Một bản hướng dẫn chỉ có 3 điểm cần nói, một CTA và danh sách điều cấm.** Nhiều hơn 3 thì không điểm nào đọng lại.
 4. **Minh bạch tài trợ là bắt buộc**, ghi vào hợp đồng và kiểm tra khi đăng: nhãn "quảng cáo" hoặc "tài trợ" ở vị trí nhìn thấy, nói trong video chứ không giấu trong mô tả, theo quy định về quảng cáo trên mạng xã hội của Luật Quảng cáo. Thương hiệu chịu trách nhiệm cùng người đăng. Nội dung ngành mỹ phẩm, thực phẩm chức năng, y tế cần kiểm tra giấy phép quảng cáo trước.
@@ -94,7 +97,7 @@ Hợp tác lại nếu tỉ lệ tương tác trên 5% và chi phí mỗi khách
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Hop-tac-creator-[chien-dich]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Hop-tac-creator-[chien-dich]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -161,7 +164,7 @@ Tuần 1 chốt danh sách và gửi hướng dẫn kèm sản phẩm; tuần 2 
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: loại người và mục tiêu, điểm cần nói và điều cấm, ngân sách và số lượng, cách đo; đã tóm tắt và xác nhận phương án trước khi xuất bản đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: loại người và mục tiêu, điểm cần nói và điều cấm, ngân sách và số lượng, cách đo.
 - [ ] Nếu người dùng có biểu mẫu riêng, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu đó.
 - [ ] Sàng lọc theo tỉ lệ tương tác thật và độ khớp tệp, không theo số người theo dõi.
 - [ ] Bản hướng dẫn có đúng 3 điểm cần nói, 1 CTA, bảng nên và không nên; không viết kịch bản từng chữ.

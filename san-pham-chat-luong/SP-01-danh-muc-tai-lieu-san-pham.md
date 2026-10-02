@@ -3,6 +3,7 @@
 > **Dùng khi:** cần bảng danh mục sản phẩm chuẩn, thông số, thẻ sản phẩm và tài liệu kỹ thuật cho đội bán hàng, đại lý, marketing và kho dùng chung một nguồn; hoặc danh mục đang rối, mỗi phòng một bảng giá, không biết sản phẩm nào đáng giữ.
 > **Kết quả:** cấu trúc danh mục và quy tắc mã, bảng danh mục tổng, thẻ sản phẩm chuẩn tách B2C và B2B, ma trận bán kèm, phân tích danh mục theo ma trận tăng trưởng và tỉ trọng, tài liệu tra cứu cho bán hàng và quy trình cập nhật.
 > **Không dùng khi:** cần lộ trình ra mắt sản phẩm mới (dùng SP-02), cần định giá (FIN-05), cần hồ sơ năng lực và bảng so sánh đối thủ (SAL-07), cần chính sách đại lý (SAL-11), hoặc cần tính tồn kho và điểm đặt hàng (KHO-02).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
 
 ---
 
@@ -17,7 +18,7 @@
 - Ai được sửa giá và thông tin sản phẩm: [ĐIỀN: ví dụ "giám đốc kinh doanh duyệt giá, trưởng ngành hàng sửa mô tả"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không công khai giá sỉ trên tài liệu B2C", "không ghi thông số chưa có chứng nhận"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -36,20 +37,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phạm vi?** Toàn danh mục hay một nhóm hàng? Khoảng bao nhiêu mã? Đã có danh sách thô (Excel, xuất từ phần mềm) để dán vào chưa?
 2. **Ai dùng tài liệu này và cần bản nào?** Nhân viên bán hàng, đại lý, marketing, kho hay kế toán? Cần danh mục tổng, thẻ sản phẩm chi tiết, hay tài liệu tra cứu nhanh cho bán hàng?
 3. **Dữ liệu đang có?** Giá bán lẻ, giá sỉ, giá vốn, doanh thu và số lượng bán 12 tháng theo mã, tồn kho, thông số kỹ thuật, chính sách bảo hành. Thiếu gì nói rõ.
 4. **Mục tiêu chính?** Chuẩn hóa để đưa lên phần mềm, phân tích để quyết định giữ hay cắt, hay làm bộ tài liệu cho đại lý và nhân viên mới?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mã sản phẩm nhất quán và không bao giờ đổi.** Đề xuất quy tắc mã đọc hiểu được theo bảng dưới nếu công ty chưa có. Mã của sản phẩm đã bán không được đổi dù sản phẩm ngừng kinh doanh, vì còn tra cứu bảo hành và lịch sử.
 3. **Mỗi sản phẩm có đúng một người chịu trách nhiệm** về mô tả, giá và trạng thái. Không gán được người thì đánh dấu để lãnh đạo quyết.
 4. **Tách thông tin B2C và B2B trong cùng một thẻ.** B2C cần giá lẻ, bảo hành, đổi trả, điểm bán nổi bật. B2B cần giá sỉ theo bậc, số lượng đặt tối thiểu (MOQ), điều khoản thanh toán, thời gian giao, tài liệu kỹ thuật. Không để giá sỉ lọt vào tài liệu B2C.
@@ -84,7 +85,7 @@ Bốn nhóm kết quả: **Ngôi sao** (tăng trưởng cao, tỉ trọng cao) �
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Danh-muc-san-pham-[nhom-hang-hoac-toan-bo]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Danh-muc-san-pham-[nhom-hang-hoac-toan-bo]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -167,7 +168,7 @@ Kết thúc bằng **5 việc cần làm trong 14 ngày tới**, và gợi ý sk
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: phạm vi, người dùng tài liệu, dữ liệu hiện có, mục tiêu.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng dán mẫu, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Mỗi mã duy nhất, theo quy tắc nhất quán, không đổi mã sản phẩm đã bán.
 - [ ] Mỗi sản phẩm có người phụ trách và trạng thái vòng đời.

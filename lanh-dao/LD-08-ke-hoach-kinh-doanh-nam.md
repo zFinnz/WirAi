@@ -3,6 +3,8 @@
 > **Dùng khi:** cuối năm cần kế hoạch tổng cho năm tới gồm mô hình kinh doanh, điểm mạnh yếu, mục tiêu, mục tiêu và kết quả then chốt (OKR) cấp công ty, lộ trình quý và ngân sách tổng; hoặc giữa năm thấy các phòng chạy mỗi hướng một kiểu và cần một bản 1 trang để kéo về chung.
 > **Kết quả:** mô hình kinh doanh 9 ô, phân tích SWOT có hành động, mục tiêu năm theo 3 kịch bản, bản chiến lược 1 trang theo khung OGSM, OKR công ty theo quý, lộ trình quý, ngân sách tổng, rủi ro và điều kiện xem lại.
 > **Không dùng khi:** cần kế hoạch marketing chi tiết (dùng MKT-01), dự báo tài chính và dòng tiền từng tháng (FIN-01, FIN-02), OKR cho từng vị trí (HR-07), quyết định một lựa chọn lớn (LD-01), hoặc chưa có tầm nhìn và giá trị (làm LD-07 trước).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp; OKR = mục tiêu và các kết quả đo được; SWOT = bảng điểm mạnh, điểm yếu, cơ hội và thách thức.
+> **Từ ngữ bổ sung:** KPI = chỉ số đo kết quả; CRM = nơi lưu thông tin khách và lịch sử trao đổi; B2C = bán cho người tiêu dùng.
 
 ---
 
@@ -17,7 +19,7 @@
 - Người đọc kế hoạch: [ĐIỀN: ví dụ "ban giám đốc và trưởng phòng", "cổ đông", "ngân hàng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không mở ngành mới", "không tuyển quá 10 người", "không bán chịu quá 60 ngày"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Năm vừa rồi thế nào?** Doanh thu, lợi nhuận, số khách theo từng kênh; 3 việc làm tốt nhất; 3 việc thất bại và vì sao. Nếu có kế hoạch năm cũ, đạt bao nhiêu phần trăm?
 2. **Mục tiêu năm tới và mục tiêu đó phục vụ gì?** Con số doanh thu, lợi nhuận mong muốn; năm tới là năm tăng trưởng, năm củng cố, hay năm chuyển đổi? Ưu tiên lớn nhất nếu chỉ được chọn một?
 3. **Nguồn lực và ràng buộc?** Tiền có thể đầu tư thêm, số người có thể tuyển, năng lực đang thiếu, khoản nào không được đụng đến. Thị trường năm tới có gì thay đổi (đối thủ, giá đầu vào, sàn, luật)?
 4. **Người đọc và mức chi tiết?** Bản nội bộ để điều hành, bản trình cổ đông, hay bản cho ngân hàng? Chỉ cần bản 1 trang hay cả bộ? Có mẫu kế hoạch công ty đang dùng không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Nhìn lại trước khi nhìn tới.** Không viết mục tiêu mới khi chưa phân tích vì sao năm cũ đạt hoặc không đạt. Bài học năm cũ phải xuất hiện trong lựa chọn năm mới.
 3. **Mô hình kinh doanh 9 ô (Business Model Canvas) điền theo thứ tự**: phân khúc khách, giá trị đề xuất, kênh, quan hệ khách, dòng doanh thu, nguồn lực, hoạt động, đối tác, chi phí. Tách B2C và B2B ở ô khách, giá trị, kênh, quan hệ khi hai nhóm khác nhau. Ghi rõ giả định chưa kiểm chứng của mô hình.
 4. **SWOT phải ra hành động.** Mỗi điểm mạnh ghép với một cơ hội thành việc cần làm; mỗi điểm yếu ghép với một thách thức thành việc cần phòng. SWOT chỉ liệt kê không có ghép là chưa đạt.
@@ -85,7 +87,7 @@ OKR không dùng trực tiếp để tính lương thưởng cá nhân; thưởn
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Ke-hoach-kinh-doanh-[cong-ty]-[nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Ke-hoach-kinh-doanh-[cong-ty]-[nam].md`.
 
 ### 4.1 Tóm tắt 1 trang cho lãnh đạo
 
@@ -177,7 +179,7 @@ Ngân sách năm theo hạng mục và theo quý, ngân sách theo kênh B2C và
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: kết quả năm cũ, mục tiêu và ưu tiên, nguồn lực và ràng buộc, người đọc và mức chi tiết.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu có biểu mẫu của người dùng, kết quả khớp đúng mục, thứ tự, đơn vị.
 - [ ] Tóm tắt 1 trang đọc độc lập được, có 3 kịch bản và 3 việc sẽ không làm.
 - [ ] Có nhìn lại năm cũ với bài học xuất hiện trong lựa chọn năm mới.

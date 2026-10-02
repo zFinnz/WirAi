@@ -3,6 +3,8 @@
 > **Dùng khi:** cần biết đối thủ đang làm gì và mình đứng ở đâu; đối thủ bán rẻ hơn, nội dung hay hơn, hoặc có đối thủ mới nổi; sắp định vị lại hoặc chuẩn bị tài liệu cho đội bán hàng khi khách so sánh.
 > **Kết quả:** bản đồ đối thủ 4 tầng, hồ sơ từng đối thủ chính, bảng điểm so sánh ngang, bản đồ định vị, phân tích điểm mạnh, điểm yếu, cơ hội, thách thức (SWOT) có tên đối thủ cụ thể kèm 4 hướng hành động, khoảng trống thị trường, kế hoạch ứng phó theo đối thủ và thẻ đối đáp cho bán hàng.
 > **Không dùng khi:** cần chốt định vị cho chính mình (MKT-04), cần chân dung khách (MKT-02), cần phân tích phản hồi khách của mình (CS-04), hoặc cần định giá (FIN-05).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; SWOT = bảng điểm mạnh, điểm yếu, cơ hội và thách thức.
+> **Từ ngữ bổ sung:** OA = tài khoản Zalo chính thức của doanh nghiệp.
 
 ---
 
@@ -17,7 +19,7 @@
 - Công cụ có thể truy cập: [ĐIỀN: ví dụ "Thư viện quảng cáo Meta, Trung tâm sáng tạo TikTok, Google Trends; không có công cụ trả phí"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không nêu tên đối thủ trong nội dung công khai", "không mua dữ liệu khách của đối thủ"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,7 +40,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phân tích 2 đến 5 đối thủ nào?** Tên và link. Nếu công ty có cả B2C và B2B, hỏi riêng: ai đang giành người dùng cuối, ai đang giành đại lý và khách dự án? Đối thủ nào đang lớn nhanh nhất?
 2. **Đang lo nhất điều gì và khách chọn nhà cung cấp theo tiêu chí nào?** Giá, nội dung, quảng cáo, kênh phân phối, hay thị phần đại lý? Hai tiêu chí khách coi trọng nhất sẽ là 2 trục của bản đồ định vị.
@@ -47,13 +49,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng chỉ gửi link và hỏi "xem giúp họ đang làm gì", mặc định làm quét nhanh.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Phân đối thủ 4 tầng, không chỉ nhìn đối thủ trực tiếp.** Trực tiếp (cùng phân khúc, cùng loại, cùng khách): chọn 3 đến 5. Gián tiếp (khác loại nhưng thay thế được): 2 đến 3. Thứ cấp (cùng loại, khác phân khúc giá): 1 đến 2. Tiềm năng (chưa cạnh tranh nhưng có thể vào: nhà sản xuất tự mở bán lẻ, sàn ra nhãn riêng, đại lý lớn tự nhập hàng): 1 đến 2. Thêm "khách tự làm hoặc không làm gì" nếu ngành có.
 3. **Mỗi nhận định có nguồn và ngày.** "Giá 2,5 triệu, gian hàng Shopee, xem ngày 12/3" chứ không phải "họ bán rẻ hơn". Báo cáo là ảnh chụp tại một thời điểm. Dữ liệu không tìm được thì ghi `[cần bổ sung: mô tả dữ liệu cần, lấy ở đâu]` thay vì đoán hoặc để trống.
 4. **Tách 3 lớp: quan sát, suy luận, hàm ý.** Quan sát là điều nguồn nói. Suy luận là cách bạn đọc, ghi kèm độ tin cậy. Hàm ý là câu hỏi hoặc lựa chọn cho công ty, không phải kết luận.
@@ -87,7 +89,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Nghien-cuu-doi-thu-[nganh-hoac-san-pham]-[thang-nam].md`. Ghi ngày thu thập dữ liệu ngay dưới tiêu đề.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Nghien-cuu-doi-thu-[nganh-hoac-san-pham]-[thang-nam].md`. Ghi ngày thu thập dữ liệu ngay dưới tiêu đề.
 
 ### 4.1 Tóm tắt cho quản lý
 

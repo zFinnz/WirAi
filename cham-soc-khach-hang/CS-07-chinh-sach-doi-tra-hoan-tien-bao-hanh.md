@@ -3,6 +3,9 @@
 > **Dùng khi:** cần văn bản chính sách công khai để đăng website, gian hàng sàn, in kèm sản phẩm, đưa vào hợp đồng với đại lý và khách doanh nghiệp; cần quy trình xử lý nội bộ với điều kiện, thời hạn, ai duyệt, mẫu phiếu; hoặc đang tranh cãi với khách vì mỗi nhân viên hiểu chính sách một kiểu.
 > **Kết quả:** bản chính sách công khai ngắn gọn, bảng điều kiện và thời hạn theo kênh bán, quy trình nội bộ 5 bước với thời gian cam kết, bảng thẩm quyền duyệt, mẫu phiếu và mẫu tin nhắn, chỉ số theo dõi, danh sách điểm cần luật sư kiểm tra.
 > **Không dùng khi:** cần kịch bản nói chuyện với khách đang giận trong một ca cụ thể (dùng CS-02), cần quy trình tiếp nhận chung (CS-01), cần phân tích vì sao đổi trả nhiều (CS-04), hoặc cần điều khoản hợp đồng đại lý đầy đủ (SAL-11, phần hợp đồng cần luật sư).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** B2C = bán cho người tiêu dùng.
+> CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +20,7 @@
 - Tranh chấp đã gặp: [ĐIỀN: ví dụ "khách dùng rồi đòi trả", "sàn tự duyệt hoàn tiền"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không hoàn tiền mặt tại cửa hàng", "không đổi trả hàng thanh lý trừ lỗi"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +40,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Sản phẩm thuộc nhóm nào và đang bán qua kênh nào?** Hàng có bảo hành hãng, hàng tiêu dùng, thực phẩm, hàng đặt riêng? Mỗi kênh (sàn, website, cửa hàng, B2B) đang áp dụng gì?
 2. **Mức công ty muốn đứng?** Chỉ làm đúng luật và theo sàn, hay rộng hơn để làm lợi thế bán hàng (ví dụ đổi ý trong 30 ngày)? Có số liệu tỉ lệ đổi trả, chi phí hiện tại không?
 3. **Ai duyệt, ai trả tiền, trong bao lâu?** Ngưỡng tiền theo cấp, kênh hoàn tiền (chuyển khoản, sàn tự hoàn, tiền mặt, voucher), thời gian kế toán xử lý.
 4. **Trường hợp khó đã gặp?** Khách dùng rồi trả, hàng khuyến mãi, hàng lỗi sau bảo hành, đại lý trả hàng tồn, khách doanh nghiệp từ chối nghiệm thu.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Hai bản cho hai người đọc.** Bản công khai cho khách: ngắn, thân thiện, không thuật ngữ pháp lý. Bản nội bộ cho nhân viên: bảng điều kiện, quy trình, thẩm quyền. Nội dung hai bản không được mâu thuẫn.
 3. **Thời hạn và điều kiện phải do công ty chốt.** Không tự điền số mặc định. Chỗ chưa có ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống. Số ở bảng tham khảo dưới chỉ là giả định và mốc luật cần kiểm tra lại.
 4. **Tách 3 nhóm: đổi trả, hoàn tiền, bảo hành**, và trong mỗi nhóm tách lỗi của công ty, lỗi vận chuyển, khách đổi ý. Mỗi ô có: điều kiện, thời hạn, ai chịu phí vận chuyển, hình thức xử lý, thời gian hoàn tất.
@@ -75,7 +78,9 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Chinh-sach-doi-tra-bao-hanh-[cong-ty]-v[so]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Chinh-sach-doi-tra-bao-hanh-[cong-ty]-v[so]-[thang-nam].md`.
+
+**Thứ tự trả lời:** Đặt bản chính sách khách đọc được lên đầu. Quy trình xử lý, quyền duyệt và ghi chú pháp lý là phần nội bộ riêng.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -154,7 +159,7 @@ Quy tắc: hoàn về phương thức thanh toán gốc; voucher chỉ khi khác
 | Tỉ lệ lý do do công ty | lỗi sản xuất, giao sai / tổng ca | tháng | tăng 2 tháng liên tiếp |
 | Chi phí đổi trả trên doanh thu | tổng chi phí / doanh thu | tháng | |
 
-Danh sách cần luật sư kiểm tra: khớp Luật Bảo vệ quyền lợi người tiêu dùng 2023 và nghị định hướng dẫn; quy định với hợp đồng theo mẫu và giao dịch từ xa; nghĩa vụ thu hồi sản phẩm có khuyết tật; thuế và hóa đơn khi hoàn tiền; điều khoản trả hàng trong hợp đồng đại lý; lưu dữ liệu khách trong phiếu theo Nghị định 13/2023. Nhắc xem lại chính sách mỗi năm hoặc khi sàn và luật thay đổi.
+Danh sách cần luật sư kiểm tra: khớp Luật Bảo vệ quyền lợi người tiêu dùng 2023 và nghị định hướng dẫn; quy định với hợp đồng theo mẫu và giao dịch từ xa; nghĩa vụ thu hồi sản phẩm có khuyết tật; thuế và hóa đơn khi hoàn tiền; điều khoản trả hàng trong hợp đồng đại lý; lưu dữ liệu khách trong phiếu theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP. Nhắc xem lại chính sách mỗi năm hoặc khi sàn và luật thay đổi.
 
 Kết thúc bằng **5 việc cần làm trong 7 ngày tới** (chốt số, luật sư xem, đăng bản công khai, đào tạo CSKH và bán hàng, in bản rút gọn) và gợi ý: CS-02 cho kịch bản ca khó, CS-04 nếu tỉ lệ đổi trả cao bất thường, OPS skill kho nếu lỗi đóng gói lặp lại.
 
@@ -165,7 +170,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** (chốt số, lu�
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: nhóm sản phẩm và kênh, mức công ty muốn đứng, ai duyệt và hoàn tiền, trường hợp khó.
-- [ ] Đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng đưa mẫu, kết quả khớp đúng mục, thứ tự và cách xưng hô của mẫu.
 - [ ] Bản công khai dưới 400 từ, không thuật ngữ pháp lý, không mâu thuẫn với bản nội bộ.
 - [ ] Tách đổi trả, hoàn tiền, bảo hành, trong mỗi nhóm tách lỗi công ty, vận chuyển, đổi ý; có bảng theo kênh, mỗi kênh sàn ghi "kiểm tra chính sách hiện hành", B2B theo hợp đồng.

@@ -2,7 +2,8 @@
 
 > **Dùng khi:** khách nói "đắt quá", "để suy nghĩ thêm", "đang dùng bên khác", "để hỏi sếp", và nhân viên hoặc im lặng hoặc giảm giá ngay; hoặc một nhân viên vừa gặp một lời từ chối cụ thể và cần cách đáp trong giờ tới.
 > **Kết quả:** bảng tra nhanh một màn hình (khách nói gì, lo thật là gì, đáp ngay, bằng chứng, câu hỏi tiếp), bản đầy đủ để đào tạo theo 7 nhóm từ chối và theo kênh, và với tình huống đang diễn ra thì một câu trả lời đọc được nguyên văn.
-> **Không dùng khi:** cần cả kịch bản tư vấn (dùng SAL-05), khách khiếu nại sau khi mua (dùng skill chăm sóc khách hàng), hoặc cần bảng so sánh với đối thủ để in ra (SAL-07).
+> **Không dùng khi:** cần cả kịch bản tư vấn (SAL-05), khách khiếu nại sau khi mua (CS-02), hoặc cần bảng so sánh với đối thủ để in ra (SAL-07).
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp; B2C = bán cho người tiêu dùng.
 
 ---
 
@@ -17,7 +18,7 @@
 - Quyền của nhân viên khi khách ép giá: [ĐIỀN: ví dụ "tặng kèm, trả góp 0%; giảm giá phải quản lý duyệt"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không nói xấu đối thủ", "không giảm quá 10%", "không hứa giao sớm hơn 5 ngày"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -36,20 +37,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Cần bộ tài liệu đầy đủ hay xử lý một tình huống đang diễn ra?** Nếu đang diễn ra: ai nói, vai trò, nguyên văn, đang ở bước nào, việc gì sắp xảy ra (gọi lại, gửi báo giá, họp). Trả lời ngay với giả định nêu rõ, chỉ hỏi thêm điều làm đổi câu trả lời.
 2. **Từ chối đến từ nhóm khách nào, qua kênh nào?** B2C qua tin nhắn và cửa hàng hay B2B qua họp và email. Cùng câu "đắt" nhưng cách đáp khác nhau.
 3. **Khách thường so với ai và vì sao?** Đối thủ rẻ hơn ở đâu, khác gói ở đâu. Khách từng chuyển từ đối thủ sang có kể lý do không?
 4. **Nhân viên được làm gì khi khách ép?** Tặng kèm, chia nhỏ gói, điều kiện thanh toán, giữ giá đến ngày nào; cái gì phải xin duyệt.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này. Với tình huống đang diễn ra, bỏ qua bước này và trả lời ngay.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`. Với tình huống đang diễn ra, bỏ qua bước này và trả lời ngay.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mỗi lời từ chối ghi theo 5 phần**: nguyên văn khách nói, nỗi lo thật phía sau, cách đáp (công nhận rồi chuyển hướng), bằng chứng kèm theo, câu hỏi để đi tiếp. Thiếu câu hỏi tiếp thì cuộc nói chuyện kết thúc ở đó.
 3. **Phân biệt từ chối thật và từ chối lấp liếm (smokescreen).** "Để suy nghĩ thêm", "gửi báo giá đi", "đang bận" thường che một nỗi lo khác. Quy trình 4 bước cho mọi lời từ chối: nghe hết, công nhận, hỏi làm rõ, rồi mới trả lời. Hỏi làm rõ là bước hay bị bỏ nhất.
 4. **Viết ở hai dạng.** Dạng A bảng tra nhanh một màn hình dùng khi đang nói chuyện; dạng B bản đầy đủ để đào tạo, thêm vì sao khách nói vậy, điều không được nói, 2 đến 3 cách diễn đạt theo tình huống.
@@ -107,7 +108,9 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Xu-ly-tu-choi-[nhom-khach]-[thang-nam].md`. Với tình huống đang diễn ra, chỉ xuất mục 4.6.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Xu-ly-tu-choi-[nhom-khach]-[thang-nam].md`. Với tình huống đang diễn ra, chỉ xuất mục 4.6.
+
+**Thứ tự trả lời:** Đặt câu trả lời cho lời từ chối cụ thể lên đầu. Chỉ thêm bảng tra cứu và phần đào tạo khi người dùng muốn một bộ kịch bản.
 
 ### 4.1 Tóm tắt cho quản lý
 

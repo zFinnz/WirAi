@@ -3,6 +3,8 @@
 > **Dùng khi:** cần kịch bản video ngắn cho TikTok, Reels, YouTube Shorts hoặc video dọc đăng Facebook, Zalo; đội có điện thoại và người sẵn sàng quay nhưng không biết nói gì trong 30 giây; hoặc video đang đăng mà người xem lướt qua sau 2 giây.
 > **Kết quả:** 2 bản kịch bản A và B khác mở bài, bảng theo giây với lời thoại, hình ảnh, chữ trên màn hình, âm thanh; mở bài 3 lớp; chú thích và thẻ chủ đề (hashtag); hướng dẫn quay và khối bàn giao cho người dựng; điểm dự đoán hiệu quả.
 > **Không dùng khi:** cần nội dung quảng cáo trả phí (MKT-10), cần hướng dẫn cho người sáng tạo bên ngoài quay hộ (MKT-16), cần kịch bản phát trực tiếp (MKT-17), hoặc cần bài chữ cho mạng xã hội (MKT-08).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước; insight = lý do thật phía sau một hành vi của khách, được kiểm tra bằng dữ liệu.
 
 ---
 
@@ -17,7 +19,7 @@
 - Giọng thương hiệu: [ĐIỀN: 3 tính từ, xưng hô; lấy từ MKT-05 nếu có]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không dùng nhạc có bản quyền", "không nói công dụng chữa bệnh", "không quay trong kho"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,20 +40,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Video nói về gì và có bằng chứng thật nào?** Sản phẩm, chủ đề, số liệu, kết quả trước sau, câu nói khách. Có thấu hiểu khách hàng (insight) từ MKT-02 hoặc ô lịch từ MKT-07 thì dán.
 2. **Nền tảng và thời lượng?** TikTok, Reels, Shorts, Facebook; 15, 30, 45 hay 60 giây. Không chọn thì mặc định TikTok 30 giây.
 3. **Ai xem và tầng phễu?** Người chưa biết vấn đề (nhận biết), đang so sánh (cân nhắc), sắp mua (chuyển đổi), hay đại lý và khách doanh nghiệp? Không chọn thì mặc định nhận biết.
 4. **Quay được gì?** Ai đứng trước máy, bối cảnh có sẵn (cửa hàng, kho, nhà khách), có quay được sản phẩm đang dùng không, có ảnh hoặc video cũ để ghép không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mở bài 3 lớp chạy cùng lúc trong 0 đến 3 giây:** hình (hành động hoặc cảnh có chuyển động ngay giây đầu), tiếng (câu nói đầu tiên, không chào), chữ trên màn hình (dưới 50 ký tự, đọc được khi tắt tiếng). Thiếu lớp chữ là thiếu bắt buộc.
 3. **Chọn kiểu mở bài theo tầng phễu.** Nhận biết: câu hỏi chạm nỗi đau, tình huống, nói ngược. Cân nhắc: kết quả trước, con số. Chuyển đổi: con số, thú nhận sai lầm, thời hạn.
 4. **Chia nhịp trước, gán giây sau.** Mở bài, tối đa 3 nhịp thân (vấn đề, giải pháp, bằng chứng), kết bằng một hành động. Video 15 giây chỉ đủ 2 nhịp thân.
@@ -85,7 +87,9 @@ Chuẩn tham khảo video tự nhiên Việt Nam (giả định, so với số c
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Kich-ban-video-[chu-de]-[ngay].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Kich-ban-video-[chu-de]-[ngay].md`.
+
+**Thứ tự trả lời:** Đặt kịch bản quay được ngay lên đầu. Ghi chú về mục tiêu, lý do chọn mở bài và cách đo để sau kịch bản.
 
 ### 4.1 Thông tin chung
 

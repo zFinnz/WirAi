@@ -3,6 +3,9 @@
 > **Dùng khi:** cần đặt giá cho sản phẩm mới, điều chỉnh giá đang bán, chia gói hoặc combo, quyết định có nên giảm giá, đối thủ rẻ hơn nhiều, khách chê đắt, cần bảng giá nhất quán giữa bán lẻ, sàn, đại lý và khách doanh nghiệp, hoặc cần quy định ai được chiết khấu đến mức nào.
 > **Kết quả:** mô hình giá, cấu trúc 3 bậc gói với trục phân tầng rõ, bảng giá đa kênh (B2C và B2B) không phá nhau, chiến thuật neo giá và combo, điểm hòa vốn và biên an toàn, so sánh đối thủ, bảng thẩm quyền chiết khấu, cách xử lý rào cản giá, kế hoạch thử nghiệm, lộ trình đổi giá và chỉ số đo hiệu quả giá.
 > **Không dùng khi:** cần đóng gói giá trị, quà tặng, bảo hành quanh mức giá (dùng MKT-19), cần chính sách chiết khấu và quy trình đại lý chi tiết (SAL-11), cần viết trang bán hàng có bảng giá (MKT-14), cần đàm phán một báo giá cụ thể (SAL-08), hoặc cần tính lãi lỗ theo kênh trước (FIN-03).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** CRM = nơi lưu thông tin khách và lịch sử trao đổi.
+> GTGT = giá trị gia tăng.
 
 ---
 
@@ -17,7 +20,7 @@
 - Định vị mong muốn: [ĐIỀN: cao cấp, ngang thị trường, hay giá tốt]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không bán dưới giá vốn cộng 20%", "giá sàn không thấp hơn giá đại lý bán ra", "không giảm quá 20%"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,7 +41,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Giai đoạn và loại sản phẩm?** Chưa ra mắt, đang bán muốn tối ưu, hay cần tăng giá? Sản phẩm mua một lần, mua lặp lại, gói định kỳ, dịch vụ theo liệu trình hay phần mềm?
 2. **Chi phí và biên?** Giá vốn hoặc chi phí biến đổi mỗi đơn vị (gồm phí sàn, vận chuyển nếu bán online), chi phí cố định tháng, biên lãi gộp tối thiểu công ty chấp nhận. Có sản phẩm nào đang bán dưới giá thành không, vì sao?
@@ -47,13 +50,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng chỉ hỏi "có nên giảm giá không", trả lời bằng phần 4.5 và 4.7, bỏ qua phần cấu trúc gói.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Giá dựa trên giá trị, nhưng luôn tính hòa vốn trước.** Định lượng giá trị khách nhận (tiết kiệm bao nhiêu, được gì, tránh rủi ro gì), rồi kiểm tra giá đề xuất có đủ bù chi phí biến đổi và góp vào chi phí cố định không. Thiếu số thật (giá vốn, chi phí cố định, giá đối thủ) thì ghi `[cần bổ sung: mô tả dữ liệu cần]`, không bịa, không để trống; số tham khảo dùng tạm ghi rõ là giả định.
 3. **Chọn một trục phân tầng chính, tối đa một trục phụ.** Trục: tính năng, hạn mức sử dụng, mức hỗ trợ, quyền truy cập. Phải điền được câu "Lên gói trên, bạn được thêm ___" bằng một ý. Trộn cả bốn trục thì khách không so sánh nổi và chọn gói rẻ nhất.
 4. **Ba bậc, gói giữa là gói muốn bán.** Gói cao làm mỏ neo (anchor), gói thấp cho khách nhạy giá, gói giữa là bước nhảy hợp lý, không phải gói thấp cộng vài thứ vụn vặt. Không quá 4 gói.
@@ -112,7 +115,7 @@ Giảm giá 10% thì cần bán thêm bao nhiêu để giữ nguyên lãi
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Chien-luoc-gia-[san-pham]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Chien-luoc-gia-[san-pham]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho ban giám đốc
 
@@ -188,7 +191,7 @@ Kết thúc bằng **5 việc cần làm trong 14 ngày tới**. Gợi ý MKT-19
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: giai đoạn và loại sản phẩm, chi phí và biên, thị trường, kênh và thẩm quyền; đã tóm tắt phương án và được xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: giai đoạn và loại sản phẩm, chi phí và biên, thị trường, kênh và thẩm quyền.
 - [ ] Nếu người dùng có mẫu, kết quả bám đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Có sàn giá, trần giá, điểm tham chiếu, điểm hòa vốn và biên an toàn với số cụ thể.
 - [ ] Đã chốt một trục phân tầng chính, tối đa một trục phụ; điền được câu "Lên gói trên, bạn được thêm ___".

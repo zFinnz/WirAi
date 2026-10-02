@@ -3,6 +3,9 @@
 > **Dùng khi:** không rõ ai được quyết việc gì, mọi thứ dồn lên giám đốc ký; hai người cùng nghĩ mình chịu trách nhiệm hoặc không ai nhận; nhân viên không biết giảm giá đến mức nào thì phải xin; giám đốc đi công tác là công ty đứng; hoặc sắp bổ nhiệm phó giám đốc, trưởng phòng mới và cần ghi rõ quyền hạn.
 > **Kết quả:** ma trận phân vai RACI (Responsible, Accountable, Consulted, Informed) cho 20 đến 30 quy trình chính, bảng ngưỡng phê duyệt theo loại giao dịch và cấp, quy tắc ủy quyền và xử lý khi vắng mặt, danh sách việc giám đốc không được quyết một mình, lộ trình công bố.
 > **Không dùng khi:** cần thiết kế một quy trình từng bước (dùng OPS-01), cần giao việc và theo dõi tiến độ (OPS-04), cần quy chế hội đồng quản trị hoặc điều lệ công ty (cần luật sư, skill này chỉ gợi ý phần ngưỡng phê duyệt), hoặc cần mô tả công việc cho một vị trí (HR-01).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp; RACI = bảng phân vai người làm, người duyệt, người được hỏi và người cần được báo.
+> **Từ ngữ bổ sung:** B2C = bán cho người tiêu dùng.
+> CSKH = chăm sóc khách hàng; TNHH = trách nhiệm hữu hạn.
 
 ---
 
@@ -17,7 +20,7 @@
 - Công cụ duyệt: [ĐIỀN: ví dụ "ký giấy, Zalo, email, phần mềm phê duyệt"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "mọi hợp đồng trên 500 triệu phải chủ sở hữu ký", "không ủy quyền chi tiền cho người ngoài ban giám đốc"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +40,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Các vai trò hiện có và ai đang thực tế quyết gì?** Liệt kê chức danh từ chủ sở hữu đến nhân viên. Nếu có sơ đồ tổ chức hoặc bảng phân quyền cũ, dán vào.
 2. **Quy trình nào cần phân quyền trước?** Chọn trong: bán hàng và chiết khấu, báo giá và ký hợp đồng, mua hàng và chọn nhà cung cấp, chi phí và thanh toán, tuyển dụng và lương thưởng, kỷ luật và nghỉ việc, marketing và ngân sách, xử lý khiếu nại, xuất kho và đổi trả, pháp lý và giấy phép. Việc nào đang chồng chéo hoặc bỏ trống?
 3. **Ngưỡng tiền và rủi ro?** Với từng loại giao dịch, mức nào nhân viên tự quyết, mức nào trưởng phòng, mức nào giám đốc, mức nào chủ sở hữu; giám đốc muốn giữ lại gì và muốn buông gì nhất?
 4. **Khi giám đốc vắng mặt thì sao?** Hiện ai thay, bằng văn bản chưa, trong phạm vi nào; đã từng kẹt vì vắng người ký chưa?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Bắt đầu từ 20 đến 30 việc quan trọng nhất**, không cố liệt kê hết. Chọn việc có tần suất cao, giá trị lớn, hoặc đang gây tranh cãi. Mở rộng sau khi ma trận đầu chạy ổn 3 tháng.
 3. **Mỗi hàng đúng một A, ít nhất một R, càng ít C và I càng tốt.** A và R có thể là cùng người. Khi không chắc ai là A, hỏi "nếu việc này hỏng, giám đốc gọi ai đầu tiên".
 4. **Ngưỡng phê duyệt gắn với hình thức duyệt và cách ghi vết:** dưới ngưỡng thấp duyệt miệng hoặc tin nhắn có lưu; ngưỡng giữa duyệt email hoặc phần mềm; ngưỡng cao văn bản ký; vượt ngưỡng cao nhất cần quyết định của chủ sở hữu hoặc hội đồng thành viên theo điều lệ.
@@ -85,7 +88,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Ma-tran-phan-quyen-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Ma-tran-phan-quyen-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho lãnh đạo
 
@@ -151,7 +154,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý skil
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: vai trò hiện có, quy trình ưu tiên, ngưỡng tiền và rủi ro, phương án khi vắng mặt.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu có biểu mẫu của người dùng, kết quả khớp đúng mục, thứ tự, đơn vị.
 - [ ] 20 đến 30 việc, mỗi hàng đúng một A, có R, ít C và I.
 - [ ] Chiết khấu, công nợ, hợp đồng có bảng ngưỡng riêng; mỗi ngưỡng có hình thức duyệt, nơi ghi vết, thời gian duyệt tối đa.

@@ -2,7 +2,9 @@
 
 > **Dùng khi:** cần báo cáo ngày, tuần hoặc tháng về doanh số, phễu và tỉ lệ chốt cho ban giám đốc, hoặc báo cáo hiện tại chỉ là bảng số không có nhận định, không ai biết vì sao tăng hay giảm và tuần sau phải làm gì.
 > **Kết quả:** mẫu báo cáo ngày điền trong 5 phút, báo cáo tuần và tháng có tóm tắt 30 giây cho lãnh đạo, bảng số so với mục tiêu và kỳ trước, phân tích theo nhân viên, sản phẩm, kênh và phễu, giải thích biến động, đề xuất hành động kỳ tới, và mẫu bảng dữ liệu để làm lại hằng kỳ.
-> **Không dùng khi:** cần báo cáo marketing hoặc tài chính toàn công ty (dùng skill của phòng tương ứng), cần phân nhóm khách theo giao dịch (SAL-10), hoặc cần sửa quy trình phễu (SAL-01).
+> **Không dùng khi:** cần báo cáo marketing (MKT-22) hoặc báo cáo tài chính quản trị (FIN-06), cần phân nhóm khách theo giao dịch (SAL-10), hoặc cần sửa quy trình bán hàng (SAL-01).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; CRM = bảng hoặc phần mềm quản lý thông tin khách hàng.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
 
 ---
 
@@ -17,7 +19,7 @@
 - Chỉ số lãnh đạo quan tâm nhất: [ĐIỀN: ví dụ "doanh thu, biên gộp, công nợ, số đơn mới B2B"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không nêu tên nhân viên kém trong bản gửi toàn công ty", "không công bố biên lợi nhuận ngoài ban giám đốc"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,7 +39,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Báo cáo kỳ nào, cho ai đọc, cần làm gì sau khi đọc?** Ngày, tuần hay tháng; nhân viên tự báo, trưởng phòng điều hành, hay giám đốc duyệt; quyết định nào cần ra từ báo cáo này; gửi qua nhóm chat, email hay họp.
 2. **Dữ liệu kỳ này có gì?** Gửi bảng số hoặc mô tả: doanh thu theo nhân viên, sản phẩm, kênh, vùng; số khách mới, số đơn, giá trị đơn trung bình; hoạt động (gọi, gặp, báo giá); phễu theo giai đoạn; mục tiêu; số kỳ trước và cùng kỳ năm trước nếu có.
@@ -46,13 +48,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng chỉ gửi số thô, dựng bảng theo mẫu 4.7 trước rồi mới phân tích.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Cấu trúc hình tháp**: kết luận lên đầu, bằng chứng ở giữa, chi tiết ở cuối. Lãnh đạo đọc 4.1 là đủ ra quyết định; chi tiết để trưởng phòng dùng.
 3. **Mọi chỉ số đặt cạnh 3 mốc so sánh**: mục tiêu, kỳ trước, cùng kỳ năm trước (nếu có). Thể hiện bằng số tuyệt đối và phần trăm, tô đậm chỗ lệch trên 10%. Dưới 70% mục tiêu là ngưỡng cần hỗ trợ ngay (giả định).
 4. **Tách B2C và B2B.** Hai nhóm khác chu kỳ, khác giá trị đơn, khác chỉ số sớm. B2C xem đơn, giá trị đơn trung bình, tỉ lệ chuyển đổi theo kênh; B2B xem số cơ hội mới, giá trị phễu có trọng số, độ phủ phễu, tỉ lệ chốt, chu kỳ, công nợ.
@@ -94,7 +96,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Bao-cao-ban-hang-[ngay-tuan-hoac-thang]-[ky].md`. Báo cáo ngày chỉ dùng mẫu ở 4.2. Báo cáo tuần bỏ 4.6 và rút 4.5 còn bảng số kèm 2 nhận định. Báo cáo tháng đầy đủ.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Bao-cao-ban-hang-[ngay-tuan-hoac-thang]-[ky].md`. Báo cáo ngày chỉ dùng mẫu ở 4.2. Báo cáo tuần bỏ 4.6 và rút 4.5 còn bảng số kèm 2 nhận định. Báo cáo tháng đầy đủ.
 
 ### 4.1 Tóm tắt 30 giây cho lãnh đạo
 

@@ -3,6 +3,11 @@
 > **Dùng khi:** mở gian hàng mới trên Shopee, TikTok Shop, Lazada; gian hàng đang có lượt xem mà ít đơn; chuẩn bị đợt sale lớn của sàn; hoặc cần chạy quảng cáo nội sàn mà chưa biết bắt đầu từ đâu.
 > **Kết quả:** kiểm tra và tối ưu trang sản phẩm theo từng mục, lịch khuyến mãi theo đợt sàn, kế hoạch quảng cáo nội sàn có từ khóa và ngân sách, chuẩn vận hành (phản hồi, giao hàng, hoàn hủy, đánh giá), bảng chỉ số theo dõi và biên lợi nhuận sau phí.
 > **Không dùng khi:** cần kịch bản phát trực tiếp (dùng MKT-17), cần thuê KOC đẩy đơn qua tiếp thị liên kết (MKT-16), cần tối ưu website riêng (MKT-14), hoặc cần chính sách giá tổng thể (FIN-05).
+> **Từ ngữ:** SKU = mã riêng để quản lý một loại hàng; KOC = người tạo nội dung dựa trên trải nghiệm sản phẩm.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> **Từ ngữ bổ sung:** ROAS = doanh thu chia cho chi phí quảng cáo; B2B = bán cho doanh nghiệp; B2C = bán cho người tiêu dùng.
+> OA = tài khoản Zalo chính thức của doanh nghiệp.
+> QR = mã vuông để quét bằng điện thoại.
 
 ---
 
@@ -17,7 +22,7 @@
 - Có bán sỉ hoặc gói đại lý trên sàn không: [ĐIỀN: ví dụ "có gian hàng sỉ Shopee cho đại lý nhỏ lẻ"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không bán dưới giá sàn chung của công ty", "không tham gia đồng giá 1.000đ"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +42,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Sàn nào, giai đoạn nào, vấn đề gì?** Mới mở, đang tăng trưởng hay chững? Ít lượt xem, nhiều xem ít mua, nhiều đơn mà lỗ, hay điểm vận hành xấu?
 2. **Số liệu gian hàng 30 ngày?** Lượt xem, tỉ lệ nhấp vào sản phẩm, tỉ lệ chuyển đổi, số đơn, giá trị đơn trung bình, tỉ lệ hủy và hoàn, tỉ lệ phản hồi chat, điểm đánh giá và số đánh giá mới. Xuất từ kênh người bán nếu có.
 3. **Sản phẩm chủ lực và biên lợi nhuận?** 5 đến 10 SKU bán chạy, giá vốn, giá bán, mức giảm tối đa còn lãi sau phí.
 4. **Mục tiêu 90 ngày?** Doanh thu, số đơn, xếp hạng từ khóa, đợt sale muốn tham gia, ngân sách quảng cáo.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Tối ưu theo phễu của sàn: hiển thị, nhấp, mua.** Ít lượt xem thì sửa tiêu đề và từ khóa, chạy quảng cáo tìm kiếm; nhiều xem ít nhấp thì sửa ảnh bìa và giá hiển thị; nhiều nhấp ít mua thì sửa mô tả, đánh giá, voucher, phí vận chuyển.
 3. **Tiêu đề theo công thức: loại sản phẩm, thương hiệu, đặc điểm chính, công dụng, kích cỡ hoặc dung tích**, chứa từ khóa khách thực gõ, không nhồi từ khóa vô nghĩa. Lý do: thuật toán tìm kiếm sàn đọc tiêu đề trước.
 4. **Giữ chỉ số vận hành trong vùng xanh trước khi đổ tiền quảng cáo**: tỉ lệ phản hồi chat trên 90%, thời gian phản hồi dưới 10 phút giờ làm việc, giao đúng hạn trên 95%, tỉ lệ hủy dưới 2%, đánh giá trên 4,7.
@@ -88,7 +93,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Gian-hang-[san]-[ke-hoach-hoac-kiem-tra]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Gian-hang-[san]-[ke-hoach-hoac-kiem-tra]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -173,7 +178,7 @@ Tháng 1: sửa trang sản phẩm chủ lực, đưa vận hành vào vùng xan
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: sàn và vấn đề, số liệu 30 ngày, SKU chủ lực và biên, mục tiêu 90 ngày; đã tóm tắt và xác nhận phương án trước khi xuất bản đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: sàn và vấn đề, số liệu 30 ngày, SKU chủ lực và biên, mục tiêu 90 ngày.
 - [ ] Nếu người dùng có biểu mẫu riêng, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu đó.
 - [ ] Xác định đúng điểm nghẽn trong phễu hiển thị, nhấp, mua trước khi đề xuất.
 - [ ] Tiêu đề theo công thức, từ khóa thật, không nhồi.

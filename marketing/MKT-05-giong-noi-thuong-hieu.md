@@ -2,7 +2,9 @@
 
 > **Dùng khi:** nội dung mỗi người viết một kiểu, thuê ngoài viết không ra chất công ty, hoặc sắp giao nội dung cho nhiều người và cần một tài liệu giọng chung để đối chiếu khi duyệt.
 > **Kết quả:** tài liệu giọng nói thương hiệu gồm tuyên ngôn nội dung 1 câu, 3 tính từ tính cách, bảng giọng điệu 5 chiều, từ nên dùng và từ cấm, quy tắc xưng hô theo nhóm khách, cấu trúc câu, 5 ví dụ trước và sau, điều chỉnh theo kênh, bảng duyệt nội dung và quy định duyệt, trích nguồn, bản quyền.
-> **Không dùng khi:** cần chốt định vị trước (MKT-04), cần quy định màu sắc và phông chữ (font) (MKT-21), cần viết một bài cụ thể (MKT-08, MKT-09, MKT-10), hoặc cần tiêu chuẩn ứng xử khi chăm sóc khách (CS-01).
+> **Không dùng khi:** cần chốt định vị trước (MKT-04), cần quy định màu sắc và phông chữ (MKT-24), cần viết một bài cụ thể (MKT-08, MKT-09, MKT-10), hoặc cần tiêu chuẩn ứng xử khi chăm sóc khách (CS-01).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** OA = tài khoản Zalo chính thức của doanh nghiệp.
 
 ---
 
@@ -17,7 +19,7 @@
 - Ai đang viết và ai duyệt nội dung: [ĐIỀN: số người viết, có thuê ngoài không, có nhân viên bán hàng tự đăng không, ai duyệt cuối]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không chèn tiếng Anh khi có từ tiếng Việt", "không dùng biểu tượng cảm xúc trong email đại lý"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Muốn khách cảm thấy gì sau khi đọc, và tuyệt đối không muốn bị nhìn như thế nào?** Ví dụ: muốn thấy "được chỉ đúng chỗ", không muốn bị thấy "bán hàng bất chấp".
 2. **3 tính từ mô tả đúng nhất tính cách công ty?** Nếu người dùng đưa hơn 3, yêu cầu chọn lại.
 3. **Có bài nào công ty tự thấy "đúng chất" và bài nào "sai chất" không?** Dán 2 đến 3 bài mỗi loại. Có bình luận, đánh giá của khách thì dán kèm để lấy từ vựng.
 4. **Kênh và tình huống nào cần hướng dẫn kỹ nhất, và ai duyệt?** Facebook, TikTok, Zalo OA, gian hàng sàn, email cho đại lý, trả lời khiếu nại, báo giá cho khách doanh nghiệp. Ai có quyền duyệt cuối, trong bao lâu.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Đúng 3 tính từ, mỗi tính từ một câu giải thích.** Nhiều hơn 3 là loãng, ít hơn là mơ hồ. Kèm 3 điều thương hiệu không bao giờ là.
 3. **Mỗi chiều giọng điệu có cả cột "là" và cột "không là".** Cột "không là" chặn việc giọng trôi dần theo thời gian.
 4. **Từ vựng chia 3 nhóm: dùng thường xuyên, tránh, cấm.** Kèm tên gọi chuẩn nội bộ cho từng sản phẩm, dịch vụ; không để mỗi bài gọi một kiểu. Chưa có bình luận, đánh giá thật để lấy từ của khách thì ghi `[cần bổ sung: 20 đến 30 bình luận hoặc tin nhắn gần nhất]` thay vì tự nghĩ ra.
@@ -91,7 +93,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Giong-noi-thuong-hieu-[cong-ty]-[thang-nam].md`. Ghi phiên bản và ngày ở đầu; tài liệu sống, xem lại mỗi quý hoặc khi định vị đổi.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Giong-noi-thuong-hieu-[cong-ty]-[thang-nam].md`. Ghi phiên bản và ngày ở đầu; tài liệu sống, xem lại mỗi quý hoặc khi định vị đổi.
 
 ### 4.1 Tóm tắt cho quản lý
 

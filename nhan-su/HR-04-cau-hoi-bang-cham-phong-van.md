@@ -3,6 +3,7 @@
 > **Dùng khi:** sắp phỏng vấn một vị trí và muốn mọi ứng viên được hỏi cùng bộ câu hỏi, chấm cùng thang điểm, so sánh được giữa các người phỏng vấn; hoặc từng tuyển sai vì phỏng vấn theo cảm tính.
 > **Kết quả:** khung năng lực có trọng số, kịch bản buổi phỏng vấn theo phút, câu hỏi theo năng lực kiểu kể lại tình huống, câu hỏi tình huống và bài thực hành, bảng chấm điểm (scorecard) cho từng người phỏng vấn, quy tắc tổng hợp quyết định.
 > **Không dùng khi:** cần sàng lọc hồ sơ trước (HR-03), cần kế hoạch tuyển nhiều vị trí (HR-02), hoặc cần kế hoạch sau khi nhận việc (HR-05).
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +18,7 @@
 - Nơi lưu bảng chấm và ai được xem: [ĐIỀN: ví dụ "thư mục tuyển dụng, chỉ nhân sự và người phỏng vấn, lưu 12 tháng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không hỏi kế hoạch kết hôn, sinh con", "không phỏng vấn quá 3 vòng"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Vị trí gì và mô tả công việc?** Dán mô tả công việc hoặc nêu 3 đến 5 kết quả chính người này phải đạt. Nếu đã có bảng tiêu chí sàng lọc hồ sơ, dùng lại. Vị trí có quản lý người khác không?
 2. **Vòng này ai hỏi, bao lâu, trực tiếp hay trực tuyến?** Người phỏng vấn có kinh nghiệm phỏng vấn chưa?
 3. **Tình huống khó thường gặp ở vị trí này là gì?** 2 đến 3 tình huống thật (ví dụ khách đòi hoàn tiền, số liệu kho lệch, chạy quảng cáo lỗ) để làm câu hỏi tình huống.
 4. **Lần tuyển trước sai ở đâu?** Người được tuyển thiếu gì mà phỏng vấn không phát hiện ra? Đây là năng lực cần đào sâu nhất.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chọn 4 đến 6 năng lực, không hơn.** Mỗi năng lực gắn với một kết quả trong mô tả công việc. Nhiều hơn thì không đủ thời gian hỏi sâu, điểm số thành đoán.
 3. **Câu hỏi theo khung tình huống, nhiệm vụ, hành động, kết quả (STAR).** Mỗi năng lực có 2 câu hỏi chính dạng "kể lại một lần", kèm 3 đến 4 câu đào sâu: bạn cụ thể làm gì, vì sao chọn cách đó, kết quả đo bằng gì, nếu làm lại thì khác gì. Đào sâu đến khi thấy "tôi", không dừng ở "chúng tôi".
 4. **Câu hỏi tình huống dùng cho năng lực ứng viên chưa có cơ hội thể hiện** (ví dụ người mới ra trường), lấy từ tình huống thật của công ty, có đáp án mong đợi và dấu hiệu trả lời kém. Tình huống thật chưa có thì ghi `[cần bổ sung: tình huống thật từ trưởng phòng]`, không bịa.
@@ -100,7 +101,7 @@ Hành trình nghề nghiệp 2 phút; vì sao rời chỗ cũ và vì sao ứng 
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Phong-van-[vi-tri]-vong-[n]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Phong-van-[vi-tri]-vong-[n]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 

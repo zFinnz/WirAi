@@ -3,6 +3,7 @@
 > **Dùng khi:** nhiều khách hỏi mỗi ngày nhưng nhân viên không biết gọi ai trước, khách lớn bị bỏ sót vì xử lý theo thứ tự đến, hoặc marketing và bán hàng cãi nhau về "khách chất lượng" là gì.
 > **Kết quả:** bảng tiêu chí chấm điểm có trọng số, ngưỡng phân nhóm nóng, ấm, lạnh, hành động và thời hạn cho mỗi nhóm, quy tắc phân khách và thỏa thuận giữa marketing với bán hàng, kèm bảng xếp hạng nếu người dùng gửi danh sách khách.
 > **Không dùng khi:** cần xây cả quy trình bán hàng (dùng SAL-01), cần tìm danh sách khách doanh nghiệp mới (SAL-03), hoặc cần phân nhóm khách đã mua theo lịch sử giao dịch (SAL-10).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; CRM = bảng hoặc phần mềm quản lý thông tin khách hàng.
 
 ---
 
@@ -17,7 +18,7 @@
 - Công cụ lưu khách: [ĐIỀN: ví dụ "Google Sheet", tên phần mềm quản lý quan hệ khách hàng (CRM), "Zalo cá nhân"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không mua dữ liệu bên ngoài", "không hỏi thu nhập trực tiếp"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -36,7 +37,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Chấm cho nhóm khách nào?** B2C qua tin nhắn và sàn, B2B qua đội kinh doanh, hay cả hai? Nếu cả hai, làm bộ nào trước?
 2. **Về mỗi khách, hiện biết được gì?** Nguồn, câu hỏi đầu tiên, số lần tương tác, địa chỉ, quy mô công ty, chức vụ người liên hệ. Có lịch sử mua trước không?
@@ -45,13 +46,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng gửi kèm danh sách khách, chấm luôn danh sách đó ở mục 4.5 sau khi chốt bộ tiêu chí.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Hành vi nặng điểm hơn hồ sơ.** Hỏi giá, hỏi giao hàng, xin báo giá, đến cửa hàng là tín hiệu mua; đúng ngành, đúng khu vực chỉ là điều kiện cần. Chỉ hợp chân dung thì cao nhất là nhóm ấm. Với B2B, tách hai loại tín hiệu: **sự kiện kích hoạt** (trigger event: mở chi nhánh, tuyển người, đổi nhà cung cấp, vừa trúng thầu) cho biết sắp có nhu cầu; **tín hiệu ý định** (intent signal: hỏi giá, xin báo giá, tải tài liệu, hỏi lịch triển khai) cho biết đang tìm mua. Tín hiệu ý định nặng điểm hơn.
 3. **Bắt buộc có điểm trừ và tiêu chí loại.** Đối thủ dò giá, sinh viên xin tài liệu, số điện thoại sai, ngoài khu vực phục vụ, hỏi sản phẩm công ty không bán, ngành công ty cố ý không bán. Không trừ điểm thì nhóm nóng toàn khách ảo.
 4. **Thang 100 điểm, 4 nhóm, ngưỡng cố định.** Nóng, ấm, lạnh, loại hoặc cần bổ sung. Ngưỡng viết thành số, không dùng "có vẻ tiềm năng".
@@ -87,7 +88,7 @@ Nếu kết quả chấm ra trên 50% nóng, gần như chắc chắn bộ tiêu
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Cham-diem-khach-tiem-nang-[nhom-khach]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Cham-diem-khach-tiem-nang-[nhom-khach]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 

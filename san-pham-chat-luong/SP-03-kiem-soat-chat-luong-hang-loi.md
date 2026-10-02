@@ -3,6 +3,8 @@
 > **Dùng khi:** hàng về kho không ai kiểm hoặc kiểm theo cảm tính, khách phàn nàn lặp lại cùng một lỗi, cần tiêu chuẩn kiểm đầu vào và trước khi giao, cách xử lý hàng không đạt với nhà cung cấp, hoặc khách B2B yêu cầu hồ sơ chất lượng.
 > **Kết quả:** tiêu chí chất lượng theo nhóm hàng, quy trình kiểm 3 điểm, phiếu kiểm mẫu, quy trình xử lý hàng không đạt kèm phiếu ghi nhận, cách truy nguyên nhân và hành động khắc phục, bộ chỉ số chất lượng và nhịp rà soát.
 > **Không dùng khi:** cần chính sách đổi trả công khai cho khách (dùng CS-07), kịch bản nói chuyện với khách đang giận (CS-02), chấm điểm nhà cung cấp (KHO-04), quy trình nhập xuất kho (KHO-01), hoặc chương trình cải tiến chung (SP-04). Skill này không thay chứng nhận ISO 9001 đầy đủ.
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng; PO = đơn đặt hàng; NCC = nhà cung cấp.
 
 ---
 
@@ -17,7 +19,7 @@
 - Yêu cầu từ khách lớn hoặc sàn: [ĐIỀN: ví dụ "khách B2B yêu cầu phiếu kiểm theo lô", "sàn phạt nếu tỉ lệ hoàn trên 5%"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không bán hàng lỗi dưới dạng hàng mới", "không trả hàng cho nhà cung cấp quá 7 ngày sau nhận"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phạm vi?** Nhóm hàng nào? Điểm kiểm nào cần làm trước: nhận hàng từ nhà cung cấp, trong kho, trước khi giao, hay dịch vụ lắp đặt, bảo hành?
 2. **Lỗi hay gặp và hậu quả?** Ba lỗi nhiều nhất, tỉ lệ ước tính, chi phí mỗi tháng (đổi trả, hoàn tiền, phí sàn, mất khách). Lỗi do nhà cung cấp, vận chuyển hay đóng gói?
 3. **Nguồn lực kiểm?** Ai kiểm, mấy phút cho một lô, có thiết bị đo gì, nhà cung cấp có phiếu kiểm hay chứng nhận gì kèm hàng?
 4. **Mục tiêu và yêu cầu bên ngoài?** Giảm lỗi xuống bao nhiêu trong bao lâu? Cần hồ sơ cho khách B2B, đấu thầu, hay sàn thương mại điện tử không? Có mẫu phiếu đang dùng không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Xác định thuộc tính chất lượng trọng yếu (CQA) trước khi viết phiếu.** Hỏi: nếu điểm này sai, khách có trả hàng không? Có thì vào danh sách. Mỗi nhóm hàng 3 đến 7 thuộc tính, mỗi thuộc tính có cách kiểm và mức chấp nhận.
 3. **Lấy mẫu theo mức rủi ro.** Hàng mới, nhà cung cấp mới, lô trước có lỗi: kiểm 100% hoặc tăng cỡ mẫu. Nhà cung cấp ổn định 3 lô liên tiếp đạt: giảm mẫu. Dùng bảng cỡ mẫu dưới đây khi chưa có tiêu chuẩn riêng.
 4. **Hàng không đạt phải cách ly ngay**, dán nhãn đỏ, ghi phiếu không phù hợp (NCR), không để lẫn với hàng bán. Phân 3 mức lỗi với hành động cố định cho từng mức.
@@ -91,7 +93,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Quy-trinh-kiem-soat-chat-luong-[nhom-hang]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Quy-trinh-kiem-soat-chat-luong-[nhom-hang]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -164,7 +166,7 @@ Kết thúc bằng **5 việc cần làm trong 14 ngày tới**, và gợi ý sk
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: phạm vi, lỗi hay gặp, nguồn lực kiểm, mục tiêu và yêu cầu bên ngoài.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng dán mẫu phiếu, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Mỗi nhóm hàng có 3 đến 7 thuộc tính trọng yếu, mỗi thuộc tính có cách kiểm và mức chấp nhận đo được.
 - [ ] Cỡ mẫu theo mức rủi ro, có kiểm chặt cho hàng mới và lô trước lỗi.

@@ -3,6 +3,8 @@
 > **Dùng khi:** công ty lớn lên mà không ai vẽ lại cơ cấu, một người báo cáo cho hai sếp, trưởng phòng quản 15 người, hoặc ban giám đốc cần biết năm tới cần bao nhiêu người, ở phòng nào, tốn bao nhiêu tiền để đạt mục tiêu doanh thu.
 > **Kết quả:** sơ đồ tổ chức hiện tại và đề xuất, bảng định biên theo phòng, kế hoạch tuyển và thay thế theo quý, chi phí nhân sự năm so với doanh thu, chỉ số theo dõi.
 > **Không dùng khi:** cần kế hoạch tuyển chi tiết cho từng vị trí với kênh và lịch tuần (HR-02), cần mô tả công việc (HR-01), cần ma trận phân quyền phê duyệt toàn công ty (LD-09), hoặc cần kế hoạch kế nhiệm cho vị trí chủ chốt (HR-14).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** BHXH = bảo hiểm xã hội.
 
 ---
 
@@ -16,7 +18,7 @@
 - Quỹ lương hiện tại mỗi tháng: [ĐIỀN: tổng lương, phụ cấp, bảo hiểm phần công ty]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không tăng tổng nhân sự quá 20%", "không tách phòng mới nếu dưới 5 người"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -36,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Cần gì trước: vẽ lại cơ cấu hiện tại, thiết kế cơ cấu mới, hay lập định biên và ngân sách nhân sự năm?** Phạm vi toàn công ty hay một khối (ví dụ chỉ khối kinh doanh)?
 2. **Danh sách nhân sự hiện tại theo phòng, chức danh, cấp trên trực tiếp, lương hoặc dải lương?** Dán bảng nếu có. Nếu không có, cho số người mỗi phòng và tên trưởng phòng.
 3. **Mục tiêu kinh doanh năm tới và điều gì thay đổi?** Doanh thu, số cửa hàng, số đại lý, kênh mới, sản phẩm mới, ca làm việc. Phòng nào đang quá tải, phòng nào nhàn?
 4. **Ràng buộc?** Ngân sách nhân sự tối đa (số tiền hoặc % doanh thu), vị trí nào chắc chắn phải tuyển hoặc thay, vị trí nào cấm tuyển, có kế hoạch mở chi nhánh không.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Vẽ hiện trạng trước, đề xuất sau.** Sơ đồ hiện tại phản ánh đúng ai đang báo cáo cho ai trên thực tế, kể cả chỗ bất hợp lý. Đề xuất chỉ thuyết phục khi người đọc thấy mình trong bức tranh hiện tại.
 3. **Tầm quản lý (span of control) 5 đến 8 người trực tiếp.** Dưới 3 thì cân nhắc gộp cấp; trên 10 thì tách nhóm hoặc thêm tổ trưởng. Công việc lặp, dễ chuẩn hóa (bán lẻ, kho) chịu được 10 đến 12; công việc phức tạp (kinh doanh B2B, kế toán) nên 4 đến 6.
 4. **Tối đa 4 cấp** cho công ty dưới 200 người: giám đốc, trưởng phòng, trưởng nhóm, nhân viên. Thêm cấp là thêm chậm.
@@ -75,7 +77,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `So-do-to-chuc-dinh-bien-[nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `So-do-to-chuc-dinh-bien-[nam].md`.
 
 ### 4.1 Tóm tắt cho ban giám đốc
 
@@ -152,7 +154,7 @@ Rà soát sơ đồ mỗi khi thay đổi cấp trưởng phòng trở lên, ho�
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: phạm vi, danh sách nhân sự hiện tại, mục tiêu năm tới, ràng buộc ngân sách; đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: phạm vi, danh sách nhân sự hiện tại, mục tiêu năm tới, ràng buộc ngân sách.
 - [ ] Nếu người dùng có biểu mẫu, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Sơ đồ hiện tại phản ánh đúng thực tế; sơ đồ đề xuất có bảng điểm khác và lý do.
 - [ ] Mỗi người có đúng một cấp trên trực tiếp; kiêm nhiệm ghi rõ ai chấm hiệu quả.

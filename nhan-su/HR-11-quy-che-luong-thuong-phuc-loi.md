@@ -3,6 +3,9 @@
 > **Dùng khi:** lương mỗi người một kiểu do thỏa thuận lúc tuyển, nhân viên so lương với nhau rồi bất mãn, thưởng cuối năm quyết theo cảm tính, hoặc cần văn bản hóa thang bậc lương, cơ chế thưởng, phúc lợi và quy trình xét tăng lương để công bố.
 > **Kết quả:** bản nháp quy chế gồm nguyên tắc trả lương, cơ cấu thu nhập, khung lương theo cấp bậc, công thức thưởng, danh mục phúc lợi, quy trình xét tăng lương, bảng đối chiếu pháp luật và ví dụ tính lương. Mọi văn bản là **bản nháp cần pháp chế hoặc luật sư duyệt** trước khi ban hành.
 > **Không dùng khi:** cần nội quy lao động hoặc chính sách nghỉ phép, công tác, làm từ xa (HR-09), cần xây chỉ số hiệu quả làm căn cứ thưởng (HR-07), cần đánh giá một người cụ thể để tăng lương (HR-06), hoặc cần cơ chế hoa hồng riêng cho đội bán hàng (SAL-01 kết hợp HR-07).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** KPI = chỉ số đo kết quả; B2C = bán cho người tiêu dùng.
+> TNCN = thu nhập cá nhân; BHXH = bảo hiểm xã hội.
 
 ---
 
@@ -17,7 +20,7 @@
 - Phần mềm tính lương, chấm công: [ĐIỀN: ví dụ "Excel", "MISA AMIS", "máy chấm công vân tay"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không công khai lương cá nhân", "không thưởng bằng cổ phần", "lương không đóng bảo hiểm thấp hơn thực nhận là không chấp nhận"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +40,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phạm vi?** Toàn bộ quy chế hay chỉ một phần (khung lương, thưởng, phúc lợi, tăng lương)? Soạn mới hay sửa bản đang có (dán bản cũ)? Người đọc là ban giám đốc duyệt hay nhân viên đọc?
 2. **Thực tế đang trả thế nào?** Dải lương mỗi nhóm vị trí, phụ cấp, hoa hồng, thưởng đã trả năm qua, tăng lương gần nhất bao nhiêu phần trăm. Có thể gửi bảng lương đã ẩn tên.
 3. **Vấn đề cần giải quyết?** Ví dụ "người cũ lương thấp hơn người mới", "thưởng không gắn kết quả", "kinh doanh lương cứng cao nên không chạy số", "phúc lợi có mà không ai biết".
 4. **Ngân sách và ràng buộc?** Quỹ lương tối đa, tỉ lệ cố định và biến đổi mong muốn, có công đoàn hoặc tổ chức đại diện người lao động không, ai duyệt và ngày hiệu lực dự kiến.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Luật là sàn, ghi căn cứ dạng tham khảo.** Mỗi điều khoản về mức lương, thử việc, làm thêm, bảo hiểm, thuế đối chiếu bảng dưới; viết "tham khảo Bộ luật Lao động 2019, Điều 90" kèm "cần pháp chế xác nhận quy định hiện hành". Không khẳng định tuyệt đối, không bịa số điều luật nếu không chắc.
 3. **Khung lương theo dải (band), không theo người.** Mỗi cấp bậc có mức thấp, giữa, cao; mức cao của bậc dưới chạm mức thấp của bậc trên. Người mới vào thường ở 80 đến 95% mức giữa, tùy kinh nghiệm.
 4. **Tỉ lệ cố định và biến đổi theo nhóm vị trí.** Kinh doanh biến đổi nhiều, kế toán và kho biến đổi ít. Phần biến đổi phải có công thức tính được từ chỉ số đã có (HR-07), ví dụ tính được, và kỳ trả cố định.
@@ -87,7 +90,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Quy-che-luong-thuong-phuc-loi-[phien-ban]-[thang-nam].md`. Đầu văn bản ghi phiên bản, ngày hiệu lực dự kiến, người duyệt, và dòng "Bản nháp, cần pháp chế duyệt".
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Quy-che-luong-thuong-phuc-loi-[phien-ban]-[thang-nam].md`. Đầu văn bản ghi phiên bản, ngày hiệu lực dự kiến, người duyệt, và dòng "Bản nháp, cần pháp chế duyệt".
 
 ### 4.1 Tóm tắt cho ban giám đốc
 
@@ -164,7 +167,7 @@ Kết thúc bằng **5 việc cần làm tiếp**, gợi ý: pháp chế rà so�
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: phạm vi, thực tế đang trả, vấn đề cần giải quyết, ngân sách và ràng buộc; đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: phạm vi, thực tế đang trả, vấn đề cần giải quyết, ngân sách và ràng buộc.
 - [ ] Nếu người dùng có biểu mẫu, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Đầu văn bản có phiên bản, ngày hiệu lực, người duyệt và dòng "bản nháp, cần pháp chế duyệt".
 - [ ] Không điều khoản nào thấp hơn sàn luật trong bảng; căn cứ ghi dạng tham khảo, không khẳng định tuyệt đối.

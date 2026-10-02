@@ -3,6 +3,8 @@
 > **Dùng khi:** muốn nhân viên mọi phòng đề xuất cải tiến có cấu trúc thay vì nói miệng rồi quên; cần mẫu đề xuất, tiêu chí chấm, bảng theo dõi và cơ chế thưởng; hoặc cần viết và chấm một đề xuất cụ thể cho lãnh đạo duyệt.
 > **Kết quả:** phiếu đề xuất 1 trang, tiêu chí chấm điểm và quy trình xét duyệt có thời hạn, bảng theo dõi theo trạng thái kèm ví dụ, cơ chế thưởng và ghi nhận, bộ chỉ số chương trình, kế hoạch khởi động 8 tuần.
 > **Không dùng khi:** cần viết quy trình chuẩn cho một việc (dùng OPS-01), phân tích một vấn đề lớn từ gốc (LD-02), tự động hóa bằng công cụ (OPS-06), xử lý hàng lỗi (SP-03), hoặc soạn quy chế khen thưởng toàn công ty (HR-11).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +19,7 @@
 - Lĩnh vực ưu tiên năm nay: [ĐIỀN: ví dụ "giảm sai sót đóng gói, rút thời gian xử lý đơn B2B"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không đề xuất cắt giảm nhân sự qua kênh này", "không thưởng tiền mặt quá 5 triệu một đề xuất"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Mục đích lần này?** Thiết kế cả chương trình từ đầu, chỉ cần mẫu phiếu và bảng theo dõi, hay viết hoặc chấm một đề xuất cụ thể? Nếu là đề xuất cụ thể, mô tả vấn đề bằng lời tự nhiên.
 2. **Lĩnh vực ưu tiên?** Quy trình, chi phí, chất lượng, trải nghiệm khách, an toàn, công cụ? Phòng nào có nhiều việc lặp và dễ sai nhất?
 3. **Ai duyệt, bao lâu, hạn mức bao nhiêu?** Có hội đồng hay chỉ trưởng phòng? Nhân viên được tự làm đến mức chi phí nào mà không cần xin?
 4. **Thưởng và văn hóa?** Có ngân sách thưởng không, thưởng tiền hay ghi nhận? Nhân viên có ngại đề xuất vì sợ bị coi là chê sếp không? Lần trước thử rồi thất bại vì gì?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Phiếu đề xuất điền xong trong 10 đến 15 phút.** Tối đa 1 trang hoặc 10 câu hỏi trên biểu mẫu. Mục bắt buộc chỉ 5: vấn đề, bằng chứng, giải pháp, lợi ích ước tính, chi phí ước tính. Phần còn lại tùy chọn.
 3. **Hiện trạng phải có số.** Tần suất (mấy lần một tuần), thời gian mất (giờ một tuần), tiền mất (đồng một tháng), ai bị ảnh hưởng. Chưa có số thì ghi `[cần bổ sung: mô tả dữ liệu cần]` và vẫn nhận phiếu, nhưng chấm thấp hơn ở tiêu chí bằng chứng. Không bịa số để phiếu đẹp.
 4. **Phản hồi trong 5 ngày làm việc**, kể cả chỉ là "đã nhận, sẽ chấm ngày X". Từ chối phải có lý do một câu và gợi ý sửa nếu có.
@@ -92,7 +94,7 @@ Tổng từ 18 trở lên: duyệt làm ngay. 12 đến 17: duyệt có điều 
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Chuong-trinh-cai-tien-[pham-vi]-[thang-nam].md` hoặc `De-xuat-cai-tien-[ma]-[ten-ngan].md` nếu chỉ viết một đề xuất.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Chuong-trinh-cai-tien-[pham-vi]-[thang-nam].md` hoặc `De-xuat-cai-tien-[ma]-[ten-ngan].md` nếu chỉ viết một đề xuất.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -173,7 +175,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**, và gợi ý ski
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: mục đích, lĩnh vực ưu tiên, người duyệt và hạn mức, thưởng và văn hóa.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng dán mẫu, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Phiếu đề xuất 1 trang, 5 mục bắt buộc, điền được trong 10 đến 15 phút.
 - [ ] Phần vấn đề tách khỏi giải pháp và có số (tần suất, giờ, tiền).

@@ -3,6 +3,9 @@
 > **Dùng khi:** chưa trả lời được vì sao khách chọn mình thay vì đối thủ; sản phẩm giống hệt thị trường; mỗi nhân viên nói về công ty một kiểu; sắp làm lại website, bộ nhận diện hoặc tài liệu bán hàng; cần một bài giới thiệu 60 giây để cả công ty nói giống nhau.
 > **Kết quả:** tuyên bố định vị 2 lớp, ma trận khác biệt so với đối thủ có đánh giá độ bền, nhóm khách ưu tiên và nhóm không phục vụ, 3 thông điệp cốt lõi, tháp thông điệp 3 tầng, hướng khẩu hiệu, bài giới thiệu 60 giây cho khách và cho đối tác, kế hoạch áp dụng.
 > **Không dùng khi:** cần soi đối thủ trước (MKT-03), cần chân dung khách (MKT-02), cần giọng viết và từ vựng (MKT-05), cần đóng gói lại gói bán (MKT-19), hoặc cần đặt giá (FIN-05).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ thường gặp:** insight = lý do thật phía sau một hành vi của khách, được kiểm tra bằng dữ liệu.
+> **Từ ngữ bổ sung:** OA = tài khoản Zalo chính thức của doanh nghiệp.
 
 ---
 
@@ -17,7 +20,7 @@
 - Câu định vị hoặc khẩu hiệu hiện tại nếu có: [ĐIỀN]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không dùng từ 'số 1', 'duy nhất' khi chưa có chứng nhận", "không định vị giá rẻ"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,7 +41,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Khách hiện tại mua vì lý do gì thật?** Khi họ giới thiệu công ty cho người khác, họ nói câu gì? Nếu có kết quả MKT-02, dán phần thấu hiểu khách hàng (insight) và kho ngôn ngữ.
 2. **Đối thủ chính đang định vị thế nào?** Thông điệp, điểm mạnh, điểm yếu. Nếu có kết quả MKT-03, dán bảng so sánh.
@@ -47,13 +50,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu chưa có MKT-02 và MKT-03, vẫn làm nhưng ghi rõ phần nào là giả định cần kiểm chứng với khách thật.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chọn đúng một hướng định vị chính.** Trộn 3 đến 4 hướng là không có định vị. Hướng phụ chỉ dùng làm thông điệp hỗ trợ.
 3. **Mỗi tuyên bố đi kèm bằng chứng và lộ trình.** Lời hứa (promise) trả lời "khách được gì"; bằng chứng (proof) trả lời "vì sao tin"; lộ trình (path) trả lời "khách trải qua những bước nào để nhận được lời hứa". Chưa có bằng chứng thật thì ghi `[cần bổ sung: mô tả bằng chứng cần, lấy ở đâu]` thay vì bịa số hoặc để trống.
 4. **Không định vị vào điểm đang kém, và ưu tiên điểm khó sao chép.** Nếu giao hàng chậm hơn đối thủ thì đừng hứa nhanh. Định vị vào điểm thật, giữ được ít nhất 12 tháng; điểm đối thủ sao chép được trong 3 tháng (giảm giá, quà tặng) không phải định vị.
@@ -85,7 +88,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Dinh-vi-thuong-hieu-[san-pham-hoac-cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Dinh-vi-thuong-hieu-[san-pham-hoac-cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 

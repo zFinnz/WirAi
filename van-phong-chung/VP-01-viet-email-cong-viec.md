@@ -3,6 +3,8 @@
 > **Dùng khi:** cần viết mới, viết lại cho rõ hơn, hoặc trả lời một email cho cấp trên, đồng nghiệp, khách hàng, đại lý, nhà cung cấp; kể cả email khó như từ chối, xin lỗi, nhắc việc trễ, xin duyệt, báo tin xấu.
 > **Kết quả:** email hoàn chỉnh đúng giọng và xưng hô, tiêu đề cụ thể, một lời kêu gọi hành động kèm hạn, danh sách điểm cần kiểm trước khi gửi, và phương án thứ hai khi tình huống nhạy cảm.
 > **Không dùng khi:** cần chuỗi email chào hàng lạnh hàng loạt (dùng SAL-04), chuỗi email và Zalo tự động cho marketing (MKT-13), kịch bản xử lý khiếu nại đầy đủ (CS-02), hoặc kịch bản nhắc nợ theo mốc (FIN-08).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** CTA = câu kêu gọi người đọc làm một việc cụ thể; B2C = bán cho người tiêu dùng.
 
 ---
 
@@ -17,7 +19,7 @@
 - Quy định khi gửi email ra ngoài: [ĐIỀN: ví dụ "CC trưởng phòng khi gửi khách B2B", "không báo giá qua email khi chưa có số duyệt"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không cam kết ngày giao khi kho chưa xác nhận", "không dùng biểu tượng cảm xúc với khách B2B"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Gửi cho ai và quan hệ hiện tại?** Cấp trên, đồng nghiệp, khách B2C, khách hoặc đại lý B2B, nhà cung cấp? Đã quen hay lần đầu? Họ đang biết gì về việc này?
 2. **Muốn họ làm gì sau khi đọc, trước ngày nào?** Duyệt, trả lời, thanh toán, xác nhận lịch, chỉ cần biết? Nếu nhiều việc, việc nào quan trọng nhất?
 3. **Bối cảnh cụ thể?** Dán email cần trả lời nếu có; số liệu, mã đơn, số hợp đồng, ngày tháng, file đính kèm; điều bắt buộc nêu và điều không được nói.
 4. **Giọng và định dạng?** Trang trọng, thân thiện chuyên nghiệp, hay ngắn gọn? Tiếng Việt hay tiếng Anh? Ký tên ai? Có cần 2 phương án (ví dụ một bản mềm, một bản dứt khoát) không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Câu đầu nêu mục đích.** Không mở bằng "Em viết email này để...", không kể lể bối cảnh trước. Mẫu: "Em gửi anh báo giá lô hàng Q3 để anh duyệt trước thứ Sáu 15/8."
 3. **Một lời kêu gọi hành động (CTA) rõ, có hạn, đặt ở đoạn cuối** và nhắc lại trong tiêu đề nếu gấp. Nếu phải xin nhiều việc, đánh số và nói rõ việc nào cần trước.
 4. **Giọng khớp quan hệ theo bảng dưới.** Xưng hô nhất quán từ đầu đến cuối. Không chuyển từ "anh chị" sang "bạn" giữa chừng. Khách B2C xưng "anh chị, em"; khách B2B và đối tác dùng "Quý công ty, chúng tôi" khi trang trọng hoặc "anh chị, em" khi đã quen.
@@ -89,7 +91,9 @@ Công thức: [Hành động và hạn nếu gấp] + nội dung cụ thể + m�
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu (nếu người dùng muốn lưu): `Email-[nguoi-nhan]-[muc-dich]-[ngay].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu (nếu người dùng muốn lưu): `Email-[nguoi-nhan]-[muc-dich]-[ngay].md`.
+
+**Thứ tự trả lời:** Đặt email hoàn chỉnh lên đầu để người dùng có thể sao chép. Chỉ thêm tóm tắt, phương án khác hoặc danh sách kiểm tra khi tình huống cần.
 
 ### 4.1 Tóm tắt 3 dòng
 
@@ -155,7 +159,7 @@ Kết thúc bằng **3 việc cần làm tiếp**: ví dụ lưu email này thà
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: người nhận và quan hệ, hành động mong muốn và hạn, bối cảnh, giọng và định dạng.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng dán mẫu email công ty, kết quả khớp đúng cấu trúc, xưng hô, chữ ký của mẫu.
 - [ ] Tiêu đề cụ thể, dưới 60 ký tự, có hành động hoặc mã tham chiếu.
 - [ ] Câu đầu nêu mục đích; có đúng một lời kêu gọi hành động kèm hạn.

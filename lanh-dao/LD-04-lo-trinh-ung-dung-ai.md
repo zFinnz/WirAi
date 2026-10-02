@@ -3,6 +3,8 @@
 > **Dùng khi:** lãnh đạo muốn đưa trí tuệ nhân tạo (AI) vào công ty một cách có hệ thống, hoặc nhân viên đã dùng AI rải rác nhưng không ai biết đang hiệu quả đến đâu, hoặc vừa thử một công cụ và thất bại.
 > **Kết quả:** bảng chấm điểm mức sẵn sàng 10 tiêu chí, điểm nghẽn lớn nhất, 3 việc nên làm trước trong 30 ngày, lộ trình 3 giai đoạn 90 ngày kèm chỉ số đo, ngân sách và rủi ro.
 > **Không dùng khi:** chỉ cần viết câu lệnh tốt hơn cho một việc cụ thể (dùng LD-05), hoặc cần thiết kế luồng tự động hóa chi tiết (dùng OPS-06).
+> **Từ ngữ:** CRM = bảng hoặc phần mềm quản lý thông tin khách hàng.
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng; API = cách hai phần mềm trao đổi dữ liệu tự động; AI = trí tuệ nhân tạo.
 
 ---
 
@@ -18,7 +20,7 @@
 - Mẫu kế hoạch hoặc mẫu đề xuất dự án công ty đang dùng (nếu có): [ĐIỀN: ví dụ "tờ trình đầu tư 1 trang", "chưa có"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không đưa dữ liệu khách hàng lên công cụ miễn phí", "không thay thế nhân sự CSKH"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,25 +40,25 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Lãnh đạo muốn gì từ AI và vì sao lúc này?** Giảm chi phí, tăng tốc, giữ chân khách, hay chỉ vì thấy đối thủ làm? Có mục tiêu bằng số không (ví dụ "giảm 30% thời gian trả lời khách")?
 2. **Việc nào trong công ty đang lặp lại nhiều nhất và tốn người nhất?** Liệt kê 3 đến 5 việc, ước lượng giờ công mỗi tuần. Đây là nguồn chọn việc làm trước.
 3. **Thực trạng dữ liệu và quy trình?** Dữ liệu khách và đơn hàng nằm ở đâu, có cập nhật đều không, có quy trình viết thành văn bản chưa?
 4. **Ai sẽ dẫn dắt và bao nhiêu thời gian?** Có người chịu trách nhiệm chính không, họ có thể dành bao nhiêu giờ mỗi tuần trong 3 tháng tới? Nhân viên đón nhận hay e ngại? Nếu công ty có mẫu kế hoạch hoặc tờ trình, dán vào.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chấm điểm trung thực, không tô hồng.** Điểm thấp không phải điều xấu, nó chỉ ra điểm bắt đầu đúng. Hiển thị bảng 10 tiêu chí trước khi kết luận. Tiêu chí nào không có thông tin để chấm thì ghi `[cần bổ sung: mô tả thông tin cần]` thay vì chấm đại.
 3. **Việc làm trước phải khớp với điểm nghẽn.** Tự kiểm tra: 3 việc đề xuất trong 30 ngày có thật sự gỡ 2 rào cản lớn nhất không? Nếu không, đổi.
 4. **Chọn việc theo ma trận tác động và công sức, luôn có một việc thắng nhanh (quick win) cụ thể.** Làm trước việc tác động cao, công sức thấp. Việc tác động cao, công sức cao để giai đoạn 2 hoặc 3. Việc thắng nhanh phải nêu rõ: việc gì, ai làm, công cụ nào, trước và sau khác nhau ra sao.
 5. **Không khuyên tác tử tự chạy khi đội chưa thạo trợ lý cá nhân.** Mỗi giai đoạn có điều kiện đạt để sang giai đoạn sau.
-6. **Bảo mật dữ liệu là điều kiện, không phải tùy chọn.** Dữ liệu cá nhân khách hàng (tên, số điện thoại, địa chỉ, lịch sử mua) chịu điều chỉnh của Nghị định 13/2023 về bảo vệ dữ liệu cá nhân. Không dán dữ liệu này vào công cụ AI công cộng chưa có thỏa thuận xử lý dữ liệu. Nêu rõ trong lộ trình.
+6. **Bảo mật dữ liệu là điều kiện, không phải tùy chọn.** Dữ liệu cá nhân khách hàng (tên, số điện thoại, địa chỉ, lịch sử mua) chịu điều chỉnh của Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về bảo vệ dữ liệu cá nhân. Không dán dữ liệu này vào công cụ AI công cộng chưa có thỏa thuận xử lý dữ liệu. Nêu rõ trong lộ trình.
 7. **Ngân sách thực tế theo quy mô, mọi con số là giả định cần báo giá thật.** Công ty dưới 10 người ưu tiên gói cá nhân và miễn phí; 10 đến 50 người cân nhắc gói nhóm; trên 50 người mới tính tích hợp qua giao diện lập trình (API). Không bịa giờ tiết kiệm; ước lượng ghi rõ cách tính.
 8. **Lồng thông điệp "AI giúp người làm việc tốt hơn, không thay người"** vào kế hoạch truyền thông nội bộ, kèm cam kết cụ thể của lãnh đạo.
 
@@ -89,7 +91,7 @@ Phân loại: 10 đến 20 điểm là **Mới bắt đầu** (tập trung đào
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Lo-trinh-AI-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Lo-trinh-AI-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho lãnh đạo
 
@@ -145,13 +147,13 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**, trong đó có �
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: mục tiêu, việc lặp lại, thực trạng dữ liệu, người dẫn dắt; đã tóm tắt và được xác nhận trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: mục tiêu, việc lặp lại, thực trạng dữ liệu, người dẫn dắt.
 - [ ] Nếu người dùng có mẫu kế hoạch hoặc tờ trình riêng, kết quả bám đúng mẫu đó.
 - [ ] Bảng 10 tiêu chí có điểm và căn cứ cho từng dòng, không chấm cảm tính.
 - [ ] 3 việc làm trước thật sự gỡ 2 rào cản lớn nhất.
 - [ ] Không đề xuất tác tử tự chạy khi điểm dưới 36 hoặc đội chưa qua giai đoạn 1.
 - [ ] Mỗi giai đoạn có chỉ số đo, người chủ trì, điều kiện sang bước sau.
-- [ ] Có quy định bảo mật dữ liệu cá nhân, nhắc Nghị định 13/2023.
+- [ ] Có quy định bảo mật dữ liệu cá nhân, nhắc Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP.
 - [ ] Ưu tiên công cụ đang có trước khi đề xuất mua mới; chi phí ghi rõ là giả định.
 - [ ] Có một ví dụ việc thắng nhanh cụ thể với trước và sau; có thông điệp "AI hỗ trợ người" và cam kết của lãnh đạo.
 - [ ] Chỗ thiếu dữ liệu đã đánh dấu `[cần bổ sung]`, không bịa, không để trống.

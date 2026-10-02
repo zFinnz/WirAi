@@ -3,6 +3,10 @@
 > **Dùng khi:** cần vẽ các điểm chạm từ lúc khách biết đến công ty cho đến khi mua lại và giới thiệu, tìm chỗ khách rơi rụng nhiều nhất, hoặc các phòng marketing, bán hàng, chăm sóc khách hàng đang đổ lỗi cho nhau mà không ai nhìn thấy toàn bộ trải nghiệm của khách.
 > **Kết quả:** bảng hành trình theo giai đoạn gồm điểm chạm, suy nghĩ, cảm xúc, rào cản, cơ hội và chỉ số đo; đường cảm xúc; danh sách điểm đau xếp ưu tiên; kế hoạch cải tiến có người chịu trách nhiệm.
 > **Không dùng khi:** chưa có chân dung khách (dùng MKT-02 trước), cần quy trình phễu và kịch bản cho đội bán hàng (SAL-01), cần phân tích đánh giá và bình luận đã có sẵn (CS-04), cần lịch chăm sóc sau bán (SAL-09), hoặc cần quy trình tiếp nhận khách doanh nghiệp sau ký hợp đồng (CS-08).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; CRM = bảng hoặc phần mềm quản lý thông tin khách hàng; NPS = điểm đo mức sẵn sàng giới thiệu của khách.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước; điểm chạm = lần hoặc nơi khách tiếp xúc với công ty.
+> **Từ ngữ bổ sung:** OA = tài khoản Zalo chính thức của doanh nghiệp.
+> CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +21,7 @@
 - Vấn đề nghi ngờ lớn nhất: [ĐIỀN: ví dụ "khách hỏi nhiều nhưng chốt ít", "mua một lần rồi không quay lại"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không đề xuất đổi phần mềm CRM", "không thêm kênh mới trong 6 tháng"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +41,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Vẽ cho nhóm khách nào và sản phẩm nào?** B2C hay B2B? Nếu B2B, ai là người tìm hiểu, ai duyệt, ai dùng? Nếu đã có chân dung từ MKT-02, dán vào.
 2. **Hành trình hiện tại đi qua những điểm chạm nào?** Kể theo thứ tự thời gian: khách biết ở đâu, hỏi qua kênh nào, mua ở đâu, nhận hàng thế nào, sau đó công ty liên hệ lại ra sao.
 3. **Dữ liệu và bằng chứng đang có?** Tỉ lệ chuyển đổi từng bước, thời gian phản hồi, đánh giá sàn, lý do hủy đơn, khảo sát. Không có thì nói để đánh dấu chỗ cần thu thập.
 4. **Mục tiêu của bản đồ?** Tăng tỉ lệ chốt, giảm hủy đơn, tăng mua lại, hay chuẩn hóa để các phòng cùng nhìn một bức tranh? Ai sẽ đọc kết quả?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Giai đoạn đặt theo việc khách đang làm**, không theo việc công ty làm. "Khách so sánh 3 gian hàng" là giai đoạn; "chạy quảng cáo nhắm lại" không phải.
 3. **Dùng 6 giai đoạn chuẩn** ở bảng dưới, được gộp hoặc bỏ nếu mô hình công ty không có (ví dụ hàng mua một lần hiếm khi có giai đoạn mua lại). Không tự thêm giai đoạn thứ 7.
 4. **Suy nghĩ và cảm xúc viết bằng lời của khách**, lấy từ tin nhắn, đánh giá, cuộc gọi thật. Nếu không có nguồn, ghi `[cần bổ sung: trích dẫn thật từ kênh X]`. Không bịa câu nói của khách.
@@ -70,7 +74,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 | 5. Mua lại | Đánh giá giá trị, mua tiếp | Tin nhắn chăm sóc, ưu đãi thành viên, nhắc mua | Thăm định kỳ, đối chiếu công nợ, gia hạn | tỉ lệ mua lại, chu kỳ mua |
 | 6. Giới thiệu | Kể cho người khác | Đánh giá sàn, Google, chương trình giới thiệu | Làm chứng thực, giới thiệu đối tác | số đánh giá, số khách từ giới thiệu |
 
-### Tỉ lệ rơi rụng tham khảo thị trường Việt Nam (giả định, cần kiểm chứng bằng số công ty)
+### Ví dụ tỉ lệ rơi rụng giả định (cần thay bằng số công ty)
 
 | Bước | B2C qua sàn và tin nhắn | B2B qua đội kinh doanh |
 |---|---|---|
@@ -83,7 +87,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Ban-do-hanh-trinh-[nhom-khach]-[san-pham]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Ban-do-hanh-trinh-[nhom-khach]-[san-pham]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -152,7 +156,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý skil
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: nhóm khách, điểm chạm hiện tại, dữ liệu đang có, mục tiêu.
-- [ ] Đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng đưa mẫu, kết quả khớp đúng mục, thứ tự và cách xưng hô của mẫu.
 - [ ] Một bản đồ cho một nhóm khách, B2C và B2B tách riêng; giai đoạn đặt theo việc khách làm, không theo việc công ty làm.
 - [ ] Cột "khách nghĩ gì" lấy từ nguồn thật, có ghi nguồn; không bịa câu nói.

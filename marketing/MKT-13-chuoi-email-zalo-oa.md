@@ -3,6 +3,8 @@
 > **Dùng khi:** đã có danh sách khách (email, người theo dõi tài khoản chính thức Zalo, số điện thoại) mà chưa biết gửi gì; cần chuỗi chào mừng, nuôi dưỡng, sau mua, khuyến mãi, kéo lại khách cũ, nhắc giỏ hàng bỏ quên; hoặc cần tin tự động xác nhận đơn, nhắc lịch, nhắc thanh toán.
 > **Kết quả:** luồng tự động có điều kiện rẽ nhánh, nội dung từng tin (tiêu đề, thân, lời kêu gọi hành động), tần suất và khung giờ gửi, lịch phối hợp email với Zalo, biến thể thử nghiệm, chỉ số theo dõi và danh sách thiết lập trước khi bật.
 > **Không dùng khi:** cần email chào hàng lạnh cho khách doanh nghiệp chưa quen (dùng SAL-04), cần kịch bản chăm sóc sau bán theo từng khách (SAL-09), cần kịch bản chatbot trả lời tự động (CS-03), hoặc cần chương trình giữ chân toàn diện (CS-06).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; CRM = bảng hoặc phần mềm quản lý thông tin khách hàng; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ bổ sung:** CTA = câu kêu gọi người đọc làm một việc cụ thể; UTM = mã gắn vào đường dẫn để biết khách đến từ đâu.
 
 ---
 
@@ -16,7 +18,7 @@
 - Đã xin đồng ý nhận tin khi thu thập dữ liệu chưa: [ĐIỀN: có, một phần, chưa]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không gửi Zalo sau 21 giờ", "không giảm giá cho khách B2B qua tin nhắn hàng loạt"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -30,26 +32,26 @@ Tư duy nền:
 - Một tin chỉ có **một ý và một lời kêu gọi hành động (CTA)**. Nhồi hai ưu đãi vào một tin là mất cả hai.
 - Giá trị trước, bán hàng sau: khoảng 80% tin cho giá trị, 20% tin bán hàng. Đảo ngược tỉ lệ này là cách nhanh nhất mất danh sách.
 - Phân khúc trước khi gửi. Không bao giờ gửi cùng một tin cho toàn bộ danh sách.
-- Danh sách chỉ gồm người đã đồng ý nhận tin, có cách từ chối, theo Nghị định 13/2023 về bảo vệ dữ liệu cá nhân. Không mua danh sách email hay số điện thoại.
+- Danh sách chỉ gồm người đã đồng ý nhận tin, có cách từ chối, theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về bảo vệ dữ liệu cá nhân. Không mua danh sách email hay số điện thoại.
 
 ---
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Chuỗi nào, cho ai?** Chào mừng, nuôi dưỡng, sau mua, khuyến mãi, kéo lại khách cũ, giỏ hàng bỏ quên, hay tin giao dịch (xác nhận đơn, nhắc lịch)? Cho khách lẻ, khách doanh nghiệp hay đại lý?
 2. **Điều gì kích hoạt chuỗi và mục tiêu cuối là gì?** Ví dụ: đăng ký nhận tài liệu, mua lần đầu, không mở tin 60 ngày; mục tiêu là đặt lịch, mua lại, đăng ký làm đại lý.
 3. **Danh sách và công cụ?** Bao nhiêu người, nguồn từ đâu, đã phân nhóm chưa, kênh nào đã có (email, Zalo OA, ZNS), tỉ lệ mở và nhấp hiện tại nếu biết.
 4. **Họ còn nhận tin gì khác?** Có chuỗi nào đang chạy song song không, để tránh một khách nhận 3 tin trong một ngày.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chọn kênh theo loại tin, không theo thói quen.** Tin dài, nhiều liên kết, cần giải thích thì email. Tin cần đọc ngay, hành động trong ngày thì Zalo. Lý do: tỉ lệ đọc Zalo cao gấp 2 đến 3 lần email nhưng mỗi tin thừa đều tốn người theo dõi.
 3. **Tần suất Zalo tối đa 2 tin mỗi tuần**, trần tuyệt đối 3. Email 1 đến 3 tin mỗi tuần tùy chuỗi, email khuyến mãi không quá 2 lần mỗi tháng. Vượt ngưỡng là tỉ lệ bỏ theo dõi tăng mạnh.
 4. **Không sao chép email sang Zalo.** Email 300 chữ thì tin Zalo tương ứng 60 đến 80 chữ, 3 đến 6 dòng.
@@ -58,7 +60,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 7. **Tiêu đề quyết định tỉ lệ mở.** Dưới 50 ký tự, không viết hoa toàn bộ, không lạm dụng "miễn phí", "100%", "khẩn cấp", dấu chấm than, vì đó là từ kích hoạt bộ lọc thư rác. Luôn có 2 phương án tiêu đề để thử.
 8. **Mọi liên kết phải có mã theo dõi nguồn (UTM)** tách riêng `utm_medium=email` và `utm_medium=zalo`. Thử nghiệm A/B một yếu tố mỗi lần, tối thiểu 500 người mỗi phương án, chờ 24 giờ mới kết luận. Chỗ nào thiếu dữ liệu thật (tỉ lệ mở, kích thước danh sách, chu kỳ mua) thì ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo dùng thay thế phải ghi rõ là giả định.
 
-### So sánh hai kênh (mức tham khảo Việt Nam, dùng khi thiếu dữ liệu, ghi rõ là giả định)
+### So sánh hai kênh (ví dụ giả định để tính thử, cần thay bằng dữ liệu công ty)
 
 | Tiêu chí | Email | Zalo OA |
 |---|---|---|
@@ -89,7 +91,9 @@ Tránh gửi ngày lễ, Tết, và ngày 30 đến 31 hằng tháng (nhiều ti
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Chuoi-tin-[loai-chuoi]-[nhom-khach]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Chuoi-tin-[loai-chuoi]-[nhom-khach]-[thang-nam].md`.
+
+**Thứ tự trả lời:** Đặt nội dung tin hoặc email có thể gửi lên đầu. Sơ đồ luồng, lịch gửi và chỉ số để phía sau khi người dùng cần cả chuỗi.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -198,7 +202,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý skil
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: loại chuỗi và nhóm khách, kích hoạt và mục tiêu, danh sách và công cụ, chuỗi đang chạy song song; đã tóm tắt và xác nhận phương án trước khi xuất bản đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: loại chuỗi và nhóm khách, kích hoạt và mục tiêu, danh sách và công cụ, chuỗi đang chạy song song.
 - [ ] Nếu người dùng có biểu mẫu riêng, kết quả khớp đúng mục, thứ tự, đơn vị, cách xưng hô của mẫu đó.
 - [ ] Mỗi tin có một mục đích, một CTA, điều kiện gửi và điều kiện thoát.
 - [ ] Tin Zalo tối đa 6 dòng, không sao chép từ email; tần suất Zalo không quá 2 tin mỗi tuần.
@@ -206,7 +210,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý skil
 - [ ] Tiêu đề email dưới 50 ký tự, có 2 phương án, không dùng từ kích hoạt thư rác; dòng xem trước không lặp tiêu đề.
 - [ ] Mọi liên kết có UTM tách kênh.
 - [ ] Có sơ đồ luồng với rẽ nhánh và điều kiện thoát khi khách đã mua.
-- [ ] Có dòng hủy đăng ký, có bằng chứng đồng ý nhận tin, không dùng danh sách mua, tôn trọng Nghị định 13/2023.
+- [ ] Có dòng hủy đăng ký, có bằng chứng đồng ý nhận tin, không dùng danh sách mua, tôn trọng Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP.
 - [ ] Tỉ lệ nội dung giá trị trên bán hàng khoảng 80/20 trong chuỗi nuôi dưỡng.
 - [ ] Mọi số tham khảo ghi rõ là giả định cần kiểm chứng bằng dữ liệu công ty.
 - [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.

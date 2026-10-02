@@ -3,6 +3,8 @@
 > **Dùng khi:** nhân viên nộp đơn nghỉ hoặc công ty chấm dứt hợp đồng, cần biết ai làm gì trong từng ngày: tính ngày làm việc cuối, bàn giao công việc và khách hàng, thu hồi tài sản và tài khoản, thanh toán đúng luật, phỏng vấn thôi việc; hoặc từng mất khách, mất dữ liệu vì người nghỉ không bàn giao.
 > **Kết quả:** quy trình nghỉ việc theo mốc ngày với phân công, biên bản bàn giao công việc, danh sách thu hồi tài sản và tài khoản, bảng thanh toán khi nghỉ có căn cứ, bộ câu hỏi phỏng vấn thôi việc, mẫu thông báo. Phần pháp lý là **bản nháp cần pháp chế hoặc luật sư duyệt**.
 > **Không dùng khi:** cần xử lý kỷ luật lao động hoặc sa thải (dùng HR-09 cho nội quy và trình tự, cần luật sư), cần thu hồi quyền truy cập hệ thống chi tiết theo từng phần mềm (IT-03), cần quản lý tài sản và công cụ dụng cụ nói chung (KHO-05), hoặc cần kế hoạch kế nhiệm vị trí chủ chốt (HR-14).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp; CRM = bảng hoặc phần mềm quản lý thông tin khách hàng; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ bổ sung:** BHXH = bảo hiểm xã hội.
 
 ---
 
@@ -16,7 +18,7 @@
 - Có phỏng vấn thôi việc chưa, ai hỏi: [ĐIỀN]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không giữ lương để ép bàn giao", "không công bố lý do nghỉ của cá nhân", "không để nhân viên nghỉ mang theo danh sách khách"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -36,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Cần quy trình chung cho công ty hay xử lý một trường hợp cụ thể?** Nếu cụ thể: vị trí, phòng, loại hợp đồng (thử việc, xác định thời hạn, không xác định thời hạn), ngày nộp đơn, ai chủ động chấm dứt (nhân viên, công ty, hết hạn, thỏa thuận).
 2. **Người này đang nắm gì?** Khách hàng và công nợ đang theo, dự án dở, tài sản được cấp, tài khoản và nhóm chat đang quản, việc gì chỉ một mình người này biết.
 3. **Ai tiếp nhận?** Người mới đã có chưa, hay đồng nghiệp kiêm tạm? Thời gian còn lại đến ngày nghỉ bao nhiêu ngày?
 4. **Điểm nhạy cảm?** Có tranh chấp, có nợ tạm ứng, có cam kết đào tạo chưa hết hạn, có điều khoản bảo mật hoặc không cạnh tranh, có nghi ngờ mang dữ liệu đi không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Phân loại trường hợp trước khi làm.** Tự nguyện nghỉ, hết hạn hợp đồng, thỏa thuận chấm dứt, công ty đơn phương chấm dứt, sa thải kỷ luật. Mỗi loại khác thời hạn báo trước, khác khoản thanh toán, khác rủi ro. Sa thải và đơn phương chấm dứt từ phía công ty luôn ghi "cần luật sư duyệt trước khi ra quyết định".
 3. **Căn cứ pháp lý ghi dạng tham khảo**, ví dụ "tham khảo Bộ luật Lao động 2019, Điều 35", kèm "cần pháp chế xác nhận quy định hiện hành". Không khẳng định tuyệt đối, không tự tính trợ cấp thay kế toán; chỉ liệt kê khoản và công thức để kế toán tính.
 4. **Mỗi việc có người làm, hạn và bằng chứng hoàn thành** (biên bản ký, ảnh chụp màn hình khóa tài khoản, phiếu nhận tài sản). Việc không có bằng chứng coi như chưa xong.
@@ -77,7 +79,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Quy-trinh-nghi-viec-[pham-vi]-[thang-nam].md` hoặc `Ho-so-nghi-viec-[ten]-[ngay-cuoi].md` với trường hợp cụ thể.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Quy-trinh-nghi-viec-[pham-vi]-[thang-nam].md` hoặc `Ho-so-nghi-viec-[ten]-[ngay-cuoi].md` với trường hợp cụ thể.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -167,7 +169,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới**, gợi ý: pháp 
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: loại trường hợp và ngày, người này đang nắm gì, ai tiếp nhận, điểm nhạy cảm; đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: loại trường hợp và ngày, người này đang nắm gì, ai tiếp nhận, điểm nhạy cảm.
 - [ ] Nếu người dùng có biểu mẫu, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Đã phân loại trường hợp; sa thải và công ty đơn phương chấm dứt có ghi "cần luật sư duyệt".
 - [ ] Ngày làm việc cuối tính đúng thời hạn báo trước theo loại hợp đồng, có ghi chú kiểm tra hợp đồng thực tế.

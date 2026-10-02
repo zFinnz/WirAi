@@ -3,6 +3,7 @@
 > **Dùng khi:** không chắc công ty phải có giấy phép gì ngoài giấy đăng ký kinh doanh, giấy nào sắp hết hạn, bảo hiểm nào bắt buộc; từng bị phạt hoặc nhắc nhở vì nộp trễ; sắp mở ngành mới, địa điểm mới, bán hàng mới (thực phẩm, mỹ phẩm, rượu, thiết bị y tế); hoặc muốn một lịch cả năm để kế toán và hành chính không bỏ sót.
 > **Kết quả:** danh mục giấy phép và điều kiện kinh doanh theo ngành với trạng thái, sổ theo dõi và lịch gia hạn với mốc nhắc, danh mục bảo hiểm bắt buộc và nên có kèm khoảng trống, lịch tuân thủ 12 tháng (thuế, lao động, quản trị, giấy phép), ngân sách tuân thủ năm, câu hỏi cho luật sư hoặc cơ quan quản lý.
 > **Không dùng khi:** cần kiểm tra nội dung quảng cáo và thu thập dữ liệu (dùng PL-03), cần chính sách bảo mật website (PL-02), cần sổ rủi ro toàn công ty (PL-06), cần kế hoạch ứng phó sự cố (OPS-11), hoặc cần kê khai thuế cụ thể (giao kế toán, skill này chỉ lập lịch).
+> **Từ ngữ bổ sung:** TNHH = trách nhiệm hữu hạn; AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +18,7 @@
 - Kỳ kê khai thuế và kỳ kế toán: [ĐIỀN: ví dụ "thuế giá trị gia tăng kê khai theo quý, năm tài chính dương lịch"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không thuê dịch vụ ngoài trên 50 triệu/năm", "mọi hồ sơ nộp cơ quan phải giám đốc ký"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -39,20 +40,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Công ty đang bán gì, làm gì, ở đâu, cụ thể đến mức nào?** Không chỉ "thiết bị điện" mà có bán rượu, thực phẩm, mỹ phẩm, thiết bị y tế, hóa chất, hàng nhập khẩu không; có kho, cửa hàng, xe, website bán hàng, gian hàng sàn không; có chi nhánh tỉnh khác không. Nếu có danh sách ngành nghề đăng ký, dán vào.
 2. **Hiện có giấy phép, chứng nhận, hợp đồng bảo hiểm nào?** Tên, cơ quan cấp, ngày hết hạn, ai giữ bản gốc. Có cái nào đã hết hạn hoặc không tìm thấy không? Có từng bị kiểm tra, nhắc nhở, phạt chưa?
 3. **Ai theo dõi và bằng cách nào?** Người phụ trách, công cụ (Excel, lịch Google, phần mềm), muốn nhắc trước bao lâu, ai duyệt chi phí gia hạn và mua bảo hiểm.
 4. **Phạm vi lần này?** Cả ba (giấy phép, bảo hiểm, lịch tuân thủ) hay một; năm nay có kế hoạch mở ngành, địa điểm, sản phẩm mới không để lập trước?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mở đầu mọi kết quả bằng dòng giới hạn:** "Rà soát sơ bộ bằng AI, không thay thế ý kiến luật sư và cơ quan quản lý. Điều kiện, mức phí, hạn nộp cần kiểm tra văn bản mới nhất và xác nhận với cơ quan chuyên ngành."
 3. **Đi từ sản phẩm và hoạt động cụ thể, không đi từ tên ngành.** Hỏi lại khi người dùng nói chung chung. Với mỗi hoạt động, trả lời: cần giấy phép gì, cơ quan nào, có trước khi hoạt động hay làm sau, hạn hiệu lực, điều kiện giữ.
 4. **Mỗi giấy phép có trạng thái 4 màu:** đỏ là bắt buộc nhưng chưa có hoặc đã hết hạn; cam là còn dưới 90 ngày; vàng là 90 đến 180 ngày; xanh là trên 180 ngày hoặc không thời hạn; xám là không áp dụng. Kèm bảng tóm tắt "X bắt buộc, Y đã có, Z cần làm gấp".
@@ -73,7 +74,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 | Mỹ phẩm, thiết bị y tế, hóa chất | Công bố mỹ phẩm; phân loại và công bố thiết bị y tế; khai báo hóa chất | Bộ hoặc Sở Y tế, Bộ Công Thương | Hàng nhập khẩu cần giấy theo lô |
 | Vận tải bằng xe tải, xe giao hàng | Giấy phép kinh doanh vận tải nếu vận tải cho bên ngoài; phù hiệu; đăng kiểm; bảo hiểm trách nhiệm dân sự xe | Sở Giao thông vận tải | Xe chở hàng của chính mình thường không cần giấy phép kinh doanh vận tải, cần xác nhận |
 | Quảng cáo sản phẩm đặc thù | Xác nhận nội dung quảng cáo với thực phẩm chức năng, mỹ phẩm, thiết bị y tế | Cơ quan y tế | Xem thêm PL-03 |
-| Dữ liệu cá nhân khách hàng | Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, thông báo theo Nghị định 13/2023 | Bộ Công an | Xem thêm PL-02 |
+| Dữ liệu cá nhân khách hàng | Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, thông báo theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP | Bộ Công an | Xem thêm PL-02 |
 
 ### Bảo hiểm bắt buộc và nên có (tham khảo, cần kiểm tra văn bản mới nhất)
 
@@ -92,7 +93,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Giay-phep-bao-hiem-lich-tuan-thu-[cong-ty]-[nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Giay-phep-bao-hiem-lich-tuan-thu-[cong-ty]-[nam].md`.
 
 ### 4.1 Dòng giới hạn và tóm tắt cho người quản lý
 
@@ -162,7 +163,7 @@ Gồm phí nhà nước, phí tư vấn hoặc dịch vụ, phí bảo hiểm, c
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: hoạt động và sản phẩm cụ thể, giấy phép và bảo hiểm hiện có, người và công cụ theo dõi, phạm vi.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu có biểu mẫu của người dùng, kết quả khớp đúng mục, thứ tự, đơn vị.
 - [ ] Mở đầu bằng dòng giới hạn: không thay thế luật sư và cơ quan quản lý, cần kiểm tra văn bản mới nhất.
 - [ ] Danh mục đi từ hoạt động cụ thể, mỗi dòng có cơ quan, trước hay sau hoạt động, hạn, trạng thái màu, người phụ trách, nơi lưu.

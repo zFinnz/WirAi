@@ -17,7 +17,7 @@
 - Nơi lưu bản đánh giá và thời hạn lưu: [ĐIỀN: ví dụ "hồ sơ nhân sự, lưu 3 năm"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không so sánh nhân viên với nhau trước mặt đội", "không gửi bản đánh giá qua nhóm chung"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +37,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Đánh giá ai, vị trí gì, kỳ nào, mục đích gì?** Xét tăng lương, thăng chức, kết thúc thử việc, cảnh báo cải thiện, đánh giá định kỳ thường, hay cần quy trình chung cho cả công ty.
 2. **Chỉ số đặt đầu kỳ và số thực tế?** Dán bảng chỉ tiêu và kết quả. Nếu đầu kỳ không đặt chỉ số, nói rõ để bản đánh giá chỉ làm được phần định tính và ghi hạn chế đó.
 3. **2 đến 3 tình huống thật trong kỳ, có ngày tháng**, cả tốt lẫn chưa tốt. Có phản hồi từ đồng nghiệp, khách hàng không?
 4. **Người này tự đánh giá thế nào** và kỳ trước đã được góp ý gì? Có điểm nào đã nhắc mà chưa đổi?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mọi nhận định có bằng chứng.** Mỗi điểm mạnh và điểm cần cải thiện kèm ít nhất một ví dụ có ngày tháng hoặc số liệu. Nếu người dùng đánh giá thấp mà không có bằng chứng, hỏi lại trước khi viết. Số liệu chưa có thì ghi `[cần bổ sung: mô tả dữ liệu cần]`, không bịa, không để trống.
 3. **Đối chiếu với chỉ số đã đặt, không với kỳ vọng mới nảy sinh.** Nếu đầu kỳ không đặt chỉ số, ghi rõ hạn chế và việc đầu tiên sau đánh giá là đặt chỉ số cho kỳ sau (HR-07).
 4. **Cùng thang đo cho mọi người cùng vai trò, có hiệu chuẩn (calibration) giữa các phòng.** Trước khi công bố, các trưởng phòng và nhân sự họp 30 phút so bằng chứng của các trường hợp xếp loại cao nhất và thấp nhất, để loại A ở phòng này tương đương loại A ở phòng kia. Không để quan hệ tốt hay xấu làm lệch điểm.
@@ -106,13 +106,17 @@ Bước tiếp theo: "Từ tuần sau, cập nhật tiến độ vào bảng chu
 
 ### Đánh giá 360 độ: khi nào và thế nào (chỉ cho trưởng nhóm trở lên, hoặc khi công ty yêu cầu)
 
-Mục đích là phát triển, không phải xếp loại; không dùng làm cơ sở duy nhất cho kỷ luật hay chấm dứt. 3 đến 5 người đánh giá gồm cấp trên, 1 đến 2 đồng nghiệp, 1 đến 2 cấp dưới, cộng tự đánh giá; nhân sự chọn người và tổng hợp để ẩn danh. Phiếu tối đa 20 câu theo thang tần suất 1 đến 4 (hiếm khi, đôi khi, thường xuyên, luôn luôn, cộng "không có dịp quan sát") về: đặt ưu tiên và giao việc rõ, phản hồi kịp thời và phát triển người, giao tiếp và lắng nghe, ra quyết định và chịu trách nhiệm, xử lý xung đột, sống đúng giá trị công ty. Kèm 3 câu mở: điểm mạnh nên tiếp tục, điều cần thay đổi nhất, một hành vi cụ thể ấn tượng trong kỳ. Báo cáo cho người được đánh giá: điểm tự đánh giá so với trung bình các nhóm, 3 điểm mạnh, 3 điểm phát triển, kèm buổi trao đổi 45 phút với quản lý hoặc nhân sự.
+Mục đích là phát triển năng lực; không dùng kết quả này làm cơ sở duy nhất cho kỷ luật hay chấm dứt. Nếu dùng đánh giá 360 độ, chọn người đã trực tiếp làm việc với người được đánh giá và tổng hợp ý kiến để bảo vệ danh tính khi có thể.
+
+- Phiếu hỏi ngắn, tập trung vào các hành vi quan sát được: đặt ưu tiên, giao việc, phản hồi, giao tiếp, ra quyết định và xử lý xung đột. Có lựa chọn "không có dịp quan sát".
+- Thêm câu hỏi mở về điểm mạnh, điều cần thay đổi và một ví dụ cụ thể trong kỳ.
+- Báo cáo so sánh tự đánh giá với nhận xét của các nhóm, nêu điểm mạnh, điểm cần phát triển và kế hoạch trao đổi với quản lý hoặc nhân sự.
 
 ---
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Danh-gia-[ten]-[vi-tri]-[ky].md`. Đầu tài liệu ghi: vị trí, người đánh giá, kỳ, ngày, mức bảo mật.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Danh-gia-[ten]-[vi-tri]-[ky].md`. Đầu tài liệu ghi: vị trí, người đánh giá, kỳ, ngày, mức bảo mật.
 
 ### 4.1 Tóm tắt cho quản lý
 

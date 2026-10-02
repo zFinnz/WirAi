@@ -3,6 +3,9 @@
 > **Dùng khi:** chi phí rối, sao kê ngân hàng và sổ quỹ lộn xộn, không biết tiền đi đâu; cần phân loại chi phí theo nhóm chuẩn, tách cố định và biến đổi, tìm khoản bất thường, biết tỉ trọng nào đang cao hơn mức hợp lý và cắt ở đâu mà không hại doanh thu.
 > **Kết quả:** bảng chi phí đã phân loại theo nhóm quản trị, tài khoản kế toán và tính chất (cố định, biến đổi, hỗn hợp), cơ cấu và tỉ trọng trên doanh thu, đòn bẩy vận hành, danh sách giao dịch bất thường và cần xác minh, cảnh báo rủi ro chứng từ thuế, đề xuất tiết kiệm 3 nhóm có con số và quy tắc nhập liệu cho tháng sau.
 > **Không dùng khi:** cần dự báo dòng tiền từ chi phí đã phân loại (dùng FIN-02), cần báo cáo tài chính tháng đầy đủ (FIN-06), cần lập ngân sách từng phòng ban (FIN-09), cần quy chế duyệt chi và phiếu thu chi (FIN-10), hoặc cần tính chi phí thu hút khách theo kênh (FIN-03).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** CAC = chi phí để có một khách hàng mới; LTV = giá trị dự kiến từ một khách trong suốt thời gian mua hàng; KOL = người có ảnh hưởng với công chúng.
+> NCC = nhà cung cấp; BHXH = bảo hiểm xã hội.
 
 ---
 
@@ -16,7 +19,7 @@
 - Khoản chi đặc thù của ngành: [ĐIỀN: ví dụ "hoa hồng đại lý trả cuối quý, phí sàn trừ trước khi đối soát, hàng mẫu"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không cắt chi phí bảo hành", "không đổi nhà cung cấp chính", "không đề xuất giảm lương"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -36,7 +39,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Dữ liệu gì, kỳ nào?** Dán danh sách giao dịch (ngày, nội dung, số tiền, tài khoản) của kỳ nào? Có cả tiền mặt lẫn ngân hàng không? Có cột nhà cung cấp hoặc người nhận không?
 2. **Muốn phân loại theo bộ nhóm nào?** Theo tài khoản kế toán Việt Nam (632, 641, 642, 635) để khớp sổ kế toán, theo nhóm quản trị đơn giản cho chủ doanh nghiệp đọc, hay thêm chiều phòng ban? Mặc định làm hai cột nhóm quản trị và tài khoản.
@@ -45,13 +48,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng gửi trên 300 dòng, phân loại theo mẫu (pattern) và báo số dòng mỗi nhóm, chỉ liệt kê chi tiết nhóm bất thường và cần xác minh.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Loại giao dịch nội bộ trước khi tính.** Chuyển tiền giữa các tài khoản công ty, rút tiền mặt nhập quỹ, hoàn tạm ứng, nạp ví sàn: đánh dấu "nội bộ", không tính vào chi phí để tránh tính trùng.
 3. **Mỗi giao dịch một nhóm; mơ hồ thì xếp "cần xác minh" kèm câu hỏi cụ thể.** Giao dịch gộp nhiều loại (ví dụ "thanh toán công ty X 48 triệu" gồm hàng và vận chuyển) tách nếu có hóa đơn chi tiết, không thì xếp theo phần lớn và ghi chú. Giao dịch mơ hồ ghi câu hỏi cho kế toán: "CK 15.000.000 cho cá nhân Nguyễn Văn A ngày 12: lương, tạm ứng hay mua hàng?" Chỗ nào thiếu dữ liệu thật (doanh thu, số kỳ trước, hóa đơn) thì ghi `[cần bổ sung: mô tả dữ liệu cần]`, không bịa, không để trống.
 4. **Tách cố định, biến đổi và hỗn hợp theo hành vi thực tế.** Khoản hỗn hợp (điện nước, vận chuyển có xe riêng, dịch vụ thuê ngoài có phí cố định) tách phần nền và phần theo sản lượng; khoản bậc thang (thêm xe, thêm nhân viên khi vượt ngưỡng) ghi rõ ngưỡng kích hoạt. Từ đó tính lãi góp và đòn bẩy vận hành.
@@ -116,7 +119,7 @@ Gợi ý nhận diện theo từ khóa trong nội dung chuyển khoản (giả 
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Phan-loai-chi-phi-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Phan-loai-chi-phi-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -180,7 +183,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý FIN-
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: dữ liệu và kỳ, bộ nhóm, mốc so sánh, mục tiêu; đã tóm tắt phương án và được xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: dữ liệu và kỳ, bộ nhóm, mốc so sánh, mục tiêu.
 - [ ] Nếu người dùng có mẫu, kết quả bám đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Giao dịch nội bộ đã loại trừ và liệt kê riêng.
 - [ ] Không có giao dịch nào bị đoán; mơ hồ đã xếp "cần xác minh" kèm câu hỏi.

@@ -2,9 +2,9 @@
 
 > **Người dùng không chuyên: mở file `index.html` bằng cách nhấp đúp.** Trang đó có danh mục theo phòng ban, ô tìm kiếm, xem nội dung từng skill, nút sao chép và tải về. File README này và HUONG-DAN-SU-DUNG.md là bản nguồn để người quản lý bộ skill chỉnh sửa; sau khi sửa bất kỳ file .md nào, chạy `python3 _build/build-index.py` để tạo lại `index.html`.
 
-> Thư viện kỹ năng (skill) tiếng Việt cho mọi phòng ban. Mỗi skill là **một file độc lập**: người dùng chọn đúng file, dán vào ChatGPT, Claude hoặc Gemini, điền vài dòng bối cảnh công ty và dùng ngay. Không cần cài đặt, không phụ thuộc file khác.
+> Thư viện 119 bản hướng dẫn công việc bằng tiếng Việt cho các phòng ban. Mỗi file dùng độc lập: chọn file phù hợp, điền bối cảnh cần thiết, rồi dán vào công cụ AI và nói rõ việc muốn làm. Các mã skill khác được nhắc đến chỉ là gợi ý khi cần làm thêm việc liên quan. Các file này là nội dung để sao chép; muốn công cụ tự nhận diện như một Skill cài đặt sẵn thì cần đóng gói theo định dạng Skill của công cụ đó.
 
-**Trạng thái:** đợt 2, 119 skill trong 12 nhóm. Mỗi skill qua kiểm tra bố cục 6 phần, độ dài 150 đến 250 dòng, không tham chiếu file ngoài.
+**Trạng thái:** đợt 2, 119 skill trong 12 nhóm. Mỗi file có bố cục 6 phần, dài 150 đến 250 dòng và có thể dùng độc lập.
 
 **Nguồn chắt lọc:** `ai-business-skills` (OPA, 144 skill VN), `business-skills` (viethahong, 61 skill VN), `marketingskills` (Corey Haines, 50 skill EN), `ces-plugin-business-builder` (CES, 191 mẫu tài liệu vận hành) và `thu-vien-agent-tham-chieu` (CES, 12 agent văn phòng).
 
@@ -13,8 +13,8 @@
 ## Cách dùng trong 3 bước
 
 1. Mở bảng danh mục bên dưới, tìm phòng ban của bạn, chọn skill theo cột **Dùng khi**.
-2. Mở file, dán toàn bộ nội dung vào công cụ AI theo [HUONG-DAN-SU-DUNG.md](HUONG-DAN-SU-DUNG.md).
-3. Điền phần **Bối cảnh công ty** ở đầu file (chỉ cần làm một lần cho mỗi skill), rồi nêu yêu cầu.
+2. Điền phần **Bối cảnh công ty** ở đầu file theo [HUONG-DAN-SU-DUNG.md](HUONG-DAN-SU-DUNG.md); mục chưa biết ghi `chưa rõ`, mục không liên quan ghi `không áp dụng`.
+3. Dán toàn bộ nội dung đã điền vào công cụ AI, rồi nêu rõ việc cần làm và định dạng mong muốn.
 
 ---
 
@@ -25,10 +25,10 @@
 | Ngôn ngữ | Tiếng Việt có dấu. Thuật ngữ dịch sang tiếng Việt, kèm tiếng Anh trong ngoặc ở lần xuất hiện đầu. Ví dụ: chi phí thu hút khách hàng (CAC). |
 | Bố cục | 6 phần cố định: 0 Bối cảnh công ty, 1 Vai trò, 2 Thu thập thông tin, 3 Nguyên tắc, 4 Cấu trúc kết quả, 5 Danh sách kiểm tra. |
 | Độ dài | 150 đến 250 dòng mỗi file. |
-| Hỏi trước khi làm | Tối đa 4 câu hỏi một lượt. Thiếu thông tin thì hỏi, không đoán. Hỏi xong, tóm tắt và đề xuất cách làm trong 3 đến 5 dòng, chờ xác nhận rồi mới làm. |
+| Hỏi trước khi làm | Chỉ hỏi khi thiếu thông tin quan trọng, tối đa 4 câu mỗi lượt. Khi đủ dữ liệu, làm ngay; thông tin phụ chưa có thì nêu giả định hoặc đánh dấu `[cần bổ sung]`. |
 | Biểu mẫu | Nếu người dùng dán mẫu đang dùng trong công ty, kết quả phải khớp mẫu đó. Chỉ dùng cấu trúc của skill khi không có mẫu. |
-| Kết quả | Luôn có cấu trúc rõ, bảng và danh sách, kết thúc bằng 3 đến 5 việc cần làm tiếp. |
-| Số liệu | Chuẩn so sánh (benchmark) thị trường Việt Nam. Không bịa số, mọi con số ước tính phải ghi rõ là giả định. Chỗ thiếu dữ liệu ghi `[cần bổ sung]`. |
+| Kết quả | Đưa bản dùng được lên trước. Nếu người dùng chỉ cần một phần, chỉ làm phần đó; cấu trúc trong skill dùng khi họ không đưa mẫu riêng. Dùng bảng và danh sách khi chúng giúp đọc dễ hơn. |
+| Số liệu | Ưu tiên dữ liệu công ty. Chỉ dùng mức tham khảo khi có nguồn và phù hợp bối cảnh; ghi rõ nguồn, thời điểm và giả định. Chỗ thiếu dữ liệu ghi `[cần bổ sung]`. |
 | Tên file | `[MÃ]-[ten-khong-dau].md`, ví dụ `MKT-01-ke-hoach-marketing.md`. |
 
 ---
@@ -50,7 +50,7 @@ Cột **Nguồn** ghi skill gốc đã chắt lọc: OPA = ai-business-skills, B
 | MKT-07 | Lịch nội dung tháng | Cần lịch đăng bài cả tháng cho nhiều kênh | Trụ cột nội dung và tỉ lệ, lịch theo ngày và khung giờ, ma trận tái sử dụng | OPA 01 |
 | MKT-08 | Bài đăng mạng xã hội | Cần viết bài đăng tự nhiên cho Facebook, TikTok, Zalo, Instagram | 2 phương án mở bài khác hướng, nội dung, hashtag, ghi chú chọn bản | OPA 37, BS social-media |
 | MKT-09 | Kịch bản video ngắn | Cần kịch bản TikTok, Reels, Shorts | Mở bài 3 giây, cấu trúc theo giây, 2 biến thể thử nghiệm | OPA 04 |
-| MKT-10 | Nội dung quảng cáo trả phí | Cần nội dung chạy quảng cáo Facebook, TikTok, Google | 6 biến thể theo 3 tầng phễu, đúng giới hạn ký tự và chính sách | OPA 05, CH ad-creative |
+| MKT-10 | Nội dung quảng cáo trả phí | Cần nội dung chạy quảng cáo Facebook, TikTok, Google | Số biến thể theo yêu cầu, nội dung đúng nền tảng, kiểm tra giới hạn và chính sách hiện hành | OPA 05, CH ad-creative |
 | MKT-11 | Kế hoạch và cấu trúc quảng cáo | Sắp chạy quảng cáo, cần kế hoạch chi tiêu và cấu trúc tài khoản | Phân bổ thử nghiệm, mở rộng, tiếp thị lại; quy tắc đặt tên; ngân sách theo tuần | OPA 52, OPA 54, BS paid-ads |
 | MKT-12 | Chẩn đoán hiệu suất quảng cáo | Số liệu đang xấu, cần biết tại sao và sửa gì trong 48 giờ | Chẩn đoán 5 lớp, điểm sức khỏe tài khoản, kế hoạch hành động | OPA 03, OPA 21 |
 | MKT-13 | Chuỗi email và Zalo OA | Cần chuỗi tin nhắn chào mừng, nuôi dưỡng, khuyến mãi, kéo lại khách cũ | Luồng tự động, tiêu đề, tần suất, biến thể thử nghiệm | OPA 14, BS zalo-oa-strategy, CH emails |

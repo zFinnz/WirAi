@@ -3,6 +3,8 @@
 > **Dùng khi:** cần thuê người ngoài làm một việc: công ty quảng cáo (agency), người làm tự do (freelancer), đơn vị sản xuất video, lập trình website, kế toán dịch vụ, đơn vị vận chuyển, nhà cung cấp thiết bị hoặc phần mềm; hoặc đã thuê rồi mà kết quả lệch, sửa mãi không xong, phát sinh chi phí.
 > **Kết quả:** bản yêu cầu thuê ngoài gồm mục tiêu đo được, phạm vi công việc và phần không bao gồm, tiêu chuẩn bàn giao, số vòng sửa, quy trình duyệt, mốc thanh toán, điều khoản sở hữu và bảo mật, bảng so sánh báo giá và bảng đánh giá nhà cung cấp sau dự án.
 > **Không dùng khi:** giao việc cho nhân sự nội bộ (dùng OPS-04), rà soát hợp đồng đã soạn (PL-01), thuê người có ảnh hưởng hoặc người sáng tạo nội dung (MKT-16), hoặc chỉ cần yêu cầu thiết kế hình ảnh cho đội nội bộ (MKT-21).
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp; B2C = bán cho người tiêu dùng.
+> VAT = thuế giá trị gia tăng.
 
 ---
 
@@ -16,7 +18,7 @@
 - Danh sách nhà cung cấp đang hợp tác và đánh giá: [ĐIỀN: ví dụ "2 agency, 3 freelancer thiết kế, chưa có bảng chấm điểm"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không trả trước 100%", "không cho nhà cung cấp truy cập dữ liệu khách", "mọi hợp đồng trên 50 triệu phải có luật sư xem"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -36,7 +38,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Thuê làm gì và kết quả cuối cùng đo bằng gì?** Loại việc (quảng cáo, video, website, vận chuyển, phần mềm, dịch vụ kế toán), sản phẩm nhận về, chỉ số thành công nếu có (ví dụ "website tải dưới 3 giây, 5 trang, nhận đơn qua Zalo").
 2. **Ngân sách trần, hạn cứng, và thứ không được đổi?** Ngân sách đã gồm thuế giá trị gia tăng (VAT) chưa; ngày phải có kết quả cuối; điều gì cố định (hạn, tiền, phạm vi).
@@ -45,19 +47,19 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng chưa trả lời được câu 1, giúp họ viết mục tiêu đo được trước, chưa viết yêu cầu.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mục tiêu đo được, không phải "làm cho hay".** "5 video 30 giây cho quảng cáo Facebook, mục tiêu tỉ lệ xem hết trên 25%" chứ không phải "video đẹp, viral".
 3. **Phạm vi có cả phần bao gồm và phần không bao gồm; mỗi sản phẩm bàn giao có thông số kỹ thuật.** Phần không bao gồm là công cụ duy nhất chặn phát sinh (scope creep) và tranh cãi "tưởng có trong giá". Thông số gồm kích thước, định dạng, số lượng, thời lượng, ngôn ngữ, nền tảng dùng, tệp gốc có bàn giao không.
 4. **Chốt số vòng sửa trong giá và phí vòng thêm.** Gợi ý 2 vòng với thiết kế, nội dung; 1 vòng với sản phẩm kỹ thuật đã có yêu cầu chi tiết. Sửa sau khi đã nghiệm thu thì tính phí.
 5. **Lịch có cả hạn nhà cung cấp nộp và hạn công ty phản hồi.** Công ty phản hồi trễ thì hạn cuối lùi tương ứng, ghi rõ trong yêu cầu để công bằng.
 6. **Thanh toán theo mốc, gắn với điều kiện nghiệm thu rõ.** Có hóa đơn VAT hoặc chứng từ hợp lệ theo quy định; freelancer cá nhân cần lưu ý khấu trừ thuế thu nhập cá nhân theo luật hiện hành (cần kế toán xác nhận).
-7. **Điều khoản sở hữu và bảo mật phải có.** Sản phẩm thuộc công ty sau khi thanh toán đủ; nhà cung cấp không công bố, không dùng dữ liệu khách của công ty cho mục đích khác; tuân thủ Nghị định 13/2023 nếu có dữ liệu cá nhân. Hợp đồng chính thức cần luật sư hoặc người có thẩm quyền duyệt.
+7. **Điều khoản sở hữu và bảo mật phải có.** Sản phẩm thuộc công ty sau khi thanh toán đủ; nhà cung cấp không công bố, không dùng dữ liệu khách của công ty cho mục đích khác; tuân thủ Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP nếu có dữ liệu cá nhân. Hợp đồng chính thức cần luật sư hoặc người có thẩm quyền duyệt.
 8. **So sánh báo giá trên cùng phạm vi, không so tổng tiền; không bịa số.** Báo giá rẻ bất thường thường thiếu hạng mục hoặc sẽ phát sinh. Chấm điểm nhà cung cấp sau mỗi dự án để lần sau chọn nhanh. Mọi mốc, tỉ lệ tham khảo ghi rõ là giả định cần thương lượng; chỗ thiếu dữ liệu thật (ngân sách trần, báo giá, thời gian phản hồi công ty cam kết) ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì tự điền.
 
 ### Mốc thanh toán và vòng sửa tham khảo (dùng khi thiếu dữ liệu, ghi rõ là giả định cần thương lượng)
@@ -85,7 +87,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Yeu-cau-thue-ngoai-[ten-viec]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Yeu-cau-thue-ngoai-[ten-viec]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho người duyệt
 
@@ -166,7 +168,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** (ví dụ: chốt
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: việc và kết quả đo được, ngân sách và hạn, tình trạng nhà cung cấp, đầu mối và người duyệt; đã tóm tắt và được xác nhận trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: việc và kết quả đo được, ngân sách và hạn, tình trạng nhà cung cấp, đầu mối và người duyệt.
 - [ ] Nếu người dùng có mẫu yêu cầu, mẫu so sánh báo giá hoặc mẫu hợp đồng riêng, kết quả bám đúng mẫu đó.
 - [ ] Mục tiêu đo được; mỗi sản phẩm bàn giao có thông số, định dạng, số lượng, tiêu chí nghiệm thu; có phần không bao gồm.
 - [ ] Số vòng sửa trong giá và phí vòng thêm đã ghi.

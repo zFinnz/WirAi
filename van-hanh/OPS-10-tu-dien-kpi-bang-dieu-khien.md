@@ -3,6 +3,11 @@
 > **Dùng khi:** các phòng báo số khác nhau cho cùng một chỉ số, lãnh đạo phải đọc 5 file mới biết công ty đang thế nào, không rõ ai chịu trách nhiệm số nào, hoặc sắp dựng bảng theo dõi cấp công ty (trên Google Sheet, Looker Studio, Power BI) và cần định nghĩa thống nhất trước.
 > **Kết quả:** từ điển chỉ số đo lường hiệu quả (KPI) theo phòng với mã, công thức, nguồn, người sở hữu; thiết kế bảng điều khiển (dashboard) theo cấp người xem; chính sách báo cáo nội bộ; bộ ngưỡng cảnh báo sớm.
 > **Không dùng khi:** cần KPI và OKR cho một vị trí cụ thể (dùng HR-07), cần viết báo cáo kỳ này (OPS-05), cần phân tích một bộ dữ liệu để ra quyết định (OPS-09), hoặc cần tính ngược chỉ số marketing từ ngân sách (MKT-06).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; CRM = bảng hoặc phần mềm quản lý thông tin khách hàng; KPI = chỉ số đo kết quả công việc;
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> OKR = mục tiêu và các kết quả đo được.
+> **Từ ngữ bổ sung:** CAC = chi phí để có một khách hàng mới.
+> CSKH = chăm sóc khách hàng; DSO = số ngày trung bình từ bán chịu đến thu được tiền; BI = công cụ tổng hợp và phân tích dữ liệu kinh doanh.
 
 ---
 
@@ -17,7 +22,7 @@
 - Nhịp họp số hiện tại: [ĐIỀN: ví dụ "họp tuần thứ Hai, họp tháng ngày 5"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không mua phần mềm BI mới trong năm nay", "lương không được hiện trên bảng chung"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +42,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phạm vi lần này?** Toàn công ty hay một phòng trước? Cần cả ba sản phẩm (từ điển, bảng điều khiển, chính sách báo cáo) hay chỉ một? Nếu người dùng dán bảng chỉ số, mẫu báo cáo hoặc bảng điều khiển đang dùng, đọc trước và chỉ hỏi phần thiếu.
 2. **Người xem chính cần quyết định gì?** Ví dụ: giám đốc cần biết mỗi sáng có nên bơm thêm quảng cáo, có đủ tiền trả nhà cung cấp, kho có đang kẹt hàng. Liệt kê 3 đến 5 quyết định lặp lại hằng tuần.
 3. **Chỉ số nào đang lệch số hoặc tranh cãi?** Phòng nào tính thế nào, số nào lãnh đạo tin, số nào không. Dữ liệu từng chỉ số lấy ở phần mềm hay bảng tính nào, ai nhập?
 4. **Nhịp và công cụ?** Cập nhật hằng ngày hay hằng tuần, xem trên điện thoại hay máy tính, có sẵn Looker Studio, Power BI hay chỉ Google Sheet? Ai sẽ duy trì bảng?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Kiểm kê trước, thiết kế sau.** Liệt kê mọi báo cáo và chỉ số đang có, đánh dấu cái nào được đọc thật, cái nào làm cho có, cái nào trùng. Nhiều công ty cần bớt báo cáo hơn là thêm.
 3. **Mỗi KPI có một thẻ định nghĩa đầy đủ**: mã, tên, định nghĩa bằng lời, công thức, đơn vị, nguồn dữ liệu, người sở hữu dữ liệu, tần suất, mục tiêu, ngưỡng cảnh báo. Thiếu một ô là chưa xong.
 4. **Mã hóa theo phòng** (KPI-FIN, KPI-SAL, KPI-MKT, KPI-OPS, KPI-CS, KPI-HR) và tổ chức theo 4 góc nhìn của thẻ điểm cân bằng (Balanced Scorecard): tài chính, khách hàng, quy trình nội bộ, con người và học hỏi. Mỗi góc nhìn có ít nhất một chỉ số cấp công ty.
@@ -89,7 +94,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Tu-dien-KPI-va-dashboard-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Tu-dien-KPI-va-dashboard-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho lãnh đạo
 
@@ -152,7 +157,7 @@ Kèm quy ước màu thống nhất: đỏ là vượt ngưỡng cần hành đ�
 | Vận hành tuần | Tuần | Trưởng phòng vận hành | Giám đốc | Thứ Hai 10:00 | 1 trang | Có |
 | KPI công ty tháng | Tháng | Kế toán và vận hành | Ban giám đốc | Ngày 5 | Bảng điều khiển và nhận định | Có |
 
-Kèm: nguyên tắc một nguồn số chính thức (single source of truth) cho từng nhóm chỉ số; lịch báo cáo cả năm gom một chỗ; phân quyền xem theo 4 cấp (toàn công ty, quản lý, ban giám đốc, chủ sở hữu) với lưu ý dữ liệu lương và dữ liệu cá nhân khách hàng không đưa lên bảng chung theo Nghị định 13/2023; quy trình đính chính khi phát hiện sai số trong 24 giờ và ghi nguyên nhân.
+Kèm: nguyên tắc một nguồn số chính thức (single source of truth) cho từng nhóm chỉ số; lịch báo cáo cả năm gom một chỗ; phân quyền xem theo 4 cấp (toàn công ty, quản lý, ban giám đốc, chủ sở hữu) với lưu ý dữ liệu lương và dữ liệu cá nhân khách hàng không đưa lên bảng chung theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP; quy trình đính chính khi phát hiện sai số trong 24 giờ và ghi nguyên nhân.
 
 ### 4.6 Bộ ngưỡng cảnh báo sớm
 
@@ -172,7 +177,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý skil
 ## 5. Danh sách kiểm tra chất lượng
 
 - [ ] Đã hỏi hoặc có đủ: phạm vi, quyết định của người xem, chỉ số đang lệch, nhịp và công cụ.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu có biểu mẫu của người dùng, kết quả khớp đúng mục, thứ tự, đơn vị.
 - [ ] Bảng cấp công ty không quá 8 chỉ số, có đủ 4 góc nhìn và có chỉ số dẫn trước.
 - [ ] Mỗi KPI có đủ thẻ: mã, định nghĩa, công thức, loại trừ, nguồn, người sở hữu, tần suất, mục tiêu, ngưỡng, hành động.

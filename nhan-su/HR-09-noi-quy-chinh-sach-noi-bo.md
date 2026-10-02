@@ -3,6 +3,7 @@
 > **Dùng khi:** cần soạn hoặc cập nhật nội quy lao động, nội quy văn phòng, chính sách nghỉ phép, làm việc từ xa, đi công tác, sử dụng tài sản, quy tắc ứng xử và đạo đức kinh doanh; cần gộp các chính sách thành sổ tay nhân viên; hoặc cần thông báo một thay đổi cho toàn công ty mà không gây hiểu lầm.
 > **Kết quả:** bản nháp văn bản chính sách rõ ràng, bảng đối chiếu với quy định pháp luật, bản tóm tắt một trang cho nhân viên, câu hỏi thường gặp, mẫu thông báo nội bộ kèm quy tắc kênh, kế hoạch ban hành. Mọi văn bản là **bản nháp cần luật sư hoặc phòng pháp chế duyệt** trước khi áp dụng.
 > **Không dùng khi:** cần quy chế lương thưởng và phúc lợi (HR-11), chính sách sử dụng công nghệ thông tin và bảo mật dữ liệu (IT-01), điều khoản dịch vụ cho khách hàng (PL-02), rà soát hợp đồng (PL-01), hoặc quy trình vận hành từng bước (OPS-01).
+> **Từ ngữ bổ sung:** TNHH = trách nhiệm hữu hạn; BHXH = bảo hiểm xã hội.
 
 ---
 
@@ -17,7 +18,7 @@
 - Ai duyệt văn bản: [ĐIỀN: ví dụ "giám đốc ký, luật sư thuê ngoài rà soát, chưa có phòng pháp chế"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không ban hành quy định nào thấp hơn luật", "không công bố mức thưởng cá nhân"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +38,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Soạn loại văn bản gì?** Nội quy lao động đầy đủ, một chính sách riêng (nghỉ phép, làm từ xa, công tác, tài sản, kỷ luật, ứng xử), nội quy văn phòng, sổ tay nhân viên gộp các chính sách, hay một thông báo nội bộ? Soạn mới hay sửa bản đang có (dán bản cũ nếu có)?
 2. **Thực tế đang áp dụng ra sao?** Mức hiện tại, ngoại lệ đang cho, vấn đề đang xảy ra (ví dụ "nhân viên xin phép qua Zalo lúc 7 giờ sáng, không ai duyệt", "tin đồn chạy trước thông báo chính thức").
 3. **Văn bản này cần giải quyết vấn đề gì và ai bị ảnh hưởng?** Có nhóm nào quyền lợi giảm so với trước không? Ngành có yêu cầu đặc thù (an toàn, bảo mật, tiếp xúc tiền mặt) không?
 4. **Ai duyệt, ngày hiệu lực dự kiến, có luật sư hoặc pháp chế rà soát không?**
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Luật là sàn.** Mỗi điều khoản liên quan giờ làm, nghỉ, lương, kỷ luật đối chiếu với bảng mức tối thiểu bên dưới; thấp hơn thì sửa ngay và báo người dùng. Ghi căn cứ pháp lý ở dạng tham khảo, ví dụ "tham khảo Bộ luật Lao động 2019, Điều 113", kèm ghi chú cần luật sư xác nhận điều khoản còn hiệu lực; không khẳng định tuyệt đối.
 3. **Mỗi quy định có 5 phần**: phạm vi áp dụng, nội dung, ngoại lệ, cách thực hiện (xin ở đâu, ai duyệt, bao lâu), xử lý khi vi phạm. Số liệu, mức và tên người thực tế chưa có thì ghi `[cần bổ sung: mô tả dữ liệu cần]`, không bịa, không để trống.
 4. **Kỷ luật chỉ theo hình thức và trình tự luật cho phép** (khiển trách, kéo dài thời hạn nâng lương, cách chức, sa thải; họp có mặt người lao động và tổ chức đại diện nếu có, lập biên bản, trong thời hiệu). Không dùng phạt tiền, cắt lương, đình chỉ lương thay cho xử lý kỷ luật. Nếu người dùng muốn phạt tiền, giải thích rủi ro và đề xuất cơ chế thưởng theo tuân thủ thay thế.
@@ -86,7 +87,7 @@ Các nghị định hướng dẫn (ví dụ Nghị định 145/2020) và văn b
 |---|---|
 | Nội quy lao động (Điều 118) | Thời giờ làm việc, nghỉ ngơi; trật tự nơi làm việc; an toàn, vệ sinh lao động; phòng chống quấy rối tình dục và trình tự xử lý; bảo vệ tài sản, bí mật kinh doanh; tạm chuyển việc khác; hành vi vi phạm và hình thức xử lý theo bảng tra cứu; trách nhiệm vật chất; người có thẩm quyền kỷ luật; khiếu nại nội bộ |
 | Chính sách nghỉ phép | Bảng tra cứu từng loại nghỉ: phép năm, lễ tết, ốm, thai sản và vợ sinh, việc riêng, không lương; báo trước bao lâu, xin ở đâu, ai duyệt; chuyển phép sang năm sau; lịch làm 5 hay 6 ngày để tính đúng |
-| Làm việc từ xa | Vị trí được áp dụng, số ngày; khung giờ bắt buộc trực tuyến; không kỳ vọng phản hồi ngoài giờ; làm thêm phải được yêu cầu trước; thiết bị và phụ cấp; bảo mật dữ liệu theo Nghị định 13/2023; địa điểm làm việc ghi trong hợp đồng hoặc phụ lục; tiêu chí thu hồi |
+| Làm việc từ xa | Vị trí được áp dụng, số ngày; khung giờ bắt buộc trực tuyến; không kỳ vọng phản hồi ngoài giờ; làm thêm phải được yêu cầu trước; thiết bị và phụ cấp; bảo mật dữ liệu theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP; địa điểm làm việc ghi trong hợp đồng hoặc phụ lục; tiêu chí thu hồi |
 | Nội quy văn phòng | Chấm công, đi trễ; trang phục; dùng phòng họp, bếp, tài sản chung; thẻ và khách ra vào; camera giám sát phải thông báo công khai và không đặt ở khu vực riêng tư; xử lý vi phạm: nhắc nhở, cảnh báo bằng văn bản, sau đó theo nội quy lao động |
 | Quy tắc ứng xử và đạo đức kinh doanh | Giá trị cốt lõi; không phân biệt đối xử, chống quấy rối; quà tặng và tiếp khách theo ngưỡng (ví dụ dưới 500.000đ được nhận, trên 2 triệu phải từ chối hoặc nộp lại; tiền mặt tuyệt đối không); xung đột lợi ích phải khai báo (người thân là nhà cung cấp, làm thêm cho đối thủ); bảo mật và phát ngôn trên mạng xã hội; kênh báo cáo vi phạm gồm một kênh ẩn danh, cam kết không trả đũa; ký cam kết khi vào làm và hằng năm |
 | Sổ tay nhân viên | Thư chào mừng; công ty làm gì cho ai; văn hóa qua ví dụ thật; tóm tắt chính sách nhân sự có dẫn đến văn bản đầy đủ; quy định nơi làm việc; công cụ và hỗ trợ kỹ thuật; phúc lợi; lộ trình nghề nghiệp; kênh phản hồi; danh bạ và liên hệ khẩn cấp |
@@ -96,7 +97,7 @@ Các nghị định hướng dẫn (ví dụ Nghị định 145/2020) và văn b
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Chinh-sach-[ten]-v[phien-ban]-[thang-nam].md`. Đầu mỗi văn bản ghi: phiên bản, ngày hiệu lực dự kiến, người soạn, người duyệt, trạng thái "bản nháp, chưa có hiệu lực, cần luật sư hoặc pháp chế duyệt".
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Chinh-sach-[ten]-v[phien-ban]-[thang-nam].md`. Đầu mỗi văn bản ghi: phiên bản, ngày hiệu lực dự kiến, người soạn, người duyệt, trạng thái "bản nháp, chưa có hiệu lực, cần luật sư hoặc pháp chế duyệt".
 
 ### 4.1 Tóm tắt cho quản lý
 

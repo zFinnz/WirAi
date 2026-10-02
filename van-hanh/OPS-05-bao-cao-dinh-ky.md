@@ -3,6 +3,9 @@
 > **Dùng khi:** cần viết báo cáo tuần, tháng hoặc quý cho bất kỳ phòng ban nào (kinh doanh, marketing, kế toán, kho, chăm sóc khách hàng, nhân sự) để gửi lên ban giám đốc hoặc trình bày trong họp; cần bảng tổng hợp nhiều phòng ban cho giám đốc; hoặc đang có bảng số liệu nhưng không biết viết nhận định gì.
 > **Kết quả:** khung báo cáo cố định cho phòng ban và kỳ đó, bản báo cáo kỳ này gồm tóm tắt cho lãnh đạo, bảng chỉ số so với mục tiêu và kỳ trước, phân tích biến động, nhận định, đề xuất và kế hoạch kỳ tới, cùng bảng tổng hợp liên phòng ban khi cần.
 > **Không dùng khi:** cần phân tích sâu một bộ dữ liệu để ra quyết định cụ thể (dùng OPS-09), báo cáo tổng kết marketing theo chiến dịch (MKT-22), báo cáo bán hàng chi tiết theo phễu (SAL-12), hoặc báo cáo tài chính quản trị (FIN-06).
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> **Từ ngữ bổ sung:** ROAS = doanh thu chia cho chi phí quảng cáo; B2B = bán cho doanh nghiệp; B2C = bán cho người tiêu dùng.
+> CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +20,7 @@
 - Định dạng lãnh đạo thích đọc: [ĐIỀN: ví dụ "1 trang trên điện thoại", "bảng chi tiết kèm nhận định", "trình chiếu 5 trang"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không gửi số doanh thu chi tiết ra nhóm chung", "không nêu tên nhân viên trong phần sai sót"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -38,7 +41,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Báo cáo cho phòng ban nào, kỳ nào, gửi ai, và họ cần ra quyết định gì sau khi đọc?** Tuần, tháng hay quý; người đọc là giám đốc, trưởng phòng hay cả công ty. Có cần khung dùng lại cho các kỳ sau không? Nếu công ty có mẫu báo cáo đang dùng, dán vào; phần nào trong mẫu cũ không ai đọc thì nói để cắt.
 2. **Dán số liệu kỳ này, kỳ trước và mục tiêu.** Dạng bảng từ phần mềm hoặc bảng tính. Nếu không có mục tiêu, nói rõ để so với trung bình 3 kỳ gần nhất.
@@ -47,13 +50,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng chỉ gửi số mà không có mục tiêu hay kỳ trước, vẫn viết nhưng ghi rõ báo cáo thiếu mốc so sánh và đề xuất bổ sung từ kỳ sau.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Kiểm tra số trước khi phân tích.** Cộng lại tổng, soát đơn vị (triệu hay nghìn), soát kỳ so sánh có cùng số ngày không. Số từ hai nguồn lệch nhau thì ghi chú và nêu nguồn nào được dùng.
 3. **Mỗi chỉ số có 3 cột so sánh: mục tiêu, kỳ trước, cùng kỳ năm trước** (nếu có). Tính phần trăm hoàn thành và phần trăm thay đổi. Chỉ số nào chưa có số thật thì ghi `[cần bổ sung: mô tả số cần, nguồn lấy]`, không bịa, không để trống.
 4. **Biến động trên 20% phải có nguyên nhân.** Đào tối thiểu 2 tầng "vì sao" (ví dụ doanh thu giảm vì số đơn giảm, số đơn giảm vì kênh Shopee bị khóa 5 ngày). Chưa rõ nguyên nhân thì ghi "chưa xác định, cần kiểm tra X", không đoán. Phân biệt nguyên nhân chủ quan (thiếu người, giao trễ) và khách quan (Tết, đối thủ giảm giá); đề xuất chỉ nhắm vào thứ công ty kiểm soát được.
@@ -94,7 +97,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Bao-cao-[phong-ban]-[tuan/thang/quy]-[ky].md`. Với báo cáo tuần, gộp 4.3 và 4.4 thành một mục ngắn và dùng mẫu 8 mục ở 4.7. Nếu người dùng cần khung dùng lại hoặc bảng tổng hợp liên phòng ban, xuất thêm 4.7.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Bao-cao-[phong-ban]-[tuan/thang/quy]-[ky].md`. Với báo cáo tuần, gộp 4.3 và 4.4 thành một mục ngắn và dùng mẫu 8 mục ở 4.7. Nếu người dùng cần khung dùng lại hoặc bảng tổng hợp liên phòng ban, xuất thêm 4.7.
 
 ### 4.1 Tóm tắt cho lãnh đạo (đọc trong 30 giây)
 
@@ -171,7 +174,7 @@ Kết thúc bằng **3 việc cần làm trong tuần tới** để thực hiệ
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: phòng ban, kỳ và quyết định người đọc cần, số liệu kỳ này và mốc so sánh, sự kiện đặc biệt, mối quan tâm của lãnh đạo; đã tóm tắt và được xác nhận trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: phòng ban, kỳ và quyết định người đọc cần, số liệu kỳ này và mốc so sánh, sự kiện đặc biệt, mối quan tâm của lãnh đạo.
 - [ ] Nếu người dùng có mẫu báo cáo riêng, kết quả bám đúng mẫu đó; khung khớp với kỳ (tuần, tháng, quý).
 - [ ] Đã kiểm tra lại tổng, đơn vị, số ngày của kỳ so sánh; số lệch giữa các nguồn đã ghi chú.
 - [ ] Tóm tắt 30 giây đọc độc lập được và có quyết định cần chốt viết đủ vấn đề, phân tích, đề xuất.

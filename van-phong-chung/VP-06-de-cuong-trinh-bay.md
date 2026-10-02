@@ -3,6 +3,8 @@
 > **Dùng khi:** sắp phải trình bày trước ban giám đốc, phòng ban, khách hàng doanh nghiệp, đại lý hoặc lớp đào tạo nội bộ, đã có ý nhưng chưa có mạch; cần thông điệp chính, dàn ý theo slide, mở đầu, kết thúc kèm lời kêu gọi hành động, trước khi mở phần mềm làm slide.
 > **Kết quả:** thông điệp chính một câu và hành động mong muốn, dàn ý theo slide có tiêu đề dạng kết luận và thời gian từng phần, mở đầu và kết thúc viết nguyên văn, lời dẫn cho slide chính, câu hỏi khó dự kiến, danh sách số liệu cần bổ sung.
 > **Không dùng khi:** cần báo cáo dạng văn bản (dùng OPS-05), kịch bản video ngắn (MKT-09), bộ tài liệu bán hàng in sẵn (SAL-07), hoặc giáo trình đào tạo đầy đủ (HR-08).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** OA = tài khoản Zalo chính thức của doanh nghiệp.
 
 ---
 
@@ -17,7 +19,7 @@
 - Phong cách mong muốn: [ĐIỀN: ví dụ "ngắn gọn, số liệu, không hoa mỹ"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không nêu số chưa duyệt", "không so sánh đích danh đối thủ", "không hứa thời hạn thay kho"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Trình bày cho ai, họ đã biết gì, và bạn muốn họ làm gì sau đó?** Duyệt ngân sách, chọn phương án, ký hợp đồng, đồng ý thử, hay chỉ cần nắm tình hình? Ai là người quyết trong phòng?
 2. **Thời lượng, số slide, dịp?** Bao nhiêu phút nói, có phần hỏi đáp không, trình trực tiếp hay gửi file để tự đọc? Có người trình bày trước hoặc sau bạn không?
 3. **Nội dung và số liệu sẵn có?** Dán báo cáo, số liệu, bằng chứng, phản hồi khách. Nếu đã có thông điệp một câu, nêu luôn. Thiếu gì nói rõ.
 4. **Phong cách và định dạng?** Trang trọng, kể chuyện, kỹ thuật? Cần lời dẫn (speaker notes) không? Có mẫu dàn ý hoặc mẫu slide công ty không?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chốt một thông điệp chính trước khi dựng dàn ý.** Viết dạng: [kết luận] vì [lý do chính], nên [hành động đề xuất]. Mọi slide không phục vụ câu này thì cắt hoặc đưa vào phụ lục.
 3. **Kết luận ở slide 2** (sau slide tiêu đề): đề xuất gì, cần quyết gì, lợi ích chính. Phần sau là bằng chứng và kế hoạch. Với khách B2B, slide 2 là vấn đề của khách theo cách khách nói.
 4. **Tiêu đề slide là câu kết luận** đọc được liền mạch: ghép mọi tiêu đề lại phải thành tóm tắt bài. Mỗi slide một ý, tối đa 5 dòng chữ hoặc một biểu đồ.
@@ -82,7 +84,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `De-cuong-trinh-bay-[chu-de]-[doi-tuong]-[ngay].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `De-cuong-trinh-bay-[chu-de]-[doi-tuong]-[ngay].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -150,7 +152,7 @@ Kết thúc bằng **3 việc cần làm tiếp**: ví dụ xin số còn thiế
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: người nghe và hành động mong muốn, thời lượng và dịp, nội dung sẵn có, phong cách và định dạng.
-- [ ] Đã tóm tắt và đề xuất cách làm, chờ xác nhận trước khi xuất bản đầy đủ (trừ khi người dùng nói làm luôn).
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng dán mẫu dàn ý hoặc quy ước slide công ty, kết quả khớp đúng mục, thứ tự, giới hạn của mẫu.
 - [ ] Có một thông điệp chính một câu và hành động mong muốn có tên người, việc quyết, ngày.
 - [ ] Kết luận và đề xuất nằm ở slide 2; mạch kể khớp mục đích và người nghe.

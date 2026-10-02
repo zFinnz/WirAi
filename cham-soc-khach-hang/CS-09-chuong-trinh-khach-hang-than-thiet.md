@@ -3,6 +3,9 @@
 > **Dùng khi:** muốn thiết kế tích điểm, hạng thành viên, ưu đãi theo hạng để khách mua lại nhiều hơn; chương trình đang có mà ít người tham gia hoặc tốn tiền không thấy hiệu quả; hoặc cần quyết định chạy trên sàn, trên Zalo OA, tại cửa hàng hay cả ba.
 > **Kết quả:** chọn mô hình, cơ chế tích điểm và đổi thưởng có tính toán chi phí, bảng hạng và quyền lợi, quy tắc chống gian lận, kế hoạch truyền thông và vận hành theo kênh, bảng đo lường, danh sách điểm pháp lý cần kiểm tra.
 > **Không dùng khi:** cần chương trình thưởng cho người giới thiệu khách mới (dùng MKT-20), cần kéo lại khách đã rời (CS-06), cần phân nhóm khách theo lịch sử mua trước khi thiết kế (SAL-10, nên chạy trước), cần chiết khấu theo bậc cho đại lý (SAL-11), hoặc chỉ cần một đợt khuyến mãi ngắn (MKT-19).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp.
+> CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +20,7 @@
 - Ngân sách hoặc tỉ lệ doanh thu dành cho chương trình: [ĐIỀN]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không giảm giá trực tiếp trên sàn", "không dùng điểm cho hàng khuyến mãi"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,26 +40,26 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Mục tiêu chính và số liệu nền?** Tăng tần suất mua, tăng giá trị đơn, giữ khách sắp rời, hay gom dữ liệu khách từ sàn về kênh riêng? Tỉ lệ mua lại, chu kỳ mua, biên lợi nhuận hiện tại?
 2. **Khách mua ở đâu và công ty nhận diện khách bằng gì?** Số điện thoại tại cửa hàng, tài khoản Zalo OA, tài khoản sàn (sàn thường không cho lấy dữ liệu khách)? Có phần mềm bán hàng hỗ trợ tích điểm không?
 3. **Ngân sách và quyền lợi có thể cho?** Bao nhiêu phần trăm doanh thu khách thành viên dành cho chương trình? Quyền lợi phi tiền tệ nào công ty làm được (ưu tiên giao, mở bán sớm, dịch vụ)?
 4. **Có khách B2B hoặc đại lý cần đưa vào không?** Nếu có, tách chương trình riêng hay chỉ áp dụng B2C? Đối thủ đang làm gì?
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chọn một mô hình chính trước khi thiết kế chi tiết.** So sánh theo bảng dưới, chọn theo chu kỳ mua, biên lợi nhuận và công cụ đang có. Không gộp 3 mô hình vào một chương trình.
 3. **Mọi quyền lợi có chi phí tính bằng tiền và bằng phần trăm doanh thu.** Tỉ lệ hoàn điểm phải nhỏ hơn biên lợi nhuận gộp trừ chi phí vận hành. Số liệu chưa có ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo ở bảng dưới ghi rõ là giả định.
 4. **Hạng tối đa 3, ngưỡng tính theo 12 tháng, có quy tắc giữ và xuống hạng rõ.** Ngưỡng hạng lấy từ phân bố chi tiêu thật (SAL-10) nếu có; nếu không, đề xuất và ghi là giả định.
 5. **Điểm có hạn dùng và có quy tắc trừ** khi hoàn tiền, hủy đơn. Có quy tắc chống gian lận: nhiều tài khoản một số điện thoại, nhân viên tích điểm cho mình, tách đơn để lên hạng.
 6. **Thiết kế theo kênh.** Trên sàn dùng công cụ thành viên của sàn và không lấy được dữ liệu khách; tại cửa hàng và Zalo OA nhận diện bằng số điện thoại; mục tiêu dài hạn là kéo khách sàn về kênh riêng hợp lệ (tờ cảm ơn trong hộp, không vi phạm quy định sàn về dẫn khách ra ngoài).
-7. **Tuân thủ pháp lý và ghi rõ cần kiểm tra.** Chương trình khách hàng thường xuyên là một hình thức khuyến mại theo Luật Thương mại và nghị định về xúc tiến thương mại, có thể phải thông báo hoặc đăng ký với Sở Công Thương và chịu giới hạn giá trị khuyến mại; dữ liệu khách thu thập theo Nghị định 13/2023 với sự đồng ý và mục đích rõ; điều khoản chương trình công khai, không đổi quyền lợi hồi tố. Ghi "cần kiểm tra quy định hiện hành và luật sư duyệt".
+7. **Tuân thủ pháp lý và ghi rõ cần kiểm tra.** Chương trình khách hàng thường xuyên là một hình thức khuyến mại theo Luật Thương mại và nghị định về xúc tiến thương mại, có thể phải thông báo hoặc đăng ký với Sở Công Thương và chịu giới hạn giá trị khuyến mại; dữ liệu khách thu thập theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP với sự đồng ý và mục đích rõ; điều khoản chương trình công khai, không đổi quyền lợi hồi tố. Ghi "cần kiểm tra quy định hiện hành và luật sư duyệt".
 8. **Nhắc đúng lúc, không làm phiền.** Tối đa 2 tin nhắn chương trình mỗi tháng ngoài tin giao dịch; mỗi tin có lý do cụ thể (sắp hết hạn điểm, sắp lên hạng).
 
 ### So sánh mô hình (dùng khi chưa chọn, ghi rõ là giả định)
@@ -84,7 +87,7 @@ Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách là
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Chuong-trinh-than-thiet-[cong-ty]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Chuong-trinh-than-thiet-[cong-ty]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -161,7 +164,7 @@ chị lên hạng Bạc và được giao ưu tiên cả năm. Xem điểm tại
 | Chi phí chương trình trên doanh thu thành viên | | tháng | dưới ngân sách duyệt |
 | Doanh thu tăng thêm so với chi phí | so nhóm thành viên và nhóm đối chứng | quý | |
 
-Lưu ý pháp lý cần kiểm tra: thủ tục thông báo hoặc đăng ký khuyến mại với Sở Công Thương, giới hạn giá trị khuyến mại, thuế với quà tặng, đồng ý thu thập dữ liệu theo Nghị định 13/2023, điều khoản công khai. Ghi "cần luật sư hoặc kế toán kiểm tra quy định hiện hành".
+Lưu ý pháp lý cần kiểm tra: thủ tục thông báo hoặc đăng ký khuyến mại với Sở Công Thương, giới hạn giá trị khuyến mại, thuế với quà tặng, đồng ý thu thập dữ liệu theo Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP, điều khoản công khai. Ghi "cần luật sư hoặc kế toán kiểm tra quy định hiện hành".
 
 Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý: SAL-10 để lấy ngưỡng hạng từ dữ liệu, MKT-13 để viết chuỗi tin nhắn đầy đủ, MKT-20 nếu muốn thêm giới thiệu, CS-06 cho khách sắp rời.
 
@@ -172,7 +175,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý: SAL
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: mục tiêu và số nền, cách nhận diện khách theo kênh, ngân sách và quyền lợi, có B2B không.
-- [ ] Đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi nói "làm luôn").
+- [ ] Đã làm theo yêu cầu khi đủ thông tin; dữ liệu còn thiếu được hỏi hoặc đánh dấu rõ.
 - [ ] Nếu người dùng đưa mẫu, kết quả khớp đúng mục, thứ tự và cách xưng hô của mẫu.
 - [ ] Chọn một mô hình chính có lý do; tối đa 3 hạng.
 - [ ] Mọi quyền lợi có chi phí; tỉ lệ hoàn điểm nhỏ hơn biên lợi nhuận gộp; có bảng tính chi phí và 3 kịch bản.

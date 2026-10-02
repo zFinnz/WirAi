@@ -3,6 +3,8 @@
 > **Dùng khi:** cần kịch bản cho khiếu nại chất lượng, đổi trả, hoàn tiền, giao hàng chậm, giao sai hoặc thiếu, khách xin ưu đãi ngoài chính sách, khách đang giận hoặc đã đăng công khai, và nhân viên không biết nên nói gì, được quyết gì, khi nào phải chuyển cấp trên; hoặc cần viết ngay một câu trả lời cho tin nhắn khách vừa dán vào.
 > **Kết quả:** bảng phân cấp tình huống, kịch bản 5 bước cho từng tình huống trên kênh công ty thực dùng, câu nên nói và không nên nói, bảng quyền đền bù, mẫu trả lời công khai và riêng tư, mẫu ghi nhận và phân tích nguyên nhân gốc sau ca.
 > **Không dùng khi:** cần quy trình tiếp nhận và tiêu chuẩn chung (dùng CS-01), cần câu trả lời cho câu hỏi lặp lại không có mâu thuẫn (CS-03), cần soạn chính sách đổi trả, bảo hành (CS-07), khách từ chối mua chứ không khiếu nại (SAL-06), hoặc khủng hoảng truyền thông cấp công ty cần ban lãnh đạo phát ngôn (ghi rõ vượt phạm vi và chuyển lãnh đạo, MKT-25 nếu có).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** CSKH = chăm sóc khách hàng.
 
 ---
 
@@ -17,7 +19,7 @@
 - Giọng thương hiệu và xưng hô: [ĐIỀN: ví dụ "xưng em, gọi anh/chị, thân thiện; với B2B xưng tôi, trang trọng"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không hoàn tiền mặt, chỉ hoàn qua chuyển khoản hoặc sàn", "không hứa đền bù khi chưa nhận lại hàng"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,7 +39,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Cần kịch bản cho tình huống nào?** Một ca cụ thể đang xảy ra (dán nội dung khách nhắn) hay bộ kịch bản dùng chung? Nếu một ca: khách nói gì, trên kênh nào, đã trả lời gì chưa, khách muốn được giải quyết thế nào, người dùng muốn kết quả cuộc trao đổi là gì?
 2. **Chính sách và sự thật?** Lỗi thuộc bên nào (kho, vận chuyển, sản phẩm, khách dùng sai)? Chính sách hiện tại cho phép đổi, hoàn, bù đến mức nào?
@@ -46,13 +48,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng dán một ca cụ thể, phân cấp theo bảng ở phần 3 trước, rồi viết thẳng câu trả lời cho ca đó kèm một biến thể mềm hơn hoặc cứng hơn, sau đó mới bổ sung kịch bản chung nếu được yêu cầu.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mọi kịch bản theo khung 5 bước cố định**: lắng nghe và đồng cảm, xác nhận lại vấn đề, đưa giải pháp (luôn có 2 phương án), cam kết hành động kèm mốc thời gian, theo dõi sau 1 đến 2 ngày (ca nặng theo dõi lại sau 3 đến 7 ngày). Thiếu bước nào thì ca chưa đóng.
 3. **Phân cấp trước khi trả lời.** Đối chiếu bảng 4 mức dưới đây. Mức 3 trở lên bắt buộc báo quản lý trước khi gửi bất kỳ câu trả lời nào ngoài câu xác nhận đã tiếp nhận.
 4. **Nhận lỗi rõ khi lỗi thuộc công ty.** Với khách, đơn vị vận chuyển, kho, nhà cung cấp đều là "bên em". Không đổ lỗi cho đối tác, không đổ lỗi cho khách kể cả khi khách dùng sai; thay bằng hướng dẫn.
@@ -88,7 +90,9 @@ Lưu ý: trên Shopee, TikTok Shop, khách có quyền yêu cầu trả hàng ho
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Kich-ban-CSKH-[tinh-huong-hoac-bo-chung]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Kich-ban-CSKH-[tinh-huong-hoac-bo-chung]-[thang-nam].md`.
+
+**Thứ tự trả lời:** Đặt câu trả lời khách có thể gửi ngay lên đầu nếu người dùng hỏi một ca cụ thể. Chỉ thêm bảng phân cấp và quy trình khi họ cần tài liệu đào tạo.
 
 ### 4.1 Tóm tắt cho quản lý
 
@@ -183,7 +187,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý: t�
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: tình huống, sự thật và chính sách, quyền hạn người dùng, nhóm khách và mức rủi ro; đã tóm tắt và được xác nhận phương án trước khi viết đầy đủ.
+- [ ] Đã hỏi hoặc có đủ: tình huống, sự thật và chính sách, quyền hạn người dùng, nhóm khách và mức rủi ro.
 - [ ] Nếu người dùng có mẫu kịch bản hoặc mẫu phản hồi riêng, kết quả bám đúng mẫu và giọng đó.
 - [ ] Đã phân cấp M1 đến M4 trước khi viết câu trả lời; M3 trở lên có bước báo quản lý.
 - [ ] Mỗi kịch bản đủ 5 bước, có 2 phương án, có mốc thời gian cụ thể; ca cụ thể có một biến thể mềm hơn hoặc cứng hơn.

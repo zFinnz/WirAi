@@ -3,6 +3,8 @@
 > **Dùng khi:** cuối năm cần lập kế hoạch đào tạo cho năm tới theo phòng ban và ngân sách, chưa biết nhân viên thực sự thiếu kỹ năng gì, từng chi tiền cho khóa học mà không đo được hiệu quả, hoặc ban giám đốc hỏi "đào tạo xong thì doanh thu, lỗi, nghỉ việc thay đổi thế nào".
 > **Kết quả:** bộ khảo sát nhu cầu đào tạo cho nhân viên và quản lý, ma trận khoảng cách kỹ năng, kế hoạch đào tạo năm theo phòng và lịch tháng, ngân sách có dự phòng, cách đo hiệu quả 4 cấp và mẫu báo cáo hiệu quả đầu tư, chính sách hỗ trợ học phí và cam kết sau đào tạo.
 > **Không dùng khi:** cần viết nội dung một khóa học cụ thể (HR-08), cần kế hoạch hội nhập người mới (HR-05), cần chương trình kèm cặp và phát triển quản lý kế cận (HR-14), hoặc cần xây kho tri thức để lưu tài liệu (OPS-07).
+> **Từ ngữ:** B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** B2C = bán cho người tiêu dùng.
 
 ---
 
@@ -17,7 +19,7 @@
 - Đào tạo bắt buộc theo luật hoặc ngành: [ĐIỀN: ví dụ "an toàn lao động, phòng cháy chữa cháy, an toàn thực phẩm"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không đào tạo trong giờ cao điểm bán hàng tháng 12 và tháng 1", "không thuê ngoài trên 20 triệu một khóa nếu chưa thử nội bộ"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,20 +39,20 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Cần gì trước: khảo sát nhu cầu, kế hoạch năm, hay báo cáo hiệu quả một chương trình đã chạy?** Phạm vi toàn công ty hay một khối?
 2. **Mục tiêu kinh doanh năm tới cần năng lực gì mới?** Ví dụ bán kênh mới, dùng phần mềm mới, mở cửa hàng cần quản lý mới. Phòng nào đang có vấn đề do thiếu kỹ năng (tỉ lệ chốt thấp, lỗi kho, khiếu nại)?
 3. **Dữ liệu đang có?** Kết quả đánh giá hiệu quả (HR-06), khảo sát nhu cầu trước đây, số liệu lỗi, khiếu nại, nghỉ việc, danh sách người sắp lên quản lý. Không có thì nói để thiết kế khảo sát.
 4. **Ngân sách, thời gian học được, và ai duyệt?** Số tiền hoặc % quỹ lương, giờ học mỗi người mỗi tháng chấp nhận được, có hỗ trợ học phí bên ngoài không.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Khảo sát nhu cầu ở 3 cấp**: tổ chức (mục tiêu năm cần năng lực gì), phòng ban (chỉ số nào đang hụt vì thiếu kỹ năng), cá nhân (tự đánh giá và quản lý đánh giá). Kết hợp số liệu thật (lỗi, khiếu nại, tỉ lệ chốt) với khảo sát, không chỉ hỏi "muốn học gì".
 3. **Xếp ưu tiên 3 nhóm**: bắt buộc (luật, an toàn, hệ thống mới), cần thiết (gắn mục tiêu năm), mong muốn (phát triển cá nhân). Ngân sách rót theo thứ tự này.
 4. **Mỗi chương trình gắn một chỉ số kinh doanh và một người chịu trách nhiệm áp dụng** (thường là trưởng phòng, không phải nhân sự). Khóa nào không gán được chỉ số thì ghi là thử nghiệm với điều kiện dừng.
@@ -89,7 +91,7 @@ Chỉ tính phần thay đổi có thể quy cho đào tạo; ghi rõ giả đ�
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Ke-hoach-dao-tao-[nam].md` (hoặc `Khao-sat-nhu-cau-dao-tao-[nam].md`, `Bao-cao-hieu-qua-dao-tao-[chuong-trinh].md` nếu chỉ làm một phần).
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Ke-hoach-dao-tao-[nam].md` (hoặc `Khao-sat-nhu-cau-dao-tao-[nam].md`, `Bao-cao-hieu-qua-dao-tao-[chuong-trinh].md` nếu chỉ làm một phần).
 
 ### 4.1 Tóm tắt cho ban giám đốc
 
@@ -163,7 +165,7 @@ Kết thúc bằng **5 việc cần làm trong 30 ngày tới**, gợi ý: gửi
 
 ## 5. Danh sách kiểm tra chất lượng
 
-- [ ] Đã hỏi hoặc có đủ: phạm vi, mục tiêu kinh doanh và năng lực cần, dữ liệu đang có, ngân sách và thời gian học; đã tóm tắt và đề xuất cách làm, được người dùng xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: phạm vi, mục tiêu kinh doanh và năng lực cần, dữ liệu đang có, ngân sách và thời gian học.
 - [ ] Nếu người dùng có biểu mẫu, kết quả khớp đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Khảo sát có 3 cấp, kết hợp số liệu thật; có danh sách vấn đề không giải quyết bằng đào tạo.
 - [ ] Mỗi chương trình có nhóm ưu tiên, chỉ số kinh doanh gắn kèm, người chịu trách nhiệm áp dụng.

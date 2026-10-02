@@ -3,6 +3,8 @@
 > **Dùng khi:** lập kế hoạch tài chính cho năm hoặc quý tới, cần dự báo doanh thu, chi phí, lợi nhuận với giả định rõ ràng, biết điểm hòa vốn và biết công ty sống được không nếu thị trường xấu.
 > **Kết quả:** bản kế hoạch tài chính 3 kịch bản (xấu, cơ sở, tốt) có xác suất và dấu hiệu nhận biết, bảng giả định, dự báo theo tháng tách B2C và B2B, điểm hòa vốn, kế hoạch hành động theo từng kịch bản, bản đồ rủi ro và cơ chế so sánh kế hoạch với thực tế hằng tháng.
 > **Không dùng khi:** chỉ cần nhìn tiền mặt 3 đến 6 tháng tới (dùng FIN-02), cần tính lãi lỗ từng khách hoặc từng kênh (FIN-03), thẩm định một khoản đầu tư cụ thể (FIN-07), cần ngân sách chi tiết từng phòng ban (FIN-09), hoặc chỉ cần ngân sách marketing (MKT-06).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ bổ sung:** DSO = số ngày trung bình từ bán chịu đến thu được tiền.
 
 ---
 
@@ -17,7 +19,7 @@
 - Người duyệt kế hoạch: [ĐIỀN: ví dụ "chủ doanh nghiệp và giám đốc kinh doanh"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không vay thêm", "không cắt nhân sự", "lãi gộp không dưới 30%"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,7 +39,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Phạm vi và kỳ kế hoạch?** Cả năm hay một quý? Toàn công ty hay một dòng sản phẩm, một chi nhánh? Lập mới hay cập nhật giữa năm? Độ chi tiết theo tháng hay theo quý?
 2. **Số liệu quá khứ đang có?** Doanh thu, lãi gộp, chi phí theo tháng của 6 đến 12 tháng gần nhất, tách B2C và B2B nếu được. Không có thì nói ước lượng theo quý.
@@ -46,13 +48,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu người dùng chỉ có số liệu rất thô, lập kế hoạch với giả định tham khảo ở phần 3 và ghi rõ từng chỗ cần thay bằng số thật.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mọi con số dự báo phải truy được về một giả định.** Mỗi dòng doanh thu, chi phí ghi rõ "tính từ đâu". Chỗ nào thiếu dữ liệu thật thì ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo dùng tạm phải ghi rõ là giả định.
 3. **Doanh thu từ dưới lên, kiểm tra từ trên xuống.** B2C: số đơn mỗi kênh nhân giá trị đơn trung bình. B2B: số đại lý hoạt động nhân doanh số bình quân mỗi đại lý, cộng hợp đồng doanh nghiệp đã ký hoặc có khả năng cao.
 4. **Tách B2C và B2B, tách kênh.** Mỗi nhóm có biên lãi gộp, chi phí kênh và độ trễ tiền khác nhau. Gộp chung thì không thấy kênh nào đang kéo lợi nhuận xuống.
@@ -102,7 +104,7 @@ Ví dụ giả định: chi phí cố định 420 triệu/tháng, lãi góp 28%
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Dùng tiêu đề, bảng và danh sách. Tên tài liệu: `Ke-hoach-tai-chinh-[cong-ty]-[nam-hoac-quy].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Dùng tiêu đề, bảng và danh sách. Tên tài liệu gợi ý: `Ke-hoach-tai-chinh-[cong-ty]-[nam-hoac-quy].md`.
 
 ### 4.1 Tóm tắt 1 trang cho ban giám đốc
 
@@ -187,7 +189,7 @@ Kết thúc bằng **5 việc cần làm trong 30 ngày tới** và gợi ý dù
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: phạm vi và kỳ, số liệu quá khứ, mục tiêu và hai thái cực, người đọc; đã tóm tắt phương án và được xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: phạm vi và kỳ, số liệu quá khứ, mục tiêu và hai thái cực, người đọc.
 - [ ] Nếu người dùng có mẫu, kết quả bám đúng mục, thứ tự, đơn vị của mẫu.
 - [ ] Tóm tắt 1 trang đọc độc lập được, có 3 kịch bản, quyết định không hối tiếc và quyết định đặt cược lớn.
 - [ ] Mọi số dự báo truy được về một dòng trong bảng giả định.

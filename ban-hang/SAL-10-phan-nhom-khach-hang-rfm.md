@@ -3,6 +3,9 @@
 > **Dùng khi:** có dữ liệu giao dịch (ít nhất mã khách, ngày mua, giá trị đơn) nhưng đang đối xử mọi khách như nhau, không biết ai là khách giá trị cao, ai sắp mất, ai mới mua nên chăm thế nào.
 > **Kết quả:** bảng phân nhóm theo lần mua gần nhất, tần suất, giá trị (RFM) với số lượng và đóng góp doanh thu từng nhóm, nhận xét sức khỏe tệp khách, ma trận chăm sóc và ngân sách cho mỗi nhóm, nhãn phụ cho khách có giá trị ngoài doanh thu, cách tính trên Google Sheet, và lịch chạy lại kèm theo dõi chuyển nhóm.
 > **Không dùng khi:** chưa có dữ liệu giao dịch (dùng SAL-01 để dựng bảng theo dõi trước), cần chấm điểm khách chưa mua (SAL-02), hoặc cần kịch bản chăm sóc chi tiết sau khi đã có nhóm (SAL-09).
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp; RFM = cách chia nhóm khách theo lần mua gần nhất, số lần mua và số tiền đã chi; OA = tài khoản Zalo chính thức của doanh nghiệp.
+> **Từ ngữ bổ sung:** CRM = nơi lưu thông tin khách và lịch sử trao đổi.
+> AI = trí tuệ nhân tạo.
 
 ---
 
@@ -17,7 +20,7 @@
 - Quy định bảo vệ dữ liệu cá nhân: [ĐIỀN: ví dụ "chỉ gửi mã khách cho AI, không gửi tên và số điện thoại"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không giảm giá cho nhóm giá trị cao", "không gộp đại lý với khách lẻ"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -30,27 +33,27 @@ Tư duy nền:
 - Phân nhóm chỉ có giá trị khi mỗi nhóm có một hành động khác nhau. Nếu hai nhóm cùng một hành động, gộp lại.
 - Chu kỳ mua quyết định ngưỡng. Mua sữa bột khác mua máy lạnh; đại lý nhập hàng tháng khác khách lẻ mua quà Tết.
 - Thường 20% khách tạo phần lớn doanh thu; mất một khách nhóm đó vì thiếu quan tâm tốn hơn mọi chiến dịch tìm khách mới.
-- Chỉ làm việc trên mã khách. Không cần tên, số điện thoại để phân nhóm; tuân thủ Nghị định 13/2023 về bảo vệ dữ liệu cá nhân.
+- Chỉ làm việc trên mã khách. Không cần tên, số điện thoại để phân nhóm; tuân thủ Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP về bảo vệ dữ liệu cá nhân.
 - Ý nghĩa kinh doanh quan trọng hơn công thức. Mỗi bảng số phải đi kèm một câu "điều này nghĩa là gì và làm gì".
 
 ---
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Dữ liệu có gì?** Số khách, khoảng thời gian, cột đang có (mã khách, ngày mua, giá trị, sản phẩm, kênh, loại khách). Gửi mẫu 10 đến 20 dòng đã bỏ tên và số điện thoại, hoặc mô tả.
 2. **Chu kỳ mua lại bình thường bao lâu và có khác nhau giữa nhóm không?** B2C và B2B, hoặc theo dòng sản phẩm. Dùng để đặt ngưỡng lần mua gần nhất.
 3. **Mục tiêu dùng kết quả và ai sẽ chăm sóc?** Chọn khách để chăm sóc ưu tiên, tìm khách sắp mất, chọn nhóm cho chương trình thân thiết, hay quyết định ngân sách chăm sóc. Đội chăm sóc có bao nhiêu người, mỗi người theo được bao nhiêu khách?
 4. **Yếu tố nào quan trọng nhất với ngành mình, và có khách giá trị ngoài doanh thu không?** Tần suất (hàng tiêu dùng nhanh, dịch vụ ăn uống), giá trị (B2B, đại lý), hay lần mua gần nhất (sản phẩm theo mùa). Có khách mua ít nhưng giới thiệu nhiều, có ảnh hưởng, hoặc là tên tuổi tham chiếu không? Không rõ thì dùng trọng số mặc định.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Làm sạch trước khi chấm.** Loại đơn hủy, đơn hoàn, đơn thử nghiệm, khách nội bộ, giá trị âm. Gộp khách trùng mã. Ghi rõ đã loại bao nhiêu dòng và vì sao.
 3. **Tách B2C và B2B, đại lý trước khi chấm.** Một đại lý mua 50 triệu mỗi tháng và một khách lẻ mua 500 nghìn không thể cùng một thang. Mỗi tệp chấm riêng, phân nhóm riêng.
 4. **Chấm 3 chỉ số theo thang 1 đến 5**: lần mua gần nhất (Recency, R) tính theo số ngày từ đơn cuối, tần suất (Frequency, F) tính theo số đơn trong kỳ, giá trị (Monetary, M) tính theo tổng chi tiêu trong kỳ. Dùng ngũ phân vị (chia tệp thành 5 phần bằng nhau) hoặc ngưỡng cố định theo chu kỳ nếu tệp nhỏ.
@@ -89,7 +92,7 @@ Xếp bậc theo giá trị năm cho tệp B2B nhỏ (giả định): bạch kim
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Phan-nhom-RFM-[nhom-khach]-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau. Với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Phan-nhom-RFM-[nhom-khach]-[thang-nam].md`.
 
 ### 4.1 Tóm tắt cho quản lý
 

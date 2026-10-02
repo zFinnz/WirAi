@@ -3,6 +3,9 @@
 > **Dùng khi:** cuối tháng cần báo cáo tài chính cho chủ doanh nghiệp hoặc ban giám đốc không chuyên kế toán: doanh thu, lãi gộp, chi phí, lợi nhuận, dòng tiền, công nợ, tồn kho, so với kế hoạch, tháng trước và lũy kế năm, kèm nguyên nhân và đề xuất; hoặc cần phiên bản quý để trình hội đồng quản trị.
 > **Kết quả:** trang tóm tắt 1 trang có đèn cảnh báo, bảng chỉ số chính với 3 mốc so sánh và lũy kế, kết quả kinh doanh tách B2C và B2B và theo nhóm sản phẩm, dòng tiền tháng, công nợ và tồn kho, chỉ số thanh khoản và đòn bẩy, phân tích biến động có nguyên nhân, dự báo cả năm cập nhật, đề xuất và câu hỏi cho ban giám đốc.
 > **Không dùng khi:** cần báo cáo cho phòng ban khác (dùng OPS-05), báo cáo bán hàng theo phễu (SAL-12), báo cáo marketing (MKT-22), cần dự báo tương lai chi tiết (FIN-01, FIN-02), cần theo dõi ngân sách từng phòng (FIN-09), hoặc cần báo cáo tài chính theo chuẩn kế toán để nộp cơ quan thuế.
+> **Từ ngữ:** B2C = bán cho người tiêu dùng; B2B = bán cho doanh nghiệp.
+> **Từ ngữ thường gặp:** phễu = các bước từ tiếp cận đến kết quả, kèm số người hoặc việc còn lại sau mỗi bước.
+> **Từ ngữ bổ sung:** DSO = số ngày trung bình từ bán chịu đến thu được tiền.
 
 ---
 
@@ -16,7 +19,7 @@
 - Chỉ số ban giám đốc quan tâm nhất: [ĐIỀN: ví dụ "lãi gộp theo kênh, tiền mặt cuối tháng, nợ quá hạn"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không gửi số chưa đối chiếu với kế toán", "không nêu tên khách nợ trong bản phát rộng", "không so sánh lương cá nhân"]
 
-Dòng nào không rõ ghi `không áp dụng`. Không để nguyên chữ `[ĐIỀN]`.
+Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
 
 ---
 
@@ -37,7 +40,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lời trong yêu cầu, bỏ qua câu đó.
+Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
 
 1. **Số liệu tháng nào và có những gì?** Dán bảng: doanh thu theo kênh và nhóm sản phẩm, giá vốn, chi phí theo nhóm, số dư tiền đầu và cuối tháng, công nợ phải thu và phải trả, tồn kho, nợ vay. Có số kế hoạch, tháng trước và lũy kế từ đầu năm để so không?
 2. **Tháng này có sự kiện đặc biệt không?** Khuyến mãi lớn, khách hoặc đại lý lớn mới hoặc mất, tăng giá, nhập hàng lớn, chi một lần (sửa kho, thưởng, thuế quý), thay đổi nhân sự.
@@ -46,13 +49,13 @@ Hỏi tối đa 4 câu trước khi viết. Nếu người dùng đã trả lờ
 
 Nếu số liệu các nguồn không khớp nhau (ví dụ doanh thu sàn khác số kế toán), ghi chú chênh lệch và đề xuất kiểm tra, không tự chọn một số rồi im lặng.
 
-Sau khi có đủ thông tin, tóm tắt bối cảnh và đề xuất cách làm trong 3 đến 5 dòng (phạm vi, cấu trúc kết quả, giả định chính), rồi chờ người dùng xác nhận mới xuất kết quả đầy đủ. Nếu người dùng nói "làm luôn", bỏ qua bước này.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
-1. **Bám biểu mẫu của người dùng.** Nếu người dùng dán mẫu báo cáo, bảng, cấu trúc đang dùng trong công ty, kết quả phải khớp đúng các mục, thứ tự, đơn vị và cách xưng hô của mẫu đó. Chỉ dùng cấu trúc ở phần 4 khi không có mẫu. Giữ cùng một bố cục tháng này qua tháng khác để so được xu hướng.
+1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Kiểm tra số trước khi viết chữ.** Doanh thu trừ giá vốn bằng lãi gộp; lãi gộp trừ chi phí bằng lợi nhuận; tiền đầu kỳ cộng thu trừ chi bằng tiền cuối kỳ. Sai một phép cộng là mất toàn bộ uy tín báo cáo.
 3. **Mở đầu bằng 3 đến 5 kết luận**, mỗi kết luận một câu có số. Người đọc dừng ở đây vẫn nắm được tháng.
 4. **Mỗi chỉ số có 3 mốc so sánh và lũy kế:** kế hoạch, tháng trước, cùng kỳ năm trước (nếu có), cộng lũy kế từ đầu năm so với kế hoạch năm. Không có kế hoạch thì dùng trung bình 3 tháng gần nhất làm mốc và ghi rõ. Số nào thiếu thì ghi `[cần bổ sung: mô tả dữ liệu cần]`, không bịa, không để trống.
@@ -94,7 +97,7 @@ Tách biến động doanh thu (giả định đơn vị triệu đồng)
 
 ## 4. Cấu trúc kết quả
 
-Xuất ra đúng thứ tự sau. Tên tài liệu: `Bao-cao-tai-chinh-quan-tri-[thang-nam].md`.
+Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, trình bày theo các mục sau; với yêu cầu hẹp, chỉ xuất các mục liên quan. Tên tài liệu gợi ý: `Bao-cao-tai-chinh-quan-tri-[thang-nam].md`.
 
 ### 4.1 Trang tóm tắt cho ban giám đốc
 
@@ -176,7 +179,7 @@ Kết thúc bằng **3 việc cần làm trong 7 ngày tới**. Nếu tiền m�
 
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
-- [ ] Đã hỏi hoặc có đủ: số liệu và kỳ, sự kiện đặc biệt, người đọc và quy trình phát hành, chỉ số và ngưỡng; đã tóm tắt phương án và được xác nhận (trừ khi người dùng nói làm luôn).
+- [ ] Đã hỏi hoặc có đủ: số liệu và kỳ, sự kiện đặc biệt, người đọc và quy trình phát hành, chỉ số và ngưỡng.
 - [ ] Nếu người dùng có mẫu, kết quả bám đúng mục, thứ tự, đơn vị của mẫu; bố cục giống tháng trước.
 - [ ] Các phép cộng trừ khớp: lãi gộp, lợi nhuận, tiền cuối kỳ; số tổng khớp sổ kế toán.
 - [ ] Trang tóm tắt đọc độc lập được, mở bằng kết luận, có đèn, điểm tin tốt và quyết định cần chốt.
