@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Aptos, 'Segoe UI', Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="section-kicker" data-pptx-role="chrome" data-pptx-bounds="40 30 540 30">
+    <rect x="40" y="38" width="12" height="12" rx="3" fill="#64748B" />
+    <text x="62" y="50" font-size="16" font-weight="bold" letter-spacing="1.5" fill="#1D3557">NÂNG CAO · AI TỰ THAO TÁC</text>
+  </g>
+
+  <g id="roadmap-tracker" data-pptx-role="chrome" data-pptx-bounds="600 14 640 62">
+    <rect x="608" y="36" width="120" height="8" rx="3" fill="#E3E9F1" />
+    <rect x="736" y="32" width="120" height="12" rx="3" fill="#E3E9F1" />
+    <rect x="864" y="28" width="120" height="16" rx="3" fill="#E3E9F1" />
+    <rect x="992" y="24" width="120" height="20" rx="3" fill="#E3E9F1" />
+    <rect x="1120" y="20" width="120" height="24" rx="3" fill="#E8833A" />
+    <text x="608" y="66" font-size="16" fill="#5B6675">1 Instructions</text>
+    <text x="736" y="66" font-size="16" fill="#5B6675">2 Prompt</text>
+    <text x="864" y="66" font-size="16" fill="#5B6675">3 Skill</text>
+    <text x="992" y="66" font-size="16" fill="#5B6675">4 Plugin</text>
+    <text x="1120" y="66" font-size="16" font-weight="bold" fill="#1F2937">Nâng cao</text>
+  </g>
+
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Phần nâng cao: AI bắt đầu tự cầm chuột,</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">càng tự chủ thì phanh càng phải chắc</text><g id="intro-tag" data-pptx-bounds="920 154 320 40">
+    <rect x="920" y="156" width="320" height="34" rx="17" fill="#F3F6FA" stroke="#64748B" stroke-width="1.5" />
+    <text x="1080" y="179" font-size="16" font-weight="bold" text-anchor="middle" fill="#5B6675">GIỚI THIỆU, KHÔNG THỰC HÀNH</text>
+  </g>
+
+  <g id="tool-browser" data-pptx-bounds="40 300 384 330">
+    <rect x="40" y="300" width="384" height="330" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
+    <rect x="52" y="312" width="360" height="52" rx="12" fill="#64748B" />
+    
+  <g transform="translate(68, 326)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M4 8h16" />
+    <path d="M4 6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2l0 -12" />
+    <path d="M8 4v4" />
+  </g>
+    <text x="104" y="346" font-size="24" font-weight="bold" fill="#FFFFFF">Browser extension</text>
+    <text font-size="20" fill="#1F2937" x="64" y="400">Thao tác trên trang web bạn</text><text font-size="20" fill="#1F2937" x="64" y="426">đang đăng nhập sẵn</text><text x="64" y="462" font-size="18" font-style="italic" fill="#5B6675">Ví như: nhờ đồng nghiệp lướt web giúp</text>
+    <rect x="64" y="482" width="186" height="30" rx="15" fill="#FCEBDD" />
+    <text x="80" y="503" font-size="16" font-weight="bold" fill="#1D3557">Rủi ro: trung bình</text>
+    <text font-size="18" fill="#1F2937" x="64" y="546"><tspan><tspan font-weight="bold" fill="#1D3557">Giữ:</tspan> chỉ Allow once / Allow for site;</tspan></text><text font-size="18" fill="#1F2937" x="64" y="570">trang web có thể cài lệnh ẩn</text></g>
+
+  <g id="tool-computer" data-pptx-bounds="448 262 384 330">
+    <rect x="448" y="262" width="384" height="330" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
+    <rect x="460" y="274" width="360" height="52" rx="12" fill="#64748B" />
+    
+  <g transform="translate(476, 288)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M7.904 17.563a1.2 1.2 0 0 0 2.228 .308l2.09 -3.093l4.907 4.907a1.067 1.067 0 0 0 1.509 0l1.047 -1.047a1.067 1.067 0 0 0 0 -1.509l-4.907 -4.907l3.113 -2.09a1.2 1.2 0 0 0 -.309 -2.228l-13.582 -3.904l3.904 13.563" />
+  </g>
+    <text x="512" y="308" font-size="24" font-weight="bold" fill="#FFFFFF">Computer use</text>
+    <text font-size="20" fill="#1F2937" x="472" y="362">Nhìn màn hình, tự click, gõ</text><text font-size="20" fill="#1F2937" x="472" y="388">trong phần mềm trên máy</text><text x="472" y="424" font-size="18" font-style="italic" fill="#5B6675">Ví như: giao chuột và bàn phím</text>
+    <rect x="472" y="444" width="126" height="30" rx="15" fill="#F9E3E0" />
+    <text x="488" y="465" font-size="16" font-weight="bold" fill="#C0392B">Rủi ro: cao</text>
+    <text font-size="18" fill="#1F2937" x="472" y="508"><tspan><tspan font-weight="bold" fill="#1D3557">Giữ:</tspan> đóng phần mềm nhạy cảm,</tspan></text><text font-size="18" fill="#1F2937" x="472" y="532">không bấm Always allow</text></g>
+
+  <g id="tool-dots" data-pptx-bounds="856 222 384 330">
+    <rect x="856" y="222" width="384" height="330" rx="16" fill="#FFFFFF" stroke="#C0392B" stroke-width="1.5" />
+    <rect x="868" y="234" width="360" height="52" rx="12" fill="#64748B" />
+    
+  <g transform="translate(884, 248)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M6.657 18c-2.572 0 -4.657 -2.007 -4.657 -4.483c0 -2.475 2.085 -4.482 4.657 -4.482c.393 -1.762 1.794 -3.2 3.675 -3.773c1.88 -.572 3.956 -.193 5.444 1c1.488 1.19 2.162 3.007 1.77 4.769h.99c1.913 0 3.464 1.56 3.464 3.486c0 1.927 -1.551 3.487 -3.465 3.487h-11.878" />
+  </g>
+    <text x="920" y="268" font-size="24" font-weight="bold" fill="#FFFFFF">Dots</text>
+    <text font-size="20" fill="#1F2937" x="880" y="322">Agent luôn bật trên máy tính</text><text font-size="20" fill="#1F2937" x="880" y="348">đám mây riêng, theo dõi việc</text><text font-size="20" fill="#1F2937" x="880" y="374">nhiều ngày</text><text x="880" y="408" font-size="18" font-style="italic" fill="#5B6675">Ví như: trợ lý làm việc cả khi bạn vắng</text>
+    <rect x="880" y="428" width="166" height="30" rx="15" fill="#C0392B" />
+    <text x="896" y="449" font-size="16" font-weight="bold" fill="#FFFFFF">Rủi ro: cao nhất</text>
+    <text font-size="18" fill="#1F2937" x="880" y="492"><tspan><tspan font-weight="bold" fill="#1D3557">Giữ:</tspan> đặt luật “cho tôi xem nháp</tspan></text><text font-size="18" fill="#1F2937" x="880" y="516">trước khi gửi”</text></g>
+
+  <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">33 / 35</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Aptos, 'Segoe UI', Arial, sans-serif" data-pptx-page-role="section">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="tier-panel" data-pptx-bounds="0 0 460 720">
+    <rect x="0" y="0" width="460" height="720" fill="#4A7FB5" />
+    <text x="56" y="140" font-size="28" font-weight="bold" letter-spacing="4" fill="#FFFFFF">TẦNG 2</text>
+    <text x="48" y="400" font-size="200" font-weight="bold" fill="#FFFFFF">2</text>
+    <text x="56" y="486" font-size="52" font-weight="bold" fill="#FFFFFF">Prompt</text>
+    
+  <g transform="translate(56, 560) scale(2.66667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M8 9h8" />
+    <path d="M8 13h6" />
+    <path d="M9 18h-3a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-3l-3 3l-3 -3" />
+  </g>
+  </g>
+
+  <g id="roadmap-tracker" data-pptx-role="chrome" data-pptx-bounds="600 14 640 62">
+    <rect x="608" y="36" width="120" height="8" rx="3" fill="#E3E9F1" />
+    <rect x="736" y="32" width="120" height="12" rx="3" fill="#E8833A" />
+    <rect x="864" y="28" width="120" height="16" rx="3" fill="#E3E9F1" />
+    <rect x="992" y="24" width="120" height="20" rx="3" fill="#E3E9F1" />
+    <rect x="1120" y="20" width="120" height="24" rx="3" fill="#E3E9F1" />
+    <text x="608" y="66" font-size="16" fill="#5B6675">1 Instructions</text>
+    <text x="736" y="66" font-size="16" font-weight="bold" fill="#1F2937">2 Prompt</text>
+    <text x="864" y="66" font-size="16" fill="#5B6675">3 Skill</text>
+    <text x="992" y="66" font-size="16" fill="#5B6675">4 Plugin</text>
+    <text x="1120" y="66" font-size="16" fill="#5B6675">Nâng cao</text>
+  </g>
+
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="520" y="168">Giao đúng việc,</text><text font-size="42" font-weight="bold" fill="#1D3557" x="520" y="218">kiểm chứng được kết quả</text><g id="tier-metaphor" data-pptx-bounds="520 248 720 112">
+    <rect x="520" y="252" width="590" height="48" rx="24" fill="#F3F6FA" />
+    
+  <g transform="translate(540, 264)" fill="none" stroke="#4A7FB5" stroke-width="2">
+    <path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -9" />
+    <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
+    <path d="M12 12l0 .01" />
+    <path d="M3 13a20 20 0 0 0 18 0" />
+  </g>
+    <text x="576" y="284" font-size="22" fill="#1D3557">Mỗi ngày — giao việc bằng phiếu giao việc rõ ràng</text>
+    <text x="520" y="344" font-size="22" font-style="italic" fill="#5B6675">Prompt một dòng cho kết quả chung chung, phải hỏi lại 4–5 lượt.</text>
+  </g>
+
+  <g id="tier-objectives" data-pptx-bounds="520 386 720 248">
+    <text x="520" y="404" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">HỌC XONG TẦNG NÀY, BẠN SẼ:</text>
+    <circle cx="536" cy="439" r="15" fill="#4A7FB5" />
+    <text x="536" y="446" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">1</text>
+    <text font-size="22" fill="#1F2937" x="566" y="446">Giao việc theo công thức 4 phần: Bối cảnh, Yêu cầu,</text><text font-size="22" fill="#1F2937" x="566" y="474">Tiêu chí, Định dạng</text><circle cx="536" cy="519" r="15" fill="#4A7FB5" />
+    <text x="536" y="526" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">2</text>
+    <text x="566" y="526" font-size="22" fill="#1F2937">Dùng 3 kỹ thuật: đưa mẫu, cho AI hỏi lại, chia nhiều bước</text>
+    <circle cx="536" cy="567" r="15" fill="#4A7FB5" />
+    <text x="536" y="574" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">3</text>
+    <text x="566" y="574" font-size="22" fill="#1F2937">Phân tích file số liệu mà không để AI bịa</text>
+    <circle cx="536" cy="615" r="15" fill="#4A7FB5" />
+    <text x="536" y="622" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">4</text>
+    <text x="566" y="622" font-size="22" fill="#1F2937">Kiểm chứng đầu ra trước khi dùng</text>
+  </g>
+
+  <text id="footer-course" data-pptx-role="footer" x="520" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">12 / 35</text>
+</svg>

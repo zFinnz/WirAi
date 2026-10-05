@@ -15,12 +15,14 @@
 - Sản phẩm chính và chu kỳ mua lại bình thường: [ĐIỀN: ví dụ "mỹ phẩm 45 ngày; B2B đặt hàng hằng tháng"]
 - Nhóm khách trong dữ liệu: [ĐIỀN: ví dụ "B2C qua Shopee, cửa hàng, Zalo; B2B gồm 60 đại lý và 20 khách doanh nghiệp"]
 - Dữ liệu đang có và nguồn: [ĐIỀN: ví dụ "xuất từ phần mềm bán hàng, 18 tháng, 4.000 khách, có mã khách, ngày, giá trị, kênh"]
-- Biên lợi nhuận gộp trung bình: [ĐIỀN: để tính ngân sách chăm sóc hợp lý]
+- Biên lợi nhuận gộp trung bình: [ĐIỀN: để tính ngân sách chăm sóc hợp lý (làm tròn theo nhóm, không ghi theo từng mã)]
 - Kênh chăm sóc theo nhóm và người làm: [ĐIỀN: ví dụ "Zalo OA, gọi điện, email, 2 nhân viên phụ trách đại lý"]
 - Quy định bảo vệ dữ liệu cá nhân: [ĐIỀN: ví dụ "chỉ gửi mã khách cho AI, không gửi tên và số điện thoại"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không giảm giá cho nhóm giá trị cao", "không gộp đại lý với khách lẻ"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -40,18 +42,22 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Dữ liệu có gì?** Số khách, khoảng thời gian, cột đang có (mã khách, ngày mua, giá trị, sản phẩm, kênh, loại khách). Gửi mẫu 10 đến 20 dòng đã bỏ tên và số điện thoại, hoặc mô tả.
 2. **Chu kỳ mua lại bình thường bao lâu và có khác nhau giữa nhóm không?** B2C và B2B, hoặc theo dòng sản phẩm. Dùng để đặt ngưỡng lần mua gần nhất.
 3. **Mục tiêu dùng kết quả và ai sẽ chăm sóc?** Chọn khách để chăm sóc ưu tiên, tìm khách sắp mất, chọn nhóm cho chương trình thân thiết, hay quyết định ngân sách chăm sóc. Đội chăm sóc có bao nhiêu người, mỗi người theo được bao nhiêu khách?
 4. **Yếu tố nào quan trọng nhất với ngành mình, và có khách giá trị ngoài doanh thu không?** Tần suất (hàng tiêu dùng nhanh, dịch vụ ăn uống), giá trị (B2B, đại lý), hay lần mua gần nhất (sản phẩm theo mùa). Có khách mua ít nhưng giới thiệu nhiều, có ảnh hưởng, hoặc là tên tuổi tham chiếu không? Không rõ thì dùng trọng số mặc định.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
+
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
 
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Làm sạch trước khi chấm.** Loại đơn hủy, đơn hoàn, đơn thử nghiệm, khách nội bộ, giá trị âm. Gộp khách trùng mã. Ghi rõ đã loại bao nhiêu dòng và vì sao.
@@ -59,7 +65,7 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 4. **Chấm 3 chỉ số theo thang 1 đến 5**: lần mua gần nhất (Recency, R) tính theo số ngày từ đơn cuối, tần suất (Frequency, F) tính theo số đơn trong kỳ, giá trị (Monetary, M) tính theo tổng chi tiêu trong kỳ. Dùng ngũ phân vị (chia tệp thành 5 phần bằng nhau) hoặc ngưỡng cố định theo chu kỳ nếu tệp nhỏ.
 5. **Ngưỡng R đặt theo chu kỳ mua của ngành**, không theo số trung bình chung. R điểm 5 nghĩa là mua trong vòng 1 chu kỳ; R điểm 1 nghĩa là quá 3 chu kỳ.
 6. **Số nhóm 6 đến 8, mỗi nhóm một hành động, một kênh, một tần suất, một ngân sách.** Nhiều nhóm hơn thì đội nhỏ không chạy nổi. Thêm **nhãn phụ** ngoài RFM cho khách giá trị phi tài chính: giới thiệu nhiều, có ảnh hưởng, khách tham chiếu B2B; nhãn phụ nâng mức chăm sóc nhưng không đổi điểm.
-7. **Tệp dưới 50 khách thì không cần RFM; thiếu dữ liệu thì đánh dấu, không bịa.** Khuyên xếp bậc theo giá trị năm (bạch kim, vàng, bạc, đồng) và chăm sóc từng khách bằng tay. Sản phẩm mua một lần (bất động sản, thiết bị lớn) thì bỏ F, dùng R và M. Chỗ chưa có số (chu kỳ, biên, giá trị khách) ghi `[cần bổ sung: mô tả dữ liệu cần]`; mọi số tham khảo ghi rõ là giả định.
+7. **Tệp dưới 50 khách thì không cần RFM; thiếu dữ liệu thì đánh dấu, không bịa.** Khuyên xếp bậc theo giá trị năm (bạch kim, vàng, bạc, đồng) và chăm sóc từng khách bằng tay. Sản phẩm mua một lần (bất động sản, thiết bị lớn) thì bỏ F, dùng R và M. Chỗ chưa có số (chu kỳ, biên, giá trị khách) ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]`; mọi số tham khảo ghi rõ là giả định.
 8. **Mỗi nhóm có một câu nhận định kinh doanh** và biểu đồ mật độ bằng ký tự để quản lý nhìn nhanh. Khách giá trị cao sắp mất là nhóm ưu tiên số một, không phải nhóm đông nhất.
 9. **Chạy lại mỗi quý, lưu ảnh chụp từng kỳ, ghi lại khách chuyển nhóm.** Khách rơi từ nhóm trung thành xuống có nguy cơ là tín hiệu để SAL-09 can thiệp; khách lên nhóm là bằng chứng chăm sóc có tác dụng.
 
@@ -83,7 +89,7 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 | Khách mới (New) | R 5, F 1 | mua lần đầu | chuỗi sau mua (SAL-09), không bán thêm sớm | tự động theo mốc | thấp |
 | Cần chú ý (Need Attention) | R 3, F 3, M 3 | trung bình mọi mặt, đang nguội | nhắc sản phẩm từng quan tâm, khuyến mãi có hạn, hỏi lý do | Zalo OA hoặc email, hằng tháng | trung bình |
 | Có nguy cơ (At Risk) | R 1 đến 2, F 3 đến 5, M 3 đến 5 | từng mua nhiều, lâu không quay lại | gọi trực tiếp, hỏi lý do, đề nghị khớp lý do | gọi trong 7 ngày, nhân viên có kinh nghiệm | cao nhất, ưu tiên số một |
-| Sắp ngủ (About to Sleep) | R 2 đến 3, F 1 đến 2 | mua ít, đang nguội | tin nhắc nhẹ, khảo sát, một ưu đãi nhỏ | tự động | thấp |
+| Sắp ngủ (About to Sleep) | R 2 đến 3, F 1 đến 2 | mua ít, đang nguội | tin nhắc nhẹ, khảo sát, một ưu đãi nhỏ đã duyệt | tự động, mẫu tin duyệt trước khi bật | thấp |
 | Đã ngủ (Hibernating) | R 1, F 1 đến 2 | lâu không mua, giá trị thấp | 1 đến 2 tin kéo lại rồi dừng, tránh làm phiền | tự động, khi có chương trình | rất thấp |
 
 Xếp bậc theo giá trị năm cho tệp B2B nhỏ (giả định): bạch kim 5% khách đứng đầu, người phụ trách riêng, gặp hằng tháng; vàng 15% tiếp theo, gọi hằng quý; bạc 30% tiếp theo, email và Zalo định kỳ; đồng phần còn lại, tự động. Điền ngưỡng tiền bằng số thật của công ty.
@@ -164,5 +170,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý dùn
 - [ ] Có 2 danh sách ưu tiên hành động ngay với hạn và người phụ trách.
 - [ ] Chỉ dùng mã khách; không yêu cầu tên, số điện thoại.
 - [ ] Tệp dưới 50 khách hoặc sản phẩm mua một lần đã xử lý theo ngoại lệ; có hướng dẫn tính trên Google Sheet và lịch chạy lại kèm theo dõi lên, xuống nhóm.
-- [ ] Mọi số ước tính đã ghi rõ là giả định; chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống; tôn trọng điều cấm trong bối cảnh.
+- [ ] Mọi số ước tính đã ghi rõ là giả định; chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống; tôn trọng điều cấm trong bối cảnh.
 - [ ] Thuật ngữ tiếng Việt kèm tiếng Anh ở lần đầu; kết thúc bằng 5 việc cần làm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

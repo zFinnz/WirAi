@@ -16,7 +16,7 @@
 
 - Tên công ty và ngành: [ĐIỀN]
 - Giá trị đơn trung bình B2C và giá trị hợp đồng trung bình B2B: [ĐIỀN: ví dụ "B2C 1,2 triệu/đơn; B2B 45 triệu/đơn đại lý"]
-- Biên lợi nhuận gộp theo nhóm: [ĐIỀN: ví dụ "B2C 45%, B2B 22%"]
+- Biên lợi nhuận gộp theo nhóm: [ĐIỀN: ví dụ "B2C 45%, B2B 22%" (làm tròn theo nhóm, không ghi theo từng mã)]
 - Kênh đang chạy và số liệu kỳ trước: [ĐIỀN: ví dụ "Facebook chi phí mỗi tin nhắn (CPMess) 32.000đ, tin nhắn thành đơn 18%; Google chưa chạy"]
 - Chi phí marketing cố định hằng tháng: [ĐIỀN: nhân sự, công cụ, sản xuất nội dung, người ảnh hưởng (KOL)]
 - Tỉ lệ khách mua lại, chu kỳ mua lại và tỉ trọng doanh thu khách cũ: [ĐIỀN: ví dụ "B2C 20% mua lại trong 90 ngày; đại lý đặt hàng mỗi tháng; khách cũ chiếm 35% doanh thu"]
@@ -24,6 +24,8 @@
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "ngân sách marketing không quá 12% doanh thu", "không chạy quảng cáo Google"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -44,21 +46,25 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Tính theo hướng nào và kỳ bao lâu?** Tính ngược từ doanh thu mục tiêu ra ngân sách, hay tính xuôi từ ngân sách có sẵn ra số đơn? Kỳ 1 tháng, 1 quý hay 1 năm? Cho B2C, B2B hay cả hai? Công ty đang ở giai đoạn khởi sự, tăng trưởng hay ổn định?
-2. **Bộ số đầu vào?** Giá trị đơn trung bình (AOV), lợi nhuận góp sau chi phí biến đổi, tỉ lệ chuyển đổi từng bước nếu có. Thiếu số nào nói rõ để đặt kịch bản giả định hoặc đánh dấu `[cần bổ sung]`.
+2. **Bộ số đầu vào?** Giá trị đơn trung bình (AOV), lợi nhuận góp sau chi phí biến đổi, tỉ lệ chuyển đổi từng bước nếu có. Thiếu số nào nói rõ để đặt kịch bản giả định hoặc đánh dấu `[CẦN ĐIỀN]`.
 3. **Kênh và kết quả kỳ trước?** Chi phí mỗi tin nhắn hoặc mỗi khách tiềm năng, tỉ lệ chốt, kênh nào tốt nhất, kênh nào đang chi quá hoặc quá ít so với kết quả. Chưa chạy bao giờ thì nói rõ.
 4. **Chi phí ngoài quảng cáo và mốc đặc biệt?** Nhân sự, công cụ, nội dung, KOL; có ra mắt, Tết, lễ hội mua sắm trong kỳ không?
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
+
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
-2. **Chuỗi phễu phải viết ra từng bước, mỗi bước có tỉ lệ và nguồn tỉ lệ.** Không nhảy từ doanh thu thẳng xuống ngân sách. Tỉ lệ nào chưa có số thật thì ghi `[cần bổ sung: mô tả dữ liệu cần, lấy ở đâu]` hoặc dùng giả định được nêu rõ để tính thử; không trình bày giả định như số thị trường.
+2. **Chuỗi phễu phải viết ra từng bước, mỗi bước có tỉ lệ và nguồn tỉ lệ.** Không nhảy từ doanh thu thẳng xuống ngân sách. Tỉ lệ nào chưa có số thật thì ghi `[CẦN ĐIỀN: mô tả dữ liệu cần, lấy ở đâu]` hoặc dùng giả định được nêu rõ để tính thử; không trình bày giả định như số thị trường.
 3. **Tính các ngưỡng cần cho quyết định đang hỏi.** Nếu mua khách bằng tin nhắn hoặc biểu mẫu, tính chi phí tối đa cho một khách tiềm năng từ lợi nhuận góp mỗi đơn và tỉ lệ chốt. Nếu đo doanh thu từ quảng cáo, tính mức doanh thu đủ bù chi phí. Không ép cùng một bộ chỉ số cho mọi kênh.
 4. **Đối chiếu với số của chính kênh và nhóm khách.** Nếu chi phí tìm khách cao hơn mức có thể thu hồi, chỉ rõ bước nào cần sửa: giá trị đơn, lợi nhuận góp, tỉ lệ chốt hoặc chi phí tiếp cận.
 5. **Phân tích độ nhạy.** Thay từng giả định một để xem biến nào làm ngân sách cần đổi nhiều nhất; chỉ đề xuất sửa biến có thể tác động trong thực tế.
@@ -92,7 +98,7 @@ ROI kênh (%)     = (Lợi nhuận góp từ kênh - Chi phí tìm khách của 
 
 | Loại bán hàng | Số cần có | Nếu chưa có |
 |---|---|---|
-| B2C qua tin nhắn | Chi phí mỗi tin nhắn; tỉ lệ tin nhắn thành khách tiềm năng; tỉ lệ thành đơn; lợi nhuận góp mỗi đơn | Ghi `[cần bổ sung]`; có thể tính kịch bản với từng giả định được nêu rõ |
+| B2C qua tin nhắn | Chi phí mỗi tin nhắn; tỉ lệ tin nhắn thành khách tiềm năng; tỉ lệ thành đơn; lợi nhuận góp mỗi đơn | Ghi `[CẦN ĐIỀN]`; có thể tính kịch bản với từng giả định được nêu rõ |
 | B2C qua sàn | Chi phí quảng cáo; lượt xem sản phẩm; số đơn từ quảng cáo; phí sàn, giao hàng, hoàn trả; lợi nhuận góp mỗi đơn | Lấy từ báo cáo sàn và đơn hàng cùng kỳ, không dùng tỉ lệ của kênh khác |
 | B2B | Số liên hệ; số khách đủ điều kiện; số hợp đồng; lợi nhuận góp mỗi hợp đồng; thời gian từ liên hệ đến ký | Tách chi phí tìm khách khỏi chi phí chăm sóc khách cũ |
 
@@ -221,6 +227,8 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Tổng ngân sách gồm nội dung, công cụ, nhân sự, người hợp tác nếu có và dự phòng; cộng đúng 100% theo hạng mục, kênh và tháng.
 - [ ] Ngưỡng tăng và cắt có số cụ thể và số ngày; bảng theo dõi có ROI kênh và cách ghi nhận nguồn đơn.
 - [ ] Có ghi chú mùa vụ nếu kỳ rơi vào Tết, lễ hội mua sắm.
-- [ ] Mọi số tham khảo ghi rõ là giả định; chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Mọi số tham khảo ghi rõ là giả định; chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Tôn trọng giới hạn ngân sách trong bối cảnh; thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu.
 - [ ] Kết thúc bằng 5 việc cần làm trong 7 ngày.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

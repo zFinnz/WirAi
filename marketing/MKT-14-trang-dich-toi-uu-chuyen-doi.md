@@ -17,9 +17,12 @@
 - Tài sản đã có: [ĐIỀN: ví dụ "ảnh sản phẩm thật, 12 đánh giá khách có tên, chưa có video"]
 - Màu, phông chữ, logo theo bộ nhận diện: [ĐIỀN hoặc "chưa có, để người thiết kế đề xuất"]
 - Cách nhận khách tiềm năng: [ĐIỀN: ví dụ "form đổ về Google Sheet, báo Zalo nhóm kinh doanh"]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không dùng đếm ngược giả", "không công khai giá B2B"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -39,27 +42,31 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Xây mới hay sửa trang đang chạy?** Nếu sửa, gửi liên kết hoặc ảnh chụp màn hình trên điện thoại (không phải máy tính). Nếu là luồng nhắn tin, gửi 3 tin đầu nhân viên thường trả lời.
 2. **Mục tiêu chuyển đổi và số hiện tại?** Hành động muốn khách làm, bao nhiêu người vào, bao nhiêu người làm, trong bao lâu, cho nhóm khách B2C hay B2B.
 3. **Khách đến từ đâu?** Quảng cáo Facebook, TikTok, Google, tìm kiếm tự nhiên, người ảnh hưởng, email, Zalo. Gửi kèm nội dung quảng cáo hoặc bài đang dẫn khách về trang.
 4. **Đã sửa gì và kết quả ra sao?** Nếu "sửa xong lại kém hơn", chuyển thẳng sang chế độ hồi quy ở 4.6.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
+
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Khớp thông điệp từ nguồn khách vào trang.** Quảng cáo hứa gì thì màn hình đầu phải nói đúng điều đó. Khách từ tìm kiếm cần câu trả lời cho từ họ gõ; khách từ người ảnh hưởng cần bằng chứng xác nhận lời giới thiệu; khách đã biết thương hiệu thì trang càng ngắn càng tốt.
-3. **Tiêu đề nói kết quả, không nói tên sản phẩm.** Công thức: kết quả mong muốn cộng điều kiện hoặc mốc thời gian, tối đa 60 ký tự. Lý do: người lạ đọc màn hình đầu 5 giây.
+3. **Tiêu đề nói lợi ích khách nhận được, không nói tên sản phẩm.** Kết quả và mốc thời gian chỉ dùng khi có trong tài liệu được cấp (nghiên cứu, số liệu có nguồn và năm) và nằm trong ranh giới ở mục 0. Không hứa 'hết X sau Y ngày'. Tối đa 60 ký tự. Lý do: người lạ đọc màn hình đầu 5 giây.
 4. **Form ưu tiên số điện thoại hoặc Zalo, tối đa 3 trường bắt buộc** với B2C. B2B có thể 4 đến 5 trường (tên, công ty, số điện thoại, nhu cầu) nhưng phải nói rõ điều gì xảy ra sau khi gửi và bao lâu được liên hệ. Mỗi trường thêm vào là bớt một phần tỉ lệ điền.
 5. **Bằng chứng đặt cạnh nơi khách phải quyết định**, không dồn xuống cuối trang. Đánh giá phải có tên, bối cảnh, kết quả cụ thể; đánh giá chung chung "sản phẩm tốt" không tạo tin cậy. Chỉ dùng đánh giá đã xin phép khách bằng văn bản hoặc tin nhắn lưu lại; không dựng đánh giá giả.
 6. **Yếu tố gấp phải thật.** Đếm ngược giả, "còn 3 suất" bịa làm mất niềm tin và vi phạm Luật Quảng cáo về thông tin gây nhầm lẫn. Nếu không có lý do gấp thật thì bỏ.
 7. **Không tin số trước khi đo lường được xác minh.** Sự kiện chuyển đổi phải bắn khi gửi form thành công, không phải khi bấm nút; UTM phải tự đổ vào trường ẩn của form. Sửa xong phải chờ đủ mẫu: tối thiểu 100 lượt chuyển đổi hoặc 7 ngày mới kết luận.
-8. **Chẩn đoán là giả thuyết.** Mỗi nhận định ghi kèm bằng chứng đang có và bằng chứng cần thêm để xác nhận. Chỗ nào thiếu dữ liệu thật (lượt vào, tỉ lệ điền, tốc độ đo trên điện thoại) thì ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo dùng thay thế phải ghi rõ là giả định.
+8. **Chẩn đoán là giả thuyết.** Mỗi nhận định ghi kèm bằng chứng đang có và bằng chứng cần thêm để xác nhận. Chỗ nào thiếu dữ liệu thật (lượt vào, tỉ lệ điền, tốc độ đo trên điện thoại) thì ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo dùng thay thế phải ghi rõ là giả định.
 
 ### Khối trang theo mục tiêu và độ "ấm" của khách (dùng khi thiếu dữ liệu, ghi rõ là giả định)
 
@@ -117,12 +124,12 @@ Khi xây mới, với mỗi khối một bảng:
 | 1. Mở đầu | hiểu giá trị trong 5 giây | tiêu đề dưới 60 ký tự, phụ đề dưới 120 ký tự, CTA dưới 25 ký tự, 3 đến 5 huy hiệu tin cậy | 1 ảnh thật | CTA thấy ngay không cần cuộn |
 | 2. Vấn đề | khách gật đầu "đúng rồi" | 3 đến 5 nỗi đau bằng ngôn ngữ khách | biểu tượng | |
 | 3. Giải pháp | cách hoạt động | 3 đến 4 bước, 3 điểm khác biệt | ảnh từng bước | |
-| 4. Bằng chứng | tin cậy | 3 đến 5 đánh giá có tên, số liệu, logo đối tác (B2B), ảnh trước sau; video khách nói 60 đến 120 giây nếu có | | |
+| 4. Bằng chứng | tin cậy | 3 đến 5 đánh giá có tên, số liệu, logo đối tác (B2B), ảnh trước sau chỉ khi ranh giới ở mục 0 cho phép và có đồng ý của khách; video khách nói 60 đến 120 giây nếu có | | |
 | 5. Form hoặc CTA chính | chuyển đổi | tiêu đề nhắc lợi ích, cam kết bảo mật, điều gì xảy ra sau khi gửi | | tối đa 3 trường B2C |
 | 6. Hỏi đáp | gỡ 4 lo ngại: giá, có hợp với tôi không, có phức tạp không, nếu không hiệu quả thì sao | 5 đến 7 câu | | dạng gập mở |
 | 7. Chốt | lần cuối | tóm giá trị 1 câu, CTA, số điện thoại, nút Zalo | | |
 
-Nếu chưa đủ bằng chứng cho khối 4, ghi `[cần bổ sung: đánh giá có tên]` và kèm cách lấy nhanh: hỏi khách hài lòng 3 câu (vấn đề trước khi dùng, kết quả đạt được, sẽ giới thiệu cho ai), xin phép dùng tên và ảnh, đổi lại một lời cảm ơn hoặc quà nhỏ không gắn điều kiện "phải khen".
+Nếu chưa đủ bằng chứng cho khối 4, ghi `[CẦN ĐIỀN: đánh giá có tên]` và kèm cách lấy nhanh: hỏi khách hài lòng 3 câu (vấn đề trước khi dùng, kết quả đạt được, sẽ giới thiệu cho ai), xin phép dùng tên và ảnh, đổi lại một lời cảm ơn hoặc quà nhỏ không gắn điều kiện "phải khen".
 
 Khi chẩn đoán trang đang chạy:
 
@@ -186,6 +193,9 @@ Bản nháp bố cục duyệt hướng trong 30 phút, bản đầy đủ, gắ
 - [ ] Yếu tố gấp là thật, không đếm ngược giả; bằng chứng có tên, kết quả cụ thể và đã xin phép.
 - [ ] Có 2 đến 3 bản viết thay thế cho mỗi phần chính, kèm lý do và nguồn khách phù hợp.
 - [ ] Mọi số ước tính ghi rõ là giả định; không kết luận hiệu quả khi chưa xác minh đo lường.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Tôn trọng các điều cấm trong phần bối cảnh; thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu.
 - [ ] Kết thúc bằng 5 việc cần làm trong 7 ngày.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

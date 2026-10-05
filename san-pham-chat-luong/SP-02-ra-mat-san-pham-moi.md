@@ -18,9 +18,12 @@
 - Phòng ban tham gia và ai quyết đi hay dừng: [ĐIỀN: ví dụ "ngành hàng, mua hàng, kho, marketing, bán hàng, CSKH; giám đốc quyết"]
 - Công cụ quản lý việc: [ĐIỀN: ví dụ "Google Sheet", "Trello", "Lark"]
 - Ngân sách ra mắt thường có: [ĐIỀN: ví dụ "50 đến 150 triệu mỗi lần" hoặc "không áp dụng"]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không quảng cáo trước khi hàng về kho", "không giảm giá ra mắt quá 15%"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -39,18 +42,22 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Sản phẩm gì, đang ở giai đoạn nào?** Mới là ý tưởng, đã có hàng mẫu, đã đặt hàng, hay hàng đã về kho? Ngày muốn bán và lý do chọn ngày đó (mùa vụ, sự kiện, đối thủ)?
 2. **Bán cho ai, qua kênh nào?** B2C, B2B hay cả hai? Đã có tệp khách ấm (danh sách, nhóm Zalo, đại lý sẵn sàng) chưa? Sản phẩm thay thế hay bổ sung sản phẩm đang bán?
 3. **Nguồn lực?** Ngân sách ra mắt, tồn kho lô đầu, ai làm nội dung, quảng cáo, bán, chăm sóc, kho vận? Có ràng buộc pháp lý (công bố, hợp quy, nhãn, giấy phép quảng cáo) không?
 4. **Thế nào là thành công và khi nào dừng?** Doanh số 30 ngày đầu, tỉ lệ đổi trả, chi phí trên đơn. Lần ra mắt trước có bài học gì?
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
+
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
 
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Cổng duyệt (stage-gate) có người quyết rõ.** Mỗi cổng có câu hỏi phải trả lời, tài liệu đầu vào, và một người ký. Chưa qua cổng thì không chi tiền giai đoạn sau. Người quyết đi hay dừng ở cổng cuối là lãnh đạo, không ủy quyền.
@@ -58,7 +65,7 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 4. **Không ra mắt lạnh.** Làm ấm tệp khách ít nhất 2 tuần trước: nội dung nói về vấn đề, chưa lộ sản phẩm; gửi hàng mẫu cho đại lý và khách thân thiết; thu bằng chứng (đánh giá, ảnh dùng thật) trước ngày D.
 5. **Tách việc B2C và B2B.** B2C cần trang sản phẩm trên sàn, nội dung, quảng cáo, kịch bản chat. B2B cần bảng giá sỉ, tài liệu kỹ thuật, hàng mẫu, buổi đào tạo đại lý, chính sách đổi trả lô đầu. Một lịch chung nhưng hai nhánh việc.
 6. **Có phương án B cho ít nhất 3 sự cố**: hàng về trễ, quảng cáo bị từ chối hoặc trang bán lỗi, lô đầu có lỗi chất lượng. Mỗi sự cố có ngưỡng kích hoạt và người xử lý.
-7. **Không bịa số.** Mục tiêu tính ngược từ doanh thu kỳ vọng; thiếu dữ liệu thật thì ghi `[cần bổ sung: mô tả dữ liệu cần]`, ví dụ `[cần bổ sung: ngày hàng về kho theo xác nhận của nhà cung cấp]`. Mọi số tham khảo ghi rõ là giả định.
+7. **Không bịa số.** Mục tiêu tính ngược từ doanh thu kỳ vọng; thiếu dữ liệu thật thì ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]`, ví dụ `[CẦN ĐIỀN: ngày hàng về kho theo xác nhận của nhà cung cấp]`. Mọi số tham khảo ghi rõ là giả định.
 8. **Nhìn lại sau 30 ngày và sửa quy trình.** Bài học lần này phải vào bản quy trình cho lần sau. Không dùng lại bản cũ nguyên xi.
 
 ### Bốn cổng duyệt tham khảo (điều chỉnh theo công ty)
@@ -105,7 +112,9 @@ Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, tr�
 | Tài chính | Giá vốn, giá bán, biên lợi nhuận, tồn lô đầu, điểm hòa vốn |
 | Tiêu chí thành công | 3 chỉ số 30 ngày và 90 ngày |
 | Tiêu chí dừng | Ít nhất 1 điều kiện định lượng, ví dụ: dưới 30% mục tiêu sau 30 ngày với chi phí đã chi đủ |
-| Pháp lý và tuân thủ | Công bố chất lượng, hợp quy, nhãn hàng hóa, nội dung quảng cáo; đánh dấu `[cần bổ sung]` nếu chưa rõ |
+| Pháp lý và tuân thủ | Công bố chất lượng, hợp quy, nhãn hàng hóa, nội dung quảng cáo; đánh dấu `[CẦN ĐIỀN]` nếu chưa rõ |
+
+Giá vốn điền ở bản nội bộ ngoài ChatGPT; bản dán vào chat dùng biên % làm tròn.
 
 ### 4.3 Danh sách kiểm từng cổng
 
@@ -173,6 +182,9 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Có làm ấm tệp khách ít nhất 2 tuần, quảng cáo chỉ bật ngày D.
 - [ ] Có tiêu chí dừng định lượng và phương án B cho ít nhất 3 sự cố.
 - [ ] Mục tiêu có 3 kịch bản; mọi số tham khảo ghi rõ là giả định.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Tôn trọng điều cấm trong phần bối cảnh; thuật ngữ tiếng Việt kèm tiếng Anh trong ngoặc ở lần đầu.
 - [ ] Kết thúc bằng 5 việc cần làm trong 7 ngày và gợi ý skill tiếp theo.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

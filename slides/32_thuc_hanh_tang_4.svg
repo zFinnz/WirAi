@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Aptos, 'Segoe UI', Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="section-kicker" data-pptx-role="chrome" data-pptx-bounds="40 30 540 30">
+    <rect x="40" y="38" width="12" height="12" rx="3" fill="#1D3557" />
+    <text x="62" y="50" font-size="16" font-weight="bold" letter-spacing="1.5" fill="#1D3557">TẦNG 4 · THỰC HÀNH &amp; CHỐT</text>
+  </g>
+
+  <g id="roadmap-tracker" data-pptx-role="chrome" data-pptx-bounds="600 14 640 62">
+    <rect x="608" y="36" width="120" height="8" rx="3" fill="#E3E9F1" />
+    <rect x="736" y="32" width="120" height="12" rx="3" fill="#E3E9F1" />
+    <rect x="864" y="28" width="120" height="16" rx="3" fill="#E3E9F1" />
+    <rect x="992" y="24" width="120" height="20" rx="3" fill="#E8833A" />
+    <rect x="1120" y="20" width="120" height="24" rx="3" fill="#E3E9F1" />
+    <text x="608" y="66" font-size="16" fill="#5B6675">1 Instructions</text>
+    <text x="736" y="66" font-size="16" fill="#5B6675">2 Prompt</text>
+    <text x="864" y="66" font-size="16" fill="#5B6675">3 Skill</text>
+    <text x="992" y="66" font-size="16" font-weight="bold" fill="#1F2937">4 Plugin</text>
+    <text x="1120" y="66" font-size="16" fill="#5B6675">Nâng cao</text>
+  </g>
+
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Thực hành tầng 4: nối Gmail an toàn, rồi đóng gói plugin</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">mà đồng nghiệp chạy được không cần hỏi</text><g id="practice-builtin" data-pptx-bounds="40 220 690 198">
+    <rect x="40" y="220" width="690" height="198" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
+    
+  <g transform="translate(64, 236)" fill="none" stroke="#1D3557" stroke-width="2">
+    <path d="M7 12l5 5l-1.5 1.5a3.536 3.536 0 1 1 -5 -5l1.5 -1.5" />
+    <path d="M17 12l-5 -5l1.5 -1.5a3.536 3.536 0 1 1 5 5l-1.5 1.5" />
+    <path d="M3 21l2.5 -2.5" />
+    <path d="M18.5 5.5l2.5 -2.5" />
+    <path d="M10 11l-2 2" />
+    <path d="M13 14l-2 2" />
+  </g>
+    <text x="98" y="254" font-size="16" font-weight="bold" letter-spacing="1" fill="#1D3557">4A · PLUGIN CÓ SẴN</text>
+    <circle cx="76" cy="282" r="4" fill="#1D3557" />
+    <text x="92" y="289" font-size="20" fill="#1F2937">Phân loại 20 email gần nhất, soạn thư nháp</text>
+    <circle cx="76" cy="312" r="4" fill="#1D3557" />
+    <text font-size="20" fill="#1F2937" x="92" y="319">Đọc file đơn hàng trên Drive, ghi bản tóm tắt ngược lên</text><text font-size="20" fill="#1F2937" x="92" y="345">Drive (đối chiếu tổng 147.300.000 đ)</text><line x1="64" y1="362" x2="706" y2="362" stroke="#D8E0EA" stroke-width="1" />
+    <text font-size="20" fill="#1F2937" x="64" y="388"><tspan><tspan font-weight="bold" fill="#2E8B57">Đạt khi:</tspan> đúng tài khoản cá nhân · thư nháp chưa gửi</tspan></text><text font-size="20" fill="#1F2937" x="64" y="412">· file gốc còn nguyên · đã gỡ quyền</text></g>
+
+  <g id="practice-custom" data-pptx-bounds="40 430 690 180">
+    <rect x="40" y="430" width="690" height="180" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
+    
+  <g transform="translate(64, 446)" fill="none" stroke="#1D3557" stroke-width="2">
+    <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5" />
+    <path d="M12 12l8 -4.5" />
+    <path d="M12 12l0 9" />
+    <path d="M12 12l-8 -4.5" />
+    <path d="M16 5.25l-8 4.5" />
+  </g>
+    <text x="98" y="464" font-size="16" font-weight="bold" letter-spacing="1" fill="#1D3557">4B · PLUGIN TỰ TẠO</text>
+    <circle cx="76" cy="492" r="4" fill="#1D3557" />
+    <text x="92" y="499" font-size="20" fill="#1F2937">Gộp ≥ 2 skill + 1 file tham chiếu + 1 app</text>
+    <circle cx="76" cy="522" r="4" fill="#1D3557" />
+    <text x="92" y="529" font-size="20" fill="#1F2937">Viết Playbook 7 mục · 2 phép thử ngoài bối cảnh · demo 5 phút</text>
+    <line x1="64" y1="552" x2="706" y2="552" stroke="#D8E0EA" stroke-width="1" />
+    <text x="64" y="584" font-size="20" fill="#1F2937"><tspan font-weight="bold" fill="#2E8B57">Đạt khi:</tspan> người khác chạy được không phải hỏi lại</text>
+  </g>
+
+  <g id="quiz-card" data-pptx-bounds="754 220 486 390">
+    <rect x="754" y="220" width="486" height="390" rx="16" fill="#F3F6FA" />
+    
+  <g transform="translate(778, 240) scale(1.08333)" fill="none" stroke="#1D3557" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+    <path d="M12 16v.01" />
+    <path d="M12 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
+  </g>
+    <text x="814" y="259" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">CÂU HỎI CHỐT</text>
+    <text font-size="20" font-weight="bold" fill="#1D3557" x="778" y="302">3 mức quyền theo thứ tự? Mức nào</text><text font-size="20" font-weight="bold" fill="#1D3557" x="778" y="328">không rút lại được?</text><line x1="778" y1="390" x2="1216" y2="390" stroke="#D8E0EA" stroke-width="1" />
+    <text x="778" y="424" font-size="20" font-weight="bold" fill="#1D3557">Hai lớp phanh của luồng tự động?</text>
+    <line x1="778" y1="484" x2="1216" y2="484" stroke="#D8E0EA" stroke-width="1" />
+    <text font-size="20" font-weight="bold" fill="#1D3557" x="778" y="518">Gmail đặt mức quyền nào?</text><text font-size="20" font-weight="bold" fill="#1D3557" x="778" y="544">Nút nào không bấm?</text></g>
+
+  <g id="answer-1" data-pptx-bounds="778 342 438 30">
+    <text x="778" y="362" font-size="20" fill="#1F2937"><tspan font-weight="bold" fill="#2E8B57">→</tspan> Đọc, ghi, gửi; gửi ra ngoài</text>
+  </g>
+  <g id="answer-2" data-pptx-bounds="778 436 438 30">
+    <text x="778" y="456" font-size="20" fill="#1F2937"><tspan font-weight="bold" fill="#2E8B57">→</tspan> Người duyệt và hẹn giờ</text>
+  </g>
+  <g id="answer-3" data-pptx-bounds="778 556 438 30">
+    <text x="778" y="576" font-size="20" fill="#1F2937"><tspan font-weight="bold" fill="#2E8B57">→</tspan> Always ask; không bấm Always allow</text>
+  </g>
+
+  <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
+  <text id="source-note" data-pptx-role="footer" x="1170" y="700" font-size="14" text-anchor="end" fill="#5B6675">Dữ liệu demo Wir (file đơn hàng)</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">32 / 35</text>
+</svg>

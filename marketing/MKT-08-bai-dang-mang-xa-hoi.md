@@ -14,13 +14,16 @@
 - Tên công ty và ngành: [ĐIỀN]
 - Sản phẩm, dịch vụ chính và mức giá: [ĐIỀN]
 - Nhóm khách và kênh đăng: [ĐIỀN: ví dụ "B2C trên Facebook, TikTok, Zalo OA; B2B qua nhóm Zalo đại lý và LinkedIn"]
-- Giọng thương hiệu: [ĐIỀN: 3 tính từ, cách xưng hô, từ cấm; lấy từ MKT-05 nếu có]
+- Giọng thương hiệu bằng hành vi: [ĐIỀN: xưng hô, độ dài câu, số emoji tối đa, cách mở bài, từ cấm; lấy từ MKT-05 nếu có]
 - Bằng chứng thật được phép dùng: [ĐIỀN: ví dụ "1.240 khách đã mua, 4,8 sao trên Shopee, bảo hành 24 tháng, 60 đại lý"]
 - Kêu gọi hành động mặc định: [ĐIỀN: ví dụ "nhắn tin fanpage", "link gian hàng", "gọi hotline 1900xxxx"]
 - Ai trực trang và ai được quyền trả lời bình luận nhạy cảm: [ĐIỀN: ví dụ "nhân viên nội dung trực 8 đến 21 giờ; khiếu nại chuyển trưởng CSKH"]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không công khai giá sỉ", "không nêu tên đối thủ", "không hứa hiệu quả y tế", "tối đa 3 biểu tượng cảm xúc, 5 hashtag"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -42,7 +45,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Bài nói về gì và có bằng chứng thật nào?** Sản phẩm, chủ đề, số liệu, câu nói của khách, ảnh hoặc video đã có. Có thấu hiểu khách hàng (insight) từ MKT-02 thì dán.
 2. **Tầng phễu?** Nhận biết (người chưa biết vấn đề), cân nhắc (đang so sánh), chuyển đổi (sẵn sàng mua), hay giữ chân (khách cũ, đại lý)?
@@ -51,16 +54,20 @@ Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa
 
 Nếu người dùng đã có lịch nội dung (MKT-07), lấy tầng phễu, trụ cột, mở bài và kêu gọi hành động từ ô lịch, không hỏi lại.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
+
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mở bài đứng độc lập được.** Người đọc chỉ thấy 2 đến 3 dòng đầu trước nút "Xem thêm". Ba dòng đó phải đủ lý do để bấm.
 3. **2 phương án phải khác nhau thật**: khác hướng mở bài (nỗi đau so với tò mò, số liệu so với câu chuyện) và khác cấu trúc thân bài (danh sách so với kể chuyện). Đổi vài chữ không phải 2 phương án.
-4. **Thân bài 2 đến 4 đoạn, mỗi đoạn 1 đến 3 câu, có số thật hoặc chi tiết cụ thể ở ít nhất một đoạn.** Không có số thật thì ghi `[cần bổ sung: số liệu cần, lấy từ đâu]` tại chỗ đó, không bịa, không làm tròn lên.
+4. **Thân bài 2 đến 4 đoạn, mỗi đoạn 1 đến 3 câu, có số thật hoặc chi tiết cụ thể ở ít nhất một đoạn.** Không có số thật thì ghi `[CẦN ĐIỀN: số liệu cần, lấy từ đâu]` tại chỗ đó, không bịa, không làm tròn lên.
 5. **Kêu gọi hành động là một hành động, có động từ, dễ làm trên điện thoại.** "Bình luận 'bảng giá' để nhận" thay vì "liên hệ để biết thêm". Tầng chuyển đổi có thời hạn thật.
 6. **Theo giọng thương hiệu và danh sách từ cấm.** Mặc định cấm: "siêu hot", "không thể bỏ lỡ", "hãy cùng chúng tôi", "đẳng cấp", "số 1". Không chèn tiếng Anh khi có từ Việt.
 7. **Chỉnh bài cho từng kênh đang dùng.** Nhóm Facebook viết như người thật chia sẻ; nhóm Zalo đại lý đi thẳng vào việc, có ngày, có số; chú thích TikTok ngắn và bổ trợ cho video. Chỉ dùng thẻ chủ đề khi giúp người đọc tìm đúng nội dung; số lượng tùy kênh và mục đích, không thêm cho đủ chỉ tiêu.
@@ -81,8 +88,8 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 |---|---|---|---|---|
 | Fanpage Facebook | Vừa đến dài, xuống dòng nhiều | Theo giọng thương hiệu | 3 đến 5 cuối bài | Câu đầu dưới 100 ký tự; ghim bài quan trọng, có nút hành động trên trang |
 | Nhóm Facebook | Vừa | Người thật chia sẻ, không giống fanpage | 0 đến 2 | Không dán link ở câu đầu; nhóm của mình là nơi xây cộng đồng |
-| Instagram | Ngắn, ảnh kéo chính | Nhẹ, gần gũi | 5 đến 8, trộn lớn, vừa, nhỏ | Dòng đầu là tất cả; ảnh cùng một phong cách |
-| TikTok | 1 đến 2 dòng | Trẻ, tự nhiên | 3 đến 5, có từ khóa tìm kiếm | Mở bài nằm trong video, chữ chỉ bổ trợ |
+| Instagram | Ngắn, ảnh kéo chính | Câu dưới 15 chữ, xưng 'mình' | 5 đến 8, trộn lớn, vừa, nhỏ | Dòng đầu là tất cả; ảnh cùng một phong cách |
+| TikTok | 1 đến 2 dòng | Xưng 'mình', tối đa 2 emoji | 3 đến 5, có từ khóa tìm kiếm | Mở bài nằm trong video, chữ chỉ bổ trợ |
 | Zalo OA | Ngắn, đi thẳng lợi ích | Anh chị, lịch sự | 0 | Tiêu đề dưới 50 ký tự, 1 nút hành động; ưu đãi riêng cho người theo dõi |
 | Nhóm Zalo đại lý | Ngắn, có số, có ngày | Thẳng, tôn trọng, không đùa | 0 | Có việc cần làm và hạn, kèm ảnh hoặc file |
 | LinkedIn (B2B) | Vừa đến dài | Chuyên môn, có góc nhìn | 3 đến 5 | Mở bằng quan sát ngành, không bán ngay; trang cá nhân chủ công ty lan xa hơn trang công ty |
@@ -148,7 +155,7 @@ Chỉ đề xuất thẻ chủ đề có liên quan; có thể không dùng nế
 | Câu hỏi kích bình luận | 1 câu hỏi dễ trả lời, đặt cuối bài hoặc trong bình luận đầu |
 | Bình luận đầu tiên của trang | Nội dung ghim: link, bảng giá, hoặc trả lời câu hỏi thường gặp |
 
-Thời gian phản hồi: trong 1 giờ ở giờ trực, chậm nhất sáng hôm sau ngoài giờ. Phân loại và mẫu trả lời theo giọng thương hiệu (viết thật 1 mẫu cho mỗi loại):
+Trả lời tin nhắn riêng, khiếu nại, hỏi giá là trao đổi 1-1: dùng CS-02. Thời gian phản hồi: trong 1 giờ ở giờ trực, chậm nhất sáng hôm sau ngoài giờ. Phân loại và mẫu trả lời theo giọng thương hiệu (viết thật 1 mẫu cho mỗi loại):
 
 | Loại bình luận | Cách xử lý | Ai làm |
 |---|---|---|
@@ -175,7 +182,7 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Câu đầu là mở bài, không mở bằng tên công ty, "xin chào", "hôm nay".
 - [ ] Một bài một thông điệp một kêu gọi hành động.
 - [ ] 2 phương án khác hướng mở bài và khác cấu trúc thân, có ghi chú khi nào dùng bản nào.
-- [ ] Có số thật hoặc chi tiết cụ thể, số lấy từ bối cảnh hoặc người dùng cung cấp; chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Có số thật hoặc chi tiết cụ thể, số lấy từ bối cảnh hoặc người dùng cung cấp; chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Đoạn 1 đến 3 câu, có khoảng trắng, đọc được trên điện thoại.
 - [ ] Tầng chuyển đổi có thời hạn thật; tầng nhận biết không nhắc giá và ưu đãi.
 - [ ] Bản cho đại lý (nếu có) đi thẳng vào việc, có ngày và số, không đùa.
@@ -183,3 +190,6 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Không khẳng định công dụng chữa bệnh, không so sánh đối thủ, ảnh trước sau có đồng ý của khách; tôn trọng điều cấm trong bối cảnh.
 - [ ] Có mẫu trả lời cho 4 loại bình luận theo giọng thương hiệu, có 3 cấp xử lý và người chịu trách nhiệm; có danh sách kiểm tra trước và sau khi đăng.
 - [ ] Hashtag 3 đến 8 đúng thứ tự, điều chỉnh theo kênh; chuẩn tương tác tham khảo ghi rõ là giả định; thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu; kết thúc bằng 3 việc cần làm tiếp.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

@@ -15,11 +15,14 @@
 - Nhóm khách: [ĐIỀN: ví dụ "B2C người dùng cuối; B2B đại lý và khách dự án"]
 - Kênh đang có và số người theo dõi: [ĐIỀN: ví dụ "Facebook 12.000; TikTok 3.500; Zalo OA 2.000; nhóm Zalo đại lý 60 người; email đại lý"]
 - Nguồn lực sản xuất và ai duyệt: [ĐIỀN: ví dụ "1 người viết, 1 người thiết kế bán thời gian, quay video bằng điện thoại, có 20 đánh giá khách; trưởng marketing duyệt"]
-- 3 tính từ giọng thương hiệu (từ MKT-05 nếu có): [ĐIỀN]
+- Giọng thương hiệu bằng hành vi: [ĐIỀN: xưng hô, độ dài câu, số emoji tối đa, cách mở bài, từ cấm; lấy từ MKT-05 nếu có]
 - Trụ cột nội dung hiện có nếu đã chốt: [ĐIỀN hoặc "chưa có, cần đề xuất"]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không đăng giá công khai trên Facebook", "không bắt xu hướng (trend) hài"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -40,24 +43,28 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Mục tiêu tháng này?** Tăng người theo dõi, tăng tin nhắn, tăng đơn, ra mắt sản phẩm, hỗ trợ đại lý bán, hay chuẩn bị mùa cao điểm? Chọn 1 mục tiêu chính.
 2. **Kênh nào và tần suất thực tế đội làm được?** Mỗi kênh bao nhiêu bài mỗi tuần, có quay video được không, có người xuất hiện trước máy không, ai viết, ai thiết kế, ai duyệt và duyệt trong bao lâu?
 3. **Có thấu hiểu khách hàng (insight) và trụ cột chưa?** Nếu có MKT-02, dán 3 insight và kho ngôn ngữ. Nếu đã có trụ cột, dán; chưa có thì bạn đề xuất.
 4. **Dịp đặc biệt trong tháng?** Ra mắt, khuyến mãi, lịch chương trình của sàn, ngày lễ, sự kiện ngành, họp đại lý. Có nội dung cũ hiệu quả cần làm lại không? Có câu hỏi khách hay hỏi để làm bài không?
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
+
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **3 đến 5 trụ cột, mỗi trụ cột có định nghĩa, 3 góc nhìn, định dạng phù hợp và tầng phễu.** Trụ cột là chủ đề lớn mà công ty có thẩm quyền nói. Không chồng chéo.
 3. **Tỉ lệ trụ cột và tầng phễu đi theo mục tiêu tháng** (bảng dưới). Phễu mặc định: nhận biết 40%, cân nhắc 35%, chuyển đổi 15%, giữ chân 10%; tháng có khuyến mãi lớn được đẩy chuyển đổi lên 25% nhưng không hơn. Lệch quá 10 điểm so với kế hoạch thì điều chỉnh tuần sau.
 4. **Trộn nguồn nội dung:** từ công ty 30 đến 35%, từ chủ doanh nghiệp hoặc chuyên gia 25 đến 30%, từ khách hàng 20 đến 25%, từ nhân viên 10 đến 15%. Nội dung từ khách và nhân viên tạo tin cậy cao hơn nội dung thương hiệu.
-5. **Mỗi ô lịch có đủ: kênh, giờ, định dạng, tầng phễu, trụ cột, chủ đề cụ thể, câu mở bài, kêu gọi hành động, nguồn, người làm, hạn nộp, hạn duyệt, trạng thái.** Ô nào thiếu mở bài hoặc kêu gọi hành động là chưa xong. Ô cần dữ liệu chưa có (số khách, ngày chương trình sàn, tên khách đồng ý lên bài) ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống.
+5. **Mỗi ô lịch có đủ: kênh, giờ, định dạng, tầng phễu, trụ cột, chủ đề cụ thể, câu mở bài, kêu gọi hành động, nguồn, người làm, hạn nộp, hạn duyệt, trạng thái.** Ô nào thiếu mở bài hoặc kêu gọi hành động là chưa xong. Ô cần dữ liệu chưa có (số khách, ngày chương trình sàn, tên khách đồng ý lên bài) ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]` thay vì bịa hoặc để trống.
 6. **Giờ vàng theo kênh và không đăng 2 bài cùng kênh cùng khung giờ.** Zalo OA tối đa 2 đến 3 lần gửi mỗi tuần, email tối đa 2 mỗi tuần, gửi nhiều hơn là mất người theo dõi.
 7. **Tái sử dụng có kế hoạch:** 1 video dài hoặc 1 bài sâu mỗi tuần làm gốc, cắt thành 5 đến 7 phiên bản cho các kênh, lệch ngày đăng.
 8. **Có dòng B2B riêng nếu công ty có đại lý, khách doanh nghiệp:** 1 đến 2 nội dung mỗi tuần qua nhóm Zalo, email: chính sách, hướng dẫn bán, mẫu bài để đại lý đăng lại, câu chuyện đại lý.
@@ -172,10 +179,13 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Tỉ lệ phễu và trụ cột khớp mục tiêu tháng; lệch có ghi lý do.
 - [ ] Số bài và số giờ sản xuất không vượt năng lực đội đã khai; không đề xuất kênh đội chưa vận hành.
 - [ ] Mỗi ô lịch có chủ đề cụ thể, câu mở bài, kêu gọi hành động, người làm, hạn nộp, hạn duyệt, trạng thái đúng 6 mức.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Giờ đăng theo giờ vàng; không 2 bài cùng kênh cùng khung giờ; Zalo OA và email không vượt tần suất.
 - [ ] Có dòng nội dung cho đại lý, khách doanh nghiệp nếu công ty có B2B.
 - [ ] Mỗi nội dung gốc có ít nhất 5 phiên bản; có kho dự phòng 8 đến 10 ý tưởng và quy tắc thay khi trễ.
 - [ ] Có nội dung từ khách và nhân viên, không chỉ từ thương hiệu; sự kiện lớn bắt đầu trước 2 đến 3 tuần.
 - [ ] Mọi khung giờ, tỉ lệ và thời gian sản xuất tham khảo ghi rõ là giả định; tôn trọng điều cấm trong bối cảnh.
 - [ ] Thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu; kết thúc bằng 5 việc cần làm trong 7 ngày.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

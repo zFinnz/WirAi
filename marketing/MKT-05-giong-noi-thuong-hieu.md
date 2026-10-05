@@ -14,12 +14,14 @@
 - Sản phẩm, dịch vụ chính và phân khúc giá: [ĐIỀN]
 - Nhóm khách và cách xưng hô hiện tại: [ĐIỀN: ví dụ "B2C gọi 'bạn' trên TikTok, 'anh chị' khi tư vấn; B2B gọi 'anh chị' và 'quý đại lý'"]
 - Định vị 1 câu (từ MKT-04 nếu có): [ĐIỀN]
-- 3 tính từ công ty muốn khách cảm nhận: [ĐIỀN: ví dụ "thẳng thắn, am hiểu kỹ thuật, tử tế"]
+- 3 tính từ công ty muốn khách cảm nhận, kèm hành vi: [ĐIỀN: ví dụ "thẳng thắn, am hiểu kỹ thuật, tử tế"]
 - Thương hiệu hoặc người có giọng gần với điều công ty hướng tới (chỉ để tham khảo, không sao chép): [ĐIỀN]
 - Ai đang viết và ai duyệt nội dung: [ĐIỀN: số người viết, có thuê ngoài không, có nhân viên bán hàng tự đăng không, ai duyệt cuối]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không chèn tiếng Anh khi có từ tiếng Việt", "không dùng biểu tượng cảm xúc trong email đại lý"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -39,23 +41,27 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Muốn khách cảm thấy gì sau khi đọc, và tuyệt đối không muốn bị nhìn như thế nào?** Ví dụ: muốn thấy "được chỉ đúng chỗ", không muốn bị thấy "bán hàng bất chấp".
-2. **3 tính từ mô tả đúng nhất tính cách công ty?** Nếu người dùng đưa hơn 3, yêu cầu chọn lại.
+2. **3 tính từ mô tả đúng nhất tính cách công ty, kèm hành vi?** Nếu người dùng đưa hơn 3, yêu cầu chọn lại.
 3. **Có bài nào công ty tự thấy "đúng chất" và bài nào "sai chất" không?** Dán 2 đến 3 bài mỗi loại. Có bình luận, đánh giá của khách thì dán kèm để lấy từ vựng.
 4. **Kênh và tình huống nào cần hướng dẫn kỹ nhất, và ai duyệt?** Facebook, TikTok, Zalo OA, gian hàng sàn, email cho đại lý, trả lời khiếu nại, báo giá cho khách doanh nghiệp. Ai có quyền duyệt cuối, trong bao lâu.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
+
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
-2. **Đúng 3 tính từ, mỗi tính từ một câu giải thích.** Nhiều hơn 3 là loãng, ít hơn là mơ hồ. Kèm 3 điều thương hiệu không bao giờ là.
+2. **3 tính từ làm nhãn, mỗi tính từ đổi thành ít nhất 2 hành vi đếm được** (độ dài câu, cách xưng hô, số emoji tối đa, cách mở bài, từ dùng và từ cấm). Kèm 3 điều thương hiệu không bao giờ là.
 3. **Mỗi chiều giọng điệu có cả cột "là" và cột "không là".** Cột "không là" chặn việc giọng trôi dần theo thời gian.
-4. **Từ vựng chia 3 nhóm: dùng thường xuyên, tránh, cấm.** Kèm tên gọi chuẩn nội bộ cho từng sản phẩm, dịch vụ; không để mỗi bài gọi một kiểu. Chưa có bình luận, đánh giá thật để lấy từ của khách thì ghi `[cần bổ sung: 20 đến 30 bình luận hoặc tin nhắn gần nhất]` thay vì tự nghĩ ra.
+4. **Từ vựng chia 3 nhóm: dùng thường xuyên, tránh, cấm.** Kèm tên gọi chuẩn nội bộ cho từng sản phẩm, dịch vụ; không để mỗi bài gọi một kiểu. Chưa có bình luận, đánh giá thật để lấy từ của khách thì ghi `[CẦN ĐIỀN: 20 đến 30 bình luận hoặc tin nhắn gần nhất]` thay vì tự nghĩ ra.
 5. **Quy định xưng hô theo nhóm khách và kênh.** Xưng hô sai là lỗi dễ thấy nhất với người Việt. Người dùng cuối trên TikTok và chủ đại lý trong email không thể cùng một cách gọi.
 6. **5 ví dụ trước và sau phải viết thật theo công ty**, không để chỗ trống. Đây là phần người viết dùng nhiều nhất.
 7. **Giữ tiếng Việt chuẩn.** Hạn chế chèn tiếng Anh khi có từ tiếng Việt tương đương; dùng tiếng Anh chỉ cho tên riêng, tên sản phẩm, thuật ngữ ngành đã quen.
@@ -97,7 +103,7 @@ Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, tr�
 
 ### 4.1 Tóm tắt cho quản lý
 
-- 3 tính từ và một câu mô tả giọng: "Chúng ta nói chuyện như một [hình ảnh người cụ thể]".
+- 3 tính từ kèm hành vi và một câu mô tả giọng: "Chúng ta nói chuyện như một [hình ảnh người cụ thể]".
 - 3 thay đổi lớn nhất so với cách đang viết, kèm ví dụ ngắn.
 - Ai cần đọc tài liệu này và dùng phần nào: người viết đọc mục 4.2 đến 4.6, người duyệt dùng mục 4.7, đối tác thuê ngoài nhận mục 4.2 đến 4.6.
 
@@ -193,10 +199,10 @@ Kết thúc bằng **3 việc cần làm tiếp**: gửi tài liệu cho mọi n
 Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sửa, không bỏ qua.
 
 - [ ] Đã hỏi hoặc có đủ: cảm nhận mong muốn, 3 tính từ, bài mẫu đúng và sai chất, kênh cần hướng dẫn và người duyệt.
-- [ ] Có tuyên ngôn nội dung 1 câu cụ thể; đúng 3 tính từ, mỗi tính từ có giải thích; có 3 điều "không bao giờ là".
+- [ ] Có tuyên ngôn nội dung 1 câu cụ thể; đúng 3 tính từ kèm hành vi, mỗi tính từ có ít nhất 2 hành vi đếm được; có 3 điều "không bao giờ là".
 - [ ] Bảng giọng điệu đủ 5 chiều, có cả cột "không là".
 - [ ] Từ vựng đủ 3 nhóm, có tên gọi chuẩn nội bộ, có từ lấy từ khách thật kèm nguồn.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Xưng hô quy định theo nhóm khách và kênh; B2C và B2B tách riêng.
 - [ ] 5 ví dụ trước và sau viết thật theo công ty, không để chỗ trống; có ví dụ cho đại lý nếu có B2B.
 - [ ] Giọng khớp định vị ở MKT-04 nếu đã có; không có từ cấm mặc định trong chính tài liệu này.
@@ -204,3 +210,5 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Quy định duyệt có người duyệt và thời hạn; số liệu có nguồn; hình ảnh có bản quyền; tôn trọng điều cấm trong phần bối cảnh.
 - [ ] Thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu.
 - [ ] Kết thúc bằng 3 việc cần làm tiếp và bảng duyệt 6 câu.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Aptos, 'Segoe UI', Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="section-kicker" data-pptx-role="chrome" data-pptx-bounds="40 30 540 30">
+    <rect x="40" y="38" width="12" height="12" rx="3" fill="#4A7FB5" />
+    <text x="62" y="50" font-size="16" font-weight="bold" letter-spacing="1.5" fill="#1D3557">TẦNG 2 · PROMPT</text>
+  </g>
+
+  <g id="roadmap-tracker" data-pptx-role="chrome" data-pptx-bounds="600 14 640 62">
+    <rect x="608" y="36" width="120" height="8" rx="3" fill="#E3E9F1" />
+    <rect x="736" y="32" width="120" height="12" rx="3" fill="#E8833A" />
+    <rect x="864" y="28" width="120" height="16" rx="3" fill="#E3E9F1" />
+    <rect x="992" y="24" width="120" height="20" rx="3" fill="#E3E9F1" />
+    <rect x="1120" y="20" width="120" height="24" rx="3" fill="#E3E9F1" />
+    <text x="608" y="66" font-size="16" fill="#5B6675">1 Instructions</text>
+    <text x="736" y="66" font-size="16" font-weight="bold" fill="#1F2937">2 Prompt</text>
+    <text x="864" y="66" font-size="16" fill="#5B6675">3 Skill</text>
+    <text x="992" y="66" font-size="16" fill="#5B6675">4 Plugin</text>
+    <text x="1120" y="66" font-size="16" fill="#5B6675">Nâng cao</text>
+  </g>
+
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Ba kỹ thuật nâng chất lượng:</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">đưa mẫu, cho AI hỏi lại, chia nhỏ việc</text><g id="technique-example" data-pptx-bounds="40 222 384 360">
+    <rect x="40" y="222" width="384" height="360" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
+    <circle cx="90" cy="270" r="22" fill="#4A7FB5" />
+    <text x="90" y="278" font-size="22" font-weight="bold" text-anchor="middle" fill="#FFFFFF">1</text>
+    <text x="126" y="279" font-size="26" font-weight="bold" fill="#1D3557">Đưa 1 mẫu tốt</text>
+    <text font-size="22" font-weight="bold" fill="#1D3557" x="68" y="328">“1 mẫu tốt đáng giá hơn</text><text font-size="22" font-weight="bold" fill="#1D3557" x="68" y="356">10 dòng mô tả.”</text><text font-size="20" fill="#1F2937" x="68" y="392">Dán một bài/tin chuẩn cũ của</text><text font-size="20" fill="#1F2937" x="68" y="418">phòng, bảo AI học đúng bố cục</text><text font-size="20" fill="#1F2937" x="68" y="444">và giọng văn.</text><rect x="68" y="472" width="328" height="88" rx="10" fill="#F3F6FA" />
+    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="84" y="502">Học đúng bố cục và</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="84" y="528">giọng văn của mẫu này:</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="84" y="554">[DÁN MẪU]</text></g>
+
+  <g id="technique-ask-back" data-pptx-bounds="448 234 384 360">
+    <rect x="448" y="234" width="384" height="360" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
+    <circle cx="498" cy="282" r="22" fill="#4A7FB5" />
+    <text x="498" y="290" font-size="22" font-weight="bold" text-anchor="middle" fill="#FFFFFF">2</text>
+    <text x="534" y="291" font-size="26" font-weight="bold" fill="#1D3557">Cho AI hỏi lại</text>
+    <text x="476" y="340" font-size="22" font-weight="bold" fill="#1D3557">AI hỏi thay vì tự bịa.</text>
+    <text x="476" y="404" font-size="20" fill="#1F2937">Thêm một câu vào cuối prompt:</text>
+    <rect x="476" y="430" width="328" height="88" rx="10" fill="#F3F6FA" />
+    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="492" y="460">Nếu thiếu thông tin,</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="492" y="486">hỏi lại tôi tối đa 3 câu</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="492" y="512">trước khi làm.</text></g>
+
+  <g id="technique-split" data-pptx-bounds="856 246 384 360">
+    <rect x="856" y="246" width="384" height="360" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
+    <circle cx="906" cy="294" r="22" fill="#4A7FB5" />
+    <text x="906" y="302" font-size="22" font-weight="bold" text-anchor="middle" fill="#FFFFFF">3</text>
+    <text x="942" y="303" font-size="26" font-weight="bold" fill="#1D3557">Chia việc nhiều bước</text>
+    <text font-size="22" font-weight="bold" fill="#1D3557" x="884" y="352">Kiểm xong bước trước</text><text font-size="22" font-weight="bold" fill="#1D3557" x="884" y="380">mới đi tiếp.</text><text x="884" y="416" font-size="20" fill="#1F2937">Việc lớn tách thành chuỗi prompt:</text>
+    <rect x="884" y="436" width="328" height="34" rx="17" fill="#F3F6FA" />
+    <text x="902" y="460" font-size="20" fill="#1D3557"><tspan font-weight="bold">1 · </tspan>Phân tích số liệu</text>
+    <rect x="884" y="478" width="328" height="34" rx="17" fill="#F3F6FA" />
+    <text x="902" y="502" font-size="20" fill="#1D3557"><tspan font-weight="bold">2 · </tspan>Viết Executive Summary</text>
+    <rect x="884" y="520" width="328" height="34" rx="17" fill="#F3F6FA" />
+    <text x="902" y="544" font-size="20" fill="#1D3557"><tspan font-weight="bold">3 · </tspan>Dựng outline slide</text>
+  </g>
+
+  <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">15 / 35</text>
+</svg>

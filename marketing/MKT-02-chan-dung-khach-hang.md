@@ -17,9 +17,12 @@
 - Nguồn dữ liệu khách đang có: [ĐIỀN: ví dụ "tin nhắn Facebook 6 tháng, đánh giá Shopee, ghi chú của nhân viên bán hàng, chưa có phần mềm quản lý quan hệ khách hàng (CRM)"]
 - Mục đích dùng chân dung: [ĐIỀN: viết nội dung, chạy quảng cáo, định vị lại, ra sản phẩm mới, lọc khách B2B]
 - Nhóm khách công ty không muốn phục vụ: [ĐIỀN: ví dụ "khách chỉ mua khi giảm trên 30%"]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không trích dẫn tên thật của khách", "không dùng dữ liệu khách của đại lý"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -40,7 +43,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Xây chân dung cho nhóm nào?** B2C, B2B hay cả hai? Nếu cả hai, làm nhóm nào trước? Phân khúc giá nào?
 2. **Có dữ liệu thật không?** Dán 20 đến 50 tin nhắn, bình luận, đánh giá gần nhất và danh sách lý do mất đơn từ đội bán hàng. Không có thì nói rõ, bạn sẽ làm chân dung giả định và đánh dấu từng dòng cần kiểm chứng.
@@ -49,15 +52,19 @@ Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa
 
 Nếu người dùng dán dữ liệu thô, chạy quy trình gắn thẻ ở mục 3 trước khi hỏi thêm.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
+
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chép nguyên văn lời khách, không viết lại cho hay.** Khách viết "nước ra yếu xìu" thì giữ nguyên, không sửa thành "áp lực nước thấp". Câu nào nghe như khẩu hiệu là câu bạn tự viết, bỏ.
-3. **Mỗi kết luận có nguồn và mức tin cậy.** Chủ đề xuất hiện ở 3 nguồn độc lập trở lên mới là tin cậy cao. Một nguồn duy nhất ghi là giả thuyết. Chỗ nào thiếu dữ liệu thật thì ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống.
+3. **Mỗi kết luận có nguồn và mức tin cậy.** Chủ đề xuất hiện ở 3 nguồn độc lập trở lên mới là tin cậy cao. Một nguồn duy nhất ghi là giả thuyết. Chỗ nào thiếu dữ liệu thật thì ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]` thay vì bịa hoặc để trống.
 4. **Gắn thẻ trước, kết luận sau.** Đọc từng mẫu, gắn 1 trong 5 thẻ: NỖI ĐAU, MONG MUỐN, TỪ CHỐI, KÍCH HOẠT (điều khiến họ quyết định), NGÔN NGỮ. Đếm tần suất. Chủ đề từ 20% mẫu trở lên là chủ đề chính, dưới 5% bỏ qua vòng này.
 5. **Tách người dùng, người mua, người quyết định.** B2C: ai dùng, ai trả tiền. B2B: người dùng hằng ngày (nhân viên), người ảnh hưởng (kỹ thuật, kế toán), người ký (chủ, trưởng phòng mua hàng). Đại lý quan tâm chiết khấu, tồn kho, hỗ trợ bán, đổi trả; khác hẳn người dùng cuối.
 6. **Phân tầng theo độ nóng, không chỉ theo nhân khẩu.** Ba tầng: lạnh (mới thấy vấn đề), ấm (đang cân nhắc), nóng (sắp mua, còn 1 lý do từ chối). Nhân khẩu học cho biết họ là ai; độ nóng cho biết phải nói gì.
@@ -165,20 +172,14 @@ Nhận định đi kèm: nếu trên 70% tệp đang lạnh mà ngân sách dồ
 | Mô tả nỗi đau | | | Mở bài nội dung tầng lạnh |
 | Mô tả mong muốn | | | Lợi ích tầng ấm |
 | Nghi ngờ, từ chối | | | Câu hỏi thường gặp, quảng cáo tầng nóng |
-| Sau khi dùng | | | Bằng chứng xã hội |
+| Sau khi dùng | | | Bằng chứng xã hội, chỉ sau khi soát ranh giới ở mục 0 |
 | Từ lóng, cách gọi sản phẩm | | | Toàn bộ nội dung |
 
 ### 4.7 Hành trình mua và điểm chạm
 
-| Giai đoạn | Điểm chạm | Khách nghĩ gì, hỏi gì | Rào cản | Cơ hội của công ty |
-|---|---|---|---|---|
-| Nhận biết | | | | |
-| Tìm hiểu, so sánh | | | | |
-| Quyết định | | | | |
-| Dùng và sau mua | | | | |
-| Giới thiệu người khác | Họ kể cho ai, ở đâu | | Thiếu lý do hoặc cớ để kể | Chương trình giới thiệu (MKT-20) |
+Bản đồ hành trình mua và điểm chạm làm bằng MKT-23, dùng chân dung ở 4.3 làm đầu vào.
 
-B2B thêm cột "ai tham gia ở bước này". Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý skill tiếp theo: MKT-04 để viết định vị, MKT-08 và MKT-10 để viết nội dung từ kho ngôn ngữ, SAL-06 để chuẩn bị xử lý từ chối, SAL-03 để đưa bảng chấm điểm ICP vào lọc khách.
+Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý skill tiếp theo: MKT-04 để viết định vị, MKT-08 và MKT-10 để viết nội dung từ kho ngôn ngữ, SAL-06 để chuẩn bị xử lý từ chối, SAL-03 để đưa bảng chấm điểm ICP vào lọc khách.
 
 ---
 
@@ -188,7 +189,7 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 
 - [ ] Đã hỏi hoặc có đủ: nhóm khách, dữ liệu thật, mục đích, quan sát của đội bán hàng về khách tốt nhất.
 - [ ] Nếu thiếu dữ liệu, chân dung đã đánh dấu rõ là giả định ngay đầu mục 4.2.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Mỗi nhóm có ít nhất 5 điểm dữ liệu độc lập, hoặc ghi rõ chưa đủ; tối đa 3 đến 4 chân dung.
 - [ ] Đã tách người dùng, người mua, người quyết định; B2B và đại lý có chân dung riêng và bảng chấm điểm ICP có trọng số.
 - [ ] Mỗi insight đạt 3 bài kiểm tra đúng, căng thẳng, hành động được; có mức tin cậy.
@@ -198,3 +199,6 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Kho ngôn ngữ có ít nhất 10 câu nguyên văn kèm nguồn, đã bỏ thông tin cá nhân.
 - [ ] Tôn trọng các điều cấm trong phần bối cảnh và Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP.
 - [ ] Thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu; kết thúc bằng 5 việc cần làm trong 7 ngày.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

@@ -16,9 +16,12 @@
 - Nơi đang lưu danh mục và giá: [ĐIỀN: ví dụ "Excel của kế toán, phần mềm bán hàng KiotViet, bảng giá đại lý riêng"]
 - Quy tắc mã sản phẩm hiện tại: [ĐIỀN: ví dụ "mã theo nhà cung cấp, chưa thống nhất" hoặc "không áp dụng"]
 - Ai được sửa giá và thông tin sản phẩm: [ĐIỀN: ví dụ "giám đốc kinh doanh duyệt giá, trưởng ngành hàng sửa mô tả"]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không công khai giá sỉ trên tài liệu B2C", "không ghi thông số chưa có chứng nhận"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -37,25 +40,29 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Phạm vi?** Toàn danh mục hay một nhóm hàng? Khoảng bao nhiêu mã? Đã có danh sách thô (Excel, xuất từ phần mềm) để dán vào chưa?
 2. **Ai dùng tài liệu này và cần bản nào?** Nhân viên bán hàng, đại lý, marketing, kho hay kế toán? Cần danh mục tổng, thẻ sản phẩm chi tiết, hay tài liệu tra cứu nhanh cho bán hàng?
-3. **Dữ liệu đang có?** Giá bán lẻ, giá sỉ, giá vốn, doanh thu và số lượng bán 12 tháng theo mã, tồn kho, thông số kỹ thuật, chính sách bảo hành. Thiếu gì nói rõ.
+3. **Dữ liệu đang có?** Giá bán lẻ, giá sỉ, biên lãi gộp làm tròn theo dòng sản phẩm, doanh thu và số lượng bán 12 tháng theo mã, tồn kho, thông số kỹ thuật, chính sách bảo hành. Thiếu gì nói rõ.
 4. **Mục tiêu chính?** Chuẩn hóa để đưa lên phần mềm, phân tích để quyết định giữ hay cắt, hay làm bộ tài liệu cho đại lý và nhân viên mới?
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
+
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
 
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mã sản phẩm nhất quán và không bao giờ đổi.** Đề xuất quy tắc mã đọc hiểu được theo bảng dưới nếu công ty chưa có. Mã của sản phẩm đã bán không được đổi dù sản phẩm ngừng kinh doanh, vì còn tra cứu bảo hành và lịch sử.
 3. **Mỗi sản phẩm có đúng một người chịu trách nhiệm** về mô tả, giá và trạng thái. Không gán được người thì đánh dấu để lãnh đạo quyết.
 4. **Tách thông tin B2C và B2B trong cùng một thẻ.** B2C cần giá lẻ, bảo hành, đổi trả, điểm bán nổi bật. B2B cần giá sỉ theo bậc, số lượng đặt tối thiểu (MOQ), điều khoản thanh toán, thời gian giao, tài liệu kỹ thuật. Không để giá sỉ lọt vào tài liệu B2C.
 5. **Phân tích danh mục bằng số, không bằng cảm giác.** Dùng doanh thu, lợi nhuận gộp, tốc độ bán và tồn kho 12 tháng. Khi thiếu thị phần thật, dùng ma trận đơn giản hóa ở bảng dưới và ghi rõ là giả định. Không kết luận "giữ tất cả" hay "cắt hết nhóm yếu"; xét từng mã.
-6. **Không bịa thông số, giá hay chứng nhận.** Chỗ thiếu dữ liệu thật ghi `[cần bổ sung: mô tả dữ liệu cần]`, ví dụ `[cần bổ sung: giá sỉ bậc 2 từ phòng kinh doanh]`. Thông số kỹ thuật phải có nguồn (nhà sản xuất, phiếu kiểm, chứng nhận hợp quy).
+6. **Không bịa thông số, giá hay chứng nhận.** Chỗ thiếu dữ liệu thật ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]`, ví dụ `[CẦN ĐIỀN: giá sỉ bậc 2 từ phòng kinh doanh]`. Thông số kỹ thuật phải có nguồn (nhà sản xuất, phiếu kiểm, chứng nhận hợp quy).
 7. **Vòng đời ghi rõ trạng thái**: sắp ra mắt, mới, tăng trưởng, ổn định, suy giảm, ngừng. Sản phẩm ngừng vẫn nằm trong danh mục với nhãn ngừng để không bán nhầm.
 8. **Quy trình cập nhật đi kèm danh mục.** Ai sửa, ai duyệt, bao lâu rà một lần, phát hành bản mới ra sao. Danh mục không có quy trình sẽ lệch sau 3 tháng.
 
@@ -101,10 +108,10 @@ Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, tr�
 
 ### 4.3 Bảng danh mục tổng
 
-| Mã | Tên đầy đủ | Tên ngắn | Nhóm | Dòng | Đơn vị | Giá lẻ | Giá sỉ bậc 1 | Giá vốn | Tồn | Trạng thái | Người phụ trách | Cập nhật |
+| Mã | Tên đầy đủ | Tên ngắn | Nhóm | Dòng | Đơn vị | Giá lẻ | Giá sỉ bậc 1 | Biên (nhóm) | Tồn | Trạng thái | Người phụ trách | Cập nhật |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 
-Cột bắt buộc không được trống: mã, tên, nhóm, đơn vị, giá lẻ, trạng thái, người phụ trách. Cột nào không có dữ liệu ghi `[cần bổ sung]`.
+Cột bắt buộc không được trống: mã, tên, nhóm, đơn vị, giá lẻ, trạng thái, người phụ trách. Cột nào không có dữ liệu ghi `[CẦN ĐIỀN]`. Cột giá vốn chỉ có ở bản nội bộ ngoài ChatGPT.
 
 ### 4.4 Thẻ sản phẩm chuẩn
 
@@ -133,7 +140,7 @@ USP: (1) bảo hành 2 năm đổi mới, hiếm trong phân khúc dưới 100.0
 (2) chỉ số hoàn màu CRI trên 80, theo phiếu kiểm của nhà sản xuất;
 (3) có sẵn 3 màu ánh sáng, giao trong 24 giờ nội thành.
 B2C: giá lẻ 89.000đ, đổi trả 7 ngày, bán kèm: đế đèn, công tắc cảm ứng.
-B2B: sỉ bậc 1 (từ 50 cái) 69.000đ, bậc 2 (từ 200 cái) [cần bổ sung: giá bậc 2],
+B2B: sỉ bậc 1 (từ 50 cái) 69.000đ, bậc 2 (từ 200 cái) [CẦN ĐIỀN: giá bậc 2],
 MOQ 50 cái, thanh toán 30 ngày với đại lý đã duyệt tín dụng.
 CÂU HỎI HAY GẶP: "Lắp trần bê tông được không?" Không, cần đế nổi mã DEN-LED-DN-12W.
 TRẠNG THÁI: ổn định | Phụ trách: Trưởng ngành hàng đèn | Cập nhật: 03/2026
@@ -176,6 +183,9 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] USP viết theo lợi ích kèm bằng chứng, thông số có nguồn.
 - [ ] Phân tích danh mục có số, có nhận định, có hành động từng mã; không kết luận chung chung.
 - [ ] Mọi số ước tính và ngưỡng phân loại ghi rõ là giả định cần kiểm chứng.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Tôn trọng điều cấm trong phần bối cảnh; thuật ngữ tiếng Việt kèm tiếng Anh trong ngoặc ở lần đầu.
 - [ ] Kết thúc bằng 5 việc cần làm và gợi ý skill tiếp theo.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

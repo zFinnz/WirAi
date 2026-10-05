@@ -12,13 +12,15 @@
 - Tên công ty, ngành, năm thành lập: [ĐIỀN: ví dụ "Công ty ABC, phân phối thiết bị điện dân dụng, từ 2016"]
 - Thị trường hiện tại và cách thắng ở đó: [ĐIỀN: ví dụ "TP.HCM và Đồng Nai; thắng nhờ giao trong 24 giờ và đổi trả dễ cho 40 đại lý"]
 - Mô hình bán và tỉ trọng B2C, B2B: [ĐIỀN: ví dụ "B2B đại lý 60%, sàn 25%, cửa hàng 15%"]
-- Kết quả gần nhất: [ĐIỀN: doanh thu, biên gộp, lợi nhuận, số tháng tiền mặt đủ chi]
+- Kết quả gần nhất: [ĐIỀN: doanh thu, biên gộp, lợi nhuận, số tháng tiền mặt đủ chi (làm tròn theo nhóm, không ghi theo từng mã)]
 - Kinh nghiệm mở rộng trước đây: [ĐIỀN: ví dụ "mở cửa hàng Bình Dương 2022, hòa vốn sau 10 tháng" hoặc "chưa từng"]
 - Nguồn lực có thể dành cho mở rộng: [ĐIỀN: ví dụ "tối đa 1,5 tỷ, 2 người điều đi, giám đốc 2 ngày/tuần trong 3 tháng đầu"]
 - Người ra quyết định và hạn quyết: [ĐIỀN: ví dụ "giám đốc và chủ sở hữu, quyết trước cuối quý"]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không vay thêm", "không nhượng quyền thương hiệu", "không mở nếu hòa vốn trên 18 tháng"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -38,18 +40,22 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Mở rộng kiểu gì và vì sao lúc này?** Địa bàn mới, kênh mới, hay nhóm khách mới? Tín hiệu nào khiến bạn nghĩ đến (khách ở đó tự tìm đến, đối thủ đang bỏ ngỏ, kênh cũ bão hòa, có người quen tại địa phương)? Nếu không làm thì mất gì?
 2. **Biết gì về thị trường mới?** Ước lượng số khách tiềm năng (số cửa hàng, hộ dân, doanh nghiệp), ai đang bán ở đó và giá của họ, khách ở đó mua khác khách hiện tại thế nào, đã có đơn hoặc đại lý nào ở đó chưa?
 3. **Đem được gì sang và thiếu gì?** Thương hiệu có được biết ở đó không, kho và giao hàng xử lý thế nào, ai sẽ điều đi hoặc tuyển tại chỗ, có quan hệ địa phương nào, cần giấy phép gì thêm?
 4. **Sẵn sàng bỏ bao nhiêu và chịu được bao lâu?** Vốn đầu tư tối đa, số tháng chịu lỗ, số tháng hòa vốn chấp nhận được, và điều kiện nào thì bạn sẵn sàng rút?
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
+
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
 
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chấm thị trường bằng 6 tiêu chí có trọng số** (bảng dưới), mỗi tiêu chí 1 đến 5 điểm kèm bằng chứng. Dưới 3,0 điểm có trọng số thì khuyến nghị không làm hoặc thăm dò thêm; 3,0 đến 3,7 thử nhỏ; trên 3,7 lập kế hoạch đầy đủ. Ngưỡng là giả định, người dùng chốt.
@@ -57,7 +63,7 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 4. **So sánh ít nhất 3 mô hình gia nhập** phù hợp với doanh nghiệp thương mại: tự mở chi nhánh hoặc cửa hàng, qua đại lý hoặc nhà phân phối địa phương, hợp tác với đối tác có sẵn mặt bằng và khách, bán trước qua kênh trực tuyến và giao từ kho hiện tại, mua lại điểm bán đang hoạt động. Mỗi mô hình chấm tốc độ, vốn, mức kiểm soát, rủi ro.
 5. **Ước tính đầu tư đủ hạng mục và có dự phòng 15%.** Hòa vốn tính bằng tháng theo 3 kịch bản; kịch bản xấu dùng tỉ lệ chuyển đổi và giá trị đơn thấp hơn thị trường cũ 20 đến 30% vì chưa có thương hiệu tại chỗ (giả định).
 6. **Kế hoạch 6 tháng chia thành thăm dò, thử nhỏ, mở rộng**, mỗi giai đoạn có mốc đi tiếp hoặc dừng đo được. Không viết kế hoạch kiểu "tháng 1 mở, tháng 6 đạt doanh thu".
-7. **Số ước tính ghi rõ giả định; chỗ thiếu dữ liệu thật ghi `[cần bổ sung: mô tả dữ liệu cần]`**, không bịa, không để trống. Số lượng cửa hàng, dân số, giá đối thủ phải có nguồn hoặc đánh dấu cần khảo sát thực địa.
+7. **Số ước tính ghi rõ giả định; chỗ thiếu dữ liệu thật ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]`**, không bịa, không để trống. Số lượng cửa hàng, dân số, giá đối thủ phải có nguồn hoặc đánh dấu cần khảo sát thực địa.
 8. **Nhắc giấy phép và nghĩa vụ khi mở địa điểm mới**: đăng ký chi nhánh hoặc địa điểm kinh doanh, thuế môn bài tại địa phương, giấy phép ngành nghề có điều kiện tại tỉnh mới, phòng cháy chữa cháy, lao động địa phương. Ghi "cần luật sư hoặc kế toán kiểm tra, quy định có thể đã thay đổi".
 
 ### Tiêu chí chấm thị trường (trọng số tham khảo, người dùng chốt lại)
@@ -101,7 +107,7 @@ Trả lời 3 câu: tín hiệu nào cho thấy có nhu cầu, vì sao công ty 
 
 ### 4.3 Khách và cạnh tranh tại thị trường mới
 
-- Ước lượng số khách tiềm năng B2C và B2B với nguồn (số cửa hàng theo khảo sát, dân số, số doanh nghiệp), đánh dấu `[cần bổ sung]` nếu chưa khảo sát.
+- Ước lượng số khách tiềm năng B2C và B2B với nguồn (số cửa hàng theo khảo sát, dân số, số doanh nghiệp), đánh dấu `[CẦN ĐIỀN]` nếu chưa khảo sát.
 - Khách ở đó khác khách hiện tại ở điểm nào: giá chấp nhận, cách mua, ai ảnh hưởng quyết định, mùa vụ.
 - Bảng đối thủ: tên, kênh mạnh, giá, điểm yếu khách đang than, cách họ sẽ phản ứng khi công ty vào.
 - Định vị đề xuất tại địa bàn mới: thắng bằng giá, dịch vụ, hay ngách; một câu "khách ở đó chọn mình vì".
@@ -175,6 +181,8 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý skil
 - [ ] So sánh ít nhất 3 mô hình gia nhập và nêu lý do chọn.
 - [ ] Đầu tư đủ hạng mục, có dự phòng 15%; hòa vốn và lỗ lũy kế theo 3 kịch bản; nêu công ty có sống được với kịch bản xấu không.
 - [ ] Kế hoạch 6 tháng có mốc đi tiếp và điều kiện dừng đo được ở mỗi giai đoạn.
-- [ ] Mọi số ước tính ghi rõ giả định; chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Mọi số ước tính ghi rõ giả định; chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] B2C và B2B tách khi khách và kênh khác nhau; giấy phép địa phương nhắc kèm "cần luật sư hoặc kế toán kiểm tra".
 - [ ] Tôn trọng điều cấm trong bối cảnh; thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu; kết thúc bằng 5 việc cần làm trong 7 ngày.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

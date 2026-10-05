@@ -1,6 +1,6 @@
 # PL-01 · Rà soát hợp đồng mua bán
 
-> **Dùng khi:** nhận bản dự thảo hợp đồng từ đối tác (mua bán hàng hóa, đại lý, phân phối, dịch vụ, thỏa thuận bảo mật, hợp tác kinh doanh) và cần biết điều khoản nào bất lợi, sửa thế nào, hỏi luật sư điều gì trước khi ký; cần rà lại mẫu hợp đồng công ty đang dùng; hoặc cần rà một hợp đồng lao động do bên khác soạn trước khi ký.
+> **Dùng khi:** nhận bản dự thảo hợp đồng từ đối tác (mua bán hàng hóa, đại lý, phân phối, dịch vụ, thỏa thuận bảo mật (rà từng điều đã làm sạch), hợp tác kinh doanh) và cần biết điều khoản nào bất lợi, sửa thế nào, hỏi luật sư điều gì trước khi ký; cần rà lại mẫu hợp đồng công ty đang dùng; hoặc cần rà một hợp đồng lao động do bên khác soạn trước khi ký.
 > **Kết quả:** bảng điều khoản rủi ro theo mức cao, trung, thấp; điều khoản thiếu cần bổ sung; đề xuất câu chữ sửa cho từng điều; danh sách câu hỏi cho luật sư; danh sách kiểm tra trước khi ký.
 > **Không dùng khi:** cần soạn mới hợp đồng bán hàng, dịch vụ, đại lý, thỏa thuận bảo mật từ đầu (dùng PL-04), cần soạn điều khoản dịch vụ cho website hoặc chính sách bảo mật (PL-02), cần kiểm tra nội dung quảng cáo và thu thập dữ liệu (PL-03), hoặc cần xây chính sách công nợ (FIN-08).
 > **Từ ngữ bổ sung:** B2B = bán cho doanh nghiệp; B2C = bán cho người tiêu dùng.
@@ -20,6 +20,8 @@
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không ký phạt vi phạm trên 8%", "không nhận độc quyền quá 1 năm", "không ký giới hạn trách nhiệm dưới giá trị hợp đồng"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -41,18 +43,22 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
-1. **Công ty là bên nào và hợp đồng loại gì?** Bên bán hay bên mua, bên giao đại lý hay đại lý, bên cung cấp hay bên thuê dịch vụ, bên tiết lộ hay bên nhận thông tin mật? Dán toàn bộ bản dự thảo hoặc các điều khoản chính, kèm phụ lục.
+1. **Công ty là bên nào và hợp đồng loại gì?** Bên bán hay bên mua, bên giao đại lý hay đại lý, bên cung cấp hay bên thuê dịch vụ, bên tiết lộ hay bên nhận thông tin mật? Không dán nguyên văn hợp đồng có điều khoản bảo mật. Với dự thảo: thay tên các bên bằng "Bên A", "Bên B", số hợp đồng bằng "HĐ số X", bỏ giá trị tiền, dán từng điều cần rà.
 2. **Giá trị, thời hạn và tầm quan trọng?** Tổng giá trị, một lần hay dài hạn, đối tác chiếm bao nhiêu phần trăm doanh thu hoặc nguồn cung? Điều này quyết định mức rủi ro chấp nhận được.
 3. **Điều gì công ty lo nhất?** Ví dụ: bị chiếm dụng vốn, bị phạt nặng khi giao trễ, bị ràng buộc độc quyền, bị chấm dứt đột ngột, hàng lỗi không đổi được, mất quyền với kết quả công việc.
 4. **Đã thương lượng được gì và còn bao nhiêu thời gian?** Điều nào đối tác nói "không đổi", hạn ký là khi nào, ai bên công ty sẽ đi đàm phán?
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
+
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
 
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mở đầu mọi kết quả bằng dòng giới hạn:** "Rà soát sơ bộ, không thay thế ý kiến luật sư. Cần luật sư duyệt trước khi ký." Đây là bảo vệ cho cả người dùng lẫn công ty.
@@ -62,7 +68,7 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 6. **Đối chiếu với mức luật cho phép.** Ví dụ phạt vi phạm trong hợp đồng thương mại thường bị giới hạn tối đa 8% giá trị phần nghĩa vụ bị vi phạm theo Luật Thương mại 2005; điều khoản phạt vượt mức này có thể không được công nhận phần vượt. Luôn ghi "cần kiểm tra văn bản mới nhất".
 7. **Kiểm tra tính nhất quán toàn hợp đồng.** Ngày giao ở điều 3 khớp với điều kiện thanh toán ở điều 5 không, phụ lục có mâu thuẫn với thân hợp đồng không, định nghĩa có dùng thống nhất không.
 8. **Phân biệt điều "phải sửa" với điều "nên sửa nếu được".** Đưa người đàm phán 3 điều phải thắng, còn lại là điều có thể nhượng để đổi.
-9. **Không bịa điều luật, không bịa thông tin hợp đồng.** Nêu tên luật và nội dung quy định; số điều chỉ ghi khi chắc chắn, và vẫn kèm ghi chú cần kiểm tra. Chỗ hợp đồng để trống hoặc người dùng chưa cung cấp (giá trị, ngày, tên bên, phụ lục) ghi `[cần bổ sung: mô tả dữ liệu cần]`, không suy đoán, không để trống.
+9. **Không bịa điều luật, không bịa thông tin hợp đồng.** Nêu tên luật và nội dung quy định; số điều chỉ ghi khi chắc chắn, và vẫn kèm ghi chú cần kiểm tra. Chỗ hợp đồng để trống hoặc người dùng chưa cung cấp (giá trị, ngày, tên bên, phụ lục) ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]`, không suy đoán, không để trống.
 
 ### Bảy nhóm điều khoản rủi ro và câu hỏi rà (dùng khi thiếu dữ liệu, mức tham khảo là giả định)
 
@@ -141,7 +147,7 @@ hai bên áp dụng điều khoản giải quyết tranh chấp."
 
 ### 4.5 Kiểm tra nhất quán và điểm cần làm rõ
 
-Bảng mâu thuẫn giữa các điều hoặc giữa thân hợp đồng và phụ lục; các định nghĩa dùng không thống nhất; chỗ cần hỏi lại đối tác trước khi ký; chỗ để trống đánh dấu `[cần bổ sung]`.
+Bảng mâu thuẫn giữa các điều hoặc giữa thân hợp đồng và phụ lục; các định nghĩa dùng không thống nhất; chỗ cần hỏi lại đối tác trước khi ký; chỗ để trống đánh dấu `[CẦN ĐIỀN]`.
 
 ### 4.6 Câu hỏi cho luật sư
 
@@ -171,5 +177,7 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Có 3 điều phải thắng và danh sách điều có thể nhượng.
 - [ ] Hợp đồng với người tiêu dùng được đánh dấu để áp luật bảo vệ người tiêu dùng; hợp đồng lao động được đánh dấu cần luật sư rà kỹ.
 - [ ] Mọi mức tham khảo ghi rõ là giả định; tôn trọng điều cấm và ngưỡng trong phần bối cảnh.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu; kết thúc bằng 5 việc cần làm trước khi ký.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

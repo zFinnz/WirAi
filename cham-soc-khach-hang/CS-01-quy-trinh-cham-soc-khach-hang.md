@@ -18,9 +18,12 @@
 - Đội chăm sóc: [ĐIỀN: số người, ca trực, có kiêm bán hàng không]
 - Công cụ quản lý hội thoại và ghi nhận yêu cầu: [ĐIỀN: ví dụ "Pancake", "Haravan", "Google Sheet", "chưa có"]
 - Chính sách đổi trả, bảo hành, hoàn tiền hiện có: [ĐIỀN: 1 đến 2 câu]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "nhân viên không tự hứa hoàn tiền trên 500.000đ", "không trả lời khách sau 22 giờ"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -41,7 +44,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Kênh và khối lượng?** Mỗi ngày khoảng bao nhiêu tin nhắn, cuộc gọi, email, lượt khách đến quầy trên từng kênh? Giờ cao điểm? Kênh nào hay bị bỏ sót nhất?
 2. **Loại yêu cầu phổ biến và khiếu nại hay gặp nhất?** Ước tỉ lệ: hỏi giá, tra đơn, đổi trả, khiếu nại chất lượng, bảo hành, kỹ thuật. Khách B2B có yêu cầu riêng như công nợ, hóa đơn, giao theo lô không?
@@ -50,11 +53,15 @@ Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa
 
 Nếu người dùng gửi quy trình cũ, đọc trước và chỉ hỏi phần còn thiếu.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
+
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
 
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Một quy trình, nhiều kênh.** Các bước xử lý giống nhau trên mọi kênh; chỉ khác thời gian cam kết, cách xưng hô và định dạng. Không viết 5 quy trình cho 5 kênh.
@@ -63,7 +70,7 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 5. **Tiếp nhận là việc của cả đội, giải quyết có một người chịu trách nhiệm.** Yêu cầu nào chưa có tên người phụ trách và hạn xử lý là lỗi quy trình.
 6. **Chuyển tuyến theo điều kiện rõ ràng, không theo cảm giác.** Quyền hạn từng cấp ghi bằng số tiền và loại việc. Khi chuyển, khách không phải kể lại từ đầu.
 7. **B2C và B2B tách tiêu chuẩn.** B2C cần nhanh, ngắn, thân thiện trên tin nhắn. B2B cần đầu mối cố định, email có lưu vết, xử lý theo điều khoản hợp đồng và báo cáo định kỳ cho người mua.
-8. **Ghi lại mọi tương tác theo danh mục cố định, không bịa số.** Loại yêu cầu, kênh, sản phẩm, kết quả, lý do gốc. Dữ liệu này nuôi CS-04 và CS-06. Chỗ nào thiếu dữ liệu thật (khối lượng, tỉ lệ, điểm hài lòng) ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì ước đoán hoặc để trống.
+8. **Ghi lại mọi tương tác theo danh mục cố định, không bịa số.** Loại yêu cầu, kênh, sản phẩm, kết quả, lý do gốc. Dữ liệu này nuôi CS-04 và CS-06. Chỗ nào thiếu dữ liệu thật (khối lượng, tỉ lệ, điểm hài lòng) ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]` thay vì ước đoán hoặc để trống.
 9. **Rõ ràng hơn hay ho.** Giọng điệu theo thương hiệu (MKT-05 nếu có) nhưng trong chăm sóc khách hàng, câu trả lời dễ hiểu luôn thắng câu trả lời bay bổng.
 
 ### Thời gian phản hồi tham khảo theo kênh (dùng khi thiếu dữ liệu, ghi rõ là giả định)
@@ -197,6 +204,9 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Có khung 4 phần cho câu trả lời, bảng nên và không nên, 5 câu cấm và câu thay thế bằng lời nói tự nhiên.
 - [ ] Bảng ghi nhận có đủ cột, chỉ số có cách tính và tần suất xem, có báo cáo tháng một trang.
 - [ ] Mọi số tham khảo (SLA, mức chỉ số) đã ghi rõ là giả định cần kiểm chứng.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu.
 - [ ] Kết thúc bằng 5 việc cần làm trong 7 ngày và gợi ý CS-02.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

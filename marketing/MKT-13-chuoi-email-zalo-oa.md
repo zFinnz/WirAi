@@ -16,9 +16,12 @@
 - Công cụ gửi đang dùng: [ĐIỀN: ví dụ "Brevo cho email, Zalo OA gói trả phí, phần mềm CRM Getfly"]
 - Cách xưng hô với khách: [ĐIỀN: ví dụ "B2C gọi bạn, xưng mình; B2B gọi anh/chị, xưng em hoặc công ty"]
 - Đã xin đồng ý nhận tin khi thu thập dữ liệu chưa: [ĐIỀN: có, một phần, chưa]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không gửi Zalo sau 21 giờ", "không giảm giá cho khách B2B qua tin nhắn hàng loạt"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -38,18 +41,22 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Chuỗi nào, cho ai?** Chào mừng, nuôi dưỡng, sau mua, khuyến mãi, kéo lại khách cũ, giỏ hàng bỏ quên, hay tin giao dịch (xác nhận đơn, nhắc lịch)? Cho khách lẻ, khách doanh nghiệp hay đại lý?
 2. **Điều gì kích hoạt chuỗi và mục tiêu cuối là gì?** Ví dụ: đăng ký nhận tài liệu, mua lần đầu, không mở tin 60 ngày; mục tiêu là đặt lịch, mua lại, đăng ký làm đại lý.
 3. **Danh sách và công cụ?** Bao nhiêu người, nguồn từ đâu, đã phân nhóm chưa, kênh nào đã có (email, Zalo OA, ZNS), tỉ lệ mở và nhấp hiện tại nếu biết.
 4. **Họ còn nhận tin gì khác?** Có chuỗi nào đang chạy song song không, để tránh một khách nhận 3 tin trong một ngày.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
+
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
 
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chọn kênh theo loại tin, không theo thói quen.** Tin dài, nhiều liên kết, cần giải thích thì email. Tin cần đọc ngay, hành động trong ngày thì Zalo. Lý do: tỉ lệ đọc Zalo cao gấp 2 đến 3 lần email nhưng mỗi tin thừa đều tốn người theo dõi.
@@ -58,7 +65,7 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 5. **Mỗi tin có mục đích, điều kiện gửi, điều kiện thoát.** Khách đã mua thì ra khỏi chuỗi nuôi dưỡng ngay, không nhận tiếp tin "mua đi".
 6. **Tách B2C và B2B.** B2C gửi ngoài giờ hành chính, giọng gần gũi, nhịp 2 đến 3 ngày. B2B gửi giờ hành chính thứ 3 đến thứ 5, giọng chuyên nghiệp, nhịp 4 đến 7 ngày, nội dung là tài liệu, nghiên cứu tình huống, bảng giá đại lý.
 7. **Tiêu đề quyết định tỉ lệ mở.** Dưới 50 ký tự, không viết hoa toàn bộ, không lạm dụng "miễn phí", "100%", "khẩn cấp", dấu chấm than, vì đó là từ kích hoạt bộ lọc thư rác. Luôn có 2 phương án tiêu đề để thử.
-8. **Mọi liên kết phải có mã theo dõi nguồn (UTM)** tách riêng `utm_medium=email` và `utm_medium=zalo`. Thử nghiệm A/B một yếu tố mỗi lần, tối thiểu 500 người mỗi phương án, chờ 24 giờ mới kết luận. Chỗ nào thiếu dữ liệu thật (tỉ lệ mở, kích thước danh sách, chu kỳ mua) thì ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo dùng thay thế phải ghi rõ là giả định.
+8. **Mọi liên kết phải có mã theo dõi nguồn (UTM)** tách riêng `utm_medium=email` và `utm_medium=zalo`. Thử nghiệm A/B một yếu tố mỗi lần, tối thiểu 500 người mỗi phương án, chờ 24 giờ mới kết luận. Chỗ nào thiếu dữ liệu thật (tỉ lệ mở, kích thước danh sách, chu kỳ mua) thì ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo dùng thay thế phải ghi rõ là giả định.
 
 ### So sánh hai kênh (ví dụ giả định để tính thử, cần thay bằng dữ liệu công ty)
 
@@ -194,7 +201,7 @@ Chỉ số theo dõi hằng tuần: tỉ lệ mở hoặc đọc, tỉ lệ nh�
 
 ### 4.7 Danh sách thiết lập trước khi bật
 
-Xác thực tên miền gửi (SPF, DKIM, DMARC) nếu dùng email; làm nóng tên miền hoặc địa chỉ gửi mới bằng số lượng nhỏ tăng dần theo tuần; chạy kiểm tra điểm thư rác bằng công cụ miễn phí trước lần gửi đầu; dòng hủy đăng ký và địa chỉ công ty ở chân email; Zalo OA đã xác thực; mẫu ZNS đã được duyệt; kiểm tra cả hai nhánh rẽ; kiểm tra hiển thị trên điện thoại thật vì phần lớn tin được đọc trên điện thoại; lưu bằng chứng đồng ý nhận tin.
+Xác thực tên miền gửi (SPF, DKIM, DMARC) nếu dùng email; làm nóng tên miền hoặc địa chỉ gửi mới bằng số lượng nhỏ tăng dần theo tuần; chạy kiểm tra điểm thư rác bằng công cụ miễn phí trước lần gửi đầu; dòng hủy đăng ký và địa chỉ công ty ở chân email; Zalo OA đã xác thực; mẫu ZNS đã được duyệt; kiểm tra cả hai nhánh rẽ; kiểm tra hiển thị trên điện thoại thật vì phần lớn tin được đọc trên điện thoại; lưu bằng chứng đồng ý nhận tin; mọi mẫu tin và ưu đãi trong luồng được người có thẩm quyền duyệt; ưu đãi chỉ lấy từ chương trình đã duyệt; luồng có log gửi.
 
 Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý skill tiếp theo (MKT-19 nếu cần gói ưu đãi cho chuỗi chốt, MKT-14 nếu trang đích của CTA chưa tốt).
 
@@ -213,6 +220,9 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý skil
 - [ ] Có dòng hủy đăng ký, có bằng chứng đồng ý nhận tin, không dùng danh sách mua, tôn trọng Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP.
 - [ ] Tỉ lệ nội dung giá trị trên bán hàng khoảng 80/20 trong chuỗi nuôi dưỡng.
 - [ ] Mọi số tham khảo ghi rõ là giả định cần kiểm chứng bằng dữ liệu công ty.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Tôn trọng các điều cấm trong phần bối cảnh; thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu.
 - [ ] Kết thúc bằng 5 việc cần làm trong 7 ngày.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

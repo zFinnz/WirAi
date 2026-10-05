@@ -1,13 +1,24 @@
 #!/usr/bin/env python3
-"""Tạo index.html từ các file skill .md.
+"""Tạo index.html từ các trang tham khảo và các file skill .md.
 
 Chạy lại mỗi khi sửa hoặc thêm skill:
     python3 _build/build-index.py
 
-Script đọc mọi thư mục nhóm, trích mã, tên, "Dùng khi", "Kết quả", "Không dùng khi"
-và toàn bộ nội dung, rồi nhúng vào template.html thành một file index.html tự chứa,
+Script làm các việc sau rồi ghép vào template.html thành file index.html:
+1. Đọc thư mục tham-khao/ cho các trang Tổng quan, Instructions, Prompt, Skill, Plugin.
+2. Đọc mọi thư mục nhóm skill, trích mã, tên, "Dùng khi", "Kết quả", "Không dùng khi" và nội dung
+   cho trang Skill template.
+3. Đọc thư mục slides/ (mỗi trang slide một file .svg, kèm file .pptx để tải) cho trang Slide.
+   Xóa thư mục slides/ rồi chạy lại script thì tab Slide tự ẩn.
+4. Liệt kê các file Word, Excel trong thư mục du-lieu-demo/ để liên kết dạng [tên](du-lieu-demo/ten-file) trên
+   các trang tham khảo thành nút tải file. Giống file .pptx của slide, các file này nằm cạnh index.html, không nhúng vào.
+5. Nhúng logo _build/wir_logo.jpg vào góc trái thanh đầu trang và làm biểu tượng tab. Không có file logo thì
+   dùng ô chữ "W" như cũ.
+File index.html
 mở được bằng cách nhấp đúp, không cần máy chủ hay internet.
 """
+import base64
+import html
 import json
 import re
 import sys
@@ -15,7 +26,25 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE = Path(__file__).resolve().parent / "template.html"
+LOGO = Path(__file__).resolve().parent / "wir_logo.jpg"
 OUT = ROOT / "index.html"
+
+# Các trang tham khảo, theo đúng thứ tự trên thanh điều hướng. Sửa nội dung trong thư mục tham-khao/.
+REF_DIR = ROOT / "tham-khao"
+REF_PAGES = [
+    ("instructions", "instructions.md"),
+    ("prompt", "prompt.md"),
+    ("skill", "skill.md"),
+    ("plugin", "plugin.md"),
+]
+HUB_FILE = "tong-quan.md"  # nội dung phần dưới của trang Tổng quan
+
+# Bộ slide: các file NN_ten.svg theo thứ tự tên file, và một file .pptx để tải về.
+SLIDE_DIR = ROOT / "slides"
+
+# Dữ liệu demo để tập (Word, Excel). README.md trong thư mục chỉ để đọc trên repo.
+DEMO_DIR = ROOT / "du-lieu-demo"
+DEMO_TYPES = (".docx", ".xlsx", ".pdf", ".pptx")
 
 # Thứ tự và mô tả nhóm cho người dùng không chuyên.
 GROUPS = [
@@ -91,6 +120,113 @@ def parse_skill(path: Path, group_key: str):
     }
 
 
+REF_META_RE = re.compile(r"^> \*\*(Là gì|Tra mục này khi):\*\*\s*(.*)$")
+
+
+def load_ref(key, filename):
+    """Đọc một trang tham khảo: tiêu đề, hai dòng định nghĩa ở đầu, và phần thân."""
+    path = REF_DIR / filename
+    if not path.exists():
+        print(f"CẢNH BÁO: thiếu trang tham khảo {path.name}", file=sys.stderr)
+        return None
+    raw = path.read_text(encoding="utf-8")
+    lines = raw.splitlines()
+    name, meta, body_start = key, {"Là gì": "", "Tra mục này khi": ""}, 0
+    for i, l in enumerate(lines):
+        if l.startswith("# ") and name == key:
+            name = l[2:].strip()
+            body_start = i + 1
+            continue
+        m = REF_META_RE.match(l)
+        if m:
+            meta[m.group(1)] = m.group(2).strip()
+            body_start = i + 1
+            continue
+        if l.startswith("## "):
+            break
+    body = "\n".join(lines[body_start:]).strip()
+    # Đếm số mẫu: tiêu đề cấp 3 nằm trong mục "Mẫu dùng ngay" (bỏ qua dòng trong khối mã).
+    templates, in_fence, in_tpl = 0, False, False
+    for l in lines:
+        if l.strip().startswith("```"):
+            in_fence = not in_fence
+        if in_fence:
+            continue
+        if l.startswith("## "):
+            in_tpl = l[3:].strip().lower().startswith("mẫu dùng ngay")
+        elif in_tpl and l.startswith("### "):
+            templates += 1
+    return {"key": key, "name": name, "what": meta["Là gì"], "when": meta["Tra mục này khi"],
+            "md": body, "raw": raw, "file": filename, "templates": templates}
+
+
+def load_hub():
+    path = REF_DIR / HUB_FILE
+    if not path.exists():
+        return ""
+    lines = path.read_text(encoding="utf-8").splitlines()
+    return "\n".join(l for i, l in enumerate(lines) if not (i == 0 and l.startswith("# "))).strip()
+
+
+SLIDE_TEXT_RE = re.compile(r"<text\b([^>]*)>(.*?)</text>", re.S)
+
+
+def slide_title(svg, role):
+    """Tiêu đề slide là các dòng chữ cỡ lớn nhất. Slide mở tầng có một chữ số rất lớn, nên ghép "Tầng N: tên"."""
+    items = []
+    for attrs, content in SLIDE_TEXT_RE.findall(svg):
+        m = re.search(r'font-size="([\d.]+)"', attrs)
+        if m:
+            items.append((float(m.group(1)), html.unescape(re.sub(r"<[^>]+>", "", content)).strip()))
+    if not items:
+        return ""
+    sizes = sorted({sz for sz, _ in items}, reverse=True)
+    at = lambda sz: " ".join(t for s, t in items if s == sz)
+    if role == "section" and len(sizes) > 1 and at(sizes[0]).isdigit():
+        return f"Tầng {at(sizes[0])}: {at(sizes[1])}"
+    return at(sizes[0])
+
+
+MONO_TEXT_RE = re.compile(r"<text\b([^>]*\bConsolas\b[^>]*)>(.*?)</text>", re.S)
+MONO_ADVANCE = 0.5498  # bề rộng một ký tự Consolas, tính theo cỡ chữ
+
+
+def fix_mono(svg):
+    """Slide dựng theo Consolas. Máy không có Consolas (Mac, điện thoại) sẽ dùng phông đơn cách rộng hơn chừng 9%
+    và chữ tràn khung. Ghi sẵn bề rộng đúng của từng dòng để máy nào cũng vẽ vừa khung."""
+    def one(m):
+        attrs, content = m.group(1), m.group(2)
+        size = re.search(r'font-size="([\d.]+)"', attrs)
+        text = " ".join(html.unescape(re.sub(r"<[^>]+>", "", content)).split())
+        if not size or not text or "textLength" in attrs or "letter-spacing" in attrs:
+            return m.group(0)
+        attrs = attrs.replace("Consolas, 'Courier New', monospace", "Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace")
+        width = round(len(text) * MONO_ADVANCE * float(size.group(1)), 1)
+        return f'<text{attrs} textLength="{width}" lengthAdjust="spacingAndGlyphs">{content}</text>'
+    return MONO_TEXT_RE.sub(one, svg)
+
+
+def load_slides():
+    if not SLIDE_DIR.is_dir():
+        return [], ""
+    slides = []
+    for p in sorted(SLIDE_DIR.glob("*.svg")):
+        svg = p.read_text(encoding="utf-8")
+        role = (re.search(r'data-pptx-page-role="([^"]*)"', svg) or [None, ""])[1]
+        title = slide_title(svg, role)
+        # Bỏ các thuộc tính chỉ dùng khi xuất PowerPoint để file index.html nhẹ hơn.
+        svg = fix_mono(re.sub(r'\s+data-pptx-[\w-]+="[^"]*"', "", svg))
+        slides.append({"title": title or p.stem, "role": role, "svg": svg.strip()})
+    pptx = next(iter(sorted(SLIDE_DIR.glob("*.pptx"))), None)
+    return slides, pptx.name if pptx else ""
+
+
+def load_demo():
+    if not DEMO_DIR.is_dir():
+        return []
+    return [p.name for p in sorted(DEMO_DIR.iterdir()) if p.suffix in DEMO_TYPES]
+
+
 def main():
     groups = []
     skills = []
@@ -108,12 +244,24 @@ def main():
     guide = guide_path.read_text(encoding="utf-8") if guide_path.exists() else ""
     guide2_path = ROOT / "huong-dan-tao-skill-chatgpt.md"
     guide2 = guide2_path.read_text(encoding="utf-8") if guide2_path.exists() else ""
+    refs = [r for r in (load_ref(k, f) for k, f in REF_PAGES) if r]
+    slides, slide_pptx = load_slides()
+    demo = load_demo()
     data = {"groups": groups, "skills": skills, "guide": guide, "guideChatgpt": guide2,
+            "refs": refs, "hub": load_hub(), "slides": slides, "slidePptx": slide_pptx, "demo": demo,
             "total": len(skills), "builtAt": __import__("datetime").date.today().isoformat()}
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     html = TEMPLATE.read_text(encoding="utf-8").replace("/*__DATA__*/null", payload)
+    if LOGO.exists():
+        src = "data:image/jpeg;base64," + base64.b64encode(LOGO.read_bytes()).decode()
+        html = html.replace("<!--__FAVICON__-->", f'<link rel="icon" type="image/jpeg" href="{src}">')
+        html = html.replace("<!--__BRAND_MARK__-->", f'<img class="brand-mark logo" src="{src}" alt="Wir Group" height="34">')
+    else:
+        html = html.replace("<!--__FAVICON__-->", "").replace("<!--__BRAND_MARK__-->", '<div class="brand-mark">W</div>')
     OUT.write_text(html, encoding="utf-8")
-    print(f"Đã tạo {OUT.name}: {len(skills)} skill, {len(groups)} nhóm, {OUT.stat().st_size // 1024} KB")
+    print(f"Đã tạo {OUT.name}: {len(refs)} trang tham khảo ({', '.join(r['name'] for r in refs)}), "
+          f"{len(skills)} skill template, {len(groups)} nhóm, {len(slides)} slide, {len(demo)} file demo, "
+          f"{OUT.stat().st_size // 1024} KB")
 
 
 if __name__ == "__main__":

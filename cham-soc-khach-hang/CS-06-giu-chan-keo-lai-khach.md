@@ -18,9 +18,12 @@
 - Dữ liệu đang có: [ĐIỀN: ví dụ "lịch sử đơn trên Sapo, lịch hẹn trên Google Sheet, Zalo OA, bảng khiếu nại, chưa có phần mềm quản lý quan hệ khách hàng (CRM)"]
 - Kênh chạm lại khách cũ thực sự có người đọc: [ĐIỀN: ví dụ "Zalo OA tỉ lệ đọc 50%, email B2B, nhân viên gọi"]
 - Ngân sách ưu đãi giữ chân tối đa: [ĐIỀN: ví dụ "không quá 20% giá trị đơn, tổng 15 triệu/tháng"]
+- Chính sách giá, chiết khấu, công nợ, đền bù được duyệt và câu dùng khi khách đòi ngoài chính sách: [ĐIỀN hoặc ghi `theo Project`; câu mặc định: "Mức này vượt chính sách hiện hành, em cần xin ý kiến quản lý trước khi xác nhận với anh/chị."]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không giảm giá cho đại lý ngoài chính sách", "không gọi khách sau 20 giờ", "không nhắn quá 2 tin Zalo mỗi tuần"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -40,22 +43,26 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Mô hình kinh doanh và chu kỳ mua lại?** Mua lẻ lặp lại, gói nhiều buổi, thẻ thành viên, thuê bao, hợp đồng B2B hay đại lý? Khách bình thường quay lại sau bao nhiêu ngày? Nếu có cả B2C và B2B, muốn làm nhóm nào trước?
 2. **Tỉ lệ mua lại hiện tại và số khách đang hoạt động?** Nếu chưa đo, nói rõ; sẽ đo trước khi làm gì khác (SAL-10 hoặc OPS-09 nếu có dữ liệu giao dịch).
 3. **Đã biết lý do khách rời chưa, và dấu hiệu nào thường xuất hiện trước khi rời?** Có hỏi không, hỏi bằng cách nào, thu được gì? Theo kinh nghiệm đội, khách sắp đi thường làm gì khác đi? Có ca khách đòi hủy gần đây để làm ví dụ không?
 4. **Kênh nào thực sự chạm được khách cũ và ai sẽ theo dõi danh sách rủi ro?** Zalo OA, email, tin nhắn điện thoại (SMS), nhân viên gọi, nhóm khách hàng. Tỉ lệ đọc hoặc nghe máy ước tính; bao nhiêu người có thể gọi mỗi tuần.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
+
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Phân nhánh mô hình kinh doanh trước.** Định nghĩa mất khách, tín hiệu sớm, mốc can thiệp, loại ưu đãi đều phụ thuộc mô hình. Làm ngược lại là làm sai.
-3. **Tín hiệu đo bằng dữ liệu có thật, so với chu kỳ riêng của từng khách.** Khách mua mỗi 30 ngày mà 45 ngày chưa mua là tín hiệu; khách mua mỗi 90 ngày thì 45 ngày là bình thường. Không dùng trung bình cả công ty cho mọi khách. Chỗ nào thiếu dữ liệu thật (chu kỳ, tỉ lệ mua lại, tỉ lệ đọc tin) ghi `[cần bổ sung: mô tả dữ liệu cần]`, không ước đoán, không để trống.
+3. **Tín hiệu đo bằng dữ liệu có thật, so với chu kỳ riêng của từng khách.** Khách mua mỗi 30 ngày mà 45 ngày chưa mua là tín hiệu; khách mua mỗi 90 ngày thì 45 ngày là bình thường. Không dùng trung bình cả công ty cho mọi khách. Chỗ nào thiếu dữ liệu thật (chu kỳ, tỉ lệ mua lại, tỉ lệ đọc tin) ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]`, không ước đoán, không để trống.
 4. **Một tín hiệu đơn lẻ chưa đủ kết luận**, trừ "không đến buổi đã đặt" và "phàn nàn hoặc đánh giá thấp": hai tín hiệu này hành động ngay. Gom tín hiệu thành 3 màu: xanh (không tín hiệu hoặc 1 tín hiệu trung bình), vàng (1 tín hiệu cao hoặc 2 tín hiệu trung bình), đỏ (tín hiệu rất cao, hoặc 2 tín hiệu cao trở lên).
 5. **Can thiệp sớm bắt đầu bằng giúp đỡ hoặc nhắc việc, không bằng ưu đãi.** Ưu đãi chỉ xuất hiện khi khách đã nói ra vấn đề. Nếu không, bạn dạy khách đang khỏe mạnh chờ giảm giá. Khách đang đỏ không chào bán thêm.
 6. **Hỏi lý do trước khi đưa đề nghị.** Một câu hỏi, 5 đến 8 lựa chọn, có ô ghi thêm, đặt kiểu "để bên em làm tốt hơn", không kiểu "sao anh/chị bỏ đi".
@@ -121,7 +128,7 @@ Kèm quy tắc màu: **xanh** chăm sóc theo lịch thường (SAL-09), có th�
 | Không đến buổi đã đặt | Trong 24 giờ | Gọi hỏi lý do thật, đặt lại lịch ngay trong cuộc gọi | Gọi điện | Nhân viên phụ trách |
 | Phàn nàn, điểm thấp | Trong 24 giờ | Người có thẩm quyền liên hệ, xử lý theo CS-02, không trả lời mẫu | Gọi điện | Trưởng nhóm |
 | Vừa đóng một ca khiếu nại | 7 và 14 ngày sau | Hỏi thăm riêng "mọi thứ đã ổn chưa", không bán, không khảo sát | Zalo OA hoặc gọi | Người đã xử lý ca |
-| Thẻ, gói, hợp đồng sắp hết hạn; điểm hoặc hạng thành viên sắp mất (nếu có CS-09) | Trước 30 và 7 ngày (B2B: trước 60 và 30 ngày) | Nhắc hạn, tóm tắt giá trị đã dùng, đề nghị gia hạn hoặc cách giữ hạng | Zalo OA và email | Tự động, B2B có người gọi |
+| Thẻ, gói, hợp đồng sắp hết hạn; điểm hoặc hạng thành viên sắp mất (nếu có CS-09) | Trước 30 và 7 ngày (B2B: trước 60 và 30 ngày) | Nhắc hạn, tóm tắt giá trị đã dùng, đề nghị gia hạn theo bảng giá hiện hành hoặc cách giữ hạng | Zalo OA và email | Tự động với mẫu tin đã duyệt; B2B có người gọi |
 | Giảm quy mô đơn, chậm thanh toán, nhiều yêu cầu hỗ trợ | Sau lần thứ 2 | Hỏi một câu: có gì thay đổi không; B2B hẹn gặp | Zalo OA; B2B gọi hoặc gặp | Nhân viên, người phụ trách tài khoản |
 
 Ví dụ định dạng tin nhắc nhẹ Zalo cho B2C:
@@ -191,6 +198,9 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Chuỗi kéo lại gắn với lý do, tối đa 2 tin Zalo mỗi tuần, tin cuối chỉ gửi cho người đã tương tác.
 - [ ] Bảng đo có 4 chỉ số, quy tắc 30 ngày, tách có và không ưu đãi, kiểm tra lại mô hình tín hiệu.
 - [ ] Mọi tỉ lệ tham khảo ghi rõ là giả định.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu.
 - [ ] Kết thúc bằng 5 việc cần làm trong 7 ngày và gợi ý MKT-20, MKT-02.
+- [ ] Giá, chiết khấu, công nợ, đền bù chỉ lấy từ chính sách ở mục 0; điều ngoài chính sách chỉ dùng đúng câu xin ý kiến quản lý, không báo số, không hứa.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

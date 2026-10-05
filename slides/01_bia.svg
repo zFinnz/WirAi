@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Aptos, 'Segoe UI', Arial, sans-serif" data-pptx-page-role="cover">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <circle id="bg-disc" data-pptx-role="decoration" cx="1160" cy="700" r="500" fill="#F3F6FA" />
+
+  <g id="cover-kicker" data-pptx-bounds="64 100 560 56">
+    <rect x="64" y="108" width="56" height="6" rx="3" fill="#E8833A" />
+    <text x="64" y="146" font-size="16" font-weight="bold" letter-spacing="2" fill="#1D3557">KHÓA ĐÀO TẠO AI NỘI BỘ · WIR GROUP</text>
+  </g>
+
+  <g id="cover-title" data-pptx-bounds="64 160 760 176">
+    <text font-size="66" font-weight="bold" fill="#1D3557" x="64" y="226">Lộ trình đào tạo AI</text><text font-size="66" font-weight="bold" fill="#1D3557" x="64" y="304">trên ChatGPT</text></g>
+
+  <g id="cover-hook" data-pptx-bounds="64 346 820 92">
+    <text font-size="32" fill="#1F2937" x="64" y="380">Đào tạo ChatGPT như đào tạo</text><text font-size="32" fill="#1F2937" x="64" y="422"><tspan>một nhân viên mới — <tspan font-weight="bold" fill="#1D3557">4 bước, không nhảy cóc</tspan></tspan></text></g>
+
+  <g id="step-1" data-pptx-bounds="676 500 136 166">
+    <rect x="676" y="500" width="130" height="120" rx="14" fill="#6593C4" />
+    <text x="696" y="564" font-size="52" font-weight="bold" fill="#FFFFFF">1</text>
+    <text x="676" y="652" font-size="18" font-weight="bold" fill="#1D3557">Instructions</text>
+  </g>
+
+  <g id="step-2" data-pptx-bounds="814 410 136 256">
+    <rect x="814" y="410" width="130" height="210" rx="14" fill="#4A7FB5" />
+    <text x="834" y="474" font-size="52" font-weight="bold" fill="#FFFFFF">2</text>
+    <text x="814" y="652" font-size="18" font-weight="bold" fill="#1D3557">Prompt</text>
+  </g>
+
+  <g id="step-3" data-pptx-bounds="952 320 136 346">
+    <rect x="952" y="320" width="130" height="300" rx="14" fill="#2E5E91" />
+    <text x="972" y="384" font-size="52" font-weight="bold" fill="#FFFFFF">3</text>
+    <text x="952" y="652" font-size="18" font-weight="bold" fill="#1D3557">Skill</text>
+  </g>
+
+  <g id="step-4" data-pptx-bounds="1090 230 136 436">
+    <rect x="1090" y="230" width="130" height="390" rx="14" fill="#1D3557" />
+    <text x="1110" y="294" font-size="52" font-weight="bold" fill="#FFFFFF">4</text>
+    <text x="1090" y="652" font-size="18" font-weight="bold" fill="#1D3557">Plugin</text>
+  </g>
+
+  <g id="step-advanced" data-pptx-bounds="1090 168 136 50">
+    <rect x="1090" y="172" width="130" height="40" rx="20" fill="#64748B" />
+    <text x="1155" y="198" font-size="18" font-weight="bold" text-anchor="middle" fill="#FFFFFF">Nâng cao</text>
+  </g>
+</svg>

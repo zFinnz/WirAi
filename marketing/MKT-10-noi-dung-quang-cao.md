@@ -18,9 +18,12 @@
 - Bằng chứng thật được phép dùng: [ĐIỀN: số khách, điểm đánh giá, bảo hành, chứng nhận, dự án; kèm nguồn]
 - Trang đích hoặc nơi khách đến sau khi bấm: [ĐIỀN: tin nhắn, trang web, gian hàng sàn, biểu mẫu]
 - Giọng thương hiệu và từ cấm: [ĐIỀN: từ MKT-05 nếu có]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "ngành mỹ phẩm, không nói trị, chữa", "không công khai giá sỉ", "không nêu tên đối thủ"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -41,24 +44,28 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Quảng cáo cho sản phẩm hoặc ưu đãi nào, có bằng chứng thật nào?** Số liệu, đánh giá, kết quả, câu nói khách kèm nguồn. Có thấu hiểu khách hàng (insight) từ MKT-02 thì dán kho ngôn ngữ và lý do từ chối.
 2. **Nền tảng và mục tiêu?** Meta, TikTok, Google tìm kiếm, Zalo; mục tiêu tin nhắn, biểu mẫu, lượt truy cập, đơn hàng. Không chọn thì mặc định Meta, mục tiêu tin nhắn.
 3. **Tệp lạnh, ấm hay nóng, B2C hay B2B?** Người chưa biết, người đã tương tác, hay người đã nhắn tin, xem trang mà chưa mua? Nếu B2B, ai là người bấm và ai là người quyết định?
 4. **Trang đích nói gì?** Tiêu đề trang đích, ưu đãi trên trang, để nội dung quảng cáo khớp. Có quảng cáo đang chạy và số liệu không?
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
+
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Dòng đầu tự hoàn chỉnh về nghĩa.** Đưa lợi ích hoặc thông tin cần biết lên sớm; độ dài theo vị trí hiển thị thực tế. Tránh lời chào chung, số hoặc bằng chứng không có nguồn và cách mở bài gây hiểu lầm.
 3. **Viết các hướng mở bài trước, chọn xong mới viết thân.** Chọn hướng theo nhóm khách và bằng chứng có thật; không bắt buộc đủ sáu kiểu mở bài.
 4. **Mỗi biến thể một khung viết khác nhau** (bảng dưới), chọn theo nhiệt độ tệp. Tệp lạnh dùng khung dẫn dắt từ đầu; tệp nóng dùng khung nêu thẳng lợi ích.
-5. **Viết theo giai đoạn mua và định dạng quảng cáo.** Người mới biết cần hiểu sản phẩm giải quyết việc gì; người đang so sánh cần bằng chứng hoặc lời giải cho băn khoăn; người sẵn sàng mua cần biết giá hoặc bước mua nếu doanh nghiệp có thể công khai. Không ép ưu đãi, thời hạn hoặc bảo đảm khi công ty không có. Thiếu bằng chứng cần thiết thì ghi `[cần bổ sung: mô tả dữ liệu cần]`, không bịa số.
+5. **Viết theo giai đoạn mua và định dạng quảng cáo.** Người mới biết cần hiểu sản phẩm giải quyết việc gì; người đang so sánh cần bằng chứng hoặc lời giải cho băn khoăn; người sẵn sàng mua cần biết giá hoặc bước mua nếu doanh nghiệp có thể công khai. Không ép ưu đãi, thời hạn hoặc bảo đảm khi công ty không có. Thiếu bằng chứng cần thiết thì ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]`, không bịa số.
 6. **Kêu gọi hành động là động từ cộng lợi ích cụ thể.** "Nhắn tin nhận bảng giá đại lý" thay vì "liên hệ ngay". Nút chọn từ danh sách nền tảng.
 7. **Tiếp thị lại (retargeting) dùng hình khác và góc khác quảng cáo lần đầu**, nhắc lại điều khách đã xem, thêm bằng chứng mới hoặc gỡ lý do từ chối phổ biến.
 8. **Tuân thủ:** không nêu công dụng, kết quả hoặc ưu đãi không có căn cứ; không gán đặc điểm nhạy cảm cho người xem; không dùng từ "nhất", "duy nhất", "số 1" khi không có căn cứ hợp lệ. Với ngành có quy định riêng như thực phẩm bảo vệ sức khỏe, mỹ phẩm, thiết bị y tế, kiểm tra nội dung và câu cảnh báo bắt buộc theo đúng loại sản phẩm và kênh trước khi chạy. Quy định của nền tảng thay đổi theo định dạng, vì vậy kiểm tra bản xem trước và chính sách hiện hành.
@@ -175,10 +182,13 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Dòng đầu tự hoàn chỉnh, đưa ý chính lên sớm, đã xem trước ở định dạng và vị trí sẽ chạy.
 - [ ] Mỗi biến thể thử một khác biệt có ý nghĩa; hình ảnh đi kèm phù hợp với lời quảng cáo.
 - [ ] Đúng luật tầng: nhận biết không giá; cân nhắc có bằng chứng; chuyển đổi có ưu đãi, thời hạn, bảo đảm; độ dài đúng tầng.
-- [ ] Mỗi biến thể có ít nhất 1 số thật kèm nguồn; chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Mỗi biến thể có ít nhất 1 số thật kèm nguồn; chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Giới hạn chữ của nền tảng đã kiểm tra tại thời điểm chạy; nếu dùng Google tìm kiếm thì có ít nhất 3 tiêu đề và 2 mô tả, không vượt giới hạn từng trường.
 - [ ] Kêu gọi hành động cụ thể, động từ cộng lợi ích; nút đúng danh sách nền tảng.
 - [ ] Biến thể tiếp thị lại khác hình và khác góc với quảng cáo lần đầu.
 - [ ] Bảng tuân thủ đủ 7 dòng, không dòng nào vi phạm; tôn trọng điều cấm trong bối cảnh và Luật Quảng cáo.
 - [ ] Mọi chuẩn tham khảo và ngân sách thử ghi rõ là giả định; thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu.
 - [ ] Có điểm chất lượng trên 50 và kết thúc bằng 3 việc cần làm tiếp.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

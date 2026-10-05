@@ -10,7 +10,7 @@
 
 - Tên công ty và ngành: [ĐIỀN]
 - Sản phẩm bán qua đại lý và giá bán lẻ đề xuất: [ĐIỀN]
-- Biên lợi nhuận gộp của công ty trên giá bán lẻ: [ĐIỀN: để tính khoảng chiết khấu còn chịu được]
+- Biên lợi nhuận gộp của công ty trên giá bán lẻ: [ĐIỀN: để tính khoảng chiết khấu còn chịu được (làm tròn theo nhóm, không ghi theo từng mã)]
 - Hệ thống hiện có: [ĐIỀN: ví dụ "35 đại lý, 3 nhà phân phối tỉnh, chưa phân cấp"]
 - Kênh bán lẻ của chính công ty: [ĐIỀN: ví dụ "2 cửa hàng, Shopee, TikTok Shop, Facebook"]
 - Khu vực muốn mở rộng và khu vực đã kín: [ĐIỀN]
@@ -18,6 +18,8 @@
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không bán công nợ cho đại lý mới", "không cho đại lý bán trên sàn", "chiết khấu tổng không vượt 35%"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -37,18 +39,22 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Cần phần nào trước?** Chính sách chiết khấu, tuyển đại lý mới, hợp đồng, lịch chăm sóc, thi đua, hay xử lý xung đột giá đang xảy ra. Mô tả tình huống nếu đang có vấn đề cụ thể.
 2. **Cấu trúc giá và các kênh hiện tại?** Giá bán lẻ đề xuất, giá công ty bán cho đại lý, biên lợi nhuận của công ty, mức chiết khấu đối thủ cùng ngành đang trả cho đại lý (nếu biết); doanh thu và tỉ trọng của từng kênh (đại lý, cửa hàng, sàn, đội bán trực tiếp).
 3. **Đại lý tốt nhất và tệ nhất hiện nay khác nhau ở đâu?** Doanh số, khu vực, có cửa hàng thật không, bán thêm hàng đối thủ không, thanh toán ra sao. Dùng để đặt tiêu chí tuyển và bậc.
 4. **Công ty bán lẻ trực tiếp ở đâu và với giá nào?** Cửa hàng, sàn, mạng xã hội; giá có thấp hơn giá đại lý bán ra không; đại lý có phàn nàn chưa.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
+
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
 
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chiết khấu theo bậc gắn với cam kết đo được**: doanh số tháng hoặc quý, thanh toán đúng hạn, trưng bày, không phá giá. Tách rõ chiết khấu cơ bản (trên hóa đơn), thưởng đạt chỉ tiêu (cuối kỳ), chiết khấu thanh toán sớm (nếu có), hỗ trợ khác (vận chuyển, mẫu, biển hiệu, quỹ hỗ trợ marketing). Tổng không vượt mức biên lợi nhuận cho phép.
@@ -59,7 +65,7 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 7. **Hợp đồng đại lý chốt khung thương mại**: hàng hóa, khu vực, giá và chiết khấu, đặt hàng và giao nhận, thanh toán và hạn mức công nợ, giá bán lẻ đề xuất và giá sàn, trưng bày và sử dụng thương hiệu, bảo mật giá và chính sách nội bộ, cấm hàng giả hàng nhái, bảo hành và đổi trả, chế tài vi phạm, thời hạn, chấm dứt và xử lý hàng tồn, công nợ khi chấm dứt. Ghi "cần luật sư duyệt". Theo Luật Thương mại, hình thức đại lý và quyền ấn định giá cần kiểm tra với luật sư.
 8. **Lịch thăm theo bậc**: đại lý lớn thăm 2 lần mỗi tháng, trung bình 1 lần, nhỏ 1 lần mỗi quý và gọi hằng tháng. Mỗi lần thăm có mẫu ghi nhận: tồn kho, trưng bày, giá bán thực tế, phàn nàn, đối thủ, đơn đề xuất.
 9. **Thi đua ngắn, ít tiêu chí, công bố tiến độ công khai.** 1 đến 3 tháng, tối đa 2 tiêu chí (doanh số tăng so với kỳ trước và thanh toán đúng hạn), thưởng theo nhiều hạng để đại lý nhỏ cũng có cơ hội, cập nhật bảng xếp hạng hằng tuần trên nhóm Zalo.
-10. **Xung đột giá xử lý theo quy trình 4 bước; số thiếu thì đánh dấu, không bịa.** Ghi nhận bằng chứng (ảnh, đơn hàng, ngày), xác minh, cảnh báo lần 1 bằng văn bản, chế tài lũy tiến (cắt thưởng kỳ, hạ bậc, dừng cấp hàng, chấm dứt). Công bố quy trình trước cho mọi đại lý, kèm cách đại lý khiếu nại khi bị hạ bậc. Chỗ chưa có số thật (biên, doanh số đại lý, mức đối thủ) ghi `[cần bổ sung: mô tả dữ liệu cần]`; mọi tỉ lệ tham khảo ghi rõ là giả định.
+10. **Xung đột giá xử lý theo quy trình 4 bước; số thiếu thì đánh dấu, không bịa.** Ghi nhận bằng chứng (ảnh, đơn hàng, ngày), xác minh, cảnh báo lần 1 bằng văn bản, chế tài lũy tiến (cắt thưởng kỳ, hạ bậc, dừng cấp hàng, chấm dứt). Công bố quy trình trước cho mọi đại lý, kèm cách đại lý khiếu nại khi bị hạ bậc. Chỗ chưa có số thật (biên, doanh số đại lý, mức đối thủ) ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]`; mọi tỉ lệ tham khảo ghi rõ là giả định.
 
 ### Khung chiết khấu theo bậc tham khảo (dùng khi thiếu dữ liệu, ghi rõ là giả định)
 
@@ -173,4 +179,6 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý dùn
 - [ ] Thi đua tối đa 2 tiêu chí, tính tăng trưởng so với chính đại lý, công bố tiến độ công khai.
 - [ ] Xung đột giá có cách phát hiện, quy trình, chế tài lũy tiến, người quyết định, cách khiếu nại khi bị hạ bậc.
 - [ ] Công nợ theo bậc, đại lý mới thanh toán trước đúng điều cấm trong bối cảnh.
-- [ ] Mọi tỉ lệ tham khảo đã ghi rõ là giả định; chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống; thuật ngữ tiếng Việt kèm tiếng Anh ở lần đầu; kết thúc bằng 5 việc cần làm.
+- [ ] Mọi tỉ lệ tham khảo đã ghi rõ là giả định; chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống; thuật ngữ tiếng Việt kèm tiếng Anh ở lần đầu; kết thúc bằng 5 việc cần làm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

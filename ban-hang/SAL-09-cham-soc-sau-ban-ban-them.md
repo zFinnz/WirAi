@@ -19,9 +19,13 @@
 - Dữ liệu đang lưu về khách: [ĐIỀN: ví dụ "ngày mua, giá trị đơn, sản phẩm, số điện thoại trên Google Sheet"]
 - Ai phụ trách sau bán: [ĐIỀN: ví dụ "nhân viên bán tiếp tục theo 30 ngày rồi chuyển CSKH" hoặc "chưa phân"]
 - Ngân sách và quyền ưu đãi cho giữ chân: [ĐIỀN: ví dụ "tối đa 15%, quà dưới 200 nghìn, quản lý duyệt trên mức này"]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
+- Chính sách giá, chiết khấu, công nợ, đền bù được duyệt và câu dùng khi khách đòi ngoài chính sách: [ĐIỀN hoặc ghi `theo Project`; câu mặc định: "Mức này vượt chính sách hiện hành, em cần xin ý kiến quản lý trước khi xác nhận với anh/chị."]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không nhắn quá 2 tin Zalo/tuần", "không giảm giá cho khách chưa nêu lý do", "không gọi sau 19 giờ"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -41,22 +45,26 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Mô hình mua lại là gì và chu kỳ bình thường bao lâu?** Mua lẻ lặp lại, gói nhiều buổi, thẻ thành viên, đặt hàng định kỳ B2B, hay đại lý nhập hàng. Khách thường quay lại sau bao nhiêu ngày? Khách mới thường vướng gì trong 30 ngày đầu?
 2. **Tỉ lệ mua lại hiện tại và khách rời ở mốc nào?** Nếu chưa đo, nói rõ; sẽ đo trước. Có biết lý do khách rời không, hỏi bằng cách nào?
 3. **Có gì để bán thêm và khách nào đã mua thêm tự nhiên?** Sản phẩm bổ trợ, gói cao hơn, dịch vụ định kỳ. Khách đã mua thêm thường có đặc điểm gì? Khách nào đã từng giới thiệu người khác?
 4. **Kênh nào khách thật sự đọc và ai sẽ làm?** Zalo OA, gọi điện, nhân viên phụ trách tài khoản, email. Mỗi tuần dành được bao nhiêu giờ cho việc này?
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
+
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Phân nhánh mô hình trước.** Định nghĩa "mất khách", tín hiệu sớm, mốc can thiệp và loại ưu đãi đều phụ thuộc mô hình. B2C mua lẻ tính theo chu kỳ riêng của từng khách; B2B và đại lý tính theo lịch đặt hàng và quy mô đơn.
-3. **Tín hiệu phải đo được bằng dữ liệu công ty có thật; thiếu thì đánh dấu, không bịa.** Ngày mua, giá trị đơn, lịch hẹn, tin nhắn, đánh giá, công nợ. Không dùng "tần suất đăng nhập" nếu không có hệ thống đo. Chỗ chưa có số (tỉ lệ mua lại, chu kỳ, lý do rời) ghi `[cần bổ sung: mô tả dữ liệu cần]`; mọi số tham khảo ghi rõ là giả định.
+3. **Tín hiệu phải đo được bằng dữ liệu công ty có thật; thiếu thì đánh dấu, không bịa.** Ngày mua, giá trị đơn, lịch hẹn, tin nhắn, đánh giá, công nợ. Không dùng "tần suất đăng nhập" nếu không có hệ thống đo. Chỗ chưa có số (tỉ lệ mua lại, chu kỳ, lý do rời) ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]`; mọi số tham khảo ghi rõ là giả định.
 4. **Bàn giao từ bán hàng rõ ràng, rồi lịch chăm sóc theo mốc cố định** tính từ ngày giao: xác nhận nhận hàng, hướng dẫn dùng đến khi đạt giá trị đầu tiên, hỏi thăm sau 7 ngày, xin đánh giá khi đã dùng đủ lâu, nhắc mua lại trước chu kỳ, điểm lại kết quả ở tháng 3, 6, 12. Mỗi mốc có kênh, người làm, nội dung.
 5. **Chuẩn bị trước mỗi lần chạm.** Xem lại lịch sử mua, lần hỗ trợ gần nhất, ghi chú trước khi gọi; mục đích là hỏi thăm và giúp, không chỉ bán. Sau mỗi lần ghi lại: ngày, kênh, nội dung, cảm nhận của khách, việc cần theo dõi, hành động tiếp theo.
 6. **Mỗi tín hiệu rời bỏ gắn một mốc can thiệp cụ thể**: ai làm, làm gì, qua kênh nào, trong bao lâu. Tín hiệu đơn lẻ chưa kết luận, trừ không đến hẹn và phàn nàn: hai cái đó hành động ngay.
@@ -190,5 +198,9 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý dùn
 - [ ] Khảo sát 5 đến 8 lựa chọn, đặt trước ưu đãi; mỗi lý do có đề nghị chính, dự phòng, không làm.
 - [ ] Lý do đã đóng cửa không gắn ưu đãi; lý do chất lượng không vào chuỗi tự động.
 - [ ] Kỷ luật ưu đãi đủ: không quá 30%, tối đa 2 đề nghị, tạm dừng tối đa 3 tháng, tối đa 2 tin Zalo/tuần.
-- [ ] Chỉ số có công thức và quy tắc 30 ngày; tách có và không ưu đãi; chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Chỉ số có công thức và quy tắc 30 ngày; tách có và không ưu đãi; chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Mọi số tham khảo đã ghi rõ là giả định; tôn trọng điều cấm; thuật ngữ tiếng Việt kèm tiếng Anh ở lần đầu; kết thúc bằng 5 việc cần làm.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Giá, chiết khấu, công nợ, đền bù chỉ lấy từ chính sách ở mục 0; điều ngoài chính sách chỉ dùng đúng câu xin ý kiến quản lý, không báo số, không hứa.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

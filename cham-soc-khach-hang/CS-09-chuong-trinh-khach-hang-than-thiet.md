@@ -12,7 +12,7 @@
 ## 0. Bối cảnh công ty (điền một lần)
 
 - Tên công ty và ngành: [ĐIỀN: ví dụ "Công ty ABC, mỹ phẩm và chăm sóc cá nhân"]
-- Sản phẩm, giá trị đơn trung bình và biên lợi nhuận gộp: [ĐIỀN: ví dụ "đơn trung bình 350.000đ, biên gộp 45%"]
+- Sản phẩm, giá trị đơn trung bình và biên lợi nhuận gộp: [ĐIỀN: ví dụ "đơn trung bình 350.000đ, biên gộp 45%" (làm tròn theo nhóm, không ghi theo từng mã)]
 - Kênh bán và nơi có dữ liệu khách: [ĐIỀN: ví dụ "Shopee, TikTok Shop, cửa hàng dùng KiotViet, Zalo OA 20.000 người"]
 - Nhóm khách: [ĐIỀN: ví dụ "B2C chủ yếu; một số khách doanh nghiệp mua quà tặng"]
 - Tần suất mua lại hiện tại: [ĐIỀN: ví dụ "25% mua lại trong 6 tháng, chu kỳ 45 ngày"]
@@ -21,6 +21,8 @@
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không giảm giá trực tiếp trên sàn", "không dùng điểm cho hàng khuyến mãi"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -40,22 +42,26 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Mục tiêu chính và số liệu nền?** Tăng tần suất mua, tăng giá trị đơn, giữ khách sắp rời, hay gom dữ liệu khách từ sàn về kênh riêng? Tỉ lệ mua lại, chu kỳ mua, biên lợi nhuận hiện tại?
 2. **Khách mua ở đâu và công ty nhận diện khách bằng gì?** Số điện thoại tại cửa hàng, tài khoản Zalo OA, tài khoản sàn (sàn thường không cho lấy dữ liệu khách)? Có phần mềm bán hàng hỗ trợ tích điểm không?
 3. **Ngân sách và quyền lợi có thể cho?** Bao nhiêu phần trăm doanh thu khách thành viên dành cho chương trình? Quyền lợi phi tiền tệ nào công ty làm được (ưu tiên giao, mở bán sớm, dịch vụ)?
 4. **Có khách B2B hoặc đại lý cần đưa vào không?** Nếu có, tách chương trình riêng hay chỉ áp dụng B2C? Đối thủ đang làm gì?
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
+
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chọn một mô hình chính trước khi thiết kế chi tiết.** So sánh theo bảng dưới, chọn theo chu kỳ mua, biên lợi nhuận và công cụ đang có. Không gộp 3 mô hình vào một chương trình.
-3. **Mọi quyền lợi có chi phí tính bằng tiền và bằng phần trăm doanh thu.** Tỉ lệ hoàn điểm phải nhỏ hơn biên lợi nhuận gộp trừ chi phí vận hành. Số liệu chưa có ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo ở bảng dưới ghi rõ là giả định.
+3. **Mọi quyền lợi có chi phí tính bằng tiền và bằng phần trăm doanh thu.** Tỉ lệ hoàn điểm phải nhỏ hơn biên lợi nhuận gộp trừ chi phí vận hành. Số liệu chưa có ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo ở bảng dưới ghi rõ là giả định.
 4. **Hạng tối đa 3, ngưỡng tính theo 12 tháng, có quy tắc giữ và xuống hạng rõ.** Ngưỡng hạng lấy từ phân bố chi tiêu thật (SAL-10) nếu có; nếu không, đề xuất và ghi là giả định.
 5. **Điểm có hạn dùng và có quy tắc trừ** khi hoàn tiền, hủy đơn. Có quy tắc chống gian lận: nhiều tài khoản một số điện thoại, nhân viên tích điểm cho mình, tách đơn để lên hạng.
 6. **Thiết kế theo kênh.** Trên sàn dùng công cụ thành viên của sàn và không lấy được dữ liệu khách; tại cửa hàng và Zalo OA nhận diện bằng số điện thoại; mục tiêu dài hạn là kéo khách sàn về kênh riêng hợp lệ (tờ cảm ơn trong hộp, không vi phạm quy định sàn về dẫn khách ra ngoài).
@@ -106,7 +112,7 @@ Mục tiêu chính, chỉ số đo, số nền hiện tại. Nhóm khách áp d�
 | Mua hàng | X điểm mỗi 10.000đ | đơn đã thanh toán, trừ hàng loại trừ | |
 | Đăng ký thành viên | | một lần, xác thực số điện thoại | |
 | Sinh nhật | | tháng sinh nhật | |
-| Đánh giá có ảnh (CS-10) | | mỗi đơn 1 lần, không yêu cầu 5 sao | |
+| Đánh giá có ảnh (CS-10) | | chỉ trên kênh cho phép tặng quyền lợi, mỗi đơn 1 lần, không yêu cầu 5 sao; không áp dụng cho Google Maps (CS-10, nguyên tắc 2) | |
 | Giới thiệu (nếu gộp với MKT-20) | | sau khi người được giới thiệu mua | |
 
 Cách đổi: 2 đến 3 cách (trừ vào đơn, đổi quà, đổi dịch vụ), mức đổi tối thiểu, hạn điểm, quy tắc trừ khi hoàn hủy. Kèm bảng tính chi phí:
@@ -182,7 +188,9 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Điểm có hạn dùng, quy tắc trừ khi hoàn hủy, quy tắc chống gian lận và quyền nhân viên.
 - [ ] Thiết kế theo kênh, ghi rõ sàn không cho lấy dữ liệu khách và không vi phạm quy định sàn; B2C và khách doanh nghiệp tách khi áp dụng cả hai, không chồng lên chiết khấu đại lý.
 - [ ] Tin nhắn có lý do cụ thể, tối đa 2 tin mỗi tháng ngoài tin giao dịch; có điều khoản công khai; lưu ý pháp lý ghi "cần kiểm tra quy định hiện hành", không khẳng định tuyệt đối.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống; số tham khảo ghi rõ giả định.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống; số tham khảo ghi rõ giả định.
 - [ ] Tôn trọng các điều cấm trong phần bối cảnh.
 - [ ] Thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu.
 - [ ] Kết thúc bằng 5 việc cần làm trong 7 ngày và gợi ý skill tiếp theo.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

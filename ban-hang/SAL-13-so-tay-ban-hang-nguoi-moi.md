@@ -18,9 +18,13 @@
 - Công cụ bắt buộc dùng: [ĐIỀN: ví dụ "Google Sheet khách hàng, Zalo OA, phần mềm bán hàng KiotViet, mẫu báo giá"]
 - Tài liệu đã có sẵn: [ĐIỀN: ví dụ "quy trình SAL-01 bản tháng 3, kịch bản SAL-05, bảng giá, hồ sơ năng lực"]
 - Cơ chế lương thưởng: [ĐIỀN: ví dụ "lương cứng 8 triệu, hoa hồng 2% doanh thu, thưởng vượt chỉ tiêu"]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
+- Chính sách giá, chiết khấu, công nợ, đền bù được duyệt và câu dùng khi khách đòi ngoài chính sách: [ĐIỀN hoặc ghi `theo Project`; câu mặc định: "Mức này vượt chính sách hiện hành, em cần xin ý kiến quản lý trước khi xác nhận với anh/chị."]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không giảm giá quá 5% nếu chưa duyệt", "không nhận tiền mặt ngoài hệ thống", "không hứa ngày giao khi chưa hỏi kho"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -40,24 +44,28 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Sổ tay cho vị trí nào?** Bán lẻ qua tin nhắn và cửa hàng, kinh doanh B2B, hay cả hai? Người mới thường có kinh nghiệm chưa, hay hoàn toàn mới?
 2. **Tài liệu nào đã có?** Quy trình, kịch bản, bảng giá, hồ sơ năng lực, quy định. Dán hoặc tóm tắt để sổ tay chỉ đến đúng tên tài liệu, không viết lại.
 3. **Lương thưởng và quyền hạn?** Công thức hoa hồng, mốc chỉ tiêu, thời điểm tính (ký hay thanh toán), quyền giảm giá theo cấp, ai duyệt ngoại lệ.
 4. **Sai lầm người mới hay mắc và việc ngày đầu?** 3 đến 5 lỗi lặp lại nhiều nhất theo kinh nghiệm quản lý; ai hướng dẫn, ngày đầu người mới sẽ ngồi đâu, làm gì.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
+
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chỉ đến, không chép lại.** Quy trình chi tiết ghi "xem Quy trình bán hàng (SAL-01), bản tháng [x]"; kịch bản chi tiết ghi "xem SAL-05". Trong sổ tay chỉ giữ bản tóm tắt tối đa 10 dòng cho mỗi mục.
 3. **Viết cho người đọc trên điện thoại lúc đang có khách.** Bảng tra nhanh, câu ngắn, có ví dụ. Không dùng thuật ngữ nội bộ mà không giải thích.
-4. **Mọi quyền hạn ghi bằng số và người duyệt.** "Được giảm tối đa 3%, trên mức đó xin trưởng nhóm qua Zalo, trả lời trong 30 phút".
-5. **Lương thưởng có ví dụ tính bằng số thật của công ty.** Nếu người dùng chưa cho công thức, ghi `[cần bổ sung: công thức hoa hồng và mốc chỉ tiêu]`, không tự đặt. Chỗ thiếu dữ liệu khác cũng ghi `[cần bổ sung: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo ở bảng dưới ghi rõ là giả định.
+4. **Mọi quyền hạn ghi bằng số và người duyệt, lấy từ chính sách công ty.** Dạng câu: "Được giảm tối đa [mức theo chính sách], trên mức đó dùng câu xin ý kiến quản lý ở mục 0, trưởng nhóm trả lời trong 30 phút".
+5. **Lương thưởng có ví dụ tính bằng số thật của công ty.** Nếu người dùng chưa cho công thức, ghi `[CẦN ĐIỀN: công thức hoa hồng và mốc chỉ tiêu]`, không tự đặt. Chỗ thiếu dữ liệu khác cũng ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]` thay vì bịa hoặc để trống; số tham khảo ở bảng dưới ghi rõ là giả định.
 6. **Mỗi phần có "lỗi người mới hay mắc"** gồm 2 đến 4 lỗi và cách tránh, lấy từ câu trả lời của quản lý.
 7. **Lộ trình 2 tuần có tiêu chuẩn đạt từng ngày**, kiểm tra được bằng có hoặc không, và có bài kiểm tra cuối tuần 1 và tuần 2.
 8. **Tuân thủ pháp luật và đạo đức bán hàng.** Không hứa công dụng vượt công bố, không nói xấu đối thủ bằng thông tin không kiểm chứng, không thu thập và chia sẻ dữ liệu khách ngoài mục đích (Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP), không nhận tiền ngoài hệ thống.
@@ -66,11 +74,12 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 
 | Việc | Nhân viên mới (thử việc) | Nhân viên chính thức | Trưởng nhóm | Giám đốc |
 |---|---|---|---|---|
-| Giảm giá B2C | 0% | đến 3% | đến 10% | trên 10% |
-| Chiết khấu B2B ngoài bảng | 0% | đến 2% | đến 5% | trên 5% |
+| Giảm giá B2C | 0% | đến [ĐIỀN] | đến [ĐIỀN] | trên mức đó |
+| Chiết khấu B2B ngoài bảng | 0% | đến [ĐIỀN] | đến [ĐIỀN] | trên mức đó |
 | Hứa ngày giao | chỉ sau khi hỏi kho | sau khi hỏi kho | | |
-| Đổi trả, hoàn tiền | chuyển CSKH theo CS-07 | đến 500.000đ | đến 3.000.000đ | trên mức đó |
-| Công nợ B2B | không | theo hạn mức hợp đồng | gia hạn 7 ngày | trên 7 ngày |
+| Đổi trả, hoàn tiền | chuyển CSKH theo CS-07 | đến [ĐIỀN] | đến [ĐIỀN] | trên mức đó |
+| Công nợ B2B | không | theo hạn mức hợp đồng | gia hạn [ĐIỀN] ngày | trên mức đó |
+| Ngoài quyền hạn | câu xin ý kiến quản lý ở mục 0 | câu xin ý kiến quản lý ở mục 0 | câu xin ý kiến quản lý ở mục 0 | |
 
 ### Lỗi người mới hay mắc nhất (tham khảo, bổ sung bằng kinh nghiệm công ty)
 
@@ -90,7 +99,7 @@ Nếu người dùng cần bản đầy đủ và không đưa mẫu riêng, tr�
 
 ### 4.1 Tóm tắt cho quản lý
 
-- Sổ tay cho vị trí nào, dựa trên tài liệu nào đang có, tài liệu nào còn thiếu (danh sách `[cần bổ sung]`).
+- Sổ tay cho vị trí nào, dựa trên tài liệu nào đang có, tài liệu nào còn thiếu (danh sách `[CẦN ĐIỀN]`).
 - Sau 2 tuần, người mới phải làm được gì (3 tiêu chuẩn đo được).
 - Việc quản lý cần làm: chốt quyền hạn, chốt công thức thưởng, phân người hướng dẫn, duyệt bài kiểm tra.
 
@@ -175,9 +184,13 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Không chép lại quy trình, kịch bản, từ chối; chỉ tóm tắt và chỉ đến đúng mã skill hoặc tên tài liệu công ty.
 - [ ] Bảng tra nhanh sản phẩm có cột "điều không được nói"; không hứa công dụng vượt công bố.
 - [ ] Quyền hạn ghi bằng số và người duyệt; tôn trọng điều cấm trong phần bối cảnh.
-- [ ] Lương thưởng có ví dụ tính bằng số công ty; nếu chưa có, đánh dấu [cần bổ sung], không tự đặt.
+- [ ] Lương thưởng có ví dụ tính bằng số công ty; nếu chưa có, đánh dấu [CẦN ĐIỀN], không tự đặt.
 - [ ] Mỗi phần có lỗi người mới hay mắc và cách tránh; B2C và B2B tách rõ khi nhịp bán khác nhau.
 - [ ] Lộ trình 2 tuần có tiêu chuẩn đạt từng ngày và bài kiểm tra cuối tuần 1 và tuần 2.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống; số tham khảo ghi rõ giả định.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống; số tham khảo ghi rõ giả định.
 - [ ] Thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu; không có thuật ngữ nội bộ chưa giải thích.
 - [ ] Kết thúc bằng 5 việc cần làm trong 7 ngày và gợi ý skill tiếp theo.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Giá, chiết khấu, công nợ, đền bù chỉ lấy từ chính sách ở mục 0; điều ngoài chính sách chỉ dùng đúng câu xin ý kiến quản lý, không báo số, không hứa.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

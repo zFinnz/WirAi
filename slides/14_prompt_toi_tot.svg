@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Aptos, 'Segoe UI', Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="section-kicker" data-pptx-role="chrome" data-pptx-bounds="40 30 540 30">
+    <rect x="40" y="38" width="12" height="12" rx="3" fill="#4A7FB5" />
+    <text x="62" y="50" font-size="16" font-weight="bold" letter-spacing="1.5" fill="#1D3557">TẦNG 2 · DEMO</text>
+  </g>
+
+  <g id="roadmap-tracker" data-pptx-role="chrome" data-pptx-bounds="600 14 640 62">
+    <rect x="608" y="36" width="120" height="8" rx="3" fill="#E3E9F1" />
+    <rect x="736" y="32" width="120" height="12" rx="3" fill="#E8833A" />
+    <rect x="864" y="28" width="120" height="16" rx="3" fill="#E3E9F1" />
+    <rect x="992" y="24" width="120" height="20" rx="3" fill="#E3E9F1" />
+    <rect x="1120" y="20" width="120" height="24" rx="3" fill="#E3E9F1" />
+    <text x="608" y="66" font-size="16" fill="#5B6675">1 Instructions</text>
+    <text x="736" y="66" font-size="16" font-weight="bold" fill="#1F2937">2 Prompt</text>
+    <text x="864" y="66" font-size="16" fill="#5B6675">3 Skill</text>
+    <text x="992" y="66" font-size="16" fill="#5B6675">4 Plugin</text>
+    <text x="1120" y="66" font-size="16" fill="#5B6675">Nâng cao</text>
+  </g>
+
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Prompt một dòng cho tin nhắn chung chung;</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">prompt đủ 4 phần cho tin nhắn gửi được ngay</text><g id="prompt-bad" data-pptx-bounds="40 222 488 374">
+    <rect x="40" y="222" width="488" height="374" rx="16" fill="#FFFFFF" stroke="#C0392B" stroke-width="2" />
+    
+  <g transform="translate(64, 240) scale(1.08333)" fill="none" stroke="#C0392B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M10 10l4 4m0 -4l-4 4" />
+  </g>
+    <text x="100" y="260" font-size="18" font-weight="bold" letter-spacing="1" fill="#C0392B">PROMPT TỒI</text>
+    <rect x="64" y="282" width="440" height="64" rx="10" fill="#F3F6FA" />
+    <text x="84" y="322" font-size="22" font-family="Consolas, 'Courier New', monospace" fill="#1D3557">Trả lời spa hỏi giá sỉ Elasten.</text>
+    <text x="64" y="392" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">KẾT QUẢ</text>
+    
+  <g transform="translate(64, 414) scale(0.916667)" fill="none" stroke="#C0392B" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+    <text x="98" y="432" font-size="20" fill="#1F2937">Tự bịa giá</text>
+    
+  <g transform="translate(64, 454) scale(0.916667)" fill="none" stroke="#C0392B" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+    <text x="98" y="472" font-size="20" fill="#1F2937">Hứa chiết khấu vượt bảng</text>
+    
+  <g transform="translate(64, 494) scale(0.916667)" fill="none" stroke="#C0392B" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+    <text x="98" y="512" font-size="20" fill="#1F2937">Nói “tốt cho bà bầu”</text>
+  </g>
+
+  <g id="prompt-good" data-pptx-bounds="552 222 688 374">
+    <rect x="552" y="222" width="688" height="374" rx="16" fill="#FFFFFF" stroke="#2E8B57" stroke-width="2" />
+    
+  <g transform="translate(576, 240) scale(1.08333)" fill="none" stroke="#2E8B57" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="612" y="260" font-size="18" font-weight="bold" letter-spacing="1" fill="#2E8B57">PROMPT TỐT</text>
+    <g id="good-context">
+      <rect x="576" y="282" width="124" height="32" rx="16" fill="#4A7FB5" />
+      <text x="638" y="305" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">Bối cảnh</text>
+      <text font-size="20" fill="#1F2937" x="716" y="304">Sale Wir; Spa Ngọc Anh (3 chi nhánh) muốn nhập</text><text font-size="20" fill="#1F2937" x="716" y="330">thử 20 hộp Elasten/tháng, hỏi bà bầu dùng được</text><text font-size="20" fill="#1F2937" x="716" y="356">không; giám định: không gây rủi ro cho phụ nữ</text><text font-size="20" fill="#1F2937" x="716" y="382">mang thai, cho con bú</text></g>
+    <g id="good-request">
+      <rect x="576" y="402" width="124" height="32" rx="16" fill="#4A7FB5" />
+      <text x="638" y="425" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">Yêu cầu</text>
+      <text x="716" y="424" font-size="20" fill="#1F2937">Soạn tin trả lời</text>
+    </g>
+    <g id="good-criteria">
+      <rect x="576" y="452" width="124" height="32" rx="16" fill="#4A7FB5" />
+      <text x="638" y="475" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">Tiêu chí</text>
+      <text font-size="20" fill="#1F2937" x="716" y="474">Chiết khấu đúng bảng sỉ, thiếu giá nền ghi</text><text font-size="20" fill="#1F2937" x="716" y="500">[CẦN ĐIỀN]; nói “không gây rủi ro”, KHÔNG nói</text><text font-size="20" fill="#1F2937" x="716" y="526">“tốt cho thai kỳ”; dưới 150 chữ</text></g>
+    <g id="good-format">
+      <rect x="576" y="548" width="124" height="32" rx="16" fill="#4A7FB5" />
+      <text x="638" y="571" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">Định dạng</text>
+      <text x="716" y="570" font-size="20" fill="#1F2937">Tin nhắn Zalo có lời chào, nội dung, chữ ký</text>
+    </g>
+  </g>
+
+  <g id="clarity-quote" data-pptx-bounds="40 612 1200 50">
+    <rect x="40" y="616" width="6" height="40" rx="3" fill="#E8833A" />
+    <text x="62" y="644" font-size="24" font-style="italic" fill="#1D3557">“Không phải ChatGPT giỏi lên. Là mình giao việc rõ hơn.”</text>
+  </g>
+
+  <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
+  <text id="source-note" data-pptx-role="footer" x="1170" y="700" font-size="14" text-anchor="end" fill="#5B6675">Dữ liệu demo Wir (lead, giá sỉ) · giám định Elasten: tài liệu Wir</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">14 / 35</text>
+</svg>

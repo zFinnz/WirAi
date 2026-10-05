@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Aptos, 'Segoe UI', Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="section-kicker" data-pptx-role="chrome" data-pptx-bounds="40 30 540 30">
+    <rect x="40" y="38" width="12" height="12" rx="3" fill="#6593C4" />
+    <text x="62" y="50" font-size="16" font-weight="bold" letter-spacing="1.5" fill="#1D3557">TẦNG 1 · INSTRUCTIONS</text>
+  </g>
+
+  <g id="roadmap-tracker" data-pptx-role="chrome" data-pptx-bounds="600 14 640 62">
+    <rect x="608" y="36" width="120" height="8" rx="3" fill="#E8833A" />
+    <rect x="736" y="32" width="120" height="12" rx="3" fill="#E3E9F1" />
+    <rect x="864" y="28" width="120" height="16" rx="3" fill="#E3E9F1" />
+    <rect x="992" y="24" width="120" height="20" rx="3" fill="#E3E9F1" />
+    <rect x="1120" y="20" width="120" height="24" rx="3" fill="#E3E9F1" />
+    <text x="608" y="66" font-size="16" font-weight="bold" fill="#1F2937">1 Instructions</text>
+    <text x="736" y="66" font-size="16" fill="#5B6675">2 Prompt</text>
+    <text x="864" y="66" font-size="16" fill="#5B6675">3 Skill</text>
+    <text x="992" y="66" font-size="16" fill="#5B6675">4 Plugin</text>
+    <text x="1120" y="66" font-size="16" fill="#5B6675">Nâng cao</text>
+  </g>
+
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Ba nơi đặt Instructions,</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">mỗi nơi giữ một loại thông tin</text><g id="card-custom" data-pptx-bounds="40 222 384 368">
+    <rect x="40" y="222" width="384" height="368" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
+    <circle cx="86" cy="266" r="22" fill="#F3F6FA" />
+    
+  <g transform="translate(72, 252) scale(1.16667)" fill="none" stroke="#6593C4" stroke-width="2">
+    <path d="M7 12h3v4h-3l0 -4" />
+    <path d="M10 6h-6a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h16a1 1 0 0 0 1 -1v-12a1 1 0 0 0 -1 -1h-6" />
+    <path d="M10 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -3" />
+    <path d="M14 16h2" />
+    <path d="M14 12h4" />
+  </g>
+    <text x="120" y="275" font-size="26" font-weight="bold" fill="#1D3557">Custom Instructions</text>
+    <rect x="64" y="302" width="222" height="32" rx="16" fill="#F3F6FA" />
+    <text x="76" y="324" font-size="18" fill="#1F2937">Áp dụng: mọi cuộc chat</text>
+    <text x="64" y="372" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">VÍ NHƯ</text>
+    <text x="64" y="400" font-size="22" fill="#1F2937">Danh thiếp của chính mình</text>
+    <text x="64" y="442" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">ĐẶT GÌ VÀO</text>
+    <text font-size="22" fill="#1F2937" x="64" y="470">Chức danh, cách xưng hô,</text><text font-size="22" fill="#1F2937" x="64" y="498">văn phong</text><line x1="64" y1="522" x2="400" y2="522" stroke="#D8E0EA" stroke-width="1" />
+    <text font-size="16" fill="#5B6675" x="64" y="550">Settings → Personalization →</text><text font-size="16" fill="#5B6675" x="64" y="572">Custom instructions</text></g>
+
+  <g id="card-project" data-pptx-bounds="448 222 384 368">
+    <rect x="448" y="222" width="384" height="368" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
+    <circle cx="494" cy="266" r="22" fill="#F3F6FA" />
+    
+  <g transform="translate(480, 252) scale(1.16667)" fill="none" stroke="#6593C4" stroke-width="2">
+    <path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" />
+  </g>
+    <text x="528" y="275" font-size="26" font-weight="bold" fill="#1D3557">Project instructions</text>
+    <rect x="472" y="302" width="294" height="32" rx="16" fill="#F3F6FA" />
+    <text x="484" y="324" font-size="18" fill="#1F2937">Áp dụng: chat trong Project đó</text>
+    <text x="472" y="372" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">VÍ NHƯ</text>
+    <text x="472" y="400" font-size="22" fill="#1F2937">Hồ sơ nhập môn của phòng</text>
+    <text x="472" y="442" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">ĐẶT GÌ VÀO</text>
+    <text font-size="22" fill="#1F2937" x="472" y="470">Đơn vị, sản phẩm, thuật ngữ,</text><text font-size="22" fill="#1F2937" x="472" y="498">luật riêng + file tham chiếu</text><line x1="472" y1="522" x2="808" y2="522" stroke="#D8E0EA" stroke-width="1" />
+    <text font-size="16" fill="#5B6675" x="472" y="550">New project → ••• →</text><text font-size="16" fill="#5B6675" x="472" y="572">Project settings</text></g>
+
+  <g id="card-memory" data-pptx-bounds="856 222 384 368">
+    <rect x="856" y="222" width="384" height="368" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
+    <circle cx="902" cy="266" r="22" fill="#F3F6FA" />
+    
+  <g transform="translate(888, 252) scale(1.16667)" fill="none" stroke="#6593C4" stroke-width="2">
+    <path d="M15.5 13a3.5 3.5 0 0 0 -3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8" />
+    <path d="M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1 -7 0v-1.8" />
+    <path d="M17.5 16a3.5 3.5 0 0 0 0 -7h-.5" />
+    <path d="M19 9.3v-2.8a3.5 3.5 0 0 0 -7 0" />
+    <path d="M6.5 16a3.5 3.5 0 0 1 0 -7h.5" />
+    <path d="M5 9.3v-2.8a3.5 3.5 0 0 1 7 0v10" />
+  </g>
+    <text x="936" y="275" font-size="26" font-weight="bold" fill="#1D3557">Memory</text>
+    <rect x="880" y="302" width="276" height="32" rx="16" fill="#F3F6FA" />
+    <text x="892" y="324" font-size="18" fill="#1F2937">Áp dụng: tự ghi qua các chat</text>
+    <text x="880" y="372" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">VÍ NHƯ</text>
+    <text x="880" y="400" font-size="22" fill="#1F2937">Sổ giao ca</text>
+    <text x="880" y="442" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">ĐẶT GÌ VÀO</text>
+    <text font-size="22" fill="#1F2937" x="880" y="470">Thói quen nhỏ, như “thích</text><text font-size="22" fill="#1F2937" x="880" y="498">báo cáo dạng bảng”</text><line x1="880" y1="522" x2="1216" y2="522" stroke="#D8E0EA" stroke-width="1" />
+    <text font-size="16" fill="#5B6675" x="880" y="550">Settings → Personalization →</text><text font-size="16" fill="#5B6675" x="880" y="572">Memory</text></g>
+
+  <g id="override-callout" data-pptx-bounds="40 606 1215 58">
+    <rect x="40" y="606" width="1200" height="58" rx="14" fill="#FCEBDD" />
+    
+  <g transform="translate(56, 620) scale(1.25)" fill="none" stroke="#1D3557" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+    <path d="M12 9h.01" />
+    <path d="M11 12h1v4h1" />
+  </g>
+    <text x="96" y="643" font-size="22" font-weight="bold" fill="#1D3557">Trong Project, Project instructions ghi đè Custom Instructions<tspan font-weight="normal" fill="#1F2937"> → luật nghiệp vụ đặt trong Project</tspan></text>
+  </g>
+
+  <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">05 / 35</text>
+</svg>

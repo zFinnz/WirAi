@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Aptos, 'Segoe UI', Arial, sans-serif" data-pptx-page-role="toc">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="section-kicker" data-pptx-role="chrome" data-pptx-bounds="40 30 540 30">
+    <rect x="40" y="38" width="12" height="12" rx="3" fill="#1D3557" />
+    <text x="62" y="50" font-size="16" font-weight="bold" letter-spacing="1.5" fill="#1D3557">MỞ ĐẦU · TOÀN CẢNH</text>
+  </g>
+
+  <g id="roadmap-tracker" data-pptx-role="chrome" data-pptx-bounds="600 14 640 62">
+    <rect x="608" y="36" width="120" height="8" rx="3" fill="#6593C4" />
+    <rect x="736" y="32" width="120" height="12" rx="3" fill="#4A7FB5" />
+    <rect x="864" y="28" width="120" height="16" rx="3" fill="#2E5E91" />
+    <rect x="992" y="24" width="120" height="20" rx="3" fill="#1D3557" />
+    <rect x="1120" y="20" width="120" height="24" rx="3" fill="#64748B" />
+    <text x="608" y="66" font-size="16" fill="#5B6675">1 Instructions</text>
+    <text x="736" y="66" font-size="16" fill="#5B6675">2 Prompt</text>
+    <text x="864" y="66" font-size="16" fill="#5B6675">3 Skill</text>
+    <text x="992" y="66" font-size="16" fill="#5B6675">4 Plugin</text>
+    <text x="1120" y="66" font-size="16" fill="#5B6675">Nâng cao</text>
+  </g>
+
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">4 tầng, 4 buổi: mỗi tầng thêm cho ChatGPT</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">một năng lực mới</text><g id="stair-tier-1" data-pptx-bounds="40 330 290 226">
+    <rect x="40" y="338" width="282" height="44" rx="12" fill="#6593C4" />
+    <text x="60" y="368" font-size="24" font-weight="bold" fill="#FFFFFF">1  Instructions</text>
+    <text font-size="22" fill="#1F2937" x="40" y="420">ChatGPT biết “mình là ai”</text><text font-size="22" fill="#1F2937" x="40" y="450">và luật chung, không phải</text><text font-size="22" fill="#1F2937" x="40" y="480">dặn lại</text><text font-size="18" fill="#5B6675" x="40" y="522">Custom Instructions ·</text><text font-size="18" fill="#5B6675" x="40" y="546">Project · Memory</text></g>
+
+  <g id="stair-tier-2" data-pptx-bounds="346 300 290 256">
+    <rect x="346" y="308" width="282" height="74" rx="12" fill="#4A7FB5" />
+    <text x="366" y="338" font-size="24" font-weight="bold" fill="#FFFFFF">2  Prompt</text>
+    <text font-size="22" fill="#1F2937" x="346" y="420">Giao đúng từng việc và</text><text font-size="22" fill="#1F2937" x="346" y="450">kiểm chứng được kết quả</text><text font-size="18" fill="#5B6675" x="346" y="522">Chat · tải file ·</text><text font-size="18" fill="#5B6675" x="346" y="546">phân tích dữ liệu</text></g>
+
+  <g id="stair-tier-3" data-pptx-bounds="652 270 290 286">
+    <rect x="652" y="278" width="282" height="104" rx="12" fill="#2E5E91" />
+    <text x="672" y="308" font-size="24" font-weight="bold" fill="#FFFFFF">3  Skill</text>
+    <text font-size="22" fill="#1F2937" x="652" y="420">Biến việc lặp lại thành</text><text font-size="22" fill="#1F2937" x="652" y="450">quy trình chuẩn,</text><text font-size="22" fill="#1F2937" x="652" y="480">gọi lại được</text><text x="652" y="522" font-size="18" fill="#5B6675">Skills</text>
+  </g>
+
+  <g id="stair-tier-4" data-pptx-bounds="958 240 300 316">
+    <rect x="958" y="248" width="282" height="134" rx="12" fill="#1D3557" />
+    <text x="978" y="278" font-size="24" font-weight="bold" fill="#FFFFFF">4  Plugin</text>
+    <text font-size="22" fill="#1F2937" x="958" y="420">Nối ChatGPT vào ứng dụng,</text><text font-size="22" fill="#1F2937" x="958" y="450">đóng gói bộ công cụ</text><text font-size="22" fill="#1F2937" x="958" y="480">của phòng</text><text font-size="18" fill="#5B6675" x="958" y="522">Plugins · ChatGPT Work ·</text><text font-size="18" fill="#5B6675" x="958" y="546">Scheduled tasks</text></g>
+
+  <g id="stair-advanced" data-pptx-bounds="1090 200 150 42">
+    <rect x="1090" y="204" width="150" height="34" rx="17" fill="#64748B" />
+    <text x="1165" y="227" font-size="16" font-weight="bold" text-anchor="middle" fill="#FFFFFF">+ Nâng cao</text>
+  </g>
+
+  <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">02 / 35</text>
+</svg>

@@ -19,9 +19,12 @@
 - Người phụ trách xin và trả lời đánh giá: [ĐIỀN]
 - Chứng thực đang có: [ĐIỀN: ví dụ "5 ảnh chụp màn hình tin nhắn khen, chưa xin phép dùng"]
 - Chính sách cảm ơn khách hiện tại nếu có: [ĐIỀN: ví dụ "gửi lời cảm ơn sau khi khách phản hồi, không đổi quà lấy đánh giá"]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không dùng tên khách doanh nghiệp khi chưa có văn bản", "không mua đánh giá"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -41,18 +44,22 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Kênh nào quan trọng nhất và tình trạng hiện tại?** Số đánh giá, điểm trung bình, tỉ lệ đơn có đánh giá trên từng kênh; kênh nào đang kéo doanh số.
 2. **Điểm chạm nào đang có để xin?** Tờ cảm ơn trong hộp, tin nhắn sau giao, cuộc gọi sau lắp đặt, khảo sát NPS (CS-05), họp đánh giá 30 ngày với khách doanh nghiệp (CS-08).
 3. **Chứng thực cần cho việc gì?** Trang sản phẩm, quảng cáo, hồ sơ năng lực, báo giá B2B, video. Nhóm khách nào đang thiếu bằng chứng nhất?
 4. **Đánh giá xấu đang xử lý ra sao và có tặng quà không?** Ai trả lời, trong bao lâu; có tặng gì khi khách đánh giá không, điều kiện gì.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
+
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
 
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Không mua, không giả, không ép.** Không tạo đánh giá giả, không nhờ nhân viên và người quen đánh giá, không đề nghị khách sửa hoặc xóa đánh giá để nhận lợi ích. Với Google Maps, không tặng tiền, quà, mã giảm giá hoặc lợi ích khác để đổi lấy bất kỳ đánh giá nào; không chỉ mời nhóm khách hài lòng đánh giá. Với kênh khác, kiểm tra chính sách hiện hành trước khi đề xuất chương trình liên quan đến đánh giá. Không yêu cầu khách chấm số sao cụ thể hoặc viết theo nội dung có sẵn.
@@ -60,7 +67,7 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 4. **Mỗi kênh một kịch bản ngắn, giọng người thật**, có đường dẫn trực tiếp hoặc mã QR, có 3 câu hỏi gợi ý để khách viết dễ (trước khi dùng gặp vấn đề gì, dùng xong thấy gì, sẽ giới thiệu cho ai).
 5. **Trả lời mọi đánh giá trong 24 giờ**, tốt lẫn xấu. Đánh giá xấu: thừa nhận, xin lỗi nếu đúng, mời liên hệ riêng, không tranh cãi, không xin xóa. Ca cụ thể xử lý theo CS-02.
 6. **Chứng thực có hồ sơ xin phép.** Mỗi chứng thực lưu: nguyên văn, tên hoặc cách ẩn danh, ngày, kênh gốc, phạm vi được dùng (web, quảng cáo, hồ sơ), hình thức đồng ý (tin nhắn, email, văn bản), hạn dùng. Khách doanh nghiệp cần đồng ý bằng văn bản có người có thẩm quyền ký; quyền hình ảnh và dữ liệu cá nhân theo Bộ luật Dân sự và Luật Bảo vệ dữ liệu cá nhân 2025 và Nghị định 356/2025/NĐ-CP. Ghi "cần luật sư kiểm tra" cho mẫu đồng ý.
-7. **Chỗ thiếu dữ liệu ghi `[cần bổ sung: mô tả dữ liệu cần]`** thay vì bịa hoặc để trống. Số tham khảo ở bảng dưới ghi rõ là giả định; không bịa lời chứng thực mẫu như thể của khách thật.
+7. **Chỗ thiếu dữ liệu ghi `[CẦN ĐIỀN: mô tả dữ liệu cần]`** thay vì bịa hoặc để trống. Số tham khảo ở bảng dưới ghi rõ là giả định; không bịa lời chứng thực mẫu như thể của khách thật.
 8. **Tách B2C và B2B.** B2C đo bằng số đánh giá và điểm trên sàn, Google; B2B đo bằng số câu chuyện khách hàng (case study) và lời chứng thực có tên dùng được trong bán hàng.
 
 ### Thời điểm xin theo kênh (giả định, chỉnh theo chu kỳ sản phẩm)
@@ -139,7 +146,7 @@ Quy tắc: không xin khách xóa hoặc sửa đánh giá công khai; nếu kh�
 | Mã | Nguyên văn | Khách (tên hoặc ẩn danh) | Nhóm khách | Sản phẩm | Kênh gốc | Ngày | Phạm vi được dùng | Hình thức đồng ý | Hạn | Đã dùng ở đâu |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-Phân loại theo nhóm khách và nỗi lo khách thường có (giá, chất lượng, giao hàng, hỗ trợ sau bán) để đội bán hàng tìm nhanh. Quy tắc dùng: trích đúng nguyên văn, được cắt ngắn nhưng không đổi nghĩa, ghi nguồn, gỡ trong 3 ngày làm việc khi khách yêu cầu. Câu chuyện khách hàng B2B theo khung: bối cảnh, vấn đề, giải pháp, kết quả có số, câu nói của khách.
+Phân loại theo nhóm khách và nỗi lo khách thường có (giá, chất lượng, giao hàng, hỗ trợ sau bán) để đội bán hàng tìm nhanh. Quy tắc dùng: trích đúng nguyên văn, được cắt ngắn nhưng không đổi nghĩa, ghi nguồn, gỡ trong 3 ngày làm việc khi khách yêu cầu. Lời khách có ý về công dụng sức khỏe ('khỏi', 'hết', 'trị') chỉ giữ trong trích dẫn nội bộ; trước khi dùng cho marketing phải soát theo ranh giới ở mục 0 và PL-03. Câu chuyện khách hàng B2B theo khung: bối cảnh, vấn đề, giải pháp, kết quả có số, câu nói của khách.
 
 ### 4.6 Vận hành và chỉ số
 
@@ -173,7 +180,10 @@ Chính sách gốc cần kiểm tra lại khi triển khai: [Google Maps về đ
 - [ ] Đánh giá xấu có mẫu trả lời, việc riêng, thời hạn 24 giờ; không xin xóa, không tranh cãi.
 - [ ] Kho chứng thực có cột phạm vi, hình thức đồng ý, hạn; B2B có đồng ý bằng văn bản, mẫu đồng ý ghi "cần luật sư kiểm tra"; B2C và B2B tách về cách xin và chỉ số đo.
 - [ ] Không bịa lời chứng thực như của khách thật; ví dụ ghi rõ là mẫu định dạng.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống; số tham khảo ghi rõ giả định.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống; số tham khảo ghi rõ giả định.
 - [ ] Tôn trọng các điều cấm trong phần bối cảnh.
 - [ ] Thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu.
 - [ ] Kết thúc bằng 5 việc cần làm trong 7 ngày và gợi ý skill tiếp theo.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

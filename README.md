@@ -1,8 +1,30 @@
 # Bộ kỹ năng AI cho doanh nghiệp
 
-> **Người dùng không chuyên: mở file `index.html` bằng cách nhấp đúp.** Trang đó có danh mục theo phòng ban, ô tìm kiếm, xem nội dung từng skill, nút sao chép và tải về. File README này và HUONG-DAN-SU-DUNG.md là bản nguồn để người quản lý bộ skill chỉnh sửa; sau khi sửa bất kỳ file .md nào, chạy `python3 _build/build-index.py` để tạo lại `index.html`.
+> **Người dùng không chuyên: mở file `index.html` bằng cách nhấp đúp.** Trang đó là tài liệu tham khảo ChatGPT gồm 7 phần: Tổng quan, Instructions, Prompt, Skill, Plugin, Skill template và Slide. Các file .md trong repo là bản nguồn để người quản lý chỉnh sửa; sau khi sửa bất kỳ file .md nào, chạy `python3 _build/build-index.py` để tạo lại `index.html`.
 
-> Thư viện 119 bản hướng dẫn công việc bằng tiếng Việt cho các phòng ban. Mỗi file dùng độc lập: chọn file phù hợp, điền bối cảnh cần thiết, rồi dán vào công cụ AI và nói rõ việc muốn làm. Các mã skill khác được nhắc đến chỉ là gợi ý khi cần làm thêm việc liên quan. Các file này là nội dung để sao chép; muốn công cụ tự nhận diện như một Skill cài đặt sẵn thì cần đóng gói theo định dạng Skill của công cụ đó.
+## Các phần của trang
+
+| Phần trên trang | Nội dung | File nguồn |
+|---|---|---|
+| Tổng quan | Mục lục các phần, lộ trình 4 tầng, bảng "thông tin nào đặt ở đâu", sáu nguyên tắc khi dùng AI, ba điều không đổi, dữ liệu demo để tập | `tham-khao/tong-quan.md` |
+| Instructions | Khai báo một lần để ChatGPT biết mình là ai và luật chung: nơi đặt, cách viết, bảo mật, mẫu dùng ngay, lỗi hay gặp | `tham-khao/instructions.md` |
+| Prompt | Giao một việc cụ thể: công thức 4 phần, quy tắc với số liệu, cách kiểm chứng, mẫu dùng ngay | `tham-khao/prompt.md` |
+| Skill | Quy trình chuẩn cho việc lặp lại: cấu trúc, cách tạo, cải tiến, mẫu SKILL.md | `tham-khao/skill.md` |
+| Plugin | Nối ChatGPT với Gmail, Drive: mức quyền, cấp và gỡ quyền, tự động hóa có kiểm soát, plugin tự tạo, Playbook, mẫu dùng ngay, phần nâng cao AI tự thao tác | `tham-khao/plugin.md` |
+| Skill template | Thư viện 119 bản hướng dẫn viết sẵn theo 12 nhóm phòng ban (phần còn lại của README này) | các thư mục nhóm |
+| Slide | Bộ slide đào tạo, xem từng trang trên web và tải file .pptx | `slides/` (mỗi trang một file .svg) |
+
+Quy ước khi sửa trang tham khảo:
+
+- Dòng đầu `# Tên` là tên phần. Hai dòng `> **Là gì:**` và `> **Tra mục này khi:**` hiện thành ô định nghĩa ở đầu trang và trên trang Tổng quan.
+- Mục `## Tóm tắt nhanh` hiện thành hộp nổi bật. Các tiêu đề `###` trong mục `## Mẫu dùng ngay` hiện thành nút nhảy nhanh.
+- Khối mã có `title="..."` sau dấu mở, ví dụ ```` ```text title="Tên mẫu" ````, hiện thành thẻ mẫu có tiêu đề và nút sao chép.
+- Liên kết giữa các phần viết dạng `[Prompt](#prompt)`, `[Skill template](#skill-template)`.
+- Mỗi tiêu đề `##` thành một mục có số thứ tự. Tiêu đề `###` là mục con, `####` là nhãn nhỏ viết hoa cho một nhóm ý.
+- Khung ghi chú: bắt đầu dòng trích dẫn bằng `> **Lưu ý:**`, `> **Ghi nhớ:**`, `> **Mẹo:**` hoặc `> **Cảnh báo:**` để có khung màu và nhãn tương ứng.
+- Bảng 2 cột có tiêu đề dạng "Chưa đạt" và "Đạt" (hoặc "Không có ..." và "Có ...") tự hiện thành bảng so sánh có dấu ✕ và ✓.
+
+> Thư viện 119 bản hướng dẫn công việc bằng tiếng Việt cho các phòng ban. Mỗi file dùng độc lập: chọn file phù hợp, điền bối cảnh cần thiết, rồi dán vào một chat mới trên ChatGPT và nói rõ việc muốn làm. Các mã skill khác được nhắc đến chỉ là gợi ý khi cần làm thêm việc liên quan. Các file này là nội dung để sao chép. Muốn ChatGPT tự gọi như một skill thì đóng gói theo [huong-dan-tao-skill-chatgpt.md](huong-dan-tao-skill-chatgpt.md).
 
 **Trạng thái:** đợt 2, 119 skill trong 12 nhóm. Mỗi file có bố cục 6 phần, dài 150 đến 250 dòng và có thể dùng độc lập.
 
@@ -14,7 +36,7 @@
 
 1. Mở bảng danh mục bên dưới, tìm phòng ban của bạn, chọn skill theo cột **Dùng khi**.
 2. Điền phần **Bối cảnh công ty** ở đầu file theo [HUONG-DAN-SU-DUNG.md](HUONG-DAN-SU-DUNG.md); mục chưa biết ghi `chưa rõ`, mục không liên quan ghi `không áp dụng`.
-3. Dán toàn bộ nội dung đã điền vào công cụ AI, rồi nêu rõ việc cần làm và định dạng mong muốn.
+3. Dán toàn bộ nội dung đã điền vào một chat mới trên ChatGPT (hoặc chat trong Project của phòng), rồi nêu rõ việc cần làm và định dạng mong muốn. Kết quả là bản nháp, bạn duyệt trước khi gửi.
 
 ---
 
@@ -25,10 +47,13 @@
 | Ngôn ngữ | Tiếng Việt có dấu. Thuật ngữ dịch sang tiếng Việt, kèm tiếng Anh trong ngoặc ở lần xuất hiện đầu. Ví dụ: chi phí thu hút khách hàng (CAC). |
 | Bố cục | 6 phần cố định: 0 Bối cảnh công ty, 1 Vai trò, 2 Thu thập thông tin, 3 Nguyên tắc, 4 Cấu trúc kết quả, 5 Danh sách kiểm tra. |
 | Độ dài | 150 đến 250 dòng mỗi file. |
-| Hỏi trước khi làm | Chỉ hỏi khi thiếu thông tin quan trọng, tối đa 4 câu mỗi lượt. Khi đủ dữ liệu, làm ngay; thông tin phụ chưa có thì nêu giả định hoặc đánh dấu `[cần bổ sung]`. |
+| Hỏi trước khi làm | Bước đầu tiên là kiểm tra đủ thông tin; thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu. Đã đủ thì làm ngay; thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]`. |
 | Biểu mẫu | Nếu người dùng dán mẫu đang dùng trong công ty, kết quả phải khớp mẫu đó. Chỉ dùng cấu trúc của skill khi không có mẫu. |
 | Kết quả | Đưa bản dùng được lên trước. Nếu người dùng chỉ cần một phần, chỉ làm phần đó; cấu trúc trong skill dùng khi họ không đưa mẫu riêng. Dùng bảng và danh sách khi chúng giúp đọc dễ hơn. |
-| Số liệu | Ưu tiên dữ liệu công ty. Chỉ dùng mức tham khảo khi có nguồn và phù hợp bối cảnh; ghi rõ nguồn, thời điểm và giả định. Chỗ thiếu dữ liệu ghi `[cần bổ sung]`. |
+| Số liệu | Ưu tiên dữ liệu công ty. Chỉ dùng mức tham khảo khi có nguồn và phù hợp bối cảnh; ghi rõ nguồn, thời điểm và giả định. Chỗ thiếu ghi `[CẦN ĐIỀN: ...]`; số lấy từ tài liệu ghi `[DATA THẬT]`, tự suy ra ghi `[SUY LUẬN]`. |
+| Bảo mật | Thay tên thật bằng mã ("khách hàng A", "HĐ số X") trước khi dán. Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm dùng Temporary Chat. |
+| Người duyệt cuối | Mọi kết quả là bản nháp và kết thúc bằng câu "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi." |
+| Dùng ở Wir | Chạy trong Project của phòng có Project instructions theo mẫu 2.2 hoặc 2.3 của khóa học và file `du-lieu-san-pham-wir.md`. Ô ranh giới sản phẩm và ô chính sách giá ở mục 0 ghi `theo Project`. Không chép số liệu demo của khóa học (trần chiết khấu, công nợ) vào template. |
 | Tên file | `[MÃ]-[ten-khong-dau].md`, ví dụ `MKT-01-ke-hoach-marketing.md`. |
 
 ---
@@ -144,7 +169,7 @@ Cột **Nguồn** ghi skill gốc đã chắt lọc: OPA = ai-business-skills, B
 | OPS-03 | Biên bản họp và đầu việc | Có ghi chú hoặc bản ghi cuộc họp cần tổng hợp | Biên bản, quyết định, đầu việc có người và hạn, việc tồn đọng | BS meeting-efficiency |
 | OPS-04 | Giao việc cho nhân sự | Cần giao việc rõ ràng, tránh hiểu sai | Bản giao việc: mục tiêu, tiêu chuẩn hoàn thành, ràng buộc, điểm kiểm tra | OPA 64 |
 | OPS-05 | Báo cáo định kỳ | Cần báo cáo tuần, tháng, quý cho bất kỳ phòng ban nào | Khung báo cáo, so sánh kỳ trước, nhận định, đề xuất | BS periodic-reporting |
-| OPS-06 | Tự động hóa quy trình | Việc lặp lại nhiều, muốn nối các công cụ với nhau | Danh sách việc nên tự động, luồng xử lý, công cụ gợi ý, cách kiểm tra | BS workflow-automation |
+| OPS-06 | Tự động hóa quy trình | Việc lặp lại nhiều, muốn nối các công cụ với nhau | Danh sách việc nên tự động, luồng 3 lớp có người duyệt, hẹn giờ, log; công cụ gợi ý; cách kiểm tra | BS workflow-automation |
 | OPS-07 | Kho tri thức nội bộ | Kiến thức nằm trong đầu từng người, cần hệ thống hóa | Cấu trúc kho, quy tắc viết, quy trình cập nhật | BS knowledge-base-builder |
 | OPS-08 | Yêu cầu thuê ngoài | Thuê agency, freelancer, nhà cung cấp | Phạm vi công việc, tiêu chuẩn bàn giao, số vòng sửa, mốc thanh toán | OPA 67 |
 | OPS-09 | Phân tích dữ liệu để ra quyết định | Có dữ liệu thô từ bảng tính, phần mềm, cần rút ra kết luận | Nhận định chính, bảng số minh họa, nhật ký quyết định | OPA 13, BS analytics |
@@ -158,8 +183,8 @@ Cột **Nguồn** ghi skill gốc đã chắt lọc: OPA = ai-business-skills, B
 | LD-01 | Ra quyết định chiến lược | Đứng trước lựa chọn lớn, nhiều phương án | Khung so sánh phương án, tiêu chí có trọng số, rủi ro, khuyến nghị | BS strategic-decision-making |
 | LD-02 | Giải quyết vấn đề từ gốc | Vấn đề lặp lại, sửa mãi không hết | Phân tích nguyên nhân gốc, giả định cần phá, giải pháp từ nguyên lý | BS first-principles-thinking |
 | LD-03 | Hội đồng cố vấn mô phỏng | Cần nhiều góc nhìn phản biện thay vì AI chỉ đồng ý | 5 vai cố vấn tranh luận, điểm mâu thuẫn, kết luận cân bằng | OPA 72, CH marketing-council |
-| LD-04 | Lộ trình ứng dụng AI | Muốn đưa AI vào công ty một cách có hệ thống | Đánh giá mức sẵn sàng, việc nên làm trước, lộ trình 3 giai đoạn | BS ai-readiness-assessment, BS ai-implementation-roadmap |
-| LD-05 | Giao việc cho AI hiệu quả | Nhân viên dùng AI nhưng kết quả chung chung | Khung 4 yếu tố: bối cảnh, nội dung, ràng buộc, kiểm soát; mẫu câu lệnh | BS prompt-engineering-4c |
+| LD-04 | Lộ trình ứng dụng AI | Muốn đưa AI vào công ty một cách có hệ thống | Đánh giá mức sẵn sàng, việc nên làm trước, lộ trình 90 ngày theo 4 tầng Instructions → Prompt → Skill → Plugin | BS ai-readiness-assessment, BS ai-implementation-roadmap |
+| LD-05 | Giao việc cho AI hiệu quả | Nhân viên dùng AI nhưng kết quả chung chung | Công thức 4 phần Bối cảnh, Yêu cầu, Tiêu chí, Định dạng; mẫu câu lệnh; 4 cách kiểm chứng | BS prompt-engineering-4c |
 | LD-07 | Tầm nhìn, sứ mệnh, giá trị cốt lõi | Cần chốt hoặc làm mới định hướng công ty để truyền thông nội bộ | Tuyên bố tầm nhìn, sứ mệnh, 3 đến 5 giá trị kèm hành vi cụ thể, cách truyền thông | CES tam-nhin-su-menh-gia-tri |
 | LD-08 | Kế hoạch kinh doanh năm | Cần kế hoạch tổng cho năm: mô hình kinh doanh, SWOT, mục tiêu, OKR cấp công ty | Mô hình kinh doanh 9 ô, SWOT, mục tiêu năm, OKR công ty, lộ trình quý, ngân sách tổng | CES ke-hoach-kinh-doanh, business-model-canvas, okr-template, ogsm-framework |
 | LD-09 | Ma trận phân quyền và quy chế phê duyệt | Không rõ ai quyết việc gì, cần ma trận trách nhiệm và ngưỡng duyệt | Ma trận RACI theo quy trình chính, bảng ngưỡng phê duyệt theo cấp, quy tắc ủy quyền | CES ma-tran-phan-quyen-raci, quy-che-bgd |
@@ -227,9 +252,12 @@ Dành cho mọi nhân viên, không theo phòng ban.
 ```
 wir-skill/
 ├── README.md                      # Danh mục này
-├── HUONG-DAN-SU-DUNG.md           # Cách dán skill vào ChatGPT, Claude, Gemini
+├── HUONG-DAN-SU-DUNG.md           # Cách dùng template trên ChatGPT
 ├── huong-dan-tao-skill-chatgpt.md # Cách tạo, sửa và dùng skill trong ChatGPT
-├── index.html                     # Trang danh mục cho người dùng, tạo bằng _build/build-index.py
+├── tham-khao/                     # Nguồn các trang Tổng quan, Instructions, Prompt, Skill, Plugin
+├── slides/                        # Bộ slide (.svg từng trang và file .pptx) cho trang Slide
+├── du-lieu-demo/                  # Dữ liệu DEMO (Word, Excel) để tập các mẫu prompt, kèm đáp án
+├── index.html                     # Trang tài liệu tham khảo cho người dùng, tạo bằng _build/build-index.py
 ├── marketing/                     # MKT-01 đến MKT-25
 ├── ban-hang/                      # SAL-01 đến SAL-13
 ├── cham-soc-khach-hang/           # CS-01 đến CS-10
@@ -249,4 +277,4 @@ wir-skill/
 - **Thương hiệu cá nhân, avatar AI, podcast**: 7 skill của OPA chỉ phù hợp cá nhân, không phù hợp phòng ban.
 - **Xuất khẩu B2B, dropshipping, bán phần mềm tự phục vụ, nhượng quyền, gọi vốn**: ngoài mô hình của công ty.
 - **Điều lệ công ty, quy chế hội đồng quản trị, thỏa thuận cổ đông, báo cáo tài chính theo chuẩn kế toán, an toàn lao động và phòng cháy**: cần luật sư, kế toán trưởng hoặc cơ quan chuyên môn làm, AI chỉ nên rà.
-- **Các skill phụ thuộc công cụ**: skill chỉ chạy được khi có kết nối MCP, API hoặc file hệ thống đều bị loại vì không hoạt động khi dán vào ChatGPT.
+- **Các skill phụ thuộc công cụ**: bộ này là bản dán vào chat, không gồm kết nối app. Việc cần đọc Gmail, Drive thì đóng gói template thành skill rồi gộp vào plugin của phòng theo trang Plugin.

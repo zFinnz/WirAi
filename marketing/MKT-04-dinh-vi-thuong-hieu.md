@@ -18,9 +18,12 @@
 - Điểm công ty thật sự hơn đối thủ, có bằng chứng: [ĐIỀN: ví dụ "bảo hành tại nhà 48 giờ, 12 năm không đổi chính sách"]
 - Điểm công ty đang kém hơn: [ĐIỀN: để tránh định vị vào điểm yếu]
 - Câu định vị hoặc khẩu hiệu hiện tại nếu có: [ĐIỀN]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không dùng từ 'số 1', 'duy nhất' khi chưa có chứng nhận", "không định vị giá rẻ"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -41,7 +44,7 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Khách hiện tại mua vì lý do gì thật?** Khi họ giới thiệu công ty cho người khác, họ nói câu gì? Nếu có kết quả MKT-02, dán phần thấu hiểu khách hàng (insight) và kho ngôn ngữ.
 2. **Đối thủ chính đang định vị thế nào?** Thông điệp, điểm mạnh, điểm yếu. Nếu có kết quả MKT-03, dán bảng so sánh.
@@ -50,15 +53,19 @@ Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa
 
 Nếu chưa có MKT-02 và MKT-03, vẫn làm nhưng ghi rõ phần nào là giả định cần kiểm chứng với khách thật.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
 
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
+
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Chọn đúng một hướng định vị chính.** Trộn 3 đến 4 hướng là không có định vị. Hướng phụ chỉ dùng làm thông điệp hỗ trợ.
-3. **Mỗi tuyên bố đi kèm bằng chứng và lộ trình.** Lời hứa (promise) trả lời "khách được gì"; bằng chứng (proof) trả lời "vì sao tin"; lộ trình (path) trả lời "khách trải qua những bước nào để nhận được lời hứa". Chưa có bằng chứng thật thì ghi `[cần bổ sung: mô tả bằng chứng cần, lấy ở đâu]` thay vì bịa số hoặc để trống.
+3. **Mỗi tuyên bố đi kèm bằng chứng và lộ trình.** Lời hứa (promise) trả lời "khách được gì"; bằng chứng (proof) trả lời "vì sao tin"; lộ trình (path) trả lời "khách trải qua những bước nào để nhận được lời hứa". Chưa có bằng chứng thật thì ghi `[CẦN ĐIỀN: mô tả bằng chứng cần, lấy ở đâu]` thay vì bịa số hoặc để trống.
 4. **Không định vị vào điểm đang kém, và ưu tiên điểm khó sao chép.** Nếu giao hàng chậm hơn đối thủ thì đừng hứa nhanh. Định vị vào điểm thật, giữ được ít nhất 12 tháng; điểm đối thủ sao chép được trong 3 tháng (giảm giá, quà tặng) không phải định vị.
 5. **Luôn có mục "không dành cho ai".** Nhóm không phục vụ phải cụ thể: "khách cần giao trong ngày", "đại lý chỉ lấy hàng khi có khuyến mãi".
 6. **Tháp thông điệp 3 tầng.** Tầng 1 là thông điệp cốt lõi dùng làm tiêu đề; tầng 2 là thông điệp hỗ trợ (bằng chứng, khác biệt, xử lý từ chối); tầng 3 là điểm chứng minh (số liệu, câu nói của khách).
@@ -201,7 +208,7 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Chọn đúng 1 hướng định vị chính, ghi lý do bỏ các hướng khác.
 - [ ] Tuyên bố đầy đủ có đủ nhóm khách, danh mục, kết quả, khác biệt, lý do để tin.
 - [ ] Lời hứa dựa trên insight khách thật, không phải mong muốn nội bộ; nếu thiếu dữ liệu đã ghi là giả định.
-- [ ] Chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Mỗi tuyên bố khác biệt có bằng chứng, nguồn kiểm chứng và thời gian đối thủ sao chép được; không có "nhất", "duy nhất" khi chưa có chứng nhận.
 - [ ] Không định vị vào điểm đang kém hơn đối thủ; điểm khác biệt chính là điểm bền nhất.
 - [ ] Có mục "không dành cho ai" cụ thể; B2C và B2B có lớp 2 riêng nếu công ty có cả hai.
@@ -209,3 +216,6 @@ Tự rà soát trước khi trả kết quả. Mục nào chưa đạt thì sử
 - [ ] Tháp thông điệp đủ 3 tầng; có 3 thông điệp cốt lõi; khẩu hiệu có 3 đến 5 phương án và cách thử.
 - [ ] Bài giới thiệu 60 giây có 2 bản, khoảng 150 từ, ngôn ngữ nói, đủ 5 bước và kết bằng một đề nghị cụ thể.
 - [ ] Kế hoạch áp dụng phủ quảng cáo, trang đích, nội dung, bán hàng; tôn trọng điều cấm trong bối cảnh; thuật ngữ tiếng Việt, tiếng Anh trong ngoặc ở lần đầu; kết thúc bằng 5 việc cần làm trong 7 ngày.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

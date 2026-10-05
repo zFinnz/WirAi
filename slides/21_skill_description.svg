@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Aptos, 'Segoe UI', Arial, sans-serif" data-pptx-page-role="content">
+  <defs>
+    <marker id="arrow-border" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#5B6675" />
+    </marker>
+  </defs>
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="section-kicker" data-pptx-role="chrome" data-pptx-bounds="40 30 540 30">
+    <rect x="40" y="38" width="12" height="12" rx="3" fill="#2E5E91" />
+    <text x="62" y="50" font-size="16" font-weight="bold" letter-spacing="1.5" fill="#1D3557">TẦNG 3 · SKILL</text>
+  </g>
+
+  <g id="roadmap-tracker" data-pptx-role="chrome" data-pptx-bounds="600 14 640 62">
+    <rect x="608" y="36" width="120" height="8" rx="3" fill="#E3E9F1" />
+    <rect x="736" y="32" width="120" height="12" rx="3" fill="#E3E9F1" />
+    <rect x="864" y="28" width="120" height="16" rx="3" fill="#E8833A" />
+    <rect x="992" y="24" width="120" height="20" rx="3" fill="#E3E9F1" />
+    <rect x="1120" y="20" width="120" height="24" rx="3" fill="#E3E9F1" />
+    <text x="608" y="66" font-size="16" fill="#5B6675">1 Instructions</text>
+    <text x="736" y="66" font-size="16" fill="#5B6675">2 Prompt</text>
+    <text x="864" y="66" font-size="16" font-weight="bold" fill="#1F2937">3 Skill</text>
+    <text x="992" y="66" font-size="16" fill="#5B6675">4 Plugin</text>
+    <text x="1120" y="66" font-size="16" fill="#5B6675">Nâng cao</text>
+  </g>
+
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">ChatGPT chỉ đọc dòng description để chọn skill,</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">nên description mơ hồ thì skill không được gọi</text><g id="flow-spine" data-pptx-bounds="210 240 860 24">
+    <line x1="218" y1="252" x2="456" y2="252" stroke="#5B6675" stroke-width="2" marker-end="url(#arrow-border)" />
+    <line x1="518" y1="252" x2="756" y2="252" stroke="#5B6675" stroke-width="2" marker-end="url(#arrow-border)" />
+    <line x1="818" y1="252" x2="1056" y2="252" stroke="#5B6675" stroke-width="2" marker-end="url(#arrow-border)" />
+  </g>
+
+  <g id="flow-step-1" data-pptx-bounds="70 228 240 110">
+    <circle cx="190" cy="252" r="22" fill="#2E5E91" />
+    <text x="190" y="260" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">1</text>
+    <text x="190" y="304" font-size="20" text-anchor="middle" fill="#1F2937">Bạn gõ yêu cầu</text>
+  </g>
+
+  <g id="flow-step-2" data-pptx-bounds="360 228 260 144">
+    <circle cx="490" cy="252" r="22" fill="#E8833A" />
+    <text x="490" y="260" font-size="20" font-weight="bold" text-anchor="middle" fill="#1F2937">2</text>
+    <text font-size="20" font-weight="bold" text-anchor="middle" fill="#1D3557" x="490" y="304">ChatGPT chỉ đọc tên +</text><text font-size="20" font-weight="bold" text-anchor="middle" fill="#1D3557" x="490" y="330">description của mọi skill</text><rect x="424" y="342" width="132" height="28" rx="14" fill="#FCEBDD" />
+    <text x="490" y="362" font-size="16" font-weight="bold" text-anchor="middle" fill="#1D3557">Chỗ mấu chốt</text>
+  </g>
+
+  <g id="flow-step-3" data-pptx-bounds="670 228 240 110">
+    <circle cx="790" cy="252" r="22" fill="#2E5E91" />
+    <text x="790" y="260" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">3</text>
+    <text font-size="20" text-anchor="middle" fill="#1F2937" x="790" y="304">Thấy khớp mới mở</text><text font-size="20" text-anchor="middle" fill="#1F2937" x="790" y="330">toàn bộ SKILL.md</text></g>
+
+  <g id="flow-step-4" data-pptx-bounds="970 228 240 110">
+    <circle cx="1090" cy="252" r="22" fill="#2E5E91" />
+    <text x="1090" y="260" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">4</text>
+    <text font-size="20" text-anchor="middle" fill="#1F2937" x="1090" y="304">Làm đúng từng bước,</text><text font-size="20" text-anchor="middle" fill="#1F2937" x="1090" y="330">kể cả hỏi lại khi thiếu</text></g>
+
+  <g id="description-bad" data-pptx-bounds="40 388 392 248">
+    <rect x="40" y="388" width="392" height="248" rx="16" fill="#FFFFFF" stroke="#C0392B" stroke-width="2" />
+    
+  <g transform="translate(64, 404)" fill="none" stroke="#C0392B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M10 10l4 4m0 -4l-4 4" />
+  </g>
+    <text x="98" y="422" font-size="16" font-weight="bold" letter-spacing="1" fill="#C0392B">DESCRIPTION TỒI</text>
+    <rect x="64" y="440" width="344" height="80" rx="10" fill="#F3F6FA" />
+    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="80" y="472">description: Viết nội</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="80" y="498">dung cho công ty.</text><text font-size="20" fill="#1F2937" x="64" y="566">Quá chung: gọi nhầm hoặc</text><text font-size="20" fill="#1F2937" x="64" y="592">không bao giờ được gọi</text></g>
+
+  <g id="description-good" data-pptx-bounds="456 388 784 248">
+    <rect x="456" y="388" width="784" height="248" rx="16" fill="#FFFFFF" stroke="#2E8B57" stroke-width="2" />
+    
+  <g transform="translate(480, 404)" fill="none" stroke="#2E8B57" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="514" y="422" font-size="16" font-weight="bold" letter-spacing="1" fill="#2E8B57">DESCRIPTION TỐT</text>
+    <rect x="480" y="440" width="736" height="132" rx="10" fill="#F3F6FA" />
+    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="496" y="470">description: Viết bài mạng xã hội cho sản phẩm TPCN</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="496" y="496">của Wir (Elasten, CH Alpha Plus, Lactobact Intima).</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="496" y="522">Dùng khi cần bài Facebook, Zalo OA, kịch bản video</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="496" y="548">ngắn. Không dùng cho Karima (thiết bị tiêm) và tin trả lời khách.</text><text x="480" y="606" font-size="20" fill="#1F2937">Nêu rõ khi nào dùng, khi nào không</text>
+  </g>
+
+  <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">21 / 35</text>
+</svg>

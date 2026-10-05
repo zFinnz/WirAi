@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Aptos, 'Segoe UI', Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="section-kicker" data-pptx-role="chrome" data-pptx-bounds="40 30 540 30">
+    <rect x="40" y="38" width="12" height="12" rx="3" fill="#E8833A" />
+    <text x="62" y="50" font-size="16" font-weight="bold" letter-spacing="1.5" fill="#1D3557">CHỐT · NGUYÊN TẮC XUYÊN SUỐT</text>
+  </g>
+
+  <g id="roadmap-tracker" data-pptx-role="chrome" data-pptx-bounds="600 14 640 62">
+    <rect x="608" y="36" width="120" height="8" rx="3" fill="#6593C4" />
+    <rect x="736" y="32" width="120" height="12" rx="3" fill="#4A7FB5" />
+    <rect x="864" y="28" width="120" height="16" rx="3" fill="#2E5E91" />
+    <rect x="992" y="24" width="120" height="20" rx="3" fill="#1D3557" />
+    <rect x="1120" y="20" width="120" height="24" rx="3" fill="#64748B" />
+    <text x="608" y="66" font-size="16" fill="#1F2937">1 Instructions</text>
+    <text x="736" y="66" font-size="16" fill="#1F2937">2 Prompt</text>
+    <text x="864" y="66" font-size="16" fill="#1F2937">3 Skill</text>
+    <text x="992" y="66" font-size="16" fill="#1F2937">4 Plugin</text>
+    <text x="1120" y="66" font-size="16" fill="#1F2937">Nâng cao</text>
+  </g>
+
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Sáu nguyên tắc đi cùng mọi buổi,</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">dù dùng công cụ nào</text><g id="principle-1" data-pptx-bounds="40 226 580 124">
+    <circle cx="70" cy="256" r="26" fill="#E8833A" />
+    <text x="70" y="265" font-size="26" font-weight="bold" text-anchor="middle" fill="#1F2937">1</text>
+    <text x="116" y="266" font-size="26" font-weight="bold" fill="#1D3557">Chống bịa</text>
+    <text font-size="20" fill="#1F2937" x="116" y="298">Chỉ dùng dữ liệu được cấp; gắn nhãn</text><text font-size="20" fill="#1F2937" x="116" y="324" font-family="Consolas, 'Courier New', monospace">[DATA THẬT] / [SUY LUẬN] / [CẦN ĐIỀN]</text></g>
+
+  <g id="principle-2" data-pptx-bounds="660 226 580 124">
+    <circle cx="690" cy="256" r="26" fill="#E8833A" />
+    <text x="690" y="265" font-size="26" font-weight="bold" text-anchor="middle" fill="#1F2937">2</text>
+    <text x="736" y="266" font-size="26" font-weight="bold" fill="#1D3557">Người duyệt cuối</text>
+    <text font-size="20" fill="#1F2937" x="736" y="298">AI làm nháp; người ký, người bấm gửi</text><text font-size="20" fill="#1F2937" x="736" y="324">chịu trách nhiệm</text></g>
+
+  <line id="row-rule-1" data-pptx-role="decoration" x1="40" y1="356" x2="1240" y2="356" stroke="#D8E0EA" stroke-width="1" />
+
+  <g id="principle-3" data-pptx-bounds="40 362 580 124">
+    <circle cx="70" cy="392" r="26" fill="#E8833A" />
+    <text x="70" y="401" font-size="26" font-weight="bold" text-anchor="middle" fill="#1F2937">3</text>
+    <text x="116" y="402" font-size="26" font-weight="bold" fill="#1D3557">Bảo mật</text>
+    <text font-size="20" fill="#1F2937" x="116" y="434">Không dán 5 loại dữ liệu nhạy cảm;</text><text font-size="20" fill="#1F2937" x="116" y="460">thay tên thật bằng tên chung</text></g>
+
+  <g id="principle-4" data-pptx-bounds="660 362 580 124">
+    <circle cx="690" cy="392" r="26" fill="#E8833A" />
+    <text x="690" y="401" font-size="26" font-weight="bold" text-anchor="middle" fill="#1F2937">4</text>
+    <text x="736" y="402" font-size="26" font-weight="bold" fill="#1D3557">Kiểm chứng</text>
+    <text font-size="20" fill="#1F2937" x="736" y="434">Đối chiếu số liệu, ngày tháng, tên riêng,</text><text font-size="20" fill="#1F2937" x="736" y="460">trích dẫn với nguồn</text></g>
+
+  <line id="row-rule-2" data-pptx-role="decoration" x1="40" y1="492" x2="1240" y2="492" stroke="#D8E0EA" stroke-width="1" />
+
+  <g id="principle-5" data-pptx-bounds="40 498 580 124">
+    <circle cx="70" cy="528" r="26" fill="#E8833A" />
+    <text x="70" y="537" font-size="26" font-weight="bold" text-anchor="middle" fill="#1F2937">5</text>
+    <text x="116" y="538" font-size="26" font-weight="bold" fill="#1D3557">Tiêu chuẩn bằng số</text>
+    <text font-size="20" fill="#1F2937" x="116" y="570">Viết bằng số hoặc hành vi,</text><text font-size="20" fill="#1F2937" x="116" y="596">không bằng tính từ</text></g>
+
+  <g id="principle-6" data-pptx-bounds="660 498 580 124">
+    <circle cx="690" cy="528" r="26" fill="#E8833A" />
+    <text x="690" y="537" font-size="26" font-weight="bold" text-anchor="middle" fill="#1F2937">6</text>
+    <text x="736" y="538" font-size="26" font-weight="bold" fill="#1D3557">Lưu kết quả thành file</text>
+    <text font-size="20" fill="#1F2937" x="736" y="570">Đầu ra buổi trước là đầu vào</text><text font-size="20" fill="#1F2937" x="736" y="596">buổi sau</text></g>
+
+  <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">34 / 35</text>
+</svg>

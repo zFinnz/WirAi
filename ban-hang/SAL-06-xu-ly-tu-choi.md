@@ -16,9 +16,13 @@
 - Bằng chứng được phép dùng: [ĐIỀN: ví dụ "40 nhà hàng đang dùng", "bảo hành 24 tháng", "đánh giá có tên trên Google"]
 - 3 đến 5 câu từ chối nghe nhiều nhất (nguyên văn khách nói): [ĐIỀN]
 - Quyền của nhân viên khi khách ép giá: [ĐIỀN: ví dụ "tặng kèm, trả góp 0%; giảm giá phải quản lý duyệt"]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
+- Chính sách giá, chiết khấu, công nợ, đền bù được duyệt và câu dùng khi khách đòi ngoài chính sách: [ĐIỀN hoặc ghi `theo Project`; câu mặc định: "Mức này vượt chính sách hiện hành, em cần xin ý kiến quản lý trước khi xác nhận với anh/chị."]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không nói xấu đối thủ", "không giảm quá 10%", "không hứa giao sớm hơn 5 ngày"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -37,18 +41,22 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Cần bộ tài liệu đầy đủ hay xử lý một tình huống đang diễn ra?** Nếu đang diễn ra: ai nói, vai trò, nguyên văn, đang ở bước nào, việc gì sắp xảy ra (gọi lại, gửi báo giá, họp). Trả lời ngay với giả định nêu rõ, chỉ hỏi thêm điều làm đổi câu trả lời.
 2. **Từ chối đến từ nhóm khách nào, qua kênh nào?** B2C qua tin nhắn và cửa hàng hay B2B qua họp và email. Cùng câu "đắt" nhưng cách đáp khác nhau.
 3. **Khách thường so với ai và vì sao?** Đối thủ rẻ hơn ở đâu, khác gói ở đâu. Khách từng chuyển từ đối thủ sang có kể lý do không?
 4. **Nhân viên được làm gì khi khách ép?** Tặng kèm, chia nhỏ gói, điều kiện thanh toán, giữ giá đến ngày nào; cái gì phải xin duyệt.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`. Với tình huống đang diễn ra, bỏ qua bước này và trả lời ngay.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat. Với tình huống đang diễn ra, bỏ qua bước này và trả lời ngay.
 
 ---
 
 ## 3. Nguyên tắc làm việc
+
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
 
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mỗi lời từ chối ghi theo 5 phần**: nguyên văn khách nói, nỗi lo thật phía sau, cách đáp (công nhận rồi chuyển hướng), bằng chứng kèm theo, câu hỏi để đi tiếp. Thiếu câu hỏi tiếp thì cuộc nói chuyện kết thúc ở đó.
@@ -56,7 +64,7 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 4. **Viết ở hai dạng.** Dạng A bảng tra nhanh một màn hình dùng khi đang nói chuyện; dạng B bản đầy đủ để đào tạo, thêm vì sao khách nói vậy, điều không được nói, 2 đến 3 cách diễn đạt theo tình huống.
 5. **Phân loại từ chối theo 7 nhóm**: giá, thời điểm, đối thủ hoặc hiện trạng, thẩm quyền, niềm tin và rủi ro, sản phẩm (thiếu tính năng, phức tạp, không hợp ngành), nhu cầu chưa rõ. Mỗi nhóm có một chiến thuật chung trước khi vào từng câu.
 6. **Đáp bằng câu hỏi nhiều hơn bằng lập luận.** "Đắt so với gì ạ", "nếu bỏ qua chuyện giá thì còn điều gì khiến anh/chị chưa yên tâm", "bên kia báo giá gồm những gì". Khách tự nói ra lý do thật thì mới xử lý được.
-7. **Bằng chứng chỉ dùng cái công ty chứng minh được; thiếu thì đánh dấu, không bịa.** Không bịa số, không bịa tên khách, không nhắc lại lời khách nói về đối thủ như sự thật ("bên kia rẻ bằng nửa" có thể khác phạm vi). Chỗ cần bằng chứng mà chưa có ghi `[cần bổ sung: mô tả bằng chứng cần]`; mọi số tham khảo ghi rõ là giả định.
+7. **Bằng chứng chỉ dùng cái công ty chứng minh được; thiếu thì đánh dấu, không bịa.** Không bịa số, không bịa tên khách, không nhắc lại lời khách nói về đối thủ như sự thật ("bên kia rẻ bằng nửa" có thể khác phạm vi). Chỗ cần bằng chứng mà chưa có ghi `[CẦN ĐIỀN: mô tả bằng chứng cần]`; mọi số tham khảo ghi rõ là giả định.
 8. **Tách B2C, B2B và theo kênh.** B2C từ chối nhanh, cảm tính, qua tin nhắn; cần đáp ngắn, kèm ảnh, chốt lại trong vài tin. B2B từ chối thường đến từ người không có mặt (kế toán, kỹ thuật, lãnh đạo); cần tìm người đó và trả lời riêng nỗi lo của họ. Điện thoại không thấy biểu cảm, Zalo trả lời trễ, email cần văn bản: mỗi kênh có cách đáp khác.
 9. **Biết khi nào không nên cố.** Nếu từ chối lộ ra khoảng cách thật về nhu cầu, ngân sách hoặc phạm vi, nói thật, thu hẹp phạm vi hoặc giới thiệu gói khác, và dừng. Ghi lý do để phân tích.
 10. **Ghi lại từ chối sau mỗi lần.** Sau 20 ca, câu lặp nhiều nhất chính là việc cần sửa ở sản phẩm, giá hoặc tài liệu, không phải ở kỹ năng nhân viên.
@@ -67,7 +75,7 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 |---|---|---|---|---|
 | "Đắt quá" | chưa thấy khác biệt, hoặc thật sự vượt ngân sách | "Dạ, em hiểu. Mình đang so với mức nào ạ, để em xem khác nhau ở đâu?" | bảng hạng mục bao gồm, chi phí phát sinh thường gặp | "Ngân sách mình dự tính khoảng bao nhiêu để em bố trí gói vừa?" |
 | "Bên kia rẻ hơn" | chỉ còn giá để so vì chưa thấy khác biệt | "Có thể bên đó rẻ hơn thật. Mình cho em biết báo giá bên đó gồm gì để em so cùng hạng mục?" | bảng so sánh hạng mục, khách đã chuyển sang | "Nếu giá bằng nhau thì anh/chị chọn bên nào, vì sao?" |
-| "Giảm thêm thì mới lấy" | thử xem còn giảm được không, hoặc cần lý do để trình | "Giá này đã gồm [hạng mục]. Nếu mình lấy [số lượng] hoặc thanh toán trước thì em xin được [ưu đãi có điều kiện]." | chính sách ưu đãi có điều kiện | "Mình đang cân nhắc ở mức số lượng nào ạ?" |
+| "Giảm thêm thì mới lấy" | thử xem còn giảm được không, hoặc cần lý do để trình | "Giá này đã gồm [hạng mục]. Nếu mình lấy [số lượng] hoặc thanh toán trước thì em xin được [ưu đãi có trong chính sách]. Nếu anh/chị cần mức khác, em cần xin ý kiến quản lý trước khi xác nhận." | chính sách ưu đãi có điều kiện | "Mình đang cân nhắc ở mức số lượng nào ạ?" |
 | "Tôi chỉ có ngân sách X" | ngân sách thật, hoặc thử neo giá | "Dạ, với X thì em có gói [tên] làm được [phạm vi]. Phần [còn lại] mình để giai đoạn sau được không?" | bảng gói theo phạm vi | "Trong các hạng mục, phần nào bắt buộc phải có ngay ạ?" |
 | "Năm nay hết ngân sách, sang năm tính" | ưu tiên khác cao hơn, hoặc chưa thấy chi phí của việc chờ | "Dạ, em hiểu. Từ giờ đến đó, phần [vấn đề] mình đang xử lý thế nào ạ?" | tính chi phí của việc chờ (giả định có điều kiện) | "Nếu em đề xuất bắt đầu nhỏ trong ngân sách còn lại thì mình cần gì để duyệt?" |
 | "Để suy nghĩ thêm" | còn một nỗi lo chưa nói ra | "Dạ, việc này nên cân nhắc. Nếu bỏ qua chuyện giá thì còn điều gì làm anh/chị chưa yên tâm?" | | "Em hẹn [ngày giờ] gọi lại nghe ý mình được không?" |
@@ -77,9 +85,9 @@ Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ li�
 | "Tôi không phải người quyết định" | đúng vậy, hoặc muốn thoát | "Dạ cảm ơn anh/chị đã cho em biết. Việc này bên mình thường ai quyết ạ, em xin phép liên hệ và nhắc là anh/chị giới thiệu?" | | "Anh/chị thấy điểm nào bên em hợp để em nói đúng ý khi gặp người đó?" |
 | "Đang dùng bên khác rồi" | ngại đổi, sợ rủi ro chuyển | "Vậy là mình đã có kinh nghiệm với sản phẩm này rồi. Hiện có điểm nào bên đó mình chưa ưng không?" | khách cùng ngành đã chuyển, quy trình chuyển đổi | "Nếu thử song song một phần nhỏ thì mình cần điều kiện gì?" |
 | "Bên tôi tự làm được rồi" | không thấy chi phí ẩn của tự làm | "Dạ, nhiều bên cũng tự làm. Hiện phần đó mất của mình bao nhiêu giờ mỗi tuần ạ?" | so sánh chi phí tự làm và thuê (giả định) | "Nếu phần đó có người lo, mình dùng thời gian ấy vào việc gì?" |
-| "Công ty mới quá / có khách ngành tôi chưa" | sợ rủi ro, sợ phải chịu trách nhiệm khi chọn sai | "Dạ đúng là bên em còn mới. Em có [số] khách ngành gần, và điều khoản [bảo hành, hoàn tiền có điều kiện] để mình yên tâm." | khách gần ngành, điều khoản cam kết, dùng thử | "Nếu chạy thử [phạm vi nhỏ] 2 tuần thì mình cần thấy kết quả gì để tin?" |
+| "Công ty mới quá / có khách ngành tôi chưa" | sợ rủi ro, sợ phải chịu trách nhiệm khi chọn sai | "Dạ đúng là bên em còn mới. Em có [số] khách ngành gần, và điều khoản [điều khoản có trong chính sách] để mình yên tâm." | khách gần ngành, điều khoản cam kết, dùng thử | "Nếu chạy thử [phạm vi nhỏ] 2 tuần thì mình cần thấy kết quả gì để tin?" |
 | "Nghe nói dịch vụ sau bán bên bạn kém" | từng có trải nghiệm xấu hoặc nghe đồn | "Dạ, cảm ơn anh/chị nói thẳng. Mình nghe về trường hợp nào ạ, để em kiểm tra và nói đúng?" | thời gian phản hồi hỗ trợ thực tế, quy trình xử lý sự cố | "Với mình, hỗ trợ sau bán quan trọng nhất ở điểm nào?" |
-| "Bảo hành, hợp đồng thế nào, có gì không rõ không" | sợ điều khoản ẩn | "Dạ, em gửi điều khoản bằng văn bản ngay, mình xem từng dòng; chỗ nào chưa rõ em sửa cho rõ." | mẫu hợp đồng, chính sách bảo hành (SAL-08) | "Anh/chị quan tâm nhất điều khoản nào để em giải thích trước?" |
+| "Bảo hành, hợp đồng thế nào, có gì không rõ không" | sợ điều khoản ẩn | "Dạ, em gửi điều khoản bằng văn bản ngay, mình xem từng dòng; chỗ nào chưa rõ em ghi lại và xin ý kiến quản lý." | mẫu hợp đồng, chính sách bảo hành (SAL-08) | "Anh/chị quan tâm nhất điều khoản nào để em giải thích trước?" |
 | "Thiếu tính năng X / đối thủ hơn ở điểm Y" | X có thật sự cần không, hoặc đang so theo danh sách tính năng | "Dạ, phần X bên em chưa có. Mình dùng X cho việc gì, bao lâu một lần ạ?" | lộ trình sản phẩm nếu được phép nói, cách thay thế | "Nếu việc đó làm bằng [cách khác] thì mình chấp nhận được không?" |
 | "Phức tạp quá, nhân viên tôi không dùng được" | sợ tốn công triển khai | "Dạ, lo này đúng. Bên em có [đào tạo, hướng dẫn, người hỗ trợ] trong [thời gian]." | lịch đào tạo, thời gian làm quen của khách cũ | "Ai bên mình sẽ dùng chính, để em làm buổi hướng dẫn riêng cho họ?" |
 | "Không hợp đặc thù ngành tôi" | chưa thấy ví dụ gần | "Dạ, ngành mình có điểm riêng gì mà anh/chị thấy khó áp dụng nhất?" | khách gần ngành, cách tùy chỉnh | "Nếu bên em điều chỉnh [điểm đó] thì còn vướng gì không?" |
@@ -184,9 +192,13 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý dùn
 - [ ] Có cả dạng A một màn hình và dạng B đầy đủ; đủ 7 nhóm và bảng theo kênh.
 - [ ] Không câu đáp nào giảm giá ngay trong cuộc nói chuyện; thứ tự công cụ giá đúng nguyên tắc.
 - [ ] Không câu đáp nào nói xấu đối thủ, nói dối, tạo khan hiếm giả hay nhắc lời khách về đối thủ như sự thật.
-- [ ] Mọi bằng chứng là thứ công ty chứng minh được; chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Mọi bằng chứng là thứ công ty chứng minh được; chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] B2C và B2B có bảng riêng nếu công ty có cả hai; B2B có cách tìm người quyết định vắng mặt.
 - [ ] Có mục khi nào không nên cố và cách ghi lý do mất.
 - [ ] Lời đáp viết tự nhiên tiếng Việt, có chỗ điền, đọc được nguyên văn.
 - [ ] Mọi số tham khảo đã ghi rõ là giả định; tôn trọng điều cấm trong bối cảnh; thuật ngữ tiếng Việt kèm tiếng Anh ở lần đầu.
 - [ ] Kết thúc bằng 5 việc cần làm và gợi ý skill tiếp theo.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Giá, chiết khấu, công nợ, đền bù chỉ lấy từ chính sách ở mục 0; điều ngoài chính sách chỉ dùng đúng câu xin ý kiến quản lý, không báo số, không hứa.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."

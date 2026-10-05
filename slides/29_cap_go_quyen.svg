@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Aptos, 'Segoe UI', Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="section-kicker" data-pptx-role="chrome" data-pptx-bounds="40 30 540 30">
+    <rect x="40" y="38" width="12" height="12" rx="3" fill="#1D3557" />
+    <text x="62" y="50" font-size="16" font-weight="bold" letter-spacing="1.5" fill="#1D3557">TẦNG 4 · PLUGIN</text>
+  </g>
+
+  <g id="roadmap-tracker" data-pptx-role="chrome" data-pptx-bounds="600 14 640 62">
+    <rect x="608" y="36" width="120" height="8" rx="3" fill="#E3E9F1" />
+    <rect x="736" y="32" width="120" height="12" rx="3" fill="#E3E9F1" />
+    <rect x="864" y="28" width="120" height="16" rx="3" fill="#E3E9F1" />
+    <rect x="992" y="24" width="120" height="20" rx="3" fill="#E8833A" />
+    <rect x="1120" y="20" width="120" height="24" rx="3" fill="#E3E9F1" />
+    <text x="608" y="66" font-size="16" fill="#5B6675">1 Instructions</text>
+    <text x="736" y="66" font-size="16" fill="#5B6675">2 Prompt</text>
+    <text x="864" y="66" font-size="16" fill="#5B6675">3 Skill</text>
+    <text x="992" y="66" font-size="16" font-weight="bold" fill="#1F2937">4 Plugin</text>
+    <text x="1120" y="66" font-size="16" fill="#5B6675">Nâng cao</text>
+  </g>
+
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Nối tài khoản cá nhân, đọc hết quyền trước khi đồng ý,</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">gỡ quyền ngay tối hôm đó</text><g id="phase-line" data-pptx-bounds="40 226 1200 22">
+    <line x1="56" y1="237" x2="1224" y2="237" stroke="#D8E0EA" stroke-width="2" />
+  </g>
+
+  <g id="phase-before" data-pptx-bounds="40 222 384 400">
+    <circle cx="56" cy="237" r="10" fill="#1D3557" />
+    <rect x="76" y="222" width="168" height="30" fill="#FFFFFF" />
+    <text x="80" y="245" font-size="24" font-weight="bold" fill="#1D3557">Trước khi nối</text>
+    <rect x="40" y="268" width="384" height="350" rx="16" fill="#F3F6FA" />
+    <rect x="64" y="294" width="20" height="20" rx="5" fill="#FFFFFF" stroke="#1D3557" stroke-width="2" />
+    <text font-size="20" fill="#1F2937" x="100" y="311">Đăng xuất Google công ty</text><text font-size="20" fill="#1F2937" x="100" y="337">trên trình duyệt</text><rect x="56" y="362" width="352" height="78" rx="12" fill="#FFFFFF" stroke="#C0392B" stroke-width="2" />
+    
+  <g transform="translate(64, 378) scale(0.916667)" fill="none" stroke="#C0392B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M5.7 5.7l12.6 12.6" />
+  </g>
+    <text font-size="20" font-weight="bold" fill="#C0392B" x="100" y="395">Không nối hộp thư công ty</text><text font-size="20" font-weight="bold" fill="#C0392B" x="100" y="421">khi đang học (quy định cứng)</text><rect x="64" y="462" width="20" height="20" rx="5" fill="#FFFFFF" stroke="#1D3557" stroke-width="2" />
+    <text font-size="20" fill="#1F2937" x="100" y="479">Đã nối nhiều tài khoản thì</text><text font-size="20" fill="#1F2937" x="100" y="505">kiểm tra kỹ</text></g>
+
+  <g id="phase-during" data-pptx-bounds="448 222 384 400">
+    <circle cx="464" cy="237" r="10" fill="#1D3557" />
+    <rect x="484" y="222" width="176" height="30" fill="#FFFFFF" />
+    <text x="488" y="245" font-size="24" font-weight="bold" fill="#1D3557">Khi cấp quyền</text>
+    <rect x="448" y="268" width="384" height="350" rx="16" fill="#F3F6FA" />
+    <rect x="472" y="294" width="20" height="20" rx="5" fill="#FFFFFF" stroke="#1D3557" stroke-width="2" />
+    <text x="508" y="311" font-size="20" fill="#1F2937">Đọc hết danh sách quyền</text>
+    <rect x="472" y="346" width="20" height="20" rx="5" fill="#FFFFFF" stroke="#1D3557" stroke-width="2" />
+    <text font-size="20" fill="#1F2937" x="508" y="363">Quyền Gmail gộp đọc, soạn,</text><text font-size="20" fill="#1F2937" x="508" y="389">gửi → chặn gửi bằng</text><text font-size="20" fill="#1D3557" x="508" y="415" font-weight="bold">Always ask</text><rect x="472" y="450" width="20" height="20" rx="5" fill="#FFFFFF" stroke="#1D3557" stroke-width="2" />
+    <text font-size="20" fill="#1F2937" x="508" y="467">Thấy “ứng dụng chưa được</text><text font-size="20" fill="#1F2937" x="508" y="493">xác minh” thì dừng, gọi</text><text font-size="20" fill="#1F2937" x="508" y="519">giảng viên</text></g>
+
+  <g id="phase-after" data-pptx-bounds="856 222 384 400">
+    <circle cx="872" cy="237" r="10" fill="#E8833A" />
+    <rect x="892" y="222" width="164" height="30" fill="#FFFFFF" />
+    <text x="896" y="245" font-size="24" font-weight="bold" fill="#1D3557">Sau buổi học</text>
+    <rect x="856" y="268" width="384" height="350" rx="16" fill="#F3F6FA" />
+    <rect x="880" y="294" width="20" height="20" rx="5" fill="#FFFFFF" stroke="#1D3557" stroke-width="2" />
+    <text font-size="20" fill="#1F2937" x="916" y="311">Vào myaccount.google.com/</text><text font-size="20" fill="#1F2937" x="916" y="337">linkedapps → ChatGPT/OpenAI</text><text font-size="20" fill="#1F2937" x="916" y="363"><tspan>→ <tspan font-weight="bold" fill="#1D3557">Remove access</tspan></tspan></text><rect x="880" y="398" width="20" height="20" rx="5" fill="#FFFFFF" stroke="#1D3557" stroke-width="2" />
+    <text font-size="20" fill="#1F2937" x="916" y="415">ChatGPT: Settings → Plugins</text><text font-size="20" fill="#1F2937" x="916" y="441"><tspan>→ <tspan font-weight="bold" fill="#1D3557">ngắt kết nối</tspan></tspan></text></g>
+
+  <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">29 / 35</text>
+</svg>

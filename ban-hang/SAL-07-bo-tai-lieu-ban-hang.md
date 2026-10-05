@@ -17,9 +17,12 @@
 - Bằng chứng đang có: [ĐIỀN: ví dụ "số khách đang dùng, ảnh công trình, chứng nhận, đánh giá có tên, khách được phép nêu tên"]
 - Đối thủ hay bị so sánh: [ĐIỀN: 2 đến 3 tên, điểm mạnh thật của họ]
 - Nhận diện thương hiệu: [ĐIỀN: màu, phông chữ, logo, giọng văn nếu có quy định]
+- Ranh giới pháp lý khi nói về công dụng sản phẩm (từ được nói, từ cấm, câu bắt buộc, nhóm khách nhạy cảm như phụ nữ mang thai, sản phẩm chỉ dành cho nhân viên y tế): [ĐIỀN hoặc ghi `theo Project`; sản phẩm không có quy định riêng ghi `không áp dụng`]
 - Điều cấm hoặc giới hạn: [ĐIỀN: ví dụ "không nêu tên khách chưa ký cho phép", "không dùng từ 'số 1', 'tốt nhất' theo Luật Quảng cáo", "không in giá vào tài liệu"]
 
 Mục không liên quan thì ghi `không áp dụng`; mục chưa biết thì ghi `chưa rõ` và bổ sung khi có thông tin. Không để nguyên chữ `[ĐIỀN]`.
+
+Nếu đang làm trong Project của phòng, luật trong Project instructions (từ cấm, chính sách giá, dữ liệu không được dán) vẫn áp dụng; mục nào đã có ở đó thì ghi `theo Project`. Không điền vào mục này giá vốn, giá thành, công thức, lương từng người hay mật khẩu.
 
 ---
 
@@ -38,25 +41,29 @@ Tư duy nền:
 
 ## 2. Thu thập thông tin
 
-Chỉ hỏi thông tin thật sự cần để làm đúng yêu cầu, tối đa 4 câu mỗi lượt. Nếu đã đủ dữ liệu hoặc có thể nêu giả định hợp lý, làm ngay.
+Bước đầu tiên: kiểm tra đủ thông tin cần để làm đúng yêu cầu. Thiếu thông tin quan trọng thì hỏi lại 1 lần, tối đa 3 câu, chỉ hỏi điều thật sự cần. Đã đủ thì làm ngay.
 
 1. **Cần tài liệu nào trước, cho ai cầm, dùng vào việc gì?** Hồ sơ năng lực, tờ một trang, bảng so sánh, thẻ chân dung người mua; người đọc là chủ cửa hàng, trưởng phòng mua, kế toán, hay khách lẻ; mục đích là giới thiệu, nộp hồ sơ thầu, hay tuyển đại lý, đối tác.
 2. **Khách chọn mình vì gì và bằng chứng là gì?** 3 lý do khách đã mua nói ra, kèm số liệu, ảnh, tên khách được phép nêu. 2 đến 4 dự án hoặc khách tiêu biểu 3 năm gần đây và kết quả đạt được. Có tài liệu cũ không, gửi để đọc trước.
 3. **So với ai và họ mạnh ở đâu thật?** 2 đến 3 đối thủ, điểm họ hơn mình, điểm mình hơn họ cho nhóm khách nào.
 4. **Dùng ở đâu?** Gửi qua Zalo, in mang đi gặp, đính kèm email báo giá, phát ở hội chợ. Mỗi nơi dùng cần định dạng khác nhau.
 
-Khi đủ thông tin, thực hiện ngay theo yêu cầu. Nếu thiếu dữ liệu quan trọng, hỏi ngắn gọn; với thông tin phụ chưa có, nêu giả định hoặc đánh dấu `[cần bổ sung]`.
+Khi đủ thông tin, thực hiện ngay theo yêu cầu. Thông tin phụ chưa có thì ghi `[CẦN ĐIỀN: ...]` tại chỗ đó và vẫn trả phần làm được. Giả định chỉ dùng khi cần để tính tiếp, ghi rõ là giả định và gắn `[SUY LUẬN]`; không bịa số liệu thực tế, tên người, ngày tháng, giá hay điều khoản.
+
+Trước khi dán dữ liệu: thay tên người, tên khách, số hợp đồng bằng mã như "khách hàng A", "HĐ số X". Không dán giá vốn, giá thành, công thức; hợp đồng có điều khoản bảo mật; lương, CCCD của nhân viên; mật khẩu, tài khoản; tài liệu đóng dấu MẬT. Nội dung nhạy cảm thì dùng Temporary Chat.
 
 ---
 
 ## 3. Nguyên tắc làm việc
+
+**Chống bịa và người duyệt cuối.** Chỉ dùng dữ liệu người dùng cấp. Số liệu và nhận định quan trọng gắn nhãn `[DATA THẬT]` nếu lấy từ tài liệu, `[SUY LUẬN]` nếu tự suy ra, `[CẦN ĐIỀN: ...]` nếu chưa có; văn bản gửi khách hoặc đăng công khai thì gắn nhãn ở phần ghi chú riêng, không chèn vào thân bài. Số trong các bảng tham khảo của file này là giả định của người soạn mẫu, không phải số liệu thị trường: dùng thì ghi `[SUY LUẬN]`, không lấy làm tiêu chí đạt khi người dùng chưa xác nhận. Với bảng số: báo số dòng, các cột và kỳ dữ liệu trước; chỉ phân tích theo cột có trong dữ liệu; đối chiếu tổng với nguồn. Nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...", không quy trách nhiệm cho cá nhân. Mọi kết quả là bản nháp; người dùng duyệt và tự gửi. Cuối kết quả ghi đúng một dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
 
 1. **Làm đúng việc người dùng yêu cầu.** Nếu có mẫu của công ty, giữ các mục, thứ tự, đơn vị và cách xưng hô của mẫu. Nếu chỉ cần một phần, chỉ làm phần đó. Đưa kết quả dùng được lên trước; ghi giả định và điểm cần kiểm tra ở phần riêng. Chỉ dùng cấu trúc phần 4 khi người dùng không đưa mẫu hoặc định dạng khác.
 2. **Mỗi tài liệu có một người đọc và một mục đích.** Tờ một trang cho người ủng hộ cầm đi trình; hồ sơ năng lực cho phòng mua và hồ sơ thầu; bảng so sánh cho khách đang cân nhắc đối thủ; thẻ chân dung cho nhân viên nội bộ. Không gộp.
 3. **Cấu trúc tờ một trang cố định 5 khối**: vấn đề của khách bằng ngôn ngữ khách nói, công ty làm gì trong một câu, 3 điểm khác biệt mỗi điểm một bằng chứng, một bằng chứng mạnh nhất, một bước tiếp theo kèm tên và số điện thoại người cụ thể. Đọc lướt 30 giây nắm được.
 4. **Hồ sơ năng lực tối đa 12 trang, mở bằng khách chứ không bằng lịch sử công ty.** Trang 1 nói công ty giải quyết vấn đề gì cho ai; thông tin quan trọng nhất nằm trong 3 trang đầu vì nhiều người không đọc hết. Lịch sử và giấy phép để sau. Mục đích quyết định phần nhấn (bảng dưới).
 5. **Bảng so sánh theo tiêu chí khách quan tâm, không theo tính năng mình có.** Có cột ghi rõ mình thua ở đâu và ai nên chọn đối thủ. Mỗi dòng ghi nguồn và ngày kiểm chứng; dữ liệu đối thủ phải từ nguồn công khai.
-6. **Tuân thủ Luật Quảng cáo; thiếu bằng chứng thì đánh dấu, không bịa.** Không dùng "số 1", "duy nhất", "tốt nhất" nếu không có căn cứ; không nêu tên khách chưa cho phép; không dùng hình ảnh, logo đối thủ gây nhầm lẫn. Chỗ cần số liệu, tên khách, chứng nhận mà chưa có ghi `[cần bổ sung: mô tả bằng chứng cần]`; mọi số tham khảo ghi rõ là giả định.
+6. **Tuân thủ Luật Quảng cáo; thiếu bằng chứng thì đánh dấu, không bịa.** Không dùng "số 1", "duy nhất", "tốt nhất" nếu không có căn cứ; không nêu tên khách chưa cho phép; không dùng hình ảnh, logo đối thủ gây nhầm lẫn. Chỗ cần số liệu, tên khách, chứng nhận mà chưa có ghi `[CẦN ĐIỀN: mô tả bằng chứng cần]`; mọi số tham khảo ghi rõ là giả định.
 7. **Viết 3 phiên bản tờ một trang nếu có 3 nhóm người mua khác nhau** (người trả tiền, người dùng trực tiếp, người cản đường như kế toán hoặc kỹ thuật). Nội dung cốt lõi giống nhau, khối vấn đề và bằng chứng đổi theo nỗi lo của từng người.
 8. **Tách B2C và B2B.** B2C cần tờ một trang dạng ảnh, nhiều hình, ít chữ, có giá hoặc khoảng giá, có bảo hành đổi trả. B2B cần hồ sơ năng lực, bảng so sánh có hạng mục, điều khoản dịch vụ sau bán.
 9. **Sau 2 tuần hỏi nhân viên đã mở tài liệu nào, mấy lần.** Cái không ai mở thì bỏ, không sửa.
@@ -166,11 +173,11 @@ Kèm 2 đoạn bắt buộc: **"Chỗ chúng tôi chưa bằng"** (2 đến 3 đ
 | Bằng chứng | Dùng ở tài liệu nào | Đã có hay cần làm | Cách lấy | Người làm | Hạn |
 |---|---|---|---|---|---|
 
-Ưu tiên: xin phép nêu tên 3 khách tốt nhất, chụp ảnh trước sau, thống kê 2 đến 3 con số nội bộ kiểm chứng được, 2 đến 4 trường hợp điển hình có số.
+Ưu tiên: xin phép nêu tên 3 khách tốt nhất, chụp ảnh trước sau (chỉ khi ranh giới ở mục 0 cho phép, có đồng ý), thống kê 2 đến 3 con số nội bộ kiểm chứng được, 2 đến 4 trường hợp điển hình có số.
 
 ### 4.7 Quy tắc dùng và cập nhật
 
-Ai được sửa, lưu ở đâu, đặt tên phiên bản thế nào, kiểm tra lại giá và thông tin đối thủ mỗi quý, ghi ngày và số phiên bản trên mọi tài liệu, giữ nhất quán màu, phông chữ, logo theo nhận diện. Sau 2 tuần đếm lượt dùng từng tài liệu.
+Ai được sửa, lưu ở đâu, đặt tên phiên bản thế nào, kiểm tra lại giá và thông tin đối thủ mỗi quý, ghi ngày và số phiên bản trên mọi tài liệu, giữ nhất quán màu, phông chữ, logo theo nhận diện. Sau 2 tuần đếm lượt dùng từng tài liệu. Mọi tài liệu phát ra ngoài có người duyệt nội dung trước khi in.
 
 Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý dùng SAL-08 khi cần biến tờ một trang thành đề xuất cho khách cụ thể, SAL-06 để nối bằng chứng vào bảng từ chối.
 
@@ -182,7 +189,7 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý dùn
 - [ ] Nếu người dùng có mẫu sẵn, kết quả bám đúng mẫu đó.
 - [ ] Mỗi tài liệu có một người đọc và một mục đích rõ.
 - [ ] Tờ một trang đủ 5 khối, dưới 250 từ, có tên và số điện thoại người cụ thể, có bản ảnh gửi Zalo.
-- [ ] Mọi lời hứa trong tài liệu có bằng chứng; thành tích kể bằng số; chỗ thiếu dữ liệu đã đánh dấu [cần bổ sung], không bịa, không để trống.
+- [ ] Mọi lời hứa trong tài liệu có bằng chứng; thành tích kể bằng số; chỗ thiếu dữ liệu đã đánh dấu [CẦN ĐIỀN], không bịa, không để trống.
 - [ ] Hồ sơ năng lực mở bằng vấn đề của khách, tối đa 12 trang, có trường hợp điển hình theo mẫu và bản rút gọn 2 đến 4 trang.
 - [ ] Bảng so sánh theo tiêu chí khách quan tâm, có phần chỗ mình chưa bằng và ai nên chọn đối thủ, có nguồn và ngày.
 - [ ] Không dùng "số 1", "tốt nhất", "duy nhất" không căn cứ; không nêu tên khách chưa cho phép.
@@ -190,3 +197,6 @@ Kết thúc bằng **5 việc cần làm trong 7 ngày tới** và gợi ý dùn
 - [ ] B2C và B2B có phiên bản riêng nếu công ty có cả hai; có danh sách bằng chứng cần thu thập với người làm và hạn.
 - [ ] Mọi số tham khảo đã ghi rõ là giả định; tôn trọng điều cấm trong bối cảnh.
 - [ ] Thuật ngữ tiếng Việt kèm tiếng Anh ở lần đầu; kết thúc bằng 5 việc cần làm.
+- [ ] Nội dung về công dụng khớp ranh giới ở mục 0: không từ cấm, đủ câu bắt buộc; lời khách tự nói "khỏi", "hết" chỉ giữ trong trích dẫn, không biến thành công dụng sản phẩm.
+- [ ] Số liệu và nhận định quan trọng đã gắn nhãn `[DATA THẬT]` hoặc `[SUY LUẬN]`; số tham khảo của mẫu không bị trình bày như số liệu thị trường.
+- [ ] Kết quả kết thúc bằng dòng: "Đây là bản nháp. Người duyệt kiểm lại số liệu, tên riêng và từ ngữ trước khi gửi."
