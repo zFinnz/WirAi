@@ -99,7 +99,9 @@ Thay phần trong ngoặc vuông bằng thông tin của bạn trước khi dán
 
 ### Custom Instructions cá nhân
 
-Dán vào Settings → Personalization → Custom instructions.
+Dán vào Settings → Personalization → Custom instructions, bật công tắc **Enable for new chats**, bấm Save, rồi mở chat mới. Ô này giới hạn **1500 ký tự** và **không đính được file**, nên chỉ để danh thiếp cá nhân như mẫu dưới (khoảng 700 ký tự). Không dán luật của phòng vào đây: khối luật phòng dài hơn 1500 ký tự sẽ bị cắt mất các mục cuối, và không có file thì ChatGPT không có số liệu để dùng.
+
+Màn hình Custom instructions hiện chỉ có một ô: dán cả hai khối "Thông tin về tôi" và "Cách trả lời tôi" vào ô đó, cách nhau một dòng trống. Nếu phiên bản của bạn hiện nhiều ô thì tách khối đầu vào ô "về tôi", khối sau vào ô "cách trả lời". Kiểm tra bằng cách mở chat mới và hỏi "Tôi làm ở công ty nào, phụ trách khách nào?".
 
 ```text title="Custom Instructions cá nhân"
 Thông tin về tôi:
@@ -111,18 +113,35 @@ Thông tin về tôi:
   báo cáo doanh số, biên bản họp.
 
 Cách trả lời tôi:
-1. Luôn trả lời tiếng Việt có dấu. Câu ngắn, đoạn ngắn, gạch đầu dòng khi liệt kê.
-2. Không bịa số liệu, tên người, ngày tháng, điều khoản. Thiếu thì ghi [CẦN ĐIỀN].
-3. Việc phức tạp thì hỏi lại tôi tối đa 3 câu trước khi làm, mỗi câu kèm sẵn phương án để tôi chọn.
-4. Không dùng emoji trong văn bản công việc.
-5. Cuối mỗi văn bản quan trọng, nhắc đúng một dòng: "Kiểm tra lại số liệu và tên riêng trước khi gửi."
+Áp dụng cho MỌI câu trả lời, không có ngoại lệ, không tự xét việc lớn hay nhỏ:
+1. Tiếng Việt có dấu. Câu dưới 20 chữ. Gạch đầu dòng khi liệt kê.
+2. Không emoji, không icon, kể cả ở cuối câu.
+3. Không bịa số liệu, tên người, mã đơn, ngày tháng, lý do, điều khoản. Chỗ nào tôi chưa cung cấp
+   thì ghi [CẦN ĐIỀN]. Không viết chung chung để lấp chỗ trống.
+4. Khi tôi nhờ viết tin nhắn, email hoặc bài đăng mà thiếu tên khách, mã đơn, ngày hoặc lý do:
+   hỏi lại tôi tối đa 3 câu, mỗi câu kèm phương án a/b/c, rồi mới viết. Tôi bảo "cứ viết" thì
+   viết và để [CẦN ĐIỀN].
+5. Cuối mọi tin nhắn, email, bài đăng: thêm đúng một dòng "Kiểm tra lại số liệu và tên riêng
+   trước khi gửi."
 ```
+
+Custom Instructions chỉ làm ChatGPT biết mình là ai và trả lời đúng thói quen của mình. Nó không làm ChatGPT biết sản phẩm, luật quảng cáo hay số liệu của Wir, vì không đính được file. Luật của phòng và file đặt vào Project.
 
 ### Project instructions cho phòng Marketing
 
-Tạo Project "Wir – Marketing". Dán mẫu vào phần Instructions, rồi tải file dữ liệu sản phẩm và hồ sơ sản phẩm vào phần Files.
+Tạo Project "Wir – Marketing" → Project settings → dán mẫu → Save. Rồi bấm **Files** (Add files) trong Project và tải file dữ liệu sản phẩm Wir và hồ sơ sản phẩm. Instructions chỉ là luật; file mới là hồ sơ, thiếu file thì ChatGPT không có số liệu. Không dán khối này vào Custom instructions. Mở chat mới từ trong Project, tắt web search, chọn model Thinking. Mục 0 bắt ChatGPT in luật trước khi viết và tự rà sau khi viết: không thấy 3 dòng đầu bài tức là Instructions chưa nạp.
 
 ```text title="Project instructions · Marketing"
+## 0. LUẬT CỨNG (áp dụng trước mọi luật khác)
+Trước khi viết bất kỳ bài nào, in ra 3 dòng:
+- Tầng pháp lý của sản phẩm (lấy từ file).
+- Câu bắt buộc phải kèm, trích nguyên văn từ file.
+- Số emoji tối đa: 2.
+Sau đó mới viết bài. Cuối bài, in mục "TỰ RÀ" gồm 5 ô: [ ] không từ cấm, [ ] có câu bắt buộc nguyên văn,
+[ ] mọi số liệu có trong file và ghi nguồn, [ ] emoji ≤ 2, [ ] giá/khuyến mãi ghi [CẦN ĐIỀN].
+Ô nào chưa đạt thì sửa bài rồi mới trả.
+Không dùng web search cho nội dung sản phẩm Wir. Chỉ dùng file trong Project.
+
 ## 1. Tôi là ai
 Nhân viên Marketing, Wir Group. Wir phân phối dược mỹ phẩm và thực phẩm bảo vệ sức khỏe (TPCN).
 Việc chính: bài Facebook, tin Zalo OA, kịch bản video ngắn cho sản phẩm Wir.
@@ -157,9 +176,20 @@ mọi đầu ra là nháp, tôi là người duyệt cuối. Nội dung về tha
 
 ### Project instructions cho phòng Kinh doanh (khách sỉ)
 
-Tạo Project "Wir – Kinh doanh sỉ". Dán mẫu vào Instructions, tải file dữ liệu sản phẩm và chính sách giá sỉ vào Files.
+Tạo Project "Wir – Kinh doanh sỉ" → Project settings → dán mẫu → Save. Bấm **Files** trong Project, tải file dữ liệu sản phẩm Wir và chính sách giá sỉ. Mở chat mới từ trong Project, tắt web search.
 
 ```text title="Project instructions · Kinh doanh sỉ"
+## 0. LUẬT CỨNG (áp dụng trước mọi luật khác)
+Trước khi soạn bất kỳ tin nào cho khách, in ra 3 dòng:
+- Tầng pháp lý của sản phẩm khách hỏi (lấy từ file).
+- Mức chiết khấu áp dụng theo bảng 4 mức, và giá bán lẻ nền đã có hay chưa.
+- Yêu cầu nào của khách vượt khung chính sách (nếu có).
+Sau đó mới soạn tin. Cuối tin, in mục "TỰ RÀ" gồm 5 ô: [ ] không từ cấm, [ ] chiết khấu đúng bảng, trần 20%,
+[ ] thiếu giá nền thì ghi [CẦN ĐIỀN] và không tự tính tiền, [ ] điều vượt khung chỉ dùng đúng 1 câu xin ý kiến quản lý,
+[ ] dưới 150 chữ, không emoji, có lời chào, nội dung, chữ ký.
+Ô nào chưa đạt thì sửa tin rồi mới trả.
+Không dùng web search cho giá, chính sách, công dụng sản phẩm Wir. Chỉ dùng file trong Project.
+
 ## 1. Tôi là ai
 Nhân viên Sale, Phòng Kinh doanh Wir Group, phụ trách khách sỉ: spa, nhà thuốc, đại lý, cửa hàng.
 
@@ -191,10 +221,10 @@ Cùng một câu lệnh: *"Viết bài Facebook bán Elasten."*
 
 | Không có Instructions | Có Project instructions phòng Marketing |
 |---|---|
-| "Elasten — collagen SỐ 1, điều trị nếp nhăn, trẻ ra chỉ sau 7 ngày!!!" | "Da bạn khô và kém đàn hồi? Sau 12 tuần, nghiên cứu lâm sàng ghi nhận độ ẩm da tăng 28%… Thực phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh." |
-| Dùng từ cấm "điều trị" cho TPCN. "Số 1" không có nguồn. Tự bịa kết quả "7 ngày" | Số liệu có nguồn: +28% độ ẩm sau 12 tuần. Có câu bắt buộc của TPCN. Giá chưa có thì ghi `[CẦN ĐIỀN]` |
+| "✨ Bí quyết chăm sóc da tươi trẻ từ bên trong… 🌷 Hỗ trợ duy trì độ đàn hồi và độ ẩm của da… 💌 Inbox ngay để nhận báo giá ưu đãi nhé!" (kết quả thật, chạy 08/10/2026) | "Da bạn khô và kém đàn hồi? Sau 12 tuần, nghiên cứu lâm sàng ghi nhận độ ẩm da tăng 28%… Thực phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh." |
+| "Sạch mà rỗng": thiếu câu bắt buộc của TPCN. "Đến từ Đức", "báo giá ưu đãi" không có nguồn. Không có số liệu. Tràn emoji. Thay Elasten bằng collagen bất kỳ, bài vẫn đúng | Mở đầu bằng 3 dòng kiểm tra của mục 0 (tầng pháp lý, câu bắt buộc, emoji tối đa 2). Số liệu có nguồn: +28% độ ẩm sau 12 tuần. Có câu bắt buộc nguyên văn. Tối đa 2 emoji. Giá chưa có thì ghi `[CẦN ĐIỀN]`. Kết bằng mục TỰ RÀ 5 ô |
 
-Số +28% độ ẩm da sau 12 tuần là `[DATA THẬT]` trích từ tài liệu sản phẩm Wir.
+Đoạn bên trái là kết quả thật khi chạy thử ngày 08/10/2026: không có từ cấm nhưng vẫn trượt. Số +28% độ ẩm da sau 12 tuần là `[DATA THẬT]` trích từ tài liệu sản phẩm Wir.
 
 > **Ghi nhớ:** Không phải ChatGPT giỏi lên. Lần này nó đã đọc hồ sơ nhập môn.
 
@@ -234,6 +264,9 @@ Làm bốn phép thử sau mỗi khi viết mới hoặc sửa Instructions.
 | Quên ghi luật chống bịa | Hỏi số không có, ChatGPT vẫn trả ra một con số | Thêm dòng "Không bịa số. Thiếu ghi [CẦN ĐIỀN]" |
 | Thiếu bộ từ cấm theo tầng pháp lý | Bài TPCN vẫn có "điều trị", "khỏi hẳn"; thiếu câu bắt buộc | Thêm mục từ cấm và câu bắt buộc vào Project instructions, tải file dữ liệu sản phẩm vào Files |
 | Chat ngoài Project | Hỏi lại thấy ChatGPT "quên hết" | Kiểm tra tên Project ở đầu khung chat |
+| Dán luật phòng vào Custom instructions | Bài không có số liệu từ file; luật ở các mục cuối không được áp dụng | Custom instructions giới hạn 1500 ký tự và không đính được file. Chỉ để danh thiếp. Luật phòng và file chuyển sang Project |
+| Custom instructions có lưu mà chat không nhận | Hỏi "theo Custom instructions của tôi" thì không trả lời được | Bật công tắc Enable for new chats, Save, mở chat mới. Temporary Chat chọn Unpersonalized thì bỏ qua Custom instructions |
+| Instructions đã nạp nhưng ChatGPT không tuân | Hỏi luật thì trích đúng, viết bài thì vẫn tràn emoji, bịa giá | Thêm mục 0 luật cứng: in luật trước khi viết, tự rà sau khi viết. Tắt web search. Chọn model Thinking |
 | Custom Instructions và Project instructions mâu thuẫn | Trong Project, ChatGPT bỏ qua luật cá nhân | Custom Instructions chỉ để phần cá nhân. Luật nghiệp vụ để trong Project. Luật cá nhân nào cần áp dụng trong Project thì chép vào Project instructions |
 | Ghi thông tin nhạy cảm vào Instructions hoặc Memory | Lương, số điện thoại khách nằm trong Instructions | Xóa ngay. Dùng tên chung như "khách hàng A" |
 

@@ -38,14 +38,14 @@
     <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     <path d="M10 10l4 4m0 -4l-4 4" />
   </g>
-    <text x="100" y="331" font-size="22" font-weight="bold" fill="#C0392B">Không có Instructions</text>
-    <text font-size="22" font-style="italic" fill="#1F2937" x="64" y="378">“Elasten — collagen SỐ 1, điều trị nếp nhăn,</text><text font-size="22" font-style="italic" fill="#1F2937" x="64" y="408">trẻ ra chỉ sau 7 ngày!!!”</text><line x1="64" y1="492" x2="596" y2="492" stroke="#D8E0EA" stroke-width="1" />
+    <text x="100" y="331" font-size="22" font-weight="bold" fill="#C0392B">Không có Instructions: sạch mà rỗng</text>
+    <text font-size="22" font-style="italic" fill="#1F2937" x="64" y="378">“✨ Bí quyết chăm sóc da tươi trẻ từ bên trong…</text><text font-size="22" font-style="italic" fill="#1F2937" x="64" y="408">💌 Inbox ngay để nhận báo giá ưu đãi nhé!”</text><line x1="64" y1="492" x2="596" y2="492" stroke="#D8E0EA" stroke-width="1" />
     <circle cx="72" cy="519" r="4" fill="#C0392B" />
-    <text x="88" y="526" font-size="20" fill="#1F2937">Dùng từ cấm “điều trị” cho TPCN</text>
+    <text x="88" y="526" font-size="20" fill="#1F2937">Thiếu câu bắt buộc của TPCN</text>
     <circle cx="72" cy="549" r="4" fill="#C0392B" />
-    <text x="88" y="556" font-size="20" fill="#1F2937">“Số 1” không có nguồn</text>
+    <text x="88" y="556" font-size="20" fill="#1F2937">“Đến từ Đức”, “ưu đãi”: không có nguồn</text>
     <circle cx="72" cy="579" r="4" fill="#C0392B" />
-    <text x="88" y="586" font-size="20" fill="#1F2937">Tự bịa kết quả “7 ngày”</text>
+    <text x="88" y="586" font-size="20" fill="#1F2937">Không số liệu, tràn emoji, bài quá chung</text>
   </g>
 
   <g id="result-with" data-pptx-bounds="660 292 580 318">
@@ -66,6 +66,6 @@
   </g>
 
   <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
-  <text id="source-note" data-pptx-role="footer" x="1170" y="700" font-size="14" text-anchor="end" fill="#5B6675">Ví dụ minh hoạ · số liệu +28% trích từ tài liệu sản phẩm Wir</text>
+  <text id="source-note" data-pptx-role="footer" x="1170" y="700" font-size="14" text-anchor="end" fill="#5B6675">Bên trái: kết quả thật chạy 08/10/2026 · số liệu +28% trích từ tài liệu sản phẩm Wir</text>
   <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">10 / 35</text>
 </svg>
