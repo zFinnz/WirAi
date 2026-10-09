@@ -70,3 +70,14 @@
 2. **Slide 29, nối Gmail**: bấm Connect Gmail trong Plugins với tài khoản cá nhân, chụp màn hình danh sách quyền Google hiện ra, rồi gỡ ngay. Nhìn: quyền có gộp đọc, soạn, gửi không; có cảnh báo "ứng dụng chưa xác minh" không.
 3. **Slide 30**: trong Scheduled, thử tạo một task "Mỗi thứ Hai 7h đọc file don-hang-demo.csv trên Drive và lập bảng doanh thu theo sản phẩm". Nhìn: có tùy chọn kích hoạt theo sự kiện (thư Gmail mới) không; khi task cần ghi file có dừng hỏi không.
 4. **Slide 33**: mở ứng dụng ChatGPT desktop hoặc Work mode, tìm tên thật của ba tính năng Browser extension, Computer use, Dots và nút cho phép.
+
+## Bổ sung 09/10/2026 (chiều): chạy trọn Data demo trên tài khoản trống
+
+Anh/chị đã xóa Project, Custom Instructions, Memory, chat; tôi chạy lại từ Mục 1 đến Mục 9 trên ChatGPT Plus. Kết quả ghi thẳng vào từng mục của `slides/data-demo.md`. Điểm đáng nhớ:
+
+- Custom instructions nay có 4 ô (ChatGPT instructions, Nickname, Occupation, More about you). Luật "hỏi lại 3 câu" làm ChatGPT hỏi trước khi viết ở mọi demo; gõ "Cứ viết." để tiếp.
+- Project settings phải bấm Save; Add sources có Paste text nên không cần file trong tay.
+- Bẫy dán chữ (slide 16) tái hiện được lần 2 với lỗi ở ô khác (Website, Zalo). Tải file thì đúng từng số.
+- Skill đóng gói từ chat thành plugin riêng "tom-tat-tai-lieu" 1.0.0, tự chạy ở phiên mới. Ngoài Project, bẫy chống bịa bị web search chen vào giá thị trường.
+- Ghi file lên Drive hiện hộp "Allow ChatGPT to use Google Drive?" với Always allow / Deny / Allow once. Task theo lịch tạo được, chạy thứ Hai.
+- Plugin Creator phỏng vấn 5 nhóm, tạo "Sale Wir" 0.1.0. Plugin không tự kích hoạt, phải gọi @Sale Wir hoặc Try in chat; khi gọi thì đúng câu hàng rào và "Đây là bản nháp".

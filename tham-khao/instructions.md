@@ -101,7 +101,7 @@ Thay phần trong ngoặc vuông bằng thông tin của bạn trước khi dán
 
 Dán vào Settings → Personalization → Custom instructions, bật công tắc **Enable for new chats**, bấm Save, rồi mở chat mới. Ô này giới hạn **1500 ký tự** và **không đính được file**, nên chỉ để danh thiếp cá nhân như mẫu dưới (khoảng 700 ký tự). Không dán luật của phòng vào đây: khối luật phòng dài hơn 1500 ký tự sẽ bị cắt mất các mục cuối, và không có file thì ChatGPT không có số liệu để dùng.
 
-Màn hình Custom instructions hiện chỉ có một ô: dán cả hai khối "Thông tin về tôi" và "Cách trả lời tôi" vào ô đó, cách nhau một dòng trống. Nếu phiên bản của bạn hiện nhiều ô thì tách khối đầu vào ô "về tôi", khối sau vào ô "cách trả lời". Kiểm tra bằng cách mở chat mới và hỏi "Tôi làm ở công ty nào, phụ trách khách nào?".
+Màn hình Custom instructions (tra ngày 09/10/2026) có 4 ô: ô lớn "ChatGPT instructions" dán khối "Cách trả lời tôi"; "Occupation" ghi chức danh và công ty; "More about you" dán khối "Thông tin về tôi"; "Nickname" để trống. Bấm Save. Nếu phiên bản của bạn chỉ có một ô thì dán cả hai khối vào ô đó, cách nhau một dòng trống. Kiểm tra bằng cách mở chat mới và hỏi "Tôi làm ở công ty nào, phụ trách khách nào?".
 
 ```text title="Custom Instructions cá nhân"
 Thông tin về tôi:
@@ -129,7 +129,7 @@ Custom Instructions chỉ làm ChatGPT biết mình là ai và trả lời đún
 
 ### Project instructions cho phòng Marketing
 
-Thanh bên → Projects → dấu + → đặt tên "Wir – Marketing". Mở Project → ••• → Project settings → dán mẫu vào ô Instructions. Rồi vào tab **Sources** → Add sources, tải file dữ liệu sản phẩm Wir và hồ sơ sản phẩm. Instructions chỉ là luật; file mới là hồ sơ, thiếu file thì ChatGPT không có số liệu. Không dán khối này vào Custom instructions. Mở chat mới từ trong Project, tắt web search, chọn model Thinking. Mục 0 bắt ChatGPT in luật trước khi viết và tự rà sau khi viết: không thấy 3 dòng đầu bài tức là Instructions chưa nạp.
+Thanh bên → Projects → dấu + → đặt tên "Wir – Marketing" → Create project. Mở Project → ••• → Project settings → dán mẫu vào ô Instructions → bấm **Save** (đóng bằng X hay Esc là mất nội dung). Rồi vào tab **Sources** → Add sources (Upload, Library, Paste text, Google Drive), tải file dữ liệu sản phẩm Wir và hồ sơ sản phẩm. Instructions chỉ là luật; file mới là hồ sơ, thiếu file thì ChatGPT không có số liệu. Không dán khối này vào Custom instructions. Mở chat mới từ trong Project, tắt web search, chọn model Thinking. Mục 0 bắt ChatGPT in luật trước khi viết và tự rà sau khi viết: không thấy 3 dòng đầu bài tức là Instructions chưa nạp.
 
 ```text title="Project instructions · Marketing"
 ## 0. LUẬT CỨNG (áp dụng trước mọi luật khác)
