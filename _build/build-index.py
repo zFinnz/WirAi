@@ -9,7 +9,8 @@ Script làm các việc sau rồi ghép vào template.html thành file index.htm
 2. Đọc mọi thư mục nhóm skill, trích mã, tên, "Dùng khi", "Kết quả", "Không dùng khi" và nội dung
    cho trang Skill template.
 3. Đọc thư mục slides/ (mỗi trang slide một file .svg, kèm file .pptx để tải) cho trang Slide.
-   Xóa thư mục slides/ rồi chạy lại script thì tab Slide tự ẩn.
+   Xóa thư mục slides/ rồi chạy lại script thì tab Slide tự ẩn. File slides/data-demo.md (mỗi mục một tiêu đề
+   "## Slide N · Tên") thành mục Data demo dưới danh sách slide: các bước, mẫu prompt, file để tải.
 4. Liệt kê các file Word, Excel trong thư mục du-lieu-demo/ để liên kết dạng [tên](du-lieu-demo/ten-file) trên
    các trang tham khảo thành nút tải file. Giống file .pptx của slide, các file này nằm cạnh index.html, không nhúng vào.
 5. Nhúng logo _build/wir_logo.jpg vào góc trái thanh đầu trang và làm biểu tượng tab. Không có file logo thì
@@ -41,6 +42,8 @@ HUB_FILE = "tong-quan.md"  # nội dung phần dưới của trang Tổng quan
 
 # Bộ slide: các file NN_ten.svg theo thứ tự tên file, và một file .pptx để tải về.
 SLIDE_DIR = ROOT / "slides"
+# Data demo cho các slide cần demo: mỗi mục là một tiêu đề "## Slide N · Tên" trong file này.
+DEMO_MD = SLIDE_DIR / "data-demo.md"
 
 # Dữ liệu demo để tập (Word, Excel). README.md trong thư mục chỉ để đọc trên repo.
 DEMO_DIR = ROOT / "du-lieu-demo"
@@ -221,6 +224,41 @@ def load_slides():
     return slides, pptx.name if pptx else ""
 
 
+DEMO_HEAD_RE = re.compile(r"^## Slide ([\d,\s\-–]+) · (.+)$")
+
+
+def slide_numbers(spec):
+    """'10–11', '23-25', '30, 32' -> [10, 11], [23, 24, 25], [30, 32]."""
+    nums = []
+    for part in re.split(r"[,\s]+", spec.strip()):
+        if not part:
+            continue
+        a, _, b = part.replace("–", "-").partition("-")
+        nums.extend(range(int(a), int(b or a) + 1))
+    return nums
+
+
+def load_demo_steps():
+    """Đọc slides/data-demo.md thành mục Data demo: dòng "# ..." đầu là tên mục, đoạn trước tiêu đề
+    "## Slide N · Tên" đầu tiên là lời dẫn, mỗi tiêu đề "## Slide ..." là một thẻ demo (slide nào, tên, markdown)."""
+    if not DEMO_MD.exists():
+        return {"title": "", "intro": "", "items": []}
+    title, intro, items, cur = "Data demo", [], [], None
+    for l in DEMO_MD.read_text(encoding="utf-8").splitlines():
+        if cur is None and not intro and l.startswith("# "):
+            title = l[2:].strip()
+            continue
+        m = DEMO_HEAD_RE.match(l)
+        if m:
+            cur = {"slides": slide_numbers(m.group(1)), "title": m.group(2).strip(), "md": []}
+            items.append(cur)
+            continue
+        (cur["md"] if cur else intro).append(l)
+    for it in items:
+        it["md"] = "\n".join(it["md"]).strip()
+    return {"title": title, "intro": "\n".join(intro).strip(), "items": items}
+
+
 def load_demo():
     if not DEMO_DIR.is_dir():
         return []
@@ -247,8 +285,9 @@ def main():
     refs = [r for r in (load_ref(k, f) for k, f in REF_PAGES) if r]
     slides, slide_pptx = load_slides()
     demo = load_demo()
+    demo_steps = load_demo_steps()
     data = {"groups": groups, "skills": skills, "guide": guide, "guideChatgpt": guide2,
-            "refs": refs, "hub": load_hub(), "slides": slides, "slidePptx": slide_pptx, "demo": demo,
+            "refs": refs, "hub": load_hub(), "slides": slides, "slidePptx": slide_pptx, "demo": demo, "demoSteps": demo_steps,
             "total": len(skills), "builtAt": __import__("datetime").date.today().isoformat()}
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     html = TEMPLATE.read_text(encoding="utf-8").replace("/*__DATA__*/null", payload)
@@ -261,6 +300,7 @@ def main():
     OUT.write_text(html, encoding="utf-8")
     print(f"Đã tạo {OUT.name}: {len(refs)} trang tham khảo ({', '.join(r['name'] for r in refs)}), "
           f"{len(skills)} skill template, {len(groups)} nhóm, {len(slides)} slide, {len(demo)} file demo, "
+          f"{len(demo_steps['items'])} mục data demo, "
           f"{OUT.stat().st_size // 1024} KB")
 
 
