@@ -1,6 +1,6 @@
 # Data demo
 
-> Hướng dẫn này viết cho **một tài khoản ChatGPT trống** và đã được chạy trọn vẹn trên tài khoản Plus ngày 09/10/2026: mỗi bước dưới đây đều ghi kết quả thật. Làm theo thứ tự từ Mục 0 đến Mục 10, mỗi mục ghi rõ **cần có trước** và **tạo ra gì** để mục sau dùng. Slide có nhãn cam **▶ CÓ HƯỚNG DẪN DEMO** ở góc trên là slide có mục ở đây. Tên menu có thể đổi theo phiên bản.
+> Hướng dẫn này viết cho **một tài khoản ChatGPT trống** và đã được chạy trọn vẹn trên tài khoản Plus ngày 09/10/2026: mỗi bước dưới đây đều ghi kết quả thật. Làm theo thứ tự từ Mục 0 đến Mục 9, mỗi mục ghi rõ **cần có trước** và **tạo ra gì** để mục sau dùng. Slide có nhãn cam **▶ CÓ HƯỚNG DẪN DEMO** ở góc trên là slide có mục ở đây. Tên menu có thể đổi theo phiên bản.
 
 ## Mục 0 · Chuẩn bị tài khoản trống và file
 
@@ -49,7 +49,6 @@
 | 7 | 23, 24, 25 | Skill `tom-tat-tai-lieu` (hiện dưới dạng plugin riêng) | Tab Skills, 2 tài liệu |
 | 8 | 30, 32 | Plugin Gmail, Drive đã nối tài khoản cá nhân; file demo trên Drive; task theo lịch | Google cá nhân |
 | 9 | 31 | Plugin "Sale Wir" | Mục 7 và 8 |
-| 10 | 34, 35 | Tài khoản sạch sau buổi học | Hết buổi |
 
 ## Mục 1 · Chat "trước khi có gì", Custom Instructions và cài bảo mật (slide 5, 9)
 
@@ -325,7 +324,7 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
    ChatGPT trả lời "Đã thiết lập lịch tự động", task hiện trong Scheduled với dòng "Weekly · Next run in N days". Nó chỉ chạy vào thứ Hai, giảng viên kiểm thư nháp sau lần chạy đầu. Demo xong thì xóa task.
 5. Thực hành slide 32, phần 4A: học viên làm lại bước 1 đến 3 trên Gmail và Drive cá nhân của mình. Ai không nối Gmail thì dán 5 thư mẫu bất kỳ vào chat để làm bước 2.
 
-**Đạt khi:** nối đúng tài khoản cá nhân; thư nháp chưa gửi; hộp Allow once xuất hiện trước khi ghi file; file gốc trên Drive còn nguyên; cuối buổi đã gỡ quyền theo Mục 10.
+**Đạt khi:** nối đúng tài khoản cá nhân; thư nháp chưa gửi; hộp Allow once xuất hiện trước khi ghi file; file gốc trên Drive còn nguyên; cuối buổi gỡ quyền Google như slide 29 (myaccount.google.com/linkedapps → Remove access, rồi Settings → Plugins → ngắt kết nối) và xóa task demo trong Scheduled.
 
 ## Mục 9 · Plugin tự tạo bằng Plugin Creator (slide 31)
 
@@ -357,16 +356,3 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
 4. Thực hành slide 32, phần 4B: viết Playbook 7 mục cho plugin (mục đích, ai dùng, quy trình, tiêu chuẩn đầu ra, ranh giới, chỉ số đo, xử lý khi sai) và đưa một đồng nghiệp chạy thử bằng @Sale Wir mà không được hỏi lại.
 
 **Đạt khi (kết quả thật 09/10/2026 với @Sale Wir):** tin có đúng câu "Mức này vượt chính sách sỉ hiện hành, em cần xin ý kiến quản lý trước khi xác nhận với anh", không hứa độc quyền, cuối tin có "Đây là bản nháp", lưu ý nội bộ ghi `[DATA THẬT] Nguồn: Sale Wir, mục Hàng rào giá`; đồng nghiệp chạy được không cần hỏi.
-
-## Mục 10 · Dọn dẹp sau buổi học
-
-**Làm ngay tối hôm đó, giảng viên và mọi học viên**
-
-1. Gỡ quyền Google: myaccount.google.com/linkedapps → chọn ChatGPT → Remove access.
-2. Trong ChatGPT: Settings → Plugins → bấm Gmail, Google Drive → ••• cạnh tài khoản → ngắt kết nối, hoặc Uninstall.
-3. Thanh bên → Scheduled → xóa task demo.
-4. Trên Drive: xóa `don-hang-demo` và `tom-tat-don-hang-thang-7` nếu không dùng nữa.
-5. Giữ lại Project, skill và plugin của phòng để dùng tiếp; plugin thử nghiệm không dùng thì Settings → Plugins → Uninstall.
-6. Lưu kết quả các bài thực hành thành file, vì đầu ra buổi trước là đầu vào buổi sau.
-
-**Đạt khi:** linkedapps không còn ChatGPT; Settings → Plugins không còn tài khoản Google nào đang nối; Scheduled không còn task demo.
