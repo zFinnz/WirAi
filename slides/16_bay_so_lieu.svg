@@ -6,6 +6,11 @@
     <text x="62" y="50" font-size="16" font-weight="bold" letter-spacing="1.5" fill="#1D3557">TẦNG 2 · PROMPT</text>
   </g>
 
+    <g id="demo-flag" data-pptx-role="chrome" data-pptx-bounds="400 30 180 28">
+    <rect x="400" y="32" width="172" height="24" rx="12" fill="#E8833A" />
+    <text x="486" y="49" font-size="12" font-weight="bold" letter-spacing="1" fill="#FFFFFF" text-anchor="middle">▶ CÓ DEMO KÈM FILE</text>
+  </g>
+
   <g id="roadmap-tracker" data-pptx-role="chrome" data-pptx-bounds="600 14 640 62">
     <rect x="608" y="36" width="120" height="8" rx="3" fill="#E3E9F1" />
     <rect x="736" y="32" width="120" height="12" rx="3" fill="#E8833A" />
