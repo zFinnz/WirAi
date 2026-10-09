@@ -34,7 +34,7 @@
 | [Transcript họp Phòng Kinh doanh](du-lieu-demo/transcript-hop-demo.docx) | 6, 7 |
 | [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx) | 6, 7 |
 | [Đáp án](du-lieu-demo/dap-an.docx) | 4, 6, mở sau khi làm |
-| Hồ sơ sản phẩm: `ho-so-elasten.md`, `du-lieu-san-pham-wir.md` | 2, 5, 7, 9. Tài liệu nội bộ, giảng viên phát riêng, không có trong thư mục công khai |
+| [Hồ sơ Elasten](du-lieu-demo/ho-so-elasten.md), [Dữ liệu sản phẩm Wir](du-lieu-demo/du-lieu-san-pham-wir.md) | 2, 5, 7, 9 |
 
 **Thứ tự và phụ thuộc**
 
@@ -74,13 +74,13 @@
 
 ## Mục 2 · Tạo Project Marketing, demo có và không có Instructions (slide 10, 11)
 
-**Cần có:** Mục 1 xong; 2 file hồ sơ sản phẩm do giảng viên phát. **Tạo ra:** Project "Wir – Marketing" dùng cho Mục 5 và Mục 7.
+**Cần có:** Mục 1 xong; [Hồ sơ Elasten](du-lieu-demo/ho-so-elasten.md) và [Dữ liệu sản phẩm Wir](du-lieu-demo/du-lieu-san-pham-wir.md) đã tải về. **Tạo ra:** Project "Wir – Marketing" dùng cho Mục 5 và Mục 7.
 
 **Các bước**
 
 1. Tạo Project: thanh bên → mục **Projects** → dấu **+** → hộp "Create project": gõ tên `Wir – Marketing`, Memory để Default → **Create project**.
 2. Mở Project → nút **•••** góc phải → **Project settings** → dán [mẫu Project instructions cho phòng Marketing](#instructions) vào ô **Instructions** → bấm **Save** ở cuối hộp. Đóng bằng X hay Esc là mất nội dung (đã thử).
-3. Tab **Sources** → **Add sources**. Có 5 cách: Upload (máy tính), Library, **Paste text**, Google Drive, Slack. Có file thì Upload; không có file trong tay thì Paste text: đặt Title là tên file, dán nội dung, Save. Thêm `ho-so-elasten.md` và `du-lieu-san-pham-wir.md`. Instructions chỉ là luật, file mới là hồ sơ; thiếu file thì ChatGPT không có số liệu.
+3. Tab **Sources** → **Add sources**. Có 5 cách: Upload (máy tính), Library, **Paste text**, Google Drive, Slack. Upload hai file `ho-so-elasten.md` và `du-lieu-san-pham-wir.md` vừa tải; máy không cho chọn file .md thì mở file bằng Notepad, copy toàn bộ, chọn Paste text, đặt Title là tên file, dán, Save. Instructions chỉ là luật, file mới là hồ sơ; thiếu file thì ChatGPT không có số liệu.
 4. Gõ vào ô "New chat in Wir – Marketing" đúng câu ở Mục 1 bước 1:
    ```
    Viết bài Facebook bán Elasten.
@@ -243,7 +243,7 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
 
 ## Mục 7 · Năm lượt chat thành một skill (slide 23, 24, 25)
 
-**Cần có:** thanh bên → **Plugins** → tab **Skills** mở được (tài khoản Plus thử ngày 09/10/2026 có sẵn skill `skill-creator`, chính nó sẽ đóng gói giúp); một tài liệu dài để làm tay và một tài liệu khác để thử. Trên lớp dùng `du-lieu-san-pham-wir.md` đã nằm trong Sources của Project và một tài liệu thứ hai bất kỳ. Tự tập ở nhà thì dùng [Transcript họp](du-lieu-demo/transcript-hop-demo.docx) để làm tay và [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx) để thử. **Tạo ra:** skill `tom-tat-tai-lieu`, dùng lại ở Mục 9.
+**Cần có:** thanh bên → **Plugins** → tab **Skills** mở được (tài khoản Plus thử ngày 09/10/2026 có sẵn skill `skill-creator`, chính nó sẽ đóng gói giúp); một tài liệu dài để làm tay và một tài liệu khác để thử. Trên lớp dùng `du-lieu-san-pham-wir.md` đã nằm trong Sources của Project để làm tay, và [Hồ sơ Elasten](du-lieu-demo/ho-so-elasten.md) hoặc một tài liệu bất kỳ để thử. Tự tập ở nhà thì dùng [Transcript họp](du-lieu-demo/transcript-hop-demo.docx) để làm tay và [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx) để thử. **Tạo ra:** skill `tom-tat-tai-lieu`, dùng lại ở Mục 9.
 
 **Các bước**
 
@@ -329,7 +329,7 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
 
 ## Mục 9 · Plugin tự tạo bằng Plugin Creator (slide 31)
 
-**Cần có:** skill `tom-tat-tai-lieu` từ Mục 7, Gmail và Drive từ Mục 8, [Chính sách giá sỉ](du-lieu-demo/chinh-sach-gia-si-demo.docx) và `du-lieu-san-pham-wir.md`. Thanh bên → Plugins → tìm **Plugin Creator** → Install. **Tạo ra:** plugin "Sale Wir".
+**Cần có:** skill `tom-tat-tai-lieu` từ Mục 7, Gmail và Drive từ Mục 8, [Chính sách giá sỉ](du-lieu-demo/chinh-sach-gia-si-demo.docx) và [Dữ liệu sản phẩm Wir](du-lieu-demo/du-lieu-san-pham-wir.md). Thanh bên → Plugins → tìm **Plugin Creator** → Install. **Tạo ra:** plugin "Sale Wir".
 
 **Các bước**
 

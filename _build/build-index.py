@@ -11,7 +11,7 @@ Script làm các việc sau rồi ghép vào template.html thành file index.htm
 3. Đọc thư mục slides/ (mỗi trang slide một file .svg, kèm file .pptx để tải) cho trang Slide.
    Xóa thư mục slides/ rồi chạy lại script thì tab Slide tự ẩn. File slides/data-demo.md (mỗi mục một tiêu đề
    "## Mục N · Tên (slide a, b–c)") thành mục Data demo dưới danh sách slide: các bước, mẫu prompt, file để tải.
-4. Liệt kê các file Word, Excel trong thư mục du-lieu-demo/ để liên kết dạng [tên](du-lieu-demo/ten-file) trên
+4. Liệt kê các file Word, Excel, Markdown (trừ README.md) trong thư mục du-lieu-demo/ để liên kết dạng [tên](du-lieu-demo/ten-file) trên
    các trang tham khảo thành nút tải file. Giống file .pptx của slide, các file này nằm cạnh index.html, không nhúng vào.
 5. Nhúng logo _build/wir_logo.jpg vào góc trái thanh đầu trang và làm biểu tượng tab. Không có file logo thì
    dùng ô chữ "W" như cũ.
@@ -47,7 +47,7 @@ DEMO_MD = SLIDE_DIR / "data-demo.md"
 
 # Dữ liệu demo để tập (Word, Excel). README.md trong thư mục chỉ để đọc trên repo.
 DEMO_DIR = ROOT / "du-lieu-demo"
-DEMO_TYPES = (".docx", ".xlsx", ".pdf", ".pptx")
+DEMO_TYPES = (".docx", ".xlsx", ".pdf", ".pptx", ".md")
 
 # Thứ tự và mô tả nhóm cho người dùng không chuyên.
 GROUPS = [
@@ -262,7 +262,7 @@ def load_demo_steps():
 def load_demo():
     if not DEMO_DIR.is_dir():
         return []
-    return [p.name for p in sorted(DEMO_DIR.iterdir()) if p.suffix in DEMO_TYPES]
+    return [p.name for p in sorted(DEMO_DIR.iterdir()) if p.suffix in DEMO_TYPES and p.name != "README.md"]
 
 
 def main():

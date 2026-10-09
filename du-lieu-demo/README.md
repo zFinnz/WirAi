@@ -13,6 +13,8 @@ File Excel mở bằng Excel hoặc Google Sheets. File Word mở bằng Word ho
 | Chính sách giá sỉ | `chinh-sach-gia-si-demo.docx` (Word) | Bảng chiết khấu sỉ 4 mức, điều chưa có chính sách, câu xin ý kiến quản lý | Prompt: trả lời khách hỏi giá sỉ, chấm điểm lead |
 | Bản ghi họp Phòng Kinh doanh | `transcript-hop-demo.docx` (Word) | Cuộc họp kế hoạch tháng 8, có chỗ chưa rõ ai làm | Prompt: biên bản họp và bảng đầu việc |
 | Đáp án | `dap-an.docx` (Word) | Số đối chiếu và các bẫy cài sẵn trong từng file | Tự chấm sau khi làm |
+| Hồ sơ Elasten | `ho-so-elasten.md` (văn bản) | Tầng pháp lý, công dụng được nói, từ cấm, số liệu lâm sàng 12 tuần, chỗ cố ý để trống | Instructions: file nguồn của Project Marketing. Skill: chạy thử tóm tắt |
+| Dữ liệu sản phẩm Wir | `du-lieu-san-pham-wir.md` (văn bản) | 8 sản phẩm theo 3 tầng pháp lý, bộ từ cấm, số liệu, giám định thai kỳ | Instructions: file nguồn của Project. Skill: làm tay 5 lượt. Plugin: file tham chiếu |
 
 ## Cách dùng
 
@@ -23,6 +25,6 @@ File Excel mở bằng Excel hoặc Google Sheets. File Word mở bằng Word ho
 ## Lưu ý
 
 - Đây là dữ liệu tập. Không trộn dữ liệu khách thật vào khi tập trên ChatGPT.
-- Hồ sơ sản phẩm (Elasten, Lactobact Intima) và file dữ liệu sản phẩm Wir không kèm ở đây vì chứa tài liệu nội bộ. Mẫu Project instructions trên trang Instructions vẫn dùng được: thay tên file bằng tài liệu sản phẩm của phòng bạn.
+- Hai file `.md` là bản rút gọn hồ sơ sản phẩm để tập. Trước khi dùng số liệu ra ngoài phải đối chiếu bản công bố còn hiệu lực. File `.md` mở bằng Notepad, TextEdit hoặc VS Code; tải lên ChatGPT được như file văn bản, hoặc mở ra copy rồi dán vào Sources bằng Paste text.
 - Hai file Excel có thêm trang tính "Đọc trước" ghi chú về dữ liệu. Dữ liệu nằm ở trang tính đầu tiên.
 - Sửa dữ liệu thì mở thẳng file Word, Excel ra sửa. Thêm file mới vào thư mục này rồi chạy `python3 _build/build-index.py` để trang web nhận file.
