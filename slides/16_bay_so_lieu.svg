@@ -19,18 +19,18 @@
     <text x="1120" y="66" font-size="16" fill="#5B6675">Nâng cao</text>
   </g>
 
-  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Với file số liệu, đếm trước, phân tích sau</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">và chỉ tách theo chiều file thực sự có</text><g id="data-rules" data-pptx-bounds="40 226 540 344">
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Với file số liệu, tải file thay vì dán chữ,</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">đếm trước, đối chiếu tổng rồi mới dùng</text><g id="data-rules" data-pptx-bounds="40 226 540 344">
     <text x="40" y="256" font-size="26" font-weight="bold" fill="#4A7FB5">1</text>
-    <text x="76" y="256" font-size="22" font-weight="bold" fill="#1D3557">Đếm trước, phân tích sau</text>
-    <text x="76" y="284" font-size="20" fill="#1F2937">Báo số dòng, các cột rồi mới phân tích</text>
+    <text x="76" y="256" font-size="22" font-weight="bold" fill="#1D3557">Tải file, đừng dán chữ</text>
+    <text x="76" y="284" font-size="20" fill="#1F2937">Có file, ChatGPT chạy code; dán chữ, nó tính nhẩm</text>
     <line x1="40" y1="308" x2="560" y2="308" stroke="#D8E0EA" stroke-width="1" />
     <text x="40" y="348" font-size="26" font-weight="bold" fill="#4A7FB5">2</text>
-    <text x="76" y="348" font-size="22" font-weight="bold" fill="#1D3557">Chỉ theo chiều file có</text>
-    <text x="76" y="376" font-size="20" fill="#1F2937">Không có cột thì cấm tách theo chiều đó</text>
+    <text x="76" y="348" font-size="22" font-weight="bold" fill="#1D3557">Đếm trước, chỉ theo chiều file có</text>
+    <text x="76" y="376" font-size="20" fill="#1F2937">Báo số dòng, các cột; không có cột thì không tách</text>
     <line x1="40" y1="400" x2="560" y2="400" stroke="#D8E0EA" stroke-width="1" />
     <text x="40" y="440" font-size="26" font-weight="bold" fill="#4A7FB5">3</text>
     <text x="76" y="440" font-size="22" font-weight="bold" fill="#1D3557">Đối chiếu tổng</text>
-    <text x="76" y="468" font-size="20" fill="#1F2937">Số tổng phải khớp file gốc trước khi dùng</text>
+    <text x="76" y="468" font-size="20" fill="#1F2937">Tổng và 2–3 số lẻ phải khớp file gốc</text>
     <line x1="40" y1="492" x2="560" y2="492" stroke="#D8E0EA" stroke-width="1" />
     <text x="40" y="532" font-size="26" font-weight="bold" fill="#4A7FB5">4</text>
     <text x="76" y="532" font-size="22" font-weight="bold" fill="#1D3557">Nguyên nhân là suy đoán</text>
@@ -47,7 +47,7 @@
     <path d="M8 15h8" />
     <path d="M11 11v7" />
   </g>
-    <text x="654" y="255" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">BẪY DEMO · FILE ĐƠN HÀNG WIR (6 CỘT)</text>
+    <text x="654" y="255" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">BẪY DEMO · 40 DÒNG ĐƠN HÀNG, HAI CÁCH ĐƯA VÀO</text>
   </g>
 
   <g id="trap-columns" data-pptx-bounds="624 274 592 36">
@@ -66,8 +66,8 @@
   </g>
 
   <g id="trap-stamp" data-pptx-bounds="624 322 360 40">
-    <rect x="624" y="324" width="356" height="36" rx="8" fill="#FFFFFF" stroke="#C0392B" stroke-width="2" stroke-dasharray="6,3" />
-    <text x="640" y="348" font-size="18" font-weight="bold" fill="#C0392B">Không có cột “nhân viên bán hàng”</text>
+    <rect x="624" y="324" width="592" height="36" rx="8" fill="#FFFFFF" stroke="#C0392B" stroke-width="2" stroke-dasharray="6,3" />
+    <text x="640" y="348" font-size="18" font-weight="bold" fill="#C0392B">Dán 40 dòng dạng chữ → ChatGPT tính nhẩm</text>
   </g>
 
   <g id="trap-prompt" data-pptx-bounds="624 378 592 74">
@@ -78,7 +78,7 @@
     <path d="M8 13h6" />
     <path d="M9 18h-3a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-3l-3 3l-3 -3" />
   </g>
-    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="678" y="408">Phân tích doanh số theo từng</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="678" y="434">nhân viên bán hàng.</text></g>
+    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="678" y="408">Vì sao Shopee nhiều đơn nhất</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="678" y="434">mà doanh thu thấp?</text></g>
 
   <g id="trap-result" data-pptx-bounds="624 466 592 66">
     
@@ -87,8 +87,8 @@
     <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
     <path d="M12 16h.01" />
   </g>
-    <text x="660" y="490" font-size="20" fill="#1F2937">ChatGPT vẫn lập bảng theo từng nhân viên</text>
-    <text x="660" y="524" font-size="24" font-weight="bold" fill="#C0392B">→ Bịa 100%</text>
+    <text x="660" y="490" font-size="20" fill="#1F2937">Trả lời chắc nịch: Đại lý sỉ 6 đơn, 96,71 tr</text>
+    <text x="660" y="524" font-size="24" font-weight="bold" fill="#C0392B">→ Sai: thật là 7 đơn, 106,71 tr</text>
   </g>
 
   <g id="trap-answer" data-pptx-bounds="624 548 592 66">
@@ -98,9 +98,9 @@
     <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     <path d="M9 12l2 2l4 -4" />
   </g>
-    <text font-size="18" fill="#1F2937" x="660" y="584"><tspan><tspan font-weight="bold" fill="#1D3557">Đáp án đối chiếu:</tspan> 40 dòng · tổng 147.300.000 đ</tspan></text><text font-size="18" fill="#1F2937" x="660" y="608">· riêng Elasten 85.700.000 đ</text></g>
+    <text font-size="18" fill="#1F2937" x="660" y="584"><tspan><tspan font-weight="bold" fill="#1D3557">Tải file thì đúng:</tspan> 40 dòng · tổng 147.300.000 đ</tspan></text><text font-size="18" fill="#1F2937" x="660" y="608">· Đại lý sỉ 7 đơn, 106.710.000 đ</text></g>
 
   <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
-  <text id="source-note" data-pptx-role="footer" x="1170" y="700" font-size="14" text-anchor="end" fill="#5B6675">Dữ liệu demo Wir (file đơn hàng) · số liệu minh hoạ</text>
+  <text id="source-note" data-pptx-role="footer" x="1170" y="700" font-size="14" text-anchor="end" fill="#5B6675">Dữ liệu demo Wir · kết quả thật chạy 09/10/2026</text>
   <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">16 / 35</text>
 </svg>

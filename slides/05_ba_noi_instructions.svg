@@ -71,10 +71,10 @@
     <rect x="880" y="302" width="276" height="32" rx="16" fill="#F3F6FA" />
     <text x="892" y="324" font-size="18" fill="#1F2937">Áp dụng: tự ghi qua các chat</text>
     <text x="880" y="372" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">VÍ NHƯ</text>
-    <text x="880" y="400" font-size="22" fill="#1F2937">Sổ giao ca</text>
+    <text x="880" y="400" font-size="22" fill="#1F2937">Sổ giao ca + tủ hồ sơ</text>
     <text x="880" y="442" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">ĐẶT GÌ VÀO</text>
-    <text font-size="22" fill="#1F2937" x="880" y="470">Thói quen nhỏ, như “thích</text><text font-size="22" fill="#1F2937" x="880" y="498">báo cáo dạng bảng”</text><line x1="880" y1="522" x2="1216" y2="522" stroke="#D8E0EA" stroke-width="1" />
-    <text font-size="16" fill="#5B6675" x="880" y="550">Settings → Personalization →</text><text font-size="16" fill="#5B6675" x="880" y="572">Memory</text></g>
+    <text font-size="22" fill="#1F2937" x="880" y="470">Thói quen nhỏ, như “thích bảng”;</text><text font-size="22" fill="#1F2937" x="880" y="498">file đã tải lên nằm ở Library</text><line x1="880" y1="522" x2="1216" y2="522" stroke="#D8E0EA" stroke-width="1" />
+    <text font-size="16" fill="#5B6675" x="880" y="550">Settings → Personalization →</text><text font-size="16" fill="#5B6675" x="880" y="572">Memory · Thanh bên → Library</text></g>
 
   <g id="override-callout" data-pptx-bounds="40 606 1215 58">
     <rect x="40" y="606" width="1200" height="58" rx="14" fill="#FCEBDD" />

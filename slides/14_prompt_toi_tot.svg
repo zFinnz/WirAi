@@ -29,28 +29,28 @@
     <text x="100" y="260" font-size="18" font-weight="bold" letter-spacing="1" fill="#C0392B">PROMPT TỒI</text>
     <rect x="64" y="282" width="440" height="64" rx="10" fill="#F3F6FA" />
     <text x="84" y="322" font-size="22" font-family="Consolas, 'Courier New', monospace" fill="#1D3557">Trả lời spa hỏi giá sỉ Elasten.</text>
-    <text x="64" y="392" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">KẾT QUẢ</text>
+    <text x="64" y="392" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">KẾT QUẢ THẬT · 09/10/2026</text>
     
   <g transform="translate(64, 414) scale(0.916667)" fill="none" stroke="#C0392B" stroke-width="2">
     <path d="M12 9v4" />
     <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
     <path d="M12 16h.01" />
   </g>
-    <text x="98" y="432" font-size="20" fill="#1F2937">Tự bịa giá</text>
+    <text x="98" y="432" font-size="20" fill="#1F2937">Hỏi lại số lượng, mất thêm 1 lượt</text>
     
   <g transform="translate(64, 454) scale(0.916667)" fill="none" stroke="#C0392B" stroke-width="2">
     <path d="M12 9v4" />
     <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
     <path d="M12 16h.01" />
   </g>
-    <text x="98" y="472" font-size="20" fill="#1F2937">Hứa chiết khấu vượt bảng</text>
+    <text x="98" y="472" font-size="20" fill="#1F2937">Thêm “collagen Đức”, emoji ❤️🌷</text>
     
   <g transform="translate(64, 494) scale(0.916667)" fill="none" stroke="#C0392B" stroke-width="2">
     <path d="M12 9v4" />
     <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
     <path d="M12 16h.01" />
   </g>
-    <text x="98" y="512" font-size="20" fill="#1F2937">Nói “tốt cho bà bầu”</text>
+    <text x="98" y="512" font-size="20" fill="#1F2937">Bỏ qua bảng giá sỉ và câu bà bầu</text>
   </g>
 
   <g id="prompt-good" data-pptx-bounds="552 222 688 374">

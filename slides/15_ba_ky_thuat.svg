@@ -19,7 +19,7 @@
     <text x="1120" y="66" font-size="16" fill="#5B6675">Nâng cao</text>
   </g>
 
-  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Ba kỹ thuật nâng chất lượng:</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">đưa mẫu, cho AI hỏi lại, chia nhỏ việc</text><g id="technique-example" data-pptx-bounds="40 222 384 360">
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Ba kỹ thuật nâng chất lượng:</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">đưa mẫu, chốt số câu hỏi lại, chia nhỏ việc</text><g id="technique-example" data-pptx-bounds="40 222 384 360">
     <rect x="40" y="222" width="384" height="360" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
     <circle cx="90" cy="270" r="22" fill="#4A7FB5" />
     <text x="90" y="278" font-size="22" font-weight="bold" text-anchor="middle" fill="#FFFFFF">1</text>
@@ -31,11 +31,11 @@
     <rect x="448" y="234" width="384" height="360" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
     <circle cx="498" cy="282" r="22" fill="#4A7FB5" />
     <text x="498" y="290" font-size="22" font-weight="bold" text-anchor="middle" fill="#FFFFFF">2</text>
-    <text x="534" y="291" font-size="26" font-weight="bold" fill="#1D3557">Cho AI hỏi lại</text>
-    <text x="476" y="340" font-size="22" font-weight="bold" fill="#1D3557">AI hỏi thay vì tự bịa.</text>
+    <text x="534" y="291" font-size="26" font-weight="bold" fill="#1D3557">Chốt số câu hỏi lại</text>
+    <text x="476" y="340" font-size="22" font-weight="bold" fill="#1D3557">ChatGPT tự hỏi khi thiếu.</text>
     <text x="476" y="404" font-size="20" fill="#1F2937">Thêm một câu vào cuối prompt:</text>
     <rect x="476" y="430" width="328" height="88" rx="10" fill="#F3F6FA" />
-    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="492" y="460">Nếu thiếu thông tin,</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="492" y="486">hỏi lại tôi tối đa 3 câu</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="492" y="512">trước khi làm.</text></g>
+    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="492" y="460">Nếu thiếu thông tin,</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="492" y="486">hỏi tôi tối đa 3 câu,</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="492" y="512">rồi mới làm.</text></g>
 
   <g id="technique-split" data-pptx-bounds="856 246 384 360">
     <rect x="856" y="246" width="384" height="360" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />

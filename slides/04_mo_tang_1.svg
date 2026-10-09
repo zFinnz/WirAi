@@ -39,14 +39,14 @@
     <path d="M3 13a20 20 0 0 0 18 0" />
   </g>
     <text x="576" y="284" font-size="22" fill="#1D3557">Ngày đầu đi làm — phát hồ sơ nhập môn và nội quy</text>
-    <text x="520" y="344" font-size="22" font-style="italic" fill="#5B6675">Mỗi chat mới, ChatGPT lại quên bạn là ai, làm ở đâu, bán gì.</text>
+    <text x="520" y="344" font-size="22" font-style="italic" fill="#5B6675">Chưa khai báo, ChatGPT không biết bạn là ai, làm ở đâu, bán gì.</text>
   </g>
 
   <g id="tier-objectives" data-pptx-bounds="520 386 720 248">
     <text x="520" y="404" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">HỌC XONG TẦNG NÀY, BẠN SẼ:</text>
     <circle cx="536" cy="439" r="15" fill="#6593C4" />
     <text x="536" y="446" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">1</text>
-    <text font-size="22" fill="#1F2937" x="566" y="446">Phân biệt Custom Instructions, Project và Memory;</text><text font-size="22" fill="#1F2937" x="566" y="474">biết thông tin nào đặt ở đâu</text><circle cx="536" cy="519" r="15" fill="#6593C4" />
+    <text font-size="22" fill="#1F2937" x="566" y="446">Phân biệt Custom Instructions, Project, Memory, Library;</text><text font-size="22" fill="#1F2937" x="566" y="474">biết thông tin nào đặt ở đâu</text><circle cx="536" cy="519" r="15" fill="#6593C4" />
     <text x="536" y="526" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">2</text>
     <text x="566" y="526" font-size="22" fill="#1F2937">Viết được Instructions cho phòng ban của mình</text>
     <circle cx="536" cy="567" r="15" fill="#6593C4" />

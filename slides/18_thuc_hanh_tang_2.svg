@@ -84,14 +84,14 @@
     <path d="M12 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
   </g>
     <text x="814" y="259" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">CÂU HỎI CHỐT</text>
-    <text font-size="20" font-weight="bold" fill="#1D3557" x="778" y="300">File không có cột nhân viên bán hàng,</text><text font-size="20" font-weight="bold" fill="#1D3557" x="778" y="326">sếp muốn xem doanh số theo nhân viên?</text><line x1="778" y1="406" x2="1216" y2="406" stroke="#D8E0EA" stroke-width="1" />
+    <text font-size="20" font-weight="bold" fill="#1D3557" x="778" y="300">Dán 40 dòng vào chat hay tải file lên?</text><text font-size="20" font-weight="bold" fill="#1D3557" x="778" y="326">Vì sao?</text><line x1="778" y1="406" x2="1216" y2="406" stroke="#D8E0EA" stroke-width="1" />
     <text x="778" y="438" font-size="20" font-weight="bold" fill="#1D3557">Một đề xuất cần đủ 4 thứ gì?</text>
     <line x1="778" y1="518" x2="1216" y2="518" stroke="#D8E0EA" stroke-width="1" />
     <text x="778" y="550" font-size="20" font-weight="bold" fill="#1D3557">Khi nào chuyển từ prompt sang Skill?</text>
   </g>
 
   <g id="answer-1" data-pptx-bounds="778 336 438 56">
-    <text font-size="20" fill="#1F2937" x="778" y="356"><tspan><tspan font-weight="bold" fill="#2E8B57">→</tspan> Nói rõ file không có; đề xuất lấy</tspan></text><text font-size="20" fill="#1F2937" x="778" y="382">thêm nguồn, không ép AI</text></g>
+    <text font-size="20" fill="#1F2937" x="778" y="356"><tspan><tspan font-weight="bold" fill="#2E8B57">→</tspan> Tải file: ChatGPT chạy code; dán chữ</tspan></text><text font-size="20" fill="#1F2937" x="778" y="382">nó tính nhẩm, dễ sai mà nói chắc</text></g>
   <g id="answer-2" data-pptx-bounds="778 448 438 56">
     <text font-size="20" fill="#1F2937" x="778" y="468"><tspan><tspan font-weight="bold" fill="#2E8B57">→</tspan> Việc, người chịu trách nhiệm, hạn,</tspan></text><text font-size="20" fill="#1F2937" x="778" y="494">nguồn lực/chi phí</text></g>
   <g id="answer-3" data-pptx-bounds="778 560 438 56">
