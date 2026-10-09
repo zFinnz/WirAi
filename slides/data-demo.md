@@ -1,6 +1,6 @@
 # Data demo
 
-> Hướng dẫn này viết cho **một tài khoản ChatGPT trống** và đã được chạy trọn vẹn trên tài khoản Plus ngày 09/10/2026: mỗi bước dưới đây đều ghi kết quả thật. Làm theo thứ tự từ Mục 0 đến Mục 9, mỗi mục ghi rõ **cần có trước** và **tạo ra gì** để mục sau dùng. Slide có nhãn cam **▶ CÓ HƯỚNG DẪN DEMO** ở góc trên là slide có mục ở đây. Tên menu có thể đổi theo phiên bản.
+> Hướng dẫn này viết cho **một tài khoản ChatGPT trống** và đã được chạy trọn vẹn trên tài khoản Plus ngày 09/10/2026: mỗi bước dưới đây đều ghi kết quả thật. Làm theo thứ tự từ Mục 0 đến Mục 9, mỗi mục ghi rõ **cần có trước** và **tạo ra gì** để mục sau dùng. Slide có nhãn cam **▶ HƯỚNG DẪN DEMO · MỤC N** ở góc trên thì mở đúng Mục N ở đây. Tên menu có thể đổi theo phiên bản.
 
 ## Mục 0 · Chuẩn bị tài khoản trống và file
 

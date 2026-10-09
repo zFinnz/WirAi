@@ -1056,7 +1056,7 @@ body, .md, .md.ref, .lead, .hero p, .def dd, .idx-what, .group-desc, .row .t,
     $('demos').innerHTML = DEMOS.map((d, i) => `<article class="demo-card" id="demo-${i}">
       <div class="demo-head">${d.num ? `<span class="pill muc">Mục ${esc(d.num)}</span>` : ''}<h3>${esc(d.title)}</h3><span class="pills">${d.slides.map(n => `<a class="pill" href="#slide/${n}">Slide ${String(n).padStart(2, '0')}</a>`).join('')}</span></div>
       <div class="md">${md(d.md, 'dm' + i)}</div></article>`).join('');
-    $('thumbs').querySelectorAll('.thumb').forEach((a, i) => { if (demoOf(i + 1) >= 0) a.insertAdjacentHTML('beforeend', '<span class="demo-tag">Demo</span>'); });
+    $('thumbs').querySelectorAll('.thumb').forEach((a, i) => { const d = demoOf(i + 1); if (d >= 0) a.insertAdjacentHTML('beforeend', `<span class="demo-tag">Demo · Mục ${esc(DEMOS[d].num || d)}</span>`); });
   }
   $('sDemo').addEventListener('click', e => { e.preventDefault(); const i = demoOf(slideNo); if (i >= 0) $('demo-' + i).scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   // replace = true khi bấm trước/sau: đổi địa chỉ tại chỗ để nút Back của trình duyệt không phải lùi qua từng slide.
@@ -1066,7 +1066,7 @@ body, .md, .md.ref, .lead, .hero p, .def dd, .idx-what, .group-desc, .row .t,
     $('sImg').src = slideUrls[no - 1]; $('sImg').alt = `Slide ${no}: ${slides[no - 1].title}`;
     $('sCount').textContent = `${no} / ${slides.length}`;
     $('sPrev').disabled = no === 1; $('sNext').disabled = no === slides.length;
-    $('sDemo').hidden = demoOf(no) < 0;
+    { const d = demoOf(no); $('sDemo').hidden = d < 0; if (d >= 0) $('sDemo').textContent = `Hướng dẫn demo · Mục ${DEMOS[d].num || d} ↓`; }
     $('thumbs').querySelectorAll('.thumb').forEach((a, i) => { if (i === no - 1) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
     document.title = `Slide ${no}/${slides.length} · Wir AI`;
     if (replace) { history.replaceState(null, '', '#slide/' + no); lastBase = '#slide/' + no; }
