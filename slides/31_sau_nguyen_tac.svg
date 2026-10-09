@@ -19,7 +19,7 @@
     <text x="1120" y="66" font-size="16" fill="#1F2937">Nâng cao</text>
   </g>
 
-  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Sáu nguyên tắc đi cùng mọi buổi,</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">dù dùng công cụ nào</text><g id="principle-1" data-pptx-bounds="40 226 580 124">
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Sáu nguyên tắc đi cùng cả bốn tầng,</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">dù dùng công cụ nào</text><g id="principle-1" data-pptx-bounds="40 226 580 124">
     <circle cx="70" cy="256" r="26" fill="#E8833A" />
     <text x="70" y="265" font-size="26" font-weight="bold" text-anchor="middle" fill="#1F2937">1</text>
     <text x="116" y="266" font-size="26" font-weight="bold" fill="#1D3557">Chống bịa</text>
@@ -57,7 +57,7 @@
     <circle cx="690" cy="528" r="26" fill="#E8833A" />
     <text x="690" y="537" font-size="26" font-weight="bold" text-anchor="middle" fill="#1F2937">6</text>
     <text x="736" y="538" font-size="26" font-weight="bold" fill="#1D3557">Lưu kết quả thành file</text>
-    <text font-size="20" fill="#1F2937" x="736" y="570">Đầu ra buổi trước là đầu vào</text><text font-size="20" fill="#1F2937" x="736" y="596">buổi sau</text></g>
+    <text font-size="20" fill="#1F2937" x="736" y="570">Đầu ra tầng trước là đầu vào</text><text font-size="20" fill="#1F2937" x="736" y="596">tầng sau</text></g>
 
   <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
   <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">31 / 32</text>

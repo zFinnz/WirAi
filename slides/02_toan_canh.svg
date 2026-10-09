@@ -19,7 +19,7 @@
     <text x="1120" y="66" font-size="16" fill="#5B6675">Nâng cao</text>
   </g>
 
-  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">4 tầng, 4 buổi: mỗi tầng thêm cho ChatGPT</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">một năng lực mới</text><g id="stair-tier-1" data-pptx-bounds="40 330 290 226">
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">4 tầng, một buổi: mỗi tầng thêm cho ChatGPT</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">một năng lực mới</text><g id="stair-tier-1" data-pptx-bounds="40 330 290 226">
     <rect x="40" y="338" width="282" height="44" rx="12" fill="#6593C4" />
     <text x="60" y="368" font-size="24" font-weight="bold" fill="#FFFFFF">1  Instructions</text>
     <text font-size="22" fill="#1F2937" x="40" y="420">ChatGPT biết “mình là ai”</text><text font-size="22" fill="#1F2937" x="40" y="450">và luật chung, không phải</text><text font-size="22" fill="#1F2937" x="40" y="480">dặn lại</text><text font-size="18" fill="#5B6675" x="40" y="522">Custom Instructions ·</text><text font-size="18" fill="#5B6675" x="40" y="546">Project · Memory</text></g>
