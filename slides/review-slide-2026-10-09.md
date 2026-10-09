@@ -6,7 +6,7 @@
 
 | Nhóm | Slide | Kết luận |
 |---|---|---|
-| Đã lỗi thời, đã sửa | 4, 12, 14, 15, 16, 17, 18, 28 | Bẫy "ChatGPT bịa" không còn xảy ra; mức quyền plugin chỉ có 3 |
+| Đã lỗi thời, đã sửa | 4, 12, 14, 15, 16, 17, 18, 28 | Bẫy "ChatGPT bịa" không còn xảy ra; tên mức quyền plugin đổi |
 | Thiếu một nơi lưu, đã bổ sung | 5 | Thêm Library (kho file dùng chung mọi chat) |
 | Đúng, có bằng chứng, giữ nguyên | 2, 9, 10, 11, 20, 21, 22, 31 | Tên menu, demo Project, cơ chế Skill, Plugin Creator đều khớp |
 | Khái niệm, không phụ thuộc phiên bản | 1, 3, 6, 7, 8, 13, 19, 26, 27, 34, 35 | Giữ nguyên |
@@ -30,7 +30,7 @@
 4. **Chat "Xác định công ty khách hàng sản phẩm"**: chat mới ngoài Project, hỏi "Tôi làm ở công ty nào, phụ trách khách nào, bán sản phẩm gì?". ChatGPT trả lời đúng Wir Group, khách đại lý miền Bắc, 8 nhãn hàng, trích nguồn file ho-so-sale.md trong Library. Câu "Mỗi chat mới, ChatGPT lại quên bạn là ai" ở slide 4 sai với tài khoản đã khai báo.
 5. **Chat "Viết bài Facebook Elasten"** trong Project Marketing: bài có câu bắt buộc, số liệu +28% có nguồn, giá [CẦN ĐIỀN], ChatGPT tự gắn nhãn [DATA THẬT]/[SUY LUẬN], tự thêm mục "Tự rà", và có chip nguồn bấm được tới file. Hỏi "Chỗ nào bạn tự suy đoán mà tài liệu không nói?": nó liệt kê 4 chỗ, phân loại, chỉ tới "ho-so-elasten.md, mục 6, dòng 46–50". Slide 10, 11 đúng; slide 17 cách 1 và cách 4 cập nhật.
 6. **Chat "Tìm hiểu Skills ChatGPT"**: ChatGPT (có skill-creator cài sẵn) xác nhận chọn skill theo name và description, chỉ tải SKILL.md khi khớp (progressive disclosure), gọi được bằng @, tạo skill từ chat đang làm dở bằng cách yêu cầu đóng gói, hoặc Plugins → Skills → Create. Slide 20, 21, 22 đúng.
-7. **Giao diện**: thanh bên có Scheduled, Library, Plugins; đầu trang có Chat / Work; Settings → Personalization có Custom instructions, Memory, Library search, Connector search; Settings → Data controls có "Improve the model for everyone"; Plugins → Skills có tab riêng; Plugin Creator đã cài; Settings → Plugins → Default permission chỉ có 3 mức: Always ask, Allow read-only tools, Allow low-risk tools (mặc định). Không có "Allow all".
+7. **Giao diện**: thanh bên có Scheduled, Library, Plugins; đầu trang có Chat / Work; Settings → Personalization có Custom instructions, Memory, Library search, Connector search; Settings → Data controls có "Improve the model for everyone"; Plugins → Skills có tab riêng; Plugin Creator đã cài; Settings → Plugins → bấm từng plugin → Permission có 4 mức: Always ask, Allow read-only tools, Allow low-risk tools (mặc định), Allow all tools (gắn nhãn Elevated risk). Ô Default permission chung chỉ có 3 mức đầu.
 8. **Tài liệu OpenAI** (help.openai.com, bài Projects in ChatGPT): project instructions ghi đè custom instructions. Slide 5 đúng.
 
 ## Từng slide
@@ -56,7 +56,7 @@
 | 19–22 | Cơ chế Skill khớp lời ChatGPT và tab Skills | Không |
 | 23, 24, 25 | Chưa tự kiểm bước "đóng gói thành skill" và "tự kích hoạt ở phiên mới" | Không |
 | 26, 27 | Khớp danh mục Plugins | Không |
-| 28 | Bốn mức quyền sai, thực tế ba mức và mặc định là low-risk | Sửa tên ba mức, hộp 4 thành "Lưu ý khi cài"; ghi chú nhắc đổi Gmail về Always ask |
+| 28 | Bốn mức đúng, tên chính xác là Always ask / Allow read-only tools / Allow low-risk tools / Allow all tools; mặc định là low-risk | Sửa tên mức, đường dẫn Permission của từng plugin; ghi chú nhắc đổi Gmail về Always ask |
 | 29 | Chưa kiểm màn hình OAuth Gmail (tôi không được phép cấp quyền) | Không |
 | 30 | Trang Scheduled có; task theo sự kiện và "tạm dừng chờ duyệt" chưa kiểm | Không |
 | 31 | Plugin Creator có trong danh mục và đã cài | Không |

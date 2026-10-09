@@ -55,7 +55,7 @@
   </g>
 
   <g id="app-permissions" data-pptx-bounds="40 442 1200 152">
-    <text x="40" y="462" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">MỨC QUYỀN CHO MỖI PLUGIN · SETTINGS → PLUGINS → DEFAULT PERMISSION</text>
+    <text x="40" y="462" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">MỨC QUYỀN CHO MỖI PLUGIN · SETTINGS → PLUGINS → TÊN PLUGIN → PERMISSION</text>
     <rect x="40" y="476" width="292" height="116" rx="14" fill="#FCEBDD" stroke="#E8833A" stroke-width="3" />
     <text x="60" y="508" font-size="20" font-weight="bold" fill="#1D3557">Always ask</text>
     <text font-size="18" fill="#1F2937" x="60" y="536">Hỏi trước mọi hành động</text><text font-size="18" fill="#1D3557" x="60" y="560" font-weight="bold">Mặc định cho Gmail khi học</text><rect x="342" y="476" width="292" height="116" rx="14" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
@@ -64,8 +64,8 @@
     <rect x="644" y="476" width="292" height="116" rx="14" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
     <text x="664" y="508" font-size="20" font-weight="bold" fill="#1D3557">Allow low-risk tools</text>
     <text font-size="18" fill="#1F2937" x="664" y="536">Mặc định hiện nay. Tự làm việc</text><text font-size="18" fill="#1F2937" x="664" y="560">rủi ro thấp, rủi ro cao thì hỏi</text><rect x="946" y="476" width="294" height="116" rx="14" fill="#FFFFFF" stroke="#C0392B" stroke-width="1.5" />
-    <text x="966" y="508" font-size="20" font-weight="bold" fill="#C0392B">Lưu ý khi cài</text>
-    <text font-size="18" fill="#1F2937" x="966" y="536">Chỉ có 3 mức, không có</text><text font-size="18" fill="#1F2937" x="966" y="560">“Allow all”. Mặc định là</text><text font-size="18" fill="#1F2937" x="966" y="584">low-risk → tự đổi Gmail</text></g>
+    <text x="966" y="508" font-size="20" font-weight="bold" fill="#C0392B" text-decoration="line-through">Allow all tools</text>
+    <text font-size="18" fill="#1F2937" x="966" y="536">Làm hết, không hỏi; ChatGPT</text><text font-size="18" fill="#1F2937" x="966" y="560">gắn nhãn rủi ro cao. Không dùng</text><text font-size="18" fill="#1F2937" x="966" y="584">cho Gmail, kênh gửi ra ngoài</text></g>
 
   <g id="never-always-allow" data-pptx-bounds="40 604 1200 50">
     
