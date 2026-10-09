@@ -74,7 +74,7 @@
 
 1. Tạo Project: thanh bên → mục **Projects** → dấu **+** → hộp "Create project": gõ tên `Wir – Marketing`, Memory để Default → **Create project**.
 2. Mở Project → nút **•••** góc phải → **Project settings** → dán [mẫu Project instructions cho phòng Marketing](#instructions) vào ô **Instructions** → bấm **Save** ở cuối hộp. Đóng bằng X hay Esc là mất nội dung (đã thử).
-3. Tab **Sources** → **Add sources**. Có 5 cách: Upload (máy tính), Library, **Paste text**, Google Drive, Slack. Upload hai file `ho-so-elasten.md` và `du-lieu-san-pham-wir.md` vừa tải; máy không cho chọn file .md thì mở file bằng Notepad, copy toàn bộ, chọn Paste text, đặt Title là tên file, dán, Save. Instructions chỉ là luật, file mới là hồ sơ; thiếu file thì ChatGPT không có số liệu.
+3. Tab **Sources** → **Add sources**. Có 5 cách: Upload (máy tính), Library, **Paste text**, Google Drive, Slack. Upload hai file [ho-so-elasten.md](du-lieu-demo/ho-so-elasten.md) và [du-lieu-san-pham-wir.md](du-lieu-demo/du-lieu-san-pham-wir.md) vừa tải; máy không cho chọn file .md thì mở file bằng Notepad, copy toàn bộ, chọn Paste text, đặt Title là tên file, dán, Save. Instructions chỉ là luật, file mới là hồ sơ; thiếu file thì ChatGPT không có số liệu.
 4. Gõ vào ô "New chat in Wir – Marketing" đúng câu ở Mục 1 bước 1:
    ```
    Viết bài Facebook bán Elasten.
@@ -131,7 +131,7 @@
 
 ## Mục 4 · Năm lượt chat thành một skill (slide 22)
 
-**Cần có:** thanh bên → **Plugins** → tab **Skills** mở được (tài khoản Plus thử ngày 09/10/2026 có sẵn skill `skill-creator`, chính nó sẽ đóng gói giúp); một tài liệu dài để làm tay và một tài liệu khác để thử. Trên lớp dùng `du-lieu-san-pham-wir.md` đã nằm trong Sources của Project để làm tay, và [Hồ sơ Elasten](du-lieu-demo/ho-so-elasten.md) hoặc một tài liệu bất kỳ để thử. Tự tập ở nhà thì dùng [Transcript họp](du-lieu-demo/transcript-hop-demo.docx) để làm tay và [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx) để thử. **Tạo ra:** skill `tom-tat-tai-lieu`, dùng lại ở Mục 6.
+**Cần có:** thanh bên → **Plugins** → tab **Skills** mở được (tài khoản Plus thử ngày 09/10/2026 có sẵn skill `skill-creator`, chính nó sẽ đóng gói giúp); một tài liệu dài để làm tay và một tài liệu khác để thử. Trên lớp dùng [Dữ liệu sản phẩm Wir](du-lieu-demo/du-lieu-san-pham-wir.md) (file `du-lieu-san-pham-wir.md` đã nằm trong Sources của Project) để làm tay, và [Hồ sơ Elasten](du-lieu-demo/ho-so-elasten.md) hoặc một tài liệu bất kỳ để thử. Tự tập ở nhà thì dùng [Transcript họp](du-lieu-demo/transcript-hop-demo.docx) để làm tay và [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx) để thử. **Tạo ra:** skill `tom-tat-tai-lieu`, dùng lại ở Mục 6.
 
 **Các bước**
 
