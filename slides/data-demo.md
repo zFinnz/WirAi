@@ -47,7 +47,7 @@
 | 5 | 17 | Không tạo gì | Chat bài Facebook ở Mục 2 |
 | 6 | 18 | Không tạo gì | File demo |
 | 7 | 25 | Skill `tom-tat-tai-lieu` (hiện dưới dạng plugin riêng) | Tab Skills, 2 tài liệu |
-| 8 | 30, 32 | Plugin Gmail, Drive đã nối tài khoản cá nhân; file demo trên Drive; task theo lịch | Google cá nhân |
+| 8 | 32 | Plugin Gmail, Drive đã nối tài khoản cá nhân; file demo trên Drive; task theo lịch | Google cá nhân |
 | 9 | 31 | Plugin "Sale Wir" | Mục 7 và 8 |
 
 ## Mục 1 · Chat "trước khi có gì", Custom Instructions và cài bảo mật (slide 5, 9)
@@ -280,7 +280,7 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
 
 **Đạt khi (kết quả thật 09/10/2026):** lượt 4 liệt kê 7 cụm "điều trị", "phòng ngừa & điều trị", "chữa khỏi"… vượt ranh giới TPCN; bước 3 skill tự chạy không cần gọi tên, bài ra đúng 5 mục; bước 4 trong Project trả lời "Tài liệu không đề cập" và `[CẦN ĐIỀN]`.
 
-## Mục 8 · Plugin có sẵn: Gmail, Drive, task tự động (slide 30, 32)
+## Mục 8 · Plugin có sẵn: Gmail, Drive, task tự động (slide 32)
 
 **Cần có:** tài khoản Google **cá nhân**; [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx). **Tạo ra:** plugin Gmail và Google Drive đã nối, file `don-hang-demo` và `tom-tat-don-hang-thang-7` trên Drive, một task theo lịch.
 
