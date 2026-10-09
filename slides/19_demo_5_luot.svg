@@ -24,12 +24,12 @@
     <text x="1120" y="66" font-size="16" fill="#5B6675">Nâng cao</text>
   </g>
 
-  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Làm tay 5 lượt rồi đóng gói: mỗi lần phải dặn thêm</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">chính là một mục của skill</text><g id="turn-1" data-pptx-bounds="40 222 1200 52">
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Làm tay 5 lượt trên một tài liệu thật trước,</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">mỗi lần phải dặn thêm là một phần của skill</text><g id="turn-1" data-pptx-bounds="40 222 1200 52">
     <rect x="40" y="222" width="660" height="52" rx="26" fill="#F3F6FA" />
     <text x="64" y="255" font-size="18" font-weight="bold" fill="#2E5E91">Lượt 1</text>
     <text x="140" y="255" font-size="20" font-style="italic" fill="#1F2937">“Tóm tắt giúp tôi tài liệu này”</text>
     <line x1="712" y1="248" x2="760" y2="248" stroke="#5B6675" stroke-width="2" marker-end="url(#arrow-muted)" />
-    <text x="772" y="255" font-size="20" fill="#5B6675">kết quả chung chung → lý do cần skill</text>
+    <text x="772" y="255" font-size="20" fill="#5B6675">chung chung → lý do cần skill (KHI NÀO DÙNG)</text>
   </g>
 
   <g id="turn-2" data-pptx-bounds="40 284 1200 52">
@@ -38,7 +38,7 @@
     <text x="140" y="317" font-size="20" font-style="italic" fill="#1F2937">“Liệt kê theo từng phần của tài liệu”</text>
     <line x1="712" y1="310" x2="760" y2="310" stroke="#5B6675" stroke-width="2" marker-end="url(#arrow-muted)" />
     <rect x="772" y="286" width="468" height="48" rx="12" fill="#2E5E91" />
-    <text x="792" y="316" font-size="18" font-weight="bold" fill="#FFFFFF">Ý CHÍNH CHI TIẾT</text>
+    <text x="792" y="316" font-size="18" fill="#FFFFFF"><tspan font-weight="bold">ĐẦU RA</tspan> · mục Ý chính chi tiết</text>
   </g>
 
   <g id="turn-3" data-pptx-bounds="40 346 1200 52">
@@ -47,7 +47,7 @@
     <text x="140" y="379" font-size="20" font-style="italic" fill="#1F2937">“Bóc mọi con số, mốc thời gian, cam kết”</text>
     <line x1="712" y1="372" x2="760" y2="372" stroke="#5B6675" stroke-width="2" marker-end="url(#arrow-muted)" />
     <rect x="772" y="348" width="468" height="48" rx="12" fill="#2E5E91" />
-    <text x="792" y="378" font-size="18" font-weight="bold" fill="#FFFFFF">SỐ LIỆU, NGÀY THÁNG, HẠN CHÓT</text>
+    <text x="792" y="378" font-size="18" fill="#FFFFFF"><tspan font-weight="bold">ĐẦU RA</tspan> · mục Số liệu, hạn chót</text>
   </g>
 
   <g id="turn-4" data-pptx-bounds="40 408 1200 52">
@@ -56,7 +56,7 @@
     <text x="140" y="441" font-size="20" font-style="italic" fill="#1F2937">“Có câu nào vượt ranh giới pháp lý, mâu thuẫn không?”</text>
     <line x1="712" y1="434" x2="760" y2="434" stroke="#5B6675" stroke-width="2" marker-end="url(#arrow-muted)" />
     <rect x="772" y="410" width="468" height="48" rx="12" fill="#2E5E91" />
-    <text x="792" y="440" font-size="18" font-weight="bold" fill="#FFFFFF">ĐIỂM CẦN LƯU Ý / RỦI RO</text>
+    <text x="792" y="440" font-size="18" fill="#FFFFFF"><tspan font-weight="bold">ĐẦU RA</tspan> · mục Điểm cần lưu ý</text>
   </g>
 
   <g id="turn-5" data-pptx-bounds="40 470 1200 52">
@@ -64,21 +64,21 @@
     <text x="64" y="503" font-size="18" font-weight="bold" fill="#2E5E91">Lượt 5</text>
     <text x="140" y="503" font-size="20" font-style="italic" fill="#1F2937">“Chỗ nào bạn tự đoán? Rút 3–5 ý gửi sếp”</text>
     <line x1="712" y1="496" x2="760" y2="496" stroke="#5B6675" stroke-width="2" marker-end="url(#arrow-muted)" />
-    <rect x="772" y="472" width="468" height="48" rx="12" fill="#2E5E91" />
-    <text x="792" y="502" font-size="18" font-weight="bold" fill="#FFFFFF">QUY TẮC CHỐNG BỊA + TÓM TẮT NHANH</text>
+    <rect x="772" y="472" width="468" height="48" rx="12" fill="#E8833A" />
+    <text x="792" y="502" font-size="18" fill="#1F2937"><tspan font-weight="bold">CÁC BƯỚC</tspan> · quy tắc chống bịa + Tóm tắt nhanh</text>
   </g>
 
   <g id="demo-result" data-pptx-bounds="40 546 1200 100">
     <rect x="40" y="546" width="1200" height="100" rx="16" fill="#FCEBDD" />
-    
+
   <g transform="translate(64, 562)" fill="none" stroke="#1D3557" stroke-width="2">
     <path d="M7 4v16l13 -8l-13 -8" />
   </g>
-    <text x="98" y="580" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">KẾT QUẢ DEMO TRÊN TÀI LIỆU CH ALPHA PLUS CỦA WIR</text>
-    <text x="64" y="620" font-size="22" fill="#1F2937">ChatGPT bắt được cụm <tspan font-weight="bold" fill="#C0392B">“điều trị thoái hóa sụn khớp”</tspan> — TPCN không được nói “điều trị”.</text>
+    <text x="98" y="580" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">KẾT QUẢ THẬT 09/10/2026 · TÀI LIỆU “DỮ LIỆU SẢN PHẨM WIR” TRONG PROJECT MARKETING</text>
+    <text x="64" y="620" font-size="22" fill="#1F2937">Lượt 4: ChatGPT bắt được 7 cụm vượt ranh giới TPCN, ví dụ <tspan font-weight="bold" fill="#C0392B">“điều trị thoái hóa sụn khớp”</tspan> ở CH Alpha Plus.</text>
   </g>
 
   <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
-  <text id="source-note" data-pptx-role="footer" x="1170" y="700" font-size="14" text-anchor="end" fill="#5B6675">Nguồn: dữ liệu sản phẩm Wir — bộ “từ cấm” theo tầng pháp lý</text>
-  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">23 / 35</text>
+  <text id="source-note" data-pptx-role="footer" x="1170" y="700" font-size="14" text-anchor="end" fill="#5B6675">Data demo Mục 4 · file du-lieu-san-pham-wir.md trong Sources của Project</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">19 / 32</text>
 </svg>

@@ -62,7 +62,7 @@
   </g>
     <text x="98" y="422" font-size="16" font-weight="bold" letter-spacing="1" fill="#C0392B">DESCRIPTION TỒI</text>
     <rect x="64" y="440" width="344" height="80" rx="10" fill="#F3F6FA" />
-    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="80" y="472">description: Viết nội</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="80" y="498">dung cho công ty.</text><text font-size="20" fill="#1F2937" x="64" y="566">Quá chung: gọi nhầm hoặc</text><text font-size="20" fill="#1F2937" x="64" y="592">không bao giờ được gọi</text></g>
+    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="80" y="472">description: Tóm tắt</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="80" y="498">văn bản.</text><text font-size="20" fill="#1F2937" x="64" y="566">Quá chung: gọi nhầm hoặc</text><text font-size="20" fill="#1F2937" x="64" y="592">không bao giờ được gọi</text></g>
 
   <g id="description-good" data-pptx-bounds="456 388 784 248">
     <rect x="456" y="388" width="784" height="248" rx="16" fill="#FFFFFF" stroke="#2E8B57" stroke-width="2" />
@@ -73,9 +73,9 @@
   </g>
     <text x="514" y="422" font-size="16" font-weight="bold" letter-spacing="1" fill="#2E8B57">DESCRIPTION TỐT</text>
     <rect x="480" y="440" width="736" height="132" rx="10" fill="#F3F6FA" />
-    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="496" y="470">description: Viết bài mạng xã hội cho sản phẩm TPCN</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="496" y="496">của Wir (Elasten, CH Alpha Plus, Lactobact Intima).</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="496" y="522">Dùng khi cần bài Facebook, Zalo OA, kịch bản video</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="496" y="548">ngắn. Không dùng cho Karima (thiết bị tiêm) và tin trả lời khách.</text><text x="480" y="606" font-size="20" fill="#1F2937">Nêu rõ khi nào dùng, khi nào không</text>
+    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="496" y="470">description: Tóm tắt tài liệu dài của Wir (hồ sơ sản phẩm,</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="496" y="496">biên bản họp, báo giá) thành 4 mục: tóm tắt nhanh, ý chính,</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="496" y="522">số liệu và hạn chót, điểm cần lưu ý. Dùng khi có file hoặc</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#1D3557" x="496" y="548">văn bản dán vào và yêu cầu tóm tắt. Không dùng để viết bài.</text><text x="480" y="606" font-size="20" fill="#1F2937">Nêu rõ khi nào dùng, khi nào không</text>
   </g>
 
   <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
-  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">21 / 35</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">18 / 32</text>
 </svg>

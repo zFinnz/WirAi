@@ -80,5 +80,5 @@
     <text font-size="22" fill="#1F2937" x="104" y="560"><tspan><tspan font-weight="bold" fill="#1D3557">Làm sạch trước khi dán:</tspan> thay tên thật bằng “khách hàng A”, “HĐ số X”.</tspan></text><text font-size="22" fill="#1F2937" x="104" y="592">Không ghi thông tin nhạy cảm vào Instructions hay Memory.</text></g>
 
   <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
-  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">09 / 35</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">09 / 32</text>
 </svg>

@@ -8,7 +8,7 @@
 
     <g id="demo-flag" data-pptx-role="chrome" data-pptx-bounds="376 30 224 28">
     <rect x="376" y="32" width="220" height="24" rx="12" fill="#E8833A" />
-    <text x="486" y="49" font-size="12" font-weight="bold" letter-spacing="1" fill="#FFFFFF" text-anchor="middle">▶ HƯỚNG DẪN DEMO · MỤC 9</text>
+    <text x="486" y="49" font-size="12" font-weight="bold" letter-spacing="1" fill="#FFFFFF" text-anchor="middle">▶ HƯỚNG DẪN DEMO · MỤC 6</text>
   </g>
 
   <g id="roadmap-tracker" data-pptx-role="chrome" data-pptx-bounds="600 14 640 62">
@@ -74,5 +74,5 @@
 
   <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
   <text id="source-note" data-pptx-role="footer" x="1170" y="700" font-size="14" text-anchor="end" fill="#5B6675">Tên skill lấy từ thư viện skill mẫu của Wir</text>
-  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">31 / 35</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">28 / 32</text>
 </svg>

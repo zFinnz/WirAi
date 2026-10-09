@@ -19,9 +19,9 @@
     <text x="1120" y="66" font-size="16" fill="#5B6675">Nâng cao</text>
   </g>
 
-  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Một skill là một file SKILL.md gồm 6 phần:</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">bước đầu kiểm đầu vào, bước cuối tự rà lại</text><g id="skill-file" data-pptx-bounds="40 222 560 404">
+  <text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="128">Đóng gói: 5 lượt vừa làm thành một file SKILL.md</text><text font-size="42" font-weight="bold" fill="#1D3557" x="40" y="178">6 phần. ChatGPT tự viết khi bạn bảo “đóng gói”</text><g id="skill-file" data-pptx-bounds="40 222 560 404">
     <rect x="40" y="222" width="560" height="404" rx="16" fill="#1D3557" />
-    
+
   <g transform="translate(64, 240)" fill="none" stroke="#E3E9F1" stroke-width="2">
     <path d="M14 3v4a1 1 0 0 0 1 1h4" />
     <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
@@ -29,37 +29,41 @@
     <path d="M9 13l6 0" />
     <path d="M9 17l6 0" />
   </g>
-    <text x="98" y="258" font-size="16" font-weight="bold" letter-spacing="1" fill="#E3E9F1">SKILL.md</text>
+    <text x="98" y="258" font-size="16" font-weight="bold" letter-spacing="1" fill="#E3E9F1">SKILL.md · tom-tat-tai-lieu</text>
     <line x1="64" y1="278" x2="576" y2="278" stroke="#4A7FB5" stroke-width="1" />
-    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E8833A" x="64" y="312">---</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="342"><tspan><tspan fill="#E8833A">name:</tspan> viet-bai-tpcn</tspan></text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="372"><tspan><tspan fill="#E8833A">description:</tspan> Viết bài mạng xã hội</tspan></text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="86" y="402">cho sản phẩm TPCN… Dùng khi…</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="86" y="432">Không dùng cho…</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E8833A" x="64" y="462">---</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="492" font-weight="bold">#  Viết bài sản phẩm TPCN</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="522">## Khi nào dùng</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="552">## Đầu vào</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="582">## Các bước</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="612">## Đầu ra</text></g>
+    <text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E8833A" x="64" y="312">---</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="342"><tspan><tspan fill="#E8833A">name:</tspan> tom-tat-tai-lieu</tspan></text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="372"><tspan><tspan fill="#E8833A">description:</tspan> Tóm tắt tài liệu dài</tspan></text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="86" y="402">của Wir thành 4 mục… Dùng khi…</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="86" y="432">Không dùng cho…</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E8833A" x="64" y="462">---</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="492" font-weight="bold">#  Tóm tắt tài liệu</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="522">## Khi nào dùng</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="552">## Đầu vào</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="582">## Các bước</text><text font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#E3E9F1" x="64" y="612">## Đầu ra</text></g>
 
   <g id="skill-parts" data-pptx-bounds="640 226 600 380">
     <circle cx="656" cy="250" r="16" fill="#2E5E91" />
     <text x="656" y="257" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">1</text>
     <text x="688" y="257" font-size="22" font-weight="bold" fill="#1D3557">Tên</text>
-    <text x="688" y="283" font-size="20" fill="#5B6675">viết thường, không dấu, nối gạch ngang</text>
+    <text x="688" y="283" font-size="20" fill="#5B6675">tom-tat-tai-lieu: viết thường, không dấu, nối gạch ngang</text>
     <circle cx="656" cy="312" r="16" fill="#2E5E91" />
     <text x="656" y="319" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">2</text>
     <text x="688" y="319" font-size="22" font-weight="bold" fill="#1D3557">Mô tả</text>
-    <text x="688" y="345" font-size="20" fill="#5B6675">một câu</text>
+    <text x="688" y="345" font-size="20" fill="#5B6675">một câu; ChatGPT chỉ đọc câu này để chọn skill (slide 18)</text>
     <circle cx="656" cy="374" r="16" fill="#2E5E91" />
     <text x="656" y="381" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">3</text>
     <text x="688" y="381" font-size="22" font-weight="bold" fill="#1D3557">Khi nào dùng</text>
-    <text x="688" y="407" font-size="20" fill="#5B6675">≥ 3 tình huống, và khi nào không dùng</text>
+    <text x="688" y="407" font-size="20" fill="#5B6675">hồ sơ sản phẩm, biên bản họp, báo giá; không dùng để viết bài</text>
     <circle cx="656" cy="436" r="16" fill="#2E5E91" />
     <text x="656" y="443" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">4</text>
     <text x="688" y="443" font-size="22" font-weight="bold" fill="#1D3557">Đầu vào</text>
-    <text x="688" y="469" font-size="20" fill="#5B6675">mục bắt buộc và mục “có thì tốt”</text>
+    <text x="688" y="469" font-size="20" fill="#5B6675">bắt buộc: tài liệu; có thì tốt: tầng pháp lý của sản phẩm</text>
     <circle cx="656" cy="498" r="16" fill="#E8833A" />
     <text x="656" y="505" font-size="20" font-weight="bold" text-anchor="middle" fill="#1F2937">5</text>
     <text x="688" y="505" font-size="22" font-weight="bold" fill="#1D3557">Các bước</text>
-    <text x="688" y="531" font-size="20" fill="#1F2937">bước 1 kiểm đủ đầu vào; bước cuối tự rà lại</text>
+    <text x="688" y="531" font-size="20" fill="#1F2937">bước 1 kiểm đã có tài liệu chưa; bước cuối tự rà chống bịa</text>
     <circle cx="656" cy="560" r="16" fill="#2E5E91" />
     <text x="656" y="567" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">6</text>
     <text x="688" y="567" font-size="22" font-weight="bold" fill="#1D3557">Đầu ra</text>
-    <text x="688" y="593" font-size="20" fill="#5B6675">kèm một ví dụ mẫu đã điền số liệu</text>
+    <text x="688" y="593" font-size="20" fill="#5B6675">4 mục: Tóm tắt nhanh · Ý chính · Số liệu, hạn chót · Lưu ý</text>
+  </g>
+
+  <g id="pack-note" data-pptx-bounds="40 644 1200 30">
+    <text x="40" y="664" font-size="18" fill="#1F2937">Câu đóng gói: <tspan font-style="italic">“Kết quả ổn rồi. Hãy đóng gói cách làm vừa rồi thành một skill tên tom-tat-tai-lieu.”</tspan> → ChatGPT tạo skill 1.0.0; mở ra soát đủ 6 phần.</text>
   </g>
 
   <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
-  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">22 / 35</text>
+  <text id="page-number" data-pptx-role="page-number" x="1240" y="700" font-size="14" text-anchor="end" fill="#5B6675">20 / 32</text>
 </svg>

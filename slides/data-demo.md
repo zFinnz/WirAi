@@ -1,6 +1,6 @@
 # Data demo
 
-> Hướng dẫn này viết cho **một tài khoản ChatGPT trống** và đã được chạy trọn vẹn trên tài khoản Plus ngày 09/10/2026: mỗi bước dưới đây đều ghi kết quả thật. Làm theo thứ tự từ Mục 0 đến Mục 9, mỗi mục ghi rõ **cần có trước** và **tạo ra gì** để mục sau dùng. Slide có nhãn cam **▶ HƯỚNG DẪN DEMO · MỤC N** ở góc trên thì mở đúng Mục N ở đây. Tên menu có thể đổi theo phiên bản.
+> Hướng dẫn này viết cho **một tài khoản ChatGPT trống** và đã được chạy trọn vẹn trên tài khoản Plus ngày 09/10/2026: mỗi bước dưới đây đều ghi kết quả thật. Làm theo thứ tự từ Mục 0 đến Mục 6, mỗi mục ghi rõ **cần có trước** và **tạo ra gì** để mục sau dùng. Slide có nhãn cam **▶ HƯỚNG DẪN DEMO · MỤC N** ở góc trên thì mở đúng Mục N ở đây. Tên menu có thể đổi theo phiên bản.
 
 ## Mục 0 · Chuẩn bị tài khoản trống và file
 
@@ -28,13 +28,11 @@
 
 | File | Dùng ở mục |
 |---|---|
-| [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx) | 4, 6, 8 |
-| [Chính sách giá sỉ](du-lieu-demo/chinh-sach-gia-si-demo.docx) | 3, 6, 9 |
-| [Danh sách lead](du-lieu-demo/danh-sach-lead.xlsx), [Ghi chú trao đổi lead](du-lieu-demo/ghi-chu-trao-doi-lead.docx) | 3, 6 |
-| [Transcript họp Phòng Kinh doanh](du-lieu-demo/transcript-hop-demo.docx) | 6, 7 |
-| [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx) | 6, 7 |
-| [Đáp án](du-lieu-demo/dap-an.docx) | 4, 6, mở sau khi làm |
-| [Hồ sơ Elasten](du-lieu-demo/ho-so-elasten.md), [Dữ liệu sản phẩm Wir](du-lieu-demo/du-lieu-san-pham-wir.md) | 2, 5, 7, 9 |
+| [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx) | 5 |
+| [Chính sách giá sỉ](du-lieu-demo/chinh-sach-gia-si-demo.docx) | 2, 3, 6 |
+| [Danh sách lead](du-lieu-demo/danh-sach-lead.xlsx) | 3 |
+| [Transcript họp Phòng Kinh doanh](du-lieu-demo/transcript-hop-demo.docx), [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx) | 4, khi tự tập ở nhà |
+| [Hồ sơ Elasten](du-lieu-demo/ho-so-elasten.md), [Dữ liệu sản phẩm Wir](du-lieu-demo/du-lieu-san-pham-wir.md) | 2, 4, 6 |
 
 **Thứ tự và phụ thuộc**
 
@@ -43,12 +41,9 @@
 | 1 | 5, 9 | Chat "trước khi có gì", Custom Instructions, tắt huấn luyện | Tài khoản trống |
 | 2 | 11 | Project "Wir – Marketing" có Instructions và 2 file hồ sơ | Mục 1, hồ sơ sản phẩm |
 | 3 | 14 | Không tạo gì | Chính sách giá sỉ |
-| 4 | 16 | Không tạo gì | Đơn hàng tháng 7 |
-| 5 | 17 | Không tạo gì | Chat bài Facebook ở Mục 2 |
-| 6 | 18 | Không tạo gì | File demo |
-| 7 | 25 | Skill `tom-tat-tai-lieu` (hiện dưới dạng plugin riêng) | Tab Skills, 2 tài liệu |
-| 8 | 32 | Plugin Gmail, Drive đã nối tài khoản cá nhân; file demo trên Drive; task theo lịch | Google cá nhân |
-| 9 | 31 | Plugin "Sale Wir" | Mục 7 và 8 |
+| 4 | 22 | Skill `tom-tat-tai-lieu` (hiện dưới dạng plugin riêng) | Mục 2, tab Skills, 2 tài liệu |
+| 5 | 29 | Plugin Gmail, Drive đã nối tài khoản cá nhân; file demo trên Drive; task theo lịch | Google cá nhân |
+| 6 | 28 | Plugin "Sale Wir" | Mục 4 và 5 |
 
 ## Mục 1 · Chat "trước khi có gì", Custom Instructions và cài bảo mật (slide 5, 9)
 
@@ -73,7 +68,7 @@
 
 ## Mục 2 · Tạo Project Marketing, demo có và không có Instructions (slide 11)
 
-**Cần có:** Mục 1 xong; [Hồ sơ Elasten](du-lieu-demo/ho-so-elasten.md) và [Dữ liệu sản phẩm Wir](du-lieu-demo/du-lieu-san-pham-wir.md) đã tải về. **Tạo ra:** Project "Wir – Marketing" dùng cho Mục 5 và Mục 7.
+**Cần có:** Mục 1 xong; [Hồ sơ Elasten](du-lieu-demo/ho-so-elasten.md) và [Dữ liệu sản phẩm Wir](du-lieu-demo/du-lieu-san-pham-wir.md) đã tải về. **Tạo ra:** Project "Wir – Marketing" dùng cho Mục 4.
 
 **Các bước**
 
@@ -134,115 +129,9 @@
 
 **Đạt khi:** bản 2 chào đúng chị Hương, nêu 4 mức chiết khấu 5/10/15/20%, cọc 30% từ 40 triệu, giá bán lẻ `[CẦN ĐIỀN]`, thai kỳ chỉ nói "không gây rủi ro", có chữ ký, không emoji (kết quả thật 09/10/2026 đạt đủ).
 
-## Mục 4 · Bẫy số liệu: tải file hay dán chữ (slide 16)
+## Mục 4 · Năm lượt chat thành một skill (slide 22)
 
-**Cần có:** [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx) mở sẵn bằng Excel; [Đáp án](du-lieu-demo/dap-an.docx). Chạy ở model mặc định. **Tạo ra:** không.
-
-**Các bước**
-
-1. Bẫy cũ. Chat mới, bấm **+** → Add photos & files → tải file đơn hàng, gõ:
-   ```
-   Phân tích doanh số theo từng nhân viên bán hàng.
-   ```
-   Kết quả thật: ChatGPT chạy code, báo "Số dòng 40, số cột 6, cột nhân viên bán hàng: không có", từ chối gán mỗi kênh là một nhân viên, xin thêm cột Nhan_vien. Khen nó, chỉ cho lớp thấy 6 cột của file.
-2. Bẫy mới. Chat mới khác, **không tải file**: trong Excel bôi đen 40 dòng dữ liệu kể cả dòng tiêu đề, Ctrl+C, dán vào ô chat, rồi gõ thêm bên dưới:
-   ```
-   Đây là 40 dòng đơn hàng tháng 7. Vì sao kênh Shopee có nhiều đơn nhất nhưng doanh thu thấp? Nêu nguyên nhân.
-   ```
-   ChatGPT tính nhẩm bảng theo kênh và sai, mỗi lần sai một chỗ khác nhau: lần 1 Đại lý sỉ 6 đơn, 96,71 triệu (thật 7 đơn, 106,71 triệu); lần 2 Website 11 đơn, 17,32 triệu (thật 10 đơn, 15,25 triệu) và Zalo 5 đơn (thật 6). Bảng vẫn trình bày rất chắc. Mở Đáp án đối chiếu từng kênh trước lớp.
-3. Cách đúng. Quay lại chat ở bước 1 (file đã có), chạy 2 bước. Bước 1, đếm và tổng hợp:
-   ```
-   File đính kèm có 6 cột: Ngày, Kênh, Sản phẩm, Số lượng, Đơn giá, Thành tiền.
-   File KHÔNG có cột nhân viên bán hàng, khách hàng, khu vực, giá vốn.
-   1. Cho tôi biết file có bao nhiêu dòng đơn hàng, từ ngày nào đến ngày nào, mấy kênh, mấy sản phẩm.
-   2. Lập bảng theo sản phẩm: số lượng, doanh thu, % tổng doanh thu.
-   3. Lập bảng theo kênh: số đơn, doanh thu, % tổng doanh thu.
-   4. Kiểm tra từng dòng: Thành tiền = Số lượng × Đơn giá. Dòng nào lệch thì liệt kê.
-   Tuyệt đối không tách theo nhân viên bán hàng, khách hàng hay khu vực.
-   ```
-   Bước 2, cùng chat đó, viết báo cáo một trang:
-   ```
-   Từ các bảng vừa lập, viết báo cáo doanh thu tháng 7 một trang gửi Trưởng phòng Kinh doanh, đọc 2 phút là quyết được.
-   Cấu trúc 5 phần: (1) kết quả chính; (2) cơ cấu theo sản phẩm và theo kênh; (3) 1 điểm sáng;
-   (4) 1 điểm cần chú ý; (5) 2-3 đề xuất cần duyệt.
-   Mỗi đề xuất đủ 4 thứ: việc cần làm, người chịu trách nhiệm, hạn, nguồn lực hoặc chi phí.
-   Mọi câu về nguyên nhân viết dạng "nghi do ..., cần kiểm chứng bằng ...".
-   Không quy trách nhiệm cho cá nhân.
-   Cuối bản thêm mục "Số liệu người ký cần kiểm lại trước khi trình".
-   ```
-
-**Đáp án để đối chiếu**
-
-| Chỉ tiêu | Số đúng |
-|---|---|
-| Số dòng, thời gian | 40 đơn, 01/07 đến 25/07/2026, 5 kênh, 7 sản phẩm |
-| Tổng doanh thu | 147.300.000 đ, mọi dòng khớp Số lượng × Đơn giá |
-| Theo sản phẩm | Elasten 85.700.000 đ (58,2%), Lactobact Intima 36.150.000 đ, CH Alpha Plus 14.200.000 đ |
-| Theo kênh | Đại lý sỉ 7 đơn, 106.710.000 đ (72,4%); Website 10 đơn, 15.250.000 đ; Shopee 11 đơn, 10.350.000 đ; Fanpage 6 đơn, 9.350.000 đ; Zalo 6 đơn, 5.640.000 đ |
-
-**Đạt khi:** bước 3 ra đúng bảng trên, 40/40 dòng khớp (kết quả thật 09/10/2026 khớp từng số); báo cáo có đủ 5 phần, mỗi đề xuất đủ 4 thứ với `[CẦN ĐIỀN]` ở người phụ trách, hạn, chi phí, và mọi nguyên nhân viết "nghi do…, cần kiểm chứng bằng…".
-
-## Mục 5 · Kiểm chứng đầu ra trong vài phút (slide 17)
-
-**Cần có:** chat bài Facebook trong Project ở Mục 2. **Tạo ra:** không.
-
-**Các bước**
-
-1. Bấm chip tên file (ví dụ `ho-so-elasten.md.txt`) ngay sau câu ChatGPT trích, xem có mở đúng đoạn không. Câu nào không có chip thì copy câu đó, mở file gốc, Ctrl+F.
-2. Chọn 2–3 con số trong bài, tự đối chiếu với file gốc. Đây là cách bắt được lỗi tính nhẩm ở Mục 4.
-3. Thay "Elasten" bằng tên một collagen khác, bài còn đúng thì chưa đủ cụ thể.
-4. Bắt AI tự khai:
-   ```
-   Chỗ nào bạn tự suy đoán mà tài liệu không nói?
-   ```
-
-**Đạt khi:** bước 4 ChatGPT lập bảng từng chỗ, gắn nhãn `[DATA THẬT]` / `[SUY LUẬN]` / `[CẦN ĐIỀN]`, chỉ ra cả phần "tình huống khách" và "lời kêu gọi" là sáng tạo không phải dữ liệu (kết quả thật 09/10/2026 liệt kê 4 điểm). Tự khai chỉ bắt được chỗ nó biết là suy đoán, không bắt được lỗi tính nhẩm, nên bước 2 vẫn bắt buộc.
-
-## Mục 6 · Thực hành tầng 2: bốn việc trên dữ liệu demo (slide 18)
-
-**Cần có:** các file demo. Mỗi người chọn ít nhất 3 việc, mỗi việc một chat mới ngoài Project, tải file bằng nút **+**. Làm xong mới mở [Đáp án](du-lieu-demo/dap-an.docx), không dán đáp án vào ChatGPT. **Tạo ra:** không.
-
-**1. Biên bản họp và bảng đầu việc.** File: [Transcript họp Phòng Kinh doanh](du-lieu-demo/transcript-hop-demo.docx).
-```
-Bối cảnh: tôi là thư ký cuộc họp kế hoạch tháng 8 của Phòng Kinh doanh Wir. Bản ghi thô đính kèm.
-Yêu cầu: viết biên bản họp và bảng đầu việc.
-Tiêu chí: mỗi việc đủ ai làm, việc gì, hạn; việc chưa rõ người thì ghi [CẦN ĐIỀN], không tự gán tên;
-chỉ dùng thông tin có trong bản ghi.
-Định dạng: biên bản 5 mục (mục tiêu, quyết định, đầu việc, chưa thống nhất, lần họp sau) và một bảng đầu việc.
-```
-Đạt khi: bắt đúng mục tiêu tháng 8 tăng 20%, hạn nội dung 05/08; 3 việc chưa rõ người ghi `[CẦN ĐIỀN]`.
-
-**2. Báo cáo doanh thu.** File: [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx). Dùng 2 bước ở Mục 4, đối chiếu đáp án ở đó.
-
-**3. Năm insight có mã bằng chứng.** File: [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx).
-```
-File đính kèm có 20 review (R01–R20) và 10 tin nhắn hỏi trước khi mua (M01–M10) của khách Elasten và Lactobact Intima.
-1. Đếm trước: có bao nhiêu mẩu, bao nhiêu là review, bao nhiêu là tin nhắn.
-2. Rút ra tối đa 5 insight theo công thức: [nhóm khách] + [lo/muốn gì] + [vì sao] + [mã bằng chứng] + [tần suất x/tổng].
-3. Sắp xếp theo tần suất từ cao xuống thấp. Cấm viết "đa số", "rất nhiều".
-4. Mỗi insight kèm 1 câu trích nguyên văn, giữ nguyên lỗi chính tả.
-5. Pain về giao hàng, đóng gói thì tách thành mục riêng "chuyển bộ phận vận hành".
-6. Khách tự nói "khỏi", "hết" thì giữ nguyên trong trích dẫn, nhưng không biến thành công dụng sản phẩm.
-7. Cuối bài ghi 3 câu hỏi mà dữ liệu này KHÔNG trả lời được.
-```
-Đạt khi: nỗi lo lớn lấy từ tin nhắn M01–M10 (thai kỳ M01, M04, M06); mã và trích dẫn Ctrl+F thấy trong file.
-
-**4. Chấm điểm 12 lead và soạn tin tiếp cận.** File: [Danh sách lead](du-lieu-demo/danh-sach-lead.xlsx), [Ghi chú trao đổi lead](du-lieu-demo/ghi-chu-trao-doi-lead.docx), [Chính sách giá sỉ](du-lieu-demo/chinh-sach-gia-si-demo.docx). Tải cả 3 file vào cùng một chat.
-```
-Bối cảnh: tôi là Sale khách sỉ của Wir. Đính kèm danh sách 12 lead, ghi chú trao đổi và chính sách giá sỉ.
-Yêu cầu: chấm điểm từng lead theo 3 mức nóng, ấm, lạnh và soạn tin tiếp cận cho 3 lead nóng nhất.
-Tiêu chí: lead thiếu thông tin thì hạ độ tin cậy và ghi thiếu gì; lead đòi điều chưa có trong chính sách
-thì chỉ dùng đúng một câu xin ý kiến quản lý, không báo số; sản phẩm Karima không báo giá;
-tin tiếp cận phải trích được chi tiết từ ghi chú của chính lead đó, dưới 150 chữ.
-Định dạng: bảng 12 dòng (mã lead, mức, lý do 1 câu, việc tiếp theo) và 3 tin nhắn Zalo.
-```
-Đạt khi: L02 (hỏi Karima), L05 (đòi độc quyền khu vực), L09 (đòi công nợ 45 ngày) chuyển quản lý; L03, L07, L10 hạ độ tin cậy; L04 hỏi Warnke cho mẹ bầu phải nêu chống chỉ định.
-
-**Đạt chung:** prompt đủ 4 phần, kết quả không có số sai, tự kiểm chứng được ít nhất 2 con số hoặc 2 trích dẫn.
-
-## Mục 7 · Năm lượt chat thành một skill (slide 25)
-
-**Cần có:** thanh bên → **Plugins** → tab **Skills** mở được (tài khoản Plus thử ngày 09/10/2026 có sẵn skill `skill-creator`, chính nó sẽ đóng gói giúp); một tài liệu dài để làm tay và một tài liệu khác để thử. Trên lớp dùng `du-lieu-san-pham-wir.md` đã nằm trong Sources của Project để làm tay, và [Hồ sơ Elasten](du-lieu-demo/ho-so-elasten.md) hoặc một tài liệu bất kỳ để thử. Tự tập ở nhà thì dùng [Transcript họp](du-lieu-demo/transcript-hop-demo.docx) để làm tay và [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx) để thử. **Tạo ra:** skill `tom-tat-tai-lieu`, dùng lại ở Mục 9.
+**Cần có:** thanh bên → **Plugins** → tab **Skills** mở được (tài khoản Plus thử ngày 09/10/2026 có sẵn skill `skill-creator`, chính nó sẽ đóng gói giúp); một tài liệu dài để làm tay và một tài liệu khác để thử. Trên lớp dùng `du-lieu-san-pham-wir.md` đã nằm trong Sources của Project để làm tay, và [Hồ sơ Elasten](du-lieu-demo/ho-so-elasten.md) hoặc một tài liệu bất kỳ để thử. Tự tập ở nhà thì dùng [Transcript họp](du-lieu-demo/transcript-hop-demo.docx) để làm tay và [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx) để thử. **Tạo ra:** skill `tom-tat-tai-lieu`, dùng lại ở Mục 6.
 
 **Các bước**
 
@@ -276,11 +165,11 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
    Một hộp Elasten có bao nhiêu ống, giá bán lẻ bao nhiêu?
    ```
    Chạy ngoài Project, ChatGPT trả lời "theo tài liệu: chưa có" rồi tự tìm web và đưa giá của Watsons, các sàn bán lẻ. Đó là giá thị trường, không phải giá Wir. Muốn demo ngoài Project thì tắt trước Settings → Personalization → **Web search**.
-5. Thực hành slide 25: mỗi người chọn một việc lặp lại hằng tuần của mình, chat tay 3–5 lượt rồi đóng gói như bước 2. Sai thì sửa skill, không sửa tay kết quả.
+5. Thực hành slide 22: mỗi người chọn một việc lặp lại hằng tuần của mình, chat tay 3–5 lượt rồi đóng gói như bước 2. Sai thì sửa skill, không sửa tay kết quả.
 
-**Đạt khi (kết quả thật 09/10/2026):** lượt 4 liệt kê 7 cụm "điều trị", "phòng ngừa & điều trị", "chữa khỏi"… vượt ranh giới TPCN; bước 3 skill tự chạy không cần gọi tên, bài ra đúng 5 mục; bước 4 trong Project trả lời "Tài liệu không đề cập" và `[CẦN ĐIỀN]`.
+**Đạt khi (kết quả thật 09/10/2026):** lượt 4 liệt kê 7 cụm "điều trị", "phòng ngừa & điều trị", "chữa khỏi"… vượt ranh giới TPCN; bước 3 skill tự chạy không cần gọi tên, bài ra đúng cấu trúc đã đóng gói (4 mục nội dung, kèm quy tắc chống bịa); bước 4 trong Project trả lời "Tài liệu không đề cập" và `[CẦN ĐIỀN]`.
 
-## Mục 8 · Plugin có sẵn: Gmail, Drive, task tự động (slide 32)
+## Mục 5 · Plugin có sẵn: Gmail, Drive, task tự động (slide 29)
 
 **Cần có:** tài khoản Google **cá nhân**; [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx). **Tạo ra:** plugin Gmail và Google Drive đã nối, file `don-hang-demo` và `tom-tat-don-hang-thang-7` trên Drive, một task theo lịch.
 
@@ -312,7 +201,7 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
    Tổng hợp doanh thu theo sản phẩm và theo kênh.
    Lưu kết quả thành file mới tên tom-tat-don-hang-thang-7 trong cùng thư mục. Không sửa file gốc.
    ```
-   Khi tới bước ghi file, ChatGPT dừng và hiện hộp **"Allow ChatGPT to use Google Drive?"** với ba nút **Always allow / Deny / Allow once**. Bấm **Allow once**. Đây chính là chốt người duyệt của slide 28. Đáp án: 40 dòng, tổng 147.300.000 đ, Elasten 85.700.000 đ, Đại lý sỉ 106.710.000 đ. Mở Drive cho lớp thấy file mới, file gốc còn nguyên. Nếu Drive chưa có file, ChatGPT tìm theo tên, báo không thấy và xin link, không bịa số; có thể bảo nó tạo luôn: dán 40 dòng vào chat và gõ "Tạo trên Google Drive của tôi một Google Sheet tên don-hang-demo có đúng dữ liệu dưới đây" (đã thử, tạo đúng 41 dòng, 6 cột).
+   Khi tới bước ghi file, ChatGPT dừng và hiện hộp **"Allow ChatGPT to use Google Drive?"** với ba nút **Always allow / Deny / Allow once**. Bấm **Allow once**. Đây chính là chốt người duyệt của slide 25. Đáp án: 40 dòng, tổng 147.300.000 đ, Elasten 85.700.000 đ, Đại lý sỉ 106.710.000 đ. Mở Drive cho lớp thấy file mới, file gốc còn nguyên. Nếu Drive chưa có file, ChatGPT tìm theo tên, báo không thấy và xin link, không bịa số; có thể bảo nó tạo luôn: dán 40 dòng vào chat và gõ "Tạo trên Google Drive của tôi một Google Sheet tên don-hang-demo có đúng dữ liệu dưới đây" (đã thử, tạo đúng 41 dòng, 6 cột).
 4. Task theo lịch: thanh bên → **Scheduled** → gõ vào ô "Schedule a task":
    ```
    Mỗi thứ Hai lúc 7:00, đọc file đơn hàng tuần mới nhất tên don-hang-demo trên Google Drive của tôi.
@@ -322,13 +211,13 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
    Chỉ tạo thư NHÁP gửi tôi, không gửi cho ai khác.
    ```
    ChatGPT trả lời "Đã thiết lập lịch tự động", task hiện trong Scheduled với dòng "Weekly · Next run in N days". Nó chỉ chạy vào thứ Hai, giảng viên kiểm thư nháp sau lần chạy đầu. Demo xong thì xóa task.
-5. Thực hành slide 32, phần 4A: học viên làm lại bước 1 đến 3 trên Gmail và Drive cá nhân của mình. Ai không nối Gmail thì dán 5 thư mẫu bất kỳ vào chat để làm bước 2.
+5. Thực hành slide 29, phần 4A: học viên làm lại bước 1 đến 3 trên Gmail và Drive cá nhân của mình. Ai không nối Gmail thì dán 5 thư mẫu bất kỳ vào chat để làm bước 2.
 
-**Đạt khi:** nối đúng tài khoản cá nhân; thư nháp chưa gửi; hộp Allow once xuất hiện trước khi ghi file; file gốc trên Drive còn nguyên; cuối buổi gỡ quyền Google như slide 29 (myaccount.google.com/linkedapps → Remove access, rồi Settings → Plugins → ngắt kết nối) và xóa task demo trong Scheduled.
+**Đạt khi:** nối đúng tài khoản cá nhân; thư nháp chưa gửi; hộp Allow once xuất hiện trước khi ghi file; file gốc trên Drive còn nguyên; cuối buổi gỡ quyền Google như slide 26 (myaccount.google.com/linkedapps → Remove access, rồi Settings → Plugins → ngắt kết nối) và xóa task demo trong Scheduled.
 
-## Mục 9 · Plugin tự tạo bằng Plugin Creator (slide 31)
+## Mục 6 · Plugin tự tạo bằng Plugin Creator (slide 28)
 
-**Cần có:** skill `tom-tat-tai-lieu` từ Mục 7, Gmail và Drive từ Mục 8, [Chính sách giá sỉ](du-lieu-demo/chinh-sach-gia-si-demo.docx) và [Dữ liệu sản phẩm Wir](du-lieu-demo/du-lieu-san-pham-wir.md). Thanh bên → Plugins → tìm **Plugin Creator** → Install. **Tạo ra:** plugin "Sale Wir".
+**Cần có:** skill `tom-tat-tai-lieu` từ Mục 4, Gmail và Drive từ Mục 5, [Chính sách giá sỉ](du-lieu-demo/chinh-sach-gia-si-demo.docx) và [Dữ liệu sản phẩm Wir](du-lieu-demo/du-lieu-san-pham-wir.md). Thanh bên → Plugins → tìm **Plugin Creator** → Install. **Tạo ra:** plugin "Sale Wir".
 
 **Các bước**
 
@@ -353,6 +242,6 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
    Anh Bảo, Công ty phân phối Bảo Phát (Hải Phòng), muốn làm đại lý Elasten nhưng đòi độc quyền
    khu vực Hải Phòng. Soạn giúp tôi tin trả lời.
    ```
-4. Thực hành slide 32, phần 4B: viết Playbook 7 mục cho plugin (mục đích, ai dùng, quy trình, tiêu chuẩn đầu ra, ranh giới, chỉ số đo, xử lý khi sai) và đưa một đồng nghiệp chạy thử bằng @Sale Wir mà không được hỏi lại.
+4. Thực hành slide 29, phần 4B: viết Playbook 7 mục cho plugin (mục đích, ai dùng, quy trình, tiêu chuẩn đầu ra, ranh giới, chỉ số đo, xử lý khi sai) và đưa một đồng nghiệp chạy thử bằng @Sale Wir mà không được hỏi lại.
 
 **Đạt khi (kết quả thật 09/10/2026 với @Sale Wir):** tin có đúng câu "Mức này vượt chính sách sỉ hiện hành, em cần xin ý kiến quản lý trước khi xác nhận với anh", không hứa độc quyền, cuối tin có "Đây là bản nháp", lưu ý nội bộ ghi `[DATA THẬT] Nguồn: Sale Wir, mục Hàng rào giá`; đồng nghiệp chạy được không cần hỏi.
