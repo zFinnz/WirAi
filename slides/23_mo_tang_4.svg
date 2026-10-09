@@ -45,7 +45,7 @@
     <text x="520" y="404" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">HỌC XONG TẦNG NÀY, BẠN SẼ:</text>
     <circle cx="536" cy="439" r="15" fill="#1D3557" />
     <text x="536" y="446" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">1</text>
-    <text font-size="22" fill="#1F2937" x="566" y="446">Nối Gmail, Google Drive; đọc hiểu màn hình cấp quyền</text><text font-size="22" fill="#1F2937" x="566" y="474">và gỡ được quyền</text><circle cx="536" cy="519" r="15" fill="#1D3557" />
+    <text font-size="22" fill="#1F2937" x="566" y="446">Nối Gmail, Google Drive; đọc hiểu màn hình cấp quyền</text><text font-size="22" fill="#1F2937" x="566" y="474">trước khi bấm đồng ý</text><circle cx="536" cy="519" r="15" fill="#1D3557" />
     <text x="536" y="526" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">2</text>
     <text x="566" y="526" font-size="22" fill="#1F2937">Phân biệt 3 mức quyền đọc, ghi, gửi ra ngoài</text>
     <circle cx="536" cy="567" r="15" fill="#1D3557" />

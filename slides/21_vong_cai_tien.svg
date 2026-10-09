@@ -65,7 +65,7 @@
     <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     <path d="M9 12l2 2l4 -4" />
   </g>
-    <text font-size="20" font-weight="bold" fill="#2E8B57" x="742" y="496">Skill tự chạy, bản tóm tắt đủ 4 mục,</text><text font-size="20" font-weight="bold" fill="#2E8B57" x="742" y="524">giá Elasten ghi “Tài liệu không đề cập” → đạt</text><text x="742" y="566" font-size="18" fill="#5B6675">Kết quả thật 09/10/2026: đạt, skill tự được gọi ở chat mới</text>
+    <text font-size="20" font-weight="bold" fill="#2E8B57" x="742" y="496">Skill tự chạy, bản tóm tắt đủ 4 mục,</text><text font-size="20" font-weight="bold" fill="#2E8B57" x="742" y="524">không thêm số nào ngoài file → đạt</text><text x="742" y="566" font-size="18" fill="#5B6675">Kết quả thật 09/10/2026: đạt, skill tự được gọi ở chat mới</text>
   </g>
 
   <text id="footer-course" data-pptx-role="footer" x="40" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
