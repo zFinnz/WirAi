@@ -225,10 +225,10 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
 
 **Chuẩn bị**
 
-1. Đăng xuất tài khoản Google công ty trên trình duyệt. Chỉ dùng Gmail và Google Drive **cá nhân**.
+1. Đăng xuất tài khoản Google công ty trên trình duyệt. Chỉ dùng Gmail và Google Drive **cá nhân**. Kiểm lại ở Settings → Plugins → Gmail → Connected accounts: thấy địa chỉ công ty thì bấm ••• → gỡ ngay, vì ChatGPT đọc được cả thư lương, hợp đồng trong hộp thư đó.
 2. Tải [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx) lên Drive cá nhân, để ở thư mục gốc.
 3. Nối Gmail: thanh bên → **Plugins** → tìm Gmail → Install → Connect → chọn tài khoản cá nhân → đọc hết danh sách quyền Google rồi mới Allow. Nối Google Drive tương tự.
-4. Đặt mức quyền: Settings → **Plugins** → dòng Gmail → chọn **Always ask**. Mặc định là Allow low-risk tools, phải tự đổi.
+4. Đặt mức quyền: Settings → **Plugins** → bấm dòng Gmail → mục **Permission** → chọn **Always ask**. Mặc định là Allow low-risk, phải tự đổi. Làm tương tự cho Google Drive.
 
 **Các bước**
 
@@ -251,7 +251,7 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
    Tổng hợp doanh thu theo sản phẩm và theo kênh.
    Lưu kết quả thành file mới tên tom-tat-don-hang-thang-7 trong cùng thư mục. Không sửa file gốc.
    ```
-   Đáp án: 40 dòng, tổng 147.300.000 đ, Elasten 85.700.000 đ, Đại lý sỉ 106.710.000 đ. Mở Drive cho lớp thấy file mới, file gốc còn nguyên.
+   Đáp án: 40 dòng, tổng 147.300.000 đ, Elasten 85.700.000 đ, Đại lý sỉ 106.710.000 đ. Mở Drive cho lớp thấy file mới, file gốc còn nguyên. Chạy thử 09/10/2026 khi Drive chưa có file: ChatGPT tìm theo tên, báo không thấy và xin link, không bịa số. Nếu gặp vậy, dán link chia sẻ của file vào chat.
 4. Task theo lịch: thanh bên → **Scheduled** → gõ vào ô "Schedule a task":
    ```
    Mỗi thứ Hai lúc 7:00, đọc file đơn hàng tuần mới nhất trong thư mục Báo cáo trên Drive.
