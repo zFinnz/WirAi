@@ -16,7 +16,7 @@
 
     <g id="demo-flag" data-pptx-role="chrome" data-pptx-bounds="400 30 180 28">
     <rect x="400" y="32" width="172" height="24" rx="12" fill="#E8833A" />
-    <text x="486" y="49" font-size="12" font-weight="bold" letter-spacing="1" fill="#FFFFFF" text-anchor="middle">▶ CÓ DEMO KÈM FILE</text>
+    <text x="486" y="49" font-size="12" font-weight="bold" letter-spacing="1" fill="#FFFFFF" text-anchor="middle">▶ CÓ HƯỚNG DẪN DEMO</text>
   </g>
 
   <g id="roadmap-tracker" data-pptx-role="chrome" data-pptx-bounds="600 14 640 62">

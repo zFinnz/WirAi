@@ -10,7 +10,7 @@ Script làm các việc sau rồi ghép vào template.html thành file index.htm
    cho trang Skill template.
 3. Đọc thư mục slides/ (mỗi trang slide một file .svg, kèm file .pptx để tải) cho trang Slide.
    Xóa thư mục slides/ rồi chạy lại script thì tab Slide tự ẩn. File slides/data-demo.md (mỗi mục một tiêu đề
-   "## Slide N · Tên") thành mục Data demo dưới danh sách slide: các bước, mẫu prompt, file để tải.
+   "## Mục N · Tên (slide a, b–c)") thành mục Data demo dưới danh sách slide: các bước, mẫu prompt, file để tải.
 4. Liệt kê các file Word, Excel trong thư mục du-lieu-demo/ để liên kết dạng [tên](du-lieu-demo/ten-file) trên
    các trang tham khảo thành nút tải file. Giống file .pptx của slide, các file này nằm cạnh index.html, không nhúng vào.
 5. Nhúng logo _build/wir_logo.jpg vào góc trái thanh đầu trang và làm biểu tượng tab. Không có file logo thì
@@ -224,13 +224,13 @@ def load_slides():
     return slides, pptx.name if pptx else ""
 
 
-DEMO_HEAD_RE = re.compile(r"^## Slide ([\d,\s\-–]+) · (.+)$")
+DEMO_HEAD_RE = re.compile(r"^## (?:Mục (\d+) · )?(.+?)(?: \(slide ([\d,\s\-–]+)\))?$")
 
 
 def slide_numbers(spec):
     """'10–11', '23-25', '30, 32' -> [10, 11], [23, 24, 25], [30, 32]."""
     nums = []
-    for part in re.split(r"[,\s]+", spec.strip()):
+    for part in re.split(r"[,\s]+", (spec or "").strip()):
         if not part:
             continue
         a, _, b = part.replace("–", "-").partition("-")
@@ -239,8 +239,8 @@ def slide_numbers(spec):
 
 
 def load_demo_steps():
-    """Đọc slides/data-demo.md thành mục Data demo: dòng "# ..." đầu là tên mục, đoạn trước tiêu đề
-    "## Slide N · Tên" đầu tiên là lời dẫn, mỗi tiêu đề "## Slide ..." là một thẻ demo (slide nào, tên, markdown)."""
+    """Đọc slides/data-demo.md thành mục Data demo: dòng "# ..." đầu là tên mục, đoạn trước tiêu đề "## " đầu tiên
+    là lời dẫn, mỗi tiêu đề "## Mục N · Tên (slide a, b–c)" là một thẻ (số mục, tên, slide nào, markdown)."""
     if not DEMO_MD.exists():
         return {"title": "", "intro": "", "items": []}
     title, intro, items, cur = "Data demo", [], [], None
@@ -250,7 +250,7 @@ def load_demo_steps():
             continue
         m = DEMO_HEAD_RE.match(l)
         if m:
-            cur = {"slides": slide_numbers(m.group(1)), "title": m.group(2).strip(), "md": []}
+            cur = {"num": m.group(1) or "", "slides": slide_numbers(m.group(3)), "title": m.group(2).strip(), "md": []}
             items.append(cur)
             continue
         (cur["md"] if cur else intro).append(l)

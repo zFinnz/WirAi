@@ -1,51 +1,106 @@
 # Data demo
 
-> Slide nào có nhãn cam **▶ CÓ DEMO KÈM FILE** ở góc trên thì có một mục ở đây. Mỗi mục đủ ba phần: **Chuẩn bị** (file cần tải, nơi bấm), **Các bước** (prompt sao chép được, dán nguyên văn), **Đạt khi** (tự chấm). Tên menu tra trên ChatGPT ngày 09/10/2026, có thể đổi theo phiên bản.
->
-> **Trước khi bắt đầu, 5 điều cần biết**
->
-> 1. **Tải file lên ChatGPT:** bấm dấu **+** bên trái ô chat → Add files → chọn file. File Excel, Word tải thẳng được, không cần đổi đuôi.
-> 2. **Dùng prompt:** bấm nút **Sao chép** ở góc khối lệnh, dán vào ô chat, sửa phần trong ngoặc vuông như `[DÁN BẢNG]` rồi Enter.
-> 3. **Chat mới ngoài Project:** bấm **New chat** ở thanh bên. **Chat trong Project:** bấm tên Project ở thanh bên rồi gõ vào ô "New chat in …". Tên Project phải hiện ở đầu khung chat.
-> 4. **Model:** để mặc định (Instant). Kết quả mỗi lần một khác, giảng viên chạy thử trước buổi học.
-> 5. **Dữ liệu:** toàn bộ file ở đây là dữ liệu DEMO. Không dán dữ liệu khách thật, giá vốn, lương, hợp đồng vào ChatGPT.
+> Hướng dẫn này viết cho **một tài khoản ChatGPT trống**: chưa có Custom Instructions, Project, Memory, file, plugin hay skill. Làm theo thứ tự từ Mục 0 đến Mục 10, mỗi mục ghi rõ **cần có trước** và **tạo ra gì** để mục sau dùng. Slide có nhãn cam **▶ CÓ HƯỚNG DẪN DEMO** ở góc trên là slide có mục ở đây. Tên menu tra trên ChatGPT ngày 09/10/2026, có thể đổi theo phiên bản.
 
-## Slide 10–11 · Tầng 1: cùng một câu lệnh, có và không có Instructions
+## Mục 0 · Chuẩn bị tài khoản trống và file
 
-**Chuẩn bị: tạo Project của phòng (5 phút)**
+**Cần có:** tài khoản ChatGPT gói Plus trở lên (gói Free có thể thiếu Projects, Skills, Scheduled), đăng nhập chatgpt.com trên máy tính, và một tài khoản Google **cá nhân** cho tầng 4.
 
-1. Thanh bên → mục **Projects** → bấm dấu **+** (Add new project) → đặt tên `Wir – Marketing`.
-2. Mở Project, bấm nút **•••** góc phải → **Project settings** → dán [mẫu Project instructions](#instructions) vào ô **Instructions**. Mục Memory để Default, Library access để Enabled.
-3. Tab **Sources** → **Add sources** → tải hồ sơ sản phẩm của phòng (tài liệu nội bộ, không kèm ở đây). Instructions chỉ là luật, file mới là hồ sơ; thiếu file thì ChatGPT không có số liệu.
-4. Gõ vào ô "New chat in Wir – Marketing". Tên Project phải hiện ở đầu khung chat, không thấy tức là đang chat ngoài Project.
+**Nếu tài khoản đã dùng, dọn về trống (10 phút)**
+
+1. Settings → Personalization → Custom instructions: xóa hết nội dung.
+2. Settings → Personalization → Memory summary → Manage: xóa các mục đã nhớ.
+3. Thanh bên → Projects → mở từng Project → ••• → Project settings → Delete project.
+4. Thanh bên → Library: xóa các file đã tải lên (••• trên file), hoặc để lại nếu không liên quan tới Wir.
+5. Settings → Plugins → bấm từng plugin → Uninstall. Gmail và Drive thì gỡ cả ở myaccount.google.com/linkedapps.
+6. Thanh bên → Plugins → tab Skills → ••• trên từng skill → xóa.
+7. Settings → Data controls → Archive all chats, để lịch sử chat không lẫn vào demo.
+
+**5 thao tác dùng suốt buổi**
+
+1. **Tải file:** bấm dấu **+** bên trái ô chat → Add files → chọn file. Excel, Word tải thẳng được.
+2. **Dùng prompt:** bấm **Sao chép** ở góc khối lệnh, dán vào ô chat, sửa phần trong ngoặc vuông như `[DÁN BẢNG]`, rồi Enter.
+3. **Chat mới ngoài Project:** New chat ở thanh bên. **Chat trong Project:** bấm tên Project ở thanh bên rồi gõ vào ô "New chat in …". Tên Project phải hiện ở đầu khung chat.
+4. **Model:** để mặc định. Kết quả mỗi lần một khác, giảng viên chạy thử trước buổi học.
+5. **Dữ liệu:** toàn bộ file ở đây là dữ liệu DEMO. Không dán dữ liệu khách thật, giá vốn, lương, hợp đồng vào ChatGPT.
+
+**File cần có, tải về trước**
+
+| File | Dùng ở mục |
+|---|---|
+| [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx) | 4, 6, 8 |
+| [Chính sách giá sỉ](du-lieu-demo/chinh-sach-gia-si-demo.docx) | 3, 6, 9 |
+| [Danh sách lead](du-lieu-demo/danh-sach-lead.xlsx), [Ghi chú trao đổi lead](du-lieu-demo/ghi-chu-trao-doi-lead.docx) | 3, 6 |
+| [Transcript họp Phòng Kinh doanh](du-lieu-demo/transcript-hop-demo.docx) | 6, 7 |
+| [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx) | 6, 7 |
+| [Đáp án](du-lieu-demo/dap-an.docx) | 4, 6, mở sau khi làm |
+| Hồ sơ sản phẩm: `ho-so-elasten.md`, `du-lieu-san-pham-wir.md` | 2, 5, 7. Tài liệu nội bộ, giảng viên phát riêng, không có trong thư mục công khai |
+
+**Thứ tự và phụ thuộc**
+
+| Mục | Slide | Tạo ra | Cần có trước |
+|---|---|---|---|
+| 1 | 5, 9 | Custom Instructions, tắt huấn luyện | Tài khoản trống |
+| 2 | 10, 11 | Project "Wir – Marketing" có Instructions và 2 file hồ sơ | Mục 1, hồ sơ sản phẩm |
+| 3 | 14 | Không tạo gì | Chính sách giá sỉ |
+| 4 | 16 | Không tạo gì | Đơn hàng tháng 7 |
+| 5 | 17 | Không tạo gì | Chat bài Facebook ở Mục 2 |
+| 6 | 18 | Không tạo gì | File demo |
+| 7 | 23, 24, 25 | Skill `tom-tat-tai-lieu` | Tab Skills, 2 tài liệu |
+| 8 | 30, 32 | Plugin Gmail, Drive đã nối tài khoản cá nhân | Google cá nhân, file đơn hàng đã lên Drive |
+| 9 | 31 | Plugin "Sale Wir" | Mục 7 và 8 |
+| 10 | 34, 35 | Tài khoản sạch sau buổi học | Hết buổi |
+
+## Mục 1 · Custom Instructions và cài bảo mật (slide 5, 9)
+
+**Cần có:** tài khoản trống. **Tạo ra:** danh thiếp cá nhân và tài khoản đã tắt huấn luyện.
 
 **Các bước**
 
-1. Chat mới, ngoài Project (bấm New chat ở thanh bên):
+1. Settings → Personalization → **Custom instructions** → dán [mẫu Custom Instructions cá nhân](#instructions) → Save. Màn hình chỉ có một ô thì dán cả hai khối "Thông tin về tôi" và "Cách trả lời" vào ô đó.
+2. Settings → **Data controls** → tắt **Improve the model for everyone**.
+3. Kiểm tra, chat mới:
+   ```
+   Tôi làm ở công ty nào, phụ trách khách nào, bán sản phẩm gì?
+   ```
+4. Cho lớp thấy Memory: Settings → Personalization → mục **ChatGPT memory** đang bật; Memory summary → Manage là nơi xem và xóa những gì ChatGPT tự nhớ. Nội dung nhạy cảm thì dùng nút **Temporary chat** ở đầu trang: không vào lịch sử, không tạo Memory.
+
+**Đạt khi:** bước 3 trả lời đúng công ty, nhóm khách, cách xưng hô như đã khai; bước 2 nút đã tắt.
+
+## Mục 2 · Tạo Project Marketing, demo có và không có Instructions (slide 10, 11)
+
+**Cần có:** Mục 1 xong; 2 file hồ sơ sản phẩm do giảng viên phát. **Tạo ra:** Project "Wir – Marketing" dùng cho Mục 5 và Mục 7.
+
+**Các bước**
+
+1. Chạy "chưa có Instructions" trước khi tạo Project. Chat mới, ngoài Project:
    ```
    Viết bài Facebook bán Elasten.
    ```
-   Hỏi lớp: câu bắt buộc của TPCN đâu? Số liệu lấy nguồn ở đâu? Đếm emoji.
-2. Vào Project, gõ lại đúng câu trên.
-3. Phép thử chống bịa, trong Project:
+   Hỏi lớp: câu bắt buộc của TPCN đâu? Số liệu lấy nguồn ở đâu? Đếm emoji. Custom Instructions ở Mục 1 chỉ là danh thiếp, không có luật sản phẩm, nên bài vẫn trượt.
+2. Tạo Project: thanh bên → mục **Projects** → dấu **+** (Add new project) → đặt tên `Wir – Marketing`.
+3. Mở Project → nút **•••** góc phải → **Project settings** → dán [mẫu Project instructions cho phòng Marketing](#instructions) vào ô **Instructions**. Memory để Default, Library access để Enabled.
+4. Tab **Sources** → **Add sources** → tải `ho-so-elasten.md` và `du-lieu-san-pham-wir.md`. Instructions chỉ là luật, file mới là hồ sơ; thiếu file thì ChatGPT không có số liệu.
+5. Gõ vào ô "New chat in Wir – Marketing" đúng câu ở bước 1. Chiếu hai bài cạnh nhau.
+6. Phép thử chống bịa, cùng chat:
    ```
    Giá bán lẻ Elasten hiện nay là bao nhiêu? Tháng này đang có chương trình khuyến mãi gì?
    ```
-4. Kiểm tra trí nhớ, mở chat mới trong cùng Project:
+7. Kiểm tra trí nhớ, chat mới trong cùng Project:
    ```
    Elasten thuộc tầng pháp lý nào? Khi viết bài thì những từ nào bị cấm?
    ```
-5. Thực hành slide 11: mỗi người tạo Project cho phòng mình theo 4 bước Chuẩn bị, sửa mẫu Instructions cho đúng phòng, rồi chạy lại bước 3 và 4. Cuối buổi: Settings → Data controls → tắt **Improve the model for everyone**.
+8. Thực hành slide 11: mỗi học viên tạo Project cho phòng mình theo bước 2 đến 4, sửa mẫu Instructions cho đúng phòng, chạy lại bước 6 và 7. Học viên phòng Kinh doanh dùng [mẫu Project instructions cho khách sỉ](#instructions) và thêm file Chính sách giá sỉ vào Sources.
 
 **Đạt khi**
 
-- Bước 2: có câu "Thực phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh", số +28% độ ẩm da sau 12 tuần ghi nguồn, giá bán ghi `[CẦN ĐIỀN]`, không quá 2 emoji.
-- Bước 3: trả lời chưa đủ dữ liệu và xin bảng giá, không đưa ra con số.
-- Bước 4: nêu đúng TPCN và các từ cấm "chữa", "điều trị", "khỏi", "đặc trị".
+- Bước 5: có câu "Thực phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh", số +28% độ ẩm da sau 12 tuần ghi nguồn, giá bán ghi `[CẦN ĐIỀN]`, không quá 2 emoji.
+- Bước 6: trả lời chưa đủ dữ liệu và xin bảng giá, không đưa ra con số.
+- Bước 7: nêu đúng TPCN và các từ cấm "chữa", "điều trị", "khỏi", "đặc trị".
 
-## Slide 14 · Prompt một dòng và prompt đủ 4 phần
+## Mục 3 · Prompt một dòng và prompt đủ 4 phần (slide 14)
 
-**Chuẩn bị:** tải về [Chính sách giá sỉ](du-lieu-demo/chinh-sach-gia-si-demo.docx) và mở sẵn bằng Word để copy bảng chiết khấu. [Danh sách lead](du-lieu-demo/danh-sach-lead.xlsx) để xem Spa Ngọc Anh là lead L01. Cả hai prompt chạy trong chat mới **ngoài Project**, để thấy khác biệt chỉ do prompt.
+**Cần có:** [Chính sách giá sỉ](du-lieu-demo/chinh-sach-gia-si-demo.docx) mở sẵn bằng Word để copy bảng chiết khấu; [Danh sách lead](du-lieu-demo/danh-sach-lead.xlsx) để chỉ cho lớp Spa Ngọc Anh là lead L01. Cả hai prompt chạy trong chat mới **ngoài Project**, để khác biệt chỉ do prompt. **Tạo ra:** không.
 
 **Các bước**
 
@@ -54,7 +109,7 @@
    Trả lời spa hỏi giá sỉ Elasten.
    ```
    Hỏi lớp: bản này gửi khách được chưa, thiếu gì? Kết quả thật 09/10/2026: không bịa giá, nhưng hỏi lại số lượng, tự thêm "collagen Đức" và emoji, không dùng bảng giá sỉ.
-2. Prompt đủ 4 phần. Thay `[DÁN BẢNG]` bằng bảng chiết khấu copy từ file Chính sách giá sỉ:
+2. Prompt đủ 4 phần. Thay `[DÁN BẢNG]` bằng bảng chiết khấu copy từ file:
    ```
    Bối cảnh: Tôi là nhân viên Sale của Wir Group. Chị Hương, chủ chuỗi Spa Ngọc Anh (3 chi nhánh, TP.HCM),
    muốn nhập thử 20 hộp Elasten mỗi tháng và hỏi bà bầu dùng được không.
@@ -76,9 +131,9 @@
 
 **Đạt khi:** bản 2 nêu đúng các mức chiết khấu trong bảng; số tiền cuối ghi `[CẦN ĐIỀN]`; thai kỳ chỉ nói "không gây rủi ro"; dưới 150 chữ, có lời chào, nội dung, chữ ký, không emoji.
 
-## Slide 16 · Bẫy số liệu: tải file hay dán chữ
+## Mục 4 · Bẫy số liệu: tải file hay dán chữ (slide 16)
 
-**Chuẩn bị:** tải về [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx) và [Đáp án](du-lieu-demo/dap-an.docx). Mở file Excel sẵn để bước 2 copy dữ liệu. Chạy ở model mặc định (Instant); chọn model Thinking có thể tính đúng, càng cho thấy phải đối chiếu chứ không tin mặc định.
+**Cần có:** [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx) mở sẵn bằng Excel; [Đáp án](du-lieu-demo/dap-an.docx). Chạy ở model mặc định; chọn model Thinking có thể tính đúng, càng cho thấy phải đối chiếu chứ không tin mặc định. **Tạo ra:** không.
 
 **Các bước**
 
@@ -124,25 +179,25 @@
 
 **Đạt khi:** bước 3 ra đúng bảng trên; phần nguyên nhân trong báo cáo viết dạng "nghi do…, cần kiểm chứng bằng…".
 
-## Slide 17 · Kiểm chứng đầu ra trong vài phút
+## Mục 5 · Kiểm chứng đầu ra trong vài phút (slide 17)
 
-**Chuẩn bị:** mở lại chat bài Facebook ở slide 10 (trong Project có file). Không cần file mới.
+**Cần có:** chat bài Facebook trong Project ở Mục 2. **Tạo ra:** không.
 
 **Các bước**
 
 1. Bấm chip tên file ngay sau câu ChatGPT trích, xem có mở đúng đoạn không. Câu nào không có chip thì copy câu đó, mở file gốc, Ctrl+F.
-2. Chọn 2–3 con số trong bài, tự đối chiếu với file gốc. Đây là cách bắt được lỗi tính nhẩm ở slide 16.
+2. Chọn 2–3 con số trong bài, tự đối chiếu với file gốc. Đây là cách bắt được lỗi tính nhẩm ở Mục 4.
 3. Thay "Elasten" bằng tên một collagen khác, bài còn đúng thì chưa đủ cụ thể.
 4. Bắt AI tự khai:
    ```
    Chỗ nào bạn tự suy đoán mà tài liệu không nói?
    ```
 
-**Đạt khi:** bước 4 ChatGPT liệt kê từng chỗ, gắn nhãn `[DATA THẬT]` / `[SUY LUẬN]` và chỉ tới mục, dòng trong file. Lưu ý: tự khai chỉ bắt được chỗ nó biết là suy đoán, không bắt được lỗi tính nhẩm, nên bước 2 vẫn bắt buộc.
+**Đạt khi:** bước 4 ChatGPT liệt kê từng chỗ, gắn nhãn `[DATA THẬT]` / `[SUY LUẬN]` và chỉ tới mục, dòng trong file. Tự khai chỉ bắt được chỗ nó biết là suy đoán, không bắt được lỗi tính nhẩm, nên bước 2 vẫn bắt buộc.
 
-## Slide 18 · Thực hành tầng 2: bốn việc trên dữ liệu demo
+## Mục 6 · Thực hành tầng 2: bốn việc trên dữ liệu demo (slide 18)
 
-Mỗi người chọn ít nhất 3 việc, mỗi việc một chat mới, tải file bằng nút **+**. Làm xong mới mở [Đáp án](du-lieu-demo/dap-an.docx), không dán đáp án vào ChatGPT.
+**Cần có:** các file demo. Mỗi người chọn ít nhất 3 việc, mỗi việc một chat mới ngoài Project, tải file bằng nút **+**. Làm xong mới mở [Đáp án](du-lieu-demo/dap-an.docx), không dán đáp án vào ChatGPT. **Tạo ra:** không.
 
 **1. Biên bản họp và bảng đầu việc.** File: [Transcript họp Phòng Kinh doanh](du-lieu-demo/transcript-hop-demo.docx).
 ```
@@ -154,7 +209,7 @@ chỉ dùng thông tin có trong bản ghi.
 ```
 Đạt khi: bắt đúng mục tiêu tháng 8 tăng 20%, hạn nội dung 05/08; 3 việc chưa rõ người ghi `[CẦN ĐIỀN]`.
 
-**2. Báo cáo doanh thu.** File: [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx). Dùng 2 bước ở slide 16, đối chiếu đáp án ở đó.
+**2. Báo cáo doanh thu.** File: [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx). Dùng 2 bước ở Mục 4, đối chiếu đáp án ở đó.
 
 **3. Năm insight có mã bằng chứng.** File: [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx).
 ```
@@ -180,15 +235,15 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
 ```
 Đạt khi: L02 (hỏi Karima), L05 (đòi độc quyền khu vực), L09 (đòi công nợ 45 ngày) chuyển quản lý; L03, L07, L10 hạ độ tin cậy; L04 hỏi Warnke cho mẹ bầu phải nêu chống chỉ định.
 
-**Đạt chung cho cả bài:** prompt đủ 4 phần, kết quả không có số sai, tự kiểm chứng được ít nhất 2 con số hoặc 2 trích dẫn.
+**Đạt chung:** prompt đủ 4 phần, kết quả không có số sai, tự kiểm chứng được ít nhất 2 con số hoặc 2 trích dẫn.
 
-## Slide 23–25 · Tầng 3: năm lượt chat thành một skill
+## Mục 7 · Năm lượt chat thành một skill (slide 23, 24, 25)
 
-**Chuẩn bị:** một tài liệu dài để làm tay và một tài liệu khác để thử skill. Trên lớp dùng tài liệu sản phẩm CH Alpha Plus và hồ sơ Elasten (nội bộ, không kèm). Tự tập ở nhà thì dùng [Transcript họp](du-lieu-demo/transcript-hop-demo.docx) để làm tay và [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx) để thử. Kiểm tra thanh bên → **Plugins** → tab **Skills** có mở được không; tài khoản chưa có tab này thì xem [trang Skill](#skill).
+**Cần có:** thanh bên → **Plugins** → tab **Skills** mở được (tài khoản chưa có tab này thì xem [trang Skill](#skill)); một tài liệu dài để làm tay và một tài liệu khác để thử. Trên lớp dùng tài liệu sản phẩm CH Alpha Plus và `ho-so-elasten.md` do giảng viên phát. Tự tập ở nhà thì dùng [Transcript họp](du-lieu-demo/transcript-hop-demo.docx) để làm tay và [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx) để thử. **Tạo ra:** skill `tom-tat-tai-lieu`, dùng lại ở Mục 9.
 
 **Các bước**
 
-1. Chat mới, tải tài liệu thứ nhất, chạy lần lượt 5 lượt, sau mỗi lượt ghi lên bảng "Lượt N → mục X":
+1. Chat mới trong Project Wir – Marketing, tải tài liệu thứ nhất, chạy lần lượt 5 lượt, sau mỗi lượt ghi lên bảng "Lượt N → mục X":
    - `Tóm tắt giúp tôi tài liệu này.`
    - `Liệt kê theo từng phần của tài liệu.`
    - `Bóc mọi con số, mốc thời gian, cam kết.`
@@ -209,7 +264,7 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
         trích nguyên văn trong ngoặc kép khi cần bằng chứng.
    ```
    ChatGPT hỏi thêm vài câu rồi đề nghị cài skill, bấm cài. Nếu nó chỉ viết ra nội dung SKILL.md mà không có nút cài: thanh bên → Plugins → Skills → Create → Create with editor → dán nội dung đó. Mở Skills → Installed, chỉ cho lớp từng mục khớp với 5 lượt trên bảng.
-3. Phép thử phiên mới: mở chat mới, tải tài liệu thứ hai, gõ đúng một câu:
+3. Phép thử phiên mới: chat mới **ngoài Project**, tải tài liệu thứ hai, gõ đúng một câu:
    ```
    Tóm tắt tài liệu này.
    ```
@@ -221,22 +276,24 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
 
 **Đạt khi:** lượt 4 bắt được cụm "điều trị" trong tài liệu TPCN; bước 3 skill tự chạy, ra đủ 5 mục không cần gọi tên; bước 4 trả lời "Tài liệu không đề cập", không bịa số.
 
-## Slide 30–32 · Tầng 4: plugin có sẵn, task tự động
+## Mục 8 · Plugin có sẵn: Gmail, Drive, task tự động (slide 30, 32)
 
-**Chuẩn bị**
+**Cần có:** tài khoản Google **cá nhân**; [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx). **Tạo ra:** plugin Gmail và Google Drive đã nối, dùng lại ở Mục 9.
 
-1. Đăng xuất tài khoản Google công ty trên trình duyệt. Chỉ dùng Gmail và Google Drive **cá nhân**. Kiểm lại ở Settings → Plugins → Gmail → Connected accounts: thấy địa chỉ công ty thì bấm ••• → gỡ ngay, vì ChatGPT đọc được cả thư lương, hợp đồng trong hộp thư đó.
-2. Tải [Đơn hàng tháng 7](du-lieu-demo/don-hang-demo.xlsx) lên Drive cá nhân, để ở thư mục gốc.
-3. Nối Gmail: thanh bên → **Plugins** → tìm Gmail → Install → Connect → chọn tài khoản cá nhân → đọc hết danh sách quyền Google rồi mới Allow. Nối Google Drive tương tự.
-4. Đặt mức quyền: Settings → **Plugins** → bấm dòng Gmail → mục **Permission** → chọn **Always ask**. Mặc định là Allow low-risk, phải tự đổi. Làm tương tự cho Google Drive.
+**Cài đặt trước (10 phút)**
+
+1. Đăng xuất tài khoản Google công ty trên trình duyệt. Tải file Đơn hàng tháng 7 lên Drive cá nhân, để ở thư mục gốc.
+2. Thanh bên → **Plugins** → tìm **Gmail** → Install → Connect → chọn tài khoản cá nhân → đọc hết danh sách quyền Google rồi mới Allow. Làm tương tự với **Google Drive**.
+3. Settings → **Plugins** → bấm dòng Gmail → Connected accounts phải là địa chỉ cá nhân. Thấy địa chỉ công ty thì ••• → gỡ ngay, vì ChatGPT đọc được cả thư lương, hợp đồng trong hộp thư đó.
+4. Cùng trang → mục **Permission** → chọn **Always ask**. Mặc định là Allow low-risk tools, phải tự đổi. Làm tương tự cho Google Drive.
 
 **Các bước**
 
-1. Kiểm tra đã nối đúng:
+1. Kiểm tra đã nối đúng, chat mới:
    ```
    Đọc tiêu đề 3 thư gần nhất trong hộp thư đến. Chỉ đọc, không trả lời, không xóa.
    ```
-   Đạt khi ra đúng 3 tiêu đề đang thấy trong Gmail. Tiêu đề lạ tức là chưa nối được, ChatGPT đang bịa.
+   Đạt khi ra đúng 3 tiêu đề đang thấy trong Gmail. Tiêu đề lạ tức là chưa nối được, ChatGPT đang bịa. Chạy thử 09/10/2026: đúng 3 tiêu đề, ChatGPT tự nhắc "chỉ đọc, không trả lời hay xóa".
 2. Phân loại và soạn nháp:
    ```
    Đọc 20 thư gần nhất trong hộp thư. Xếp vào 4 nhóm: KHẨN / QUAN TRỌNG / CHỜ / BỎ QUA.
@@ -244,14 +301,14 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
    Sau đó soạn NHÁP trả lời cho thư khẩn nhất. Không gửi.
    Thư nào hỏi về thai kỳ, công dụng chữa bệnh hoặc giá ngoài chính sách thì ghi [CẦN NGƯỜI DUYỆT].
    ```
-   Khi ChatGPT hỏi duyệt, bấm cho phép một lần, **không bấm Always allow**.
+   Khi ChatGPT hỏi duyệt, bấm cho phép một lần, **không bấm Always allow**. Mở Gmail, tìm thư nháp, cho lớp thấy thư chưa gửi.
 3. Đọc và ghi file trên Drive:
    ```
    Trên Drive của tôi có file don-hang-demo.xlsx. Đọc tên các cột và đếm số dòng trước.
    Tổng hợp doanh thu theo sản phẩm và theo kênh.
    Lưu kết quả thành file mới tên tom-tat-don-hang-thang-7 trong cùng thư mục. Không sửa file gốc.
    ```
-   Đáp án: 40 dòng, tổng 147.300.000 đ, Elasten 85.700.000 đ, Đại lý sỉ 106.710.000 đ. Mở Drive cho lớp thấy file mới, file gốc còn nguyên. Chạy thử 09/10/2026 khi Drive chưa có file: ChatGPT tìm theo tên, báo không thấy và xin link, không bịa số. Nếu gặp vậy, dán link chia sẻ của file vào chat.
+   Đáp án: 40 dòng, tổng 147.300.000 đ, Elasten 85.700.000 đ, Đại lý sỉ 106.710.000 đ. Mở Drive cho lớp thấy file mới, file gốc còn nguyên. Chạy thử 09/10/2026 khi Drive chưa có file: ChatGPT tìm theo tên, báo không thấy và xin link, không bịa số. Gặp vậy thì dán link chia sẻ của file vào chat.
 4. Task theo lịch: thanh bên → **Scheduled** → gõ vào ô "Schedule a task":
    ```
    Mỗi thứ Hai lúc 7:00, đọc file đơn hàng tuần mới nhất trong thư mục Báo cáo trên Drive.
@@ -260,18 +317,18 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
    Nếu file thiếu cột hoặc thiếu ngày: KHÔNG phân tích, chỉ báo cho tôi thiếu gì.
    Chỉ tạo thư NHÁP gửi tôi, không gửi cho ai khác.
    ```
-   Task đọc Drive chưa xác minh được trên mọi tài khoản, giảng viên chạy thử trước; không đọc được thì đổi đầu vào thành "thư báo cáo đơn hàng gửi vào Gmail".
-5. Gỡ quyền ngay sau buổi học: vào myaccount.google.com/linkedapps → chọn ChatGPT → Remove access; trong ChatGPT: Settings → Plugins → dòng Gmail, Drive → ngắt kết nối.
+   Task đọc Drive chưa xác minh được trên mọi tài khoản, giảng viên chạy thử trước; không đọc được thì đổi đầu vào thành "thư báo cáo đơn hàng gửi vào Gmail". Demo xong thì xóa task.
+5. Thực hành slide 32, phần 4A: học viên làm lại bước 1 đến 3 trên Gmail và Drive cá nhân của mình. Ai không nối Gmail thì dán 5 thư mẫu bất kỳ vào chat để làm bước 2.
 
-**Đạt khi:** nối đúng tài khoản cá nhân; thư nháp chưa gửi; file gốc trên Drive còn nguyên; đã gỡ quyền.
+**Đạt khi:** nối đúng tài khoản cá nhân; thư nháp chưa gửi; file gốc trên Drive còn nguyên; cuối buổi đã gỡ quyền theo Mục 10.
 
-## Slide 31 · Plugin tự tạo bằng Plugin Creator
+## Mục 9 · Plugin tự tạo bằng Plugin Creator (slide 31)
 
-**Chuẩn bị:** thanh bên → Plugins → tìm **Plugin Creator** → Install. Có sẵn skill `tom-tat-tai-lieu` từ tầng 3. Tải về [Chính sách giá sỉ](du-lieu-demo/chinh-sach-gia-si-demo.docx) làm file tham chiếu.
+**Cần có:** skill `tom-tat-tai-lieu` từ Mục 7, Gmail và Drive từ Mục 8, [Chính sách giá sỉ](du-lieu-demo/chinh-sach-gia-si-demo.docx). Thanh bên → Plugins → tìm **Plugin Creator** → Install. **Tạo ra:** plugin "Sale Wir".
 
 **Các bước**
 
-1. Chat mới, gõ (dấu @ gọi đúng plugin, chọn trong danh sách gợi ý):
+1. Chat mới, gõ @ rồi chọn plugin-creator trong danh sách gợi ý, dán tiếp:
    ```
    @plugin-creator Tôi muốn tạo plugin "Sale Wir" cho đội Sale khách sỉ. Tôi không biết code.
    Hãy phỏng vấn tôi trước, mỗi lần một nhóm câu, đừng tạo ngay:
@@ -285,12 +342,24 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
    mọi thứ gửi khách là nháp, không tự gửi.
    Cuối cùng đề xuất 2 yêu cầu thử nằm ngoài những gì tôi đã kể.
    ```
-   Trả lời phỏng vấn bằng dữ liệu Wir, khi được hỏi file thì tải Chính sách giá sỉ lên.
+   Trả lời phỏng vấn bằng dữ liệu Wir; khi được hỏi file thì tải Chính sách giá sỉ lên; chọn skill `tom-tat-tai-lieu` khi được hỏi gộp skill.
 2. Phép thử, chat mới, không gọi tên plugin hay skill:
    ```
    Anh Bảo, Công ty phân phối Bảo Phát (Hải Phòng), muốn làm đại lý Elasten nhưng đòi độc quyền
    khu vực Hải Phòng. Soạn giúp tôi tin trả lời.
    ```
-3. Viết Playbook 7 mục cho plugin (mục đích, ai dùng, quy trình, tiêu chuẩn đầu ra, ranh giới, chỉ số đo, xử lý khi sai) và đưa một đồng nghiệp chạy thử mà không được hỏi lại.
+3. Thực hành slide 32, phần 4B: viết Playbook 7 mục cho plugin (mục đích, ai dùng, quy trình, tiêu chuẩn đầu ra, ranh giới, chỉ số đo, xử lý khi sai) và đưa một đồng nghiệp chạy thử mà không được hỏi lại.
 
 **Đạt khi:** báo chiết khấu đúng bảng 4 mức, giá nền `[CẦN ĐIỀN]`; phần độc quyền chỉ dùng câu xin ý kiến quản lý, không hứa; cuối bản có dòng "Đây là bản nháp"; đồng nghiệp chạy được không cần hỏi.
+
+## Mục 10 · Dọn dẹp sau buổi học
+
+**Làm ngay tối hôm đó, giảng viên và mọi học viên**
+
+1. Gỡ quyền Google: myaccount.google.com/linkedapps → chọn ChatGPT → Remove access.
+2. Trong ChatGPT: Settings → Plugins → bấm Gmail, Google Drive → ••• cạnh tài khoản → ngắt kết nối, hoặc Uninstall.
+3. Thanh bên → Scheduled → xóa task demo nếu còn.
+4. Giữ lại Project, skill và plugin của phòng để dùng tiếp; xóa Project và skill thử nghiệm không dùng nữa.
+5. Lưu kết quả các bài thực hành thành file, vì đầu ra buổi trước là đầu vào buổi sau.
+
+**Đạt khi:** linkedapps không còn ChatGPT; Settings → Plugins không còn tài khoản Google nào đang nối.
