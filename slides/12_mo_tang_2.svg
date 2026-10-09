@@ -47,12 +47,6 @@
     <text font-size="22" fill="#1F2937" x="566" y="446">Giao việc theo công thức 4 phần: Bối cảnh, Yêu cầu,</text><text font-size="22" fill="#1F2937" x="566" y="474">Tiêu chí, Định dạng</text><circle cx="536" cy="519" r="15" fill="#4A7FB5" />
     <text x="536" y="526" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">2</text>
     <text x="566" y="526" font-size="22" fill="#1F2937">3 kỹ thuật: đưa mẫu, chốt số câu hỏi lại, chia nhiều bước</text>
-    <circle cx="536" cy="567" r="15" fill="#4A7FB5" />
-    <text x="536" y="574" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">3</text>
-    <text x="566" y="574" font-size="22" fill="#1F2937">Phân tích file số liệu mà không để AI bịa</text>
-    <circle cx="536" cy="615" r="15" fill="#4A7FB5" />
-    <text x="536" y="622" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">4</text>
-    <text x="566" y="622" font-size="22" fill="#1F2937">Kiểm chứng đầu ra trước khi dùng</text>
   </g>
 
   <text id="footer-course" data-pptx-role="footer" x="520" y="700" font-size="14" fill="#5B6675">Lộ trình đào tạo AI trên ChatGPT · Wir Group</text>
