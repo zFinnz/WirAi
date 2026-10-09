@@ -315,7 +315,7 @@
    ChatGPT trả lời "Đã thiết lập lịch tự động", task hiện trong Scheduled với dòng "Weekly · Next run in N days". Nó chỉ chạy vào thứ Hai, giảng viên kiểm thư nháp sau lần chạy đầu. Demo xong thì xóa task.
 5. Thực hành slide 29, phần 4A: học viên làm lại bước 1 đến 3 trên Gmail và Drive cá nhân của mình. Ai không nối Gmail thì dán 5 thư mẫu bất kỳ vào chat để làm bước 2.
 
-**Đạt khi:** nối đúng tài khoản cá nhân; thư nháp chưa gửi; hộp Allow once xuất hiện trước khi ghi file; file gốc trên Drive còn nguyên; cuối buổi gỡ quyền Google nếu không dùng tiếp (myaccount.google.com/linkedapps → Remove access, rồi Settings → Plugins → ngắt kết nối) và xóa task demo trong Scheduled.
+**Đạt khi:** nối đúng tài khoản cá nhân; thư nháp chưa gửi; hộp Allow once xuất hiện trước khi ghi file; file gốc trên Drive còn nguyên; demo xong xóa task demo trong Scheduled.
 
 ## Mục 6 · Plugin tự tạo bằng Plugin Creator (slide 28)
 
