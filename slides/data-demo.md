@@ -41,12 +41,12 @@
 | Mục | Slide | Tạo ra | Cần có trước |
 |---|---|---|---|
 | 1 | 5, 9 | Chat "trước khi có gì", Custom Instructions, tắt huấn luyện | Tài khoản trống |
-| 2 | 10, 11 | Project "Wir – Marketing" có Instructions và 2 file hồ sơ | Mục 1, hồ sơ sản phẩm |
+| 2 | 11 | Project "Wir – Marketing" có Instructions và 2 file hồ sơ | Mục 1, hồ sơ sản phẩm |
 | 3 | 14 | Không tạo gì | Chính sách giá sỉ |
 | 4 | 16 | Không tạo gì | Đơn hàng tháng 7 |
 | 5 | 17 | Không tạo gì | Chat bài Facebook ở Mục 2 |
 | 6 | 18 | Không tạo gì | File demo |
-| 7 | 23, 24, 25 | Skill `tom-tat-tai-lieu` (hiện dưới dạng plugin riêng) | Tab Skills, 2 tài liệu |
+| 7 | 25 | Skill `tom-tat-tai-lieu` (hiện dưới dạng plugin riêng) | Tab Skills, 2 tài liệu |
 | 8 | 30, 32 | Plugin Gmail, Drive đã nối tài khoản cá nhân; file demo trên Drive; task theo lịch | Google cá nhân |
 | 9 | 31 | Plugin "Sale Wir" | Mục 7 và 8 |
 
@@ -71,7 +71,7 @@
 
 **Đạt khi:** bước 4 trả lời đúng công ty, nhóm khách, cách xưng hô như đã khai và ghi `[CẦN ĐIỀN]` cho tên nhãn hàng chưa khai (kết quả thật 09/10/2026 đúng như vậy); bước 3 công tắc đã tắt.
 
-## Mục 2 · Tạo Project Marketing, demo có và không có Instructions (slide 10, 11)
+## Mục 2 · Tạo Project Marketing, demo có và không có Instructions (slide 11)
 
 **Cần có:** Mục 1 xong; [Hồ sơ Elasten](du-lieu-demo/ho-so-elasten.md) và [Dữ liệu sản phẩm Wir](du-lieu-demo/du-lieu-san-pham-wir.md) đã tải về. **Tạo ra:** Project "Wir – Marketing" dùng cho Mục 5 và Mục 7.
 
@@ -240,7 +240,7 @@ tin tiếp cận phải trích được chi tiết từ ghi chú của chính le
 
 **Đạt chung:** prompt đủ 4 phần, kết quả không có số sai, tự kiểm chứng được ít nhất 2 con số hoặc 2 trích dẫn.
 
-## Mục 7 · Năm lượt chat thành một skill (slide 23, 24, 25)
+## Mục 7 · Năm lượt chat thành một skill (slide 25)
 
 **Cần có:** thanh bên → **Plugins** → tab **Skills** mở được (tài khoản Plus thử ngày 09/10/2026 có sẵn skill `skill-creator`, chính nó sẽ đóng gói giúp); một tài liệu dài để làm tay và một tài liệu khác để thử. Trên lớp dùng `du-lieu-san-pham-wir.md` đã nằm trong Sources của Project để làm tay, và [Hồ sơ Elasten](du-lieu-demo/ho-so-elasten.md) hoặc một tài liệu bất kỳ để thử. Tự tập ở nhà thì dùng [Transcript họp](du-lieu-demo/transcript-hop-demo.docx) để làm tay và [Review và tin nhắn khách](du-lieu-demo/review-va-tin-nhan-khach.docx) để thử. **Tạo ra:** skill `tom-tat-tai-lieu`, dùng lại ở Mục 9.
 
