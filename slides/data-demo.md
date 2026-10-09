@@ -4,11 +4,16 @@
 
 ## Slide 10–11 · Tầng 1: cùng một câu lệnh, có và không có Instructions
 
-**Chuẩn bị:** một Project "Wir – Marketing" đã dán [mẫu Project instructions](#instructions) và tải hồ sơ sản phẩm của phòng (tài liệu nội bộ, không kèm ở đây).
+**Chuẩn bị: tạo Project của phòng (5 phút, tên menu tra ngày 09/10/2026)**
+
+1. Thanh bên → mục **Projects** → bấm dấu **+** (Add new project) → đặt tên `Wir – Marketing`.
+2. Mở Project, bấm nút **•••** góc phải → **Project settings** → dán [mẫu Project instructions](#instructions) vào ô **Instructions**. Mục Memory để Default, Library access để Enabled.
+3. Tab **Sources** → **Add sources** → tải hồ sơ sản phẩm của phòng (tài liệu nội bộ, không kèm ở đây). Instructions chỉ là luật, file mới là hồ sơ; thiếu file thì ChatGPT không có số liệu.
+4. Gõ vào ô "New chat in Wir – Marketing". Tên Project phải hiện ở đầu khung chat, không thấy tức là đang chat ngoài Project.
 
 **Các bước**
 
-1. Chat mới, ngoài Project:
+1. Chat mới, ngoài Project (bấm New chat ở thanh bên):
    ```
    Viết bài Facebook bán Elasten.
    ```

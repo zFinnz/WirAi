@@ -15,7 +15,7 @@
 | Nơi | Áp dụng cho | Ví như | Nên đặt gì vào | Cách mở |
 |---|---|---|---|---|
 | **Custom Instructions** | Mọi cuộc chat của tài khoản | Danh thiếp của chính mình | Chức danh, cách xưng hô, văn phong, quy tắc chung | Settings → Personalization → Custom instructions |
-| **Project instructions** | Chỉ các chat nằm trong Project đó | Hồ sơ nhập môn của phòng | Đơn vị, sản phẩm, thuật ngữ, luật riêng, kèm file tham chiếu | Thanh bên → New project. Instructions: ••• → Project settings. Files: thêm vào phần nguồn (sources) của Project |
+| **Project instructions** | Chỉ các chat nằm trong Project đó | Hồ sơ nhập môn của phòng | Đơn vị, sản phẩm, thuật ngữ, luật riêng, kèm file tham chiếu | Thanh bên → Projects → dấu + (Add new project). Instructions: ••• → Project settings. File: tab Sources → Add sources |
 | **Memory** | ChatGPT tự ghi lại qua các cuộc chat | Sổ giao ca | Thói quen nhỏ, ví dụ "thích báo cáo dạng bảng" | Settings → Personalization → Memory → Manage (hoặc Saved memories) |
 
 #### Chi tiết cần biết
@@ -129,7 +129,7 @@ Custom Instructions chỉ làm ChatGPT biết mình là ai và trả lời đún
 
 ### Project instructions cho phòng Marketing
 
-Tạo Project "Wir – Marketing" → Project settings → dán mẫu → Save. Rồi bấm **Files** (Add files) trong Project và tải file dữ liệu sản phẩm Wir và hồ sơ sản phẩm. Instructions chỉ là luật; file mới là hồ sơ, thiếu file thì ChatGPT không có số liệu. Không dán khối này vào Custom instructions. Mở chat mới từ trong Project, tắt web search, chọn model Thinking. Mục 0 bắt ChatGPT in luật trước khi viết và tự rà sau khi viết: không thấy 3 dòng đầu bài tức là Instructions chưa nạp.
+Thanh bên → Projects → dấu + → đặt tên "Wir – Marketing". Mở Project → ••• → Project settings → dán mẫu vào ô Instructions. Rồi vào tab **Sources** → Add sources, tải file dữ liệu sản phẩm Wir và hồ sơ sản phẩm. Instructions chỉ là luật; file mới là hồ sơ, thiếu file thì ChatGPT không có số liệu. Không dán khối này vào Custom instructions. Mở chat mới từ trong Project, tắt web search, chọn model Thinking. Mục 0 bắt ChatGPT in luật trước khi viết và tự rà sau khi viết: không thấy 3 dòng đầu bài tức là Instructions chưa nạp.
 
 ```text title="Project instructions · Marketing"
 ## 0. LUẬT CỨNG (áp dụng trước mọi luật khác)
@@ -176,7 +176,7 @@ mọi đầu ra là nháp, tôi là người duyệt cuối. Nội dung về tha
 
 ### Project instructions cho phòng Kinh doanh (khách sỉ)
 
-Tạo Project "Wir – Kinh doanh sỉ" → Project settings → dán mẫu → Save. Bấm **Files** trong Project, tải file dữ liệu sản phẩm Wir và chính sách giá sỉ. Mở chat mới từ trong Project, tắt web search.
+Thanh bên → Projects → dấu + → đặt tên "Wir – Kinh doanh sỉ". Mở Project → ••• → Project settings → dán mẫu vào ô Instructions. Tab **Sources** → Add sources, tải file dữ liệu sản phẩm Wir và chính sách giá sỉ. Mở chat mới từ trong Project, tắt web search.
 
 ```text title="Project instructions · Kinh doanh sỉ"
 ## 0. LUẬT CỨNG (áp dụng trước mọi luật khác)

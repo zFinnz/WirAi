@@ -53,7 +53,7 @@
     <text x="472" y="400" font-size="22" fill="#1F2937">Hồ sơ nhập môn của phòng</text>
     <text x="472" y="442" font-size="16" font-weight="bold" letter-spacing="1" fill="#5B6675">ĐẶT GÌ VÀO</text>
     <text font-size="22" fill="#1F2937" x="472" y="470">Đơn vị, sản phẩm, thuật ngữ,</text><text font-size="22" fill="#1F2937" x="472" y="498">luật riêng + file tham chiếu</text><line x1="472" y1="522" x2="808" y2="522" stroke="#D8E0EA" stroke-width="1" />
-    <text font-size="16" fill="#5B6675" x="472" y="550">New project → ••• →</text><text font-size="16" fill="#5B6675" x="472" y="572">Project settings</text></g>
+    <text font-size="16" fill="#5B6675" x="472" y="550">Projects + → ••• → Project settings</text><text font-size="16" fill="#5B6675" x="472" y="572">File: tab Sources → Add sources</text></g>
 
   <g id="card-memory" data-pptx-bounds="856 222 384 368">
     <rect x="856" y="222" width="384" height="368" rx="16" fill="#FFFFFF" stroke="#D8E0EA" stroke-width="1.5" />
